@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "version": "0.1.0",
+  "sourceFilesUnchanged": 41,
+  "retainedCopies": 40,
+  "e2eChecks": 442,
+  "screenshots": 33,
+  "storeScreenshots": 6,
+  "secretHits": 0,
+  "gameBundleSHA256": "620f911a0a180bc1db248edc0cc1cf5c6d7663c671542c15b701856cd2634f02",
+  "gameBundleMatchesMeasuredBuild": true,
+  "packagedCreditsMatchSource": true,
+  "scope": "Local-only; native, beta and art-color gates remain disclosed."
+}

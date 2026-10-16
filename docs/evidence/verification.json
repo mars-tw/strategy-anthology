@@ -1,0 +1,35 @@
+{
+  "status": "VERIFIED",
+  "version": "0.1.0",
+  "checks": [
+    {
+      "name": "unit",
+      "command": "npm test",
+      "exitCode": 0,
+      "elapsedMs": 1035,
+      "error": null
+    },
+    {
+      "name": "build",
+      "command": "npm run build",
+      "exitCode": 0,
+      "elapsedMs": 298,
+      "error": null
+    },
+    {
+      "name": "e2e",
+      "command": "npm run test:e2e",
+      "exitCode": 0,
+      "elapsedMs": 67854,
+      "error": null
+    },
+    {
+      "name": "audit",
+      "command": "npm exec -- node scripts/audit.mjs",
+      "exitCode": 0,
+      "elapsedMs": 1382,
+      "error": null
+    }
+  ],
+  "scope": "Local web implementation only; no push, deployment, store action, native binary or human beta."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "trine-frontier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node vendor/tower-defense/scripts/test-rules.js && vitest run --no-file-parallelism",
+    "test:e2e": "node scripts/e2e.mjs",
+    "test:perf": "node scripts/perf.mjs",
+    "verify": "npm test && npm run build && npm run test:e2e && node scripts/audit.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "vitest": "4.1.11",
+    "playwright": "1.61.1"
+  }
+}

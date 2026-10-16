@@ -1,0 +1,322 @@
+{
+  "status": "EXECUTED",
+  "method": "Headless Chromium; public UI commands; virtual browser clock for campaign duration, no game-state or reward injection.",
+  "checks": [
+    "cold iPad: no page overflow",
+    "cold iPad: 戰役 >=44 and reachable",
+    "cold iPad: 設定 >=44 and reachable",
+    "cold iPad: 接下塔印，守住松林 >=44 and reachable",
+    "cold iPad: 存檔與原作匯入 >=44 and reachable",
+    "opening immediately enters first defense",
+    "one new wallet starts at 360",
+    "cannon: cancel does not spend",
+    "frost: cancel does not spend",
+    "tesla: cancel does not spend",
+    "three native towers cost exactly 300",
+    "iPad defense: no page overflow",
+    "iPad defense: 戰報 >=44 and reachable",
+    "iPad defense: 暫停 >=44 and reachable",
+    "iPad defense: 火火印塔100 結晶 >=44 and reachable",
+    "iPad defense: 冰冰印塔70 結晶 >=44 and reachable",
+    "iPad defense: 雷雷印塔130 結晶 >=44 and reachable",
+    "iPad defense: 建議塔位 >=44 and reachable",
+    "iPad defense: 確認建造 >=44 and reachable",
+    "iPad defense: 取消 >=44 and reachable",
+    "iPad defense: 開始下一波 >=44 and reachable",
+    "iPad defense: 共鳴震擊 · 20 >=44 and reachable",
+    "reload retains three towers and mid-wave checkpoint",
+    "first defense wins by normal play",
+    "shared progression unlocks mage and chapter two",
+    "iPad siege: no page overflow",
+    "iPad siege: 戰報 >=44 and reachable",
+    "iPad siege: 暫停 >=44 and reachable",
+    "iPad siege: 衛士35 結晶 >=44 and reachable",
+    "iPad siege: 弓手50 結晶 >=44 and reachable",
+    "iPad siege: 三相術士65 結晶 >=44 and reachable",
+    "iPad siege: 建立兵營 · 60 >=44 and reachable",
+    "iPad siege: 雙線軍令 >=44 and reachable",
+    "iPad siege: 全軍攻向據點 >=44 and reachable",
+    "iPad siege: 共鳴震擊 · 20 >=44 and reachable",
+    "same wallet reaches siege",
+    "iPad dual orders: no page overflow",
+    "iPad dual orders: 執行兩線軍令 >=44 and reachable",
+    "iPad dual orders: 取消 >=44 and reachable"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2
+    }
+  ],
+  "rwd": [
+    {
+      "label": "cold iPad",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 902,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 964,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 727,
+          "y": 825.390625,
+          "width": 272,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 727,
+          "y": 889.390625,
+          "width": 272,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 902,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 964,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火火印塔100 結晶",
+          "x": 727,
+          "y": 695.03125,
+          "width": 86,
+          "height": 85.75,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰冰印塔70 結晶",
+          "x": 820,
+          "y": 695.03125,
+          "width": 86,
+          "height": 85.75,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷雷印塔130 結晶",
+          "x": 913,
+          "y": 695.03125,
+          "width": 86,
+          "height": 85.75,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 727,
+          "y": 794.78125,
+          "width": 85.234375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 818.234375,
+          "y": 794.78125,
+          "width": 106.5625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 930.796875,
+          "y": 794.78125,
+          "width": 68.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 727,
+          "y": 854.78125,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 867,
+          "y": 854.78125,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 902,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 964,
+          "y": 18,
+          "width": 54,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 727,
+          "y": 705.09375,
+          "width": 86,
+          "height": 66,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 820,
+          "y": 705.09375,
+          "width": 86,
+          "height": 66,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 913,
+          "y": 705.09375,
+          "width": 86,
+          "height": 66,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建立兵營 · 60",
+          "x": 727,
+          "y": 785.09375,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 867,
+          "y": 785.09375,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 727,
+          "y": 845.09375,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 867,
+          "y": 845.09375,
+          "width": 132,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 263,
+          "y": 802.09375,
+          "width": 249,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 520,
+          "y": 802.09375,
+          "width": 249,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "firstDefense": {
+    "time": 35,
+    "crystals": 244,
+    "hp": 100
+  },
+  "failure": "AssertionError [ERR_ASSERTION]: source dual orders do not advance simulation\n    at check (file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/strategy-anthology/scripts/e2e.mjs:9:35)\n    at file:///C:/Users/digimkt/Desktop/%E9%81%8A%E6%88%B2/strategy-anthology/scripts/e2e.mjs:31:221"
+}

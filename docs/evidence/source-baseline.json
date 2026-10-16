@@ -1,0 +1,303 @@
+{
+  "repos": [
+    {
+      "repo": "tower-defense",
+      "head": "8ab9df0862b2f49b9b3561127af62e78d96f3572",
+      "status": " M .github/workflows/ci.yml\n M docs/evidence/R68/after-desktop-1366x600-full-map.png\n M docs/evidence/R68/after-landscape-844x390-full-map.png\n M docs/evidence/R68/after-mobile-390x844-full-map.png\n M docs/evidence/R68/map-visibility-measurements.json\n M docs/evidence/R68/performance-gate.txt\n M docs/evidence/R71_menu/desktop-1366x600-tutorial.png\n M docs/evidence/R71_menu/mobile-390x844-advisor.png\n M docs/evidence/R71_menu/mobile-390x844-tutorial.png\n M docs/evidence/R71_menu/modal-interlock-measurements.json\n?? docs/R78-optimization-report.md\n?? docs/R79-optimization-report.md\n?? docs/R80-map-redesign-report.md\n?? docs/R81-experience-report.md\n?? docs/R82-content-report.md\n?? docs/R83-mobile-build-report.md\n?? docs/R84-touch-controls-report.md\n?? docs/evidence/R71_menu/390x844-r76-enemy-detail.png\n?? docs/evidence/R71_menu/landscape-844x390-drawer-intel.png\n?? docs/evidence/R71_menu/landscape-844x390-overlay.png\n?? docs/evidence/R71_menu/landscape-844x390-r76-enemy-detail.png\n?? docs/evidence/R80/art/bridge-packaging.json\n?? docs/evidence/R80/art/master-manifest.json\n?? docs/evidence/R80/art/prompts/canyon.txt\n?? docs/evidence/R80/art/prompts/lava-edit.txt\n?? docs/evidence/R80/art/prompts/lava-shore-edit.txt\n?? docs/evidence/R80/art/prompts/lava.txt\n?? docs/evidence/R80/art/prompts/plains-clearance-edit.txt\n?? docs/evidence/R80/art/prompts/plains-edit.txt\n?? docs/evidence/R80/art/prompts/plains.txt\n?? docs/evidence/R80/art/prompts/stone-bridge.txt\n?? scripts/audit-oc-r1.js\n?? scripts/benchmark-r81-navigation.js\n?? scripts/sim-map-openings.js\n?? scripts/test-r78-playtest.js\n?? scripts/test-r78-presentation.js\n?? scripts/test-r79-playtest.js\n?? scripts/test-r80-maps.js\n?? scripts/test-r80-playtest.js\n?? scripts/test-r81-navigation-equivalence.js\n?? scripts/test-r81-player.js\n"
+    },
+    {
+      "repo": "village-siege",
+      "head": "02ebe845e4fd30bebe00febd239e952a3246ee80",
+      "status": ""
+    }
+  ],
+  "files": [
+    {
+      "repo": "tower-defense",
+      "source": "src/config.js",
+      "path": "vendor/tower-defense/src/config.js",
+      "sha256": "4754ac333f2202b94afa0c6262f5da1c5a95d2b7a056931c9200103f489d53aa",
+      "bytes": 39327
+    },
+    {
+      "repo": "tower-defense",
+      "source": "src/rules.js",
+      "path": "vendor/tower-defense/src/rules.js",
+      "sha256": "f9e1eab4e471098dae80df1c6179a6a83969fda0842885f62425f7de93283341",
+      "bytes": 83937
+    },
+    {
+      "repo": "tower-defense",
+      "source": "scripts/test-rules.js",
+      "path": "vendor/tower-defense/scripts/test-rules.js",
+      "sha256": "6a072104a476372301c1c5730b1a89052802e86b04461af7364094880a40e139",
+      "bytes": 28975
+    },
+    {
+      "repo": "tower-defense",
+      "source": "scripts/test-config.js",
+      "path": "vendor/tower-defense/scripts/test-config.js",
+      "sha256": "7421c7804ab083a2271cc5f59606c94aa5386a2abacf5979e1ad824be421ec16",
+      "bytes": 27960
+    },
+    {
+      "repo": "tower-defense",
+      "source": "LICENSE",
+      "path": "vendor/tower-defense/LICENSE",
+      "sha256": "e2a8685359c3723efce48bc0bf0e9a42e1548b4803d9c1579094baa01b04a705",
+      "bytes": 1073
+    },
+    {
+      "repo": "village-siege",
+      "source": "packages/shared/src/combat.ts",
+      "path": "vendor/village-siege/combat.ts",
+      "sha256": "18e0952c6bd983fc9a6b8e8ebec95cb1750760a6e3e1d69af201653a92b0c994",
+      "bytes": 32469
+    },
+    {
+      "repo": "village-siege",
+      "source": "packages/shared/src/combat.test.ts",
+      "path": "vendor/village-siege/combat.test.ts",
+      "sha256": "9d0a8172b7d9fc40f2217953c18c55217a6950c69d567e10224eaf693cb1b23c",
+      "bytes": 6101
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/src/game/fieldOrders.ts",
+      "path": "vendor/village-siege/fieldOrders.ts",
+      "sha256": "a9bee3aeb6645b80827334facf2ffce8b7e43dc55bf626cbfc1e9c9ff3c388cc",
+      "bytes": 2295
+    },
+    {
+      "repo": "village-siege",
+      "source": "LICENSE",
+      "path": "vendor/village-siege/LICENSE",
+      "sha256": "c08826b23e86b6e2fd7de92be8b39e3776eb72a0c1462931c64a5470e56ea7cc",
+      "bytes": 1083
+    },
+    {
+      "repo": "village-siege",
+      "source": "assets/ATTRIBUTION.md",
+      "path": "vendor/village-siege/ATTRIBUTION.md",
+      "sha256": "3021a436d9ad3a7cb6b9e0e0f153dfae86b758b25355b927cb6d9d01f7660370",
+      "bytes": 12722
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/buildings.webp",
+      "path": "public/assets/buildings.webp",
+      "sha256": "1ba44d5eb6d0fc01f92fe3861f46a8e54db9504763ceef808d8fc796cf5c41b8",
+      "bytes": 1263750
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/landscape/materials.webp",
+      "path": "public/assets/materials.webp",
+      "sha256": "7de3bc4b3a8d05e0a29b6ab3628dbbd603f37a6f7213fd63dca36c2ae247e0ac",
+      "bytes": 653090
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/landscape/nature.webp",
+      "path": "public/assets/nature.webp",
+      "sha256": "1fe934b65624d085cfec2edd0d3ccf92fcd1b3c51b1942b80b24edcd6a44e812",
+      "bytes": 508776
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/e.png",
+      "path": "public/assets/warrior-e.png",
+      "sha256": "de5fd43debcc2bf5eefce22a8d90d81f68662a594cb31589b6dee6cc5bf87991",
+      "bytes": 35692
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/ne.png",
+      "path": "public/assets/warrior-ne.png",
+      "sha256": "0b2456360d33fced354f9aad7d7cfc6dff053eb1957d44b5e72211f371edfbef",
+      "bytes": 44308
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/nw.png",
+      "path": "public/assets/warrior-nw.png",
+      "sha256": "c810fc9ff8ca6f97feeb9b81a2731c6a5fb4beed76383b832652a197e57b5019",
+      "bytes": 44919
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/w.png",
+      "path": "public/assets/warrior-w.png",
+      "sha256": "e16a29eb35af561a70edc1c5c6390fbcd37aa25095389855d47dc3b949f14c31",
+      "bytes": 41759
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/sw.png",
+      "path": "public/assets/warrior-sw.png",
+      "sha256": "a2809a0213292362f4c7109cc83f0ff884e288245f15b5621d05629a3d884a31",
+      "bytes": 48940
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/se.png",
+      "path": "public/assets/warrior-se.png",
+      "sha256": "f0a9c717d9d3d1b79dd152901301478d13a8cc572459d6caf2d033c9aa9fab64",
+      "bytes": 44638
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/e.png",
+      "path": "public/assets/archer-e.png",
+      "sha256": "645e2ef1a14d8d18c4b4e3e9a5dba5df52fb2fa21d7aa9df4613b8d9bddd8001",
+      "bytes": 47246
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/ne.png",
+      "path": "public/assets/archer-ne.png",
+      "sha256": "7434f59a7823816646055d04c6fc10154b9464c0f9606d50c83aed72605299e5",
+      "bytes": 47890
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/nw.png",
+      "path": "public/assets/archer-nw.png",
+      "sha256": "950bfd419ad7445151b0b171cf4d4f77c2adec700a89e072d5e50aa507eed652",
+      "bytes": 47764
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/w.png",
+      "path": "public/assets/archer-w.png",
+      "sha256": "a0e20fd27446afaeec5419f3245dfcb0fc9d21bc118405fb96dc2edc5b2a4351",
+      "bytes": 48928
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/sw.png",
+      "path": "public/assets/archer-sw.png",
+      "sha256": "06a9409b8c5f80fcc3bdfcc79a6248fb01071349a46b4e54b327a12eca305785",
+      "bytes": 49797
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/se.png",
+      "path": "public/assets/archer-se.png",
+      "sha256": "0e69142f3c08cf3ffd1bde94b30b451e5b592a265eb89001a622c666838d341d",
+      "bytes": 47804
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/e.png",
+      "path": "public/assets/villager-e.png",
+      "sha256": "95df560570a78779c768c28cc2114752d1204384adb8acfdfa250ee7e92549f2",
+      "bytes": 37683
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/ne.png",
+      "path": "public/assets/villager-ne.png",
+      "sha256": "739b92fec32c1f892120ec72ab119076fbbd7635c018f8f905f3a586b007df82",
+      "bytes": 43824
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/nw.png",
+      "path": "public/assets/villager-nw.png",
+      "sha256": "db680cb87d76d8145c4ccf715cc04d9a399469ea95382251d86d70b1a338d652",
+      "bytes": 42264
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/w.png",
+      "path": "public/assets/villager-w.png",
+      "sha256": "9b5ef6a16e176dd322026cf8b90dfae9cfb6bbfbc7707d2af37b012877e94a79",
+      "bytes": 40694
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/sw.png",
+      "path": "public/assets/villager-sw.png",
+      "sha256": "11d041372a24b9fc6a9995d7edc0f93f86b3cb761aa5c0d4db5d3aab240a1981",
+      "bytes": 45956
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/se.png",
+      "path": "public/assets/villager-se.png",
+      "sha256": "3f9a1939e3e95a3336043db16a21b5d102c2a0a02bb9600a431018487e18571b",
+      "bytes": 43984
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/e.png",
+      "path": "public/assets/shieldBearer-e.png",
+      "sha256": "f70cdfdd9b3a6dca566962ab952a8342324e33f4bc27c3ffd2977449770f7fd3",
+      "bytes": 51714
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/ne.png",
+      "path": "public/assets/shieldBearer-ne.png",
+      "sha256": "ca9593285b3cbca5930426d30e1392d75662470adac8cc6d28ee76364ea17991",
+      "bytes": 56766
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/nw.png",
+      "path": "public/assets/shieldBearer-nw.png",
+      "sha256": "3db626bd6e1d5fb97d22b4f83923e98832787b66e3f647d1798a27a7bbe935ab",
+      "bytes": 57804
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/w.png",
+      "path": "public/assets/shieldBearer-w.png",
+      "sha256": "185e1103e9ceab2fdef4362c13679eb551461f9f99beda14be9cd00353cd229d",
+      "bytes": 50940
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/sw.png",
+      "path": "public/assets/shieldBearer-sw.png",
+      "sha256": "238187fc9dacc0eb646cce73367f6270a4b52850744188c70b0e2034c07a338c",
+      "bytes": 53954
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/se.png",
+      "path": "public/assets/shieldBearer-se.png",
+      "sha256": "aa275f1f15ad2fd42691e4376c9b75a51d6965114bec28d637eddb97a674af13",
+      "bytes": 57547
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/characters/mage/action-sheet.png",
+      "path": "public/assets/mage.png",
+      "sha256": "3a813200018f635ae57a7930236933b5fd3021345b5aeea73415cd0a1f79a002",
+      "bytes": 297759
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/monsters/miremaw/action-sheet.png",
+      "path": "public/assets/miremaw.png",
+      "sha256": "ec558b2ecdc37c26bf0816f91c4a919c7c09db01eb58b028b32c198afdcfcdfb",
+      "bytes": 436651
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/monsters/ashwing/action-sheet.png",
+      "path": "public/assets/ashwing.png",
+      "sha256": "3abc28fdd63e0c6d2f7213b442607a90e520081368d782f84464ddd11169959b",
+      "bytes": 319530
+    },
+    {
+      "repo": "village-siege",
+      "source": "apps/client/public/assets/original/frontier/monsters/rootback/action-sheet.png",
+      "path": "public/assets/rootback.png",
+      "sha256": "ad6c3f3a87cba500fad2a0745283d6d13f1a6526c37bfb2ed7ec26a2cc729397",
+      "bytes": 295652
+    }
+  ]
+}

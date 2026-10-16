@@ -1,0 +1,1239 @@
+{
+  "status": "EXECUTED",
+  "method": "Original sprite pixels only; alpha>128, gamma-encoded RGB luma and HSV; not a human head/face or three-view approval.",
+  "animationContract": true,
+  "files": [
+    {
+      "path": "public/assets/archer-e.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.2495770992328012,
+        "nearBlackRatio": 0.058948718696247925,
+        "meanSaturation": 0.494813450223725,
+        "lowSaturationRatio": 0.0048978163901927056
+      }
+    },
+    {
+      "path": "public/assets/archer-ne.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28429698908347173,
+        "nearBlackRatio": 0.06972354512719248,
+        "meanSaturation": 0.5029646178953673,
+        "lowSaturationRatio": 0.010570333372052503
+      }
+    },
+    {
+      "path": "public/assets/archer-nw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28050922682322027,
+        "nearBlackRatio": 0.058450214443027705,
+        "meanSaturation": 0.5004529166106275,
+        "lowSaturationRatio": 0.010982960472933812
+      }
+    },
+    {
+      "path": "public/assets/archer-se.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.3093274538109646,
+        "nearBlackRatio": 0.03895993179880648,
+        "meanSaturation": 0.4769622401688357,
+        "lowSaturationRatio": 0.018783745382210854
+      }
+    },
+    {
+      "path": "public/assets/archer-sw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.27447130655735813,
+        "nearBlackRatio": 0.062763854005237,
+        "meanSaturation": 0.5195586092425202,
+        "lowSaturationRatio": 0.011115267461123284
+      }
+    },
+    {
+      "path": "public/assets/archer-w.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.27822132566189234,
+        "nearBlackRatio": 0.0676333911875035,
+        "meanSaturation": 0.4817227796680215,
+        "lowSaturationRatio": 0.021751301718828733
+      }
+    },
+    {
+      "path": "public/assets/ashwing.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "frame": [
+        256,
+        256
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.2950699179098376,
+        "nearBlackRatio": 0.00811680895194179,
+        "meanSaturation": 0.5275404856214042,
+        "lowSaturationRatio": 0.0021319948466638847
+      }
+    },
+    {
+      "path": "public/assets/mage.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "frame": [
+        256,
+        256
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.32474282366874896,
+        "nearBlackRatio": 0.0968099869600067,
+        "meanSaturation": 0.5590016126101296,
+        "lowSaturationRatio": 0.04123748340092596
+      }
+    },
+    {
+      "path": "public/assets/miremaw.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "frame": [
+        256,
+        256
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.33348689150505195,
+        "nearBlackRatio": 0.006518821790060275,
+        "meanSaturation": 0.43470874080475463,
+        "lowSaturationRatio": 0.005777322870465142
+      }
+    },
+    {
+      "path": "public/assets/rootback.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "frame": [
+        256,
+        256
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.30796171085048873,
+        "nearBlackRatio": 0.026118446468738378,
+        "meanSaturation": 0.4796868844416119,
+        "lowSaturationRatio": 0.0016680567139282735
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-e.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28378633065644027,
+        "nearBlackRatio": 0.027176189420257717,
+        "meanSaturation": 0.4259409518996782,
+        "lowSaturationRatio": 0.1229457708133146
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-ne.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.2835369644862252,
+        "nearBlackRatio": 0.0667228767404234,
+        "meanSaturation": 0.5111366441075293,
+        "lowSaturationRatio": 0.03550349793769797
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-nw.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28953174274401183,
+        "nearBlackRatio": 0.04085518912836493,
+        "meanSaturation": 0.4457055557305074,
+        "lowSaturationRatio": 0.11360685536224358
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-se.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.2759107424313343,
+        "nearBlackRatio": 0.05250792384245406,
+        "meanSaturation": 0.48130913716708507,
+        "lowSaturationRatio": 0.11802646452556687
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-sw.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.30186772472788004,
+        "nearBlackRatio": 0.06236106512793833,
+        "meanSaturation": 0.4792436777368706,
+        "lowSaturationRatio": 0.18048526699143924
+      }
+    },
+    {
+      "path": "public/assets/shieldBearer-w.png",
+      "size": [
+        448,
+        672
+      ],
+      "frame": [
+        112,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.2843187255586251,
+        "nearBlackRatio": 0.054392262438927114,
+        "meanSaturation": 0.4878640474055766,
+        "lowSaturationRatio": 0.1088343802971383
+      }
+    },
+    {
+      "path": "public/assets/villager-e.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.3199798481432789,
+        "nearBlackRatio": 0.04000560498843971,
+        "meanSaturation": 0.5498163368602753,
+        "lowSaturationRatio": 0.005710081972955931
+      }
+    },
+    {
+      "path": "public/assets/villager-ne.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.3406508465083212,
+        "nearBlackRatio": 0.011777685014013954,
+        "meanSaturation": 0.47756202807524534,
+        "lowSaturationRatio": 0.012582741964338959
+      }
+    },
+    {
+      "path": "public/assets/villager-nw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.32858535560543023,
+        "nearBlackRatio": 0.006665661287890212,
+        "meanSaturation": 0.5164710599740324,
+        "lowSaturationRatio": 0.014055195294827327
+      }
+    },
+    {
+      "path": "public/assets/villager-se.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.36993296870511944,
+        "nearBlackRatio": 0.006709246454939646,
+        "meanSaturation": 0.5207296859658838,
+        "lowSaturationRatio": 0.015117778038204617
+      }
+    },
+    {
+      "path": "public/assets/villager-sw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.37908235771759274,
+        "nearBlackRatio": 0.016656933900614554,
+        "meanSaturation": 0.5307264364935097,
+        "lowSaturationRatio": 0.03158977781485498
+      }
+    },
+    {
+      "path": "public/assets/villager-w.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.3546047520493985,
+        "nearBlackRatio": 0.014308527626956244,
+        "meanSaturation": 0.5238526823784498,
+        "lowSaturationRatio": 0.051069945704247846
+      }
+    },
+    {
+      "path": "public/assets/warrior-e.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.27107808911722026,
+        "nearBlackRatio": 0.029548869283815542,
+        "meanSaturation": 0.45167509527898037,
+        "lowSaturationRatio": 0.16465693261933198
+      }
+    },
+    {
+      "path": "public/assets/warrior-ne.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.26385176809678607,
+        "nearBlackRatio": 0.02885209258551219,
+        "meanSaturation": 0.3960759720747494,
+        "lowSaturationRatio": 0.17849475015440722
+      }
+    },
+    {
+      "path": "public/assets/warrior-nw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.26402356546784883,
+        "nearBlackRatio": 0.0442655333413145,
+        "meanSaturation": 0.42345888669996756,
+        "lowSaturationRatio": 0.15359750987669102
+      }
+    },
+    {
+      "path": "public/assets/warrior-se.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28764458666404596,
+        "nearBlackRatio": 0.023568722217249916,
+        "meanSaturation": 0.40783530689850084,
+        "lowSaturationRatio": 0.17458754736119814
+      }
+    },
+    {
+      "path": "public/assets/warrior-sw.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.28283774907181336,
+        "nearBlackRatio": 0.03057524757833216,
+        "meanSaturation": 0.43019040681873655,
+        "lowSaturationRatio": 0.15780074679365766
+      }
+    },
+    {
+      "path": "public/assets/warrior-w.png",
+      "size": [
+        384,
+        672
+      ],
+      "frame": [
+        96,
+        112
+      ],
+      "poses": [
+        {
+          "row": 0,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 1,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 2,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 3,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 4,
+          "uniqueFrames": 4
+        },
+        {
+          "row": 5,
+          "uniqueFrames": 4
+        }
+      ],
+      "allRowsHaveFourDistinctPoses": true,
+      "paletteReference": {
+        "meanLuminance": 0.27680348393077264,
+        "nearBlackRatio": 0.039497066219614414,
+        "meanSaturation": 0.4548725961356773,
+        "lowSaturationRatio": 0.12234702430846606
+      }
+    }
+  ]
+}

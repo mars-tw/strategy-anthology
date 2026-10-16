@@ -1,0 +1,48 @@
+{
+  "status": "VERIFIED",
+  "method": "normal public engine commands, fixed 1/30-second simulation steps, no victory or currency injection",
+  "results": [
+    {
+      "chapter": 0,
+      "result": "won",
+      "hp": 100,
+      "time": 33.40000000000067,
+      "crystals": 64
+    },
+    {
+      "chapter": 1,
+      "result": "won",
+      "hp": 100,
+      "time": 57.96666666666594,
+      "crystals": 54
+    },
+    {
+      "chapter": 2,
+      "result": "won",
+      "hp": 100,
+      "time": 63.76666666666561,
+      "crystals": 186
+    },
+    {
+      "chapter": 3,
+      "result": "won",
+      "hp": 100,
+      "time": 44.53333333333337,
+      "crystals": 17
+    },
+    {
+      "chapter": 4,
+      "result": "won",
+      "hp": 64,
+      "time": 112.83333333332949,
+      "crystals": 229
+    },
+    {
+      "chapter": 5,
+      "result": "won",
+      "hp": 100,
+      "time": 45.866666666666625,
+      "crystals": 15
+    }
+  ]
+}
