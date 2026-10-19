@@ -2,3 +2,20 @@
 vendor/** -text whitespace=cr-at-eol
 *.png binary
 *.webp binary
+# Preserve hash-bound atlas metadata bytes across Windows checkouts.
+public/assets/r4/actor-frames.json -text whitespace=cr-at-eol
+# R5 generated metadata and audit receipts are verified byte for byte.
+public/assets/r5/*.json -text whitespace=cr-at-eol
+docs/art/r5/** -text whitespace=cr-at-eol
+# R6 frame maps and hash-bound receipts must survive checkout byte for byte.
+public/assets/r6/*.json -text whitespace=cr-at-eol
+docs/art/r6/** -text whitespace=cr-at-eol
+docs/art/*_R6.json -text whitespace=cr-at-eol
+docs/art/compare/r6/** -text whitespace=cr-at-eol
+docs/evidence/art-r6-release.json -text whitespace=cr-at-eol
+# R7 generated frame maps and evidence are hash-bound, including archive receipts.
+public/assets/r7/*.json -text whitespace=cr-at-eol
+docs/art/r7/** -text whitespace=cr-at-eol
+docs/art/*_R7.json -text whitespace=cr-at-eol
+docs/art/compare/r7/** -text whitespace=cr-at-eol
+docs/evidence/art-r7-release.json -text whitespace=cr-at-eol

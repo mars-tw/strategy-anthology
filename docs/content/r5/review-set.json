@@ -1,0 +1,315 @@
+{
+  "status": "VERIFIED",
+  "method": "Copy original gameplay PNGs. Five additional portrait two-column evidence sheets display every source at exactly 430x932 physical pixels (215x466 CSS pixels at DPR2), without pixel resampling, cropping, retouching or fabricated gameplay. Sheets are explicitly comparisons, not a single game screen.",
+  "sheets": [
+    {
+      "path": "docs/content/r5/phone-ford-crystals-three-frames.png",
+      "html": "docs/content/r5/ford-crystals-three-frames.html",
+      "frames": [
+        {
+          "source": "phone-ford-crystals-flight-1.png",
+          "x": 0,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-ford-crystals-flight-2.png",
+          "x": 430,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-ford-crystals-flight-3.png",
+          "x": 0,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        }
+      ],
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-inspection-three-elements.png",
+      "html": "docs/content/r5/terrain-inspection-three-elements.html",
+      "frames": [
+        {
+          "source": "phone-terrain-inspect-cannon.png",
+          "x": 0,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-terrain-inspect-frost.png",
+          "x": 430,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-terrain-inspect-tesla.png",
+          "x": 0,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        }
+      ],
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-four-states.png",
+      "html": "docs/content/r5/exercise-聚印轉角-four-states.html",
+      "frames": [
+        {
+          "source": "phone-exercise-聚印轉角-formation.png",
+          "x": 0,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-聚印轉角-combat.png",
+          "x": 430,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-聚印轉角-complete.png",
+          "x": 0,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-聚印轉角-failed.png",
+          "x": 430,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        }
+      ],
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-four-states.png",
+      "html": "docs/content/r5/exercise-分守長堤-four-states.html",
+      "frames": [
+        {
+          "source": "phone-exercise-分守長堤-formation.png",
+          "x": 0,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-分守長堤-combat.png",
+          "x": 430,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-分守長堤-complete.png",
+          "x": 0,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-分守長堤-failed.png",
+          "x": 430,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        }
+      ],
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-four-states.png",
+      "html": "docs/content/r5/exercise-折返雙隘-four-states.html",
+      "frames": [
+        {
+          "source": "phone-exercise-折返雙隘-formation.png",
+          "x": 0,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-折返雙隘-combat.png",
+          "x": 430,
+          "y": 112,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-折返雙隘-complete.png",
+          "x": 0,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        },
+        {
+          "source": "phone-exercise-折返雙隘-failed.png",
+          "x": 430,
+          "y": 1092,
+          "width": 430,
+          "height": 932,
+          "naturalWidth": 430,
+          "naturalHeight": 932
+        }
+      ],
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 2
+    }
+  ],
+  "selected": [
+    {
+      "group": "留塔／拆晶",
+      "path": "docs/content/r5/review-set/01-ford-tower-choice.png",
+      "original": "docs/content/r5/phone-ford-tower-choice.png",
+      "sha256": "170c1b473fae24fe90a077ac5ccabe530fe6f34827e016d5a965cbd691b6cd8f"
+    },
+    {
+      "group": "留塔／拆晶",
+      "path": "docs/content/r5/review-set/02-ford-tower-next.png",
+      "original": "docs/content/r5/phone-ford-tower-next.png",
+      "sha256": "85d2174e1d6763c3b937e3a071b26aa52db9916ed2d5be9201d6cad16a456bc6"
+    },
+    {
+      "group": "留塔／拆晶",
+      "path": "docs/content/r5/review-set/03-ford-tower-combat.png",
+      "original": "docs/content/r5/phone-ford-tower-combat.png",
+      "sha256": "a38822cbb158d79b51fb093099f0de34a272e970a95034ab7a5ad576db22d088"
+    },
+    {
+      "group": "留塔／拆晶",
+      "path": "docs/content/r5/review-set/04-ford-tower-hit.png",
+      "original": "docs/content/r5/phone-ford-tower-hit.png",
+      "sha256": "4878f5f05c7c3d3f8660a78ebb0bd24faa2e38b3c7fdfac269ca5734bf6ac22d"
+    },
+    {
+      "group": "留塔／拆晶",
+      "path": "docs/content/r5/review-set/05-ford-crystals-three-frames.png",
+      "original": "docs/content/r5/phone-ford-crystals-three-frames.png",
+      "sha256": "e97da830cc1bc02414133c2881e397e710c8186ef255d2597624981a8a5931fe"
+    },
+    {
+      "group": "改地形",
+      "path": "docs/content/r5/review-set/06-terrain-flood-before.png",
+      "original": "docs/content/r5/phone-terrain-flood-before.png",
+      "sha256": "450136daf6e6cec24fcfe865baae8fcba288c1e71b4518ed91bc183a4fa069a3"
+    },
+    {
+      "group": "改地形",
+      "path": "docs/content/r5/review-set/07-terrain-flood-inside.png",
+      "original": "docs/content/r5/phone-terrain-flood-inside.png",
+      "sha256": "8c13fdb384d4ff268d9de20eed4b195a452f9777aabd199f4e327b69b5b7868c"
+    },
+    {
+      "group": "改地形",
+      "path": "docs/content/r5/review-set/08-terrain-flood-after.png",
+      "original": "docs/content/r5/phone-terrain-flood-after.png",
+      "sha256": "5cd6132f60d9082ff17e661d4acb83b6502371b67e2a1f2d022176b8695349a0"
+    },
+    {
+      "group": "改地形",
+      "path": "docs/content/r5/review-set/09-terrain-flood-gate.png",
+      "original": "docs/content/r5/phone-terrain-flood-gate.png",
+      "sha256": "c2fbdc516263eb656b0d6236c0fc6eef4a98b84bfbee3ee4619abef1cb8d34fd"
+    },
+    {
+      "group": "改地形",
+      "path": "docs/content/r5/review-set/10-terrain-inspection-three-elements.png",
+      "original": "docs/content/r5/phone-terrain-inspection-three-elements.png",
+      "sha256": "ebf6e6fbfbd9d58f2218a8342874b6e523f9cccc2056a11306bb348a5e82e075"
+    },
+    {
+      "group": "三印窄陣",
+      "path": "docs/content/r5/review-set/11-exercise-聚印轉角-four-states.png",
+      "original": "docs/content/r5/phone-exercise-聚印轉角-four-states.png",
+      "sha256": "801c768d35bbf53dcdff0218786b420aec3a82711fe04c017c778eb328daad24"
+    },
+    {
+      "group": "三印窄陣",
+      "path": "docs/content/r5/review-set/12-exercise-分守長堤-four-states.png",
+      "original": "docs/content/r5/phone-exercise-分守長堤-four-states.png",
+      "sha256": "7ede99cbbcd7cc2cae68a2c692af65e1131313b3aaced634944a44f09aba4c4c"
+    },
+    {
+      "group": "三印窄陣",
+      "path": "docs/content/r5/review-set/13-exercise-折返雙隘-four-states.png",
+      "original": "docs/content/r5/phone-exercise-折返雙隘-four-states.png",
+      "sha256": "e505e2346ca93e677873391cd5691d99062207d0bc0c04490e858da8ad2c42e5"
+    },
+    {
+      "group": "三印窄陣",
+      "path": "docs/content/r5/review-set/14-exercise-聚印轉角-hit.png",
+      "original": "docs/content/r5/phone-exercise-聚印轉角-hit.png",
+      "sha256": "97a4bc2efe782061697b7296a71240c9d5dc2c2629485b1667b36927b5861ed1"
+    },
+    {
+      "group": "三印窄陣",
+      "path": "docs/content/r5/review-set/15-exercise-折返雙隘-hit.png",
+      "original": "docs/content/r5/phone-exercise-折返雙隘-hit.png",
+      "sha256": "9d947a6a4316f6c2bafdcaaec9b1706534fe5be4a9fa60884d76ec9a164333b1"
+    }
+  ]
+}

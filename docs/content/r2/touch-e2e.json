@@ -1,0 +1,89 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "3ed0eaa76c8aaf08f0c494539e279690af896893b814f08652a7cf52168ae750",
+  "checks": [
+    "small builds all three towers",
+    "small cancel free",
+    "small pays construction once",
+    "small real enemy enters",
+    "small shock hits with exact debit",
+    "large builds all three towers",
+    "large cancel free",
+    "large pays construction once",
+    "large real enemy enters",
+    "large shock hits with exact debit"
+  ],
+  "videos": [
+    {
+      "path": "docs/content/r2/phone-small-full-operation.mp4",
+      "frames": 32,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-operation.mp4",
+      "frames": 32,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    }
+  ],
+  "shots": [
+    {
+      "path": "docs/content/r2/phone-small-full-preview.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-constructed.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-shock.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-constructed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-shock.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    }
+  ],
+  "method": "Uncut native-size browser screenshots, public touch controls only, virtual elapsed time; no injected game state. Silent 8fps evidence, not realtime performance."
+}

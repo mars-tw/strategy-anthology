@@ -1,0 +1,182 @@
+
+> trine-frontier@0.2.0 verify
+> npm test && npm run build && npm run test:e2e && node scripts/art-audit.mjs && node scripts/audit.mjs
+
+
+> trine-frontier@0.2.0 test
+> node vendor/tower-defense/scripts/test-rules.js && vitest run --no-file-parallelism
+
+== 純函式邊界 ==
+  ✓ rules.js 內沒有 Math.random
+  ✓ rules.js 內沒有 Date.now
+  ✓ rules.js 內沒有 DOM document
+  ✓ rules.js 內沒有 localStorage
+
+== migrateMeta 版本化與舊存檔遷移 ==
+  ✓ 無 version 舊存檔升級到 version 8
+  ✓ 舊存檔有效欄位無損保留
+  ✓ 舊存檔缺 runSeed 時補 deterministic 預設值
+  ✓ 缺欄位以預設值補齊
+  ✓ 缺 bestByDiff 時補空物件
+  ✓ 缺 beginnerMissions 時補空物件
+  ✓ 缺 heroProgress 時補空物件
+  ✓ NaN version 會修成目前版本
+  ✓ NaN/非數字欄位回預設值
+  ✓ 非法 runSeed 會回 deterministic 預設值
+  ✓ 有效數字保留，巢狀 NaN 紀錄丟棄
+  ✓ beginnerMissions 只保留 true 標記
+  ✓ heroProgress 會清洗數字與危險 key
+  ✓ lastMap 合法值會保留
+  ✓ lastMap 非法值會回預設地圖
+  ✓ runSeed 存檔遷移與 protectMetaWrite 往返穩定
+  ✓ lastMap 原型鍵 __proto__ 會回預設地圖
+  ✓ lastMap 原型鍵 toString 會回預設地圖
+  ✓ lastMap 原型鍵 constructor 會回預設地圖
+
+== R7：新手任務一次性發獎 ==
+  ✓ 任務總額 38💎 且低於上限（actual 38）
+  ✓ 所有新手任務可由 context 觸發
+  ✓ 任務獎勵正確入帳（+38💎）
+  ✓ 任務領取標記會寫入 meta
+  ✓ evaluateBeginnerMissions 不改動原 meta
+  ✓ 已領任務不重複發獎
+
+== R17：地圖詞綴與英雄長線養成 ==
+  ✓ 地圖詞綴維持 4~6 種（目前 6）
+  ✓ selectMapAffix 對相同 seed 可重現
+  ✓ 詞綴期望淨值維持在 +/-20% 內
+  ✓ generateWaveQueue 會套用詞綴血量倍率並回傳 affix
+  ✓ 本局 XP 20% 轉入既有英雄長線 XP
+  ✓ 新英雄長線 XP 會建立進度與等級
+  ✓ 羈絆永久加成每 5 級 +5%，上限 +15%
+  ✓ 羈絆節點 XP 可由純函式查詢
+
+== R21：下一波建議塔種純函式 ==
+  ✓ 冰系敵人會推薦火系加農砲（cannon,mortar,arrow）
+  ✓ 雷系/高速敵人會推薦寒冰塔（frost,beacon,tesla）
+  ✓ 盾兵與高血敵會推薦毒霧塔（poison,mortar,cannon）
+  ✓ 緘口/高速波會推薦引魂燈塔（beacon,frost,arrow）
+  ✓ 守門光環/高血波會推薦墜星臼砲（poison,mortar,arrow）
+  ✓ Boss/火系混波會推薦含理由的前三塔種（tesla:雷系克制火系敵人，穿透適合成群小怪。 / mortar:大範圍爆破能壓醫官與護衛群。 / poison:持續傷害適合高血敵與 Boss。）
+
+== P0：新敵機制純規則 ==
+  ✓ towerMute 同距時取建造序較早者（cannon）
+  ✓ towerMute 範圍外不選塔
+
+== R25：塔陣顧問、克制警告與存檔保護 ==
+  ✓ 無冰塔遇高速/雷系波會優先建議補寒冰塔（build:frost:前線林口,upgrade:arrow:前段）
+  ✓ 顧問建塔建議包含可落點區域與理由
+  ✓ 下波主冰且沒有火塔時產生克制警告（下波以冰系為主，你沒有火系塔。）
+  ✓ 已有克制塔時不誤報開波警告
+  ✓ 壞 meta 寫入會被拒絕並保留上一份有效資料
+  ✓ 合法 meta 寫入可通過保護層
+
+== R29：策略顧問模式與戰報學習 ==
+  ✓ 同波切換策略模式會改變顧問建議（frost / tesla / poison）
+  ✓ 顧問建議會回傳目前策略模式
+  ✓ 戰報學習指出主要漏怪波段與原因（第 7 波漏 4 隻：蝙蝠群未被減速。）
+  ✓ 戰報學習給出 2 條可行調整建議
+
+== R67：顧問建塔格與實際 blocked path 共用判定 ==
+  ✓ 顧問前 30 波建塔建議不落在 blocked path（非法 0）
+
+== waveSoulReward 即時魂晶總量守恆 ==
+  ✓ normal 第 10 波逐波總和 = 18（actual 18）
+  ✓ normal 累計公式等於舊 round(wave * multiplier)
+  ✓ normal 逐波差分與累計總額一致
+  ✓ brutal 第 10 波逐波總和 = 24（actual 24）
+  ✓ brutal 累計公式等於舊 round(wave * multiplier)
+  ✓ brutal 逐波差分與累計總額一致
+  ✓ endless 第 10 波逐波總和 = 22（actual 22）
+  ✓ endless 累計公式等於舊 round(wave * multiplier)
+  ✓ endless 逐波差分與累計總額一致
+  ✓ 第 0 波不給魂晶
+
+== settleRunRewards 死亡結算 ==
+  ✓ 死亡結算只回報本局已即時入袋魂晶
+  ✓ 最高波數與難度紀錄會更新
+  ✓ 死亡結算不再二次增加清波魂晶，場次與總擊殺仍累積
+  ✓ settleRunRewards 不改動傳入 meta
+  ✓ 未傳 soulEarned 時嚴酷死亡不補發波數魂晶
+  ✓ 未傳 soulEarned 時無盡死亡不補發波數魂晶
+
+== applyDifficulty 難度係數 ==
+  ✓ 嚴酷 hpMul 套用到 hp/hpScale
+  ✓ 嚴酷 goldMul 套用到 gold/goldBonus
+  ✓ 嚴酷 goddessMul 套用且無關欄位保留
+  ✓ 數字 base 預設套用 hpMul
+
+== generateWaveQueue 可重現與主題偏置 ==
+  ✓ 固定 rng 下波次 queue 可重現
+  ✓ 預設波次 seed 與明確 waveRngSeed 生成相同 queue
+  ✓ runSeed 正規化保持正整數且 0 回預設
+  ✓ 同 runSeed/affixSeed/wave 會產生相同 waveSeed
+  ✓ 不同 runSeed 會讓至少一個測試波次組成不同（wave 3）
+  ✓ 同 runSeed 的事件波表可重現（8:elite,11:treasure,14:rift,17:rift,23:swarm,26:rush,29:elite,32:rush,38:elite,41:swarm,44:pilgrim,47:pilgrim,53:elite,56:rift,59:swarm）
+  ✓ 不同 runSeed 的事件波分布不同（A=8:elite,11:treasure,14:rift,17:rift,23:swarm,26:rush,29:elite,32:rush,38:elite,41:swarm,44:pilgrim,47:pilgrim,53:elite,56:rift,59:swarm / B=8:pilgrim,11:pilgrim,14:pilgrim,17:swarm,23:elite,26:swarm,29:elite,32:pilgrim,38:treasure,41:rift,44:elite,47:rush,53:rift,56:eclipse,59:elite）
+  ✓ 第 9 波為 ice 主題且非事件/非 Boss
+  ✓ 主題偏置生效（15/15 為 ice 系）
+  ✓ 固定 rng 掃描可產出新敵人（goblin,bat,emberbat,frostwolf,slime,shieldman,boss,imp,thunderronin,orc,frostwraith,lavagolem,abysshound,yaksha,silencer,mirrorling,warden,medic）
+  ✓ 焰蝠不限波次，可由預設池選出
+  ✓ 第 4 波物理主題池尚未放入盾兵/醫官，避免前期跳變
+  ✓ 第 5 波起盾兵可進主題/預設池
+  ✓ 第 7 波起醫官可進預設池
+  ✓ 第 5 波前不會選出冰魄妖
+  ✓ 第 6 波起冰魄妖可進預設池
+  ✓ 第 7 波前不會選出熔岩魔像
+  ✓ 第 7 波起熔岩魔像可進預設池
+  ✓ 第 8 波前不會選出雷刃武士
+  ✓ 第 9 波前不會選出深淵獵犬
+  ✓ 第 10 波起緘口妖僧可進預設池
+  ✓ 第 11 波前不會選出裂鏡童
+  ✓ 第 11 波起裂鏡童可進預設池
+  ✓ 第 12 波前不會選出裂界守門人
+  ✓ 第 12 波起裂界守門人可進預設池
+  ✓ 第 9 波後深淵獵犬可進預設池
+  ✓ 第 8 波後雷刃武士仍可進預設池
+  ✓ 第 1 次 Boss 波維持魔王
+  ✓ 偶數 Boss 波改為夜叉且不與事件波互撞
+  ✓ R77 普通首 Boss 維持 HP 曲線並套用 1.40 速度與 0.70 擊殺金倍率
+  ✓ R77 普通第 2 隻 Boss 回到既有後段 HP/獎勵曲線
+  ✓ R77 首 Boss 調整不外溢至嚴酷難度
+
+== 毒霧塔 DoT 等級成長 ==
+  ✓ Lv1 毒 DPS 維持基礎值 6
+  ✓ Lv4 毒 DPS 依 poisonDpsMul 成長（6.0 → 13.8）
+
+== 建塔格距離路徑判定 ==
+  ✓ 靠近路徑格可建（距離 72 <= 射程 130）
+  ✓ 遠離路徑格不可建（距離 323 > 射程 130）
+
+== 事件波與 Boss 波互斥（三難度） ==
+  ✓ 普通 60 波內有事件波（15 次）
+  ✓ 普通 事件波與 Boss 波不互撞
+  ✓ 嚴酷 60 波內有事件波（14 次）
+  ✓ 嚴酷 事件波與 Boss 波不互撞
+  ✓ 無盡煉獄 60 波內有事件波（19 次）
+  ✓ 無盡煉獄 事件波與 Boss 波不互撞
+  ✓ 事件池包含 P0 新事件（rush,swarm,rift,pilgrim,treasure,eclipse,elite）
+  ✓ 朝聖波 queue 會插入事件專用高獎勵朝聖者
+
+✅ rules.js 單元測試全部通過
+
+ RUN  v4.1.11 C:/Users/digimkt/Desktop/遊戲/strategy-anthology
+
+
+ Test Files  2 passed (2)
+      Tests  34 passed (34)
+   Start at  17:58:27
+   Duration  766ms (transform 356ms, setup 0ms, import 406ms, tests 67ms, environment 0ms)
+
+
+> trine-frontier@0.2.0 build
+> node scripts/build.mjs
+
+Built Trine Frontier 0.2.0; 85 offline resources.
+
+> trine-frontier@0.2.0 test:e2e
+> node scripts/e2e.mjs
+
+VERIFIED: 442 checks; 33 screenshots.
+VERIFIED: 41 visual checks; 20 screenshots.
+VERIFIED: 41 original source hashes; 2 source git states; 351 files scanned, 0 secret hits; 6 screenshots.

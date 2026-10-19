@@ -1,0 +1,561 @@
+{
+  "status": "VERIFIED",
+  "phase": "after",
+  "screenshots": [
+    "390x844-opening.png",
+    "390x844-defense.png",
+    "390x844-siege.png",
+    "390x844-siege-no-labels.png",
+    "844x390-opening.png",
+    "844x390-defense.png",
+    "844x390-siege.png",
+    "844x390-siege-no-labels.png",
+    "1032x1376-opening.png",
+    "1032x1376-defense.png",
+    "1032x1376-siege.png",
+    "1032x1376-siege-no-labels.png"
+  ],
+  "presentation": [
+    {
+      "width": 390,
+      "height": 844,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "role": "enemy",
+          "team": "enemy",
+          "x": 262.2765072057852,
+          "y": 182.45317729694204,
+          "height": 48,
+          "width": 41.660377358490564,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 48.60377358490566,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": true,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "left-mirror"
+        },
+        {
+          "type": "warrior",
+          "role": "warrior",
+          "team": "player",
+          "x": 100.56603274220411,
+          "y": 243.96888717055674,
+          "height": 48,
+          "width": 42.666666666666664,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 50.509803921568626,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "mage",
+          "role": "mage",
+          "team": "player",
+          "x": 193.76200103739504,
+          "y": 248.46079717267236,
+          "height": 48,
+          "width": 46.4,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 48.96,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 121.09412741572426,
+          "y": 276.76924667381377,
+          "height": 48,
+          "width": 31.142857142857142,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 44.57142857142857,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 94.02092057657286,
+          "y": 262.7930305571041,
+          "height": 48,
+          "width": 31.142857142857142,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 44.57142857142857,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 102.53909000499725,
+          "y": 273.24910900759306,
+          "height": 48,
+          "width": 34,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 28.799999999999997,
+          "poseHeight": 47.42857142857142,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "siege": true,
+      "bodyHeight": 48,
+      "bridges": [
+        {
+          "x": 145.88372191164825,
+          "y": 40.38068181818181,
+          "width": 120.74253574846726,
+          "height": 124.67532467532467,
+          "deckWidth": 109.0909090909091
+        },
+        {
+          "x": 134.30311840224343,
+          "y": 175.5056818181818,
+          "width": 116.34549639956408,
+          "height": 124.67532467532467,
+          "deckWidth": 109.0909090909091
+        }
+      ],
+      "leaderId": "u5",
+      "keep": {
+        "x": 74.08281600000001,
+        "y": 346.625,
+        "height": 201.312
+      },
+      "marchRoute": [
+        {
+          "x": 170,
+          "y": 410
+        },
+        {
+          "x": 410,
+          "y": 195
+        },
+        {
+          "x": 600,
+          "y": 195
+        },
+        {
+          "x": 818,
+          "y": 180
+        }
+      ],
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "projection": "ground ellipse 0.32; combat radii unchanged",
+        "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+        "rangeVisible": false
+      },
+      "effects": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "role": "enemy",
+          "team": "enemy",
+          "x": 353.5196954276932,
+          "y": 126.42834890498378,
+          "height": 48.64545454545455,
+          "width": 42.22058319039451,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 49.257347055460265,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": true,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "left-mirror"
+        },
+        {
+          "type": "warrior",
+          "role": "warrior",
+          "team": "player",
+          "x": 135.39805968966255,
+          "y": 169.34882768210647,
+          "height": 48.64545454545455,
+          "width": 43.240404040404044,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 51.189007724301845,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "mage",
+          "role": "mage",
+          "team": "player",
+          "x": 260.91192887098435,
+          "y": 172.46788973232236,
+          "height": 48.64545454545455,
+          "width": 47.02393939393939,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 49.61836363636364,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 131.59781128201675,
+          "y": 180.81041656857272,
+          "height": 48.64545454545455,
+          "width": 31.5616341991342,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 45.170779220779224,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 158.1643759040184,
+          "y": 194.88299563424044,
+          "height": 48.64545454545455,
+          "width": 31.5616341991342,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 45.170779220779224,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 137.45709579256797,
+          "y": 191.00613510359693,
+          "height": 48.64545454545455,
+          "width": 34.45719696969697,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 29.187272727272727,
+          "poseHeight": 48.06634199134199,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "siege": true,
+      "bodyHeight": 48.64545454545455,
+      "bridges": [
+        {
+          "x": 196.47243192939726,
+          "y": 4.344098657024787,
+          "width": 162.6129312096293,
+          "height": 126.35182998819364,
+          "deckWidth": 110.55785123966943
+        },
+        {
+          "x": 180.87597397721493,
+          "y": 98.14097365702479,
+          "width": 156.6911120865097,
+          "height": 126.35182998819364,
+          "deckWidth": 110.55785123966943
+        }
+      ],
+      "leaderId": "u5",
+      "keep": {
+        "x": 75.07900538181818,
+        "y": 240.609375,
+        "height": 204.01903636363636
+      },
+      "marchRoute": [
+        {
+          "x": 170,
+          "y": 410
+        },
+        {
+          "x": 410,
+          "y": 195
+        },
+        {
+          "x": 600,
+          "y": 195
+        },
+        {
+          "x": 818,
+          "y": 180
+        }
+      ],
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "projection": "ground ellipse 0.32; combat radii unchanged",
+        "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+        "rangeVisible": false
+      },
+      "effects": []
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "role": "enemy",
+          "team": "enemy",
+          "x": 708.8055069547014,
+          "y": 383.78794923968644,
+          "height": 53.30909090909091,
+          "width": 54.650200114351065,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 54.650200114351065,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": true,
+          "frame": 2,
+          "row": 1,
+          "state": "walk",
+          "facing": "left-mirror"
+        },
+        {
+          "type": "warrior",
+          "role": "warrior",
+          "team": "player",
+          "x": 282.22154257701004,
+          "y": 507.30486640729515,
+          "height": 53.30909090909091,
+          "width": 45.9921568627451,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 55.05121806298277,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "mage",
+          "role": "mage",
+          "team": "player",
+          "x": 535.6178596118904,
+          "y": 516.3248439200526,
+          "height": 53.30909090909091,
+          "width": 54.37527272727273,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 52.598303030303036,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 1,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 306.46215916675135,
+          "y": 565.0561574835963,
+          "height": 53.30909090909091,
+          "width": 39.34718614718615,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 51.72251082251083,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 2,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 279.2558519604805,
+          "y": 551.1072330838089,
+          "height": 53.30909090909091,
+          "width": 39.34718614718615,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 51.72251082251083,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 2,
+          "row": 5,
+          "state": "cast",
+          "facing": "right-authored"
+        },
+        {
+          "type": "villager",
+          "role": "worker",
+          "team": "player",
+          "x": 286.59087836044034,
+          "y": 561.5097088441978,
+          "height": 53.30909090909091,
+          "width": 35.856709956709956,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 31.985454545454544,
+          "poseHeight": 54.26103896103896,
+          "variant": 0,
+          "phase": 0,
+          "healthShown": false,
+          "frame": 2,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "siege": true,
+      "bodyHeight": 53.30909090909091,
+      "bridges": [
+        {
+          "x": 397.65079037207346,
+          "y": 155.57416064049585,
+          "width": 329.1207829272737,
+          "height": 138.46517119244393,
+          "deckWidth": 121.15702479338843
+        },
+        {
+          "x": 366.08430661256676,
+          "y": 436.24603564049585,
+          "width": 317.13530470203756,
+          "height": 138.46517119244393,
+          "deckWidth": 121.15702479338843
+        }
+      ],
+      "leaderId": "u5",
+      "keep": {
+        "x": 110.90624999999999,
+        "y": 719.984375,
+        "height": 223.57832727272728
+      },
+      "marchRoute": [
+        {
+          "x": 170,
+          "y": 410
+        },
+        {
+          "x": 410,
+          "y": 195
+        },
+        {
+          "x": 600,
+          "y": 195
+        },
+        {
+          "x": 818,
+          "y": 180
+        }
+      ],
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "projection": "ground ellipse 0.32; combat radii unchanged",
+        "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+        "rangeVisible": false
+      },
+      "effects": []
+    }
+  ],
+  "method": "Fresh public UI, virtual clock, no state injection. Identical steps before and after."
+}

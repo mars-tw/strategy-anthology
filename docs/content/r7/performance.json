@@ -1,0 +1,256 @@
+{
+  "status": "VERIFIED",
+  "warning": "Concurrent system load; RAF intervals in headless Chromium emulation, reference only. Not physical iOS or idle-machine certification.",
+  "buildSHA256": "a73888bee421e275dd65ecbcdff742293c8f43f455ed6666e86cfb7cc444b4ee",
+  "runs": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 1,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.799999999999272,
+      "median": 16.69999999999891,
+      "max": 17,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 2,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.80000000000109,
+      "median": 16.69999999999891,
+      "max": 16.900000000001455,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 3,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.80000000000109,
+      "median": 16.69999999999891,
+      "max": 16.899999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 1,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.799999999999272,
+      "median": 16.69999999999891,
+      "max": 16.899999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 2,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.799999999999272,
+      "median": 16.69999999999891,
+      "max": 16.899999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 3,
+      "phase": {
+        "enemies": 7,
+        "wetEnemies": 3,
+        "shots": 0
+      },
+      "p95": 16.799999999999272,
+      "median": 16.69999999999891,
+      "max": 16.899999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 1,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.899999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 2,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.900000000000546,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 3,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 17,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 1,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.900000000000546,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 2,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 17,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 3,
+      "phase": {
+        "enemies": 5,
+        "wetEnemies": 0,
+        "shots": 1
+      },
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.900000000000546,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval after three enemies enter water or five enemies reach active puzzle combat; no virtual clock"
+    }
+  ],
+  "summary": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.80000000000109,
+      "maxP95": 16.80000000000109,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.799999999999272,
+      "maxP95": 16.799999999999272,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    }
+  ],
+  "physicalDeviceGate": "BLOCKED",
+  "environment": {
+    "startedAt": "2026-10-18T23:17:52.937Z",
+    "logicalCPUs": 20,
+    "totalMemoryGiB": 63.37777328491211,
+    "freeMemoryGiB": 19.66699981689453
+  }
+}

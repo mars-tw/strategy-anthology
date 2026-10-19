@@ -1,0 +1,10 @@
+{
+    "status":  "EXECUTED",
+    "capturedAt":  "2026-10-19T01:36:34.7550799+08:00",
+    "cpuLoadPercent":  [
+                           99
+                       ],
+    "freePhysicalMemoryMB":  16191,
+    "otherGameTestWorkers":  0,
+    "scope":  "Host load snapshot during the R3 real RAF benchmark; no physical-device claim"
+}

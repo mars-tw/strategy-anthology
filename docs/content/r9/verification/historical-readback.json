@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "files": 2398,
+  "changed": [],
+  "method": "Every originally tracked historical file rehashed; byte-copy baseline plus original Git HEAD correction for the one pre-backup unit output. No existing untracked files changed.",
+  "baselineCorrections": [
+    {
+      "path": "docs/evidence/six-chapters.json",
+      "source": "original Git HEAD, clean at task entry",
+      "sha256": "6006dcfc336f263d169e77afd6bb92c086d05472bcc1df0e4e41754d73fe9cea",
+      "reason": "The first unit invocation regenerated this one snapshot before the byte-copy baseline was made; original Git content restored."
+    }
+  ]
+}

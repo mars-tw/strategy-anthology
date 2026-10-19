@@ -1,0 +1,9 @@
+.exercise-journey{min-height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;color:#65458a;border-bottom:1px solid #a99b82}
+.shell[data-route-aid=off] .field-status{visibility:visible}
+.field-key{min-height:26px}.field-key .field-status{font-weight:700;color:#292d38}
+.salvage-receipt{display:grid;gap:3px;border:1px solid #ad7854;border-left:4px solid #b83e35;padding:7px;background:#fff3d9;color:#292d38;font-size:13px;line-height:1.4}.salvage-receipt small{font-size:11px}.replacement-note{font-size:12px;line-height:1.4;margin:5px 0}
+.exercise-locked .command :is(.cards,.placement,.command-row,.hint){display:none}
+.exercise-locked .command{min-height:70px}.exercise-locked .command-head{display:flex}.exercise-locked .feedback{visibility:visible!important}
+.exercise-mode .command-head h3{font-size:20px}
+@media(max-width:750px) and (orientation:portrait){.exercise-locked .command{padding:9px 12px}.exercise-locked .command .dispatch.result{gap:5px}.exercise-locked .result h2{font-size:22px}.exercise-locked .result p{font-size:12px}.exercise-locked .result .decision-review{display:none}.exercise-journey{font-size:11px}.salvage-receipt{font-size:12px;padding:5px}.salvage-receipt small{font-size:10px}}
+@media(max-height:650px){.salvage-receipt{font-size:11px;padding:3px;gap:0}.salvage-receipt small{font-size:10px}.exercise-journey{min-height:20px;font-size:10px}}

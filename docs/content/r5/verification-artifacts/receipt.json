@@ -1,0 +1,2962 @@
+{
+  "status": "VERIFIED",
+  "sourceHead": "3c40ea94f8222cd962c814b572c352186511f1db",
+  "files": [
+    {
+      "path": "docs/art/compare/after/1024x768-defense.png",
+      "bytes": 906585,
+      "runSHA256": "2a7b5e0a6cc8ee927f11802eb188a5233aaa207d6651940266df82bef56f78b7",
+      "restoredSHA256": "1e39ba86cafee196635048ee0376a897d3091c7b97d65c728ad6afde153896d3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1024x768-opening.png",
+      "bytes": 786148,
+      "runSHA256": "35f5fed83814e434e896417f29910a88858b342db6624f0be279874bb2440c5e",
+      "restoredSHA256": "5a05b9961f5f69477582dccb9c451c7e51d4a95b5b3f072aac7cda20605ade31",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1032x1376-defense.png",
+      "bytes": 1705589,
+      "runSHA256": "bb4538ff2de0c46a9a91f852dc05c3ead2a0822fcc065a7e67443f0a2257674a",
+      "restoredSHA256": "2eb0d4ec366ca03194823d24374f646bd097889d844913d161d6729871558eb9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1032x1376-opening.png",
+      "bytes": 1407970,
+      "runSHA256": "3e540f1fb8dacf0377fa6c0b40dce2eb57572070b629f353ab8ab4f28e3f6586",
+      "restoredSHA256": "0c52f16444523348c50786be14258d39ef8d601313cae9b1340856ede814a193",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1280x640-defense.png",
+      "bytes": 1073205,
+      "runSHA256": "75f72bbb553e1a135937e3e3bb1c27d255fae07b4986317c44a8145640dbb8d5",
+      "restoredSHA256": "b3eec10c6273942dc63c75e493eca14b054b35a6b082b300a2d7cdf72823b8ab",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1280x640-opening.png",
+      "bytes": 941320,
+      "runSHA256": "daffabaa77a435b9a28ecbf2777d6cfc10469a6e2eca798d29a1ac590f7c01b8",
+      "restoredSHA256": "61fc4cf0afafc41b020b1b9051374947e3a54de8817eddbb7c45d0a9c3463776",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x600-defense.png",
+      "bytes": 1066782,
+      "runSHA256": "92209f2a45604aa35d1627f17913e969720d60f7af2e60065350bc2a93726d86",
+      "restoredSHA256": "5faa9f8899c5b899e2adf1b161ba54e2812e5521c6371a5c6c769db369b9c6e2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x600-opening.png",
+      "bytes": 928506,
+      "runSHA256": "fde36f4c9eeb6adf1ce8aa629e4eb996ee50cd22d053f7b96891e804d0fc367c",
+      "restoredSHA256": "c99c9ab4a1a0f861281e53b4dde148b4b3f5345fa7b583000a0680840a563af8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x768-defense.png",
+      "bytes": 1285699,
+      "runSHA256": "80b6f71130f6c412155519d66d9b7e17b544f4a4e1cb899b9b8ae316a1817337",
+      "restoredSHA256": "006bf47f9bc4b73148aa692810cbc8c31b5bfd2f42a76abe06886e220a969b4b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x768-opening.png",
+      "bytes": 1128007,
+      "runSHA256": "bbccb4fd048146e1193e6299a1fd92c6a1781550a57c411e6d11bc25edff331b",
+      "restoredSHA256": "6ffc6af1f0173d2fecc602324b21a69c46d3c2c9ec5519741cdaa773a37a961d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1920x1080-defense.png",
+      "bytes": 2618277,
+      "runSHA256": "83579693ba5c9d6ba0927b923e0ff56dec30939cf33d3f9bc931ad1fab5299a1",
+      "restoredSHA256": "02372984ab53f1cd44cbbaaef251edd4d5c7e2d072e42151f62314e327ed37de",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1920x1080-opening.png",
+      "bytes": 2404885,
+      "runSHA256": "941d075b984c3cf201fa5ce38b8fb1250133869beb81f5ee1680c32aff216786",
+      "restoredSHA256": "cc45bd26782b40edf8f161d68212e6b5920862d3b70399d060c74250a134894c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/320x568-defense.png",
+      "bytes": 177078,
+      "runSHA256": "4a8d9fd6ee818f625d164325bee852df02650ba79aba056eeb2bebb3495e87a4",
+      "restoredSHA256": "e4a1e83c5ce5526be609e9e21029ebb694dd6ad6f54fd9bbd5737f24b54bf542",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/320x568-opening.png",
+      "bytes": 124421,
+      "runSHA256": "2c0122f2917a8f8841dc3acf4acba48982f56419585e7ce307aae30bc0f51dd5",
+      "restoredSHA256": "170446aec14983a87aa606b3aacd2b7794afc97c74b3d8b4ee1885ad80124662",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/390x844-defense.png",
+      "bytes": 390956,
+      "runSHA256": "91053ac8878f6cfc490fffdacd775653a4febcd1171af2a40c2fea467bf86e64",
+      "restoredSHA256": "5f5fdb6770700ef416bf374c40d3023b49a0c08972e5f0961184d69fdcdbad1d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/390x844-opening.png",
+      "bytes": 320829,
+      "runSHA256": "2ed6995b6f04f246210fd1008cd6d02e6c133f6dba782bd007015a1cac46a58e",
+      "restoredSHA256": "09eb52f675ded9142fb173b0ba3f1b99c3173bd4aebd19a2247eba3a7d445bb6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/768x1024-defense.png",
+      "bytes": 800227,
+      "runSHA256": "d66f93ddcaab9aa90ac6b63d95864ee302acd68cee1a6c254c1884e1544a8a95",
+      "restoredSHA256": "9f83038b86f20dcd6b1a899fd353342babf82b72691f4b55b3a65b0156fae37f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/768x1024-opening.png",
+      "bytes": 647571,
+      "runSHA256": "3a4b0108d8e186f72baf9491a4dc149c4cb5d3b6eda991a786de547108e48b2e",
+      "restoredSHA256": "c0df9c4a86e69b9c6b48f4a8d15b19fb040b8158977c483d2b1835d1575cd770",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/844x390-defense.png",
+      "bytes": 363524,
+      "runSHA256": "a3f0cdbc364588c357dd2f14c4b0ef98880e53db5d7614502e57edb9c14f5467",
+      "restoredSHA256": "7d78aa533680b45d0695e1ab8196ca74a2ec4c16805ff6eb708228a675e2acea",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/844x390-opening.png",
+      "bytes": 303458,
+      "runSHA256": "5b0239de97ee53854dfee68d7e3adbdcea30779f64e70aa34a8c8814693de221",
+      "restoredSHA256": "2497e79d0e73736cfc1b19adb98533f891d57fea600819a72b75ad3a35c0d0c9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-0.png",
+      "bytes": 391919,
+      "runSHA256": "e6f41daf6c020b60646c2be2c6fcee1917b3ddca6e6dcd2ed7404aa2a60c976e",
+      "restoredSHA256": "d6795bd93352fd4af506ac0ac7a8acc9f8265bbfd37bdd825fa8f2bc4b39d8f7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-1.png",
+      "bytes": 392972,
+      "runSHA256": "94b9b7bd5bf971137c62912101295a6723aceec4e9275eb1a285933819a61ce0",
+      "restoredSHA256": "03df3096beae091565b2afc2f2e6a81f1397572b5bc79f36876e5ff117422125",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-2.png",
+      "bytes": 393253,
+      "runSHA256": "a58334d306d06e2153dba5928943079c2483101fdded1b6b128f09886af46fe8",
+      "restoredSHA256": "641fb837e0c5ad3f2cda8aa41d0bc31dce8d495573b5633dc63b15d25cd0cd9a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-3.png",
+      "bytes": 392048,
+      "runSHA256": "7bd056fda098f5e6cc11cef9862db40c7019bf904f11250f24096e9b3f901e6f",
+      "restoredSHA256": "c9c26f2550f26bb5f5974074c2e3caa9ae375691517e76d52b0c0fe90260c484",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-4.png",
+      "bytes": 391634,
+      "runSHA256": "59f76703885b85703221e01475f304d295376241ca6d56b72d55f0a4a38358a7",
+      "restoredSHA256": "4eb686ffac3ef79a78831081d22097e359d3e85be435e569f4d7d13c1d0ccdfa",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-5.png",
+      "bytes": 391382,
+      "runSHA256": "2d92c9dc7b5270f5849061f38006ad92abe8ae9bc0131430f55f371f7e00470d",
+      "restoredSHA256": "ddeae5e297e2a410c6255f1b391b47fe243d05c89cc92bf60617c157dca89498",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/visual-audit.json",
+      "bytes": 23767,
+      "runSHA256": "58650d604db81a71986f23e8138eaa135d2512a0beb7fc752f94cbdd34720431",
+      "restoredSHA256": "84c01d3dfbd85093fc1cf93f105a32bf817e3082fe052c57ea04fd14b2e04168",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-0.png",
+      "bytes": 5443624,
+      "runSHA256": "a5913acef73295f53940d118aeaf9ca1f5b75d2920ac2e5eda307c84b3a35812",
+      "restoredSHA256": "fad6ab959590de69f067bcdff8f9e77052f125e9559ca2fe80fbe80e13aaffad",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-1.png",
+      "bytes": 5434474,
+      "runSHA256": "95aa5b9555139212e1f58849e929b55741f2782901654000ba9f0fbf456bc3f2",
+      "restoredSHA256": "e16b7e0ba96a0ad206d9987a9a2d6a7bc923fc3cd0c33f7e7358e4a9727d94b5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-2.png",
+      "bytes": 5436592,
+      "runSHA256": "7381950ba3c8b46265308c8b8da0ad5cf0eeb02039898d2015a939e8af262657",
+      "restoredSHA256": "f3bebc5e07f839dfd284cbf619bd7a48e9ee71cfd4b7dfc07ed5c644ed373d3b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-3.png",
+      "bytes": 5435267,
+      "runSHA256": "295817c153bcd02deed4dcbc960c29fbefa84f465d52b1b27cc43b758d319af8",
+      "restoredSHA256": "e6321f6e53286595055bcddfd3c35b9d64e5e94d62aaaac865771a93e7bb30e9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-0.png",
+      "bytes": 3193181,
+      "runSHA256": "85708d0b61e177226f08234799e7bb4d48bf94177d075ae901898f534b54177b",
+      "restoredSHA256": "cf2a78d6dca07df5bae1dfc09a0a3302512cd46b52e96c602fc2241d92c7f435",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-1.png",
+      "bytes": 3180840,
+      "runSHA256": "d2273154c3a164a6972b4971fcfb6c12e9165a4e296e6f6ed9d3ac889b984c52",
+      "restoredSHA256": "889fb4124003de0ab4195d33142d57a4bdf2bb6d729346dfd67c8635b29da135",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-2.png",
+      "bytes": 3180270,
+      "runSHA256": "032312728b2c63dfae0c6243bcd1388497076bb893d5fe5cbc164bde8c0b6b92",
+      "restoredSHA256": "bea4bb6998e16c8f53cb796ce3a246ee5173d60e6aadb6c53ab45af3171aa623",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-3.png",
+      "bytes": 3182933,
+      "runSHA256": "0db7d24e6302cd0268a9df8c512115da6b68b64c7cd327b1e9d07c8c8bcd4f09",
+      "restoredSHA256": "22e8cb56325378756761be19153de3eae8d045640bc13df09924cf9e1e5babce",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-0.png",
+      "bytes": 380621,
+      "runSHA256": "ac141fe45273a16c8f7c0d8dd952b8379ef844859f235e9013192a09399ef499",
+      "restoredSHA256": "f1b7d0327e2082af2816554903785069a4ade5cc8a4e01511a29c53b30a00845",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-1.png",
+      "bytes": 379756,
+      "runSHA256": "420a65b5927e7f5f9a4b1771b3a113c9ad419868d43840356ad07bf05ae87ef4",
+      "restoredSHA256": "ca41b3256fe58d862454b38ab364a5000aaf8597d4b2ecdb9a726b3352043460",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-2.png",
+      "bytes": 379746,
+      "runSHA256": "3d0c7299ca7cfcfb4c60533cb3d086f2889208781b55e976103175a72f104faa",
+      "restoredSHA256": "ca62e1c0f96cd0a2acc94df6936b3fc9dec573aec467e8da13cf341f1841c894",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-3.png",
+      "bytes": 380026,
+      "runSHA256": "abe4656a7b2210e320275f2ad2ac2c16f724e16e60dd76194aabb728ba74e5c9",
+      "restoredSHA256": "acb4f597cb856eddc2d51728ec718fc51efcb9bc51d46b35d9200e8dd1b61003",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-0.png",
+      "bytes": 392170,
+      "runSHA256": "7af113e87aafbb4c2f4c55bec4e668cde632d4f0cb2c8ea2d81bacb661b87054",
+      "restoredSHA256": "e397ba2d249fc9f3e09f6a7a0db6a58d0d3dea30a94837823dcd405fa99ded91",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-1.png",
+      "bytes": 392811,
+      "runSHA256": "525b2d409211bfeae706b6a2335eceef9b61c4101d03a4d17551811f8465ecf4",
+      "restoredSHA256": "fe82df6ebdcb96316e66d158eb997cf81f929e5d5bf143953f1615ee32e5aa7b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-2.png",
+      "bytes": 392271,
+      "runSHA256": "9555e3f870565965edba48e826f3f3edc66a4f19562fd10c75ede455027817a9",
+      "restoredSHA256": "dab3d31296e997473f2246389bd61071c78009c4dacac525a40076d96838736f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-3.png",
+      "bytes": 392598,
+      "runSHA256": "dbf92726dd21b18e9341d20d32a3373e9e6c0fa91a2f1c19def898e47393b1b9",
+      "restoredSHA256": "1c651f7680529d42aea4a5c812a34e3f159e17eb1cf71a03557bc5c7fb5b735d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-4.png",
+      "bytes": 393462,
+      "runSHA256": "18bbf9b191a8225ea42636a0d59572845d3ad9876dda4e54f7af1a832fce6ba7",
+      "restoredSHA256": "92f1bc8377623faaddbe905a6360cb53934ecf929295cb79c087f7e1f495dea4",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-5.png",
+      "bytes": 391162,
+      "runSHA256": "c9a84d54949f62d0f5bcf2665c5f7e62548dbcd0b9e874b9e9473f3643f80b30",
+      "restoredSHA256": "5a11e750871ae3e41c433017dfe0cc758891a308a5594e011ab252625c16dbba",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-defense.png",
+      "bytes": 380587,
+      "runSHA256": "f421f55b00e4f072e8f8c1ab1a569556110776d0810af833da81a2adcae71d71",
+      "restoredSHA256": "9bf3bc64c9e410f261691231b5fff3c3a52cae76c8b7bd6008d12a3ca3696211",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-opening.png",
+      "bytes": 269904,
+      "runSHA256": "b3afa3afff47c30fa7b05878dccc9a8dd4cfbce020a245748f8411e0ffb85b2d",
+      "restoredSHA256": "2fd3a1940576de336adeb62f3a1082d8bd37ef94a18536d3bda4a0258ce62a6f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-siege.png",
+      "bytes": 395282,
+      "runSHA256": "0b23146815f8cb13c1fd03d89c8281cebed5e43cb966877399a99f97fc48bc1f",
+      "restoredSHA256": "3aebc48babe5b5d631128b3e48c89f1719b31e732de1cb699088873adf0d4387",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-defense-no-labels.png",
+      "bytes": 5319168,
+      "runSHA256": "c13a4e21727560b03dd691a3afd3ea94f9efa81d11fe912af9c2b9217785bbb2",
+      "restoredSHA256": "3d6a2b30eba6fa457edd2ebef682324408c6a5016cd29819961064056006763b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-resource-insufficient.png",
+      "bytes": 5415487,
+      "runSHA256": "b6fd9a1ba8b36f7808f4a78132eabb42bc875bdbf1a9987eea186c6925845e06",
+      "restoredSHA256": "92153f5a80063dbd6fd08eb246aa5ebb1e9fa6fa2da230dc5e57b3b3a3ee5df5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-cards-covered.png",
+      "bytes": 5705170,
+      "runSHA256": "6b191c33c085b4da7640d3fb39677a2db15d4eebd55051a09be382e319c664d4",
+      "restoredSHA256": "a2cdeb52c1a4aefd148588d238aff4901ba1a3daba5be18115214f7120b46bf7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-no-labels.png",
+      "bytes": 5740884,
+      "runSHA256": "e0481266e29ace3b5448204e186df039c9a4ed70165d2b97181bac9f926262ff",
+      "restoredSHA256": "c45de9ae21672bf22ecfa12452ebe93ae19e1479d267cdb33cc7cc737c7429e4",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-terrain.png",
+      "bytes": 5677994,
+      "runSHA256": "88fdb61de24e20c8ba5fd9310fd7740bc2efe8261df316c7da91dff83167558c",
+      "restoredSHA256": "ca8b5908d266ce21901c1312c82dbaec4a00e3578d8ada85daa5585ed0d14507",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-defense-no-labels.png",
+      "bytes": 3121064,
+      "runSHA256": "f83fd6f91b7351dbc36eff47a5798b17d4bf5144adf662812eb41d4b93f55fcf",
+      "restoredSHA256": "4ac87096814b1e21db44218991544e9aa1b2e0e8b3b94ab56ceac9a0d32ca478",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-resource-insufficient.png",
+      "bytes": 3147082,
+      "runSHA256": "7faccf072de380508df4befde9db79ec8e5f905bfcf840657f3923ed48ab57b8",
+      "restoredSHA256": "f282455e89735283df3bb51e46433eb679f37481d982f4236d29e0f2004f3614",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-cards-covered.png",
+      "bytes": 3260754,
+      "runSHA256": "de0b1355b68f2e2e39480b98721c921623f87f272799d318e128703187e5aa4a",
+      "restoredSHA256": "8a599141f98cb6b6d120b64d01acb5ae6d6b6e92e01ebf6b4ef2c92c0e7cf223",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-no-labels.png",
+      "bytes": 3419964,
+      "runSHA256": "01f6f050d609e125fc9ca5998a570b5c774725456a7e1e1efec7eaab662d14d3",
+      "restoredSHA256": "27950b00f91f71b2613677ecd19b1153f90d9785311140a73e2354445f5d17ee",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-terrain.png",
+      "bytes": 3424585,
+      "runSHA256": "bc94c37f50a123389e6d3f61b2ed02b535b57cba6f9ed6f26e66bb668f2f21b7",
+      "restoredSHA256": "cc4690a824c7a4460c6da688093d0c56d48ae2740458520395c9f0252258dd51",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-defense-no-labels.png",
+      "bytes": 357855,
+      "runSHA256": "c4bba9f922a440893912a79aae04b760ca9a1aba82538e949c71e8cad66c90a7",
+      "restoredSHA256": "26c88203655c9f52af678f28dc6e877b1caf02e9ea62a921536ff99ecb86dab3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-resource-insufficient.png",
+      "bytes": 377054,
+      "runSHA256": "9213d1c5c9a569da0e05cebfe3ce72092c737cc819ac5d27ac662b277e3ea2a0",
+      "restoredSHA256": "6350ba22586361a7f35fe7f18b20676c13deef1a1b013113c1b28bdfa3aa24af",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-cards-covered.png",
+      "bytes": 362291,
+      "runSHA256": "93c731c620f893389b8ee76510bb9a11838f35bd5cf4ee3062b1931ec55d1b84",
+      "restoredSHA256": "fe7f270c96aeb3a902f5dce6bd22e22b609e4dc845a7ff262f75dce131c167ef",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-no-labels.png",
+      "bytes": 377359,
+      "runSHA256": "2624d4423158c82ae44a23022a66723019b558ebfd5d88d128e698101b4ad9ec",
+      "restoredSHA256": "c00fa6392493e742812eb88e3c765a28bf878f670eb40bfbeb688228f5f27015",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-terrain.png",
+      "bytes": 377390,
+      "runSHA256": "492fa96700f015ee0a70c282bde74972d0e09ee79c9ade28ff824567aa89606f",
+      "restoredSHA256": "6341cf9b8cd360439e4e833c172aee464fc548707541a3a355edbe2ed5c114bf",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/visual-audit.json",
+      "bytes": 109993,
+      "runSHA256": "2f653b4aba1862c13d081f3771c6dbd992fe5242c4573288df56e63e0a984210",
+      "restoredSHA256": "993d91c3208c9e687865978bfe8d5d483d0339cd4905b057b3a88d63fa06e3ec",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/visual-audit.json",
+      "bytes": 4654,
+      "runSHA256": "b487bff021fcccd764ba2f562660f8bba318fc342f39d44ab1c71bbe376421ef",
+      "restoredSHA256": "377a55ccdce034cebff323521a543219ade0ba1e356dc059134b570ae086edb1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/e2e.json",
+      "bytes": 65983,
+      "runSHA256": "0b37331b50b47572d466c710ebaf7a5c70397e6f861586ef51cbbcc9330b2c7d",
+      "restoredSHA256": "a95024f6b3c2285f5e50be5d1e20cc998fce749628c55a7cf46af9731c347a1c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-barricade-play.png",
+      "bytes": 5333970,
+      "runSHA256": "d7d8c2617d5328ba62e39aaf976fd9e7e6d2d4acaf0833916400fc952e1762d5",
+      "restoredSHA256": "67f3b843317b53a1049a5879d5e9ee075270390a511252bd3195983b320780a2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-list.png",
+      "bytes": 1091931,
+      "runSHA256": "17689b7f1574e27bc86bb9d787d127bd154345de434cb2a6ee172c4adb7ba9c7",
+      "restoredSHA256": "88880b830e72e7af664d8372e457a4e0c3647ee130a8351a05ed8228a0bb9750",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-play.png",
+      "bytes": 5110140,
+      "runSHA256": "fd0c50da411ff66c6facfeae47b64a0a953aa5d1391de573e0cec54a964ccac0",
+      "restoredSHA256": "f14368e43a8cfaed69189de543639d0966bd02334326d3e412f62a2d99cb5541",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-barricade-play.png",
+      "bytes": 1738933,
+      "runSHA256": "4fa0fcf25cd3415098c7211547edd7b062bb54b3318eee6e40839ed145626eb0",
+      "restoredSHA256": "1ed3d1c12517bcb08245e910f379aa490fbf5296bee9428af86361f66aea72b1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-list.png",
+      "bytes": 401782,
+      "runSHA256": "709fb645d7e2f1f134e98f4ab87789c91e9b11c431f57de7e2b1557bc7c253a5",
+      "restoredSHA256": "e06cc36962c1f8970fe27fe2e28019d64689bcd1be01a5ecf354c8e7735a774f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-play.png",
+      "bytes": 1681741,
+      "runSHA256": "f644a22ea8fa2c7088874e669a9b3a63c7a9f1c8944e360c7db4cd4cf4efc757",
+      "restoredSHA256": "cbc707156d4fba57683bdab4e993d3ea0bef6a3e1ca6b3270443bc20cf93a6be",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-barricade-play.png",
+      "bytes": 3172742,
+      "runSHA256": "c3a0a2a3f039a7238cc7df0bef4071dff55b2ba723131598eeb147b6e2bd304d",
+      "restoredSHA256": "f714b95663bd19329ba340b16d9fc669e709dca27939ee71f1d50e15d1ff2bd0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-list.png",
+      "bytes": 592311,
+      "runSHA256": "f443cf74d2532d3246a12f0bff695ee314a8784e15087e9f00ddb5966280e599",
+      "restoredSHA256": "2d94b8dc2258d9d27482035bb367355e07dd42f20a2d31a407a278e1183cd42d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-play.png",
+      "bytes": 2855398,
+      "runSHA256": "44a1fb99821dc377c8f6de13eec1472671aab84a234849ed653f7ffe5336b46b",
+      "restoredSHA256": "71c94f4e5c01f07ee22b688839118f43f7a850d01cd23c48c3aac6db575bea0b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-barricade-play.png",
+      "bytes": 350817,
+      "runSHA256": "f44d1fb79cfaf02a4d4885fd4af4957ed1d246d1274ad80e484f54a9be330ad4",
+      "restoredSHA256": "068464a4fc37056969706c20fd24f078b0059650dddc74759a71d1b669424349",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-list.png",
+      "bytes": 94766,
+      "runSHA256": "5de393fb58004f666ebc7e580273981f3408e227aa0aac76fc0f4236d5366a67",
+      "restoredSHA256": "18db23367f3ac1eaca270e395493f0f7f7d530df01bbfa41bf59c46d03df5fbd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-play.png",
+      "bytes": 353052,
+      "runSHA256": "25e0dc814012bbe7261cf3bd635379dcf31845fe03f2b43d64194a7fe9f34b63",
+      "restoredSHA256": "285bda0b12fdcecc6191929a006040f8c506bfbb438a821d8939a3f20b155e6c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-barricade-play.png",
+      "bytes": 1022999,
+      "runSHA256": "a6f1264e0e6e91bf2b2036537095da04715acf74474856b1abbe97cf449bcf56",
+      "restoredSHA256": "9d8afe714c6e4fedf9fb420f73643db50a3e84e6d2c74dac21d3b6ec86cb7ace",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-list.png",
+      "bytes": 243786,
+      "runSHA256": "858bdfd40930fc579ce8639e387f075970c94d26a53b27d5b70e98c1529b2395",
+      "restoredSHA256": "ab803a767cd5adad5104192ca615b0acedc481d914c397e91a383bdcd54d5f8e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-play.png",
+      "bytes": 998350,
+      "runSHA256": "b929bee8a49dc73df462a110d7f7f32696dbfe1bfcd47a421cee1cfed0bd8589",
+      "restoredSHA256": "3d8e890cecca5c899282f2ef9563f8dffc26a684c79a5e0a76d9916f251f2453",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee-complete.png",
+      "bytes": 328641,
+      "runSHA256": "99744e639c2d15f1152deea435b9f9b21edd574d6528dc8b934a826efc09cc47",
+      "restoredSHA256": "7f9600c9b7fc26adc6719ff618fb29a62f037c15fc91916ca093ea36ea66fd53",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee.png",
+      "bytes": 366160,
+      "runSHA256": "6ddeded42138df8f557e84a053ec8e1ce2407427caa9e3f84095d278ccdae63a",
+      "restoredSHA256": "4c023a2b143d87c644883ebac18c93331a74f5687d79606f10c69b4dbddf063d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback-complete.png",
+      "bytes": 330908,
+      "runSHA256": "1daa147a58376cc4dc9486d14499a98d318d34940f400591280ad8ec1a89a18f",
+      "restoredSHA256": "1d95084c28b03b53abede7740aa45949aae3a19194eea99fd96d04cc76b3577c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback.png",
+      "bytes": 368649,
+      "runSHA256": "98b3696c48c5939da92773f977371492b61353768bd7c2d25c12883a16eded12",
+      "restoredSHA256": "8c3fcac2229b90c8405a6ca9532616b6042b9b3db2445f0a2a5bbd0fe601620c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn-complete.png",
+      "bytes": 346979,
+      "runSHA256": "f16f80afdda34280a1eaf5dfece06374b9cea43d4df3ba666aef764cb274ed2e",
+      "restoredSHA256": "af1ef412ac3627a82d6288e3e9c5b4880e84fcd337025ee9a0d29c2c283c3705",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn.png",
+      "bytes": 387741,
+      "runSHA256": "84b5cefa1245b2a293220d363dd679578c6f3cddea5f2aeeceec48782b5e2892",
+      "restoredSHA256": "d2a1323e809350c5b9252e06dc81dc83e7822cc8062360bd191fb5ed72a24415",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-flood-play.png",
+      "bytes": 387314,
+      "runSHA256": "9200afc6c60e8fa830b8e1cc658211294fb816a2b04fe1acca3396f40ecf68c8",
+      "restoredSHA256": "a7457c289a8a33e3f79bc0e8d219ee2ad970471241f4936f84e6003acc6934d6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-ford-choice.png",
+      "bytes": 337899,
+      "runSHA256": "a68fd4ba18b8962e0b3f303ccc0ef4c594b2eb446d0809b04a669356ea39ba3c",
+      "restoredSHA256": "f0eb521fc776057bc67de1de532dd8ecebdeceaa1b09a889bedcfb47cec64043",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-inherited-frost.png",
+      "bytes": 403625,
+      "runSHA256": "209a5d5cdb94596bfa87b983e45266c088cc10ed36132e18ad0b909968274e72",
+      "restoredSHA256": "f7a0d166262bafffebb584fd9a93dce609dd9ba87d99666bbe31e184b4878f7f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-terrain-preview.png",
+      "bytes": 250625,
+      "runSHA256": "95c1ca32fbb263174a670695f5bf25dcb984a5d9deb47be10d643c3be6e92a68",
+      "restoredSHA256": "efa7233bbc2a0d72aee20813af34c23562310db3f979c928f60d620a58194145",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-barricade-play.png",
+      "bytes": 207610,
+      "runSHA256": "c9628577ad8e3d806d9c4fab2af45ebe4f0710c0d59e8e94139b1a35d830e0e2",
+      "restoredSHA256": "d1e8937fd5f64257e0d4951d87ce72acacdac71dce477c80b44eb73e82ae2839",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-exercise-list.png",
+      "bytes": 67110,
+      "runSHA256": "0b6dd6a0b7792596ee426a34406380fbacfd4410facf968da110b77f7ca48a67",
+      "restoredSHA256": "2a886a0a3aa14fd54d352fbc250a14c294c64832d1dcd54fa07af1d4c6cb6952",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-exercise-play.png",
+      "bytes": 173037,
+      "runSHA256": "3b6d9e9df2ae739f3d3114134afb6665b4010f7d0cf41037ac21d80e08415ebe",
+      "restoredSHA256": "58176969626bfd595753ac991117e6c10b9a900752071545d35b9623dca190c6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/attained-ford-save.json",
+      "bytes": 4991,
+      "runSHA256": "12e0f21e80726db12f9ade65fa9a14ddc5955c88ca7c36c4d8b8cea63dc6c212",
+      "restoredSHA256": "1ac9e4e4b077b315e57133f25ac06bf8a87038e4df26f3bfc1c189a3cfc9aa97",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/barricade-route-samples.json",
+      "bytes": 30723,
+      "runSHA256": "fcdb3c1d87364305213c620844ecbac6f277f24f716f8151c24d2253c865ee97",
+      "restoredSHA256": "f650f4cb3d4587ded7a81417f93d73c44d078cdd61a8b031cfb1dc9e3ad5692b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/e2e.json",
+      "bytes": 75796,
+      "runSHA256": "bef6f5eddf75a42c389043a63b81393361aa433ad5c504b37be47aaa0bc1918a",
+      "restoredSHA256": "0a116e0446568adc7bf6482275cfeb88593a902745c2cf73aeaa60decba1894f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/flood-route-samples.json",
+      "bytes": 31756,
+      "runSHA256": "c3857f408c584a82c94901a6e22ec00ae187846defd43534ed22adb4bd57a9d0",
+      "restoredSHA256": "ac73fbc099e1aa2beae3413620decf483de3aa3ad730887308b6504de76858fd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-1.png",
+      "bytes": 294750,
+      "runSHA256": "87f74eb502aa460c27fc67de9e3ffc9c533af2faba720416e9af67377a3f304b",
+      "restoredSHA256": "2a18caeedeacd5e6cc1933594fa872e20b5f494999b623bef434bb214ea9d60f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-2.png",
+      "bytes": 294648,
+      "runSHA256": "623818b640ce4a83eab3aba76dd6fe5ea4031155b4957cdb01b73e808a8ed614",
+      "restoredSHA256": "f97bee77daef1c2bc5d5c967d99b4e1831c898246934fc9a8a80d7180a424c8e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-3.png",
+      "bytes": 294650,
+      "runSHA256": "4e0393d474e4b623a51910653f819e6e2d227df2cae07e1efba58c93036be4bf",
+      "restoredSHA256": "81e3ed458a8b806a28c620343a27033559982ea829a9e8b6d1958166119d761e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-constructed.png",
+      "bytes": 508411,
+      "runSHA256": "bd6790eef2ee3c376555837f26aab4bfe53aaac7843ba3f8f184495607248b75",
+      "restoredSHA256": "1a0ab9ec6d888f62bbce986d16cdff34a69d25f36e5772dc6da1df8040089f7a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-entering.png",
+      "bytes": 506753,
+      "runSHA256": "8f36ad32d9ac49f79d8f5094b6573f696549f70bfb3a4aa0a7036fb4d3841014",
+      "restoredSHA256": "3a56ec2221eb6ea1d14bac0e0c4528e913b6243661ab614ef5ca323f31207a44",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-full-route.png",
+      "bytes": 512141,
+      "runSHA256": "f456f94bf5b763738aeec91a12817395335ed809ac73f4d89f4e990516348890",
+      "restoredSHA256": "7e5bc1cb8c1362497d1b4f8b48e9315d8ba3121433584f7bdec9039af8e01613",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-preview.png",
+      "bytes": 294782,
+      "runSHA256": "96e2e6a5bff71ad7914cb6db653c343d421e6577e446f5b8d933f2b9dd791c73",
+      "restoredSHA256": "a8ddeca585d223fd331600cc34dc9542d3d8eab32e2ff15c7c4788b1f97fb652",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-route.mp4",
+      "bytes": 396603,
+      "runSHA256": "8325aba6db49865fed780ff6151eb18f917aa4248a03eb57c2ebec3f0af12d99",
+      "restoredSHA256": "e35befcba0be5bc55be966b23884c4b0196dc94aae66f1d84f0597f955896a1c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-home.png",
+      "bytes": 407266,
+      "runSHA256": "adec56d39eb4c59ed27a8d90a3fff96ffb3fcc20d31cb783f164e5ad3be91ef5",
+      "restoredSHA256": "49a7fd93d0d8f05dad10db0248a2c3e9945c12599a59c6483c82bd7b652d4de8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-combat.png",
+      "bytes": 459822,
+      "runSHA256": "538344c434acf877ba12105d707c41d50fa918cc40bbd6519de007493ab3f8c1",
+      "restoredSHA256": "e8e6e64a00d46f3822d9e5d8c3036b39e8cb3b78e5913e3e5b596aced5631561",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-complete.png",
+      "bytes": 422657,
+      "runSHA256": "f5c2f1574db42e6ef74e18998aecf68df82304af906113017e9fd365092dee90",
+      "restoredSHA256": "cdef3a0d6cbe4f8c4edb8bd0f582ceda2becdd5c8d1df2b58bff5ac9de84c6e5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-failed.png",
+      "bytes": 432739,
+      "runSHA256": "20799c021a5ce472b432f13c372c41605579e156c38b09862946258fcb4c85e2",
+      "restoredSHA256": "6bace98bb419271deab3dae858378dd47d153720b1760e772ff69dbdb043fea1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-first-leak.mp4",
+      "bytes": 375254,
+      "runSHA256": "5fa36a094684490c2454e4e640ee4ac74f6d697ba9489a1e984f9ecc553f1d68",
+      "restoredSHA256": "f58971c339c9bb9881acb3d8dd5f1366d3011cf75f35d2ad9366049d52ac8bbb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-formation.png",
+      "bytes": 457417,
+      "runSHA256": "f87838bb7f5e91748d4a45a72c3a40de58482ba5febc18db9f13abe33e9ce1f4",
+      "restoredSHA256": "305c7e706fc903521c0f1312c405b326126005207e5679a361ef03636f32b0ac",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-relocate.png",
+      "bytes": 464750,
+      "runSHA256": "6ca27e7db1eaa3d596c84559b2b43e5c63a6884e5fa6b367ad72ae109cde7f82",
+      "restoredSHA256": "4d6a65ab32da2e20b2c51bbadf3b9190d1489f390880b2dc55e9f9c2cdcbab04",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-resumed.png",
+      "bytes": 459587,
+      "runSHA256": "1e5893f7f4674249998625c4524e24dc1fd321eb459e030e32ecc0177383c70b",
+      "restoredSHA256": "6c31398634a798577630259fb50bb3be08e2272a30511200820b6c817c71be49",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-retry.png",
+      "bytes": 465123,
+      "runSHA256": "20432a0cec9d073851090cf67e431a8a40c6c8d671ad818f65484bdf778344f0",
+      "restoredSHA256": "a84af9b56c1318afb6fa03f77839fcad34a7d4a49a3f67f0f29b9753ced595e2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-list.png",
+      "bytes": 115229,
+      "runSHA256": "0a3182fda759ba75907727b0eea49ad1c0d35aa91113fa9ccd0a51277c91c724",
+      "restoredSHA256": "521c9eb93b9fce59cea02f79b9f7a5f79f6aaf9614a2364443602a2cfe90aec7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-records.png",
+      "bytes": 118316,
+      "runSHA256": "2bbf129906c9e2b1040d96448981210a02cbb3f81ce9256946f8a67420457594",
+      "restoredSHA256": "79ace1ec3407c1c8e88f8b9b16d9b7b0f68fd54577b9a2a4fddfe3006726d53a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-combat.png",
+      "bytes": 464846,
+      "runSHA256": "33c505146b5b07c2c1abfecdc546ee9e032df94556dfed10dcfda47d8e495be1",
+      "restoredSHA256": "9f3be7641ad22876806388401681fdee169e3eb682d692e8e2d9e81eedca4063",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-complete.png",
+      "bytes": 427208,
+      "runSHA256": "d5ebfbe5f957b0689b0dc6c8a360c8eea12bf6311d00ed2fac145939f5abef8d",
+      "restoredSHA256": "0ffb66c5894e21b0290f16452bc396986ae47c169de4188b0afed50e9c327a66",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-failed.png",
+      "bytes": 439716,
+      "runSHA256": "4834b9a6ea4c3553afeef0fbdedcca1314e4ca9b01865776fbe0741140b08d76",
+      "restoredSHA256": "9a1185ab39e54df72ef7216a8a134253942267de662e464df9c1948289f2292d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-first-leak.mp4",
+      "bytes": 1016297,
+      "runSHA256": "3b4c16915e3246bcbd75b720c34f5998727fdcf70026fbd458287287aefe85fd",
+      "restoredSHA256": "e1a06b52ce625f0429364ae474d26924d9246d13b25d648a7f6df16b3e0da4cb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-formation.png",
+      "bytes": 458630,
+      "runSHA256": "1a2074f2337dec03dd740a680f95f20bd221fdcbf19b1a7c9b238581b2d3cbf2",
+      "restoredSHA256": "e7dff1fc3c728800e1ae80bd7e8a36b1ee72fb0f34a1e6c78f0c983c49dfeb8d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-relocate.png",
+      "bytes": 472949,
+      "runSHA256": "5c334b6291219412dc863453e198c5d172f94549dc26675a7df358652c0c72b7",
+      "restoredSHA256": "f1af8c54a513142ca94829bbe0d066b264f127375536cc305614f889426aa060",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-resumed.png",
+      "bytes": 464820,
+      "runSHA256": "1fe62e945dc6844805822a7fb744a1ebceffc97745b24d64d0a321f27cce4581",
+      "restoredSHA256": "ab5b01eab8697a72c9bcde7c83d131b3fe55022b03e11bb7765b2c29a0a444fd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-retry.png",
+      "bytes": 473485,
+      "runSHA256": "77769dc6b6045d974e594ad97674d7afb97a0412805296e1ff15d6bb461da0fa",
+      "restoredSHA256": "f41e29e2b42e0f96779b25b72e133d65a0f882505f33b580deaee6237a9c47d1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-combat.png",
+      "bytes": 510377,
+      "runSHA256": "837cc35658722dd845fec682278176e914b9b674195d68d4fc2a0805b6b94174",
+      "restoredSHA256": "62660c981a16a3b7dcfcc0c537f8a814515d4160c06f17e3efbc412a850546f0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-complete.png",
+      "bytes": 454977,
+      "runSHA256": "646e90d4aae1db3273f4caeba97c1e33dd85b2b267e6c03a5bf4fbc5ae200270",
+      "restoredSHA256": "c9460c6ffef8fc1b602109fa4d2626fff77475982bd6c48113223364e4528442",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-failed.png",
+      "bytes": 481633,
+      "runSHA256": "830cdf251d836d18392922bd59631ce37d1c87d519a1412efa8c98e274331dcb",
+      "restoredSHA256": "1391d9f5948ec1c00d185fbd262b2158f8a171ab030a1915558475191c2cfa8b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-first-leak.mp4",
+      "bytes": 547273,
+      "runSHA256": "c94931e5ef3116d4bf5255ed1628b3d8adc80ece788a2f79619d8edba8d73b30",
+      "restoredSHA256": "52a5f518d769b35bf20c2034bed49c8787b1b7763a713d84779dc71a29e9a333",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-formation.png",
+      "bytes": 510968,
+      "runSHA256": "caf3ee7447d70832d9c0c42da736444d8aeea946d74b1e9e0b614b60c7f1bb0d",
+      "restoredSHA256": "b95378a941f2ef755974b39deed039e8a0228074bcf40caae732113aa54187ae",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-relocate.png",
+      "bytes": 530134,
+      "runSHA256": "af56fb3aaa987c0b3a8d9ff9dfc2d1f4ba70dbe415149ed06677bcbc8e5de7a5",
+      "restoredSHA256": "ad745f90e5f276913bfd3330f61ade6dc2dcdedb75e9d8a3b562b793e7e9ba31",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-resumed.png",
+      "bytes": 494461,
+      "runSHA256": "41cefb7f17abb68f0f180a4e99ebe88f401ac0b4274e5024936b661d5630eaa9",
+      "restoredSHA256": "c299effc759a0b4d49eb3bdf721c4f5626aa2d4c9bf6ae9b8e520fbcbf0cca69",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-retry.png",
+      "bytes": 530382,
+      "runSHA256": "acf8061976ea87f94d7f55090194809e13b8220362bd11c3bf334b3754087f51",
+      "restoredSHA256": "58578d0cf035d31d906b45108cea63e8a68feeb6cc125ad090b977e5dc154fac",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-1.png",
+      "bytes": 296670,
+      "runSHA256": "bf56a81127dfac533eca73922881dc95baec0af64eca3092d6dee4c79cb1dbb1",
+      "restoredSHA256": "2361e38406459f44908d7531b8f1d47f825ce83410afc7ad8db989a215f4d470",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-2.png",
+      "bytes": 296634,
+      "runSHA256": "2fda22a811fc1963a068bb629751fe0b4bb5e3682d82f0ea322005933800d7e7",
+      "restoredSHA256": "fef9acfb0655c2565eb06f7f3ac2ac35f5740de3c88ac44d4a7c9c04f8e80301",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-3.png",
+      "bytes": 296658,
+      "runSHA256": "5a85b8f1419757a01ac7087ccaf59f6205cc98531815b63546093fc3b9190092",
+      "restoredSHA256": "927b751ec6f63a4e6b2d955a6ed00d2a50bdab3710ce4dfc36b836077fcdb8f5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-constructed.png",
+      "bytes": 514066,
+      "runSHA256": "618dea8761d83176cef6e973b244b7285652898fdda6441ecaa0845be9f2ab83",
+      "restoredSHA256": "135962264f8b99d84c1945e8326111120698e4cdc6b8ae26ee4ce5cc827decbd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-entering.png",
+      "bytes": 511906,
+      "runSHA256": "16052f25cbe04525a4fa315977d963acb4a036c082faf019c2d61841db73d79d",
+      "restoredSHA256": "66310830c66cd2626b12eb3514a0a4fb77123a4a6b9b844ef5bfa293339473d7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-full-route.png",
+      "bytes": 519418,
+      "runSHA256": "baf1038d86bf5d1c2be894dcef3fabd164060fa51591f2dd353fbe8c5cc61945",
+      "restoredSHA256": "df43583a3fb920cd4d736ed9f38904882349bc0fd80635f0ee56accde54afd85",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-preview.png",
+      "bytes": 296650,
+      "runSHA256": "0e5d99ba98e77f4211f7fb37453cfd7f2120f6e7f356e26da458f23b69ca06c7",
+      "restoredSHA256": "b8a283965ff430d45b11bbd630a793687ee071de03295fdb1a9fae0b92b9c83c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-route.mp4",
+      "bytes": 418757,
+      "runSHA256": "e0f9aea4391cc14c7075734badf661ce21136d628f78e36f148fa6a296ca10f2",
+      "restoredSHA256": "69599b804f113ecd844e476daf658497ef0c562f6978fadc2c5f7c81b52824d5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-1.png",
+      "bytes": 511830,
+      "runSHA256": "b3a31eef457ccf8b49588fd8dd0b9a34e72384c44b21f331bd9771c51ec311a4",
+      "restoredSHA256": "e17d2d08f9698248e9f8be2d1c3b3e2437d228f42be6e8e2e1bd776c5fcf9e69",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-2.png",
+      "bytes": 512011,
+      "runSHA256": "044e69df9741caef606249045ab65adbdcccce47e22126f0f3b334840eb0091d",
+      "restoredSHA256": "fe671190db36395641e653726a50bd2c590e7f1237f4938f99e144dca2a34411",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-3.png",
+      "bytes": 511753,
+      "runSHA256": "3f7e374ecb999bfdc8f3f0849f3dda78219e2439a0e2883f985e47322bb0fdab",
+      "restoredSHA256": "946ddaf33a527202b4ff3b9d1118b3c9030b8f513b7367c6b250323037c6f76a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-constructed.png",
+      "bytes": 1717452,
+      "runSHA256": "0411d2d1f28ae9b0f19c12c817271a4379f629b4722db46fa8869cd5647e464b",
+      "restoredSHA256": "de0b6562b870f57a7a4c90e6e168b9d1263815dbdd6d15a091d4a154d932d3a1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-exercise.png",
+      "bytes": 1605560,
+      "runSHA256": "73bdef522df55f6e4ab8512962a7c2fd7bd2dce5a1f4d76872de58f27006c36b",
+      "restoredSHA256": "0053f2b5210f61c6c5988786a9d2a7bc6350a987319e3491f14032be253d6a09",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-constructed.png",
+      "bytes": 1805871,
+      "runSHA256": "0c1cfa63a199da73c07cdae68fe3a63dde558cfa77f06a2501d8d834fbaf698c",
+      "restoredSHA256": "7a9a6b1bf6892fd5a27108c0d52fcd2bbe45cd7e9f014402594599e1ce7d0f73",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-exercise.png",
+      "bytes": 1665613,
+      "runSHA256": "a3496f3d8ee143d547ae22fe9cbfa0f62ae92e7e5fa023fee1f54c44882d0ec9",
+      "restoredSHA256": "918e7081fcca0543de1588d87a050f6ac705aa948dc4f844d27ede8bd1c5474e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-shock.png",
+      "bytes": 1807525,
+      "runSHA256": "0c8124a7dd7dcd1d30694bebfe55e7b32baa9998f41f5ea1b412f2eadfd3954d",
+      "restoredSHA256": "22ae1a9c49cd6627b72c84a366a3aef7ea9e72f848f79021602968a6d8191739",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-terrain-preview.png",
+      "bytes": 757470,
+      "runSHA256": "13bc0d097a50ba1fb9e21a3ba7036b9c59458314d559b340c9e4150dd1e46b2f",
+      "restoredSHA256": "40a68b7dfcc6b2b9a96ced86a2558592d0c735bb1bf2e9b5327f8fa78d50a992",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-shock.png",
+      "bytes": 1718995,
+      "runSHA256": "b652590e0b40a16809173a2741fb845e5eff35fe9cfff8dbd1266e7d7c05f34d",
+      "restoredSHA256": "116fc2685980cb8cfa98725f8c4f03c3afc843fa4d2b2aee09c505027e221127",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-terrain-preview.png",
+      "bytes": 759187,
+      "runSHA256": "5e13b2942fdc6bc20feebfaeb7d724847be34c3377124e166f37114dd7458ad3",
+      "restoredSHA256": "e90c4c70f524f9797fbae21f61246e4dffb41df59f524f43e8a1d536e47f1cf5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-constructed.png",
+      "bytes": 362665,
+      "runSHA256": "1da01ed803d698f937a86a2f4b0fa789fb653b684dd6978b67d0ce834602609b",
+      "restoredSHA256": "eb7a4ca9193d5bfc89b68a0d4f555a2a841f519d7a56e5b0af696d7bd0936309",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-exercise.png",
+      "bytes": 351761,
+      "runSHA256": "903950d760d739fa5e0954e1a3479b720cb85b8a78bc4a60ca99590468aed2de",
+      "restoredSHA256": "52c4c1bbe36aece1b2a3f535619dd8f53e86e18208b1e90cdc76a2e7b93490cb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-shock.png",
+      "bytes": 361600,
+      "runSHA256": "c7eda862e4de06959a83b3730c8cc7efa357aab602395dc027ae008ecc2eef89",
+      "restoredSHA256": "f84a7c3711f186d72a8db3fc68c46fe6f45d4b970e9a405b81a03b5fb104a66d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-terrain-preview.png",
+      "bytes": 288511,
+      "runSHA256": "e1cff7b48be5f71125a5cda058a29cc20e101d2808bcb3aca8abe7b5bdbe306a",
+      "restoredSHA256": "8ebf06f03f879e00d3f02180958130fef819efe78448f1e760dd2003bd9a9d52",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-constructed.png",
+      "bytes": 1062921,
+      "runSHA256": "7adfde9e52c37667bcb36789a24e00bfbd5ca6c4695a3c750cc45788005ce8b0",
+      "restoredSHA256": "debaae7102535eeedeacccb08294ab2561cbc67dfb1f9bc399f4165fcd1ad944",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-exercise.png",
+      "bytes": 989265,
+      "runSHA256": "949714618fc3bc81a08d2a6fee35c06e114ef5b8a14910574f84233688765629",
+      "restoredSHA256": "08b951cd89f89a150fd9e3ca4295fa0184a96e4757faad3d73380319c59474f8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-shock.png",
+      "bytes": 1063086,
+      "runSHA256": "997448b40fa3ec6b251cd2f1b87c552de6f2fc7b0780a8ab34b9364a4072061b",
+      "restoredSHA256": "c012dc7c1f5edb7368a161db530ef9c722a2866ec7520617d9da7d50dedac476",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-terrain-preview.png",
+      "bytes": 495824,
+      "runSHA256": "09fadee270228201940267a41e43ecd5f27f9c812869818d9d40b0c5b6561a5b",
+      "restoredSHA256": "5c5717c328bdd9944004ea3f5eb6b766f26a1425b07941c8717468962fea07c8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-constructed.png",
+      "bytes": 513701,
+      "runSHA256": "1ad7485d6235dc5a5effa5e0ff725a2252afd7bb270bd43f61dd37bb43c132fd",
+      "restoredSHA256": "bcb892fed08bc77fae5d45449c232042228899f32cf49ddbad30cfe6951d6311",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-exercise.png",
+      "bytes": 461608,
+      "runSHA256": "469b1838573904628eefb722071bf881679122747e1b69ddbc2661f894a929ac",
+      "restoredSHA256": "0d95cb0671ec241d0fff42c1732b95a78759f1ae51dab5ba8e7fb3a22bc24cc3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-preview-operation.mp4",
+      "bytes": 76392,
+      "runSHA256": "bb9c55f9ece6c44546d8e344eb32d50a8d6c01db9182ba064600a067369f270e",
+      "restoredSHA256": "b2d510ea70d2bfc1743cfdb3f52769edb782b2073e2118db0b5ef860a937fe7e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-shock.png",
+      "bytes": 511016,
+      "runSHA256": "70e9c47fb59e8286f014c4815aa410871a218a654c778aad75a445b9bfdcbc00",
+      "restoredSHA256": "c97c94efccc75d0fe8c0b15f08c40210ef996347e9d71af88418784b7bd7cd4d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-terrain-preview.png",
+      "bytes": 297780,
+      "runSHA256": "65c29216d1b8722852f34f31cf80ac0284dcf2a0abd08fd7bbb622e9a9310cfd",
+      "restoredSHA256": "fea5ba7cb1d7f8df85a8fc12750dca6182271b6fdfd9f24322745eb9aa118943",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-before.png",
+      "bytes": 449797,
+      "runSHA256": "2f76c2a4e2df4e83257ea245aead06b6a73511c910b9f0fe5a74a9ce2446d9eb",
+      "restoredSHA256": "5d364f30af19635cef3ea8cd7aad0e652d9b049319d79c7d4561d9ab5f5857e3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-confirmed.png",
+      "bytes": 484379,
+      "runSHA256": "74520f94a1c9d03f9ee23b00a4bcf66b7d239953004aef3e27b6fe40fd955143",
+      "restoredSHA256": "d96d3f908c09e678be51e4200c260074d532ad3a42884d8b85c6a6ceb122c642",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-1.png",
+      "bytes": 484391,
+      "runSHA256": "2dcb70ba95b07c74c51a04e3c033669df0fea94a3023bede62c2376d318b0492",
+      "restoredSHA256": "2da9245a390d97321c43f237fc21b9187a65178c9636bc8d07abb66fb687b55a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-2.png",
+      "bytes": 484293,
+      "runSHA256": "95dd1f52099a62a2db2e970f2cf039624571ea903b9e19f96f1bb9ddb510fae5",
+      "restoredSHA256": "1a7c7a39df12cb96cf1a54a3e4ddbb1d01957b3dc5a976e45ee1889154431de7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-3.png",
+      "bytes": 484259,
+      "runSHA256": "3e5b5c661358131e99b659aee3a8a9f93bbeaf8b59069b037ba9a37bbe1693c9",
+      "restoredSHA256": "2c928f71fc76407c940310b6d7500ea908cfff1c136d37535235195ba9ce2a3b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-next.png",
+      "bytes": 561385,
+      "runSHA256": "048300d86bb5c14a15c108e90b2aecbcbae7ec83be3d36cc62a9f96858bbc2d6",
+      "restoredSHA256": "97509072622bf0dbd4b04080667d596df3cca4f3a7c2058f387452121d12df98",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-rebuilt.png",
+      "bytes": 543786,
+      "runSHA256": "a4178fb7e66216b0d9e0ab3fc1cc57d0e61c5c96b680aebc0ca9501cf90e180b",
+      "restoredSHA256": "a43dc5d136054320e145789793420b380fd0cf423f5eb717dd1c72536cd89110",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-reloaded.png",
+      "bytes": 561459,
+      "runSHA256": "4de1207d02bdca7d2b1a001a284125726752a53ea089e9ee00d7ee26ce806d8f",
+      "restoredSHA256": "4f567d4228fe440c57301d7f78b10d6929705cdfcff0ac54b8af08d8c3222e88",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-result.png",
+      "bytes": 484180,
+      "runSHA256": "f2f842259d97c16c9073934d69656fd3e601ae8ba1b52500db912f04a2713819",
+      "restoredSHA256": "5a44983474296bdaf3a9ff77d154a9961b827518573a74cf9e71d44d04fd5d2a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-before.png",
+      "bytes": 469053,
+      "runSHA256": "dfde6d36579944a2aa50c3d104abdf49a189dd137bd3abb36b8e0ba17e425f84",
+      "restoredSHA256": "17c0218376042bb230aa757a29cd7271064d4dfc41cbceafe64ef1fe53efe418",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-confirmed.png",
+      "bytes": 504399,
+      "runSHA256": "2281ae368fce74a970aef27dc4b1254ee82364fe364dfe0e42ad508c8580f406",
+      "restoredSHA256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-next.png",
+      "bytes": 540289,
+      "runSHA256": "4e2ca47cf3d329da4962eeba8890871cf54c6c045c0f10ffc0a2b63d4d916409",
+      "restoredSHA256": "6f50214eadd04a94e5432e3bb56850cb43e8bfa6b0b689f9f50daccbf920d873",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-reloaded.png",
+      "bytes": 540289,
+      "runSHA256": "3a99095af46bcb92912964a4a341e0dc7da2840f79d50a74e2a4398d5415f851",
+      "restoredSHA256": "7dc65d983572e9a3c5d9cc87e5b3d12ab98a6064fe8ec9a2f4abb1a53349b75a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-result.png",
+      "bytes": 504399,
+      "runSHA256": "2281ae368fce74a970aef27dc4b1254ee82364fe364dfe0e42ad508c8580f406",
+      "restoredSHA256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-offline-preview.png",
+      "bytes": 297563,
+      "runSHA256": "626e4da7b0d727840a876163b76736d732c45b39eec5f1372a09c7997909e8bc",
+      "restoredSHA256": "ef2018e988cf07de80fa1489412004740dd6cdb2cce6779f8e817290f95fed09",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-constructed.png",
+      "bytes": 181122,
+      "runSHA256": "89971f0553787d9605828b9c1aade38450b1ca4a6b8d6ea609c0ad7135a40917",
+      "restoredSHA256": "85d1e686e45ebfa413ffe4a0c6ce0f8b2bf6bc3da3537efc517efab766bde480",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-exercise.png",
+      "bytes": 174187,
+      "runSHA256": "373e63536b87ea3976dd8c72c6b19337d0c13c5955706d2677cac265ae5c281f",
+      "restoredSHA256": "b535cd9523cdbbab16d7f7f170e98e951fd95785c151b3d04232b12ba07fe83c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-preview-operation.mp4",
+      "bytes": 45875,
+      "runSHA256": "02447d37383d23f3dd5a95f35366fc3a52e5964137b6fba44b9e9362b88b1460",
+      "restoredSHA256": "dcd47769aa6180896558f6c2e37936cecec9e453e6b70b3dc1ac71d2025b01d6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-shock.png",
+      "bytes": 177919,
+      "runSHA256": "ef98bc2831f6535abe909063860fe7923e8d7d1f112a90dba039457ae144bbd0",
+      "restoredSHA256": "e849c59f676f92f8861101ca73c1053805e402b4fb0aabcf4e9c9411ea73e48f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-terrain-preview.png",
+      "bytes": 150424,
+      "runSHA256": "d5e064e0283b5305bf8e2918412baa2efc51dab0ffcc013fc4688ae368f6ac02",
+      "restoredSHA256": "3ce8e67e887f12006ea53487ea842db7a4d755f85c64d18cf1df117988185db6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/barricade-route-samples.json",
+      "bytes": 39901,
+      "runSHA256": "d9ada7d678ee85e3270162c929528968d7c5f00b001d3656a4b4b51ea3fd3ece",
+      "restoredSHA256": "bb67f5b23e8e8c45fbba1c0361d5c3e62f74cbf17feb5fa9de66936c566c3caf",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/e2e.json",
+      "bytes": 86128,
+      "runSHA256": "7db7bf18054a0034857d7e3904b5a9ee3db12fbec2154ffa3c57c30871936be3",
+      "restoredSHA256": "d2c21825944d9af48cea6ad1888126eac437b7b62ac72a14b33aedb79c9dbe5e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/flood-route-samples.json",
+      "bytes": 42429,
+      "runSHA256": "28635c59cd12ea0052fc1319a14a1aecf4490d516f720c106bb3dde775e6407d",
+      "restoredSHA256": "ce7da0ab7d6f238ac79d8e4e141b62037f06a550fa76545b822d284eead93479",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-home.png",
+      "bytes": 407266,
+      "runSHA256": "adec56d39eb4c59ed27a8d90a3fff96ffb3fcc20d31cb783f164e5ad3be91ef5",
+      "restoredSHA256": "a358d9c03de6ac2e6023c03cfcde05072b5c5e1280dd1b1eb4e4868a2e06cc26",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-combat.png",
+      "bytes": 459822,
+      "runSHA256": "538344c434acf877ba12105d707c41d50fa918cc40bbd6519de007493ab3f8c1",
+      "restoredSHA256": "b0e5c0c399384f52d30fa89870c950de29e93d0fed3f290fd902575d797121d8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-complete.png",
+      "bytes": 422657,
+      "runSHA256": "f5c2f1574db42e6ef74e18998aecf68df82304af906113017e9fd365092dee90",
+      "restoredSHA256": "611a6569befb1989066bedaf54db5c5d47aca54293a4dc41232029dcbe1decfa",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-failed.png",
+      "bytes": 433486,
+      "runSHA256": "0430a667bab40bde5df434d52921d96f8a7b4f936ce30a7493125d73a7d8b5e3",
+      "restoredSHA256": "91d2c28a15f914596275d05f3b6e0ed9b71c0d05ad044fdcec6baf4b4a8f639a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-first-leak.mp4",
+      "bytes": 914469,
+      "runSHA256": "436f4f0cfd1d893eaf822a811b3da98de35a7472e581b0cfaa9019b41d9100fd",
+      "restoredSHA256": "4326ff28f3206b7f7b8d94c2656849bdad906ea3be804a2af9dc344db36f1f79",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-formation.png",
+      "bytes": 457369,
+      "runSHA256": "e602fb4411fb94d815fc105be0d092c54c510ce93fb8d66b34dca3b8c8b2a010",
+      "restoredSHA256": "41edf3cac6a1ac1e959fe3d6349abfc36a092ec3ec72048633aafb9261a667e3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-losing-formation.png",
+      "bytes": 458349,
+      "runSHA256": "23e7ce86fecf0861b496fe1ed939d65707f3c552590c1296b2b043fcc28cd8b9",
+      "restoredSHA256": "bfefd97dc63cb75103cc237007bf11b6018c5b7db8a275406700bc87f8d205cf",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-relocate.png",
+      "bytes": 464776,
+      "runSHA256": "1b4904e13036e2a7a5586f72f5f845488ab25efa5548f8550fe80a6e36ad6150",
+      "restoredSHA256": "42f351eee94d72c14239374f1d2854e01dd9f9d0049b1c6badbd9e659750b083",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-resumed.png",
+      "bytes": 459587,
+      "runSHA256": "1e5893f7f4674249998625c4524e24dc1fd321eb459e030e32ecc0177383c70b",
+      "restoredSHA256": "b0087dadb63ad1c184b7c8e3ef88c15dd423d2172b29e5b13f8ef4a425af9e39",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-retry.png",
+      "bytes": 465123,
+      "runSHA256": "20432a0cec9d073851090cf67e431a8a40c6c8d671ad818f65484bdf778344f0",
+      "restoredSHA256": "6ed1d4c67f4ef49eb253427add5f1ce9485967c483f4dfccbd2af7f7e6a1572d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-list.png",
+      "bytes": 115229,
+      "runSHA256": "0a3182fda759ba75907727b0eea49ad1c0d35aa91113fa9ccd0a51277c91c724",
+      "restoredSHA256": "2b653b47b86b52d3ae1d40534fdd01b0663b9920f49dbde28bbe2fcb00b74d77",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-records.png",
+      "bytes": 116770,
+      "runSHA256": "1f557f0bbda64b1b1fdc311e7162ad47c0b8b6fe39e21d0a954ff09d2ee8b0e9",
+      "restoredSHA256": "49ff3add6a5a86c4a7ef1a1dac6c57a91dda556049421467746db9c46db4eb49",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-alternative-complete.png",
+      "bytes": 425579,
+      "runSHA256": "ae823743eb0dd8fc332a4ac40dcbe9231f24e47da2c2a0327fd653c9feddc106",
+      "restoredSHA256": "340379d71f86f99c361f7e2ff3e2c7ef4443bbef7cc3da48bde981124b81697c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-alternative-formation.png",
+      "bytes": 456723,
+      "runSHA256": "8c929e2bb183a52a23cffb930d92c02a2b03273ef5651eddfdf16c9cf865a736",
+      "restoredSHA256": "7938b906cd3462165fca3f3388f08e6f007986e4e88cacecb581012101eb4921",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-combat.png",
+      "bytes": 464846,
+      "runSHA256": "33c505146b5b07c2c1abfecdc546ee9e032df94556dfed10dcfda47d8e495be1",
+      "restoredSHA256": "4b48566100b172443a81176ecb71baf0260dc173cff7d4438456d346c4beaa81",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-complete.png",
+      "bytes": 427208,
+      "runSHA256": "d5ebfbe5f957b0689b0dc6c8a360c8eea12bf6311d00ed2fac145939f5abef8d",
+      "restoredSHA256": "02e8df30b4b73d92acaf027a890c0ea8929bf14545f420f0d118a3f5531a4a8a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-failed.png",
+      "bytes": 435896,
+      "runSHA256": "fd7fee149e7c2a9b463104f6834c2352b963773c74a492f464eaffdae32a719d",
+      "restoredSHA256": "dfd0e8bfe109c42513096e112c0ad192dd59720a15233b78550053db7e3159b7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-first-leak.mp4",
+      "bytes": 2262679,
+      "runSHA256": "35831afbc976fb23f8908e849406e803d1af08d4e54542dbc71a76b35447da69",
+      "restoredSHA256": "5f0649c75af19786d1dde751572475f4ba9e81eceb390f9faa7cedda08734f4c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-formation.png",
+      "bytes": 458578,
+      "runSHA256": "3fa916de3bc1f0e4ae15d21f360aef2cb8cf95902843bc51dc1afaf67a04bebf",
+      "restoredSHA256": "7d88b592d985342f657b9b79054dea7ee3bf45c8e7b324ae9976d77d46460cf3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-losing-formation.png",
+      "bytes": 459848,
+      "runSHA256": "64bcb4a1934056d307e8b01b52d6841c8e76f0759399f54134a27e5aa92dbc4d",
+      "restoredSHA256": "c6dd831f909a02599acb2d2b7a668059cd621b7318ded213e2e9d5e06151b6f7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-relocate.png",
+      "bytes": 472948,
+      "runSHA256": "cc08d58f5a520b988dcaabdca49e05dd4c655f42d966ea08e614102a6ee7f1bc",
+      "restoredSHA256": "ca9233481f5df26799ef24baea4152387d37c6cdb6737545a1df80fbdb5dbe3a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-resumed.png",
+      "bytes": 464820,
+      "runSHA256": "1fe62e945dc6844805822a7fb744a1ebceffc97745b24d64d0a321f27cce4581",
+      "restoredSHA256": "0ff7cd73034834e5bf023d3837171a5a5ed823370ce41cadd9b316e5bca2104c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-retry.png",
+      "bytes": 473485,
+      "runSHA256": "77769dc6b6045d974e594ad97674d7afb97a0412805296e1ff15d6bb461da0fa",
+      "restoredSHA256": "1be8b12d9ba110b7fde80b876fcdcbabcb72aeeb4b84f824e1312cd35bb520a0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-alternative-complete.png",
+      "bytes": 469162,
+      "runSHA256": "b92b7096a94b18dfce80b322625256b1c2dbdaec59eb3bae515c7018e0ff43e3",
+      "restoredSHA256": "6e24cbc5fdccac9f2dc151ce1d7241e68a03649d5a179b5dbd1cf091d9c3a091",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-alternative-formation.png",
+      "bytes": 508466,
+      "runSHA256": "586d4bc24e51819153392f9d415ad5db69e94a23e1906369a51548a32d958302",
+      "restoredSHA256": "872de8cb862c2da2cf040247458a83e19447934d3ab6946e239ad6822ead693a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-combat.png",
+      "bytes": 510377,
+      "runSHA256": "39a3ee98303eada188503d4e7b0a52e9c786643f1b5cb79691a484b5ee62056e",
+      "restoredSHA256": "a46641ab941dfddcebd5689927b4317c0b3441e1212ba6e28183e4d122798be0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-complete.png",
+      "bytes": 454977,
+      "runSHA256": "646e90d4aae1db3273f4caeba97c1e33dd85b2b267e6c03a5bf4fbc5ae200270",
+      "restoredSHA256": "6530a8c8b4a025bea4705f9ed5679ee16548fb63ba444d812bc40f3b696cd7b0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-failed.png",
+      "bytes": 482447,
+      "runSHA256": "e1e7a2e66510465e97c0ca25ca3f8275190411293f9fba73270751269df13c12",
+      "restoredSHA256": "dbe98e97b7407df661cd4c7ee99755c3cadd3c04cc8837f44a67c69a498095ae",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-first-leak.mp4",
+      "bytes": 1480396,
+      "runSHA256": "b74798ccb9b651dabe9482802b6ff476f9e1e619cdcd0e7ee3798761e387e94e",
+      "restoredSHA256": "672b28e9789ba24e9fe1217b06279d2757eb97355ec6a4ebf940e52b51e723f3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-formation.png",
+      "bytes": 511214,
+      "runSHA256": "220d2bd01dc85ce759f39cd515529ad6abb1b312d85799f31fe58345dee335ca",
+      "restoredSHA256": "d9bc9d89dd6da5fcf6f063f96bd88689a5dd25bcbf4519772c218bfba6b7598d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-losing-formation.png",
+      "bytes": 508136,
+      "runSHA256": "d910c1261195c763059050040771f2f72531016e5783538e5892fc34753c9e78",
+      "restoredSHA256": "bdd79cacf8dbaf0f82e60aef5674a41568702ea2c25b308278e2e5bdf56dc57e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-relocate.png",
+      "bytes": 530151,
+      "runSHA256": "011f3b9e3e1fff3b2b7360fa5da156f4a03be3f443e8051f8cf69b2cf3e68ce7",
+      "restoredSHA256": "9e494a68c44ec16a8f02c9c090a9b503d4d1c60d1077027fb74440e5e2f7423b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-resumed.png",
+      "bytes": 494461,
+      "runSHA256": "41cefb7f17abb68f0f180a4e99ebe88f401ac0b4274e5024936b661d5630eaa9",
+      "restoredSHA256": "3679958c98d11f0f4de927534c5af044d674c44b311d7c00424fa4d1604fa90a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-retry.png",
+      "bytes": 530382,
+      "runSHA256": "acf8061976ea87f94d7f55090194809e13b8220362bd11c3bf334b3754087f51",
+      "restoredSHA256": "4628878b82453be5ee538e2f3b0aa4de8402621e1300b30019adbfc73034393b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-before.png",
+      "bytes": 449797,
+      "runSHA256": "2f76c2a4e2df4e83257ea245aead06b6a73511c910b9f0fe5a74a9ce2446d9eb",
+      "restoredSHA256": "41fd7d1196a3046fd4196c8e61390d6ec3cf298b209ba9f83ae5eb9b0acd9b33",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-confirmed.png",
+      "bytes": 484376,
+      "runSHA256": "99d55b75dd1bbc9d9511786c6d527923402c4cabd31b8503201135c3e6a78279",
+      "restoredSHA256": "90180d217cb1091ee5a99cd17f3b8914ef735046d3d3507d639ea34e4fb41690",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-1.png",
+      "bytes": 484391,
+      "runSHA256": "2dcb70ba95b07c74c51a04e3c033669df0fea94a3023bede62c2376d318b0492",
+      "restoredSHA256": "3a64fc131d7ac43266646ef5fdcfa6c5acfa87bd9e1f2aee58d31e11ea900ec7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-2.png",
+      "bytes": 484293,
+      "runSHA256": "95dd1f52099a62a2db2e970f2cf039624571ea903b9e19f96f1bb9ddb510fae5",
+      "restoredSHA256": "bd59170176368f9998ed914c99292809fe2dae9b5fc3e62bc9b95e75fc942d4f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-3.png",
+      "bytes": 484259,
+      "runSHA256": "3e5b5c661358131e99b659aee3a8a9f93bbeaf8b59069b037ba9a37bbe1693c9",
+      "restoredSHA256": "53cb42db05b9d2b06c617a507b3a5ed04af420f43901bbe767add8fa49320943",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-next.png",
+      "bytes": 561385,
+      "runSHA256": "048300d86bb5c14a15c108e90b2aecbcbae7ec83be3d36cc62a9f96858bbc2d6",
+      "restoredSHA256": "886208c5c0de4428743b6305d46338e438ab3182b844cf0dcb6a42c80a69aabe",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-rebuilt.png",
+      "bytes": 543740,
+      "runSHA256": "6802796d19d365af85149f7c1f8607281b297fdcbcb1a23e5d1f12b3c9667824",
+      "restoredSHA256": "79b3cdf4514ef5c9fc908c32db5a7fc2468c23d870bdabc90ab5dcaa6dff81f4",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-reloaded.png",
+      "bytes": 561509,
+      "runSHA256": "af59d36c967b79d5edaab8b26e5513697db538f2843e6a5be2d1aa98af515507",
+      "restoredSHA256": "f253bcb1354610b27b571f3a822f865e6ae9edf357382e12238a0f9a2b6c6224",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-result.png",
+      "bytes": 484180,
+      "runSHA256": "f2f842259d97c16c9073934d69656fd3e601ae8ba1b52500db912f04a2713819",
+      "restoredSHA256": "e31acebf4b8bb44a38f964be1cce3c321cd9851e098d4254f5f5d315366a944e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-before.png",
+      "bytes": 469053,
+      "runSHA256": "dfde6d36579944a2aa50c3d104abdf49a189dd137bd3abb36b8e0ba17e425f84",
+      "restoredSHA256": "a69ad9c725a8f6ddfaa3bcb4b0fe3730077aff8b946c336bc1814e87dc7b9faa",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-confirmed.png",
+      "bytes": 504399,
+      "runSHA256": "2281ae368fce74a970aef27dc4b1254ee82364fe364dfe0e42ad508c8580f406",
+      "restoredSHA256": "ab44afd474eca27f974e0db2db8666a4678651ba5480d714a286cb9a4566905d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-next.png",
+      "bytes": 540289,
+      "runSHA256": "4e2ca47cf3d329da4962eeba8890871cf54c6c045c0f10ffc0a2b63d4d916409",
+      "restoredSHA256": "e1a8bd4a5172e93053cd7e8cb43ff1cee23082d6bfd8c84ac68299dc7a808e8f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-reloaded.png",
+      "bytes": 540289,
+      "runSHA256": "3a99095af46bcb92912964a4a341e0dc7da2840f79d50a74e2a4398d5415f851",
+      "restoredSHA256": "cc055836d02b54bec1ab105ed69048037bf8e4c01a24effe2e9f86d0daf61124",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-result.png",
+      "bytes": 504399,
+      "runSHA256": "2281ae368fce74a970aef27dc4b1254ee82364fe364dfe0e42ad508c8580f406",
+      "restoredSHA256": "ab44afd474eca27f974e0db2db8666a4678651ba5480d714a286cb9a4566905d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-constructed.png",
+      "bytes": 1717452,
+      "runSHA256": "0411d2d1f28ae9b0f19c12c817271a4379f629b4722db46fa8869cd5647e464b",
+      "restoredSHA256": "6bd786a968a1c83a206770d86ae74c74884a15fe3042fe53b544ed7987f673af",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-exercise.png",
+      "bytes": 1605554,
+      "runSHA256": "c4897ccef7e2d5335b1439c2a877ec03b2d373e5aa33200dd92ac56fb496fec8",
+      "restoredSHA256": "292086d0c5b8baf2caffee9585542470568f229bc6a4a38b2ba28f9fb75a86aa",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-constructed.png",
+      "bytes": 1805871,
+      "runSHA256": "0c1cfa63a199da73c07cdae68fe3a63dde558cfa77f06a2501d8d834fbaf698c",
+      "restoredSHA256": "e996a2135fe13f7462ccabdc835056b4e4c97b74e19dc0d52b4fff5ae38fee7a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-exercise.png",
+      "bytes": 1665531,
+      "runSHA256": "3b759d8ca39fbce3929367aa28ac24e240fa0b74f4ae587ecfab2653f968d895",
+      "restoredSHA256": "a688899ef8a11e2b92401e2b18de819c031a6f3555218206e439a7b87a9d5772",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-shock.png",
+      "bytes": 1807525,
+      "runSHA256": "0c8124a7dd7dcd1d30694bebfe55e7b32baa9998f41f5ea1b412f2eadfd3954d",
+      "restoredSHA256": "bb1a1c977b701d2abffe3478a96b42230a3bba6160ca90a590cb820cf8d3af04",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-terrain-preview.png",
+      "bytes": 757485,
+      "runSHA256": "920d19e35ed53a2aa8cac54a4e739ce6bfda255ccf459c0c547df1d53a6233e3",
+      "restoredSHA256": "e8a95a682fc3ae3b8251da226d4612797e888dcf6566a5e5b40bdfc08f8f6806",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-shock.png",
+      "bytes": 1718995,
+      "runSHA256": "b652590e0b40a16809173a2741fb845e5eff35fe9cfff8dbd1266e7d7c05f34d",
+      "restoredSHA256": "48dcd3fbd91c24d37d7b0bb17cc1d374d918fb2de4e688dd2346ac7c4c3d5422",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-terrain-preview.png",
+      "bytes": 759187,
+      "runSHA256": "5e13b2942fdc6bc20feebfaeb7d724847be34c3377124e166f37114dd7458ad3",
+      "restoredSHA256": "013107030a11ac002e8bdf2cca6109ab4c6ecdb4904dd10dad40bac0704f21e1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-constructed.png",
+      "bytes": 362665,
+      "runSHA256": "1da01ed803d698f937a86a2f4b0fa789fb653b684dd6978b67d0ce834602609b",
+      "restoredSHA256": "dc1865911f9c1f7211a1f7d38f3cc4968170b17b960ca55ff754385a002d8f66",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-exercise.png",
+      "bytes": 351731,
+      "runSHA256": "470c3edd74e772fd1b254a604f61e88b1737fad3d38d0679b4c5159bf019a897",
+      "restoredSHA256": "a04fc5f2c7854c5172d471ca0a88dfeeb0027a5f6327f93343822f142985dc71",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-shock.png",
+      "bytes": 361522,
+      "runSHA256": "7b6ff5e3c48bf850fce4c70ff7673f0c1d335bbe5316c5f4a4974c79462810f4",
+      "restoredSHA256": "8a9d06e1b8e9aeec33862a83d1d242d2e9018db9ac58c64b093724205b3d6f84",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-terrain-preview.png",
+      "bytes": 288433,
+      "runSHA256": "42397d6ec4b0ed2a81db27ae7194211697ade1893fcbe72872c4ca09c00725f6",
+      "restoredSHA256": "8ed9ba4d50d123fdea89cb78f53373272383544b04c216098604779d2754d44e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-constructed.png",
+      "bytes": 1062921,
+      "runSHA256": "7adfde9e52c37667bcb36789a24e00bfbd5ca6c4695a3c750cc45788005ce8b0",
+      "restoredSHA256": "d8852eabd063c0ffe3cda0594e97c38c538f3bc287f31eca132b7fe1e037ff09",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-exercise.png",
+      "bytes": 989107,
+      "runSHA256": "2603406d55524cc838c7e7c238a3e01292ddb36c8cd4ed7bbe3a97824ed13b49",
+      "restoredSHA256": "5cb458e54cda9e09c1d5b0baed8eb24dda3f0e6aefba788a374f6f128ab2c3be",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-shock.png",
+      "bytes": 1062965,
+      "runSHA256": "aa82e3529c8d90f3640cb5476b4ee213b61130b5f14456f2be01792da766d2f1",
+      "restoredSHA256": "016373eb5619e859d6cceb27aa13e41b1ec4c510e2f52ca1b916b625bf9f9e40",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-terrain-preview.png",
+      "bytes": 495835,
+      "runSHA256": "55a11d94103897e7bffbb92725c776d4e02a60c2b0f023f56c313d914ae060c2",
+      "restoredSHA256": "9bda48ef24c8389a2e25d1059b6392f495651b7c669e0403cd10f09709310512",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-large-constructed.png",
+      "bytes": 513701,
+      "runSHA256": "1ad7485d6235dc5a5effa5e0ff725a2252afd7bb270bd43f61dd37bb43c132fd",
+      "restoredSHA256": "2bf1d1573a6ff89048800e3065e70fe803528699d902929e83fe962a368f64c9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-large-exercise.png",
+      "bytes": 461562,
+      "runSHA256": "3596352bffbb74bb4b655c938940fd34318ef959f125ed9826de9d73c41ad57c",
+      "restoredSHA256": "d73e698cbd2a2ac8d3f4172bc96d17ee25303eb5981fbd4870e0b0cd47839345",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-large-preview-operation.mp4",
+      "bytes": 76448,
+      "runSHA256": "7e75a0eaffd56c18aa0812a567bc5ed8e0347f74bd6d93197e8a1a73178899a5",
+      "restoredSHA256": "f7cfcc37417d4ded03463a88e764213a765f04d2a08eb84aae4a3196499936b4",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-large-shock.png",
+      "bytes": 511016,
+      "runSHA256": "70e9c47fb59e8286f014c4815aa410871a218a654c778aad75a445b9bfdcbc00",
+      "restoredSHA256": "b121577cff51370e933819f27a51e83b23b437c9c3f5594e020bb74797de35e0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-large-terrain-preview.png",
+      "bytes": 297780,
+      "runSHA256": "65c29216d1b8722852f34f31cf80ac0284dcf2a0abd08fd7bbb622e9a9310cfd",
+      "restoredSHA256": "8100a9af763338d1e6f2a6a0388ca1353abcdbfaaa8e2825920a6347c78d44d0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-offline-preview.png",
+      "bytes": 297591,
+      "runSHA256": "14235314f9adc7e510e2ec6d0e6eae3b18f42b38568ee4af1cd00ffe7263edc2",
+      "restoredSHA256": "4eee3bc4e1f197e5b4e45f5a3639af554b616c4cd48ea90f7105a488bdf7e7dc",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-small-constructed.png",
+      "bytes": 181122,
+      "runSHA256": "89971f0553787d9605828b9c1aade38450b1ca4a6b8d6ea609c0ad7135a40917",
+      "restoredSHA256": "e4f969af1d610eb48146ecd90a9bff575c9dc21c170cbee5fa7d4af5cacad292",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-small-exercise.png",
+      "bytes": 174130,
+      "runSHA256": "4b84b5134357996b9035825728167442355dae635047aaad2af7c8c4e524191e",
+      "restoredSHA256": "f8b161d4b32bd3a5cffa1e6cf6adf91dcbf27c054c92e5ce2199126577b7fb5f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-small-preview-operation.mp4",
+      "bytes": 45861,
+      "runSHA256": "700ac78b14d106509d34d97dff80052d9368f3fbbf97cbe357db0a6ab11b6d10",
+      "restoredSHA256": "f09ace9c9bded3d5469952432d685d2d0b0f4f4431276a6c1ab469c58db47d48",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-small-shock.png",
+      "bytes": 177937,
+      "runSHA256": "4fd75898c78319f3e3e9d0659d01b38c149f19f920c0bb68a4a239aabdbb67ae",
+      "restoredSHA256": "b6482325db69c535595674d62ff9aebe4a0a1ff8721051813659216dc048f7ba",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-small-terrain-preview.png",
+      "bytes": 150418,
+      "runSHA256": "23f85a4ae7a4e92e1f646f7df90fd254c0b1bbb994a7074b52434c69fbf410a7",
+      "restoredSHA256": "6769df738d4e3df7468a727110bd34c9cbf5ca49e72919e9bf69f6091873fc3a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-1.png",
+      "bytes": 294750,
+      "runSHA256": "87f74eb502aa460c27fc67de9e3ffc9c533af2faba720416e9af67377a3f304b",
+      "restoredSHA256": "4d8e0498614c2dedaa401c3e057e15a1577d0c6cb220effbaf25087069248edb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-2.png",
+      "bytes": 294612,
+      "runSHA256": "86fb3ff32eab9ab7fdedc6d48ebd5fd004de49394074709e8df0285baffb272e",
+      "restoredSHA256": "642f0c5a7533a1a4f0433f810ecc44a7a2a612613aa3220a5b50f321334c28dd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-3.png",
+      "bytes": 294631,
+      "runSHA256": "7a6cb655d677370db8b6d9f0d47a1d5e88433b18a6ed569f9516f0345c9ecafa",
+      "restoredSHA256": "b2552f9f117936a26ff790bdbac46121ce35cf59a6a5fdf3370a39f4b2fe8f55",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-constructed.png",
+      "bytes": 508522,
+      "runSHA256": "c54a94ef22c65e05d26de2749fd089445be25c7addc957a0afc44bcf72f0a268",
+      "restoredSHA256": "a08b1a92c1414b98e39b1720a5bf5071bc6e1ef862bc4f858033b8cda8260997",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-entering.png",
+      "bytes": 506666,
+      "runSHA256": "ba083983a9dc4b3bfcc39a5674ea9535858a47366ac62051ff5c73100f837cd6",
+      "restoredSHA256": "8c65fe610d7f442ec5afaf9d22da88a395b1fb1df42a665fbfc692c563b07970",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-full-route.png",
+      "bytes": 511379,
+      "runSHA256": "a4e34611c26c8100e85b85ead2cff372f37e58d25206b798ff350658a2e62284",
+      "restoredSHA256": "e5bcf4a02c9f45cae14ff8e2cce402d16fedeb77b01d4a451e27ba9830f0ae7d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-preview.png",
+      "bytes": 294615,
+      "runSHA256": "5f3b3a29bd11f4a5f1bb3012988730c19d0ebc1ecfefd0db75a7246ea7b1438e",
+      "restoredSHA256": "7aec876a3d28a7f98d74b332269d854dbc906aefc3c5b20430e6db8e7fd22724",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-10.png",
+      "bytes": 506469,
+      "runSHA256": "b0d8ae92cc1ab2a24ba4237e61bc6f089b80e4f40c8146076414f84d4cf81509",
+      "restoredSHA256": "1b888601c644e17fe681bccc65234e718563567385da02d46a1a8243cfd85a5c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-100.png",
+      "bytes": 509012,
+      "runSHA256": "e400d836cdb700b1ef86a6b14edf8da32e454c5eed8249aeee58c4a313b3373f",
+      "restoredSHA256": "a333e6c64327dcbe33486d014d84fc58670c6de556613591538b50c10a860b69",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-20.png",
+      "bytes": 507158,
+      "runSHA256": "5aab17217ca5487ef8c6c9ea79ceb4208ca6e42db7b346c14f24f4c2a303a1a0",
+      "restoredSHA256": "419e7c7a62e9386869867465c4549ef386934aa9a8ad9ef50dba4448aafdc5d1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-35.png",
+      "bytes": 508015,
+      "runSHA256": "8019b36887ad69594b0c2cf30266be903d378a3339f2ecf0dda3c60fbf1f1141",
+      "restoredSHA256": "d7ec9ecda1c1ba558599f658b849129756778d39664c3e6879c984703ce402d2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-50.png",
+      "bytes": 508794,
+      "runSHA256": "7acbb64d50db661f1199282f5fae249c4373610f05ee90ec2572343c27a68cf2",
+      "restoredSHA256": "0179066aaad111db6570290904b5a81548cafe03b32e94f854c0e6a2dca5ac33",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-65.png",
+      "bytes": 509161,
+      "runSHA256": "6f86228a7e629c6aa77fb24d3c839a1ff5bd1bdafcb8951976323e1d46174d4e",
+      "restoredSHA256": "4bb17f46b96545db069dd04802bed90a6826f6776f772a0e30acee6841d0916f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-80.png",
+      "bytes": 510661,
+      "runSHA256": "ba0dbb6eeb0df9d758a41354a3cc2d778c94003628dc9555ccd1add886d78291",
+      "restoredSHA256": "7b47c5a7c7c37ee044a89f9e9e9cef251ff95c8c8be14cc654935db851f7c97d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-95.png",
+      "bytes": 510343,
+      "runSHA256": "12ad583d3ee577956a480456e52052f394f7f09c6ad724a6cf0a96eb11dda73a",
+      "restoredSHA256": "e9e83ebc3d4731e82a062f767ae1d58bbf765ebb7cb49ffc3093dc0b1b278122",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-route.mp4",
+      "bytes": 397259,
+      "runSHA256": "4c509fdc621dc2977c4fadc096d62e8c7edc0e507a68500e2e09ba759d6aa499",
+      "restoredSHA256": "9c1c32a401125e913d743a197d4cae76e441a1ea1d62ec60781613ab44b75788",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-first-wave-required.png",
+      "bytes": 299265,
+      "runSHA256": "1242b92b85288ee1c132f4f51722e6117c9361263d7173515ccd44ab05db45c2",
+      "restoredSHA256": "9371ed16f7649ef70e96e79bfa3dc4d3f70caff4764c78a87a48a4ccaf35c83b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-1.png",
+      "bytes": 296669,
+      "runSHA256": "518e2f7408f78aa3a6a6b2637c34a83a96dd99c665f0c0e77efac415bb01e4d5",
+      "restoredSHA256": "51158c1f997b04f8dd3b6f4c4370b183c652c078faa447ae923b4573d40fc0d0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-2.png",
+      "bytes": 296693,
+      "runSHA256": "0ad1a502e6ee4c1997274f858fb8dd3b3d44ce99173eeb3c969be94181239733",
+      "restoredSHA256": "a11653ed1bf3394060a96603936f501e0428682227fcf2ee89db882e9bec90b9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-3.png",
+      "bytes": 296565,
+      "runSHA256": "2985bef311c6fe8d3ef453f9f201f3b63e98f5ec9fb5a3d2c441ca374fb9186c",
+      "restoredSHA256": "188201ec0e3c5f331035ab8b6af0897bcd357d4eab51d1dd0d914c29ee49691f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-constructed.png",
+      "bytes": 513962,
+      "runSHA256": "16894e9fce8c2be3b65f2e981181ddd6f18ea961fd6f821429e0e970c673538c",
+      "restoredSHA256": "e54ac5a5c63a3304d320297946b591a524c8b1c846ad1ac4bea5cd8247457236",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-entering.png",
+      "bytes": 512141,
+      "runSHA256": "ecac34c04a926be033ba3d4e87dbdb6bb16b8197b90e3ebe156da5bfe172022f",
+      "restoredSHA256": "fb336406bcd2a1627b76d25dcc134b2b661cb9853cbd6833c3b2a845dacc1571",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-full-route.png",
+      "bytes": 518739,
+      "runSHA256": "2a2c03cf2e9312dda3d9d67c4875ffbd34bb4621b24ff23cb36bcb11f06cd8ce",
+      "restoredSHA256": "1eec93f14d83078b5fbc6c7678b5dd3be37df87f3d61f1fc8fa365fd6c37e982",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-preview.png",
+      "bytes": 296631,
+      "runSHA256": "0cf2dba0971e4654cdc3249e0ff3bd16ebaecfbfc3e9d420c88403f699db7ebd",
+      "restoredSHA256": "5c3932fd9b42dc95edd780f4a0f2c4aa6d287deb4ab99a9c6cf1f96db42110f3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-10.png",
+      "bytes": 512106,
+      "runSHA256": "80545c3578ec341178bfc207c010af2b006cd315f9db424f801db3594652ad89",
+      "restoredSHA256": "38f0f714e82a21aa0ec915fa31ef9ebe683f6822f5b7baf229c88f1d01c0aea2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-100.png",
+      "bytes": 516418,
+      "runSHA256": "298a900fc83734aeafa47d242379cf72160215eb8721a6af14698c7d94652a82",
+      "restoredSHA256": "12634d28ece1f5a77bef8daa7189bde1fe153befe57163f24c0fb21d35e19335",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-20.png",
+      "bytes": 512644,
+      "runSHA256": "6cf61ced5f0b388e3074cb3c689f2bd55575569bd267bd4ba3acd57d1f399873",
+      "restoredSHA256": "904cc266a57c04b64bad85d3d27574e31819a6a7fcd8286a68ad0f82fde17e6b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-35.png",
+      "bytes": 513660,
+      "runSHA256": "9070dd497df01fef954ee08377ac1655cd42bb461537a6ffe9039e3a66598250",
+      "restoredSHA256": "e4b8256b11fa8fbff1a53446131882feb44c1c68f3346996f07a4cd9d6554f0e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-50.png",
+      "bytes": 518459,
+      "runSHA256": "90e84c0e5bb1c684eef1bc943c4c05baf1402ec1369eefded70b9fa8a3a65874",
+      "restoredSHA256": "40a175cb2029e9f8f9edd11063dc21480d70b29519179d831cb73303370a1198",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-65.png",
+      "bytes": 520598,
+      "runSHA256": "d9ca4792eee0926d3a6baede34f03e2b654728436c45f62cf82aebbc48dfa2eb",
+      "restoredSHA256": "25b98272f69abaa6757f4a0766b63d6c59766bfd027d96d2588d1aa2c5ea2938",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-80.png",
+      "bytes": 521661,
+      "runSHA256": "d9f4273a3d9460c6493e163c2283a99016c110cad69c2abd95a6f5965087fbb8",
+      "restoredSHA256": "ed3fcedf86311821e344a3420051692446716844e04234f1faedf257b5fc0c03",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-95.png",
+      "bytes": 517582,
+      "runSHA256": "6a1d78cd006e4ab21b93c7de7f7e1bcc8162a6aa100162668807e858f98ecf33",
+      "restoredSHA256": "ccdaae3750a479776cfa6c63ae316514af0998a3caaf0739c358f3857bb442e5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-route.mp4",
+      "bytes": 424925,
+      "runSHA256": "aceb17dbf50f7c7f314752a42708df4af7e9ab37eb0c284093423aecda166105",
+      "restoredSHA256": "44174349109815476b9ec2ec5ff30215c678899f30892e1b8911a8fb4b7d8d69",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-1.png",
+      "bytes": 512853,
+      "runSHA256": "72966669a3efc3d05b3caa9dc75b80fe8c223f131264ed1b6129d95527c9ef81",
+      "restoredSHA256": "27ce1ef237908ed4fb322ebb6c8f9378ee8353d3a9fc13ac446cdbba56b5c8e3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-2.png",
+      "bytes": 513809,
+      "runSHA256": "a042208b7bf5a2eb7d22b8fdcd18e242f8af6df69d14ce95e323684535279306",
+      "restoredSHA256": "b4b6b8734ae3c7afd3c0d8df8c1b029dc6ec087bbdecd98bc87fd3758c4a23e8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-3.png",
+      "bytes": 514131,
+      "runSHA256": "a5b2e118de9920595e2fc97173d08c27ef431c248111882e83063ebd6ca40b2c",
+      "restoredSHA256": "792ceeaf7e04e0e1fd6d8eb9e88e8ab47a22bc99f763a2e62d1bdafd5c50c64b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/e2e.json",
+      "bytes": 55355,
+      "runSHA256": "bfdc21f7cf8b9be0a8daab01615b8e5f8eb9737d6f757d851a776aee1a49df7f",
+      "restoredSHA256": "8a106d2446c12746ef5a89804ab5534a16282db4e37e2ae094d3a32030b2f7f6",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-combat.png",
+      "bytes": 460403,
+      "runSHA256": "6c0bc2932cdc9b081a572d41de765f45c33cd01fd11e3909825d7594ab9ccd29",
+      "restoredSHA256": "2a087ece19078e0f4bcc192ad9022f53545407fe9eb6d2416aea09efcedb46c1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-complete.png",
+      "bytes": 422657,
+      "runSHA256": "b5870d892de1220e2032e2506039725421d50876f27101f0655b9b2649ff5a06",
+      "restoredSHA256": "5d1637d48d9e3a59ebe7edfa24f7b621240080192025ce76b7820eb4cb88af7e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-failed.png",
+      "bytes": 433486,
+      "runSHA256": "8e6ca6fe8eb5251c6a241b187dae6b4c558d473f8daf3d5cffc44f3a816b7349",
+      "restoredSHA256": "bc75ed65b15f0249c3b69c5c2a3208d9cc194f0365adb6f5cea5e72a4bfc34db",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-formation.png",
+      "bytes": 457276,
+      "runSHA256": "bc3f721bb927718e99995eeb92a59edda71fc1b04e38b194966396019c4b142d",
+      "restoredSHA256": "72506d0c5c089f83666da0413495092a36a6af23da9ffdc90ec73463578601fc",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-losing-formation.png",
+      "bytes": 458304,
+      "runSHA256": "aa69c81545471d7ea3157036efb8470f7d4b369367decb72b4b4412bd33e3646",
+      "restoredSHA256": "e6b058363d34c7bff7b1ab8b2b3f882e8e13119908f0bbc1d5cb3d15fdd398f5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-retry.png",
+      "bytes": 465123,
+      "runSHA256": "20432a0cec9d073851090cf67e431a8a40c6c8d671ad818f65484bdf778344f0",
+      "restoredSHA256": "1b2dbad9904a34111314a6cd00fb1aac85a642161ca7bc5e4b8d2a81f893ec21",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-combat.png",
+      "bytes": 465015,
+      "runSHA256": "d08472d1a8205250a544e64d7e1586a0733f293f34e9bdc5833a9cbabf27d590",
+      "restoredSHA256": "999d4a0142a3835d6357ce4e120bb6f98bd595e2bc5b5ba885c3270be6d3e3a8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-complete.png",
+      "bytes": 427207,
+      "runSHA256": "13bf2d7755c77f5bf6c02e3e47a9653445701606315e4b9ede8809a14ec359e3",
+      "restoredSHA256": "62441b85038a7d17e039dab9f95bd86c46b29347b63b69d9962b3337abd20a50",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-failed.png",
+      "bytes": 435896,
+      "runSHA256": "fd7fee149e7c2a9b463104f6834c2352b963773c74a492f464eaffdae32a719d",
+      "restoredSHA256": "0b023d5999b11f3d962efab1fa91b43edc13905ce2bbd2fccc0e47e04e76d0b3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-formation.png",
+      "bytes": 459190,
+      "runSHA256": "06395a9641d5c361d8c55e489ef8a07cb3d5e2de5de6428ca9f8e346c063a803",
+      "restoredSHA256": "423905ef2c290ce5380ef440c52ece8d2a65fe4f28bb14f24c1b79a3d1589b09",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-labels.png",
+      "bytes": 1605054,
+      "runSHA256": "f27adf40380809aa2bd3277e592e131216317c68382abc47836f4f494d3c4bc3",
+      "restoredSHA256": "8505dcd7b8b060fc4265f558e5d9b92a0df8da74d1bf446542d7a3cd991f1034",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-landscape-labels.png",
+      "bytes": 1665160,
+      "runSHA256": "1cfc1de572077bff3486778cd6d0a3eda25314877767a2c966170972b3904257",
+      "restoredSHA256": "c2835257797621bc6fa8e9403d96ac5b1cf5f07bda9b0ae7e4e188f8a87f9687",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-landscape-swap.png",
+      "bytes": 1644163,
+      "runSHA256": "39b01714b8f6dbd156eff328d17dd7d82f31829d24eccb81601768c7e536464e",
+      "restoredSHA256": "06a545849af5d170aa48b1e0f1e3c3660d796d412f61424f101965fc248655de",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-swap.png",
+      "bytes": 1608646,
+      "runSHA256": "b2d246e70e2792af6abed40f601e406bbda99c30daaf0e441fdc8b622d907596",
+      "restoredSHA256": "f20c34b4498f940242d67fc4801b46664be855547cf3ae7de548371fd12aea06",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-landscape-labels.png",
+      "bytes": 351385,
+      "runSHA256": "57d1314a04adf7c802c01711a91fdb7dff494e682645d74a551c9db2c2ca2934",
+      "restoredSHA256": "e1b72d7b6713a52963cf3264707126eb26d8119b15669ceaa1c147a25a371e9e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-landscape-swap.png",
+      "bytes": 346397,
+      "runSHA256": "e644ec6a96d984a55778061c4a2063eb29fd40d50a8e2609d58f4e74d841ff58",
+      "restoredSHA256": "f0ca776bc399490e54a4feac255b7dd4edc4f3cfbc6f29ab7e54fceaa8bb1505",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-losing-formation.png",
+      "bytes": 459845,
+      "runSHA256": "1bc1d34ec001db9cc818d34570eb1c773898650bae57b0d3dcf7d6c630fd8d75",
+      "restoredSHA256": "5af5cad5ae301b5a42a99493c50924be44cb8a6e40a8301ea2cf4ab9ca07d75c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-phone-labels.png",
+      "bytes": 460242,
+      "runSHA256": "bc3d44d1ab699669c9b2c33da5fe490a8f8239b103a4187481575055b7b7e701",
+      "restoredSHA256": "a2a9a2b5fd2673cce3e960b3ab0adffc79eeea6d99536143f651b1223ffd4e44",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-phone-swap.png",
+      "bytes": 473034,
+      "runSHA256": "e3fbb3324495ddd4905b161b1753c8e8b97de0b25b5578b68d129263b7ba3050",
+      "restoredSHA256": "33d63f515d105f84a2f4d46683d26252d48fc153b77998b1a0d24d0c1510f96c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-retry.png",
+      "bytes": 473485,
+      "runSHA256": "77769dc6b6045d974e594ad97674d7afb97a0412805296e1ff15d6bb461da0fa",
+      "restoredSHA256": "63a1d6261ac6849ddf9e63f7d410c5a39a6c4a8d247d77f3017cc6a7308d5b49",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-small-labels.png",
+      "bytes": 173550,
+      "runSHA256": "fff77cecefaf35a7b03e6c7bb9470d6355ee7dd7be1f03bdcf7a8495394fe7b9",
+      "restoredSHA256": "a13a0bc3ff27f818943204b101e95705424ec2eb17bea4459e51abda72d7cee9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-small-swap.png",
+      "bytes": 196797,
+      "runSHA256": "0ff97c994a5a2df2289817762ed92bd5f8941df066d93b1a1c1e1f46a219bbeb",
+      "restoredSHA256": "2fcf5e80c8085b42397c934cf6dea10a23a20120d14fb80bbed9e7753cb5ac9b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-combat.png",
+      "bytes": 511656,
+      "runSHA256": "4aa86f7b1e359487d10d89c6c0d5362ee7c53b6b7cedd8335844d16cfd2ad282",
+      "restoredSHA256": "3f55ddda241eece4a3b5b061f1ec647d3c2aaa2013e3c09ceecacedbe3ae02d8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-complete.png",
+      "bytes": 454976,
+      "runSHA256": "9cda12d08613a6a901337f637774e22bb502af3b6b9979697ee44d1bc8dd6b86",
+      "restoredSHA256": "0386e7ab030f4e846fbc4633892a676cd44a2548ead02ac32cdaa7c09941b24e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-failed.png",
+      "bytes": 482447,
+      "runSHA256": "b7debbb065b4617e90a160d7ef0a7bdedabf7c949f5d8b169535683a7aca4fb1",
+      "restoredSHA256": "3b1ff4b86415150e889345fda9f2e29e1505c34734db0822489d76ac8927f472",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-formation.png",
+      "bytes": 510654,
+      "runSHA256": "e90f587d2ca7b05ef8f1ba14de5fc14562bd8313caecb494a130f93243c6dd9c",
+      "restoredSHA256": "c9e847a136272994dacfe3c1f19fa918bf3c7115e8efc527029117ffcb736e49",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-losing-formation.png",
+      "bytes": 508073,
+      "runSHA256": "b7f9c6be9255d340a2d598d3187ef577727034d243173fb4030f36d818d95f25",
+      "restoredSHA256": "ba8b83f712cbc53ef8aee9f047f3e8e579d92b8ff8e27a651fb34a6503a48ff9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-retry.png",
+      "bytes": 530382,
+      "runSHA256": "acf8061976ea87f94d7f55090194809e13b8220362bd11c3bf334b3754087f51",
+      "restoredSHA256": "ca8244535963ecce29d22cd3ad7c007d37d6a5833ddf96226e13a270745b632b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-1.png",
+      "bytes": 484371,
+      "runSHA256": "a3af6963e80e0b572fd8ef8c8caa6efcabfe6f22576c99e4e5f613cc3fc8d609",
+      "restoredSHA256": "f1d39d88be52148c0b3f4ed3e9849c5e77501a9aa2e64f62b3144d34fb5c6292",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-2.png",
+      "bytes": 484934,
+      "runSHA256": "51ff4d16f7632f1baeb698923c57f7d8895425a241386a5004547a56a151e73e",
+      "restoredSHA256": "ef3baa281a72bf86a29149b0bef08acd312a8aa69dc9b5dfb1983673e92f8848",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-3.png",
+      "bytes": 483125,
+      "runSHA256": "82d371638dcda83fa0db00c111877515fe00a112892744915e2c4e454d2b93bc",
+      "restoredSHA256": "f336c77ad0650ae9489e0741195fed335ce6852c977cbaac154d9938c7754093",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-interrupted-reload.png",
+      "bytes": 561386,
+      "runSHA256": "71f6ec34439361c7fe82f179e97a7d4a4b0cce8d083f81b7f4091f6d2902a942",
+      "restoredSHA256": "bdddcf445ac4946e4d45879ad6d56ef8dd292e8563fba197e8f9b554dd286c27",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-next.png",
+      "bytes": 561385,
+      "runSHA256": "048300d86bb5c14a15c108e90b2aecbcbae7ec83be3d36cc62a9f96858bbc2d6",
+      "restoredSHA256": "067f36c976828a1c50f7dbd206c108884466f47c6e57d40a4ceb94f2437af3bb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-reloaded.png",
+      "bytes": 561386,
+      "runSHA256": "71f6ec34439361c7fe82f179e97a7d4a4b0cce8d083f81b7f4091f6d2902a942",
+      "restoredSHA256": "bdddcf445ac4946e4d45879ad6d56ef8dd292e8563fba197e8f9b554dd286c27",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-choice.png",
+      "bytes": 469072,
+      "runSHA256": "170c1b473fae24fe90a077ac5ccabe530fe6f34827e016d5a965cbd691b6cd8f",
+      "restoredSHA256": "e963523053286789051e4c8f1eaa81b56dd8be640121048e1b209fc65b8163a0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-combat.png",
+      "bytes": 541258,
+      "runSHA256": "a38822cbb158d79b51fb093099f0de34a272e970a95034ab7a5ad576db22d088",
+      "restoredSHA256": "5efd8881f0a6178cc68306d564b6a5aad25e4a720031ba5a188cfaa3deb7b78a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-next.png",
+      "bytes": 540295,
+      "runSHA256": "85d2174e1d6763c3b937e3a071b26aa52db9916ed2d5be9201d6cad16a456bc6",
+      "restoredSHA256": "c425cf00e47e66b332dc27970cf4666054559e63bb9319ee54ce098a60e1dd65",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-no-reclaim.png",
+      "bytes": 540289,
+      "runSHA256": "3a99095af46bcb92912964a4a341e0dc7da2840f79d50a74e2a4398d5415f851",
+      "restoredSHA256": "9bc94aac5f3c5bfa5c9273eef6893ff820fdbabbe04d77c793f640f98b2769a0",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-receipt.png",
+      "bytes": 504425,
+      "runSHA256": "4137503fe9215b1664a92ea5d60ddddbffb4abcfe3f89a0c6642abf5003ff0cb",
+      "restoredSHA256": "a7d3246e97abc4d4b44014fa96ea00e6ac22614d840a037bc2cb3fac6409dfc1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-reloaded.png",
+      "bytes": 540855,
+      "runSHA256": "45dc6c06080bf1f5d347f944fa39da41fbf4e68b97678021ef66b38122b08876",
+      "restoredSHA256": "ef6654046b2c3b45d0ee840fe8667c810aba6fc0af3508c5d106633422141724",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-landscape-terrain-built.png",
+      "bytes": 757844,
+      "runSHA256": "8a4fd5d6dd110e6e2a3778ced6ba4b33f645598ddf4d28eebc66650a8545339b",
+      "restoredSHA256": "c00a33555bdf19137e95cdc24f843fe95548801b05e57bcdf9926498c0f867d8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-landscape-terrain-empty.png",
+      "bytes": 745733,
+      "runSHA256": "254618a0bb133c51bc71b1c44d427d374e68b5381cb02ea75203f844a6a19267",
+      "restoredSHA256": "a853faa234a3110a54b79bac36f3480404607ce5e042789a05ceab2b7cacdbbb",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-terrain-built.png",
+      "bytes": 759562,
+      "runSHA256": "d1be79ae2ae049d9f47a5031d78a668373838f076bc82a296b818a2f321fba4e",
+      "restoredSHA256": "72c7f13b55ab29d63254c6b12640a6c4d829fa44feafec4538a8eef59126af3f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-terrain-empty.png",
+      "bytes": 754188,
+      "runSHA256": "79c7721a959ed3897aff3fe5c78363a9033e66166862580154c1868bd1782132",
+      "restoredSHA256": "538edd6fa62d1feac070fc54160dbca8551a943f3a6d98d724c553d776242611",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-landscape-terrain-built.png",
+      "bytes": 288770,
+      "runSHA256": "52d9d7960f693f749c1f303a4bd531e4976774aee7383285922010406e8909a5",
+      "restoredSHA256": "f2ba7e9c72b832c236969a2c563d1d8ba93a33ece2532a77d883b0fcee878c87",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-landscape-terrain-empty.png",
+      "bytes": 287614,
+      "runSHA256": "7a7f559853ac01e0566e23bdf8d0f7bafef95e9b9bf38bbe93bc001939341c45",
+      "restoredSHA256": "9faa2ef33a7d7fa3934591798c084fa96ab24e6b45225512aed412b5e2870dc1",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-offline-flood.png",
+      "bytes": 299264,
+      "runSHA256": "9b8f45dc276ef29a47b25cf41d25c1ce56f5130eb59c1df81648f9c797eecc22",
+      "restoredSHA256": "58cf3e501188151aa316a5c54ca68373ba388e5f594cdeaddeb772da4a09c8b2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-phone-terrain-built.png",
+      "bytes": 298030,
+      "runSHA256": "edba2dd9eb1e56963f286e5b1b0c741b059cf5b1e94911da2117b3daed5b5de3",
+      "restoredSHA256": "41a2d2e42f0501af29486fe5d57cd210929d5bf0fe97e4ba7153787e0d3632c2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-phone-terrain-empty.png",
+      "bytes": 297967,
+      "runSHA256": "19021984fe7ec4f581f86bfc2edaae337baf45d4bf43dfcdef7beed21b6e1300",
+      "restoredSHA256": "9b575875cd817987461d0f6c91d411e0fe1b0ca770b0572332a27485ad2fe110",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-small-terrain-built.png",
+      "bytes": 150842,
+      "runSHA256": "2e848ef15a1105eb0519bfc2461d1a554506068ac233c74544278528420f1c51",
+      "restoredSHA256": "9f256207e6724f84fb2ba8e9884c6613b8715862e5359a27d368478a052f2645",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-small-terrain-empty.png",
+      "bytes": 153545,
+      "runSHA256": "469731ddc981f12aa5daa8c338ad0cec3e80b9e8f54047b21a2b830e64d9bd06",
+      "restoredSHA256": "9dee884830d98911ca9d943598d788177ca0ce063b6f3f992d3f5541dda07469",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-after.png",
+      "bytes": 513253,
+      "runSHA256": "75434ef6246ede46a126a2dd42299271ce8a3527c5fc9ba4224be7fc3ee0c91a",
+      "restoredSHA256": "1c9c74235944e0e0940973468319f4d43b7abb96a1c5c9fc59003305dc5d31d7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-before.png",
+      "bytes": 509291,
+      "runSHA256": "88f17bfde9c56ca46e60c8cfae966845c9b8f2ba8d1da03b59a6e56ca4485311",
+      "restoredSHA256": "d78e79fefba93123dcf7fbc1184e0179ff3a919418e825f83bdf309fbc02fd0c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-gate.png",
+      "bytes": 511719,
+      "runSHA256": "b48ae108c571a2364f48360dd5e362dade57e1ff57cd4a39958dae82d56a8180",
+      "restoredSHA256": "0c42c20b6ddf80f4094bcd106bd1f28e5cb68175ba34b38b6967e826a091aff8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-inside.png",
+      "bytes": 510570,
+      "runSHA256": "35121289602b720f3a792a59e425a02b87f0c693f1ef1806178095462149d799",
+      "restoredSHA256": "f90424629e299c088add035ed5d15c47052d196041b3290c1ff4426d49a75b2e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-preview.png",
+      "bytes": 295139,
+      "runSHA256": "b534d2abc540ba253dd3e8d799c4a8a29f43e00314e1edae3e07ed8186dc2250",
+      "restoredSHA256": "b8df4a69a4db57ff4ce78ad278148209a86591ca69ab185c914b4d8ab50099d2",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-after.png",
+      "bytes": 520995,
+      "runSHA256": "02543b53019a6a6024573d9f00b747eeacdb0f4c7afdd9f101536b67fcc65694",
+      "restoredSHA256": "90489f285f7dc9325608ca29b68c4220f3862718e81e12f11df04d85a4da1437",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-before.png",
+      "bytes": 514777,
+      "runSHA256": "19b5a3cda647f963f0aa95a44bdca486c9ca1e367450766669267bb0897cd169",
+      "restoredSHA256": "124a49acd74596e1268a32d18ca6a84c454ea06e6e03353740cb9d1ff8f34c80",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-gate.png",
+      "bytes": 519221,
+      "runSHA256": "c2fbdc516263eb656b0d6236c0fc6eef4a98b84bfbee3ee4619abef1cb8d34fd",
+      "restoredSHA256": "59166485f60999ce3df3ee1d6a43d444f91f7ecdf213421591dcf106c7dea27a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-inside.png",
+      "bytes": 514775,
+      "runSHA256": "e3f9b70afa2194f1397663520fc2091bb0c618a3d89cd0ba3a810980138c4768",
+      "restoredSHA256": "ccc9894decca52baec7e043b220e354e2b669eff049759f652e535ee8865171b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-preview.png",
+      "bytes": 296512,
+      "runSHA256": "a9f13ec9c2f9a5313c9aa816da8aa96046209746e93e72bff56f565ffed2bc6b",
+      "restoredSHA256": "5250b7acca8f68ec08b3bed3e80074548a1d9e6c0bdec0950d2a958643e378bd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/e2e.json",
+      "bytes": 114304,
+      "runSHA256": "937ba6f02865c5d59f17d2678799c8fb64d6df6fe6298bcfd1a320aa6367848e",
+      "restoredSHA256": "4077bbf32fac5a625c803214c0e70030d15e20e960bf3fb21b2665c375f052ab",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/release-audit.json",
+      "bytes": 53636,
+      "runSHA256": "072a834cddf38036f7ecdc26c0c131718d67f08f15058ea8abbcf0ae883a2f93",
+      "restoredSHA256": "fd6391aa29433c2c988323b7ecac19e80eeb1e063503f5b8289c443510b3eeee",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-defense.png",
+      "bytes": 906793,
+      "runSHA256": "20cf8315a618b3c48797ff83a2dc8b70239cc2fca392a95f3e9c6771c7f8927b",
+      "restoredSHA256": "1bdfaaf008298d402a6a9d424e6d57c1cd370607ab5789a6c3ac3b3d55d1e057",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-opening.png",
+      "bytes": 786148,
+      "runSHA256": "35f5fed83814e434e896417f29910a88858b342db6624f0be279874bb2440c5e",
+      "restoredSHA256": "e8ce7873dd4c5d899a2e6c9e2fb34672a2e24344e983208cefe7164c896835bd",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-siege.png",
+      "bytes": 935908,
+      "runSHA256": "f7616c6ca91d561c15c9a261348fae21d33eb92bdb1edfe0776b1d9013a667d7",
+      "restoredSHA256": "245a839aa04a3b7e038ae1b7356d2c9d7db5591f7639e445d9479b61d58ede8c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-defense.png",
+      "bytes": 1705502,
+      "runSHA256": "6f3923ad86b61d492f45cf2a994bcfc4b803dc951ebd348fafecdc46ee3075d7",
+      "restoredSHA256": "7545e30ee01bcf3ca39589652cef07b51443a006db739d494b7a5ffcffbef527",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-opening.png",
+      "bytes": 1407970,
+      "runSHA256": "3e540f1fb8dacf0377fa6c0b40dce2eb57572070b629f353ab8ab4f28e3f6586",
+      "restoredSHA256": "07184c8cafb039574f850cfc2ed46bf2e39e23c07a5da97c4a16af99024cc955",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-siege.png",
+      "bytes": 1839558,
+      "runSHA256": "59a087bd88a7fe11cf3c3176bd3b7c6933327d2336761af1153d6b05d69276b8",
+      "restoredSHA256": "3157358e5bf366d66a915512b58e24f6b2a29e80a95a97f67924b7df3861e8ab",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-defense.png",
+      "bytes": 1072974,
+      "runSHA256": "e7208df77b6a62f5a933ec9a6dea63ca12f661c2299a4a791e4f8ee58d006e32",
+      "restoredSHA256": "fefa00a0e85c926de38869b7773d20eff5217c35c0914b43a98b0551fbbdf33d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-opening.png",
+      "bytes": 941320,
+      "runSHA256": "daffabaa77a435b9a28ecbf2777d6cfc10469a6e2eca798d29a1ac590f7c01b8",
+      "restoredSHA256": "3b30c3d6b59dc806a66d6012f1711bcfbd73d13d083dbfe86dc7a7c442671f08",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-10.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-siege.png",
+      "bytes": 1116863,
+      "runSHA256": "f182338d8bdbf8e39210019c5cb7887b13ac5d3351f09170a8df537b9eecaf80",
+      "restoredSHA256": "92e37381f7df4ba19b2b23416b7d4fbcc41a50b308d0445ebf892cd118c7ee3b",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-defense.png",
+      "bytes": 1066507,
+      "runSHA256": "1a1f6d8dcc78010deaf31be4b1d12991fd00fae905606250f0e865d1b46308a5",
+      "restoredSHA256": "e377d1d78723a8ecf1b17ba0bbdde45d1a62864c5559c956325b1df4d2f8401d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-opening.png",
+      "bytes": 928506,
+      "runSHA256": "fde36f4c9eeb6adf1ce8aa629e4eb996ee50cd22d053f7b96891e804d0fc367c",
+      "restoredSHA256": "e555db348e0faeeb20f4c697eb5a0e9404ecb6388634927afb76285417ea74d5",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-siege.png",
+      "bytes": 1106759,
+      "runSHA256": "4d9c80fd8d8d1f6088aba781930512b538b3b9dffa591b377f48bd0f5fa2edbc",
+      "restoredSHA256": "59dfbf07d5912a4b771b9ed7235141b8370cfaa1afafb5d56ae0edeca9e53602",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-defense.png",
+      "bytes": 1795582,
+      "runSHA256": "45cf7bfe66e727bf7ee9fa69163ca2740cdd5a7212c007b6966ef0aa02bbc3a7",
+      "restoredSHA256": "286181e828b1b998b6059764db84978f0e0bfe933affafd3ebe99cc36bd15502",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-opening.png",
+      "bytes": 1581297,
+      "runSHA256": "70aa77d4dbc179cc867a4962a1848be2166c35ed0e89a1ca767eeb1f2e35ade8",
+      "restoredSHA256": "e4cc670c744824eeaba1be5265ff2854a75fce1a4e088ae515ad81064e650d16",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-siege.png",
+      "bytes": 1887442,
+      "runSHA256": "1025449d509082b991985d7c1b2125738e402e0faaac0acbf050dcfb234dd5c8",
+      "restoredSHA256": "36be4eb324fa61c214d118099370ac1c266339d26e687f93d52ce8e92a843087",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-defense.png",
+      "bytes": 177297,
+      "runSHA256": "28c4982f07748161bd9fbb646f9a3c70dc771b284d69d236e627de59688afd66",
+      "restoredSHA256": "9a9eb79bd862d1dcb1277d7151706aac35f9db5df1ce88321a62fe87396d76de",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-opening.png",
+      "bytes": 124421,
+      "runSHA256": "2c0122f2917a8f8841dc3acf4acba48982f56419585e7ce307aae30bc0f51dd5",
+      "restoredSHA256": "1d36bab4ebd455568a60dfd3db8da416a6ed1a6bcd6dd8fff7fd8720b1dd78ed",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-siege.png",
+      "bytes": 208247,
+      "runSHA256": "bda42a44165a080bf4ece23c6dfb34e1345c2eaac67dbcd22c948061cfd8a061",
+      "restoredSHA256": "b570ada1b153870f64ec17ccfea0223d8e30f9f103fdbaba9c363c6bbf8e8ed7",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-defense.png",
+      "bytes": 391098,
+      "runSHA256": "3233182b64a325b733fd755a772483d4a8e02503b0b97e212a68f165fb058247",
+      "restoredSHA256": "18257431767b266fa75faa82495033e3bb2842da717d4a45655e9d3232bd64df",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-opening.png",
+      "bytes": 320829,
+      "runSHA256": "2ed6995b6f04f246210fd1008cd6d02e6c133f6dba782bd007015a1cac46a58e",
+      "restoredSHA256": "8a90f01b16b2dc747bcf566e6174559dfabcd20f208a6747b62aa0fb58fc7a99",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-siege.png",
+      "bytes": 414700,
+      "runSHA256": "0ea0649470ec6fe5c62968fd57a9ebdd1b3e3c7496f5829ebf3e1d931f421cbd",
+      "restoredSHA256": "4f04ad1edede219e4b61bebd8c56ce1de4c5935f11f764e8b50cc360b36f2d2d",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-defense.png",
+      "bytes": 799893,
+      "runSHA256": "26daf5911f0a7ce93d65575b53d32d056d94ea70ca108c62165654f26e35e820",
+      "restoredSHA256": "182fb75496a5d8d99eee404e23a0a7435706c4b2e53b0d1328afda8648dcdaed",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-opening.png",
+      "bytes": 647571,
+      "runSHA256": "3a4b0108d8e186f72baf9491a4dc149c4cb5d3b6eda991a786de547108e48b2e",
+      "restoredSHA256": "6d2694f15122d343a2b72c6a95461de4807c9d330a95af41c30c1ff9f82ad5b3",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-siege.png",
+      "bytes": 857822,
+      "runSHA256": "774c70243486b8213388569c24915d159d25ca7db6370e66281dc52bcf0e6527",
+      "restoredSHA256": "557aec72fa6ec7db8ad78a26ac7f99f3db6cf7b3beadd2f55df168535336298c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-defense.png",
+      "bytes": 363424,
+      "runSHA256": "d609f9dc59c3d2289311a5364cf007eb102d6d6c5945417ea2e932c92b9e35e2",
+      "restoredSHA256": "73d7b8e393bec78491fb88dc100684f107242d499492ea7622faeef5da929a42",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-opening.png",
+      "bytes": 303458,
+      "runSHA256": "5b0239de97ee53854dfee68d7e3adbdcea30779f64e70aa34a8c8814693de221",
+      "restoredSHA256": "143b138d7a5a22f192d89fb09a7f0cf1ac51f95e47184662a776a21639d4e55c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-siege.png",
+      "bytes": 371971,
+      "runSHA256": "eb30457b3f7b2c3dcc03b838627aece0b138db6eddd55a10bf212f06bb8499aa",
+      "restoredSHA256": "92ea4ba99a6d123cab382b802da4747cf5588ce920e789e7c884f8d2f1388480",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/evidence/six-chapters.json",
+      "bytes": 924,
+      "runSHA256": "d171119a0a4dbf14f36cfbd205916a1b9d5f8e118b4f027ce1438f4bda8dcd17",
+      "restoredSHA256": "6006dcfc336f263d169e77afd6bb92c086d05472bcc1df0e4e41754d73fe9cea",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "bytes": 5110625,
+      "runSHA256": "a44ae351643235645d7628754c34650a91980be4f4bee75491b6559a88b503ac",
+      "restoredSHA256": "be1d0af70821420dfbcf658ef1ac56947813fb91d586ba0eaa178b32aeb1654e",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "bytes": 2355502,
+      "runSHA256": "d914eaeee4874b7380e086207b48c1ea566edf75e3a7028c113a02bb1ee29eee",
+      "restoredSHA256": "6aced1e7ca90f8edf54113720731a2851302bc67035b1bf417eefcca4e547163",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-01-terrain-2064x2752.png",
+      "bytes": 2355327,
+      "runSHA256": "e1f4476acf3617fea67f819d0809099f00c7c3cc033535067a99c926576d87b2",
+      "restoredSHA256": "7bb9dce0334023f7f6bec824449c59d67a14344a7d87f1052b2d3313039ab6d8",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-02-exercise-2064x2752.png",
+      "bytes": 5418460,
+      "runSHA256": "cefe437fbc5668785efc5636c5db1470c7463a407c55992b8a9051f46123daf3",
+      "restoredSHA256": "da1b32ff8c0696b6435ac6a103c5a1527b0b5716ef1047f2c97fd77490012fef",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-11.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r4-terrain-2064x2752.png",
+      "bytes": 2354544,
+      "runSHA256": "770982598af20493ca0308b3363b218ff2401828ac1455a330b630a1493c4f93",
+      "restoredSHA256": "908f8e2483f9ffa0ddd244142d19abfafaa2c00632fe98957e2bf8741795989f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "bytes": 5442979,
+      "runSHA256": "a6e55cb88e9db632b7a4951f034f0160550e384ae699d923c560e911a3c408c2",
+      "restoredSHA256": "cf464899b916556def0422f89293b3fc73e03a2468d2b62f65ffd71eb305e190",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "bytes": 4456340,
+      "runSHA256": "cea2394d148af801b4c6787950180fa667817ee1729451222a3e1aa493e9ef29",
+      "restoredSHA256": "4bef112f476793ef6bc1a86cb18db35d6e7c3b7ea7cfe9638a0f3c207fca6e6a",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "bytes": 5853172,
+      "runSHA256": "28c6d6ba31fdaa9c31c8027bf313bf9712df111d5f658a701404bbbe8d439744",
+      "restoredSHA256": "ee196b95944655e217a9aa82b15f476e4b1e798755b253aaf9d77ba4f32fbd19",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "bytes": 2855782,
+      "runSHA256": "963ed260b08382e2bcac3a9188986a406cc90d10baacd8a1d737442780a9b4c0",
+      "restoredSHA256": "924e779e9cab46267fda7ddd97c6853dac22f270a3edabc6eaa4d4cd91be6490",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "bytes": 1758314,
+      "runSHA256": "34bf32fbe6d8b87f42a8a33b449cf11a57abe80d400fe03ec6ab01d7735e7342",
+      "restoredSHA256": "f0d73ac0bb0d73cc6e7cf00a3bab7a0a4f0dc6f5175afe42fa0caddf37ee8c5f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-01-terrain-1290x2796.png",
+      "bytes": 1758313,
+      "runSHA256": "cbbb052920b98a5827acc23e51cacda10f77c20eaa4907d137fe032db9d28db3",
+      "restoredSHA256": "d563424f8f0a703eaa65527dd3afadb6bb8bf1ae9364258bfacf881487ef8a66",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-02-exercise-1290x2796.png",
+      "bytes": 3130929,
+      "runSHA256": "7ced2c7a2a07d219afea56a175ba02987eda06593d6a055a5bd3258a5adbadb5",
+      "restoredSHA256": "ea31b60893eaa61d3deb9854e090be5bc52947de982623368908d17f59bf314f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r4-terrain-1290x2796.png",
+      "bytes": 1757141,
+      "runSHA256": "c7a48553fefbac5a505be4e779675046ddebd4b529c30562fd389af037129aa3",
+      "restoredSHA256": "b546f7bbf2df000ea7cdfcc1331f028e591599b101f41465ed7520c054d3887f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-12.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "bytes": 3193223,
+      "runSHA256": "21c183cf6cbdfb66fc8b5fbc52f52972a4819b93ba1a80ab6c642300c0e99dfb",
+      "restoredSHA256": "6ace30e0fe989b0f0a606b99b6800d9db65158cc57efe83b33ad50617add152f",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-13.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "bytes": 2610336,
+      "runSHA256": "38a9a30e3ba8d7ce6e896e62f52b7d5796cc54bc8134c4eaf30394b76c9295d8",
+      "restoredSHA256": "66d07831a450fce902fa9560c8ed7962db3588152f08c529b2fd31fdef211a64",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-13.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "bytes": 3476162,
+      "runSHA256": "64dc400ce0437466e2e6f45f47e39ec912f0f271d7dd1baf917b16fbdf16bb87",
+      "restoredSHA256": "d258f0380e60752f8e132b897b8bf9c85e92886b839dcc6f1564ae2054ff7c5c",
+      "archive": "docs/content/r5/verification-artifacts/legacy-verification-13.zip"
+    }
+  ],
+  "archives": [
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-1.zip",
+      "bytes": 32577876,
+      "sha256": "e9c73df55f17bd05682716a137282fb9966035e320ef2cb1166ead33b598620c"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-2.zip",
+      "bytes": 28091493,
+      "sha256": "4f3a0020c4dec0eeb5161d6a1f305a6cccb160be788419c7aacfb8ef22cdfe7c"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-3.zip",
+      "bytes": 28212395,
+      "sha256": "fcec6a90e643866d55fa6971fff4884cda7c633925336bfd7fd20631a6aa11f7"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-4.zip",
+      "bytes": 29714120,
+      "sha256": "84cf5ac6d25f012788c3efbad89a89ed6583ec1eb3e05b73962418714e1dabc4"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-5.zip",
+      "bytes": 27999079,
+      "sha256": "f63c26693018faebd0f0f50e1d119c41750116fa1b398975fed0075acc66f0e1"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-6.zip",
+      "bytes": 28040233,
+      "sha256": "a029bc92b379879d4d6beb276d317875b472e81a42117431c6036c4a205c9f46"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-7.zip",
+      "bytes": 28293537,
+      "sha256": "1ae652b33240190add71f0a9ce3301df7ce56f19daa83eeaa644bcf2ec26b1a7"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-8.zip",
+      "bytes": 28065227,
+      "sha256": "4c14f8f63676410710220e55c52df5f0efe855389f22840ceba3678d1f5fb9a1"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-9.zip",
+      "bytes": 28045925,
+      "sha256": "668d7b3e5439d38994d285e1138f2fbef5cf3fb1bd51db3b8f332ff1ef44da53"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-10.zip",
+      "bytes": 27857637,
+      "sha256": "41f46ab26951eccf684ba961430712c621d56c138e8bfbb657003f2062b4d4f9"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-11.zip",
+      "bytes": 29656447,
+      "sha256": "f83466f79e7d112e51cfcfc30df93b6cdb293b0b3460cdf218b71c3f74193844"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-12.zip",
+      "bytes": 29304066,
+      "sha256": "c142fcd64a1e3828af54b4c83b5b034a6413cd9fadd6e908e4eefb26de532185"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-verification-13.zip",
+      "bytes": 9262406,
+      "sha256": "f07282719862d49df78d60a21754e0d79555c6216cc94319f2c4967cc0f1feab"
+    },
+    {
+      "path": "docs/content/r5/verification-artifacts/legacy-new-movies.zip",
+      "bytes": 7299590,
+      "sha256": "868ab7e5a00f4f945aa69826c9306a3a0d2942e7b2b7af855308b234ef2ac86c"
+    }
+  ],
+  "newLegacyMovies": [
+    {
+      "path": "docs/art/r2/motion/page@aec44be58f31a7e3c3b940e3d9b8f8f5.webm",
+      "sha256": "6e5469da3202e79295b9ed067d60ee25bc056f97751f26cdac423c0d945667f9",
+      "archive": "docs/content/r5/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/page@b0fe4ce7dd3771d6010a144ed19dca62.webm",
+      "sha256": "f6624e85e0549e5cc5b96492d62ef890fb3538e10a4d4a887007db4bfd036168",
+      "archive": "docs/content/r5/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/page@103b034b2ee36a46319bc020f184cfb9.webm",
+      "sha256": "1a27a65f8477588e6f2fd10674844d75539b22fcbbfa2871884dad1dd3ac5601",
+      "archive": "docs/content/r5/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/page@6da4e25c6f687c0f33d2b4a0f240fba2.webm",
+      "sha256": "f6cc9a37fb4988acebe679cfc76fe2d9222a748dae4379d1f7154b8af8833a49",
+      "archive": "docs/content/r5/verification-artifacts/legacy-new-movies.zip"
+    }
+  ],
+  "initialUntracked": {
+    "docs/OPTIM_PLAN_CONTENT_R5.md": "cc069d2b6d0aef449d5b7f93fb224cb23698bc4a5e642dea6ea41470bf989a7e",
+    "docs/art/ART_RESCORE2_MUSE.md": "4d84c164441bacbaa24dc15732899c94ca7587bfdf760ea22f0605439c1e10e9",
+    "docs/art/ART_RESCORE3_MUSE.md": "c16eec1b16a6a3f01bb4343f5199f09b123a1d774e1dabe5c4e157b33b278c27",
+    "docs/art/ART_RESCORE4_MUSE.md": "1b151dfcad9fb654aea5e60e7b43882c6e849bde27d0af15885438aedd9a6279",
+    "docs/art/ART_RESCORE5_MUSE.md": "fb64dd8bdc76161a057d333290532110dda55bb16c393ae7018cbbf6286a43f1",
+    "docs/art/ART_RESCORE6_MUSE.md": "6d20297c450aef4771437ac7ae0987a7aae5b476a5b59fe70d505a06c1e52b8b",
+    "docs/art/ART_RESCORE7_MUSE.md": "2dd725b3ef30e272e1191de515129a94f8ee4cdc97c9d974a41e1065f412f3a6",
+    "docs/content/CONTENT_REVIEW_R1_MUSE.md": "e27cfd8c5ced6c89b1821d406dec250d2d45de4589c32752d6ad303cd388dc01",
+    "docs/content/CONTENT_REVIEW_R2_MUSE.md": "9a5e987c32ea8e810f2c9a033474d0dbece42ca7404ae4bef0b91c5502271486",
+    "docs/content/CONTENT_REVIEW_R3_MUSE.md": "d457fee2e66c8317e8edc0c825e407b55c649deea943d538e7ce06faf60be5f2",
+    "docs/content/CONTENT_REVIEW_R4_MUSE.md": "14c2b8d42479d1353b7b38c6688989b4c0968cf3c83cbe028beb821320c274af"
+  }
+}

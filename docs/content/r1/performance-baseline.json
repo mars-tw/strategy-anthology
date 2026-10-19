@@ -1,0 +1,96 @@
+{
+  "status": "EXECUTED",
+  "buildSHA256": "9d9ed39c96bce0859c58ff683d0545240fbc67be7c10ad8e2bf0455c6d06396b",
+  "warning": "並發載量測，僅供參考；Chromium emulation, not idle-machine or physical-device release qualification.",
+  "runs": [
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "run": 1,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "run": 2,
+      "p95": 16.799999999999955,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "run": 3,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "run": 1,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "run": 2,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "run": 3,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "requestAnimationFrame interval, live first defense, no virtual clock"
+    }
+  ],
+  "releaseGate": "BLOCKED",
+  "1366x600": {
+    "medianP95": 16.800000000000182,
+    "referenceThreshold": 18,
+    "referencePass": true
+  },
+  "844x390": {
+    "medianP95": 16.800000000000182,
+    "referenceThreshold": 18,
+    "referencePass": true
+  }
+}

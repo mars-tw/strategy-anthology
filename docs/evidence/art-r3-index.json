@@ -1,0 +1,150 @@
+{
+  "status": "VERIFIED",
+  "rawScreenshots": [
+    {
+      "path": "docs/art/compare/r3/after/1032x1376-defense.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "b42473827069069694653f582819f669f59bebf96ac988c2122adfa30592efd2"
+    },
+    {
+      "path": "docs/art/compare/r3/after/1032x1376-opening.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "cd7de6ce503dde09f3c95e36797188378e26c4d7f62d372495da41e49860fc27"
+    },
+    {
+      "path": "docs/art/compare/r3/after/1032x1376-siege-no-labels.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "5fc990dfdcc1ec86d4aee9a3704f195afb0b96f814e04ca223812a9e91034b81"
+    },
+    {
+      "path": "docs/art/compare/r3/after/1032x1376-siege.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "e43ed54a95906c97a8d7c710e09cdc69606a083a5aaa32608fe4eaacae4e54bb"
+    },
+    {
+      "path": "docs/art/compare/r3/after/390x844-defense.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "4d851e59941e91541b48ab5b681f30748306ac717dac9bdab44d6c58d1a31a26"
+    },
+    {
+      "path": "docs/art/compare/r3/after/390x844-opening.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "6f4efc92e195ccea94dda29ffdbb013da8091286dad165399f6324010ec29fd1"
+    },
+    {
+      "path": "docs/art/compare/r3/after/390x844-siege-no-labels.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "cd4a477e1d5478f65ae8f5ae2b651fef9920b4b8b3f0119eaa69f2fe2e35b583"
+    },
+    {
+      "path": "docs/art/compare/r3/after/390x844-siege.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "b95762f02c0b38cd95068f94ba2e0baf3ea9b137bb18e873c8ef3f57f2612ec1"
+    },
+    {
+      "path": "docs/art/compare/r3/after/844x390-defense.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "a828e7682de10f715d59b11495a09e9db33f1f202f390da3ae492a235e9545c0"
+    },
+    {
+      "path": "docs/art/compare/r3/after/844x390-opening.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "2497e79d0e73736cfc1b19adb98533f891d57fea600819a72b75ad3a35c0d0c9"
+    },
+    {
+      "path": "docs/art/compare/r3/after/844x390-siege-no-labels.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "06e461cd40b1aa8daf9c49911ac92ef52fb86988e2e411c413c1bc6279cc0e5c"
+    },
+    {
+      "path": "docs/art/compare/r3/after/844x390-siege.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "5097bf0a48b147a2a3a452ca7429a5ee377c460d9c6b8089441846bc66b0b757"
+    },
+    {
+      "path": "docs/art/r3/chapters/1-pine.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "4df03885bd820c9cd521f7f3380da793a01e477eddf7b98c7ca058fca71e32ed"
+    },
+    {
+      "path": "docs/art/r3/chapters/2-ford.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "10e87de8e070a9103cb5299e6fe278e8b7876711c27b653b6c6de1d85c32fcf8"
+    },
+    {
+      "path": "docs/art/r3/chapters/3-ford-watch.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "6f2be51986afca9a93686f550ad0f02afa76e5915e4887ed2b4ab1cdfeb800e6"
+    },
+    {
+      "path": "docs/art/r3/chapters/4-quarry.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "52b034bb0a7f80c9b04a72b2ad682839cacbc012458ca46c0bed00bb19a89521"
+    },
+    {
+      "path": "docs/art/r3/chapters/5-quarry-watch.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "2d941f525e60ea436434afaa2c0d478bf21ff491d6ca132889c8858a4e51fcb4"
+    },
+    {
+      "path": "docs/art/r3/chapters/6-citadel.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "f8e618422e0f3d8780997b1562c1a32f1c6769a0f022dd6b4aa3747537851128"
+    }
+  ],
+  "note": "Raw before/after at original CSS viewport size; side-by-side is a labeled contact image. Width64 files preserve aspect ratio. Native 64px per-unit no-text and silhouette contact sheets are separate."
+}

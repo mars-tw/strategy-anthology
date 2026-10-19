@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "phase": "before",
+  "screenshots": [
+    "390x844-opening.png",
+    "390x844-defense.png",
+    "390x844-siege.png",
+    "844x390-opening.png",
+    "844x390-defense.png",
+    "844x390-siege.png",
+    "1032x1376-opening.png",
+    "1032x1376-defense.png",
+    "1032x1376-siege.png"
+  ],
+  "method": "Fresh public UI, virtual clock, no state injection. Identical steps before and after."
+}

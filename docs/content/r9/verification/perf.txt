@@ -1,0 +1,5 @@
+
+> trine-frontier@0.17.0 test:perf:r9
+> node scripts/content-r9-perf.mjs
+
+{"status":"VERIFIED","summary":[{"scenario":"flood","width":1366,"height":600,"medianP95":16.80000000000109,"maxP95":16.899999999999636,"threshold":18,"referencePass":true},{"scenario":"flood","width":320,"height":568,"medianP95":16.799999999999272,"maxP95":16.80000000000109,"threshold":18,"referencePass":true},{"scenario":"hollow","width":1366,"height":600,"medianP95":16.799999999999272,"maxP95":16.800000000000182,"threshold":18,"referencePass":true},{"scenario":"hollow","width":320,"height":568,"medianP95":16.799999999999272,"maxP95":16.800000000000182,"threshold":18,"referencePass":true}]}

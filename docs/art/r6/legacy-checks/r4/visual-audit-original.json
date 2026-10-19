@@ -1,0 +1,2356 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "docs/art/character-sheets/r4-commander.png current hash",
+    "docs/art/character-sheets/r4-unit-lineup.png current hash",
+    "docs/art/r4/sources/warrior.png current hash",
+    "docs/art/r4/sources/archer.png current hash",
+    "docs/art/r4/sources/mage.png current hash",
+    "docs/art/r4/sources/enemy.png current hash",
+    "docs/art/r4/sources/worker.png current hash",
+    "docs/art/r4/sources/pine.png current hash",
+    "docs/art/r4/sources/river.png current hash",
+    "docs/art/r4/sources/commander.png current hash",
+    "docs/art/r4/sources/hound.png current hash",
+    "docs/art/r4/sources/icons.png current hash",
+    "docs/art/r4/sources/panel.png current hash",
+    "docs/art/r4/sources/logo.png current hash",
+    "docs/art/r4/sources/app-icon.png current hash",
+    "docs/art/r4/sources/road.png current hash",
+    "docs/art/r4/sources/ford.png current hash",
+    "docs/art/r4/sources/towers.png current hash",
+    "docs/art/r4/sources/attack-corrections.png current hash",
+    "public/assets/r4/actor-frames.json current hash",
+    "public/assets/r4/app-icon-192.png current hash",
+    "public/assets/r4/app-icon-512.png current hash",
+    "public/assets/r4/app-icon-64.png current hash",
+    "public/assets/r4/archer-portrait.webp current hash",
+    "public/assets/r4/archer.webp current hash",
+    "public/assets/r4/commander.png current hash",
+    "public/assets/r4/enemy.webp current hash",
+    "public/assets/r4/ford.webp current hash",
+    "public/assets/r4/hound.webp current hash",
+    "public/assets/r4/logo.png current hash",
+    "public/assets/r4/mage-portrait.webp current hash",
+    "public/assets/r4/mage.webp current hash",
+    "public/assets/r4/panel.webp current hash",
+    "public/assets/r4/pine.webp current hash",
+    "public/assets/r4/river-overlay.webp current hash",
+    "public/assets/r4/river.webp current hash",
+    "public/assets/r4/road.webp current hash",
+    "public/assets/r4/seal-cannon.png current hash",
+    "public/assets/r4/seal-frost.png current hash",
+    "public/assets/r4/seal-tesla.png current hash",
+    "public/assets/r4/tower-cannon.png current hash",
+    "public/assets/r4/tower-frost.png current hash",
+    "public/assets/r4/tower-tesla.png current hash",
+    "public/assets/r4/warrior-portrait.webp current hash",
+    "public/assets/r4/warrior.webp current hash",
+    "public/assets/r4/worker.webp current hash",
+    "public/assets/r1/archer-e.png current hash",
+    "public/assets/r1/archer-ne.png current hash",
+    "public/assets/r1/archer-nw.png current hash",
+    "public/assets/r1/archer-se.png current hash",
+    "public/assets/r1/archer-sw.png current hash",
+    "public/assets/r1/archer-w.png current hash",
+    "public/assets/r1/ashwing.png current hash",
+    "public/assets/r1/mage.png current hash",
+    "public/assets/r1/miremaw.png current hash",
+    "public/assets/r1/rootback.png current hash",
+    "public/assets/r1/shieldBearer-e.png current hash",
+    "public/assets/r1/shieldBearer-ne.png current hash",
+    "public/assets/r1/shieldBearer-nw.png current hash",
+    "public/assets/r1/shieldBearer-se.png current hash",
+    "public/assets/r1/shieldBearer-sw.png current hash",
+    "public/assets/r1/shieldBearer-w.png current hash",
+    "public/assets/r1/villager-e.png current hash",
+    "public/assets/r1/villager-ne.png current hash",
+    "public/assets/r1/villager-nw.png current hash",
+    "public/assets/r1/villager-se.png current hash",
+    "public/assets/r1/villager-sw.png current hash",
+    "public/assets/r1/villager-w.png current hash",
+    "public/assets/r1/warrior-e.png current hash",
+    "public/assets/r1/warrior-ne.png current hash",
+    "public/assets/r1/warrior-nw.png current hash",
+    "public/assets/r1/warrior-se.png current hash",
+    "public/assets/r1/warrior-sw.png current hash",
+    "public/assets/r1/warrior-w.png current hash",
+    "19 genuine generation masters with disclosed tool and unknown slug",
+    "six new unit atlases and commander pass encoded pixel color gates",
+    "all six atlas rows contain four unique drawn poses",
+    "all 28 retained MIT atlases remeasured without edits",
+    "curved river contains native deep core and varies width >20%",
+    "iphone: opening is mounted with decoded visible hero, never loading placeholder",
+    "iphone: cannon preview is the sole emphasized range and matching legend",
+    "iphone: frost preview is the sole emphasized range and matching legend",
+    "iphone: tesla preview is the sole emphasized range and matching legend",
+    "iphone: one selected tower and active actual 30% resonance",
+    "iphone: native 160/165/160 radii preserved",
+    "iphone: tapping fire body selects fire only",
+    "iphone: store defense is a genuine projectile moment",
+    "iphone: enemy pack has visible >=44px bodies and 36x5 health bars",
+    "iphone: first defense won through normal play",
+    "iphone: worker, three jobs and grey enemy all use new art",
+    "iphone: all human bodies have equal scale >=48px",
+    "iphone: weapon-led current R6 portraits loaded",
+    "ipad: opening is mounted with decoded visible hero, never loading placeholder",
+    "iPad opening visibly includes generated title logo",
+    "ipad: cannon preview is the sole emphasized range and matching legend",
+    "ipad: frost preview is the sole emphasized range and matching legend",
+    "ipad: tesla preview is the sole emphasized range and matching legend",
+    "ipad: one selected tower and active actual 30% resonance",
+    "ipad: native 160/165/160 radii preserved",
+    "ipad: tapping fire body selects fire only",
+    "ipad: store defense is a genuine projectile moment",
+    "ipad: enemy pack has visible >=44px bodies and 36x5 health bars",
+    "ipad: first defense won through normal play",
+    "ipad: worker, three jobs and grey enemy all use new art",
+    "ipad: all human bodies have equal scale >=48px",
+    "ipad: weapon-led current R6 portraits loaded",
+    "six real-time combat frames differ across five seconds",
+    "no runtime exceptions or failed assets"
+  ],
+  "errors": [],
+  "views": [
+    {
+      "device": "iphone",
+      "width": 430,
+      "height": 932,
+      "dpr": 3,
+      "defense": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 182.8466666666682,
+            "y": 176.06786268903136,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.548,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 145.12666666666786,
+            "y": 137.90461231319244,
+            "height": 48,
+            "width": 54.25287356321839,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 46.89655172413793,
+            "variant": 2,
+            "phase": 0.685,
+            "healthShown": false,
+            "frame": 1,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 131.4066666666675,
+            "y": 115.99255175404569,
+            "height": 48,
+            "width": 58.94599869876382,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.8220000000000001,
+            "healthShown": true,
+            "frame": 1,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 113.68666666666718,
+            "y": 80.40412934958222,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 76.96666666666687,
+            "y": 86.16240691643719,
+            "height": 48,
+            "width": 52.41379310344828,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 53.333333333333336,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 0,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 59.24666666666653,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 59.72674040338321,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 29.947637292464872,
+            "y": 105.82040693995168,
+            "height": 48,
+            "width": 53.895274584929744,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 59.259259259259245,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 152.728,
+            "y": 194.35799999999998,
+            "h": 111.84,
+            "anchorX": 236.89999999999998,
+            "anchorY": 191.8125,
+            "type": "cannon",
+            "selected": true
+          },
+          {
+            "x": 275.752,
+            "y": 194.35799999999998,
+            "h": 111.84,
+            "anchorX": 257.5,
+            "anchorY": 191.8125,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 214.24,
+            "y": 302.8428,
+            "h": 111.84,
+            "anchorX": 236.89999999999998,
+            "anchorY": 226.6875,
+            "type": "tesla",
+            "selected": false
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 87.93275192951617,
+            "y": 43.4978693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 71.33729716490521,
+            "y": 210.6072443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u6",
+        "keep": {
+          "x": 337.917184,
+          "y": 403.2421875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "cannon",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.112,
+            "hit": false
+          }
+        ]
+      },
+      "siege": {
+        "units": [
+          {
+            "type": "archer",
+            "role": "archer",
+            "team": "player",
+            "x": 188.2828640638151,
+            "y": 146.59024709928508,
+            "height": 48,
+            "width": 42.94736842105263,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 48.84210526315789,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/archer",
+            "facing": "right-authored"
+          },
+          {
+            "type": "mage",
+            "role": "mage",
+            "team": "player",
+            "x": 107.0027672073128,
+            "y": 249.29564675112556,
+            "height": 48,
+            "width": 39.56043956043956,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 47.20879120879121,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/mage",
+            "facing": "right-authored"
+          },
+          {
+            "type": "shieldBearer",
+            "role": "enemy",
+            "team": "enemy",
+            "x": 264.52717465122345,
+            "y": 265.3270977056585,
+            "height": 48,
+            "width": 41.9622641509434,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 44.37735849056604,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": true,
+            "frame": 3,
+            "row": 2,
+            "state": "attack",
+            "source": "r5/enemy",
+            "facing": "left-mirror"
+          },
+          {
+            "type": "warrior",
+            "role": "warrior",
+            "team": "player",
+            "x": 253.55981748011806,
+            "y": 285.0375637201288,
+            "height": 48,
+            "width": 48,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 41.72727272727273,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": true,
+            "frame": 3,
+            "row": 2,
+            "state": "attack",
+            "source": "r6/warrior",
+            "facing": "right-authored"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 117.50427670856236,
+            "y": 351.0628880872631,
+            "height": 48,
+            "width": 33.42857142857142,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 48.285714285714285,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "left-mirror"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 91.02473675151268,
+            "y": 334.4135187008852,
+            "height": 48,
+            "width": 33.42857142857142,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 48.285714285714285,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "right-authored"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 123.96512644853053,
+            "y": 366.9745857197345,
+            "height": 48,
+            "width": 33.42857142857142,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 48.285714285714285,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "left-mirror"
+          }
+        ],
+        "towers": [],
+        "reduced": false,
+        "siege": true,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 87.93275192951617,
+            "y": 43.4978693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 71.33729716490521,
+            "y": 210.6072443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u5",
+        "keep": {
+          "x": -30.1968,
+          "y": 428.671875,
+          "height": 201.312,
+          "edgeCrop": true
+        },
+        "marchRoute": [
+          {
+            "x": 170,
+            "y": 410
+          },
+          {
+            "x": 410,
+            "y": 195
+          },
+          {
+            "x": 600,
+            "y": 195
+          },
+          {
+            "x": 818,
+            "y": 180
+          }
+        ],
+        "chapterArt": "ford",
+        "resonance": {
+          "active": false,
+          "bonus": 0,
+          "ranges": [],
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": false
+        },
+        "effects": [
+          {
+            "kind": "impact",
+            "age": 0.3370000000000002
+          }
+        ]
+      },
+      "portraits": [
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/warrior-portrait.png\")",
+          "width": 117,
+          "height": 60
+        },
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/archer-portrait.png\")",
+          "width": 117,
+          "height": 60
+        },
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/mage-portrait.png\")",
+          "width": 117,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "device": "ipad",
+      "width": 1032,
+      "height": 1376,
+      "dpr": 2,
+      "defense": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 440.1221875000036,
+            "y": 298.10633265356034,
+            "height": 53.30909090909091,
+            "width": 66.9484113162274,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 63.82793451758969,
+            "variant": 1,
+            "phase": 0.548,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 366.3350000000028,
+            "y": 236.0948644449677,
+            "height": 53.30909090909091,
+            "width": 58.2110762800418,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 59.23232323232324,
+            "variant": 2,
+            "phase": 0.685,
+            "healthShown": false,
+            "frame": 0,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 316.495000000002,
+            "y": 189.28099429987475,
+            "height": 53.30909090909091,
+            "width": 66.33287987224227,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 100.58319039451115,
+            "variant": 0,
+            "phase": 0.8220000000000001,
+            "healthShown": true,
+            "frame": 0,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 262.65500000000134,
+            "y": 135.92444426999054,
+            "height": 53.30909090909091,
+            "width": 59.85641859205078,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 65.81369248035915,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 189.81500000000048,
+            "y": 136.8595150887536,
+            "height": 53.30909090909091,
+            "width": 58.2110762800418,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 59.23232323232324,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 0,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 135.97499999999965,
+            "y": 140.68627861197143,
+            "height": 53.30909090909091,
+            "width": 66.33287987224227,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 100.58319039451115,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 62.13499999999986,
+            "y": 187.2660795863724,
+            "height": 53.30909090909091,
+            "width": 59.85641859205078,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 65.81369248035915,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 458.96439999999996,
+            "y": 330.0494909090909,
+            "h": 124.21018181818182,
+            "anchorX": 583.05,
+            "anchorY": 322.575,
+            "type": "cannon",
+            "selected": true
+          },
+          {
+            "x": 595.5956,
+            "y": 330.0494909090909,
+            "h": 124.21018181818182,
+            "anchorX": 633.75,
+            "anchorY": 322.575,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 527.28,
+            "y": 450.5333672727273,
+            "h": 124.21018181818182,
+            "anchorX": 583.05,
+            "anchorY": 381.225,
+            "type": "tesla",
+            "selected": false
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 53.30909090909091,
+        "bridges": [
+          {
+            "x": 303.337565209437,
+            "y": 129.22430268595042,
+            "width": 524.2348056013482,
+            "height": 173.0814639905549,
+            "deckWidth": 121.15702479338843,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 270.9276373958475,
+            "y": 410.2555526859504,
+            "width": 507.3663547658306,
+            "height": 173.0814639905549,
+            "deckWidth": 121.15702479338843,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u6",
+        "keep": {
+          "x": 871.4062499999999,
+          "y": 678.140625,
+          "height": 223.57832727272728,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "cannon",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.064,
+            "hit": false
+          }
+        ]
+      },
+      "siege": {
+        "units": [
+          {
+            "type": "archer",
+            "role": "archer",
+            "team": "player",
+            "x": 461.960467509155,
+            "y": 246.60612285749053,
+            "height": 53.30909090909091,
+            "width": 47.697607655502395,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 54.244338118022334,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/archer",
+            "facing": "right-authored"
+          },
+          {
+            "type": "mage",
+            "role": "mage",
+            "team": "player",
+            "x": 262.25323443142764,
+            "y": 420.3167417626394,
+            "height": 53.30909090909091,
+            "width": 43.93606393606394,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 52.43036963036963,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/mage",
+            "facing": "right-authored"
+          },
+          {
+            "type": "shieldBearer",
+            "role": "enemy",
+            "team": "enemy",
+            "x": 651.0450366416034,
+            "y": 446.2060008727418,
+            "height": 53.30909090909091,
+            "width": 46.60354488279017,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 49.28576329331047,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": true,
+            "frame": 3,
+            "row": 2,
+            "state": "attack",
+            "source": "r5/enemy",
+            "facing": "left-mirror"
+          },
+          {
+            "type": "warrior",
+            "role": "warrior",
+            "team": "player",
+            "x": 624.0525604971838,
+            "y": 479.3534942562166,
+            "height": 53.30909090909091,
+            "width": 53.30909090909091,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 46.34256198347108,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": true,
+            "frame": 3,
+            "row": 2,
+            "state": "attack",
+            "source": "r6/warrior",
+            "facing": "right-authored"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 232.31861311597393,
+            "y": 586.5923931350301,
+            "height": 53.30909090909091,
+            "width": 37.125974025974024,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 53.62640692640693,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "left-mirror"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 194.06348635017181,
+            "y": 572.1175967959051,
+            "height": 53.30909090909091,
+            "width": 37.125974025974024,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 53.62640692640693,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "right-authored"
+          },
+          {
+            "type": "villager",
+            "role": "worker",
+            "team": "player",
+            "x": 218.99575746621986,
+            "y": 605.8526868194419,
+            "height": 53.30909090909091,
+            "width": 37.125974025974024,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 31.985454545454544,
+            "poseHeight": 53.62640692640693,
+            "variant": 0,
+            "phase": 0,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r5/worker",
+            "facing": "left-mirror"
+          }
+        ],
+        "towers": [],
+        "reduced": false,
+        "siege": true,
+        "bodyHeight": 53.30909090909091,
+        "bridges": [
+          {
+            "x": 303.337565209437,
+            "y": 129.22430268595042,
+            "width": 524.2348056013482,
+            "height": 173.0814639905549,
+            "deckWidth": 121.15702479338843,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 270.9276373958475,
+            "y": 410.2555526859504,
+            "width": 507.3663547658306,
+            "height": 173.0814639905549,
+            "deckWidth": 121.15702479338843,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u5",
+        "keep": {
+          "x": -33.53674909090909,
+          "y": 720.90625,
+          "height": 223.57832727272728,
+          "edgeCrop": true
+        },
+        "marchRoute": [
+          {
+            "x": 170,
+            "y": 410
+          },
+          {
+            "x": 410,
+            "y": 195
+          },
+          {
+            "x": 600,
+            "y": 195
+          },
+          {
+            "x": 818,
+            "y": 180
+          }
+        ],
+        "chapterArt": "ford",
+        "resonance": {
+          "active": false,
+          "bonus": 0,
+          "ranges": [],
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": false
+        },
+        "effects": [
+          {
+            "kind": "impact",
+            "age": 0.3200000000000002
+          }
+        ]
+      },
+      "portraits": [
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/warrior-portrait.png\")",
+          "width": 313,
+          "height": 60
+        },
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/archer-portrait.png\")",
+          "width": 313,
+          "height": 60
+        },
+        {
+          "image": "url(\"http://127.0.0.1:60499/assets/r6/mage-portrait.png\")",
+          "width": 313,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "method": "Fresh save, public UI, virtual clock only for deterministic elapsed time. No state/resource/victory injection. Label/terrain suppression affects drawing only.",
+  "buildSHA256": "97d226255a6fe8d30fcfc7cabbbc4209783c238ce1bb7872e79dc4af6b498fc3",
+  "styleSHA256": "21c8ae313a6a50f513dac885e6154adbe028a219c56c84c24c9758a0cb51f9df",
+  "realTimeMotion": [
+    {
+      "path": "docs/art/r4/motion/real-combat-0.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 166.58749999999972,
+            "y": 142.65364721894153,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.548,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 131.30624999999975,
+            "y": 111.34074143635378,
+            "height": 48,
+            "width": 54.25287356321839,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 46.89655172413793,
+            "variant": 2,
+            "phase": 0.685,
+            "healthShown": false,
+            "frame": 1,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 120.02499999999971,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 58.94599869876382,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.8220000000000001,
+            "healthShown": true,
+            "frame": 1,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 104.74374999999984,
+            "y": 65.47126436781608,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 70.46249999999996,
+            "y": 72.08706257614706,
+            "height": 48,
+            "width": 54.25287356321839,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 46.89655172413793,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 1,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 55.17737499999999,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 58.94599869876382,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 33.1404853128991,
+            "y": 82.72798607270354,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u6",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.16660000000000036,
+            "hit": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/art/r4/motion/real-combat-1.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 152.29518749999983,
+            "y": 137.31322633062422,
+            "height": 48,
+            "width": 54.02298850574712,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 53.333333333333336,
+            "variant": 2,
+            "phase": 0.685,
+            "healthShown": false,
+            "frame": 2,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 141.0139374999998,
+            "y": 124.57775754517255,
+            "height": 48,
+            "width": 60.5074821080026,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.8220000000000001,
+            "healthShown": true,
+            "frame": 2,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 125.73268749999991,
+            "y": 86.73081859001783,
+            "height": 48,
+            "width": 55.938697318007655,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 59.259259259259245,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 91.45143749999998,
+            "y": 79.50122701062779,
+            "height": 48,
+            "width": 54.02298850574712,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 53.333333333333336,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 2,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 76.16631250000002,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 58.94599869876382,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 40.56731249999996,
+            "y": 65.47126436781608,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.47126436781608,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 1,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u6",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.5166000000000005,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.4,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.21660000000000035,
+            "hit": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/art/r4/motion/real-combat-2.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 162.00481249999984,
+            "y": 150.93632338983463,
+            "height": 48,
+            "width": 60.5074821080026,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.8220000000000001,
+            "healthShown": true,
+            "frame": 2,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 146.72356249999996,
+            "y": 114.81012814166476,
+            "height": 48,
+            "width": 55.938697318007655,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 59.259259259259245,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 112.4423125,
+            "y": 100.14863383402074,
+            "height": 48,
+            "width": 54.02298850574712,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 53.333333333333336,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 2,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 97.1571875,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 60.5074821080026,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": false,
+            "frame": 2,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 61.55818749999996,
+            "y": 67.25925925925924,
+            "height": 48,
+            "width": 55.938697318007655,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 59.259259259259245,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 2,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u6",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.4500000000000002,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.3333999999999997,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.30000000000000004,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/art/r4/motion/real-combat-3.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 167.71443749999997,
+            "y": 141.52250630023056,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.98212005108556,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 133.4331875,
+            "y": 128.03720367606687,
+            "height": 48,
+            "width": 54.25287356321839,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 46.89655172413793,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 3,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 118.1480625,
+            "y": 98.56603773584905,
+            "height": 48,
+            "width": 57.77488614183474,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": true,
+            "frame": 3,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 82.54906249999995,
+            "y": 65.98212005108556,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.98212005108556,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u9",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.38339999999999974,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.38339999999999974,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.26679999999999926,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/art/r4/motion/real-combat-4.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 188.70143750000003,
+            "y": 159.11369043222876,
+            "height": 48,
+            "width": 55.36,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 49.92,
+            "variant": 1,
+            "phase": 0.9590000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 3,
+            "state": "hurt",
+            "source": "r5/hound",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 154.42018750000005,
+            "y": 155.06896110743054,
+            "height": 48,
+            "width": 52.41379310344828,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 53.333333333333336,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 0,
+            "row": 2,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 139.13506250000003,
+            "y": 108.25030327653208,
+            "height": 48,
+            "width": 57.77488614183474,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": true,
+            "frame": 3,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 103.53606249999997,
+            "y": 74.6905539903442,
+            "height": 48,
+            "width": 60.280970625798204,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 57.98212005108556,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 3,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u9",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.46660000000000046,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.30000000000000004,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.19990000000000144,
+            "hit": false
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/art/r4/motion/real-combat-5.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 176.0581875,
+            "y": 173.76910514893078,
+            "height": 48,
+            "width": 55.36,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 49.92,
+            "variant": 2,
+            "phase": 0.09600000000000009,
+            "healthShown": false,
+            "frame": 0,
+            "row": 3,
+            "state": "hurt",
+            "source": "r5/hound",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 160.7730625,
+            "y": 136.3293742500038,
+            "height": 48,
+            "width": 59.72674040338321,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 90.56603773584905,
+            "variant": 0,
+            "phase": 0.2330000000000001,
+            "healthShown": true,
+            "frame": 0,
+            "row": 0,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          },
+          {
+            "type": "miremaw",
+            "role": "hound",
+            "team": "enemy",
+            "x": 125.17406249999993,
+            "y": 102.92650708255235,
+            "height": 48,
+            "width": 53.895274584929744,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 28.799999999999997,
+            "poseHeight": 59.259259259259245,
+            "variant": 1,
+            "phase": 0.3700000000000001,
+            "healthShown": false,
+            "frame": 0,
+            "row": 1,
+            "state": "walk",
+            "source": "r6/hound-walk",
+            "facing": "right-authored"
+          }
+        ],
+        "towers": [
+          {
+            "x": 131.928,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 155.51250000000002,
+            "type": "cannon",
+            "selected": false
+          },
+          {
+            "x": 254.952,
+            "y": 156.51799999999997,
+            "h": 111.84,
+            "anchorX": 232.5,
+            "anchorY": 155.51250000000002,
+            "type": "frost",
+            "selected": false
+          },
+          {
+            "x": 193.44,
+            "y": 265.0028,
+            "h": 111.84,
+            "anchorX": 213.9,
+            "anchorY": 183.78750000000002,
+            "type": "tesla",
+            "selected": true
+          }
+        ],
+        "reduced": false,
+        "siege": false,
+        "bodyHeight": 48,
+        "bridges": [
+          {
+            "x": 65.62683603168142,
+            "y": 16.6853693181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          },
+          {
+            "x": 50.64259046751812,
+            "y": 152.1697443181818,
+            "width": 283.6363636363636,
+            "height": 155.84415584415586,
+            "deckWidth": 109.0909090909091,
+            "bodyToDeck": 0.44,
+            "compressed": false
+          }
+        ],
+        "leaderId": "u9",
+        "keep": {
+          "x": 297.917184,
+          "y": 326.9296875,
+          "height": 201.312,
+          "edgeCrop": false
+        },
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "selectedType": "tesla",
+          "projection": "ground ellipse 0.32; combat radii unchanged",
+          "lineStyle": "selected solid, inactive alpha .16, active resonance solid only",
+          "rangeVisible": true
+        },
+        "effects": [
+          {
+            "kind": "shot",
+            "age": 0.26679999999999926,
+            "hit": true
+          },
+          {
+            "kind": "shot",
+            "age": 0.16679999999999928,
+            "hit": false
+          }
+        ]
+      }
+    }
+  ],
+  "video": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\docs\\art\\r4\\motion\\page@d9c52be810f8aaa939ad132f37f6bb37.webm"
+}

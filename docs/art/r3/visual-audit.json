@@ -1,0 +1,1272 @@
+{
+  "status": "VERIFIED",
+  "method": "Six chapters played from fresh save with public UI and virtual clock, no currency or victory injection. Motion is separate real-clock public UI. Label suppression changes presentation only.",
+  "checks": [
+    "docs/art/r3/sources/pine.png exact hash",
+    "docs/art/r3/sources/ford.png exact hash",
+    "docs/art/r3/sources/quarry.png exact hash",
+    "docs/art/r3/sources/citadel.png exact hash",
+    "docs/art/r3/sources/panel.png exact hash",
+    "docs/art/r3/sources/terrain-kit.png exact hash",
+    "docs/art/r3/sources/commander.png exact hash",
+    "docs/art/r3/sources/icons.png exact hash",
+    "docs/art/r3/sources/logo.png exact hash",
+    "docs/art/r3/sources/app-icon.png exact hash",
+    "docs/art/r3/sources/road-surface.png exact hash",
+    "public/assets/r3/abutment.png exact hash",
+    "public/assets/r3/app-icon-192.png exact hash",
+    "public/assets/r3/app-icon-512.png exact hash",
+    "public/assets/r3/app-icon-64.png exact hash",
+    "public/assets/r3/archer-e-portrait.png exact hash",
+    "public/assets/r3/chapter-citadel.webp exact hash",
+    "public/assets/r3/chapter-ford-watch.webp exact hash",
+    "public/assets/r3/chapter-ford.webp exact hash",
+    "public/assets/r3/chapter-pine.webp exact hash",
+    "public/assets/r3/chapter-quarry-watch.webp exact hash",
+    "public/assets/r3/chapter-quarry.webp exact hash",
+    "public/assets/r3/commander.png exact hash",
+    "public/assets/r3/gravel.png exact hash",
+    "public/assets/r3/logo.png exact hash",
+    "public/assets/r3/mage-portrait.png exact hash",
+    "public/assets/r3/panel.webp exact hash",
+    "public/assets/r3/reeds.png exact hash",
+    "public/assets/r3/road-surface.webp exact hash",
+    "public/assets/r3/ruts.png exact hash",
+    "public/assets/r3/sand.png exact hash",
+    "public/assets/r3/seal-cannon.png exact hash",
+    "public/assets/r3/seal-frost.png exact hash",
+    "public/assets/r3/seal-tesla.png exact hash",
+    "public/assets/r3/shoal.png exact hash",
+    "public/assets/r3/warrior-e-portrait.png exact hash",
+    "public/assets/r1/archer-e.png exact hash",
+    "public/assets/r1/archer-ne.png exact hash",
+    "public/assets/r1/archer-nw.png exact hash",
+    "public/assets/r1/archer-se.png exact hash",
+    "public/assets/r1/archer-sw.png exact hash",
+    "public/assets/r1/archer-w.png exact hash",
+    "public/assets/r1/ashwing.png exact hash",
+    "public/assets/r1/mage.png exact hash",
+    "public/assets/r1/miremaw.png exact hash",
+    "public/assets/r1/rootback.png exact hash",
+    "public/assets/r1/shieldBearer-e.png exact hash",
+    "public/assets/r1/shieldBearer-ne.png exact hash",
+    "public/assets/r1/shieldBearer-nw.png exact hash",
+    "public/assets/r1/shieldBearer-se.png exact hash",
+    "public/assets/r1/shieldBearer-sw.png exact hash",
+    "public/assets/r1/shieldBearer-w.png exact hash",
+    "public/assets/r1/villager-e.png exact hash",
+    "public/assets/r1/villager-ne.png exact hash",
+    "public/assets/r1/villager-nw.png exact hash",
+    "public/assets/r1/villager-se.png exact hash",
+    "public/assets/r1/villager-sw.png exact hash",
+    "public/assets/r1/villager-w.png exact hash",
+    "public/assets/r1/warrior-e.png exact hash",
+    "public/assets/r1/warrior-ne.png exact hash",
+    "public/assets/r1/warrior-nw.png exact hash",
+    "public/assets/r1/warrior-se.png exact hash",
+    "public/assets/r1/warrior-sw.png exact hash",
+    "public/assets/r1/warrior-w.png exact hash",
+    "28 inherited actor atlases pass current pixel color gates",
+    "all native cutouts have zero-alpha corners and clean hidden RGB",
+    "commander color gate",
+    "chapter 1 resonance active with real ranges",
+    "small text contrast >=4.5:1",
+    "chapter 1 won by actual public commands",
+    "chapter 2 human heights identical and >=48px",
+    "chapter 2 won by actual public commands",
+    "chapter 3 resonance active with real ranges",
+    "chapter 3 won by actual public commands",
+    "chapter 4 human heights identical and >=48px",
+    "chapter 4 won by actual public commands",
+    "chapter 5 resonance active with real ranges",
+    "chapter 5 won by actual public commands",
+    "chapter 6 human heights identical and >=48px",
+    "chapter 6 won by actual public commands",
+    "six real-time frames differ",
+    "real-time video exists",
+    "no runtime exceptions or asset errors"
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "path": "docs/art/r3/chapters/1-pine.png",
+      "noLabels": "docs/art/r3/chapters/1-pine-no-labels.png",
+      "presentation": {
+        "units": [],
+        "towers": [
+          {
+            "x": 533.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 326.28749999999997,
+            "type": "cannon"
+          },
+          {
+            "x": 665.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 633.75,
+            "anchorY": 326.28749999999997,
+            "type": "frost"
+          },
+          {
+            "x": 599.9499999999999,
+            "y": 447.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 385.61249999999995,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": true
+        }
+      },
+      "time": 33.15099999999813,
+      "hp": 100,
+      "crystals": 184
+    },
+    {
+      "chapter": 2,
+      "path": "docs/art/r3/chapters/2-ford.png",
+      "noLabels": "docs/art/r3/chapters/2-ford-no-labels.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "shieldBearer",
+            "team": "enemy",
+            "height": 60,
+            "width": 32.19512195121951,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "archer",
+            "team": "player",
+            "height": 60,
+            "width": 36.33802816901408,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "warrior",
+            "team": "player",
+            "height": 60,
+            "width": 44.54545454545455,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "mage",
+            "team": "player",
+            "height": 60,
+            "width": 42.90322580645161,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 36.52173913043478,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          }
+        ],
+        "towers": [],
+        "reduced": false,
+        "chapterArt": "ford",
+        "resonance": {
+          "active": false,
+          "bonus": 0,
+          "ranges": [],
+          "rangeVisible": false
+        }
+      },
+      "time": 44.93699999999704,
+      "hp": 100,
+      "crystals": 385
+    },
+    {
+      "chapter": 3,
+      "path": "docs/art/r3/chapters/3-ford-watch.png",
+      "noLabels": "docs/art/r3/chapters/3-ford-watch-no-labels.png",
+      "presentation": {
+        "units": [],
+        "towers": [
+          {
+            "x": 533.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 326.28749999999997,
+            "type": "cannon"
+          },
+          {
+            "x": 665.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 633.75,
+            "anchorY": 326.28749999999997,
+            "type": "frost"
+          },
+          {
+            "x": 599.9499999999999,
+            "y": 447.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 385.61249999999995,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "ford-watch",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": true
+        }
+      },
+      "time": 61.96499999999496,
+      "hp": 100,
+      "crystals": 277
+    },
+    {
+      "chapter": 4,
+      "path": "docs/art/r3/chapters/4-quarry.png",
+      "noLabels": "docs/art/r3/chapters/4-quarry-no-labels.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "shieldBearer",
+            "team": "enemy",
+            "height": 60,
+            "width": 29.629629629629626,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "mage",
+            "team": "player",
+            "height": 60,
+            "width": 42.90322580645161,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "warrior",
+            "team": "player",
+            "height": 60,
+            "width": 44.54545454545455,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "archer",
+            "team": "player",
+            "height": 60,
+            "width": 36.33802816901408,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 36.52173913043478,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          }
+        ],
+        "towers": [],
+        "reduced": false,
+        "chapterArt": "quarry",
+        "resonance": {
+          "active": false,
+          "bonus": 0,
+          "ranges": [],
+          "rangeVisible": false
+        }
+      },
+      "time": 43.1989999999972,
+      "hp": 100,
+      "crystals": 393
+    },
+    {
+      "chapter": 5,
+      "path": "docs/art/r3/chapters/5-quarry-watch.png",
+      "noLabels": "docs/art/r3/chapters/5-quarry-watch-no-labels.png",
+      "presentation": {
+        "units": [],
+        "towers": [
+          {
+            "x": 533.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 326.28749999999997,
+            "type": "cannon"
+          },
+          {
+            "x": 665.9499999999999,
+            "y": 350.95,
+            "h": 100,
+            "anchorX": 633.75,
+            "anchorY": 326.28749999999997,
+            "type": "frost"
+          },
+          {
+            "x": 599.9499999999999,
+            "y": 447.95,
+            "h": 100,
+            "anchorX": 583.05,
+            "anchorY": 385.61249999999995,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "quarry-watch",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": true
+        }
+      },
+      "time": 110.78000000001033,
+      "hp": 52,
+      "crystals": 361
+    },
+    {
+      "chapter": 6,
+      "path": "docs/art/r3/chapters/6-citadel.png",
+      "noLabels": "docs/art/r3/chapters/6-citadel-no-labels.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "shieldBearer",
+            "team": "enemy",
+            "height": 60,
+            "width": 29.629629629629626,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "mage",
+            "team": "player",
+            "height": 60,
+            "width": 42.90322580645161,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 3,
+            "row": 2
+          },
+          {
+            "type": "warrior",
+            "team": "player",
+            "height": 60,
+            "width": 44.54545454545455,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "archer",
+            "team": "player",
+            "height": 60,
+            "width": 36.33802816901408,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 35.833333333333336,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "villager",
+            "team": "player",
+            "height": 60,
+            "width": 36.52173913043478,
+            "healthWidth": 36,
+            "healthHeight": 5,
+            "shadowWidth": 30,
+            "frame": 1,
+            "row": 1
+          }
+        ],
+        "towers": [],
+        "reduced": false,
+        "chapterArt": "citadel",
+        "resonance": {
+          "active": false,
+          "bonus": 0,
+          "ranges": [],
+          "rangeVisible": false
+        }
+      },
+      "time": 43.46799999999716,
+      "hp": 100,
+      "crystals": 412
+    }
+  ],
+  "errors": [],
+  "contrast": [
+    {
+      "selector": ".feedback",
+      "foreground": "rgb(36, 77, 89)",
+      "background": "rgb(229, 235, 227)",
+      "ratio": 7.5955834571767555
+    },
+    {
+      "selector": ".cards small",
+      "foreground": "rgb(59, 75, 83)",
+      "background": "rgb(249, 250, 243)",
+      "ratio": 8.629186278905438
+    },
+    {
+      "selector": ".command-head span",
+      "foreground": "rgb(60, 80, 89)",
+      "background": "rgb(241, 241, 233)",
+      "ratio": 7.447677206396814
+    },
+    {
+      "selector": ".map-label",
+      "foreground": "rgb(37, 61, 72)",
+      "background": "rgb(246, 247, 237)",
+      "ratio": 10.569861162419988
+    },
+    {
+      "selector": ".field-status",
+      "foreground": "rgb(37, 61, 72)",
+      "background": "rgb(246, 247, 237)",
+      "ratio": 10.569861162419988
+    }
+  ],
+  "buildSHA256": "055787cf3616a2a21ee1607040b882493cf03dc087b9548d444b76a527b7278a",
+  "styleSHA256": "979539a60df62b439f987b8113e7c0612be1d72ef0a2d59b5b256c5aa4d10c2c",
+  "motion": [
+    {
+      "path": "docs/art/r3/motion/combat-0.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 71.62952727272726,
+            "healthWidth": 46.55919272727272,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 3
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    },
+    {
+      "path": "docs/art/r3/motion/combat-1.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    },
+    {
+      "path": "docs/art/r3/motion/combat-2.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    },
+    {
+      "path": "docs/art/r3/motion/combat-3.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 84.35418072289156,
+            "healthWidth": 54.830217469879514,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 2,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    },
+    {
+      "path": "docs/art/r3/motion/combat-4.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 77.22811560693641,
+            "healthWidth": 50.19827514450867,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 3,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    },
+    {
+      "path": "docs/art/r3/motion/combat-5.png",
+      "presentation": {
+        "units": [
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 91.9982322580645,
+            "healthWidth": 59.79885096774193,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 1,
+            "row": 1
+          },
+          {
+            "type": "miremaw",
+            "team": "enemy",
+            "height": 64.23299999999999,
+            "width": 75.71599441340781,
+            "healthWidth": 49.21539636871508,
+            "healthHeight": 5,
+            "shadowWidth": 32.116499999999995,
+            "frame": 0,
+            "row": 1
+          }
+        ],
+        "towers": [
+          {
+            "x": 177.85999999999999,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 167.0625,
+            "type": "cannon"
+          },
+          {
+            "x": 262.34,
+            "y": 179.05,
+            "h": 64,
+            "anchorX": 232.5,
+            "anchorY": 167.0625,
+            "type": "frost"
+          },
+          {
+            "x": 220.1,
+            "y": 241.13,
+            "h": 64,
+            "anchorX": 213.9,
+            "anchorY": 197.4375,
+            "type": "tesla"
+          }
+        ],
+        "reduced": false,
+        "chapterArt": "pine",
+        "resonance": {
+          "active": true,
+          "bonus": 0.3,
+          "ranges": [
+            {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "radius": 160
+            },
+            {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "radius": 165
+            },
+            {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "radius": 160
+            }
+          ],
+          "rangeVisible": false
+        }
+      }
+    }
+  ],
+  "video": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\docs\\art\\r3\\motion\\page@1153467347918cc559edfbd8ecb1ade3.webm"
+}

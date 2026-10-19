@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED",
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "generatedMasters": 1,
+  "runtimeAtlases": 1,
+  "objects": 3,
+  "path": "public/assets/content-r1/fieldworks.png",
+  "bytes": 2261076,
+  "sha256": "1734548b2a268b5c815cc7a6c69d1bba366ae5563e59e32175f739b90bc1c783",
+  "size": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "cornersTransparent": false,
+  "processing": "Unmodified generated PNG; browser drawImage and SVG viewBox select the three prop regions. No raster editing or recoloring.",
+  "sourceArtifactId": "exec-3d3c45f5-942b-4d69-87e5-70641e1c64d8",
+  "stylePrefixMatches": "docs/art/PROMPTS_R7.json.stylePrefix",
+  "usage": [
+    "terrain preview and actual barricade",
+    "terrain preview and actual sluice slow zone",
+    "exercise menu and unoccupied deployment sites"
+  ]
+}

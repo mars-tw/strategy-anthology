@@ -1,0 +1,264 @@
+{
+  "status": "VERIFIED",
+  "pairs": [
+    {
+      "before": "docs/art/compare/r2/before/1032x1376-defense.png",
+      "after": "docs/art/compare/r2/after/1032x1376-defense.png",
+      "comparison": "docs/art/compare/r2/1032x1376-defense.png",
+      "beforeSHA256": "616109da8134d329dc02af470329ed754e3e48ed99cb71c389d864477b75e9d1",
+      "afterSHA256": "d013066b6f99fba420ba710ff58108979ebc88bec231bb1e818be83df76babb6"
+    },
+    {
+      "before": "docs/art/compare/r2/before/1032x1376-opening.png",
+      "after": "docs/art/compare/r2/after/1032x1376-opening.png",
+      "comparison": "docs/art/compare/r2/1032x1376-opening.png",
+      "beforeSHA256": "083d39dc8b21f7880df32bb1c04a18ed46787f571dcd50a2735c085e1c9a72e0",
+      "afterSHA256": "0ccef4e51f72504b248d5014aee0137db28a64f753efe42cd0a83d50e7590c79"
+    },
+    {
+      "before": "docs/art/compare/r2/before/1032x1376-siege.png",
+      "after": "docs/art/compare/r2/after/1032x1376-siege.png",
+      "comparison": "docs/art/compare/r2/1032x1376-siege.png",
+      "beforeSHA256": "1c1d72f2e56335a59a5ebfd7b324cf1260d1992215dd103ce220fdec2a69e0ae",
+      "afterSHA256": "ea5cdc9556e51ee49ae4551a2d0c8c412bf55eda9c4a258678f8b3a367d8b4ea"
+    },
+    {
+      "before": "docs/art/compare/r2/before/390x844-defense.png",
+      "after": "docs/art/compare/r2/after/390x844-defense.png",
+      "comparison": "docs/art/compare/r2/390x844-defense.png",
+      "beforeSHA256": "f8e1a0ab277cab95201b222296423c99d29b45028bd40892e7bb9af885841fd5",
+      "afterSHA256": "f52b7ed3275fb261ff2d6aa7e8bba04f8f36ed56f2bb5e345db0b958237ad4f3"
+    },
+    {
+      "before": "docs/art/compare/r2/before/390x844-opening.png",
+      "after": "docs/art/compare/r2/after/390x844-opening.png",
+      "comparison": "docs/art/compare/r2/390x844-opening.png",
+      "beforeSHA256": "1235586900f8dfc75b14adccc559850363f10dbad8295d142c2dc203154b85a4",
+      "afterSHA256": "279df356ef0fba81825e966c7de012fb5d602d34a369d71c1c6a8b68065d10ee"
+    },
+    {
+      "before": "docs/art/compare/r2/before/390x844-siege.png",
+      "after": "docs/art/compare/r2/after/390x844-siege.png",
+      "comparison": "docs/art/compare/r2/390x844-siege.png",
+      "beforeSHA256": "6721ddb61b3d1e7308788d2023a54c757ce52fdbe214046bb6be3fc3f1da88cf",
+      "afterSHA256": "b817acf639960451125c5c80c6f38925d1c17e84c0e053ac947b950a9add7a3c"
+    },
+    {
+      "before": "docs/art/compare/r2/before/844x390-defense.png",
+      "after": "docs/art/compare/r2/after/844x390-defense.png",
+      "comparison": "docs/art/compare/r2/844x390-defense.png",
+      "beforeSHA256": "dfdb816de3933ecc7ca39502b543ec3e439c660efec46f633579c08bb1e070c6",
+      "afterSHA256": "2b7cafb7f20ac5a2f9804095477b55c44d84d0142ba2fc48647618b1d9cdf0b3"
+    },
+    {
+      "before": "docs/art/compare/r2/before/844x390-opening.png",
+      "after": "docs/art/compare/r2/after/844x390-opening.png",
+      "comparison": "docs/art/compare/r2/844x390-opening.png",
+      "beforeSHA256": "8cc2115dfa3d4fcfcd47ee85aafe1260beaf2f49787b176ca313181846a78037",
+      "afterSHA256": "074dbe73e42f5facd049d49b4ae46975e997db842e1f0d31eaf46ffc6f7515b2"
+    },
+    {
+      "before": "docs/art/compare/r2/before/844x390-siege.png",
+      "after": "docs/art/compare/r2/after/844x390-siege.png",
+      "comparison": "docs/art/compare/r2/844x390-siege.png",
+      "beforeSHA256": "87ee7f7195cad9df83305d5526122a37dde2fc73b70736c825f220313140e4ee",
+      "afterSHA256": "b5b8e2cadd427b383abb1227f57823362518e4571b041b1635bec0761d17b47e"
+    }
+  ],
+  "siegeVisibleSizes": [
+    {
+      "width": 390,
+      "height": 844,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 57.93333333333333,
+          "width": 34.46666666666666,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 51.07142857142857,
+          "width": 41.64285714285714,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 45.92349726775956,
+          "width": 32.21857923497268,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 51,
+          "width": 50,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 51,
+          "width": 50,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 69,
+          "width": 45,
+          "healthWidth": 36,
+          "healthHeight": 5
+        }
+      ],
+      "towers": [],
+      "reduced": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 57.199999999999996,
+          "width": 35.199999999999996,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 51.857142857142854,
+          "width": 38.5,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 45.92349726775956,
+          "width": 32.21857923497268,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 61,
+          "width": 51,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 61,
+          "width": 51,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 69,
+          "width": 42,
+          "healthWidth": 36,
+          "healthHeight": 5
+        }
+      ],
+      "towers": [],
+      "reduced": false
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 73.54285714285714,
+          "width": 44.31428571428572,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 61.28571428571429,
+          "width": 35.82857142857143,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 76.72500000000001,
+          "width": 54.862500000000004,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 71,
+          "width": 41,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 71,
+          "width": 41,
+          "healthWidth": 36,
+          "healthHeight": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 69,
+          "width": 47,
+          "healthWidth": 36,
+          "healthHeight": 5
+        }
+      ],
+      "towers": [],
+      "reduced": false
+    }
+  ],
+  "storeScreenshots": "docs/store/screenshots/",
+  "motionEvidence": "docs/art/r2/visual-audit.json",
+  "flatRegionMethod": "Upper bound: total occurrences of the single most frequent exact RGB color. Any connected region of that color is necessarily no larger. This does not quantify low-detail artwork.",
+  "flatRegionUpperBounds": [
+    {
+      "path": "docs/art/compare/r2/after/390x844-defense.png",
+      "largestExactColorConnectedRegionUpperBound": 0.052114473204520596,
+      "pass": true
+    },
+    {
+      "path": "docs/art/compare/r2/after/390x844-opening.png",
+      "largestExactColorConnectedRegionUpperBound": 0.045649532142423135,
+      "pass": true
+    },
+    {
+      "path": "docs/art/compare/r2/after/390x844-siege.png",
+      "largestExactColorConnectedRegionUpperBound": 0.03768380119091019,
+      "pass": true
+    }
+  ],
+  "phoneBattlefield": {
+    "canvasHeight": 405,
+    "fieldHeight": 407,
+    "screenHeight": 844,
+    "fieldRatio": 0.4822274881516588
+  }
+}

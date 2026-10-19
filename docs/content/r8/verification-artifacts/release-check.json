@@ -1,0 +1,66 @@
+{
+  "status": "VERIFIED",
+  "version": "0.16.0",
+  "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e",
+  "secretScan": {
+    "files": 2783,
+    "matches": 0,
+    "paths": []
+  },
+  "sourceHashesMatchVerification": true,
+  "preservedInitialFiles": [
+    "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r2-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r3-01-terrain-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r3-02-exercise-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r4-terrain-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r5-terrain-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r6-hollow-2064x2752.png",
+    "docs/store/screenshots/ipad-content-r7-flood-2064x2752.png",
+    "docs/store/screenshots/ipad-defense-2064x2752.png",
+    "docs/store/screenshots/ipad-opening-2064x2752.png",
+    "docs/store/screenshots/ipad-siege-2064x2752.png",
+    "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r2-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r3-01-terrain-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r3-02-exercise-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r4-terrain-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r5-terrain-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r6-hollow-1290x2796.png",
+    "docs/store/screenshots/iphone-content-r7-flood-1290x2796.png",
+    "docs/store/screenshots/iphone-defense-1290x2796.png",
+    "docs/store/screenshots/iphone-opening-1290x2796.png",
+    "docs/store/screenshots/iphone-siege-1290x2796.png",
+    "docs/OPTIM_PLAN_CONTENT_R8.md",
+    "docs/art/ART_RESCORE2_MUSE.md",
+    "docs/art/ART_RESCORE3_MUSE.md",
+    "docs/art/ART_RESCORE4_MUSE.md",
+    "docs/art/ART_RESCORE5_MUSE.md",
+    "docs/art/ART_RESCORE6_MUSE.md",
+    "docs/art/ART_RESCORE7_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R1_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R2_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R3_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R4_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R5_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R6_MUSE.md",
+    "docs/content/CONTENT_REVIEW_R7_CLAUDE.md",
+    "docs/content/CONTENT_REVIEW_R7_GPT.md",
+    "docs/content/CONTENT_REVIEW_R7_MUSE.md"
+  ],
+  "newStoreScreenshots": [
+    {
+      "path": "docs/store/screenshots/iphone-content-r8-flood-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "087e83b69b9a047ee51717849fe7f8e4d584bdfb1247c09b43b79740b91fb33a"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r8-flood-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "8dafa27406db64bc9054101e44e0214b767f2fdf1134a5b1bba6da66f202374e"
+    }
+  ],
+  "noDebugHook": true
+}

@@ -1,0 +1,25 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "masters": 1,
+  "files": [
+    {
+      "path": "docs/content/r4/art/flood-master.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "4cde37481a93aefc2998839ed04c8b06d798f37cb923c3546add77e4a05e9990"
+    },
+    {
+      "path": "public/assets/content-r4/flood.webp",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "sha256": "7698149e3ba96ab88049a831542c4123a04a54f220405f56f70e116ddf4f0a4b"
+    }
+  ]
+}

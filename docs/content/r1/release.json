@@ -1,0 +1,165 @@
+{
+  "status": "VERIFIED",
+  "version": "0.9.0",
+  "startCommit": "f46ae162eadf221373a636e658dbf199451c7db1",
+  "branch": "main",
+  "buildSHA256": "9d9ed39c96bce0859c58ff683d0545240fbc67be7c10ad8e2bf0455c6d06396b",
+  "styleSHA256": "f4e1fd25c31cf79f272029a08c5584231f6e79bb5408c0d909b280c5fadf0c00",
+  "verifyCommand": {
+    "command": "npm run verify",
+    "exitCode": 0,
+    "log": "docs/content/r1/verify-release.txt",
+    "unitTests": 72,
+    "existingE2E": 464,
+    "contentE2E": 282,
+    "visualChecks": [
+      41,
+      114,
+      309
+    ]
+  },
+  "secretScan": {
+    "files": 326,
+    "matches": 0
+  },
+  "newStoreScreenshots": [
+    {
+      "path": "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "924e779e9cab46267fda7ddd97c6853dac22f270a3edabc6eaa4d4cd91be6490",
+      "bytes": 2858437
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "be1d0af70821420dfbcf658ef1ac56947813fb91d586ba0eaa178b32aeb1654e",
+      "bytes": 5134404
+    }
+  ],
+  "retainedStoreScreenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "sha256": "cf464899b916556def0422f89293b3fc73e03a2468d2b62f65ffd71eb305e190",
+      "unchanged": true
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "sha256": "4bef112f476793ef6bc1a86cb18db35d6e7c3b7ea7cfe9638a0f3c207fca6e6a",
+      "unchanged": true
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "sha256": "ee196b95944655e217a9aa82b15f476e4b1e798755b253aaf9d77ba4f32fbd19",
+      "unchanged": true
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "sha256": "6ace30e0fe989b0f0a606b99b6800d9db65158cc57efe83b33ad50617add152f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "sha256": "66d07831a450fce902fa9560c8ed7962db3588152f08c529b2fd31fdef211a64",
+      "unchanged": true
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "sha256": "d258f0380e60752f8e132b897b8bf9c85e92886b839dcc6f1564ae2054ff7c5c",
+      "unchanged": true
+    }
+  ],
+  "initialMuseFilesPreserved": 6,
+  "performance": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "flood",
+      "width": 844,
+      "height": 390,
+      "medianP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "switchback",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "switchback",
+      "width": 844,
+      "height": 390,
+      "medianP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    }
+  ],
+  "baselinePerformance": [
+    {
+      "medianP95": 16.800000000000182,
+      "referenceThreshold": 18,
+      "referencePass": true
+    },
+    {
+      "medianP95": 16.800000000000182,
+      "referenceThreshold": 18,
+      "referencePass": true
+    }
+  ],
+  "runtimeBytes": 48148355,
+  "generation": {
+    "actualTool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "masters": 1,
+    "objects": 3
+  },
+  "evidenceArchives": [
+    {
+      "path": "docs/content/r1/verification-artifacts/visual-regression.zip",
+      "bytes": 19342736,
+      "sha256": "0152a279480a7a699fe3c6bc13adea7eff79da9fda940b5d789659cdabd58c37",
+      "entries": 21
+    },
+    {
+      "path": "docs/content/r1/verification-artifacts/r2-art.zip",
+      "bytes": 8160313,
+      "sha256": "5ad36348fc2cea22e681a1ed14c2850290c9fe7c54f8b6ae915180b28ffbadf6",
+      "entries": 10
+    },
+    {
+      "path": "docs/content/r1/verification-artifacts/r7-art.zip",
+      "bytes": 71549523,
+      "sha256": "8d8748adb82e5b4b95ee0e9b4fe5be771323eb2e3cadaa89625fafe089a6bc7f",
+      "entries": 34
+    },
+    {
+      "path": "docs/content/r1/verification-artifacts/campaign-regression.zip",
+      "bytes": 24002501,
+      "sha256": "d8d1769e1029a0cd9242dc4323c63fa1a2b2dc316c4bb95b4ebfee2556c6295e",
+      "entries": 31
+    },
+    {
+      "path": "docs/content/r1/verification-artifacts/recaptured-legacy-store.zip",
+      "bytes": 24880273,
+      "sha256": "073071aed1686faed64864f8ade9ebab5f113c47129dc9651c4bc757d7a4f205",
+      "entries": 6
+    }
+  ],
+  "limits": [
+    "Headless browser emulation, not physical iOS",
+    "Concurrent-load performance is reference only",
+    "Apple 4.3 and independent Muse assessment not obtained"
+  ],
+  "publication": "Local commit only; no push, deployment, store action, message or external delegation."
+}

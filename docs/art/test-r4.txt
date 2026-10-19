@@ -1,0 +1,5 @@
+
+> trine-frontier@0.5.0 test:art:r4
+> node scripts/art-audit-r4.mjs
+
+VERIFIED: 108 R4 checks, 2 store sizes.

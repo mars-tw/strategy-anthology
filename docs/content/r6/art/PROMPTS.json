@@ -1,0 +1,15 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "samples": [
+    {
+      "id": "flood",
+      "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Single transparent terrain asset for an offline top-down strategy game. A flooded DIRT ROAD bend: broad asymmetrical celadon puddle with clearly visible ochre wagon ruts submerged, broken muddy ochre banks, dark mud islands, sparse reeds and small stones. Strongly irregular ragged outline, two branching fingers extending onto the dry road, short white directional ripples and clear water reflections. High overhead miniature gouache terrain, distinct from a natural river. Centered within 85% of square canvas, transparent outside the patch. No circular outline, no target, no text, no buildings or characters."
+    },
+    {
+      "id": "barricade",
+      "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Single transparent game prop: a stout military ROAD BARRICADE made from collapsed slate boulders, shattered ochre trail slabs, thick dark timber stakes, and a pair of small cinnabar cloth pennants. Seen from high overhead at shallow 3/4 miniature perspective, horizontal obstacle across a dirt road, heavy irregular rocks visibly plugging the whole route. Broad readable gouache masses, compact short violet contact shadow. Centered object within 80 percent of square transparent canvas, no background, no text, no people, no UI."
+    }
+  ]
+}

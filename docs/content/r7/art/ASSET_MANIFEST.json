@@ -1,0 +1,59 @@
+{
+  "status": "VERIFIED",
+  "assets": [
+    {
+      "id": "legacy-cannon",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "original": "docs/content/r7/art/legacy-cannon-original.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "crop": [
+        0,
+        0,
+        1232,
+        1254
+      ],
+      "runtime": "public/assets/content-r7/legacy-cannon.webp",
+      "size": [
+        629,
+        640
+      ],
+      "sha256": "8bfd0fd81416c109ef2e2388512691924c073534bdb5e972616425ffb749b44a",
+      "originalSHA256": "1d23955bc796a375faa5e27ebeb9f351a4ad9febdb41dcb8c2655b178ea7ffa3"
+    },
+    {
+      "id": "flood",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "original": "docs/content/r7/art/flood-original.png",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "runtime": "public/assets/content-r7/flood.webp",
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "1e30d774e62868c6993b5bb380e987a6a9af610f370464b5b56287b9d8ef86b0",
+      "originalSHA256": "69522d7207de9c150bfd7bc3bcb607b9e33317096f1a942f264414765dec128a"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED",
+  "newGeneratedArt": 0,
+  "newGenerationTool": null,
+  "reusedSourceTool": "image_gen__imagegen",
+  "sourcePrompts": "docs/content/r7/art/PROMPTS.json",
+  "note": "No image generation was performed in R8. Existing authored sprites are reused with canvas projection, clipping, scale and independent bases.",
+  "reused": [
+    {
+      "path": "public/assets/content-r7/legacy-cannon.webp",
+      "sha256": "8bfd0fd81416c109ef2e2388512691924c073534bdb5e972616425ffb749b44a"
+    },
+    {
+      "path": "public/assets/content-r7/flood.webp",
+      "sha256": "1e30d774e62868c6993b5bb380e987a6a9af610f370464b5b56287b9d8ef86b0"
+    },
+    {
+      "path": "public/assets/content-r6/barricade.webp",
+      "sha256": "1a841e2d15e676fc80ba487d338734c839fcc80ae42b9774a181c51ba79feda4"
+    },
+    {
+      "path": "public/assets/r4/tower-cannon.png",
+      "sha256": "07e2e791aa99c52cf4f266b77a3bd4da9d5266c5f27d734cb2c09c926dd2b6d3"
+    },
+    {
+      "path": "public/assets/r4/tower-frost.png",
+      "sha256": "3f3ac3fc6703af322ef52f0f75dbdba32fe077ec75e0ffc142717206f088d7d3"
+    },
+    {
+      "path": "public/assets/r4/tower-tesla.png",
+      "sha256": "c954f8fd16fe1f3a4971e55b2156c5c4d069000cf3c03f17b08d8aebb44b7cbd"
+    }
+  ]
+}

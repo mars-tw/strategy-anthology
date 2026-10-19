@@ -1,0 +1,68 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "29780ea8a4640a385039d7ac8f9daa397529d6115502e51359ebd8d5138075e9",
+  "method": "Public touch UI; the genuinely inherited ford frost tower, actual first wave. No game-state injection. Refresh only the three ice screenshots on the same verified build.",
+  "checks": [
+    "actual ice projectile reaches the target",
+    "ice does 11 actual damage to a surviving enemy",
+    "living enemy receives the real 1.6 second slow",
+    "loupe shows the selected ice target",
+    "same survivor advances at ice-slowed speed",
+    "three distinct original PNGs"
+  ],
+  "shots": [
+    {
+      "path": "docs/content/r6/phone-impact-frost-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "5f62f94bdb58623795b638a45ecb36b48b75ac87ae8b21e83fbe30a5eaf1940a"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-frost-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "2b8f1231961522eeb89bbeab10af3d1c38d5f0fa57d5b4dcd8adefe33957f8a3"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-frost-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "957b25ba74f5e46ff277f220ce2d7b00c4da325d6055cf18cb9aef46e5584ac9"
+    }
+  ],
+  "hit": {
+    "kind": "shot",
+    "x": 600,
+    "y": 264,
+    "tx": 451.9039999999954,
+    "ty": 192,
+    "targetId": "u2",
+    "damage": 11,
+    "color": "frost",
+    "slow": 1.6,
+    "age": 0.2560000000000001,
+    "hit": true,
+    "towerId": "t1",
+    "bonus": 0,
+    "hpBefore": 76,
+    "maxHP": 76,
+    "actualDamage": 11,
+    "hpAfter": 65
+  },
+  "actualDisplacement": {
+    "requestedMs": 130,
+    "elapsedSeconds": 0.1280000000000001,
+    "distance": 3.8400000000001455,
+    "normalSpeed": 54,
+    "iceSpeed": 30
+  }
+}

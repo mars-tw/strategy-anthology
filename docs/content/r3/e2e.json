@@ -1,0 +1,3255 @@
+{
+  "status": "VERIFIED",
+  "method": "One headless browser, serial contexts. Public controls only; attained saves restored through public import. Virtual clock advances elapsed time only. Videos are uncut browser-frame sequences at accelerated simulation time, no synthetic actors/resources/results.",
+  "buildSHA256": "2a2714c806a57472713a260570a71c5ff020330c44d0cae0d7ac39b20ed39fb4",
+  "checks": [
+    "first wave forces true-map preview",
+    "required preview occurs before three minutes",
+    "required preview cancels for free",
+    "seen-preview flag survives reload",
+    "seen preview does not block a second wave request",
+    "phone home chronicle reachable 44px",
+    "phone home pause reachable 44px",
+    "phone home begin reachable 44px",
+    "phone home exercises reachable 44px",
+    "phone home saves reachable 44px",
+    "phone home no mobile keyboard text",
+    "same attained ford save pending",
+    "legacy result chronicle reachable 44px",
+    "legacy result pause reachable 44px",
+    "legacy result next reachable 44px",
+    "legacy result chronicle reachable 44px",
+    "legacy result no mobile keyboard text",
+    "tower receipt names next chapter",
+    "inherited flag and level",
+    "tower persists without reclaim",
+    "salvage exactly +90",
+    "salvage leaves empty tower position",
+    "salvage reload no double claim",
+    "salvage foundation is visibly vacant",
+    "salvage allows rebuilding at the original pad without empty label",
+    "phone preview barricade preview-barricade reachable 44px",
+    "phone preview barricade preview-flood reachable 44px",
+    "phone preview barricade apply-terrain reachable 44px",
+    "phone preview barricade close reachable 44px",
+    "phone preview barricade no mobile keyboard text",
+    "barricade preview retains built tower and exact coverage",
+    "barricade arrows actually move",
+    "barricade preview cancels free",
+    "phone-terrain-barricade-route sequence reaches end",
+    "barricade paid only once",
+    "barricade changed route survives reload",
+    "phone preview flood preview-barricade reachable 44px",
+    "phone preview flood preview-flood reachable 44px",
+    "phone preview flood apply-terrain reachable 44px",
+    "phone preview flood close reachable 44px",
+    "phone preview flood no mobile keyboard text",
+    "flood preview retains built tower and exact coverage",
+    "flood arrows actually move",
+    "flood preview cancels free",
+    "phone-terrain-flood-route sequence reaches end",
+    "flood paid only once",
+    "wet actor receives map slow marker",
+    "flood changed route survives reload",
+    "phone exercise list exercise-turn reachable 44px",
+    "phone exercise list exercise-levee reachable 44px",
+    "phone exercise list exercise-switchback reachable 44px",
+    "phone exercise list close reachable 44px",
+    "phone exercise list no mobile keyboard text",
+    "turn relocate preview without spending",
+    "turn formation pad 1 stays above status text",
+    "turn formation pad 2 stays above status text",
+    "turn formation pad 3 stays above status text",
+    "turn formation pad 4 stays above status text",
+    "turn formation pad 5 stays above status text",
+    "turn formation chronicle reachable 44px",
+    "turn formation pause reachable 44px",
+    "turn formation tower-cannon reachable 44px",
+    "turn formation tower-frost reachable 44px",
+    "turn formation tower-tesla reachable 44px",
+    "turn formation suggest reachable 44px",
+    "turn formation confirm reachable 44px",
+    "turn formation cancel reachable 44px",
+    "turn formation wave reachable 44px",
+    "turn formation skill reachable 44px",
+    "turn formation no mobile keyboard text",
+    "turn dense labels do not overlap 0:1",
+    "turn dense labels do not overlap 0:2",
+    "turn dense labels do not overlap 0:3",
+    "turn dense labels do not overlap 0:4",
+    "turn dense labels do not overlap 1:2",
+    "turn dense labels do not overlap 1:3",
+    "turn dense labels do not overlap 1:4",
+    "turn dense labels do not overlap 2:3",
+    "turn dense labels do not overlap 2:4",
+    "turn dense labels do not overlap 3:4",
+    "turn locks formation",
+    "turn mid-wave resumes",
+    "turn wins with zero leaks",
+    "turn actual strategy feedback",
+    "turn complete pad 1 stays above status text",
+    "turn complete pad 2 stays above status text",
+    "turn complete pad 3 stays above status text",
+    "turn complete pad 4 stays above status text",
+    "turn complete pad 5 stays above status text",
+    "turn complete chronicle reachable 44px",
+    "turn complete pause reachable 44px",
+    "turn complete exercises reachable 44px",
+    "turn complete retry reachable 44px",
+    "turn complete chronicle reachable 44px",
+    "turn complete no mobile keyboard text",
+    "turn wallet stays isolated",
+    "turn losing formation spends the same full budget",
+    "turn fails with first leak, no second",
+    "phone-exercise-turn-first-leak sequence reaches end",
+    "turn full budget after retry",
+    "turn alternate full-budget spread formation also wins",
+    "levee relocate preview without spending",
+    "levee formation pad 1 stays above status text",
+    "levee formation pad 2 stays above status text",
+    "levee formation pad 3 stays above status text",
+    "levee formation pad 4 stays above status text",
+    "levee formation chronicle reachable 44px",
+    "levee formation pause reachable 44px",
+    "levee formation tower-cannon reachable 44px",
+    "levee formation tower-frost reachable 44px",
+    "levee formation tower-tesla reachable 44px",
+    "levee formation suggest reachable 44px",
+    "levee formation confirm reachable 44px",
+    "levee formation cancel reachable 44px",
+    "levee formation wave reachable 44px",
+    "levee formation skill reachable 44px",
+    "levee formation no mobile keyboard text",
+    "levee dense labels do not overlap 0:1",
+    "levee dense labels do not overlap 0:2",
+    "levee dense labels do not overlap 0:3",
+    "levee dense labels do not overlap 1:2",
+    "levee dense labels do not overlap 1:3",
+    "levee dense labels do not overlap 2:3",
+    "levee locks formation",
+    "levee mid-wave resumes",
+    "levee wins with zero leaks",
+    "levee actual strategy feedback",
+    "levee complete pad 1 stays above status text",
+    "levee complete pad 2 stays above status text",
+    "levee complete pad 3 stays above status text",
+    "levee complete pad 4 stays above status text",
+    "levee complete chronicle reachable 44px",
+    "levee complete pause reachable 44px",
+    "levee complete exercises reachable 44px",
+    "levee complete retry reachable 44px",
+    "levee complete chronicle reachable 44px",
+    "levee complete no mobile keyboard text",
+    "levee wallet stays isolated",
+    "levee losing formation spends the same full budget",
+    "levee fails with first leak, no second",
+    "phone-exercise-levee-first-leak sequence reaches end",
+    "levee full budget after retry",
+    "switchback relocate preview without spending",
+    "switchback formation pad 1 stays above status text",
+    "switchback formation pad 2 stays above status text",
+    "switchback formation pad 3 stays above status text",
+    "switchback formation pad 4 stays above status text",
+    "switchback formation pad 5 stays above status text",
+    "switchback formation pad 6 stays above status text",
+    "switchback formation chronicle reachable 44px",
+    "switchback formation pause reachable 44px",
+    "switchback formation tower-cannon reachable 44px",
+    "switchback formation tower-frost reachable 44px",
+    "switchback formation tower-tesla reachable 44px",
+    "switchback formation suggest reachable 44px",
+    "switchback formation confirm reachable 44px",
+    "switchback formation cancel reachable 44px",
+    "switchback formation wave reachable 44px",
+    "switchback formation skill reachable 44px",
+    "switchback formation no mobile keyboard text",
+    "switchback dense labels do not overlap 0:1",
+    "switchback dense labels do not overlap 0:2",
+    "switchback dense labels do not overlap 0:3",
+    "switchback dense labels do not overlap 0:4",
+    "switchback dense labels do not overlap 0:5",
+    "switchback dense labels do not overlap 1:2",
+    "switchback dense labels do not overlap 1:3",
+    "switchback dense labels do not overlap 1:4",
+    "switchback dense labels do not overlap 1:5",
+    "switchback dense labels do not overlap 2:3",
+    "switchback dense labels do not overlap 2:4",
+    "switchback dense labels do not overlap 2:5",
+    "switchback dense labels do not overlap 3:4",
+    "switchback dense labels do not overlap 3:5",
+    "switchback dense labels do not overlap 4:5",
+    "switchback locks formation",
+    "switchback mid-wave resumes",
+    "switchback wins with zero leaks",
+    "switchback actual strategy feedback",
+    "switchback complete pad 1 stays above status text",
+    "switchback complete pad 2 stays above status text",
+    "switchback complete pad 3 stays above status text",
+    "switchback complete pad 4 stays above status text",
+    "switchback complete pad 5 stays above status text",
+    "switchback complete pad 6 stays above status text",
+    "switchback complete chronicle reachable 44px",
+    "switchback complete pause reachable 44px",
+    "switchback complete exercises reachable 44px",
+    "switchback complete retry reachable 44px",
+    "switchback complete chronicle reachable 44px",
+    "switchback complete no mobile keyboard text",
+    "switchback wallet stays isolated",
+    "switchback losing formation spends the same full budget",
+    "switchback fails with first leak, no second",
+    "phone-exercise-switchback-first-leak sequence reaches end",
+    "switchback full budget after retry",
+    "switchback alternate full-budget spread formation also wins",
+    "all three completion records survive reload",
+    "small list exercise-turn reachable 44px",
+    "small list exercise-levee reachable 44px",
+    "small list exercise-switchback reachable 44px",
+    "small list close reachable 44px",
+    "small list no mobile keyboard text",
+    "small terrain preview-barricade reachable 44px",
+    "small terrain preview-flood reachable 44px",
+    "small terrain apply-terrain reachable 44px",
+    "small terrain close reachable 44px",
+    "small terrain no mobile keyboard text",
+    "phone-small-preview-operation sequence reaches end",
+    "small actual shock spends and creates spell",
+    "small battle chronicle reachable 44px",
+    "small battle pause reachable 44px",
+    "small battle tower-cannon reachable 44px",
+    "small battle tower-frost reachable 44px",
+    "small battle tower-tesla reachable 44px",
+    "small battle suggest reachable 44px",
+    "small battle confirm reachable 44px",
+    "small battle cancel reachable 44px",
+    "small battle wave reachable 44px",
+    "small battle skill reachable 44px",
+    "small battle terrain reachable 44px",
+    "small battle no mobile keyboard text",
+    "small gameplay text minimum 12px",
+    "small explicit shortfall",
+    "small formation pad 1 stays above status text",
+    "small formation pad 2 stays above status text",
+    "small formation pad 3 stays above status text",
+    "small formation pad 4 stays above status text",
+    "small formation pad 5 stays above status text",
+    "small formation pad 6 stays above status text",
+    "small formation chronicle reachable 44px",
+    "small formation pause reachable 44px",
+    "small formation tower-cannon reachable 44px",
+    "small formation tower-frost reachable 44px",
+    "small formation tower-tesla reachable 44px",
+    "small formation suggest reachable 44px",
+    "small formation confirm reachable 44px",
+    "small formation cancel reachable 44px",
+    "small formation wave reachable 44px",
+    "small formation skill reachable 44px",
+    "small formation no mobile keyboard text",
+    "large list exercise-turn reachable 44px",
+    "large list exercise-levee reachable 44px",
+    "large list exercise-switchback reachable 44px",
+    "large list close reachable 44px",
+    "large list no mobile keyboard text",
+    "large terrain preview-barricade reachable 44px",
+    "large terrain preview-flood reachable 44px",
+    "large terrain apply-terrain reachable 44px",
+    "large terrain close reachable 44px",
+    "large terrain no mobile keyboard text",
+    "phone-large-preview-operation sequence reaches end",
+    "large actual shock spends and creates spell",
+    "large battle chronicle reachable 44px",
+    "large battle pause reachable 44px",
+    "large battle tower-cannon reachable 44px",
+    "large battle tower-frost reachable 44px",
+    "large battle tower-tesla reachable 44px",
+    "large battle suggest reachable 44px",
+    "large battle confirm reachable 44px",
+    "large battle cancel reachable 44px",
+    "large battle wave reachable 44px",
+    "large battle skill reachable 44px",
+    "large battle terrain reachable 44px",
+    "large battle no mobile keyboard text",
+    "large gameplay text minimum 12px",
+    "large explicit shortfall",
+    "large formation pad 1 stays above status text",
+    "large formation pad 2 stays above status text",
+    "large formation pad 3 stays above status text",
+    "large formation pad 4 stays above status text",
+    "large formation pad 5 stays above status text",
+    "large formation pad 6 stays above status text",
+    "large formation chronicle reachable 44px",
+    "large formation pause reachable 44px",
+    "large formation tower-cannon reachable 44px",
+    "large formation tower-frost reachable 44px",
+    "large formation tower-tesla reachable 44px",
+    "large formation suggest reachable 44px",
+    "large formation confirm reachable 44px",
+    "large formation cancel reachable 44px",
+    "large formation wave reachable 44px",
+    "large formation skill reachable 44px",
+    "large formation no mobile keyboard text",
+    "landscape list exercise-turn reachable 44px",
+    "landscape list exercise-levee reachable 44px",
+    "landscape list exercise-switchback reachable 44px",
+    "landscape list close reachable 44px",
+    "landscape list no mobile keyboard text",
+    "landscape terrain preview-barricade reachable 44px",
+    "landscape terrain preview-flood reachable 44px",
+    "landscape terrain apply-terrain reachable 44px",
+    "landscape terrain close reachable 44px",
+    "landscape terrain no mobile keyboard text",
+    "landscape actual shock spends and creates spell",
+    "landscape battle chronicle reachable 44px",
+    "landscape battle pause reachable 44px",
+    "landscape battle tower-cannon reachable 44px",
+    "landscape battle tower-frost reachable 44px",
+    "landscape battle tower-tesla reachable 44px",
+    "landscape battle suggest reachable 44px",
+    "landscape battle confirm reachable 44px",
+    "landscape battle cancel reachable 44px",
+    "landscape battle wave reachable 44px",
+    "landscape battle skill reachable 44px",
+    "landscape battle terrain reachable 44px",
+    "landscape battle no mobile keyboard text",
+    "landscape explicit shortfall",
+    "landscape formation pad 1 stays above status text",
+    "landscape formation pad 2 stays above status text",
+    "landscape formation pad 3 stays above status text",
+    "landscape formation pad 4 stays above status text",
+    "landscape formation pad 5 stays above status text",
+    "landscape formation pad 6 stays above status text",
+    "landscape formation chronicle reachable 44px",
+    "landscape formation pause reachable 44px",
+    "landscape formation tower-cannon reachable 44px",
+    "landscape formation tower-frost reachable 44px",
+    "landscape formation tower-tesla reachable 44px",
+    "landscape formation suggest reachable 44px",
+    "landscape formation confirm reachable 44px",
+    "landscape formation cancel reachable 44px",
+    "landscape formation wave reachable 44px",
+    "landscape formation skill reachable 44px",
+    "landscape formation no mobile keyboard text",
+    "ipad list exercise-turn reachable 44px",
+    "ipad list exercise-levee reachable 44px",
+    "ipad list exercise-switchback reachable 44px",
+    "ipad list close reachable 44px",
+    "ipad list no mobile keyboard text",
+    "ipad terrain preview-barricade reachable 44px",
+    "ipad terrain preview-flood reachable 44px",
+    "ipad terrain apply-terrain reachable 44px",
+    "ipad terrain close reachable 44px",
+    "ipad terrain no mobile keyboard text",
+    "ipad actual shock spends and creates spell",
+    "ipad battle chronicle reachable 44px",
+    "ipad battle pause reachable 44px",
+    "ipad battle tower-cannon reachable 44px",
+    "ipad battle tower-frost reachable 44px",
+    "ipad battle tower-tesla reachable 44px",
+    "ipad battle suggest reachable 44px",
+    "ipad battle confirm reachable 44px",
+    "ipad battle cancel reachable 44px",
+    "ipad battle wave reachable 44px",
+    "ipad battle skill reachable 44px",
+    "ipad battle terrain reachable 44px",
+    "ipad battle no mobile keyboard text",
+    "ipad explicit shortfall",
+    "ipad formation pad 1 stays above status text",
+    "ipad formation pad 2 stays above status text",
+    "ipad formation pad 3 stays above status text",
+    "ipad formation pad 4 stays above status text",
+    "ipad formation pad 5 stays above status text",
+    "ipad formation pad 6 stays above status text",
+    "ipad formation chronicle reachable 44px",
+    "ipad formation pause reachable 44px",
+    "ipad formation tower-cannon reachable 44px",
+    "ipad formation tower-frost reachable 44px",
+    "ipad formation tower-tesla reachable 44px",
+    "ipad formation suggest reachable 44px",
+    "ipad formation confirm reachable 44px",
+    "ipad formation cancel reachable 44px",
+    "ipad formation wave reachable 44px",
+    "ipad formation skill reachable 44px",
+    "ipad formation no mobile keyboard text",
+    "ipad-landscape list exercise-turn reachable 44px",
+    "ipad-landscape list exercise-levee reachable 44px",
+    "ipad-landscape list exercise-switchback reachable 44px",
+    "ipad-landscape list close reachable 44px",
+    "ipad-landscape list no mobile keyboard text",
+    "ipad-landscape terrain preview-barricade reachable 44px",
+    "ipad-landscape terrain preview-flood reachable 44px",
+    "ipad-landscape terrain apply-terrain reachable 44px",
+    "ipad-landscape terrain close reachable 44px",
+    "ipad-landscape terrain no mobile keyboard text",
+    "ipad-landscape actual shock spends and creates spell",
+    "ipad-landscape battle chronicle reachable 44px",
+    "ipad-landscape battle pause reachable 44px",
+    "ipad-landscape battle tower-cannon reachable 44px",
+    "ipad-landscape battle tower-frost reachable 44px",
+    "ipad-landscape battle tower-tesla reachable 44px",
+    "ipad-landscape battle suggest reachable 44px",
+    "ipad-landscape battle confirm reachable 44px",
+    "ipad-landscape battle cancel reachable 44px",
+    "ipad-landscape battle wave reachable 44px",
+    "ipad-landscape battle skill reachable 44px",
+    "ipad-landscape battle terrain reachable 44px",
+    "ipad-landscape battle no mobile keyboard text",
+    "ipad-landscape explicit shortfall",
+    "ipad-landscape formation pad 1 stays above status text",
+    "ipad-landscape formation pad 2 stays above status text",
+    "ipad-landscape formation pad 3 stays above status text",
+    "ipad-landscape formation pad 4 stays above status text",
+    "ipad-landscape formation pad 5 stays above status text",
+    "ipad-landscape formation pad 6 stays above status text",
+    "ipad-landscape formation chronicle reachable 44px",
+    "ipad-landscape formation pause reachable 44px",
+    "ipad-landscape formation tower-cannon reachable 44px",
+    "ipad-landscape formation tower-frost reachable 44px",
+    "ipad-landscape formation tower-tesla reachable 44px",
+    "ipad-landscape formation suggest reachable 44px",
+    "ipad-landscape formation confirm reachable 44px",
+    "ipad-landscape formation cancel reachable 44px",
+    "ipad-landscape formation wave reachable 44px",
+    "ipad-landscape formation skill reachable 44px",
+    "ipad-landscape formation no mobile keyboard text",
+    "laptop list exercise-turn reachable 44px",
+    "laptop list exercise-levee reachable 44px",
+    "laptop list exercise-switchback reachable 44px",
+    "laptop list close reachable 44px",
+    "laptop list no mobile keyboard text",
+    "laptop terrain preview-barricade reachable 44px",
+    "laptop terrain preview-flood reachable 44px",
+    "laptop terrain apply-terrain reachable 44px",
+    "laptop terrain close reachable 44px",
+    "laptop terrain no mobile keyboard text",
+    "laptop actual shock spends and creates spell",
+    "laptop battle chronicle reachable 44px",
+    "laptop battle pause reachable 44px",
+    "laptop battle tower-cannon reachable 44px",
+    "laptop battle tower-frost reachable 44px",
+    "laptop battle tower-tesla reachable 44px",
+    "laptop battle suggest reachable 44px",
+    "laptop battle confirm reachable 44px",
+    "laptop battle cancel reachable 44px",
+    "laptop battle wave reachable 44px",
+    "laptop battle skill reachable 44px",
+    "laptop battle terrain reachable 44px",
+    "laptop battle no mobile keyboard text",
+    "laptop explicit shortfall",
+    "laptop formation pad 1 stays above status text",
+    "laptop formation pad 2 stays above status text",
+    "laptop formation pad 3 stays above status text",
+    "laptop formation pad 4 stays above status text",
+    "laptop formation pad 5 stays above status text",
+    "laptop formation pad 6 stays above status text",
+    "laptop formation chronicle reachable 44px",
+    "laptop formation pause reachable 44px",
+    "laptop formation tower-cannon reachable 44px",
+    "laptop formation tower-frost reachable 44px",
+    "laptop formation tower-tesla reachable 44px",
+    "laptop formation suggest reachable 44px",
+    "laptop formation confirm reachable 44px",
+    "laptop formation cancel reachable 44px",
+    "laptop formation wave reachable 44px",
+    "laptop formation skill reachable 44px",
+    "laptop formation no mobile keyboard text",
+    "new art and true-map preview cold offline",
+    "no runtime errors or external requests"
+  ],
+  "shots": [
+    {
+      "path": "docs/content/r3/phone-terrain-first-wave-required.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-home.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-confirmed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-result.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-tower-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-confirmed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-1.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-flight-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-result.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ford-crystals-rebuilt.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-1.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-arrows-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-constructed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-entering.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-10.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-20.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-35.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-50.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-65.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-80.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-95.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-progress-100.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-full-route.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-1.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-arrows-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-constructed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-entering.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-10.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-20.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-1.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-35.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-slow-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-50.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-65.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-80.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-95.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-progress-100.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-full-route.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-list.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-relocate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-resumed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-alternative-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-alternative-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-relocate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-resumed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-relocate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-resumed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-alternative-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-alternative-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-records.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-small-terrain-preview.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-small-constructed.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-small-shock.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-small-exercise.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-large-terrain-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-large-constructed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-large-shock.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-large-exercise.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-terrain-preview.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-constructed.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-shock.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-landscape-exercise.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-terrain-preview.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-constructed.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-shock.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-exercise.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-terrain-preview.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-constructed.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-shock.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-ipad-landscape-exercise.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-terrain-preview.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-constructed.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-shock.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r3/phone-laptop-exercise.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-01-terrain-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-02-exercise-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-01-terrain-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-02-exercise-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r3/phone-offline-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    }
+  ],
+  "geometry": [
+    {
+      "name": "phone home",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "begin",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercises",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "saves",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "legacy result",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "next",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "chronicle",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone preview barricade",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone preview flood",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone exercise list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 362,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "turn formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "turn complete",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercises",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "retry",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "chronicle",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "levee formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "levee complete",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercises",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "retry",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "chronicle",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "switchback formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "switchback complete",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercises",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "retry",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "chronicle",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 260,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 260,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 260,
+          "height": 100.9375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 260,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 125.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 125.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 92.65625,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 92.671875,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 92.65625,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 91.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 114.75,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 73.453125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 93.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 93.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 93.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 92.65625,
+          "height": 70,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 92.671875,
+          "height": 70,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 92.65625,
+          "height": 70,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 91.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 114.75,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 73.453125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "large list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 362,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 362,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "large terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "large battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 128.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 128.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 128.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "large formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 128,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 186.65625,
+          "height": 146,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 186.671875,
+          "height": 146,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 186.671875,
+          "height": 146,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 574,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 283,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 283,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 137.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 137.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 88.65625,
+          "height": 71,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 88.671875,
+          "height": 71,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 88.65625,
+          "height": 71,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 89.171875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 111.46875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 71.359375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 90.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 90.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 90.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 88.65625,
+          "height": 85,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 88.671875,
+          "height": 85,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 88.65625,
+          "height": 85,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 89.171875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 111.46875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 71.359375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 320.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 316.0625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 395.078125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 252.859375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 321.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 320.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 316.0625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 395.078125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 252.859375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 494,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 494,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 494,
+          "height": 96.25,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 494,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 92.65625,
+          "height": 128.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 92.671875,
+          "height": 128.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 92.65625,
+          "height": 128.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 93.109375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 116.390625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 74.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 94.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 92.65625,
+          "height": 144.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 92.671875,
+          "height": 144.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 92.65625,
+          "height": 144.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 93.109375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 116.390625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 74.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "laptop list",
+      "list": [
+        {
+          "action": "exercise-turn",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-levee",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "exercise-switchback",
+          "width": 514,
+          "height": 90,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "laptop terrain",
+      "list": [
+        {
+          "action": "preview-barricade",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "laptop battle",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 86.546875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 108.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 69.25,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "terrain",
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "laptop formation",
+      "list": [
+        {
+          "action": "chronicle",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "width": 86,
+          "height": 104.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "width": 86.546875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "width": 108.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "width": 69.25,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "path": "docs/content/r3/phone-terrain-barricade-route.mp4",
+      "frames": 54,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-terrain-flood-route.mp4",
+      "frames": 55,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-turn-first-leak.mp4",
+      "frames": 257,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-levee-first-leak.mp4",
+      "frames": 291,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-exercise-switchback-first-leak.mp4",
+      "frames": 445,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-small-preview-operation.mp4",
+      "frames": 10,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      }
+    },
+    {
+      "path": "docs/content/r3/phone-large-preview-operation.mp4",
+      "frames": 10,
+      "fps": 8,
+      "uncut": true,
+      "viewport": {
+        "width": 430,
+        "height": 932
+      }
+    }
+  ],
+  "errors": [],
+  "humanComprehension": "BLOCKED: need five new players",
+  "physicalDevices": "BLOCKED: need physical iPhone/iPad"
+}

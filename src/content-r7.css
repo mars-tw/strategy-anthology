@@ -1,0 +1,25 @@
+.field-column{display:flex;flex-direction:column;gap:6px;min-width:0;min-height:0}
+.field-column>.battlefield{flex:1}.field-column>.combat-readout{flex:none}
+.relay-choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.relay-choices button{display:flex;flex-direction:column;align-items:center;gap:5px;padding:5px;min-width:44px}
+.relay-mini{width:100%;height:82px;border:1px solid #998d73;background:#d6c8a7}
+.relay-choices strong{font-size:13px}.relay-choices small{font-size:12px;line-height:1.35}
+.field-toggle{position:absolute;right:6px;top:6px;z-index:4;min-height:44px;min-width:72px;padding:5px;font-size:12px}
+.shell[data-route-aid=off] :is(.map-label,.field-status,.route-pace,.inherited-note,.resonance-caption,.feedback){visibility:hidden}
+.combat-readout{background:#f5f1e5;border-left:3px solid #9865c6;color:#292d38;padding:5px 8px;min-height:64px;display:grid;grid-template-columns:54px minmax(0,1fr);align-items:center;gap:6px;font-size:12px;line-height:1.35}
+.combat-readout strong{font-size:13px}.combat-readout b{color:#9b342c}.combat-readout button{min-width:44px;min-height:44px;font-size:11px;line-height:1.2;padding:4px}.combat-readout button small{display:block;font-size:10px}
+.impact-lines{display:flex;flex-direction:column;gap:2px;min-width:0}.impact-bolt{height:10px;width:78px;color:#76509c}
+.decision-compare{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px;line-height:1.4;color:#292d38;background:#f5f1e5}
+.decision-compare caption{text-align:left;font-weight:700;padding:4px;color:#292d38;background:#e6dcc7}.decision-compare th,.decision-compare td{border:1px solid #b8aa91;padding:5px;text-align:left;overflow-wrap:anywhere}.decision-compare th:first-child{width:24%}.decision-compare thead th{background:#e9dfcc}
+.replay-branches,.replay-terrain{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:8px 0}.replay-branches button,.replay-terrain button{min-height:44px;font-size:12px;padding:6px}.replay-branches button[aria-pressed=true],.replay-terrain button[aria-pressed=true]{background:#b83e35;color:#fff6e6}
+.result .decision-compare{font-size:11px}.result .decision-compare th,.result .decision-compare td{padding:3px}.command:has(.result){overflow-y:auto;justify-content:flex-start}.result{flex-shrink:0}.quarry-choice .relay-choices{flex:none}
+@media(max-width:1100px) and (orientation:portrait){.play-layout>.field-column{flex:1;min-height:0}.battlefield{min-height:100px}}
+@media(max-width:750px) and (orientation:portrait){.combat-readout{min-height:63px;font-size:11px;padding:4px 6px}.combat-readout strong{font-size:12px}.battle .command:has(.result){max-height:56dvh}.relay-mini{height:70px}.quarry-choice h2{font-size:21px}.quarry-choice>p{font-size:11px}.relay-choices strong{font-size:12px}.relay-choices small{font-size:11px}.decision-compare th,.decision-compare td{padding:4px}.result .report{flex:none}}
+@media(max-width:370px) and (orientation:portrait){.relay-mini{height:49px}.relay-choices{gap:3px}.relay-choices strong{font-size:11px}.relay-choices small{font-size:10px}.quarry-choice h2{font-size:18px}.quarry-choice>p{font-size:10px}.combat-readout{font-size:10px;min-height:56px}.combat-readout strong{font-size:11px}.field-toggle{min-width:66px}.terrain-map{height:120px}.terrain .coverage-row{min-height:44px}}
+@media(max-height:450px) and (orientation:landscape){
+ .relay-mini{height:40px}.relay-choices small{font-size:10px}.relay-choices strong{font-size:11px}.combat-readout{min-height:54px;font-size:10px;padding:3px 5px}.combat-readout strong{font-size:11px}.battle .command{overflow-y:auto;justify-content:flex-start}.result .decision-compare{font-size:10px}
+ .battle .hint{display:none}.battle .cards .tower-card,.battle .cards .tower-card.deployed{display:grid;grid-template-columns:25px minmax(0,1fr);min-height:76px;height:76px;padding:2px;gap:2px;align-items:center}
+ .battle .cards .tower-portrait{width:25px;height:44px}.battle .cards .tower-card>span{width:100%;font-size:10px}.battle .cards .tower-card small,.battle .cards .tower-card small span{font-size:10px;line-height:1.15;white-space:normal}
+ .terrain .coverage-row{min-height:44px}.terrain .modal-actions button{min-height:44px}
+}
+@media(max-width:370px) and (orientation:portrait){.battlefield .resonance-caption{display:none}}

@@ -1,0 +1,10 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent game prop sprite atlas, one horizontal row of THREE separated complete objects, evenly centered in three equal columns with broad transparent padding. Left column: low rubble-and-timber barricade blocking a narrow mountain pass, cut grey stone, vermilion wooden braces and rope, irregular authentic rock forms. Middle column: small opened wooden sluice gate pouring a broad shallow celadon stream over stones, reeds and wet mud, clear readable water flows. Right column: ancient narrow triangular boundary monument, three small carved mineral seals of fire orange, ice cyan and lightning lavender arranged in a triangle, ink-edged rock and tiny red cord. All objects viewed from high three-quarter overhead strategy-game perspective, identical miniature scale. No characters, no writing, no letters, no UI panels, no background, no ground rectangle, no emojis. Each entire object fits only within its own third of the canvas, transparent gutters between them. Width 1536 height 768.",
+  "source": "public/assets/content-r1/fieldworks.png",
+  "generatedMasters": 1,
+  "runtimeAtlases": 1,
+  "objects": 3
+}

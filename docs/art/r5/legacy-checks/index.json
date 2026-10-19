@@ -1,0 +1,553 @@
+{
+  "status": "VERIFIED",
+  "method": "Exact file copies with SHA-256, explicit tracked restore. Only newly generated legacy audit artifacts relocated; pre-task untracked Muse files untouched.",
+  "records": [
+    {
+      "original": "docs/art/compare/after/1024x768-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1024x768-defense.png",
+      "sha256": "559f7aee1168a0c9cf94dd1649b39b8a97657a2e2a2c70abe778e01bfc97fff8",
+      "bytes": 916777,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1024x768-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1024x768-opening.png",
+      "sha256": "34224c1cf83348e84a20c03ec021f8425340b20353943622e91f7c5ff6e813b2",
+      "bytes": 785881,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1032x1376-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1032x1376-defense.png",
+      "sha256": "c717ffad624aedf84181a21cc1351bf01a1650d7ad8268df0fdb235a03f06eef",
+      "bytes": 1726596,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1032x1376-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1032x1376-opening.png",
+      "sha256": "e9512cb666ed52bc31b23a6313a684ea5c0a68dffa472f6455eefa7f3ab785c6",
+      "bytes": 1479652,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1280x640-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1280x640-defense.png",
+      "sha256": "4f14986f1d712a0bf9215101371b7aa2043619d3ff732b60cb99137cd3eb6790",
+      "bytes": 1065919,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1280x640-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1280x640-opening.png",
+      "sha256": "fcf1e9e2477199e58ccd9784277030fc1a3b982a54973a6eb722d336353d545f",
+      "bytes": 928989,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x600-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1366x600-defense.png",
+      "sha256": "dd9d04366868e6a836396166196d3972df632a4bc6da286f1f441662b3476de8",
+      "bytes": 1059123,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x600-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1366x600-opening.png",
+      "sha256": "9bc1cc2bfab8f1e7d43f4d58deb66fe31747f797c537d1e85de429743b700405",
+      "bytes": 921143,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x768-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1366x768-defense.png",
+      "sha256": "3f44fe2f6d0c1d7ea269af21bb0f4696c95622eca246d5941f489c85da5ccb53",
+      "bytes": 1288093,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x768-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1366x768-opening.png",
+      "sha256": "c5773c819faa2d21bcfcb1c7c15c6e7a493312303bb650bf0339b5f3612bbd5d",
+      "bytes": 1116563,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1920x1080-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1920x1080-defense.png",
+      "sha256": "99517cffe9e9091a228e82b7701912ddca86d33dc452f4f475eb03adc45b5794",
+      "bytes": 2601389,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1920x1080-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/1920x1080-opening.png",
+      "sha256": "7c4abd22962bd8646e271af04a72288b966187d96a6580495100d331c1340bd7",
+      "bytes": 2392530,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/320x568-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/320x568-defense.png",
+      "sha256": "ffa53888f6595f1da532c95cda9f277ef43195ea4331cc76dd3b0fa19e0d6e90",
+      "bytes": 190502,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/320x568-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/320x568-opening.png",
+      "sha256": "c680c517a61226da583371e091f220cde33afc47b40192e739c2f69f8487ab69",
+      "bytes": 141068,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/390x844-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/390x844-defense.png",
+      "sha256": "7f7bf77d859d90682bd712acc5af074504c473e6321a66dc70ab6ed1a5b2d08d",
+      "bytes": 396402,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/390x844-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/390x844-opening.png",
+      "sha256": "72256d589205180b52ed736d75b8f69a1611a44b96a31528db71afc3152ead29",
+      "bytes": 332936,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/768x1024-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/768x1024-defense.png",
+      "sha256": "123b7c1c4f6886a61668340b8d0f101571e692e5779631b5c8f04df087785654",
+      "bytes": 820753,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/768x1024-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/768x1024-opening.png",
+      "sha256": "0954f2e3363725175ce779a9f674f7507867d75bdc32f577b04d5cd089a248b0",
+      "bytes": 713577,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/844x390-defense.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/844x390-defense.png",
+      "sha256": "e5beddde07458596d1401d277a50fe42f58017463ca5fc5a7a22dbb0b2480cf3",
+      "bytes": 365405,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/844x390-opening.png",
+      "archived": "docs/art/r5/legacy-checks/r1/compare/after/844x390-opening.png",
+      "sha256": "6c99d59c6b2f1a9b1d187659765d7dc50cc743f6da8baf227467331d04dc7681",
+      "bytes": 290023,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-0.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-0.png",
+      "sha256": "d4e29e2af7f0897986945604379c53faf942da4c2948a8fd55c254c8e4376d0f",
+      "bytes": 398095,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-1.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-1.png",
+      "sha256": "791a9bc9946c4decd40fb4723241820499057449ed01bb282927c4ed65742bbe",
+      "bytes": 397691,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-2.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-2.png",
+      "sha256": "34920524f44de397bd38386de5f47622c9b31f4b000502fc6a92f024e4c84901",
+      "bytes": 397500,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-3.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-3.png",
+      "sha256": "8d653a319f9565f0843ed01a8d53a70b1088ce6e5a24cae7286581038f992ce4",
+      "bytes": 397040,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-4.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-4.png",
+      "sha256": "c55153bfc3463a2d6fa98e2f047be8d71c7e4062667692ce715875c12cb26261",
+      "bytes": 397082,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-5.png",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/defense-5.png",
+      "sha256": "5b871180d489c0dc86f122e55d3bf7c3ce68366af49b3bf8b5dfba4cef29d8ce",
+      "bytes": 397254,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/visual-audit.json",
+      "archived": "docs/art/r5/legacy-checks/r2/visual-audit.json",
+      "sha256": "efa918603acd0fd3355d8a1ecd3723f124422381514dd1c8c1fa06c72540b7ff",
+      "bytes": 20680,
+      "newlyGenerated": false,
+      "originalSHA256": "69fbc872e291d549b27c145d7a840b1b7d16e8fad9a4f99bb86188386ba62819",
+      "rawOriginal": "docs/art/r5/legacy-checks/r2/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/r3/chapters/1-pine-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/1-pine-no-labels.png",
+      "sha256": "5e1c9ef0113d220d8b87b23715e5566f25eab9dbc69bf6ab04d791f60bbbf3c6",
+      "bytes": 1722994,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/1-pine.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/1-pine.png",
+      "sha256": "63a0f44f2a620fd97592287131d69582196c715f3b079a739fea35ced0b64a96",
+      "bytes": 1723493,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/2-ford-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/2-ford-no-labels.png",
+      "sha256": "652d58b39af28cff6e82806da9e2e8bad4f3f82ac45637f76f4f9cf737354fb6",
+      "bytes": 1804531,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/2-ford.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/2-ford.png",
+      "sha256": "9e15822041de2f3bbca3a0ae07d6ef9e0ee57fe49b648348f985f9c94848ac3d",
+      "bytes": 1805946,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/3-ford-watch-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/3-ford-watch-no-labels.png",
+      "sha256": "6a97a5010fafc58364dd496838e02385d9905dfcb3c224567fd7745884b6ce2b",
+      "bytes": 1804826,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/3-ford-watch.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/3-ford-watch.png",
+      "sha256": "82d6321a5c7af20653b24a77678a6961a78f6c7aaa4f09da74cacccac8d9eeb0",
+      "bytes": 1804838,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/4-quarry-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/4-quarry-no-labels.png",
+      "sha256": "bc52095d73b13cd9240ca1c44b4be50eace22fd1d16cb54c50d3bf7e6e93708a",
+      "bytes": 1559390,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/4-quarry.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/4-quarry.png",
+      "sha256": "7b2fb0eaf5d1d8b5cf98deae7f88f8d31ae3e408b50180b887079d3b49b086ab",
+      "bytes": 1560946,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/5-quarry-watch-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/5-quarry-watch-no-labels.png",
+      "sha256": "da69e25e1fd8381fe7acac05f553cee7d1e9a902398d78eebec7520ab78260a0",
+      "bytes": 1541474,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/5-quarry-watch.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/5-quarry-watch.png",
+      "sha256": "0561cc984d2c933ad4f9605a57e6c5325b003d9ca4160cd3507a964ffd080444",
+      "bytes": 1542396,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/6-citadel-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/6-citadel-no-labels.png",
+      "sha256": "21f97727857ce36282173a3c113b54487f7ff8a3263e5321faee0b401cbebf82",
+      "bytes": 1583855,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/chapters/6-citadel.png",
+      "archived": "docs/art/r5/legacy-checks/r3/chapters/6-citadel.png",
+      "sha256": "b67f91f6c41e5fdd16831824a720f5ac3aac146fd99210ff14f1942904d511b2",
+      "bytes": 1584430,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-0.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-0.png",
+      "sha256": "3cc146d0c197d90a8d92c73e468193b0defc2fd31b7a68d944a58516455c6987",
+      "bytes": 398055,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-1.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-1.png",
+      "sha256": "d2f880f2f856b0e00d3e4eb2650bec63e815ac32c6e5f51247004631dc127225",
+      "bytes": 397668,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-2.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-2.png",
+      "sha256": "e11a01e0ab440adc5bf0b296025d33aaca5cbbd6c4950ae79e672256525729ff",
+      "bytes": 397537,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-3.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-3.png",
+      "sha256": "4424ac6bb6967dba89690b21fc8e76890cc04ed54f41db34475240e4bb71789e",
+      "bytes": 397210,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-4.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-4.png",
+      "sha256": "9c1d946e3355392c7362d2ab448cdc3a50fc296a19adce9c8b01dfadaaff66e3",
+      "bytes": 397017,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/motion/combat-5.png",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/combat-5.png",
+      "sha256": "d6f56de0a263645cde43efee0846a11ace3a4e5524370af18fd2dfece8d1b370",
+      "bytes": 397173,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r3/visual-audit.json",
+      "archived": "docs/art/r5/legacy-checks/r3/visual-audit.json",
+      "sha256": "c85d25ef66c648c550a3d398057ee8969f6d1cde29296f37577063eecbc376a2",
+      "bytes": 62356,
+      "newlyGenerated": false,
+      "originalSHA256": "d2bea57bb02ddc7ce10492e1444fe33948ab9f189fb1bb70f0f7a1547dbda4c4",
+      "rawOriginal": "docs/art/r5/legacy-checks/r3/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/r4/motion/ipad-2064x2752-defense-0.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/ipad-2064x2752-defense-0.png",
+      "sha256": "2d220363f9638cfe64154f8d6854a710112719bdfb2d798905ec63ef8fe8a1e6",
+      "bytes": 5510866,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/ipad-2064x2752-defense-1.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/ipad-2064x2752-defense-1.png",
+      "sha256": "cb03c5173578fac7c89a22b911922ddbc9e7cb1ce26a30b34344d1ce7ce992e8",
+      "bytes": 5507657,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/ipad-2064x2752-defense-2.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/ipad-2064x2752-defense-2.png",
+      "sha256": "36e859bba4ba42c942a59e74f4cac2b433c863086b049e741c4a2563d37c3942",
+      "bytes": 5502727,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/ipad-2064x2752-defense-3.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/ipad-2064x2752-defense-3.png",
+      "sha256": "c81c6a98e9cc0f03089465a426e0075fd9564c1f6a477c2005c133a4dffecfcf",
+      "bytes": 5496637,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/iphone-1290x2796-defense-0.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/iphone-1290x2796-defense-0.png",
+      "sha256": "87bbc6643d5f4196c5130774ca8a95aa8fc5cae765f1269948c78f175276626c",
+      "bytes": 3259028,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/iphone-1290x2796-defense-1.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/iphone-1290x2796-defense-1.png",
+      "sha256": "49ddde59fe1daab9301ea008f34d40b28a79502188e63254695280218d808abf",
+      "bytes": 3256121,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/iphone-1290x2796-defense-2.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/iphone-1290x2796-defense-2.png",
+      "sha256": "667f1a26d022c8cc4a948e683ae85b0f625cd34cb271034f9999df3248977129",
+      "bytes": 3251018,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/iphone-1290x2796-defense-3.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/iphone-1290x2796-defense-3.png",
+      "sha256": "23c82112ec6ad36c738a704a58563d7a7ec4460413ec56b54d10d636a8f12138",
+      "bytes": 3248420,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-0.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-0.png",
+      "sha256": "ad719fc2e7f02c2a721bbcc8552221ebd1a818c8af6413226fb133f9c5936017",
+      "bytes": 398050,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-1.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-1.png",
+      "sha256": "e1dbd33a2fab24231154109db7c900638ccb3ec952e283a32e1d2d9f2f300518",
+      "bytes": 397831,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-2.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-2.png",
+      "sha256": "2383795cc88210d2e9685e1a7caa3b63b4f7e1251bc7ea5bdeed88b6e64414d2",
+      "bytes": 397592,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-3.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-3.png",
+      "sha256": "ff1e5c85633081c46ae35d000257e92798017924eb23720ba08a99eac2e6609d",
+      "bytes": 397275,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-4.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-4.png",
+      "sha256": "219a9ee2ae16a0d66d7a74c2ab0af719a7fbc5fdb76b25b2a7f35f266fda66a4",
+      "bytes": 397323,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/motion/real-combat-5.png",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/real-combat-5.png",
+      "sha256": "831e8cbb6bfadeb38cf9058d369c6acd8da859ed1c9fe7962d7be62679fd6f76",
+      "bytes": 397355,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/ipad-2064x2752-defense-terrain.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/ipad-2064x2752-defense-terrain.png",
+      "sha256": "b96371803485b483d715ac9887a8c72882f0603007cdf9a8589852c3625cbeda",
+      "bytes": 5281169,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/ipad-2064x2752-fire-selected.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/ipad-2064x2752-fire-selected.png",
+      "sha256": "f06479871bb59f0a01ac413e42ae2f4b489a10953e816706f70e8e154ed256fa",
+      "bytes": 5464842,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/ipad-2064x2752-selected.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/ipad-2064x2752-selected.png",
+      "sha256": "2934bbde917b54a8aa6b7d805a97cd35e4d3702f5530b93bfe0787d043ad9e4b",
+      "bytes": 5467035,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/ipad-2064x2752-siege-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/ipad-2064x2752-siege-no-labels.png",
+      "sha256": "7fb1239a32663d2c500d9c788bb46c497d7642d3db2e948a780d08c4e763a860",
+      "bytes": 5674379,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/ipad-2064x2752-siege-terrain.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/ipad-2064x2752-siege-terrain.png",
+      "sha256": "1cafa5b65072ba56b8595d7bbba6bd46d73f7e53c752be4a3ea586141c2f1aeb",
+      "bytes": 5515270,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/iphone-1290x2796-defense-terrain.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/iphone-1290x2796-defense-terrain.png",
+      "sha256": "f7c5fb6cf1bd7bad12f6f4a176549e3c5cd2eb53c1ca54d68e20ddcf1f63bbfa",
+      "bytes": 3130704,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/iphone-1290x2796-fire-selected.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/iphone-1290x2796-fire-selected.png",
+      "sha256": "0130cc8b0ca46f1f50adbcb90f98c092c6e23104ba03136d7ecb4dc6e1dfae8b",
+      "bytes": 3231179,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/iphone-1290x2796-selected.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/iphone-1290x2796-selected.png",
+      "sha256": "49f0b5929b4a25d502c11744f74743e462f01068b26f94d6583167978408f30e",
+      "bytes": 3232957,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/iphone-1290x2796-siege-no-labels.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/iphone-1290x2796-siege-no-labels.png",
+      "sha256": "0eef92423fe7710b306b7e3fe5f457385e5ed2b7bb1c3c31c837035520743966",
+      "bytes": 3243784,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/screens/iphone-1290x2796-siege-terrain.png",
+      "archived": "docs/art/r5/legacy-checks/r4/screens/iphone-1290x2796-siege-terrain.png",
+      "sha256": "bd91be41f5f981965b3dd4d91ca580b6c288b9e5b112a37c429848c9fa429e88",
+      "bytes": 3273092,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r4/visual-audit.json",
+      "archived": "docs/art/r5/legacy-checks/r4/visual-audit.json",
+      "sha256": "43e9d2adfd77b2d502a633604feac6a79f3442ac879b616978b11794a808e899",
+      "bytes": 63585,
+      "newlyGenerated": false,
+      "originalSHA256": "50310d68181e2f1b07caf7768b7088f64b9d58c1a74c6d077f18f170e3c14f71",
+      "rawOriginal": "docs/art/r5/legacy-checks/r4/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/visual-audit.json",
+      "archived": "docs/art/r5/legacy-checks/r1/visual-audit.json",
+      "sha256": "94b1f140fe569b7e77f0947b7943690af09e21214f35d416682aedabd7ffb2a0",
+      "bytes": 4666,
+      "newlyGenerated": false,
+      "originalSHA256": "660bc1a71a6690ab1e8544cb38f9900d1656774baff3bc8e55ead82c4ac38121",
+      "rawOriginal": "docs/art/r5/legacy-checks/r1/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/r2/motion/page@2d66e022daa8c872bcbe437989268f03.webm",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/page@2d66e022daa8c872bcbe437989268f03.webm",
+      "sha256": "9f4697c063951d63fdf13dabbf98e13d575c2ba162c178dec031684c566f5c5d",
+      "bytes": 1832199,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r2/motion/page@60e8ddc686f87ae3db9c9a39504fdd1d.webm",
+      "archived": "docs/art/r5/legacy-checks/r2/motion/page@60e8ddc686f87ae3db9c9a39504fdd1d.webm",
+      "sha256": "c022f258c97d96152ae8c7a32bb424216161fd030ddcab97d21b93225cda1e6e",
+      "bytes": 1800266,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r3/motion/page@69964ff002984981737913fe4acd4e9b.webm",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/page@69964ff002984981737913fe4acd4e9b.webm",
+      "sha256": "9360c271bf3b3e72b998ebf4bc29ec8958a9a14b6c75c7c571b919f458ee442a",
+      "bytes": 1658549,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r3/motion/page@f41f639161309246283e32a517f56520.webm",
+      "archived": "docs/art/r5/legacy-checks/r3/motion/page@f41f639161309246283e32a517f56520.webm",
+      "sha256": "c9d49fdc2d344fb8cc77a65b63318a746c243bd2da55087ed610f8cf523f623f",
+      "bytes": 1832623,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r4/motion/page@24e0ade119989420db8d4087df417155.webm",
+      "archived": "docs/art/r5/legacy-checks/r4/motion/page@24e0ade119989420db8d4087df417155.webm",
+      "sha256": "a774154cd1615b0d1be533b0532637197bab68d27d31393b630eb021b42961b5",
+      "bytes": 1857908,
+      "newlyGenerated": true
+    }
+  ]
+}

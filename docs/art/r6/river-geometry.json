@@ -1,0 +1,55 @@
+{
+  "method": "Measured cyan-water intervals on the unwarped painted source; no row displacement of terrain.",
+  "centerSpan": 286.93498555615986,
+  "bankWidthMin": 78.93735840427615,
+  "bankWidthMax": 640.3996942763891,
+  "targetDeepCoreContained": true,
+  "paintedDeepCoreContained": false,
+  "samples": [
+    {
+      "y": 0,
+      "left": 443.95137219085404,
+      "right": 934.6369955294621
+    },
+    {
+      "y": 80,
+      "left": 460.8815887851527,
+      "right": 756.4939626765658
+    },
+    {
+      "y": 160,
+      "left": 405.155217995411,
+      "right": 747.7554304803124
+    },
+    {
+      "y": 240,
+      "left": 467.93061367930835,
+      "right": 610.0762712337162
+    },
+    {
+      "y": 320,
+      "left": 540.6993793071208,
+      "right": 876.1199666983124
+    },
+    {
+      "y": 400,
+      "left": 366.43818781845795,
+      "right": 643.9783104739532
+    },
+    {
+      "y": 480,
+      "left": 414.5093618797628,
+      "right": 616.931806807578
+    },
+    {
+      "y": 560,
+      "left": 353.3235188865255,
+      "right": 625.5993676341192
+    },
+    {
+      "y": 640,
+      "left": 208.21421225150027,
+      "right": 848.6139065278894
+    }
+  ]
+}

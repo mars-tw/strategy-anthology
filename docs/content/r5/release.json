@@ -1,0 +1,1926 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    {
+      "name": "all public headless scenarios pass",
+      "pass": true
+    },
+    {
+      "name": "complete npm run verify exited zero on final build",
+      "pass": true
+    },
+    {
+      "name": "verification log retained exactly",
+      "pass": true
+    },
+    {
+      "name": "screenshots bound to final build and styles",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r1.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r2.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r3.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r4.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r5.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r6.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/art-r7.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/campaign.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r1.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r1.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r2.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r2.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r3.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r4.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r4.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r5.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/content-r5.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/engine.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/main.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r2.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r3.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r4.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r5.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r6.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/presentation-r7.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r1.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r2.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r3.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r4.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r5.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r6.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render-r7.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/render.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/save.js",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/style.css",
+      "pass": true
+    },
+    {
+      "name": "final source bound to evidence src/version.js",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-choice.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-receipt.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-next.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-combat.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-hit.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-reloaded.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-tower-no-reclaim.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-flight-1.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-flight-2.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-flight-3.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-next.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-reloaded.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ford-crystals-interrupted-reload.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-flood-preview.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-flood-before.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-flood-inside.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-flood-after.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-flood-gate.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-barricade-preview.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-barricade-before.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-barricade-inside.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-barricade-after.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-barricade-gate.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-combat.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-hit.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-complete.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-losing-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-failed.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-聚印轉角-retry.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-combat.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-hit.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-complete.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-losing-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-failed.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-分守長堤-retry.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-combat.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-hit.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-complete.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-losing-formation.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-failed.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-retry.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-small-terrain-empty.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-small-terrain-built.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-small-terrain-inspect-cannon.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-small-terrain-inspect-frost.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-small-terrain-inspect-tesla.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-small-swap.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-small-labels.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-phone-terrain-empty.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-phone-terrain-built.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-inspect-cannon.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-inspect-frost.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-terrain-inspect-tesla.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-phone-swap.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-phone-labels.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-landscape-terrain-empty.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-landscape-terrain-built.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-landscape-swap.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-landscape-labels.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ipad-terrain-empty.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ipad-terrain-built.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-ipad-swap.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-ipad-labels.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ipad-landscape-terrain-empty.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-ipad-landscape-terrain-built.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-ipad-landscape-swap.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-exercise-折返雙隘-ipad-landscape-labels.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/store/screenshots/iphone-content-r5-terrain-1290x2796.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/store/screenshots/ipad-content-r5-terrain-2064x2752.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "docs/content/r5/phone-offline-flood.png original dimensions",
+      "pass": true
+    },
+    {
+      "name": "flight samples use 0/650/1300 milliseconds",
+      "pass": true
+    },
+    {
+      "name": "wallet changes only at arrival",
+      "pass": true
+    },
+    {
+      "name": "actual crystal path positions differ",
+      "pass": true
+    },
+    {
+      "name": "crystal source region itself changes in frame 1",
+      "pass": true
+    },
+    {
+      "name": "crystal source region itself changes in frame 2",
+      "pass": true
+    },
+    {
+      "name": "flood four actual different positions and arrival",
+      "pass": true
+    },
+    {
+      "name": "water speed returns to normal after exit",
+      "pass": true
+    },
+    {
+      "name": "flood route frame 1 differs",
+      "pass": true
+    },
+    {
+      "name": "flood route frame 2 differs",
+      "pass": true
+    },
+    {
+      "name": "flood route frame 3 differs",
+      "pass": true
+    },
+    {
+      "name": "barricade four actual different positions and arrival",
+      "pass": true
+    },
+    {
+      "name": "barricade route frame 1 differs",
+      "pass": true
+    },
+    {
+      "name": "barricade route frame 2 differs",
+      "pass": true
+    },
+    {
+      "name": "barricade route frame 3 differs",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 same full budget win and loss",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 combat original phone image",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 failed original phone image",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 complete original phone image",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 losing-formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "聚印轉角 retry original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 same full budget win and loss",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 combat original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 failed original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 complete original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 losing-formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "分守長堤 retry original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 same full budget win and loss",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 combat original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 failed original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 complete original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 losing-formation original phone image",
+      "pass": true
+    },
+    {
+      "name": "折返雙隘 retry original phone image",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/OPTIM_PLAN_CONTENT_R5.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE2_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE3_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE4_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE5_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE6_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/art/ART_RESCORE7_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/content/CONTENT_REVIEW_R1_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/content/CONTENT_REVIEW_R2_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/content/CONTENT_REVIEW_R3_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked retained docs/content/CONTENT_REVIEW_R4_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-content-r3-01-terrain-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-content-r3-02-exercise-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-content-r4-terrain-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-defense-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-opening-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/ipad-siege-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-content-r3-01-terrain-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-content-r3-02-exercise-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-content-r4-terrain-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-defense-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-opening-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged docs/store/screenshots/iphone-siege-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "historical verification archived and restored",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-1.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-2.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-3.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-4.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-5.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-6.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-7.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-8.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-9.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-10.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-11.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-12.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-verification-13.zip",
+      "pass": true
+    },
+    {
+      "name": "archive hash docs/content/r5/verification-artifacts/legacy-new-movies.zip",
+      "pass": true
+    },
+    {
+      "name": "concurrent-load performance final build",
+      "pass": true
+    },
+    {
+      "name": "reference real RAF p95 <=18ms",
+      "pass": true
+    },
+    {
+      "name": "zero secret scan hits",
+      "pass": true
+    },
+    {
+      "name": "version and offline cache 0.13.0",
+      "pass": true
+    },
+    {
+      "name": "lockfile version matches",
+      "pass": true
+    },
+    {
+      "name": "exact R7 style prefix retained",
+      "pass": true
+    },
+    {
+      "name": "actual image tool disclosed without invented model",
+      "pass": true
+    },
+    {
+      "name": "transparent art alpha docs/content/r5/art/flood-original.png",
+      "pass": true
+    },
+    {
+      "name": "transparent art alpha public/assets/content-r5/flood.webp",
+      "pass": true
+    },
+    {
+      "name": "review set is verified and contains exactly 15 PNG files",
+      "pass": true
+    },
+    {
+      "name": "15 images, five per feature",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/01-ford-tower-choice.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/02-ford-tower-next.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/03-ford-tower-combat.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/04-ford-tower-hit.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/05-ford-crystals-three-frames.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/06-terrain-flood-before.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/07-terrain-flood-inside.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/08-terrain-flood-after.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/09-terrain-flood-gate.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/10-terrain-inspection-three-elements.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/11-exercise-聚印轉角-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/12-exercise-分守長堤-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/13-exercise-折返雙隘-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/14-exercise-聚印轉角-hit.png",
+      "pass": true
+    },
+    {
+      "name": "review copy identical docs/content/r5/review-set/15-exercise-折返雙隘-hit.png",
+      "pass": true
+    },
+    {
+      "name": "portrait comparison original width docs/content/r5/phone-ford-crystals-three-frames.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-ford-crystals-flight-1.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-ford-crystals-flight-2.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-ford-crystals-flight-3.png",
+      "pass": true
+    },
+    {
+      "name": "portrait comparison original width docs/content/r5/phone-terrain-inspection-three-elements.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-terrain-inspect-cannon.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-terrain-inspect-frost.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-terrain-inspect-tesla.png",
+      "pass": true
+    },
+    {
+      "name": "portrait comparison original width docs/content/r5/phone-exercise-聚印轉角-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-聚印轉角-formation.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-聚印轉角-combat.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-聚印轉角-complete.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-聚印轉角-failed.png",
+      "pass": true
+    },
+    {
+      "name": "portrait comparison original width docs/content/r5/phone-exercise-分守長堤-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-分守長堤-formation.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-分守長堤-combat.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-分守長堤-complete.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-分守長堤-failed.png",
+      "pass": true
+    },
+    {
+      "name": "portrait comparison original width docs/content/r5/phone-exercise-折返雙隘-four-states.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-折返雙隘-formation.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-折返雙隘-combat.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-折返雙隘-complete.png",
+      "pass": true
+    },
+    {
+      "name": "comparison pixels unchanged phone-exercise-折返雙隘-failed.png",
+      "pass": true
+    },
+    {
+      "name": "row inspections cover full device matrix",
+      "pass": true
+    },
+    {
+      "name": "three exercises include complete and leak evidence",
+      "pass": true
+    },
+    {
+      "name": "at least one exercised resonance solution",
+      "pass": true
+    },
+    {
+      "name": "inherited hit screenshot exists",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "docs/content/r5/phone-ford-tower-choice.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "170c1b473fae24fe90a077ac5ccabe530fe6f34827e016d5a965cbd691b6cd8f"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-receipt.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4137503fe9215b1664a92ea5d60ddddbffb4abcfe3f89a0c6642abf5003ff0cb"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-next.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "85d2174e1d6763c3b937e3a071b26aa52db9916ed2d5be9201d6cad16a456bc6"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "a38822cbb158d79b51fb093099f0de34a272e970a95034ab7a5ad576db22d088"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-hit.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4878f5f05c7c3d3f8660a78ebb0bd24faa2e38b3c7fdfac269ca5734bf6ac22d"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-reloaded.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "81d70d052977e41fad6ba1e4ca21e718931ca3b6df9731c9261837b4733d7baf"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-tower-no-reclaim.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "3a99095af46bcb92912964a4a341e0dc7da2840f79d50a74e2a4398d5415f851"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-flight-1.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "0319acf7ca10b94d7e509b495a5aac95e4d25d102e038c0d466ad1abca3cee10"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-flight-2.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "22d2a314f56606ef28a79b2fbd2332ae8289d1bb45fe24bfdd2eede4e3d43dfa"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-flight-3.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "82d371638dcda83fa0db00c111877515fe00a112892744915e2c4e454d2b93bc"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-next.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "048300d86bb5c14a15c108e90b2aecbcbae7ec83be3d36cc62a9f96858bbc2d6"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-reloaded.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "71f6ec34439361c7fe82f179e97a7d4a4b0cce8d083f81b7f4091f6d2902a942"
+    },
+    {
+      "path": "docs/content/r5/phone-ford-crystals-interrupted-reload.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "71f6ec34439361c7fe82f179e97a7d4a4b0cce8d083f81b7f4091f6d2902a942"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-flood-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b47edeb9c085877a8281bcfb2b933c80decea2577ca1dc6a346c8a537d0b7479"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-flood-before.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "450136daf6e6cec24fcfe865baae8fcba288c1e71b4518ed91bc183a4fa069a3"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-flood-inside.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "8c13fdb384d4ff268d9de20eed4b195a452f9777aabd199f4e327b69b5b7868c"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-flood-after.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "5cd6132f60d9082ff17e661d4acb83b6502371b67e2a1f2d022176b8695349a0"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-flood-gate.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "c2fbdc516263eb656b0d6236c0fc6eef4a98b84bfbee3ee4619abef1cb8d34fd"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-barricade-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "57ed9db6d5054a29d1b1ad8ecb55f744f50396586598e48eec2e2ef1d3347ca8"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-barricade-before.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "88f17bfde9c56ca46e60c8cfae966845c9b8f2ba8d1da03b59a6e56ca4485311"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-barricade-inside.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "35121289602b720f3a792a59e425a02b87f0c693f1ef1806178095462149d799"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-barricade-after.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "75434ef6246ede46a126a2dd42299271ce8a3527c5fc9ba4224be7fc3ee0c91a"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-barricade-gate.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4d17242d67beba15dc979947c19a630c90fa59f975d017774119a69dea98c61b"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "466212e4ae1324a4a07b6276d0ecadd38db1b65c52d077bc3f37b870c4e6fad3"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "65a7e60566610d982fe57d9233482d1680e5649ea410b22781fd8d6e563b040a"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-hit.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "97a4bc2efe782061697b7296a71240c9d5dc2c2629485b1667b36927b5861ed1"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9cda12d08613a6a901337f637774e22bb502af3b6b9979697ee44d1bc8dd6b86"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-losing-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "1a108d3feaee1d3f3b8c292f687cffe2b2cddb8279898ad6a7b692649d36b0e4"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b7debbb065b4617e90a160d7ef0a7bdedabf7c949f5d8b169535683a7aca4fb1"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-聚印轉角-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "acf8061976ea87f94d7f55090194809e13b8220362bd11c3bf334b3754087f51"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "62d30edd501e379dd02366c1d40c1541c897610df91dc05353c969c59943fbbc"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9ce712fb652ad47746282c025cfc97471f6cdbd42e1921d8a41be708adb2c6fa"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-hit.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "6e7bedbbe45e56e79dd902425919dc2e2243b4c8ef4f0133e5d4adaa632200a4"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b5870d892de1220e2032e2506039725421d50876f27101f0655b9b2649ff5a06"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-losing-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9b853627a95d6a9ba88e7958c44f85118090c233db6424db26e530607fff38ed"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "8e6ca6fe8eb5251c6a241b187dae6b4c558d473f8daf3d5cffc44f3a816b7349"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-分守長堤-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "20432a0cec9d073851090cf67e431a8a40c6c8d671ad818f65484bdf778344f0"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "816e5354a07735e9cd2a7fff060a28ca52668a6ad31cc99f593f20551a42381c"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fc0795facba08bf18acd6875ca1ec9ccbd7441d4f0cb7f8b5d07c001c2b25bd6"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-hit.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9d947a6a4316f6c2bafdcaaec9b1706534fe5be4a9fa60884d76ec9a164333b1"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "13bf2d7755c77f5bf6c02e3e47a9653445701606315e4b9ede8809a14ec359e3"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-losing-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "1ee16928baf6c084549f7064dc6ea243cb1557b6109089f40941fde52caa1ca6"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fd7fee149e7c2a9b463104f6834c2352b963773c74a492f464eaffdae32a719d"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "77769dc6b6045d974e594ad97674d7afb97a0412805296e1ff15d6bb461da0fa"
+    },
+    {
+      "path": "docs/content/r5/phone-small-terrain-empty.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "df65f380eabc745948db216f09a2ec61a75cdefe029e71202ab04457f1352fd0"
+    },
+    {
+      "path": "docs/content/r5/phone-small-terrain-built.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "2e848ef15a1105eb0519bfc2461d1a554506068ac233c74544278528420f1c51"
+    },
+    {
+      "path": "docs/content/r5/phone-small-terrain-inspect-cannon.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "e5ae9453b2c190ece530330eb9262b476e94c7497b953fa5eb5f7ec8aaee5684"
+    },
+    {
+      "path": "docs/content/r5/phone-small-terrain-inspect-frost.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "845aca5f96f80c9e2d5ae684c753692220db04b9f6689b2a65501cb1e97416e8"
+    },
+    {
+      "path": "docs/content/r5/phone-small-terrain-inspect-tesla.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "6a99bf768677335834a06f42b68439948f0e249f6b696deccc577fbb6c55681b"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-small-swap.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "8c3dcf0de1699e194c413f5b83204c76d779fe96a0d630e8e7ffa3283a363504"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-small-labels.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "390d0b0cab80a100fe158be4d8546fb71adb3b4bb446c8be26ea91996c9d6840"
+    },
+    {
+      "path": "docs/content/r5/phone-phone-terrain-empty.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "19021984fe7ec4f581f86bfc2edaae337baf45d4bf43dfcdef7beed21b6e1300"
+    },
+    {
+      "path": "docs/content/r5/phone-phone-terrain-built.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "916aeeacf94cc1b91176d65b79e619cc7bb9da426f5967040694e505e0b0dd8d"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-inspect-cannon.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "66f005b85cdae5634ca20f8b908d80c338be5bc50f1aa0aeca30c2359de7096d"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-inspect-frost.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "2faeca5bb8431207a05af6976dfdd72a9da6e4f126c8859533406591f492ba27"
+    },
+    {
+      "path": "docs/content/r5/phone-terrain-inspect-tesla.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "667eb2a258cd6e8ac70bdf0b5549bfc635a2b7f2b7c8d6004a6ff355d2c75bb8"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-phone-swap.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "548192266d70d8ecb75fb713b7e0152a551c76203778ce22e02faff168f598c7"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-phone-labels.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "db3b02c1d6cfabce9b717bf0a41517b0b6f0f960dd1cce5e8e4230237be01a05"
+    },
+    {
+      "path": "docs/content/r5/phone-landscape-terrain-empty.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "7a7f559853ac01e0566e23bdf8d0f7bafef95e9b9bf38bbe93bc001939341c45"
+    },
+    {
+      "path": "docs/content/r5/phone-landscape-terrain-built.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "7d3783d571fe7023bd39bc1e02e5c4eb63de8f687100b132cfb7f532a4cef4dd"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-landscape-swap.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "e644ec6a96d984a55778061c4a2063eb29fd40d50a8e2609d58f4e74d841ff58"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-landscape-labels.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "eb1230ea37becdc0eaae54f2a47beee579c6c653152d58fb9803f2e432edf066"
+    },
+    {
+      "path": "docs/content/r5/phone-ipad-terrain-empty.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "211c1eabdce8c8410d46d87cbd0b73883c2d5393d7a0fa80c2426fac2fd057b5"
+    },
+    {
+      "path": "docs/content/r5/phone-ipad-terrain-built.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "7cee8e2346e16ff20a5e0c5430618a715a1478535266f1bb821306af93251386"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-ipad-swap.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "b2d246e70e2792af6abed40f601e406bbda99c30daaf0e441fdc8b622d907596"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-ipad-labels.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "64fbb0d510c0e99c510169fd955b94d09f120d620b98967016a348f0be90148b"
+    },
+    {
+      "path": "docs/content/r5/phone-ipad-landscape-terrain-empty.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "301d19d3827b282dfa4451b90735708df6ac98537c6da6bb3ccb39073c170c90"
+    },
+    {
+      "path": "docs/content/r5/phone-ipad-landscape-terrain-built.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "8a4fd5d6dd110e6e2a3778ced6ba4b33f645598ddf4d28eebc66650a8545339b"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-ipad-landscape-swap.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "39b01714b8f6dbd156eff328d17dd7d82f31829d24eccb81601768c7e536464e"
+    },
+    {
+      "path": "docs/content/r5/phone-exercise-折返雙隘-ipad-landscape-labels.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "0e14cf5b1af5d2fa68edb39dda1fa7c0aea537db9217657b463fed7c0ce438f4"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r5-terrain-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "e016543993c9ffc6851a6ae1fbbcbbc58b7ff7f82b2b6d2d9c2a8e9a5733ccb2"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r5-terrain-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "a17105a124697ecc6db383c192c9a86c685adc323bb7b837ea20896252dde3bf"
+    },
+    {
+      "path": "docs/content/r5/phone-offline-flood.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b44c65756ce53d32b24ee2f00895ae78f1c7d03ffe87bd13d5352c686a0cb0f6"
+    }
+  ],
+  "secretScan": {
+    "files": 430,
+    "matches": 0,
+    "paths": []
+  },
+  "humanAndPhysicalDevices": "BLOCKED: physical iPhone/iPad and new players required",
+  "museScore": "BLOCKED: independent re-review required; no self-assigned score",
+  "buildSHA256": "ee0f05fa405bb2f01e2f5245931a7df48276e0b1b937d46b0dbda8287d76ef98",
+  "styleSHA256": "f56f0154789fa884984938f57d610d9072e73045643dbff3259c1db9b6919d9f",
+  "performance": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "switchback",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "switchback",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    }
+  ],
+  "version": "0.13.0",
+  "reviewSet": {
+    "status": "VERIFIED",
+    "method": "Copy original gameplay PNGs. Five additional portrait two-column evidence sheets display every source at exactly 430x932 physical pixels (215x466 CSS pixels at DPR2), without pixel resampling, cropping, retouching or fabricated gameplay. Sheets are explicitly comparisons, not a single game screen.",
+    "sheets": [
+      {
+        "path": "docs/content/r5/phone-ford-crystals-three-frames.png",
+        "html": "docs/content/r5/ford-crystals-three-frames.html",
+        "frames": [
+          {
+            "source": "phone-ford-crystals-flight-1.png",
+            "x": 0,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-ford-crystals-flight-2.png",
+            "x": 430,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-ford-crystals-flight-3.png",
+            "x": 0,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          }
+        ],
+        "viewport": {
+          "width": 430,
+          "height": 932
+        },
+        "dpr": 2
+      },
+      {
+        "path": "docs/content/r5/phone-terrain-inspection-three-elements.png",
+        "html": "docs/content/r5/terrain-inspection-three-elements.html",
+        "frames": [
+          {
+            "source": "phone-terrain-inspect-cannon.png",
+            "x": 0,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-terrain-inspect-frost.png",
+            "x": 430,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-terrain-inspect-tesla.png",
+            "x": 0,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          }
+        ],
+        "viewport": {
+          "width": 430,
+          "height": 932
+        },
+        "dpr": 2
+      },
+      {
+        "path": "docs/content/r5/phone-exercise-聚印轉角-four-states.png",
+        "html": "docs/content/r5/exercise-聚印轉角-four-states.html",
+        "frames": [
+          {
+            "source": "phone-exercise-聚印轉角-formation.png",
+            "x": 0,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-聚印轉角-combat.png",
+            "x": 430,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-聚印轉角-complete.png",
+            "x": 0,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-聚印轉角-failed.png",
+            "x": 430,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          }
+        ],
+        "viewport": {
+          "width": 430,
+          "height": 932
+        },
+        "dpr": 2
+      },
+      {
+        "path": "docs/content/r5/phone-exercise-分守長堤-four-states.png",
+        "html": "docs/content/r5/exercise-分守長堤-four-states.html",
+        "frames": [
+          {
+            "source": "phone-exercise-分守長堤-formation.png",
+            "x": 0,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-分守長堤-combat.png",
+            "x": 430,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-分守長堤-complete.png",
+            "x": 0,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-分守長堤-failed.png",
+            "x": 430,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          }
+        ],
+        "viewport": {
+          "width": 430,
+          "height": 932
+        },
+        "dpr": 2
+      },
+      {
+        "path": "docs/content/r5/phone-exercise-折返雙隘-four-states.png",
+        "html": "docs/content/r5/exercise-折返雙隘-four-states.html",
+        "frames": [
+          {
+            "source": "phone-exercise-折返雙隘-formation.png",
+            "x": 0,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-折返雙隘-combat.png",
+            "x": 430,
+            "y": 112,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-折返雙隘-complete.png",
+            "x": 0,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          },
+          {
+            "source": "phone-exercise-折返雙隘-failed.png",
+            "x": 430,
+            "y": 1092,
+            "width": 430,
+            "height": 932,
+            "naturalWidth": 430,
+            "naturalHeight": 932
+          }
+        ],
+        "viewport": {
+          "width": 430,
+          "height": 932
+        },
+        "dpr": 2
+      }
+    ],
+    "selected": [
+      {
+        "group": "留塔／拆晶",
+        "path": "docs/content/r5/review-set/01-ford-tower-choice.png",
+        "original": "docs/content/r5/phone-ford-tower-choice.png",
+        "sha256": "170c1b473fae24fe90a077ac5ccabe530fe6f34827e016d5a965cbd691b6cd8f"
+      },
+      {
+        "group": "留塔／拆晶",
+        "path": "docs/content/r5/review-set/02-ford-tower-next.png",
+        "original": "docs/content/r5/phone-ford-tower-next.png",
+        "sha256": "85d2174e1d6763c3b937e3a071b26aa52db9916ed2d5be9201d6cad16a456bc6"
+      },
+      {
+        "group": "留塔／拆晶",
+        "path": "docs/content/r5/review-set/03-ford-tower-combat.png",
+        "original": "docs/content/r5/phone-ford-tower-combat.png",
+        "sha256": "a38822cbb158d79b51fb093099f0de34a272e970a95034ab7a5ad576db22d088"
+      },
+      {
+        "group": "留塔／拆晶",
+        "path": "docs/content/r5/review-set/04-ford-tower-hit.png",
+        "original": "docs/content/r5/phone-ford-tower-hit.png",
+        "sha256": "4878f5f05c7c3d3f8660a78ebb0bd24faa2e38b3c7fdfac269ca5734bf6ac22d"
+      },
+      {
+        "group": "留塔／拆晶",
+        "path": "docs/content/r5/review-set/05-ford-crystals-three-frames.png",
+        "original": "docs/content/r5/phone-ford-crystals-three-frames.png",
+        "sha256": "e97da830cc1bc02414133c2881e397e710c8186ef255d2597624981a8a5931fe"
+      },
+      {
+        "group": "改地形",
+        "path": "docs/content/r5/review-set/06-terrain-flood-before.png",
+        "original": "docs/content/r5/phone-terrain-flood-before.png",
+        "sha256": "450136daf6e6cec24fcfe865baae8fcba288c1e71b4518ed91bc183a4fa069a3"
+      },
+      {
+        "group": "改地形",
+        "path": "docs/content/r5/review-set/07-terrain-flood-inside.png",
+        "original": "docs/content/r5/phone-terrain-flood-inside.png",
+        "sha256": "8c13fdb384d4ff268d9de20eed4b195a452f9777aabd199f4e327b69b5b7868c"
+      },
+      {
+        "group": "改地形",
+        "path": "docs/content/r5/review-set/08-terrain-flood-after.png",
+        "original": "docs/content/r5/phone-terrain-flood-after.png",
+        "sha256": "5cd6132f60d9082ff17e661d4acb83b6502371b67e2a1f2d022176b8695349a0"
+      },
+      {
+        "group": "改地形",
+        "path": "docs/content/r5/review-set/09-terrain-flood-gate.png",
+        "original": "docs/content/r5/phone-terrain-flood-gate.png",
+        "sha256": "c2fbdc516263eb656b0d6236c0fc6eef4a98b84bfbee3ee4619abef1cb8d34fd"
+      },
+      {
+        "group": "改地形",
+        "path": "docs/content/r5/review-set/10-terrain-inspection-three-elements.png",
+        "original": "docs/content/r5/phone-terrain-inspection-three-elements.png",
+        "sha256": "ebf6e6fbfbd9d58f2218a8342874b6e523f9cccc2056a11306bb348a5e82e075"
+      },
+      {
+        "group": "三印窄陣",
+        "path": "docs/content/r5/review-set/11-exercise-聚印轉角-four-states.png",
+        "original": "docs/content/r5/phone-exercise-聚印轉角-four-states.png",
+        "sha256": "801c768d35bbf53dcdff0218786b420aec3a82711fe04c017c778eb328daad24"
+      },
+      {
+        "group": "三印窄陣",
+        "path": "docs/content/r5/review-set/12-exercise-分守長堤-four-states.png",
+        "original": "docs/content/r5/phone-exercise-分守長堤-four-states.png",
+        "sha256": "7ede99cbbcd7cc2cae68a2c692af65e1131313b3aaced634944a44f09aba4c4c"
+      },
+      {
+        "group": "三印窄陣",
+        "path": "docs/content/r5/review-set/13-exercise-折返雙隘-four-states.png",
+        "original": "docs/content/r5/phone-exercise-折返雙隘-four-states.png",
+        "sha256": "e505e2346ca93e677873391cd5691d99062207d0bc0c04490e858da8ad2c42e5"
+      },
+      {
+        "group": "三印窄陣",
+        "path": "docs/content/r5/review-set/14-exercise-聚印轉角-hit.png",
+        "original": "docs/content/r5/phone-exercise-聚印轉角-hit.png",
+        "sha256": "97a4bc2efe782061697b7296a71240c9d5dc2c2629485b1667b36927b5861ed1"
+      },
+      {
+        "group": "三印窄陣",
+        "path": "docs/content/r5/review-set/15-exercise-折返雙隘-hit.png",
+        "original": "docs/content/r5/phone-exercise-折返雙隘-hit.png",
+        "sha256": "9d947a6a4316f6c2bafdcaaec9b1706534fe5be4a9fa60884d76ec9a164333b1"
+      }
+    ]
+  }
+}

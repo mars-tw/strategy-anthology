@@ -1,0 +1,75 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelNote": "工具未揭露底層模型 slug；不以 requestedModelSlug 作實際型號證據。",
+  "stylePrefix": "Trine Frontier R3, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji.",
+  "samples": [
+    {
+      "id": "pine",
+      "transparent": false,
+      "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of warm dawn pine frontier, asymmetric ochre granite tors, tall umbrella pines, autumn red shrubs at outer edges, distant low rounded ridges only in upper 15%, pale apricot sky. Center 80% low-detail mossy warm ochre meadow with scattered tiny stones, a few eroded earth patches. No roads, no river, no buildings, no towers, no units, no UI, no text. This is a real playable map ground, NOT a horizon landscape, avoid dramatic foreground occlusion. Richly painted terrain with handcrafted layered mineral pigments, broad readable shapes.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-773701b5-a666-40f2-9177-67d361aeb2e6.png"
+    },
+    {
+      "id": "ford",
+      "transparent": false,
+      "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of a cold overcast river-valley floodplain, distant flat limestone escarpments and hanging willows in upper 15%, blue-gray cloud sky. Broad low-detail slate-green alluvial ground, reed clumps and pale wet pebble deposits near outer edges. River channel will be drawn by game in center, leave center open and dry. No drawn water, no road, no bridge, no buildings, no units, no UI, no text. Entire composition distinctly different from pine mountains, no pointed mountains. Painterly coherent mineral wash, readable miniature terrain.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-12ee3148-bd95-462b-9566-e590aa667c05.png"
+    },
+    {
+      "id": "quarry",
+      "transparent": false,
+      "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of abandoned Eastern frontier stone quarry, stepped amber limestone terraces on far upper and side edges, ochre dust, fractured flat rock slabs, small pine scrub. Late afternoon honey light upper-left. Large central 80% playable open subdued tan gravel plateau, low-detail with painterly erosion. A distant tiny timber quarry derrick at far upper-left edge only. No mountains like pine map, no road, no river, no buildings in center, no characters, no UI, no words. Handcrafted gouache rock strata.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-2c3badf8-bc49-4362-963d-65af0bbc3534.png"
+    },
+    {
+      "id": "citadel",
+      "transparent": false,
+      "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of a high frontier fortress plateau at violet stormbreak dawn, broken basalt terraces framing lower outer corners, distant black stone aqueduct and a lonely signal beacon on far upper ridge, pale lavender clouds, restrained wisteria-purple heather and blue slate mineral ground. Main central 80% open quiet playable rock grassland. No foreground walls or enormous objects, no roads, no rivers, no units, no UI, no text. Clear distinctive angular basalt geography unlike pine valley or quarry.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-4127e8f9-0514-4948-b53b-f88c49c78c24.png"
+    },
+    {
+      "id": "panel",
+      "transparent": false,
+      "prompt": "Seamless square game UI mineral-paper texture, 1024 square, very clean pale cool gray handmade xuan paper #eeeee5, smooth almost solid quiet center 85%, sparse charcoal fiber grain only along outer 5% edges, tiny cinnabar registration corners, restrained ink-and-stone border strokes, no heavy marbling, no objects, no text, no symbols, no UI mockup. Usable as a quiet text-bearing command surface.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-98c387ec-d94f-41e5-866f-44f06849701d.png"
+    },
+    {
+      "id": "terrain-kit",
+      "transparent": true,
+      "prompt": "Transparent-background game environment atlas, 1536x1024, SIX clearly separated orthographic three-quarter miniature groups in 3 columns x 2 rows, generous transparent gutters. Top row: warm limestone gravel shoulder cluster; short curved eroded ochre cart-rut road patch with tiny stones; cold pale sandy wet bank cluster. Bottom row: celadon reed clump with dark green leaves; pale slate river rocks with shallow celadon water pool; worn gray stone bridge abutment and three small timber military stakes. No labels no letters no frames no checkerboard. All six realistic coherent gouache game terrain cutouts, not vector shapes. Upper-left light, no baked cast shadow beyond footprint.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-b87d0dfd-6eaa-4b45-8761-166f28a3d3f7.png"
+    },
+    {
+      "id": "commander",
+      "transparent": true,
+      "reference": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r2\\commander.png",
+      "prompt": "Use case identity-preserve. Edit this exact existing commander illustration, preserve face, hairstyle, short heroic proportions, spear, pose, boots and red cape exactly. Keep three pendants of flame/ice/lightning. Improve broad mineral color planes and clean linework to match miniature painted game terrain; stronger bright teal sash, saturated cinnabar shoulder and wisteria pendant, upper-left light. TRUE TRANSPARENT BACKGROUND with zero-alpha empty areas, clean cutout, no background color, no glow. Full figure with spear not cropped. No added ornament or text.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-e2df9b78-5ebf-4506-b658-7e43c2c0ea26.png"
+    },
+    {
+      "id": "icons",
+      "transparent": true,
+      "prompt": "Generate THREE separated elemental game insignia in a single horizontal atlas, flame cinnabar red with bronze outline, sharp celadon ice shard, forked wisteria lightning rune. Bold readable broad silhouettes, warm charcoal outline, upper-left light, mineral-pigment gouache with matte lacquer. True transparent empty background, no backdrop gradient, no text, no frames. Leave generous empty gutters between the three icons.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-cb026937-5e45-4a77-ae64-06b9a66f039f.png"
+    },
+    {
+      "id": "logo",
+      "transparent": true,
+      "prompt": "Transparent title-logo asset, exact Traditional Chinese calligraphy 三相邊境, four characters in one horizontal line, elegant ink-carved gray charcoal lettering with restrained cinnabar carved seal. Small three element crystal mark at left. No English subtitle, no additional words. Wide 3:1 title composition with clear readable brush forms, matte mineral pigment, upper-left highlights, no heavy metallic gold. TRUE transparent background around all lettering, no paper rectangle.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-a22d95d2-54af-4e46-b677-8341f1c557f5.png"
+    },
+    {
+      "id": "app-icon",
+      "transparent": false,
+      "prompt": "Square mobile game app icon, no letters. Three readable sculptural towers on a single triangular stone seal viewed three-quarter: red flame tiered eastern pagoda at left, tall celadon blue ice spire at right, wisteria lightning ring tower in front. Strong large distinct silhouettes, clean pale mineral gray backdrop, cinnabar carved square corners, bold shapes readable at 64px. Broad mineral-pigment gouache and warm charcoal contours, top-left key light. No excessive details or heavy decorative frames, no text, no generic fantasy knight.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-b7ef3390-7570-4dad-b66f-3fb8553569d9.png"
+    },
+    {
+      "id": "road-surface",
+      "transparent": false,
+      "prompt": "Trine Frontier R3, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset type: seamless game road surface texture, square 1024. Close overhead macro of fine warm ochre packed dirt and tiny gravel, matte mineral pigments and subtle worn dusty grain, broad quiet texture, 3% small gray pebbles, NO objects, NO grass clumps, NO road outline, NO wheel tracks, NO perspective, NO vertical strokes, NO grid or repeating slabs, NO wall, NO paved stone. Uniformly illuminated top-left. A natural hand-painted earthy ground material for filling an irregular game path.",
+      "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-26ca60bf-d636-4182-bdaf-08896303a981.png"
+    }
+  ]
+}

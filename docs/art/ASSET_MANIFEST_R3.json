@@ -1,0 +1,810 @@
+{
+  "status": "VERIFIED",
+  "version": "0.4.0",
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelNote": "工具未揭露底層模型 slug；不以 requestedModelSlug 作實際型號證據。",
+  "generatedMasters": 11,
+  "sources": [
+    {
+      "id": "pine",
+      "path": "docs/art/r3/sources/pine.png",
+      "sha256": "5dbdcda631fb9507febc7aa6d6e269daebaa7d05a56056af0d1eb7f2c63f2663",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "ford",
+      "path": "docs/art/r3/sources/ford.png",
+      "sha256": "d2e71afd1edde666f4a2585120effb7183fa9d3b145e73dda87d04aa9676c13c",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "quarry",
+      "path": "docs/art/r3/sources/quarry.png",
+      "sha256": "ff91c87b401aefd2f7277efd2750744c784b71b22e466b3d09165c291f0a0a3f",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "citadel",
+      "path": "docs/art/r3/sources/citadel.png",
+      "sha256": "6ac84d8547a34b37b219127b9ad92a6570a57b34e0575a2ccc31da63cdcd881b",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "panel",
+      "path": "docs/art/r3/sources/panel.png",
+      "sha256": "b543ae68255c5d83b4225ad8411abf6c7f8552be20fb29a40890e646992202c4",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "terrain-kit",
+      "path": "docs/art/r3/sources/terrain-kit.png",
+      "sha256": "22c276e6f0aacb2bcf0453109825030b946bd3c8f1d82507c5444b3099ee1cb6",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "commander",
+      "path": "docs/art/r3/sources/commander.png",
+      "sha256": "673fa572bced087b660bfb33b504716b8acb041adcf15be8e73671373139255a",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "icons",
+      "path": "docs/art/r3/sources/icons.png",
+      "sha256": "fbfe2817047780902ab4165ae61cfe7fc56dd11be8875124107ab7a9b4da1250",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "logo",
+      "path": "docs/art/r3/sources/logo.png",
+      "sha256": "94a3c04050350587ad841be03bb4062146594807066da17b52babb4978742ed9",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "app-icon",
+      "path": "docs/art/r3/sources/app-icon.png",
+      "sha256": "b1d60225a924960c2062ead2fa671dfa4ba1c2d3b44e1a089b8c534006ecc03c",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "road-surface",
+      "path": "docs/art/r3/sources/road-surface.png",
+      "sha256": "3aa56a5d21c1fe441feac878e6c45e0670fff9503d3fd26ebf942ab313b490e6",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "public/assets/r3/abutment.png",
+      "sha256": "5f5a1fc86b5f6da14bc216365a52d0bae5875d54c46e3249c389280aa13e645b",
+      "bytes": 128320,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.6634979248046875,
+      "metrics": {
+        "meanLuminance": 0.3872716151139525,
+        "nearBlackRatio": 0.028148931766437457,
+        "meanSaturation": 0.34518633155260586,
+        "lowSaturationRatio": 0.23790906791159763
+      }
+    },
+    {
+      "path": "public/assets/r3/app-icon-192.png",
+      "sha256": "af974d4e28fec8f9b4a0b6e0f59ee94a9e75d69ee7e06d41462378ee20b2c636",
+      "bytes": 84037,
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/app-icon-512.png",
+      "sha256": "b111eec76c945ad650af4e0edd3677c2a9aaad3abd29d6242eaa44e87d22354c",
+      "bytes": 540077,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/app-icon-64.png",
+      "sha256": "3c00a9c3f99c34e687d035034ac7240c6adc346a9de8fbd7f34b7bda002cf50a",
+      "bytes": 10544,
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/archer-e-portrait.png",
+      "sha256": "1257b31737c1d52f656f17522bb8b41ea09afb1991d9110dc482f6161e167dd0",
+      "bytes": 15841,
+      "size": [
+        128,
+        144
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.26220703125,
+      "metrics": {
+        "meanLuminance": 0.3705561806696608,
+        "nearBlackRatio": 0.006207324643078833,
+        "meanSaturation": 0.4919917397954423,
+        "lowSaturationRatio": 0.01303538175046555
+      }
+    },
+    {
+      "path": "public/assets/r3/chapter-citadel.webp",
+      "sha256": "254da9e46002fa4127038b13ece8fb34d7509565312fa476cc0543dc50230572",
+      "bytes": 343178,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/chapter-ford-watch.webp",
+      "sha256": "9ab9540e296e82a4148f75fa529e4ab7f7c1a998f747806bd0d1fe7f1b1aedf3",
+      "bytes": 279748,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/chapter-ford.webp",
+      "sha256": "c3f1e68b81c338e6fec0e7cc4753b20edeb086e03f430d953fa5bb37e9112d91",
+      "bytes": 306404,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/chapter-pine.webp",
+      "sha256": "35a5b1526d79e566ab4f83e4ff7e9abfa0c80a570e6d1ed9566e201ae3416923",
+      "bytes": 449454,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/chapter-quarry-watch.webp",
+      "sha256": "40b07868312a206de8f0a3774d2af02978a7c7e610693f31c657028678bc893a",
+      "bytes": 289392,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/chapter-quarry.webp",
+      "sha256": "d60dafe4d571d8df4688b105d2a5358a04ca789181f5ff1058ccb8b4a8b2c529",
+      "bytes": 313272,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/commander.png",
+      "sha256": "b2df6e888d827ef1d88e6a5d6c2c76c5ab0fb980758997673ef87b4909036038",
+      "bytes": 471957,
+      "size": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.45038604736328125,
+      "metrics": {
+        "meanLuminance": 0.36065552635509396,
+        "nearBlackRatio": 0.12620059966459438,
+        "meanSaturation": 0.5554021241470235,
+        "lowSaturationRatio": 0.03287426806475474
+      }
+    },
+    {
+      "path": "public/assets/r3/gravel.png",
+      "sha256": "1c88e07772a17fe199616cc28d2bcf09cf160df3ebe10417ab270645bcbc493e",
+      "bytes": 105446,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.5071258544921875,
+      "metrics": {
+        "meanLuminance": 0.49705342881500425,
+        "nearBlackRatio": 0.011433729502030992,
+        "meanSaturation": 0.4325987545612498,
+        "lowSaturationRatio": 0.10269294418534677
+      }
+    },
+    {
+      "path": "public/assets/r3/logo.png",
+      "sha256": "17e4fd5272ab015438ee7a81ec2d48bcfd4f5d4848943909916c8c92fe79c010",
+      "bytes": 207597,
+      "size": [
+        768,
+        264
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.2827197758838384,
+      "metrics": {
+        "meanLuminance": 0.3084415429178545,
+        "nearBlackRatio": 0.08698231045671818,
+        "meanSaturation": 0.19615669581743586,
+        "lowSaturationRatio": 0.6286940441715223
+      }
+    },
+    {
+      "path": "public/assets/r3/mage-portrait.png",
+      "sha256": "57526bdd376da838380ddcf3879cac633609d68db45858335e580df2a519efc3",
+      "bytes": 22426,
+      "size": [
+        128,
+        144
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.3682183159722222,
+      "metrics": {
+        "meanLuminance": 0.4404823891118257,
+        "nearBlackRatio": 0.02946810078090467,
+        "meanSaturation": 0.578051465171305,
+        "lowSaturationRatio": 0.004272874613231177
+      }
+    },
+    {
+      "path": "public/assets/r3/panel.webp",
+      "sha256": "61840d30c7904e7d3333e518e7da035caa9febf8aa064236ac0f7285ad8eabdf",
+      "bytes": 12052,
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/reeds.png",
+      "sha256": "0d5cc19c1f8be63560d0bd0ce185ee1836c7252e58caba61cb713e24d9fc7393",
+      "bytes": 125464,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.58233642578125,
+      "metrics": {
+        "meanLuminance": 0.36421524824750146,
+        "nearBlackRatio": 0.0393302588827167,
+        "meanSaturation": 0.49325408813562105,
+        "lowSaturationRatio": 0.0703280578555707
+      }
+    },
+    {
+      "path": "public/assets/r3/road-surface.webp",
+      "sha256": "d403a26c5f1a0734b0538dbf267ff9fc3600567076cbd1112a7c5c1587c94499",
+      "bytes": 23360,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r3/ruts.png",
+      "sha256": "beecec14d365e6d04558222d0cdae8d2ca9177976a8e15226759fe243abf48e9",
+      "bytes": 118843,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.592437744140625,
+      "metrics": {
+        "meanLuminance": 0.5233477209228099,
+        "nearBlackRatio": 0.005846597640756194,
+        "meanSaturation": 0.5311351903868744,
+        "lowSaturationRatio": 0.016741358883222583
+      }
+    },
+    {
+      "path": "public/assets/r3/sand.png",
+      "sha256": "080c8184f17cb12c981bc6521944318f40ef319428169f3a590d32611d308162",
+      "bytes": 104668,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.533172607421875,
+      "metrics": {
+        "meanLuminance": 0.539333901714999,
+        "nearBlackRatio": 0.004865205197183905,
+        "meanSaturation": 0.27591302561892483,
+        "lowSaturationRatio": 0.3097418579360082
+      }
+    },
+    {
+      "path": "public/assets/r3/seal-cannon.png",
+      "sha256": "ed379857963534074013a1763354a463848b35cc964c45f132ebb151fc48cd1f",
+      "bytes": 17004,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.30120849609375,
+      "metrics": {
+        "meanLuminance": 0.27156792784631584,
+        "nearBlackRatio": 0.15866261398176293,
+        "meanSaturation": 0.7969366469992253,
+        "lowSaturationRatio": 0.0024316109422492403
+      }
+    },
+    {
+      "path": "public/assets/r3/seal-frost.png",
+      "sha256": "67099caea24388e8753d257558e3588f4a9fda4dfff7fd9a62d9bfb26b7478ac",
+      "bytes": 17022,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.258544921875,
+      "metrics": {
+        "meanLuminance": 0.4558605867540595,
+        "nearBlackRatio": 0.051699716713881017,
+        "meanSaturation": 0.42129089596178415,
+        "lowSaturationRatio": 0.24598677998111426
+      }
+    },
+    {
+      "path": "public/assets/r3/seal-tesla.png",
+      "sha256": "9d1b0a196327700a836f71e4293fabc025edeecd7a5f0ea1454fdb2c254fb71b",
+      "bytes": 10765,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.1536865234375,
+      "metrics": {
+        "meanLuminance": 0.4353305932190192,
+        "nearBlackRatio": 0.028594122319301033,
+        "meanSaturation": 0.37814013611798974,
+        "lowSaturationRatio": 0.1580619539316918
+      }
+    },
+    {
+      "path": "public/assets/r3/shoal.png",
+      "sha256": "51772d937844d71989210ad196db1365c50a0abf31680676885c7feb9d12d2c8",
+      "bytes": 117924,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.6183319091796875,
+      "metrics": {
+        "meanLuminance": 0.458983973681371,
+        "nearBlackRatio": 0.018409298423117736,
+        "meanSaturation": 0.22778794710145242,
+        "lowSaturationRatio": 0.48525528712089433
+      }
+    },
+    {
+      "path": "public/assets/r3/warrior-e-portrait.png",
+      "sha256": "1d905c0629a2b93fa2da7ea496ea82c44866b03ad3bed3b588cbb5a283dbb9a0",
+      "bytes": 12737,
+      "size": [
+        128,
+        144
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "transparentRGBZero": true,
+      "alphaOccupancy": 0.20084635416666666,
+      "metrics": {
+        "meanLuminance": 0.3898252539697672,
+        "nearBlackRatio": 0.004592112371690978,
+        "meanSaturation": 0.49761019480725843,
+        "lowSaturationRatio": 0.01620745542949757
+      }
+    }
+  ],
+  "runtimeBytes": 4127532,
+  "actorGrades": [
+    {
+      "path": "public/assets/r1/archer-e.png",
+      "sha256": "d03ee27459a3eaf0093ad3bb137090e23ab2b3e605a1d0c2441599190e479b38",
+      "metrics": {
+        "meanLuminance": 0.3708688093127108,
+        "nearBlackRatio": 0.012536077665374188,
+        "meanSaturation": 0.5023867708653095,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/archer-ne.png",
+      "sha256": "6a80de14084a903440f571327a6f7eb38de1e4e184981bf10f8b5bb3dabad1b8",
+      "metrics": {
+        "meanLuminance": 0.40516235118742583,
+        "nearBlackRatio": 0.012428853525380416,
+        "meanSaturation": 0.5068857488401332,
+        "lowSaturationRatio": 0.004181670344987803
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/archer-nw.png",
+      "sha256": "5b3a068a593d41ec67ba3e36ec0b9c7f8b0fe8b5f2b1d714e15fbea810411a63",
+      "metrics": {
+        "meanLuminance": 0.40411536584866936,
+        "nearBlackRatio": 0.012142111974035006,
+        "meanSaturation": 0.5056573411791979,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/archer-se.png",
+      "sha256": "f7911e00490ec94fb61eba5bd5c369ec1683236b14653c8463e62f7d05d41a78",
+      "metrics": {
+        "meanLuminance": 0.43382652302068875,
+        "nearBlackRatio": 0.00923557828928673,
+        "meanSaturation": 0.4812514696131366,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/archer-sw.png",
+      "sha256": "b9a4bd299026cd2418a10145e0f8c0febf2d8cd71247818f3653dae2f020594e",
+      "metrics": {
+        "meanLuminance": 0.39776063875066403,
+        "nearBlackRatio": 0.0142681558274996,
+        "meanSaturation": 0.5229430520671903,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/archer-w.png",
+      "sha256": "464277720487217491c775a541f4d2c7ac6b46e1564b51eeb0e140ae20145598",
+      "metrics": {
+        "meanLuminance": 0.4005934067323811,
+        "nearBlackRatio": 0.009713901797211802,
+        "meanSaturation": 0.49562547823003567,
+        "lowSaturationRatio": 0.005738760427747606
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/ashwing.png",
+      "sha256": "8307ae6df0a6d730e72fe87f2c40d8cfb41aa68fb458bc88dbae1057da30dcc3",
+      "metrics": {
+        "meanLuminance": 0.4077958217439706,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5440183181952741,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/mage.png",
+      "sha256": "0c1095d50da99e57f068306e7e94ff241d1f788156c5e428e27be0f3c78468cf",
+      "metrics": {
+        "meanLuminance": 0.4342901740167049,
+        "nearBlackRatio": 0.047296893131871416,
+        "meanSaturation": 0.5793625392589654,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/miremaw.png",
+      "sha256": "4acd7dee069462903fd731d3a72b202571c3fc2bac0022ffbf4066797bc0b071",
+      "metrics": {
+        "meanLuminance": 0.47393103014296134,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4436890485524359,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/rootback.png",
+      "sha256": "beae62cf6ea83de974f7398be04ca7e4216a5c153fdb0e44a19575317ccb0e6c",
+      "metrics": {
+        "meanLuminance": 0.4418099952518223,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4831383338080095,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-e.png",
+      "sha256": "22e1277a80cef1e80fac6f8b5b3580c47246ca69e1b4e57a69cb95d90600c9b5",
+      "metrics": {
+        "meanLuminance": 0.40154523224619876,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4701436807013933,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-ne.png",
+      "sha256": "b01ac422182e2a9a527ec211d27aee8ed124d8bd5560c6d8973839766873c6f5",
+      "metrics": {
+        "meanLuminance": 0.4022600741275933,
+        "nearBlackRatio": 0.015541325798145067,
+        "meanSaturation": 0.5349078409478323,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-nw.png",
+      "sha256": "cee4ef24d47d953d845582b0162e2864df0fcc173f9fd49b0d657f5b110d14b6",
+      "metrics": {
+        "meanLuminance": 0.4082050831547022,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.48483595636817867,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-se.png",
+      "sha256": "7e58b68f3387a28a0039bac0ec6515af2ebf1628078194dd098e249921274117",
+      "metrics": {
+        "meanLuminance": 0.39197421477144173,
+        "nearBlackRatio": 0.013631225480417581,
+        "meanSaturation": 0.5152562379208393,
+        "lowSaturationRatio": 0.010151384178912605
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-sw.png",
+      "sha256": "99bf4d7f98f08d212faf9dbdd00fde8fdba0f598c7ceece78cece9c115b298eb",
+      "metrics": {
+        "meanLuminance": 0.41288700102847736,
+        "nearBlackRatio": 0.010499929054533416,
+        "meanSaturation": 0.5307102985923121,
+        "lowSaturationRatio": 0.00148985479827839
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-w.png",
+      "sha256": "0007ac4ec6321167b90784c9b53482cadb2380958ce522f3e269a09302dcf48f",
+      "metrics": {
+        "meanLuminance": 0.400092540944985,
+        "nearBlackRatio": 0.00862498753614518,
+        "meanSaturation": 0.5203291826252887,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-e.png",
+      "sha256": "1a54912f27afd88ffe24ec37446068e2536a0a97a8190a49be63922adc44c74b",
+      "metrics": {
+        "meanLuminance": 0.43077825792013713,
+        "nearBlackRatio": 0.01509843760947243,
+        "meanSaturation": 0.5594452984725032,
+        "lowSaturationRatio": 0.008827856792545365
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-ne.png",
+      "sha256": "f3a12d730a0efc81c51f6d1538e97d7cc81d39af0ac7c160914b25e4d6d2f370",
+      "metrics": {
+        "meanLuminance": 0.45731942648608137,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.49670622378595425,
+        "lowSaturationRatio": 0.002355537002802791
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-nw.png",
+      "sha256": "3611568f9cbadecea0e0f09e37c96b777926b54c1769b47601e26e2346ecc1b0",
+      "metrics": {
+        "meanLuminance": 0.44537957006455126,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5318515232966962,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-se.png",
+      "sha256": "dfe194a7ee4f1eb6b25ba81f39b8d751037d4e7a37024e276d6a585dfbf0e17c",
+      "metrics": {
+        "meanLuminance": 0.48408769228117826,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5366515925484221,
+        "lowSaturationRatio": 0.0075881870385561935
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-sw.png",
+      "sha256": "39fb4b52d9af747c16ecc0495319e8ec05308086971be3dcc29e121d8d50a079",
+      "metrics": {
+        "meanLuminance": 0.48734105775810516,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5458150469108419,
+        "lowSaturationRatio": 0.006256778176357721
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/villager-w.png",
+      "sha256": "78cf8917c0976b4596e0556c30419eb819bbaa95a27f66fc208b460989fcba97",
+      "metrics": {
+        "meanLuminance": 0.4658504937719578,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5422325761987964,
+        "lowSaturationRatio": 0.0013414244650271478
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-e.png",
+      "sha256": "2488414b07d1bebac55e2551719f9d5f8c860b3b731ee80f2a4a517c53709880",
+      "metrics": {
+        "meanLuminance": 0.3877753108723553,
+        "nearBlackRatio": 0.009939515352313442,
+        "meanSaturation": 0.5003255006205588,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-ne.png",
+      "sha256": "db0b056ac9a060f895943bc9d5b0cddb17cb5e57b761d694a7a7b20ae800daad",
+      "metrics": {
+        "meanLuminance": 0.3833912025655531,
+        "nearBlackRatio": 0.011470250874974266,
+        "meanSaturation": 0.4523970748265189,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-nw.png",
+      "sha256": "65e3180633885d8b03913ef5b2db88d2a5e3100765116abb136b6548eb531760",
+      "metrics": {
+        "meanLuminance": 0.3840746300143426,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.473869784954566,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-se.png",
+      "sha256": "9baa70becd98477ee3a42cf8e0f4e8d207125c5063e0ab792d21198c5165e409",
+      "metrics": {
+        "meanLuminance": 0.4076855259030728,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4664067029001403,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-sw.png",
+      "sha256": "06818053cd826ecbd6d8fb8d6672146c124daabb5a35e87939229aa87e8f86e6",
+      "metrics": {
+        "meanLuminance": 0.40198609240590005,
+        "nearBlackRatio": 0.008333784295686996,
+        "meanSaturation": 0.48695180220472845,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    },
+    {
+      "path": "public/assets/r1/warrior-w.png",
+      "sha256": "65970d077d937a3a82e09c9aef3d57364dd284a9cf80320fa04d6c8d68d42138",
+      "metrics": {
+        "meanLuminance": 0.3947206959025689,
+        "nearBlackRatio": 0.017099748533109808,
+        "meanSaturation": 0.4939940502605065,
+        "lowSaturationRatio": 0.0
+      },
+      "pass": true
+    }
+  ],
+  "postprocess": "Pillow resize/crop and WebP 84. Alpha<16 RGB cleared; native alpha retained. Commander HSV saturation floor .25, value gamma .94 *1.035. Watch maps are declared time-of-day derivatives. Three portraits are MIT atlas crops, not generated masters."
+}

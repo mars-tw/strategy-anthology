@@ -1,0 +1,35 @@
+{
+  "status": "VERIFIED",
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "source": "public/assets/content-r2/legacy.png",
+  "width": 1774,
+  "height": 887,
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "sha256": "7ed57daca7445ce7ca05685d4fd610e3c37cde3de16d2343b165ee84b953b27b",
+  "generatedMasters": 1,
+  "objects": 2,
+  "spriteRegions": {
+    "foundation": [
+      0,
+      0,
+      1040,
+      887
+    ],
+    "crystal": [
+      1130,
+      0,
+      644,
+      887
+    ]
+  },
+  "usage": [
+    "empty ford foundation",
+    "salvage crystals to wallet"
+  ],
+  "unchangedSource": true
+}

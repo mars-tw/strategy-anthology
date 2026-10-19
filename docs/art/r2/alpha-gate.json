@@ -1,0 +1,1709 @@
+{
+  "status": "VERIFIED",
+  "method": "Unmodified shared Wave 0 alpha gate; native alpha, zero invisible RGB; absent magenta sentinel.",
+  "files": [
+    {
+      "path": "public\\assets\\r2\\bridge.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        256
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.395264,
+        "fully_opaque_fraction": 0.369802,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          8,
+          61,
+          376,
+          248
+        ],
+        "bbox_margins": [
+          8,
+          61,
+          8,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 2503,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 548,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            256
+          ],
+          "requirement": "384x256"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.395264,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            8,
+            61,
+            376,
+            248
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            8,
+            61,
+            8,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\commander.png",
+      "profile": "cutout",
+      "expected_size": [
+        512,
+        768
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.440603,
+        "fully_opaque_fraction": 0.416547,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          32,
+          8,
+          480,
+          760
+        ],
+        "bbox_margins": [
+          32,
+          8,
+          32,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 9459,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 2267,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            512,
+            768
+          ],
+          "requirement": "512x768"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.440603,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            32,
+            8,
+            480,
+            760
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            32,
+            8,
+            32,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-keep.png",
+      "profile": "cutout",
+      "expected_size": [
+        320,
+        352
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.539249,
+        "fully_opaque_fraction": 0.511293,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          8,
+          39,
+          312,
+          344
+        ],
+        "bbox_margins": [
+          8,
+          39,
+          8,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 3149,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 790,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            320,
+            352
+          ],
+          "requirement": "320x352"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.539249,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            8,
+            39,
+            312,
+            344
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            8,
+            39,
+            8,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-e.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.148909,
+        "fully_opaque_fraction": 0.1174,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          7,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          23,
+          7,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15031,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8879,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.148909,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            7,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            7,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-ne.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.162425,
+        "fully_opaque_fraction": 0.126681,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          27,
+          9,
+          431,
+          648
+        ],
+        "bbox_margins": [
+          27,
+          9,
+          17,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 17239,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 10409,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.162425,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            27,
+            9,
+            431,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            27,
+            9,
+            17,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-nw.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.167846,
+        "fully_opaque_fraction": 0.134746,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          26,
+          6,
+          433,
+          648
+        ],
+        "bbox_margins": [
+          26,
+          6,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16085,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9120,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.167846,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            26,
+            6,
+            433,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            26,
+            6,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-se.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.165953,
+        "fully_opaque_fraction": 0.129972,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          28,
+          6,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          28,
+          6,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16714,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9572,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.165953,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            28,
+            6,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            28,
+            6,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-sw.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.15523,
+        "fully_opaque_fraction": 0.122804,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          25,
+          6,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          25,
+          6,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15421,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9165,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.15523,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            25,
+            6,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            25,
+            6,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\enemy-shieldBearer-w.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.14667,
+        "fully_opaque_fraction": 0.115613,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          6,
+          433,
+          648
+        ],
+        "bbox_margins": [
+          23,
+          6,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15466,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9341,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.14667,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            6,
+            433,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            6,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\logo.png",
+      "profile": "cutout",
+      "expected_size": [
+        768,
+        264
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.341156,
+        "fully_opaque_fraction": 0.238834,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          15,
+          8,
+          752,
+          256
+        ],
+        "bbox_margins": [
+          15,
+          8,
+          16,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 20746,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 4865,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            768,
+            264
+          ],
+          "requirement": "768x264"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.341156,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            752,
+            256
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            16,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\seal-cannon.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.361694,
+        "fully_opaque_fraction": 0.307678,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          17,
+          8,
+          111,
+          120
+        ],
+        "bbox_margins": [
+          17,
+          8,
+          17,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 885,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 219,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.361694,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            17,
+            8,
+            111,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            17,
+            8,
+            17,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\seal-frost.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.346924,
+        "fully_opaque_fraction": 0.276855,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          16,
+          8,
+          111,
+          120
+        ],
+        "bbox_margins": [
+          16,
+          8,
+          17,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 1148,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 294,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.346924,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            16,
+            8,
+            111,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            16,
+            8,
+            17,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "public\\assets\\r2\\seal-tesla.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.30957,
+        "fully_opaque_fraction": 0.237183,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          18,
+          8,
+          109,
+          120
+        ],
+        "bbox_margins": [
+          18,
+          8,
+          19,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 1186,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 294,
+        "matte_complement_policy": "strict",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.30957,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            18,
+            8,
+            109,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            18,
+            8,
+            19,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "saturated matte-complement pixels among all alpha 1..95 <= 0.020"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED",
+  "command": "npm run verify",
+  "exitCode": 0,
+  "vitestPassed": 92,
+  "r4Checks": 297,
+  "screenshots": 63,
+  "buildSHA256": "4fa60251262a3fe85eb9f965e331baea7f962eabfea5362b408fb8b6cb820e31",
+  "logSHA256": "fbbb096447cecb8af11586b1e06c40b4a909f693add0e23bd4cc2701bd9c063b",
+  "finishedAt": "2026-10-18T18:45:10.741960+00:00"
+}

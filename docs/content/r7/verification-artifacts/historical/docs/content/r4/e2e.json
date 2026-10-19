@@ -1,0 +1,2062 @@
+{
+  "status": "VERIFIED",
+  "method": "Serial headless Chromium, public touch controls and public import of a naturally attained save. Virtual clock advances elapsed time only. No injected currency, actors, or results.",
+  "buildSHA256": "a73888bee421e275dd65ecbcdff742293c8f43f455ed6666e86cfb7cc444b4ee",
+  "styleSHA256": "da3d9b5de54c2746a11a65e34b1c68d9f9ca46d775587c9d9b52727a5953d78e",
+  "checks": [
+    "natural ford victory ready",
+    "full inherited name visible",
+    "inherited frost first-wave shot with 30 percent resonance",
+    "inherited level and wave persist",
+    "same claimed victory save cannot claim either branch again",
+    "flight 0 keeps wallet at pre-claim balance",
+    "flight 1 keeps wallet at pre-claim balance",
+    "three different crystal positions",
+    "only arrival increments visible wallet",
+    "repeated claim unavailable and storage exactly once",
+    "salvage cold reload exactly once",
+    "mid-flight atomically persisted once",
+    "mid-flight reload never repays",
+    "leaving the flight cannot replace exercise budget with campaign wallet",
+    "flood follows the same front-runner throughout",
+    "flood four distinct actual actor positions",
+    "wet 52 percent then normal movement",
+    "flood survives reload",
+    "barricade follows the same front-runner throughout",
+    "barricade four distinct actual actor positions",
+    "barricade survives reload",
+    "turn deployed cards have two distinct state and price lines",
+    "turn deployed art retains color",
+    "turn in-combat save restores three towers",
+    "turn zero leak success and correct strategy",
+    "turn same full budget win and loss",
+    "turn fails at first escape with map leak marker",
+    "levee deployed cards have two distinct state and price lines",
+    "levee deployed art retains color",
+    "levee in-combat save restores three towers",
+    "levee zero leak success and correct strategy",
+    "levee same full budget win and loss",
+    "levee fails at first escape with map leak marker",
+    "switchback deployed cards have two distinct state and price lines",
+    "switchback deployed art retains color",
+    "switchback in-combat save restores three towers",
+    "switchback zero leak success and correct strategy",
+    "switchback same full budget win and loss",
+    "switchback fails at first escape with map leak marker",
+    "three completion records persist and campaign balance isolated",
+    "small no towers preview preview-barricade >=44px reachable",
+    "small no towers preview preview-flood >=44px reachable",
+    "small no towers preview inspect-cannon >=44px reachable",
+    "small no towers preview inspect-frost >=44px reachable",
+    "small no towers preview inspect-tesla >=44px reachable",
+    "small no towers preview practice-terrain >=44px reachable",
+    "small no towers preview apply-terrain >=44px reachable",
+    "small no towers preview close >=44px reachable",
+    "small no towers preview keyboard help hidden",
+    "small no towers preview preview requires no scrolling",
+    "small built preview preview-barricade >=44px reachable",
+    "small built preview preview-flood >=44px reachable",
+    "small built preview inspect-cannon >=44px reachable",
+    "small built preview inspect-frost >=44px reachable",
+    "small built preview inspect-tesla >=44px reachable",
+    "small built preview practice-terrain >=44px reachable",
+    "small built preview apply-terrain >=44px reachable",
+    "small built preview close >=44px reachable",
+    "small built preview keyboard help hidden",
+    "small built preview preview requires no scrolling",
+    "small three visible conclusions",
+    "small old and new pads highlight together",
+    "small tap a pad label selects that exact location",
+    "small deployed exercise chronicle >=44px reachable",
+    "small deployed exercise pause >=44px reachable",
+    "small deployed exercise watch-hit >=44px reachable",
+    "small deployed exercise tower-cannon >=44px reachable",
+    "small deployed exercise tower-frost >=44px reachable",
+    "small deployed exercise tower-tesla >=44px reachable",
+    "small deployed exercise suggest >=44px reachable",
+    "small deployed exercise confirm >=44px reachable",
+    "small deployed exercise cancel >=44px reachable",
+    "small deployed exercise wave >=44px reachable",
+    "small deployed exercise skill >=44px reachable",
+    "small deployed exercise keyboard help hidden",
+    "small deployed exercise pad 1 clear of map-label",
+    "small deployed exercise pad 1 clear of field-status",
+    "small deployed exercise pad 1 clear of resonance-legend",
+    "small deployed exercise pad 2 clear of map-label",
+    "small deployed exercise pad 2 clear of field-status",
+    "small deployed exercise pad 2 clear of resonance-legend",
+    "small deployed exercise pad 3 clear of map-label",
+    "small deployed exercise pad 3 clear of field-status",
+    "small deployed exercise pad 3 clear of resonance-legend",
+    "small deployed exercise pad 4 clear of map-label",
+    "small deployed exercise pad 4 clear of field-status",
+    "small deployed exercise pad 4 clear of resonance-legend",
+    "small deployed exercise pad 5 clear of map-label",
+    "small deployed exercise pad 5 clear of field-status",
+    "small deployed exercise pad 5 clear of resonance-legend",
+    "small deployed exercise pad 6 clear of map-label",
+    "small deployed exercise pad 6 clear of field-status",
+    "small deployed exercise pad 6 clear of resonance-legend",
+    "small each map pin has matching readable label",
+    "phone no towers preview preview-barricade >=44px reachable",
+    "phone no towers preview preview-flood >=44px reachable",
+    "phone no towers preview inspect-cannon >=44px reachable",
+    "phone no towers preview inspect-frost >=44px reachable",
+    "phone no towers preview inspect-tesla >=44px reachable",
+    "phone no towers preview practice-terrain >=44px reachable",
+    "phone no towers preview apply-terrain >=44px reachable",
+    "phone no towers preview close >=44px reachable",
+    "phone no towers preview keyboard help hidden",
+    "phone no towers preview preview requires no scrolling",
+    "phone built preview preview-barricade >=44px reachable",
+    "phone built preview preview-flood >=44px reachable",
+    "phone built preview inspect-cannon >=44px reachable",
+    "phone built preview inspect-frost >=44px reachable",
+    "phone built preview inspect-tesla >=44px reachable",
+    "phone built preview practice-terrain >=44px reachable",
+    "phone built preview apply-terrain >=44px reachable",
+    "phone built preview close >=44px reachable",
+    "phone built preview keyboard help hidden",
+    "phone built preview preview requires no scrolling",
+    "phone three visible conclusions",
+    "phone old and new pads highlight together",
+    "phone tap a pad label selects that exact location",
+    "phone deployed exercise chronicle >=44px reachable",
+    "phone deployed exercise pause >=44px reachable",
+    "phone deployed exercise watch-hit >=44px reachable",
+    "phone deployed exercise tower-cannon >=44px reachable",
+    "phone deployed exercise tower-frost >=44px reachable",
+    "phone deployed exercise tower-tesla >=44px reachable",
+    "phone deployed exercise suggest >=44px reachable",
+    "phone deployed exercise confirm >=44px reachable",
+    "phone deployed exercise cancel >=44px reachable",
+    "phone deployed exercise wave >=44px reachable",
+    "phone deployed exercise skill >=44px reachable",
+    "phone deployed exercise keyboard help hidden",
+    "phone deployed exercise pad 1 clear of map-label",
+    "phone deployed exercise pad 1 clear of field-status",
+    "phone deployed exercise pad 1 clear of resonance-legend",
+    "phone deployed exercise pad 1 clear of resonance-caption",
+    "phone deployed exercise pad 2 clear of map-label",
+    "phone deployed exercise pad 2 clear of field-status",
+    "phone deployed exercise pad 2 clear of resonance-legend",
+    "phone deployed exercise pad 2 clear of resonance-caption",
+    "phone deployed exercise pad 3 clear of map-label",
+    "phone deployed exercise pad 3 clear of field-status",
+    "phone deployed exercise pad 3 clear of resonance-legend",
+    "phone deployed exercise pad 3 clear of resonance-caption",
+    "phone deployed exercise pad 4 clear of map-label",
+    "phone deployed exercise pad 4 clear of field-status",
+    "phone deployed exercise pad 4 clear of resonance-legend",
+    "phone deployed exercise pad 4 clear of resonance-caption",
+    "phone deployed exercise pad 5 clear of map-label",
+    "phone deployed exercise pad 5 clear of field-status",
+    "phone deployed exercise pad 5 clear of resonance-legend",
+    "phone deployed exercise pad 5 clear of resonance-caption",
+    "phone deployed exercise pad 6 clear of map-label",
+    "phone deployed exercise pad 6 clear of field-status",
+    "phone deployed exercise pad 6 clear of resonance-legend",
+    "phone deployed exercise pad 6 clear of resonance-caption",
+    "phone each map pin has matching readable label",
+    "landscape no towers preview preview-barricade >=44px reachable",
+    "landscape no towers preview preview-flood >=44px reachable",
+    "landscape no towers preview inspect-cannon >=44px reachable",
+    "landscape no towers preview inspect-frost >=44px reachable",
+    "landscape no towers preview inspect-tesla >=44px reachable",
+    "landscape no towers preview practice-terrain >=44px reachable",
+    "landscape no towers preview apply-terrain >=44px reachable",
+    "landscape no towers preview close >=44px reachable",
+    "landscape no towers preview keyboard help hidden",
+    "landscape no towers preview preview requires no scrolling",
+    "landscape built preview preview-barricade >=44px reachable",
+    "landscape built preview preview-flood >=44px reachable",
+    "landscape built preview inspect-cannon >=44px reachable",
+    "landscape built preview inspect-frost >=44px reachable",
+    "landscape built preview inspect-tesla >=44px reachable",
+    "landscape built preview practice-terrain >=44px reachable",
+    "landscape built preview apply-terrain >=44px reachable",
+    "landscape built preview close >=44px reachable",
+    "landscape built preview keyboard help hidden",
+    "landscape built preview preview requires no scrolling",
+    "landscape three visible conclusions",
+    "landscape old and new pads highlight together",
+    "landscape tap a pad label selects that exact location",
+    "landscape deployed exercise chronicle >=44px reachable",
+    "landscape deployed exercise pause >=44px reachable",
+    "landscape deployed exercise watch-hit >=44px reachable",
+    "landscape deployed exercise tower-cannon >=44px reachable",
+    "landscape deployed exercise tower-frost >=44px reachable",
+    "landscape deployed exercise tower-tesla >=44px reachable",
+    "landscape deployed exercise suggest >=44px reachable",
+    "landscape deployed exercise confirm >=44px reachable",
+    "landscape deployed exercise cancel >=44px reachable",
+    "landscape deployed exercise wave >=44px reachable",
+    "landscape deployed exercise skill >=44px reachable",
+    "landscape deployed exercise keyboard help hidden",
+    "landscape deployed exercise pad 1 clear of map-label",
+    "landscape deployed exercise pad 1 clear of field-status",
+    "landscape deployed exercise pad 1 clear of resonance-legend",
+    "landscape deployed exercise pad 1 clear of resonance-caption",
+    "landscape deployed exercise pad 2 clear of map-label",
+    "landscape deployed exercise pad 2 clear of field-status",
+    "landscape deployed exercise pad 2 clear of resonance-legend",
+    "landscape deployed exercise pad 2 clear of resonance-caption",
+    "landscape deployed exercise pad 3 clear of map-label",
+    "landscape deployed exercise pad 3 clear of field-status",
+    "landscape deployed exercise pad 3 clear of resonance-legend",
+    "landscape deployed exercise pad 3 clear of resonance-caption",
+    "landscape deployed exercise pad 4 clear of map-label",
+    "landscape deployed exercise pad 4 clear of field-status",
+    "landscape deployed exercise pad 4 clear of resonance-legend",
+    "landscape deployed exercise pad 4 clear of resonance-caption",
+    "landscape deployed exercise pad 5 clear of map-label",
+    "landscape deployed exercise pad 5 clear of field-status",
+    "landscape deployed exercise pad 5 clear of resonance-legend",
+    "landscape deployed exercise pad 5 clear of resonance-caption",
+    "landscape deployed exercise pad 6 clear of map-label",
+    "landscape deployed exercise pad 6 clear of field-status",
+    "landscape deployed exercise pad 6 clear of resonance-legend",
+    "landscape deployed exercise pad 6 clear of resonance-caption",
+    "landscape each map pin has matching readable label",
+    "ipad no towers preview preview-barricade >=44px reachable",
+    "ipad no towers preview preview-flood >=44px reachable",
+    "ipad no towers preview inspect-cannon >=44px reachable",
+    "ipad no towers preview inspect-frost >=44px reachable",
+    "ipad no towers preview inspect-tesla >=44px reachable",
+    "ipad no towers preview practice-terrain >=44px reachable",
+    "ipad no towers preview apply-terrain >=44px reachable",
+    "ipad no towers preview close >=44px reachable",
+    "ipad no towers preview keyboard help hidden",
+    "ipad no towers preview preview requires no scrolling",
+    "ipad built preview preview-barricade >=44px reachable",
+    "ipad built preview preview-flood >=44px reachable",
+    "ipad built preview inspect-cannon >=44px reachable",
+    "ipad built preview inspect-frost >=44px reachable",
+    "ipad built preview inspect-tesla >=44px reachable",
+    "ipad built preview practice-terrain >=44px reachable",
+    "ipad built preview apply-terrain >=44px reachable",
+    "ipad built preview close >=44px reachable",
+    "ipad built preview keyboard help hidden",
+    "ipad built preview preview requires no scrolling",
+    "ipad three visible conclusions",
+    "ipad old and new pads highlight together",
+    "ipad tap a pad label selects that exact location",
+    "ipad deployed exercise chronicle >=44px reachable",
+    "ipad deployed exercise pause >=44px reachable",
+    "ipad deployed exercise watch-hit >=44px reachable",
+    "ipad deployed exercise tower-cannon >=44px reachable",
+    "ipad deployed exercise tower-frost >=44px reachable",
+    "ipad deployed exercise tower-tesla >=44px reachable",
+    "ipad deployed exercise suggest >=44px reachable",
+    "ipad deployed exercise confirm >=44px reachable",
+    "ipad deployed exercise cancel >=44px reachable",
+    "ipad deployed exercise wave >=44px reachable",
+    "ipad deployed exercise skill >=44px reachable",
+    "ipad deployed exercise keyboard help hidden",
+    "ipad deployed exercise pad 1 clear of map-label",
+    "ipad deployed exercise pad 1 clear of field-status",
+    "ipad deployed exercise pad 1 clear of resonance-legend",
+    "ipad deployed exercise pad 1 clear of resonance-caption",
+    "ipad deployed exercise pad 2 clear of map-label",
+    "ipad deployed exercise pad 2 clear of field-status",
+    "ipad deployed exercise pad 2 clear of resonance-legend",
+    "ipad deployed exercise pad 2 clear of resonance-caption",
+    "ipad deployed exercise pad 3 clear of map-label",
+    "ipad deployed exercise pad 3 clear of field-status",
+    "ipad deployed exercise pad 3 clear of resonance-legend",
+    "ipad deployed exercise pad 3 clear of resonance-caption",
+    "ipad deployed exercise pad 4 clear of map-label",
+    "ipad deployed exercise pad 4 clear of field-status",
+    "ipad deployed exercise pad 4 clear of resonance-legend",
+    "ipad deployed exercise pad 4 clear of resonance-caption",
+    "ipad deployed exercise pad 5 clear of map-label",
+    "ipad deployed exercise pad 5 clear of field-status",
+    "ipad deployed exercise pad 5 clear of resonance-legend",
+    "ipad deployed exercise pad 5 clear of resonance-caption",
+    "ipad deployed exercise pad 6 clear of map-label",
+    "ipad deployed exercise pad 6 clear of field-status",
+    "ipad deployed exercise pad 6 clear of resonance-legend",
+    "ipad deployed exercise pad 6 clear of resonance-caption",
+    "ipad each map pin has matching readable label",
+    "ipad-landscape no towers preview preview-barricade >=44px reachable",
+    "ipad-landscape no towers preview preview-flood >=44px reachable",
+    "ipad-landscape no towers preview inspect-cannon >=44px reachable",
+    "ipad-landscape no towers preview inspect-frost >=44px reachable",
+    "ipad-landscape no towers preview inspect-tesla >=44px reachable",
+    "ipad-landscape no towers preview practice-terrain >=44px reachable",
+    "ipad-landscape no towers preview apply-terrain >=44px reachable",
+    "ipad-landscape no towers preview close >=44px reachable",
+    "ipad-landscape no towers preview keyboard help hidden",
+    "ipad-landscape no towers preview preview requires no scrolling",
+    "ipad-landscape built preview preview-barricade >=44px reachable",
+    "ipad-landscape built preview preview-flood >=44px reachable",
+    "ipad-landscape built preview inspect-cannon >=44px reachable",
+    "ipad-landscape built preview inspect-frost >=44px reachable",
+    "ipad-landscape built preview inspect-tesla >=44px reachable",
+    "ipad-landscape built preview practice-terrain >=44px reachable",
+    "ipad-landscape built preview apply-terrain >=44px reachable",
+    "ipad-landscape built preview close >=44px reachable",
+    "ipad-landscape built preview keyboard help hidden",
+    "ipad-landscape built preview preview requires no scrolling",
+    "ipad-landscape three visible conclusions",
+    "ipad-landscape old and new pads highlight together",
+    "ipad-landscape tap a pad label selects that exact location",
+    "ipad-landscape deployed exercise chronicle >=44px reachable",
+    "ipad-landscape deployed exercise pause >=44px reachable",
+    "ipad-landscape deployed exercise watch-hit >=44px reachable",
+    "ipad-landscape deployed exercise tower-cannon >=44px reachable",
+    "ipad-landscape deployed exercise tower-frost >=44px reachable",
+    "ipad-landscape deployed exercise tower-tesla >=44px reachable",
+    "ipad-landscape deployed exercise suggest >=44px reachable",
+    "ipad-landscape deployed exercise confirm >=44px reachable",
+    "ipad-landscape deployed exercise cancel >=44px reachable",
+    "ipad-landscape deployed exercise wave >=44px reachable",
+    "ipad-landscape deployed exercise skill >=44px reachable",
+    "ipad-landscape deployed exercise keyboard help hidden",
+    "ipad-landscape deployed exercise pad 1 clear of map-label",
+    "ipad-landscape deployed exercise pad 1 clear of field-status",
+    "ipad-landscape deployed exercise pad 1 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 1 clear of resonance-caption",
+    "ipad-landscape deployed exercise pad 2 clear of map-label",
+    "ipad-landscape deployed exercise pad 2 clear of field-status",
+    "ipad-landscape deployed exercise pad 2 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 2 clear of resonance-caption",
+    "ipad-landscape deployed exercise pad 3 clear of map-label",
+    "ipad-landscape deployed exercise pad 3 clear of field-status",
+    "ipad-landscape deployed exercise pad 3 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 3 clear of resonance-caption",
+    "ipad-landscape deployed exercise pad 4 clear of map-label",
+    "ipad-landscape deployed exercise pad 4 clear of field-status",
+    "ipad-landscape deployed exercise pad 4 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 4 clear of resonance-caption",
+    "ipad-landscape deployed exercise pad 5 clear of map-label",
+    "ipad-landscape deployed exercise pad 5 clear of field-status",
+    "ipad-landscape deployed exercise pad 5 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 5 clear of resonance-caption",
+    "ipad-landscape deployed exercise pad 6 clear of map-label",
+    "ipad-landscape deployed exercise pad 6 clear of field-status",
+    "ipad-landscape deployed exercise pad 6 clear of resonance-legend",
+    "ipad-landscape deployed exercise pad 6 clear of resonance-caption",
+    "ipad-landscape each map pin has matching readable label",
+    "new flood art and preview available cold offline",
+    "no runtime errors or external requests"
+  ],
+  "shots": [
+    {
+      "path": "docs/content/r4/phone-ford-tower-choice.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-receipt.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-tower-no-reclaim.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-1.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-flight-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ford-crystals-interrupted-reload.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-inside.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-flood-gate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-preview.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-inside.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-terrain-barricade-gate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-聚印轉角-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-分守長堤-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-retry.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-small-terrain-empty.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-small-terrain-built.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-small-swap.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-small-labels.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-phone-terrain-empty.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-phone-terrain-built.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-phone-swap.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-phone-labels.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-landscape-terrain-empty.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-landscape-terrain-built.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-landscape-swap.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-landscape-labels.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-terrain-empty.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-terrain-built.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-swap.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-labels.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-landscape-terrain-empty.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-ipad-landscape-terrain-built.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-landscape-swap.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r4/phone-exercise-折返雙隘-ipad-landscape-labels.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r4-terrain-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r4-terrain-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r4/phone-offline-flood.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1
+    }
+  ],
+  "errors": [],
+  "geometry": [
+    {
+      "name": "small no towers preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 129,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 129,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 83.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 83.34375,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 83.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small built preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 129,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 129,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 262,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 83.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 83.34375,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 83.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "small deployed exercise",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "chronicle",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "watch-hit",
+          "w": 54,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "w": 92.65625,
+          "h": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "w": 92.671875,
+          "h": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "w": 92.65625,
+          "h": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "w": 91.796875,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "w": 114.75,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "w": 73.453125,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "w": 141.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "w": 141.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone no towers preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 179,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 179,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 116.65625,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 116.671875,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 116.671875,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone built preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 179,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 179,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 366,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 116.65625,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 116.671875,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 116.671875,
+          "h": 55,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "phone deployed exercise",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "chronicle",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "watch-hit",
+          "w": 54,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "w": 128,
+          "h": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "w": 128,
+          "h": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "w": 128,
+          "h": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "w": 126.546875,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "w": 158.203125,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "w": 101.25,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "w": 194.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "w": 194.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape no towers preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 139,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 139,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape built preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 139,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 139,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 283,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 89,
+          "h": 50,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "landscape deployed exercise",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "chronicle",
+          "w": 50,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "w": 50,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "watch-hit",
+          "w": 54,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "w": 88.65625,
+          "h": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "w": 88.671875,
+          "h": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "w": 88.65625,
+          "h": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "w": 89.171875,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "w": 111.46875,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "w": 71.359375,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "w": 137.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "w": 137.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad no towers preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 253,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 253,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad built preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 253,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 253,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 514,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 166,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad deployed exercise",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "chronicle",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "w": 44,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "watch-hit",
+          "w": 54,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "w": 320.65625,
+          "h": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "w": 320.671875,
+          "h": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "w": 320.65625,
+          "h": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "w": 316.0625,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "w": 395.078125,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "w": 252.859375,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "w": 483.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "w": 483.5,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape no towers preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 243,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 243,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 159.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 159.34375,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 159.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape built preview",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "preview-barricade",
+          "w": 243,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "preview-flood",
+          "w": 243,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-cannon",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-frost",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "inspect-tesla",
+          "w": 494,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "practice-terrain",
+          "w": 159.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "apply-terrain",
+          "w": 159.34375,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "close",
+          "w": 159.328125,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "ipad-landscape deployed exercise",
+      "scroll": 0,
+      "buttons": [
+        {
+          "action": "chronicle",
+          "w": 50,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "pause",
+          "w": 50,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "watch-hit",
+          "w": 54,
+          "h": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-cannon",
+          "w": 92.65625,
+          "h": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-frost",
+          "w": 92.671875,
+          "h": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "tower-tesla",
+          "w": 92.65625,
+          "h": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "suggest",
+          "w": 93.109375,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "confirm",
+          "w": 116.390625,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "cancel",
+          "w": 74.5,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "wave",
+          "w": 143.5,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "action": "skill",
+          "w": 143.5,
+          "h": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "routes": {
+    "flood": [
+      {
+        "id": "u2",
+        "x": 226.40000000000106,
+        "y": 192,
+        "wet": false,
+        "speed": 50,
+        "percent": 18,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 272,
+        "y": 310.43200000000076,
+        "wet": true,
+        "speed": 26,
+        "percent": 32,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 444.8639999999999,
+        "y": 384,
+        "wet": false,
+        "speed": 50,
+        "percent": 55,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 848,
+        "y": 480,
+        "wet": false,
+        "speed": 0,
+        "percent": 100,
+        "escaped": true,
+        "alive": false
+      }
+    ],
+    "barricade": [
+      {
+        "id": "u2",
+        "x": 156.80000000000007,
+        "y": 192,
+        "wet": false,
+        "speed": 50,
+        "percent": 10,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 402.40000000000117,
+        "y": 96,
+        "wet": false,
+        "speed": 50,
+        "percent": 36,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 752,
+        "y": 303.2000000000024,
+        "wet": false,
+        "speed": 50,
+        "percent": 79,
+        "escaped": false,
+        "alive": true
+      },
+      {
+        "id": "u2",
+        "x": 848,
+        "y": 480,
+        "wet": false,
+        "speed": 0,
+        "percent": 100,
+        "escaped": true,
+        "alive": false
+      }
+    ]
+  },
+  "salvage": [
+    {
+      "elapsed": 0,
+      "t": 0,
+      "x": 43,
+      "y": 331.015625,
+      "arrived": false,
+      "money": 411,
+      "nominalMs": 0,
+      "display": 411
+    },
+    {
+      "elapsed": 648,
+      "t": 0.54,
+      "x": 121.02983125,
+      "y": 126.14350624999999,
+      "arrived": false,
+      "money": 411,
+      "nominalMs": 650,
+      "display": 411
+    },
+    {
+      "elapsed": 1288,
+      "t": 1,
+      "x": 269.703125,
+      "y": 36.5,
+      "arrived": true,
+      "money": 501,
+      "nominalMs": 1300,
+      "display": 501
+    }
+  ],
+  "exercises": {
+    "turn": {
+      "winningSpend": 300,
+      "losingSpend": 300
+    },
+    "levee": {
+      "winningSpend": 300,
+      "losingSpend": 300
+    },
+    "switchback": {
+      "winningSpend": 360,
+      "losingSpend": 360
+    }
+  },
+  "sourceSHA256": {
+    "src/art-r1.css": "0ada3bdcbf3cd9f3f10e6149be756067127aa12e2d02c7fe344c0b74f87c731c",
+    "src/art-r2.css": "42ebcc4272ba015ed166a39eecbda59144d374383d60f994387274156aa3c254",
+    "src/art-r3.css": "4a27a75215263333f1315f67f5e1bdd6a01bfa62cb9231b3d4fa22075c3a2868",
+    "src/art-r4.css": "409fb1557b90b5e20a1d32326dc1626c51f5f0d4bb5b01dade29ac4d73b8517d",
+    "src/art-r5.css": "1b425b54c6cbd5975be6de6b6ea37b80cecde7678b1552d405d18c33363886e9",
+    "src/art-r6.css": "b10499afbafeb567c12917a880df96332080b25cc04598664997160b956da9f7",
+    "src/art-r7.css": "2a4b803ffedcec5518cba64690a25946e78b38c580a1f09c0e285e410e7d81ca",
+    "src/campaign.js": "9fc755b59aebb5085c177a7e0f43597294a732326d3826ec1cb3192559ed5850",
+    "src/content-r1.css": "006b605fc7a07856d4ad388b0af4ff952983f202708b504cfc77eccba242385f",
+    "src/content-r1.js": "545158e8a5fbab2e79950b6595834db5e5d5421fb73939191e65055787360b34",
+    "src/content-r2.css": "462e63bb1fd7f6578ac9e3e10797346400824fc098a1daba9a06511e77c7efd8",
+    "src/content-r2.js": "505330643dc053e7cef561aba1f390a02bbf61a0eade8573b60c01916d0e27d4",
+    "src/content-r3.js": "9397693a800e38e873321ccd34fee7e45fb38a2fa6b9da3f616125fa6c5917e5",
+    "src/content-r4.css": "60812663843ea93ec7acdc2aa1a599047c4c0713cdc7f3a28589c4f01e7d30a2",
+    "src/content-r4.js": "651a766ce33644f9ac5641b333162f6ef619ea0edfebda0d05fa1992782a27d7",
+    "src/content-r5.css": "fb2899bd2653d5803dd10360d6d7375906267d755ea65b050479d6472ff1e6ab",
+    "src/content-r5.js": "b759d76d042f0db3ef88179592ace107e1ea67be2141ec7565e826ff23bce157",
+    "src/content-r6.css": "3ebddbeb31dcc1d40e0babce47b2e60cc402d0ef2b451e40749bce6675234158",
+    "src/content-r6.js": "a780cf5292ee5a5b309eee91f00173735de4ab08f41df24521e11c8c34182319",
+    "src/content-r7.css": "6f4d5ce7dde36061991320b71d0d19feab2c80ba2f401dbd1d73cc85a73e8673",
+    "src/content-r7.js": "2283256d903d7c13d5a1cbce6cb65e63cf3ba7f58d621e94e24e35d87ba442ef",
+    "src/engine.js": "d55061c6b081001367fc63415b62c841677768a6be7b6268543386ef52517a5d",
+    "src/main.js": "31a9b4c94deb21e6cbcba0f19e7538f5978643502a6e324ce933441979da9db9",
+    "src/presentation-r2.js": "e6fe3c94a1dee05ab6a4559347857b2e2ada940d264e3ca246f715ff6a92113d",
+    "src/presentation-r3.js": "6fc99ccf05c9dd9033d05787d0dd05f9d5e154ae7bcdf02f046f92888daa0d81",
+    "src/presentation-r4.js": "1ec0b56e714ce67bc708336366d0ae6c1bdb32c194ff6055223255b9fc7aee9a",
+    "src/presentation-r5.js": "9dbfd6a8b1c6b4e69f62f28e702a7476088dec93051be388b2b83f31d33eb989",
+    "src/presentation-r6.js": "826a52effefdbcdd94cba740e7ae0004a3fd860cfa70041538de6faedb0ebb05",
+    "src/presentation-r7.js": "6f5bb81e92494e3fd0a2acb1b83d9fafad4e48416e0d3049e4381047812dc583",
+    "src/render-r1.js": "1c44625bd8be05c3db960b4479e554bf95bca17f356f15aa5b22ef87e15d86a9",
+    "src/render-r2.js": "db50b203212dffcb5dde93e8025fa6a70cdfe3592e6f98a1079a8b3b8dde2e3c",
+    "src/render-r3.js": "9905a4a3a0668ba5a0d7911f874b8bab0475f5f546d5da96e509844249aebde6",
+    "src/render-r4.js": "14fd09302f0bc3870311fc1f4171c02f96369137e80af28d66b09df0ba7a261b",
+    "src/render-r5.js": "7bf9747e34c43e91d0c38e0ca42a9ff14d4b07e99b6340ef1f2c8dcc49e0597d",
+    "src/render-r6.js": "c93a06651a29842675782f0dab5a8bebf9e97d92c3ac58ad1bb0d87927e1d741",
+    "src/render-r7.js": "db46277f7ea8a2c837a75aa9771db1c16b6de5004bbb9c924f6a48e66d14ac47",
+    "src/render.js": "515231d000dfd407b61df80afadc3b8d416e5c645b7154df868e4942091fcab5",
+    "src/save.js": "32957fe3865322c59637682c824b09f3c75eba95b5a9d27a23b8baa079091545",
+    "src/style.css": "255b710963ea869faaee717d4ef73815b92da0481bd79bb8e845b16bdff53652",
+    "src/version.js": "c750c280b2cdc579bae5a2c1a08f18df8fc6dfee603639a6a34c3c18f456cb26"
+  }
+}

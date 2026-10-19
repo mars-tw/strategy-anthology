@@ -1,0 +1,15 @@
+/* R6: shared safe-area framing and quieter mineral-paper command furniture. */
+.command,dialog{border-image:url('./assets/r6/panel.webp') 80 / 6px / 0 stretch;background:#faf7ee}
+.cards .unit-portrait{background-size:contain;background-position:center center;background-repeat:no-repeat;height:86px;width:100%}
+.cards .tower-portrait{padding:8px;object-fit:contain}
+.cards .unit-card{padding:0 3px 4px;gap:0}
+.cards .unit-card>span:last-child,.cards .tower-card>span{background:#fffaf0eb;width:100%;line-height:1.2}
+.home .story-panel{background:linear-gradient(110deg,#252e39f2,#252e39dc 80%,#252e3970);border-image:none;clip-path:polygon(0 0,96% 0,100% 7%,98% 95%,8% 100%,0 96%)}
+.home .commander{right:0;bottom:1%;height:88%;max-width:60%;object-fit:contain;object-position:right bottom}
+.resonance-legend{border-bottom:2px solid #8063af70;background:#f5f1e5e8}
+.legend-link.active{color:#77528f}.legend-orbit{border-width:2px}
+.cards button[aria-pressed=true]{background:#fffaf0;outline:1px solid var(--element);outline-offset:-5px}
+@media(max-width:1100px) and (orientation:portrait){.cards .unit-portrait{height:60px}.cards .tower-portrait{padding:5px}}
+@media(max-height:680px) and (orientation:landscape){.cards .unit-portrait{height:48px}.cards .tower-portrait{padding:3px}}
+@media(max-height:450px) and (orientation:landscape){.cards .unit-portrait{height:48px;width:46%}.cards .unit-card>span:last-child{width:54%}}
+@media(max-width:750px) and (max-height:650px) and (orientation:portrait){.cards .unit-portrait{height:48px;width:47%}.cards .unit-card>span:last-child{width:53%}}

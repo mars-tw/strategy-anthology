@@ -1,0 +1,227 @@
+{
+  "status": "VERIFIED",
+  "method": "Exact file copies with SHA-256, explicit tracked restore. Only newly generated legacy audit artifacts relocated; pre-task untracked Muse files untouched.",
+  "records": [
+    {
+      "original": "docs/art/compare/after/1024x768-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1024x768-defense.png",
+      "sha256": "2d4c739a065591e7399e292e5ec939386b5137ee755db851a1367080c2ab675b",
+      "bytes": 894096,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1024x768-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1024x768-opening.png",
+      "sha256": "b99b7f330b7263f010869e8e4b29bfa169f9c2795badc0a60e539be10cfd46a7",
+      "bytes": 784162,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1032x1376-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1032x1376-defense.png",
+      "sha256": "dd340df721be86660e087a33aaf2f8f1b6e68e92abfea7943c7e235bdc3f4009",
+      "bytes": 1723438,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1032x1376-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1032x1376-opening.png",
+      "sha256": "b6d64a2671e6713ef161806284a7b2db180e7d6e8a39875ca9c5e7fcef2def6b",
+      "bytes": 1498237,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1280x640-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1280x640-defense.png",
+      "sha256": "31ff7d38f282008b77aabe339d1571d76ae45549892d8f4347e68e642628eee8",
+      "bytes": 1065641,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1280x640-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1280x640-opening.png",
+      "sha256": "3b30c3d6b59dc806a66d6012f1711bcfbd73d13d083dbfe86dc7a7c442671f08",
+      "bytes": 939765,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x600-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1366x600-defense.png",
+      "sha256": "f84b48fa9c1a1578b0a68d1234c6e93a5ffa7232a5aeab273d8295d480883135",
+      "bytes": 1058902,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x600-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1366x600-opening.png",
+      "sha256": "b7a1f19af551835143f32f7a59e79bc64e505266e80149d0e9d84b6d0cd6bd9b",
+      "bytes": 931352,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x768-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1366x768-defense.png",
+      "sha256": "984ff65d4a8462c6acdf12a1553af712c12d99647d8ce2862c58f1b54537ae4d",
+      "bytes": 1270407,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1366x768-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1366x768-opening.png",
+      "sha256": "35a5f5eb5a1eeb1588fe1fc2250eead75f0d31821624b93655ff1dd0830a25a8",
+      "bytes": 1125187,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1920x1080-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1920x1080-defense.png",
+      "sha256": "6b997611e1276ca593488df0118f194c2d3e3bebd6be1b2e5290f2502729023f",
+      "bytes": 2602504,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/1920x1080-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/1920x1080-opening.png",
+      "sha256": "4ab6274dcbfd30c294928cdccf7285ed2a43c72545586d6133f979303a8f9687",
+      "bytes": 2402699,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/320x568-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/320x568-defense.png",
+      "sha256": "08f827628822e02fdcc93db54674e21745da843a3a1ac63008cc1a51178a5f70",
+      "bytes": 187224,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/320x568-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/320x568-opening.png",
+      "sha256": "5738b40562d54c4942a9026ddd42cb2f9857a0aeac3d8702bd1e2fe7cf517ca5",
+      "bytes": 145223,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/390x844-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/390x844-defense.png",
+      "sha256": "d11939494597cfe6585843569391a4fc18cd4d4291bdca6c906f8f083b7f5c60",
+      "bytes": 386373,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/390x844-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/390x844-opening.png",
+      "sha256": "8a90f01b16b2dc747bcf566e6174559dfabcd20f208a6747b62aa0fb58fc7a99",
+      "bytes": 337733,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/768x1024-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/768x1024-defense.png",
+      "sha256": "1ea2dc408b47c5a8a764304e4c21815f00605a0f03b91b32d2384de32a1ae1c5",
+      "bytes": 813640,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/768x1024-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/768x1024-opening.png",
+      "sha256": "285d08c734babbb90e1377df3242157dd96abb6c998a6fe1b33adcbd479fd934",
+      "bytes": 729600,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/844x390-defense.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/844x390-defense.png",
+      "sha256": "72811f4457af4970006a2b39849cc4ab8ad2b6d34665727f4555e1645371c786",
+      "bytes": 360512,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/compare/after/844x390-opening.png",
+      "archived": "docs/art/r7/legacy-checks/r1/compare/after/844x390-opening.png",
+      "sha256": "143b138d7a5a22f192d89fb09a7f0cf1ac51f95e47184662a776a21639d4e55c",
+      "bytes": 301740,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-0.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-0.png",
+      "sha256": "49a8066fafce0668c291c0a307f69568308409fd3c424863a7a226c56e3275e7",
+      "bytes": 387616,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-1.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-1.png",
+      "sha256": "b6356292e2ad1bccd08704da96519b12d69ce578a1e2c5e7ea7e1bd62bfce547",
+      "bytes": 388336,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-2.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-2.png",
+      "sha256": "3eb06b41b4f9ae49ac31a31b2f13117d5382c4c04700016371afa01bb635df16",
+      "bytes": 388232,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-3.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-3.png",
+      "sha256": "b504adffdf1f429e339b376d305f61c332972df849ebd4952b69ff55e3353a20",
+      "bytes": 389940,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-4.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-4.png",
+      "sha256": "423730b21acb81f892017b219cda38919ff73d3860daaf1b4184248c6d9db4d3",
+      "bytes": 389971,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/motion/defense-5.png",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/defense-5.png",
+      "sha256": "732175ff685d21653d8bfeea8797185d3a22cf7677727b7072380a05c118e6a9",
+      "bytes": 388930,
+      "newlyGenerated": false
+    },
+    {
+      "original": "docs/art/r2/visual-audit.json",
+      "archived": "docs/art/r7/legacy-checks/r2/visual-audit.json",
+      "sha256": "15bac3bc65f2e6a285558454b7dcfcfdbe1f236ca688d4b2bfaf4ae0656b5fc8",
+      "bytes": 22270,
+      "newlyGenerated": false,
+      "originalSHA256": "fa3ab93e9b79b86473bfdc25c6e7e5c70bef567ca0fa62ad4bd89c86d0ef50f6",
+      "rawOriginal": "docs/art/r7/legacy-checks/r2/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/visual-audit.json",
+      "archived": "docs/art/r7/legacy-checks/r1/visual-audit.json",
+      "sha256": "7f7ec3cda69722a94a3b09b7eceb7d18bd2dea86dc2a8a59bc444407b70e9b92",
+      "bytes": 4666,
+      "newlyGenerated": false,
+      "originalSHA256": "660bc1a71a6690ab1e8544cb38f9900d1656774baff3bc8e55ead82c4ac38121",
+      "rawOriginal": "docs/art/r7/legacy-checks/r1/visual-audit-original.json"
+    },
+    {
+      "original": "docs/art/r2/motion/page@8512487d8f282c794531b011c3619e9f.webm",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/page@8512487d8f282c794531b011c3619e9f.webm",
+      "sha256": "44d2b5d4059c697b60b111cdc02d6cac49f8c367eed0559887453159cd05fc34",
+      "bytes": 1774324,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r2/motion/page@a83b431a42d677d2722f3db7deebc5ab.webm",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/page@a83b431a42d677d2722f3db7deebc5ab.webm",
+      "sha256": "7edc770ac471c0fa79f6e1c455ea13321798de9ab1cddf7c9364afce0e51499f",
+      "bytes": 1800223,
+      "newlyGenerated": true
+    },
+    {
+      "original": "docs/art/r2/motion/page@ced29145ca5ed9a8568bb9d471cb3018.webm",
+      "archived": "docs/art/r7/legacy-checks/r2/motion/page@ced29145ca5ed9a8568bb9d471cb3018.webm",
+      "sha256": "f0d21bcd4cc919bdc5f4a81b019283c0de3bdefe9da6f881a0b944834b4f0943",
+      "bytes": 1786458,
+      "newlyGenerated": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED",
+  "version": "0.8.0",
+  "command": "npm run verify",
+  "exitCode": 0,
+  "log": "docs/art/verify-r7.txt",
+  "logSHA256": "0921ae066a0a3e22238888f939541682725cc3ddd8b9c1ab34082eb3d44a2835",
+  "unitTests": 49,
+  "e2eChecks": 444,
+  "visualChecks": 41,
+  "r2Checks": 114,
+  "r7Checks": 309,
+  "buildSHA256": "73696027d6371ae7243a3d4a43769f801ea701594383eb3d068e77af1d529f8c",
+  "styleSHA256": "d4f3603c339e8d0152a707cd9e256a1c99911bf963eaa7395fcbaaa25ea7db3c",
+  "sourceFilesUnchanged": 41,
+  "secretMatches": 0,
+  "scope": "Local browser implementation. No external publish, deployment, store action, native performance qualification or independent Muse score."
+}

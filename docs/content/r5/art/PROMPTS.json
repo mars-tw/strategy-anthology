@@ -1,0 +1,15 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "samples": [
+    {
+      "id": "flood",
+      "original": "flood-original.png",
+      "runtime": "public/assets/content-r5/flood.webp",
+      "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent game terrain overlay. Paint a shallow FLOODED DIRT ROAD patch viewed directly from high overhead. A natural asymmetrical spread of celadon blue-green water, spreading through a low bend in a tan frontier trail. Irregular muddy sand banks, small pebbles and sparse reeds at outside edges; submerged tan wagon ruts visible through shallow pale clear water; broad matte mineral-gouache color planes, not realistic. Water covers most of the center with a gently branching ragged outline and TWO winding edges. Small non-circular short flowing highlights angled downstream toward the right. The patch should integrate on existing forest or ochre quarry ground, readable at 100px wide. Canvas square, terrain patch within centered 85 percent, outside fully transparent, soft thin muddy fringe. NO concentric rings, NO ellipse or circle border, NO target, NO luminous aura, NO UI, NO text, NO arrows, NO people, NO buildings, NO whole landscape background."
+    }
+  ],
+  "master": "docs/content/r5/art/flood-original.png",
+  "runtime": "public/assets/content-r5/flood.webp"
+}

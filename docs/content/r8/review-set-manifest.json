@@ -1,0 +1,92 @@
+[
+  {
+    "path": "docs/content/r8/review-set/01-relay-maps-expanded.png",
+    "source": "docs/content/r8/phone-relay-maps-expanded.png",
+    "sha256": "57403ef3f6e34efb05123a03812dff62a2ad2c069bc8660a668a08f2fe810a50",
+    "purpose": "同視角前段／尾段／中段覆蓋與首次接敵點"
+  },
+  {
+    "path": "docs/content/r8/review-set/02-relay-upstream-hit.png",
+    "source": "docs/content/r8/phone-relay-upstream-hit.png",
+    "sha256": "9cb9266ed5042b96b960905a80fba9c517f101874b1e4914de9387c49db894a3",
+    "purpose": "上游留塔實際命中，數字避開塔與敵軍"
+  },
+  {
+    "path": "docs/content/r8/review-set/03-relay-gate-hit.png",
+    "source": "docs/content/r8/phone-relay-gate-hit.png",
+    "sha256": "64339a4eb313843e421eb0030cbe2d082abd42d136dd63b36cb42bdfe4659966",
+    "purpose": "城門留塔實際命中，觀察塔共鳴口徑一致"
+  },
+  {
+    "path": "docs/content/r8/review-set/04-relay-crystals-reload-receipt.png",
+    "source": "docs/content/r8/phone-relay-crystals-reload-receipt.png",
+    "sha256": "f0149ef1a5823eef12904b63a09fd32e55bb78b2f63879e2bf9a560332acf51d",
+    "purpose": "拆取結晶的重載收據，不能重領"
+  },
+  {
+    "path": "docs/content/r8/review-set/05-relay-replay-compare.png",
+    "source": "docs/content/r8/phone-relay-replay-compare.png",
+    "sha256": "3b177be174a4156f3398109e828a1c2df6e5ae2c363f7e361921616f8ad22ff0",
+    "purpose": "相同首波、留塔歸因、差值與配置差異"
+  },
+  {
+    "path": "docs/content/r8/review-set/06-terrain-barricade-enter-1.png",
+    "source": "docs/content/r8/phone-terrain-barricade-enter-1.png",
+    "sha256": "76788ffa48a4abec474e9544dbcc43c96142e00fca5fed4068e9a997a994eaf7",
+    "purpose": "輔助關閉，前鋒接近封閉點"
+  },
+  {
+    "path": "docs/content/r8/review-set/07-terrain-barricade-enter-2.png",
+    "source": "docs/content/r8/phone-terrain-barricade-enter-2.png",
+    "sha256": "1283a89a790caf27dab35a640e3f1affb5b52fdbaf6cfaa8a688bc6738fbcd66",
+    "purpose": "同一隊前鋒向北轉彎"
+  },
+  {
+    "path": "docs/content/r8/review-set/08-terrain-barricade-enter-3.png",
+    "source": "docs/content/r8/phone-terrain-barricade-enter-3.png",
+    "sha256": "32a184ff944db6bafcea924be81b8ee5ec8d50ea3e26255f5f30bf3d0083a2f4",
+    "purpose": "同一隊前鋒進入北側新路"
+  },
+  {
+    "path": "docs/content/r8/review-set/09-terrain-flood-crossfire.png",
+    "source": "docs/content/r8/phone-terrain-flood-crossfire.png",
+    "sha256": "4b0b345cd815e3b8f34f00bf697c21cbc3178d76b78b1e8dbd49b1ba39b63e68",
+    "purpose": "實際入水與冰塔交火；岸上沒有行速標籤"
+  },
+  {
+    "path": "docs/content/r8/review-set/10-terrain-replay-compare.png",
+    "source": "docs/content/r8/phone-terrain-replay-compare.png",
+    "sha256": "8bff14f90f0f4c1628545f503b7aa68cc85f55becc0306849e3947e7abb3ce29",
+    "purpose": "同塔位、同 200 結晶首波比較交火與漏敵差異"
+  },
+  {
+    "path": "docs/content/r8/review-set/11-exercise-turn-complete.png",
+    "source": "docs/content/r8/phone-exercise-turn-complete.png",
+    "sha256": "b1a880a89c35c914f3d5c24bd891fd642fdb7eb6b2a7b88ac3e1a4206c8d4d8e",
+    "purpose": "聚印轉角：相鄰共鳴，演習完成"
+  },
+  {
+    "path": "docs/content/r8/review-set/12-exercise-levee-combat.png",
+    "source": "docs/content/r8/phone-exercise-levee-combat.png",
+    "sha256": "d6c5ced420e5d2f0bb01c084b4e5d474ebbf41f347474de8d740db419376f98f",
+    "purpose": "分守長堤：分散塔位交戰中"
+  },
+  {
+    "path": "docs/content/r8/review-set/13-exercise-switchback-combat.png",
+    "source": "docs/content/r8/phone-exercise-switchback-combat.png",
+    "sha256": "a63eec07773fadea02e1c9d0cc49bf0efd7cc0d63e7f243d22e690c2b3881ca0",
+    "purpose": "折返雙隘：折返道路交戰中"
+  },
+  {
+    "path": "docs/content/r8/review-set/14-exercise-split-combat.png",
+    "source": "docs/content/r8/phone-exercise-split-combat.png",
+    "sha256": "2b5965e0c31f0a22af6176c4235784a4827aed6b2ada4ee5202d877844df1e26",
+    "purpose": "雙岸接力：兩岸分工交戰中"
+  },
+  {
+    "path": "docs/content/r8/review-set/15-exercise-hollow-failed.png",
+    "source": "docs/content/r8/phone-exercise-hollow-failed.png",
+    "sha256": "b81a420488d19dace75e1f93f2ecef87dc3f1076ce05851654c0a2197376524e",
+    "purpose": "空哨折道：同額失敗、固定敵軍名稱與真實缺口"
+  }
+]

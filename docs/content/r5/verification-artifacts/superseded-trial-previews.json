@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED",
+  "note": "Own preliminary preview captures before miniature keep/readability fix; superseded, not final acceptance evidence. Initial user files are excluded. Original bytes retained in archive and local audit directory.",
+  "files": [
+    {
+      "previousPath": "docs/content/r5/phone-phone-terrain-inspect-cannon.png",
+      "localRetainedPath": ".audit-tmp/content-r5/superseded/phone-phone-terrain-inspect-cannon.png",
+      "sha256": "8af67ac3c3a8d9d4797dd87856ceec3508d96dfeef7bdbb9ab9dd728d0fb5fee"
+    },
+    {
+      "previousPath": "docs/content/r5/phone-phone-terrain-inspect-frost.png",
+      "localRetainedPath": ".audit-tmp/content-r5/superseded/phone-phone-terrain-inspect-frost.png",
+      "sha256": "c5b92674672a46dfc0c98d53fd2be5af4fecf39763aeb8ea63fa2eade4db5221"
+    },
+    {
+      "previousPath": "docs/content/r5/phone-phone-terrain-inspect-tesla.png",
+      "localRetainedPath": ".audit-tmp/content-r5/superseded/phone-phone-terrain-inspect-tesla.png",
+      "sha256": "78d49f0529b84200ba414009d1d9f58c8bf8f241adecc5a643105b044171a1b6"
+    }
+  ],
+  "archiveSHA256": "406e83083a53b3345fee8ff499d2686ed459138fb4e5abeb91cb239125fe1c58"
+}

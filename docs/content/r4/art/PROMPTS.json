@@ -1,0 +1,12 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelDisclosure": "Built-in tool does not expose model slug; no model inferred.",
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent overhead strategy-game flood-water terrain decal. One complete circular shallow celadon turquoise flooded pool viewed directly from above, broad mineral-painted blue-green water, several short pale curved ripples, irregular thin wet dark slate shore and a few small reeds at the perimeter only. Large open clear water center for tiny troops to walk across. No rocks or props in center. Silhouette nearly circular, soft transparent outer edge, actual alpha background outside pool, no ground rectangle. Strong readable water color at 100px wide. Matte gouache with subtle paper pigment, no glossy 3D rendering. No characters, buildings, text, symbols, UI or watermark. Square image.",
+  "generatedMasters": 1,
+  "objects": 1,
+  "master": "docs/content/r4/art/flood-master.png",
+  "runtime": "public/assets/content-r4/flood.webp",
+  "processing": "Lossless WebP thumbnail, original RGBA preserved. No redrawing or generated geometry."
+}

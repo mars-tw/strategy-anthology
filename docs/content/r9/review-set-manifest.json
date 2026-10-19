@@ -1,0 +1,115 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "7bf8213468d2d73b9712aa5e1144c21cb6b21dd8189b5519e481441f6e840b9a",
+  "nativeDimensions": [
+    430,
+    932
+  ],
+  "images": [
+    {
+      "category": "relay",
+      "source": "docs/content/r9/phone-relay-upstream-hit.png",
+      "path": "docs/content/r9/review-set/01-relay-upstream-hit.png",
+      "sha256": "6ce8de22960a9ad1787388f2f94573a1483b2280ebcdc43cc9840ac2ddc6a2cb",
+      "evidence": "上游留塔實際交火；R7 前段覆蓋回歸"
+    },
+    {
+      "category": "relay",
+      "source": "docs/content/r9/phone-relay-gate-replay-last-hit.png",
+      "path": "docs/content/r9/review-set/02-relay-gate-replay-last-hit.png",
+      "sha256": "943bb3657da99d510b143dd389eaef05018a8d1ca79403e88de696095f24b1e9",
+      "evidence": "城門首波最後命中；13 次／412 與下一張同場回顧相符"
+    },
+    {
+      "category": "relay",
+      "source": "docs/content/r9/phone-relay-gate-same-run-compare.png",
+      "path": "docs/content/r9/review-set/03-relay-gate-same-run-compare.png",
+      "sha256": "e1514b3d425f816450a53882ce5e20a36466cdfa2fe618254037198f47f7cb1c",
+      "evidence": "相同配置、獨立場次、非零留塔貢獻"
+    },
+    {
+      "category": "relay",
+      "source": "docs/content/r9/phone-relay-crystals-hit.png",
+      "path": "docs/content/r9/review-set/04-relay-crystals-hit.png",
+      "sha256": "4cbdd8b4cf67c0593d2fbd7a3c4726a0fea7b78ce53096aa0619612fd4a94b5a",
+      "evidence": "重載後拆晶收據與下一場新塔用途"
+    },
+    {
+      "category": "relay",
+      "source": "docs/content/r9/phone-relay-ford-ice-hit.png",
+      "path": "docs/content/r9/review-set/05-relay-ford-ice-hit.png",
+      "sha256": "63f213c60f5d7aff4770e30ee7ad379fd0aa06347841ec4e93d31f33b23a7ede",
+      "evidence": "渡口冰塔接力實際命中；R7 回歸"
+    },
+    {
+      "category": "terrain",
+      "source": "docs/content/r9/phone-terrain-barricade-proof-turn-1.png",
+      "path": "docs/content/r9/review-set/06-terrain-barricade-proof-turn-1.png",
+      "sha256": "2fb0751c03bb2b541cac5d8877e2f04457aba7930e546653f2ce3a4dadd513d9",
+      "evidence": "同一敵軍接近封閉點；輔助關閉"
+    },
+    {
+      "category": "terrain",
+      "source": "docs/content/r9/phone-terrain-barricade-proof-turn-2.png",
+      "path": "docs/content/r9/review-set/07-terrain-barricade-proof-turn-2.png",
+      "sha256": "a6489963b4bb7f5b787c83e5400b7e79ab19ed08f810aa4f2239b67d3614ffe7",
+      "evidence": "同一敵軍向北轉；塌石木柵與舊路"
+    },
+    {
+      "category": "terrain",
+      "source": "docs/content/r9/phone-terrain-barricade-proof-turn-3.png",
+      "path": "docs/content/r9/review-set/08-terrain-barricade-proof-turn-3.png",
+      "sha256": "7430d40c5c7fef398159a6405db78b3b3ba74ec029b709ee6e9c817ba1f58c1a",
+      "evidence": "同一敵軍推進新路；三格連續"
+    },
+    {
+      "category": "terrain",
+      "source": "docs/content/r9/phone-terrain-flood-enter-2.png",
+      "path": "docs/content/r9/review-set/09-terrain-flood-enter-2.png",
+      "sha256": "452d6148ea8e9d3fd52ef7badb4d1fcf5fbcea9db762dd55d28a2c89639fdea1",
+      "evidence": "清楚水面、單一減速標籤與實際冰塔命中明細"
+    },
+    {
+      "category": "terrain",
+      "source": "docs/content/r9/phone-terrain-replay-compare.png",
+      "path": "docs/content/r9/review-set/10-terrain-replay-compare.png",
+      "sha256": "8584f1e7a717fb155865497c2cb1b0f66729f68008890f25cbfc8cd898b49ff4",
+      "evidence": "同額 200、同兩塔的真實交火差異"
+    },
+    {
+      "category": "exercise",
+      "source": "docs/content/r9/phone-exercise-turn-formation.png",
+      "path": "docs/content/r9/review-set/11-exercise-turn-formation.png",
+      "sha256": "c466049f53047ebcce9b5e44585825e215c8a9574248c5363f94364249580ef3",
+      "evidence": "選位、換位與確認付款；標籤分欄"
+    },
+    {
+      "category": "exercise",
+      "source": "docs/content/r9/phone-exercise-levee-complete.png",
+      "path": "docs/content/r9/review-set/12-exercise-levee-complete.png",
+      "sha256": "5b6c27fd1c325bb58b22fed4355c202e55d6f5c4c3276bce2a64b9436da894eb",
+      "evidence": "零共鳴、刻意留空成功與專屬回饋"
+    },
+    {
+      "category": "exercise",
+      "source": "docs/content/r9/phone-exercise-switchback-combat.png",
+      "path": "docs/content/r9/review-set/13-exercise-switchback-combat.png",
+      "sha256": "59c0859b0e0210a7d17a8743b6fecc710c0975eb39b1240676eab21ccc13f5de",
+      "evidence": "折返雙隘實際雷擊；塔位標籤避讓"
+    },
+    {
+      "category": "exercise",
+      "source": "docs/content/r9/phone-exercise-split-combat.png",
+      "path": "docs/content/r9/review-set/14-exercise-split-combat.png",
+      "sha256": "7728000ef89ab2872b30d0a63bc55607805996450bf61b5ce8e0c001440110e4",
+      "evidence": "雙岸真實河道與分散交火"
+    },
+    {
+      "category": "exercise",
+      "source": "docs/content/r9/phone-exercise-hollow-failed-clear.png",
+      "path": "docs/content/r9/review-set/15-exercise-hollow-failed-clear.png",
+      "sha256": "6115415ccfdc0430e92e2d282cdbb6128c139b4530ee05c55ade530bbfa91fde",
+      "evidence": "輔助關閉仍保留塔位、防線與真實首漏；未展開解法"
+    }
+  ]
+}

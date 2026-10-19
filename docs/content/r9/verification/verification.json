@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED",
+  "verifyExitCode": 0,
+  "command": "npm run verify",
+  "buildSHA256": "7bf8213468d2d73b9712aa5e1144c21cb6b21dd8189b5519e481441f6e840b9a",
+  "version": "0.17.0",
+  "unitTests": 145,
+  "r9Assertions": 887,
+  "r9Screenshots": 122,
+  "proofAssertions": 13,
+  "proofScreenshots": 10,
+  "historicalFilesPreserved": 2398,
+  "supplementaryRegressionImages": 7,
+  "physicalDevices": "BLOCKED",
+  "independentMuseScore": "BLOCKED",
+  "styleSHA256": "33f12add358b082778684c5bb79c0479a0ac464f028724cb026be5cfebf3dfe8",
+  "executionLogs": {
+    "verify": "verification/verify.txt",
+    "proof": "verification/proof.txt",
+    "perf": "verification/perf.txt"
+  }
+}

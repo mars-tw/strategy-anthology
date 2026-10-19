@@ -1,0 +1,27 @@
+[
+  {
+    "id": "commander",
+    "transparent": true,
+    "reference": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r2\\commander.png",
+    "prompt": "Use case identity-preserve. Edit this exact existing commander illustration, preserve face, hairstyle, short heroic proportions, spear, pose, boots and red cape exactly. Keep three pendants of flame/ice/lightning. Improve broad mineral color planes and clean linework to match miniature painted game terrain; stronger bright teal sash, saturated cinnabar shoulder and wisteria pendant, upper-left light. TRUE TRANSPARENT BACKGROUND with zero-alpha empty areas, clean cutout, no background color, no glow. Full figure with spear not cropped. No added ornament or text.",
+    "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-e2df9b78-5ebf-4506-b658-7e43c2c0ea26.png"
+  },
+  {
+    "id": "icons",
+    "transparent": true,
+    "prompt": "Generate THREE separated elemental game insignia in a single horizontal atlas, flame cinnabar red with bronze outline, sharp celadon ice shard, forked wisteria lightning rune. Bold readable broad silhouettes, warm charcoal outline, upper-left light, mineral-pigment gouache with matte lacquer. True transparent empty background, no backdrop gradient, no text, no frames. Leave generous empty gutters between the three icons.",
+    "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-cb026937-5e45-4a77-ae64-06b9a66f039f.png"
+  },
+  {
+    "id": "logo",
+    "transparent": true,
+    "prompt": "Transparent title-logo asset, exact Traditional Chinese calligraphy 三相邊境, four characters in one horizontal line, elegant ink-carved gray charcoal lettering with restrained cinnabar carved seal. Small three element crystal mark at left. No English subtitle, no additional words. Wide 3:1 title composition with clear readable brush forms, matte mineral pigment, upper-left highlights, no heavy metallic gold. TRUE transparent background around all lettering, no paper rectangle.",
+    "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-a22d95d2-54af-4e46-b677-8341f1c557f5.png"
+  },
+  {
+    "id": "app-icon",
+    "transparent": false,
+    "prompt": "Square mobile game app icon, no letters. Three readable sculptural towers on a single triangular stone seal viewed three-quarter: red flame tiered eastern pagoda at left, tall celadon blue ice spire at right, wisteria lightning ring tower in front. Strong large distinct silhouettes, clean pale mineral gray backdrop, cinnabar carved square corners, bold shapes readable at 64px. Broad mineral-pigment gouache and warm charcoal contours, top-left key light. No excessive details or heavy decorative frames, no text, no generic fantasy knight.",
+    "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-b7ef3390-7570-4dad-b66f-3fb8553569d9.png"
+  }
+]

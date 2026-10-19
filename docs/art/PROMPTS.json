@@ -1,0 +1,648 @@
+{
+  "status": "EXECUTED",
+  "date": "2026-10-16",
+  "requestedModelSlug": "gpt-image-2",
+  "actualModelSlug": null,
+  "actualTool": "image_gen__imagegen",
+  "modelNote": "Built-in tool did not expose the underlying model slug. No inference from product name or C2PA version.",
+  "stylePrefix": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup.",
+  "samples": [
+    {
+      "id": "structures",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-94fca94e-beb3-46ab-a7f1-b67fcc6d72fc.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Asset type: ONE production sprite atlas of three Eastern frontier strategy structures in THREE equal horizontal cells, actual transparent background, 3/4 high overhead orthographic view. Left: friendly frontier village command keep, gray stone fortified gatehouse and warm vermilion tiled double roof, two small turquoise pennants, welcoming windows. Center: timber and stone military barracks courtyard with weapons rack, muted terracotta low tiled roof, vermilion flag. Right: hostile occupied fortress on raised dark gray stone with two tall black-gray war banners and ochre roof, threatening but not evil cartoon. Each is one compact freestanding sprite with a clean octagonal ground base, ground lines same height, large separated silhouettes and whole roof visible. No characters, no letters or numbers, no backdrop, no roads, no soft glow, no UI. Consistent visual scale, landscape 3:2, 10 percent padding around each of three cells. Actual objects used in siege and defense game, not a promotional scene.",
+      "transparent": true
+    },
+    {
+      "id": "battlefield",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-8358e604-6549-49f4-bcc6-adeb18ad0236.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Use case: stylized-concept. Asset: seamless-feeling wide game battlefield environment, landscape 3:2. Paint a pine valley frontier at dawn seen from high overhead three-quarter angle, distant layered slate mountains and pale gold mist across the upper and outer edges, pine groves and red-leaf trees at perimeter, ochre rock shelves on lower corners, a few tiny red-roof eastern village buildings only at far perimeter. Central 80% is gently textured sage/jade grass clearing with subtle earth patches and atmospheric depth, uncluttered to place real towers and moving troops. No roads, no river, no towers, no characters, no text; those will be drawn by the engine. Rich inviting luminous terrain, not dark, not flat tiles. The central playing field must remain visible in narrow mobile framing; edge scenery may be used as an extended surround. Full bleed landscape illustration.",
+      "transparent": false
+    },
+    {
+      "id": "towers",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-73dd4222-b5be-4804-be74-893a2d6f9fe4.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Asset type: one production sprite sheet of the THREE elemental defense towers, THREE equal-width cells in one horizontal row on a genuinely transparent background. Each tower entirely within its own cell, 10 percent margin, no overlap, no cast shadow beyond a small contact base. Left FIRE: squat cinnabar red pagoda shrine with a large sculpted orange flame held above its open roof. Middle ICE: tall celadon ice crystal obelisk erupting from a carved stone octagonal shrine, strong tapered spear silhouette. Right LIGHTNING: bronze and violet circular thunder ring suspended between two horned posts on a gray stone plinth, visibly circular silhouette. All same 3/4 overhead angle and visual scale, readable as three different structures at 64px; chunky forms and saturated element color. No characters, no typography, no borders. Aspect ratio 3:2 landscape, objects in a row with consistent ground line, lower half bases. Actual game sprites, not a UI mockup.",
+      "transparent": true
+    },
+    {
+      "id": "commander",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-2d9e05b9-f046-49ac-ad56-7a4dc7206698.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Asset type: story commander full-body character cutout for strategy game home screen. An appealing adult female frontier captain, East Asian face with clearly visible expressive eyes and brows, dark hair tied in a high practical knot, vermilion short cloak and russet layered lamellar armor over muted celadon clothing, a curved long spear in her left hand and three carved elemental command seals on her belt, boots planted. Calm resolve, looking toward the viewer. Whole body and entire spear visible, 12% empty margin, character isolated on genuinely transparent background with no landscape or UI. Tall portrait composition 2:3, readable head, grounded heroic proportions (not chibi), detailed but bold silhouette, no text. No floating aura, no smoke; clean hard edges for compositing. This captain narrates the campaign; she is not an extra playable unit.",
+      "transparent": true
+    },
+    {
+      "id": "panel",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-10561ab8-c7d8-487e-a350-68fdd12089ae.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Asset type: one square UI panel texture, no controls or mockup. An artisan's campaign command board: matte graphite-gray painted wood center with a very subtle mineral paper grain, carved weathered bronze border along all four edges and angular cut corners, tiny cinnabar sealing-wax inlays at the corners, shallow engraved cloud-line motifs only near the border. Central 80 percent nearly uniform dark neutral graphite so white text over it is legible. The center is opaque. Flat front orthographic view, square 1:1, no perspective, no text, no characters, no symbols in center, no glow. Designed for CSS nine-slice or texture backing.",
+      "transparent": false
+    },
+    {
+      "id": "icons",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-8f1e9d04-d089-4826-b68c-67bc2a8b9a67.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Asset type: ONE production UI icon atlas of THREE carved elemental seal emblems in one horizontal row, equal sized cells. Fire left: raised orange-red flame on a vermilion octagonal stone seal. Ice middle: sharply faceted turquoise three-prong ice crystal on celadon diamond-shaped seal. Lightning right: bright violet forked lightning bolt inside open bronze thunder ring on purple hexagonal seal. Bold iconic shapes, high saturation, clearly distinct outer silhouettes, readable at 32 and 64 pixels. Front orthographic view, consistent upper-left warm highlights, lightly hand-painted stone/bronze material. Actual transparent background, 15% padding in each of 3 equal cells, entire shapes visible and separated, no text, no soft glow, no UI frame, no numbers. Landscape aspect 3:2.",
+      "transparent": true
+    },
+    {
+      "id": "logo",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-dd900550-f3e9-4250-a665-f92010c4d0bb.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Use case logo-brand. Asset type: game title wordmark, actual transparent background, landscape 3:2. Exact Traditional Chinese text, one centered horizontal line: \"三相邊境\". Four characters ONLY, perfectly readable, hand-carved bold angular calligraphy with strong strokes and small worn mineral edges, warm ivory-gray stone letter surfaces with subtle bronze edge, cinnabar seal accents. Under the Chinese line a small perfectly spelled English subtitle \"TRINE FRONTIER\" in wide-spaced refined serif capitals. Above the wordmark a compact triangular crest of three engraved elemental seals: orange flame, celadon crystal, violet thunder ring. The wordmark occupies central 85% width and central 45% height, with generous fully transparent margins. No background, no rectangle, no card, no scenery, no extra writing. Text must be accurate: 三 相 邊 境.",
+      "transparent": true
+    },
+    {
+      "id": "app-icon",
+      "source": "C:/Users/digimkt/.codex/generated_images/01a1440b-dc0e-74d3-9eeb-d071503eab07/exec-2565beb6-1ab8-4115-913a-b39741d48fe9.png",
+      "prompt": "Trine Frontier exclusive art direction: Eastern frontier fantasy, mineral-pigment gouache game painting, carved cinnabar seals, mist-gray stone, jade pine, celadon ice and wisteria lightning, warm vermilion accents, confident readable silhouettes, 3/4 orthographic forms, coherent warm upper-left light, refined hand-painted detail, no photorealism, no emoji, no UI mockup. Use case logo-brand. Asset: square 1024x1024 App icon proposal for the actual fire/ice/lightning strategy game Trine Frontier. Single iconic triangular elemental command crest fills central 82%: bright vermilion-orange flame at top, celadon three-pronged ice crystal at bottom left, violet lightning bolt in bronze ring at bottom right. The three symbols are embedded in one carved warm bronze triangular seal with angular stone edges, dramatic sculpted relief and bold simple silhouette. Graphite slate background with a restrained embossed cloud motif and red mineral highlights, fully opaque square, no baked rounded corners, no outer border, no text, no letters, no scenery, no characters. Recognizable at 64 pixels. Rich polished mobile game icon, not photorealistic.",
+      "transparent": false
+    }
+  ],
+  "secondRound": {
+    "status": "EXECUTED",
+    "date": "2026-10-16",
+    "round": 2,
+    "requestedModelSlug": "gpt-image-2",
+    "actualModelSlug": null,
+    "actualTool": "image_gen__imagegen",
+    "modelNote": "Built-in image generation tool does not expose the underlying model slug; not guessed.",
+    "stylePrefix": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji.",
+    "samples": [
+      {
+        "id": "battlefield",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: full bleed landscape 3:2 game battlefield environment. High overhead three-quarter orthographic view over an Eastern pine frontier plateau. Central 75% a luminous sage grassy rocky clearing with broken ochre earth, terraced stone outcrops at edges, small clusters of red-leaf shrubs and pines, atmospheric blue-gray mountain ridges above, ochre stone foreground below. NO village, roads, rivers, units, towers or writing, those must be overlaid by the game at exact coordinates. Eliminate vast flat grass: subtle fine painterly patches, flat rock shelves, tiny wildflowers, shallow grassy gullies but playable center remains low detail. Warm dawn light from upper left. Distinct foreground, playable middle and distant mountains. Premium cohesive miniature strategy-game painting, NOT realistic landscape photograph. Keep horizon in top 12%, central objects sparse.",
+        "transparent": false,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-92979aef-0b5e-41ed-9a39-51ded4655095.png"
+      },
+      {
+        "id": "commander",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: single complete character on genuinely transparent background, portrait 2:3. Heroine commander of pine frontier militia, 2.8-head miniature storybook proportions, friendly determined clear face with large expressive eyes, strong black tied hair and short cinnabar red cloak, bronze and slate lamellar armor with large simplified plates, celadon sash, three large flame/ice/lightning mineral seals at belt. Holds a SIMPLE straight polearm, clean blade and one shaft, clearly separate fingers gripping it, left hand open resting at belt. 3/4 front view standing grounded, short sturdy legs, boots, whole body visible with 8% safe padding. Style like hand-painted tabletop figurine in gouache, big confident color planes and warm dark outline; absolutely no realistic painterly anatomy, no elaborate gold filigree, no writing, no backdrop, no glow. She is a narrative commander, not a new gameplay unit. Designed to visually match miniature tower-defense terrain.",
+        "transparent": true,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-2f5c7a37-ec15-48fd-a553-23dd11014c5f.png"
+      },
+      {
+        "id": "enemy-keep",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: single hostile fortress game sprite, transparent background, square. Compact iron-gray frontier fortress with a sharply angled slate roof, two tall BLACK war banners, enormous iron gate with a diamond mineral emblem, four angular spiked stone buttresses. Scorched ochre earth contact base, broken gray stakes. Absolutely NO red roof, NO warm windows, NO gold decoration. Three-quarter overhead view, miniature storybook gouache, chunky silhouettes and large planar highlights. All elements within 12% safe margins, entire building and foundation visible. Upper-left cool daylight. No units, no text, no landscape, no fog, no external shadow or halo. This is the enemy keep used on the actual siege battlefield.",
+        "transparent": true,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-3b61e89c-1a56-4130-963c-69ed1c200e63.png"
+      },
+      {
+        "id": "panel",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: square seamless hand-painted pale mist-gray military map PAPER texture for game interface. Subtle mineral fibers, warm-gray broad wash, faint engraved topographic contours only near corners, tiny cinnabar registration marks at the outside corners, delicate slate cut-stone border SINGLE thin line, absolutely no elaborate metal, no gold scrolls, no 3D bevel, no dark panel. Main 85% very light and quiet for dark HTML text. A small triangle mineral inset cut at one corner. Cohesive light storybook strategy game interface material, no letters, no numbers, no symbols resembling text, no controls, no objects.",
+        "transparent": false,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-c2c4ba4a-e4e5-4479-9c52-1afa3f7d6243.png"
+      },
+      {
+        "id": "icons",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: three elemental game emblems in ONE horizontal strip, transparent background. THREE equal width cells with wide gutters, each object fits middle 70% of its cell. Left: chunky orange cinnabar THREE-LOBED FLAME stone with warm dark outline. Center: bright celadon SIX-POINTED ICE CRYSTAL with warm dark outline. Right: violet JAGGED THUNDER BOLT set inside a broken bronze CIRCULAR RING with warm dark outline. Large flat mineral color faces, restrained upper-left white highlight, no glow, no complex detail. These are identifying emblems for real fire, ice, thunder towers and skill UI. Crisp at 32px, shape readable in grayscale. No letters, numbers, UI frame, background, shadow. Landscape 3:1, same object size, whole objects visible.",
+        "transparent": true,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-e1fe5e6f-966f-46b3-8ea1-d09cb27c7d5a.png"
+      },
+      {
+        "id": "logo",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: polished horizontal Chinese game title wordmark on transparent background. Exact large text: 「三相邊境」 (four traditional Chinese characters, do not include quotation marks). Small English line below: TRINE FRONTIER. Strong hand-carved brush-lettering with clear complete character strokes in warm charcoal, subtle cinnabar red edge, very restrained mineral chisel texture. Three small flame/celadon crystal/violet thunder carved marks centered above characters, large characters occupy 70% width. Elegant hand-painted Eastern frontier storybook identity, premium readable typography, not gold fantasy lettering. Whole mark visible with 10% padding. No large frame, no landscape, no characters, no other words. Wide 3:1 composition.",
+        "transparent": true,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-53cbe1ab-e532-4441-be56-6c614be22494.png"
+      },
+      {
+        "id": "app-icon",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: premium square mobile strategy game APP ICON proposal, full bleed opaque, no text, no rounded outer corners. ONE bold trifold mineral seal: left orange-red flame, center tall icy celadon spear crystal, right violet thunder ring, three distinct interlocked silhouettes above one compact cinnabar stone base. Hand-painted miniature gouache with warm dark outlines, upper-left daylight, chunky broad color planes, sophisticated slate blue-gray mountain-mist backdrop, small ochre stone foundation below. Main emblem fills central 80%, clear 64px recognition, no scattered gems, no frame, no scenery detail, no characters, no lettering or watermark. Actual in-game fire/ice/thunder tower identity, not a different game's image.",
+        "transparent": false,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-15c77bd2-02f6-42e5-bddc-0019273da704.png"
+      },
+      {
+        "id": "bridge",
+        "prompt": "Trine Frontier R2, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset: single miniature stone bridge game sprite on transparent background, landscape 3:2. Broad east-west arched stone bridge crossing a river, seen from high overhead three-quarter orthographic angle. Pale cool gray fitted stone cobbles on walkway, small side parapets with curved arched silhouette, two stout stone bridgeheads, tiny red pennants on left and black-gray pennants on right. Walkable flat deck in center 60%, clear east-west crossing. Upper-left light, subtle stone texture and warm charcoal edges, strong simple geometry. Whole bridge and both abutments visible, generous 12% margins. NO water, no river, no landscape, no people, no text, no cast shadow beyond contact foot. Stone bridge must match miniature Eastern frontier gouache battlefield, not realistic.",
+        "transparent": true,
+        "source": "C:/Users/digimkt/.codex/generated_images/01a14476-9264-7d13-83c3-467b3ddffb82/exec-14af9a6f-7ca5-4db8-8666-c485b01885cd.png"
+      }
+    ]
+  },
+  "thirdRound": {
+    "actualTool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "modelNote": "工具未揭露底層模型 slug；不以 requestedModelSlug 作實際型號證據。",
+    "stylePrefix": "Trine Frontier R3, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji.",
+    "samples": [
+      {
+        "id": "pine",
+        "transparent": false,
+        "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of warm dawn pine frontier, asymmetric ochre granite tors, tall umbrella pines, autumn red shrubs at outer edges, distant low rounded ridges only in upper 15%, pale apricot sky. Center 80% low-detail mossy warm ochre meadow with scattered tiny stones, a few eroded earth patches. No roads, no river, no buildings, no towers, no units, no UI, no text. This is a real playable map ground, NOT a horizon landscape, avoid dramatic foreground occlusion. Richly painted terrain with handcrafted layered mineral pigments, broad readable shapes.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-773701b5-a666-40f2-9177-67d361aeb2e6.png"
+      },
+      {
+        "id": "ford",
+        "transparent": false,
+        "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of a cold overcast river-valley floodplain, distant flat limestone escarpments and hanging willows in upper 15%, blue-gray cloud sky. Broad low-detail slate-green alluvial ground, reed clumps and pale wet pebble deposits near outer edges. River channel will be drawn by game in center, leave center open and dry. No drawn water, no road, no bridge, no buildings, no units, no UI, no text. Entire composition distinctly different from pine mountains, no pointed mountains. Painterly coherent mineral wash, readable miniature terrain.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-12ee3148-bd95-462b-9566-e590aa667c05.png"
+      },
+      {
+        "id": "quarry",
+        "transparent": false,
+        "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of abandoned Eastern frontier stone quarry, stepped amber limestone terraces on far upper and side edges, ochre dust, fractured flat rock slabs, small pine scrub. Late afternoon honey light upper-left. Large central 80% playable open subdued tan gravel plateau, low-detail with painterly erosion. A distant tiny timber quarry derrick at far upper-left edge only. No mountains like pine map, no road, no river, no buildings in center, no characters, no UI, no words. Handcrafted gouache rock strata.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-2c3badf8-bc49-4362-963d-65af0bbc3534.png"
+      },
+      {
+        "id": "citadel",
+        "transparent": false,
+        "prompt": "Game terrain background, landscape 1536x1024. Elevated three-quarter view of a high frontier fortress plateau at violet stormbreak dawn, broken basalt terraces framing lower outer corners, distant black stone aqueduct and a lonely signal beacon on far upper ridge, pale lavender clouds, restrained wisteria-purple heather and blue slate mineral ground. Main central 80% open quiet playable rock grassland. No foreground walls or enormous objects, no roads, no rivers, no units, no UI, no text. Clear distinctive angular basalt geography unlike pine valley or quarry.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-4127e8f9-0514-4948-b53b-f88c49c78c24.png"
+      },
+      {
+        "id": "panel",
+        "transparent": false,
+        "prompt": "Seamless square game UI mineral-paper texture, 1024 square, very clean pale cool gray handmade xuan paper #eeeee5, smooth almost solid quiet center 85%, sparse charcoal fiber grain only along outer 5% edges, tiny cinnabar registration corners, restrained ink-and-stone border strokes, no heavy marbling, no objects, no text, no symbols, no UI mockup. Usable as a quiet text-bearing command surface.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-98c387ec-d94f-41e5-866f-44f06849701d.png"
+      },
+      {
+        "id": "terrain-kit",
+        "transparent": true,
+        "prompt": "Transparent-background game environment atlas, 1536x1024, SIX clearly separated orthographic three-quarter miniature groups in 3 columns x 2 rows, generous transparent gutters. Top row: warm limestone gravel shoulder cluster; short curved eroded ochre cart-rut road patch with tiny stones; cold pale sandy wet bank cluster. Bottom row: celadon reed clump with dark green leaves; pale slate river rocks with shallow celadon water pool; worn gray stone bridge abutment and three small timber military stakes. No labels no letters no frames no checkerboard. All six realistic coherent gouache game terrain cutouts, not vector shapes. Upper-left light, no baked cast shadow beyond footprint.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-b87d0dfd-6eaa-4b45-8761-166f28a3d3f7.png"
+      },
+      {
+        "id": "commander",
+        "transparent": true,
+        "reference": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r2\\commander.png",
+        "prompt": "Use case identity-preserve. Edit this exact existing commander illustration, preserve face, hairstyle, short heroic proportions, spear, pose, boots and red cape exactly. Keep three pendants of flame/ice/lightning. Improve broad mineral color planes and clean linework to match miniature painted game terrain; stronger bright teal sash, saturated cinnabar shoulder and wisteria pendant, upper-left light. TRUE TRANSPARENT BACKGROUND with zero-alpha empty areas, clean cutout, no background color, no glow. Full figure with spear not cropped. No added ornament or text.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-e2df9b78-5ebf-4506-b658-7e43c2c0ea26.png"
+      },
+      {
+        "id": "icons",
+        "transparent": true,
+        "prompt": "Generate THREE separated elemental game insignia in a single horizontal atlas, flame cinnabar red with bronze outline, sharp celadon ice shard, forked wisteria lightning rune. Bold readable broad silhouettes, warm charcoal outline, upper-left light, mineral-pigment gouache with matte lacquer. True transparent empty background, no backdrop gradient, no text, no frames. Leave generous empty gutters between the three icons.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-cb026937-5e45-4a77-ae64-06b9a66f039f.png"
+      },
+      {
+        "id": "logo",
+        "transparent": true,
+        "prompt": "Transparent title-logo asset, exact Traditional Chinese calligraphy 三相邊境, four characters in one horizontal line, elegant ink-carved gray charcoal lettering with restrained cinnabar carved seal. Small three element crystal mark at left. No English subtitle, no additional words. Wide 3:1 title composition with clear readable brush forms, matte mineral pigment, upper-left highlights, no heavy metallic gold. TRUE transparent background around all lettering, no paper rectangle.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-a22d95d2-54af-4e46-b677-8341f1c557f5.png"
+      },
+      {
+        "id": "app-icon",
+        "transparent": false,
+        "prompt": "Square mobile game app icon, no letters. Three readable sculptural towers on a single triangular stone seal viewed three-quarter: red flame tiered eastern pagoda at left, tall celadon blue ice spire at right, wisteria lightning ring tower in front. Strong large distinct silhouettes, clean pale mineral gray backdrop, cinnabar carved square corners, bold shapes readable at 64px. Broad mineral-pigment gouache and warm charcoal contours, top-left key light. No excessive details or heavy decorative frames, no text, no generic fantasy knight.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-b7ef3390-7570-4dad-b66f-3fb8553569d9.png"
+      },
+      {
+        "id": "road-surface",
+        "transparent": false,
+        "prompt": "Trine Frontier R3, Eastern frontier fantasy mineral-pigment gouache storybook miniature, sculpted broad color planes, warm charcoal ink contours, matte stone and cinnabar lacquer, celadon ice and wisteria lightning, coherent upper-left key light, richly colored readable silhouettes, no photorealism, no heavy filigree, no generic mobile fantasy frame, no emoji. Asset type: seamless game road surface texture, square 1024. Close overhead macro of fine warm ochre packed dirt and tiny gravel, matte mineral pigments and subtle worn dusty grain, broad quiet texture, 3% small gray pebbles, NO objects, NO grass clumps, NO road outline, NO wheel tracks, NO perspective, NO vertical strokes, NO grid or repeating slabs, NO wall, NO paved stone. Uniformly illuminated top-left. A natural hand-painted earthy ground material for filling an irregular game path.",
+        "source": "C:\\Users\\digimkt\\.codex\\generated_images\\01a14520-6d16-7182-927d-9ae499379ec4\\exec-26ca60bf-d636-4182-bdaf-08896303a981.png"
+      }
+    ]
+  },
+  "fourthRound": {
+    "version": "0.5.0",
+    "actualTool": "image_gen__imagegen",
+    "requestedModelSlug": "gpt-image-2",
+    "actualModelSlug": null,
+    "modelNote": "Built-in tool does not disclose actual underlying model slug.",
+    "stylePrefix": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree.",
+    "samples": [
+      {
+        "id": "sheet-commander",
+        "path": "docs/art/character-sheets/r4-commander.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-352a2cfc-25ad-4599-afd1-0f7f7a791ea9.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Asset type: production character turnaround sheet for the existing narrative commander. Match reference: young adult East Asian woman, dark high ponytail tied red ribbon, confident expressive brown eyes, cinnabar cape, olive lamellar armor, celadon sash, short black trousers and boots, long bronze spear, belt has THREE pendants fire orange / ice cyan / lightning violet. Uniform 3-head tall design. Landscape cream-paper sheet: three large full-body orthographic views FRONT, RIGHT SIDE, BACK arranged in three equal columns left to right; below each one small expressive head or spear attack pose. Clearly show cape back, ponytail side, all limbs, weapon, consistent scale, flat ground and upper-left light, no scenery. Fine understated divider lines, no words except tiny F S B labels. This locks identity and proportion for all subsequent game art. Keep face and big shapes readable."
+      },
+      {
+        "id": "sheet-units",
+        "path": "docs/art/character-sheets/r4-unit-lineup.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-6c7ce888-5a3b-4f12-8dde-1f543d16aca9.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Asset type: SINGLE cohesive production UNIT LINEUP TURNAROUND reference board, portrait 1024x1536. FOUR ROWS of characters on clean cream background, exactly 4 equally spaced columns per row: FRONT full body, RIGHT SIDE full body, BACK full body, expressive close-up bust. All adult chibi soldiers exactly THREE HEADS TALL, same height and chunky proportions with LARGE FACES. Row 1 FIRE SHIELD GUARD: cinnabar cape, bronze helmet, oversized round red shield with flame emboss, short sword. Row 2 ICE ARCHER: celadon blue cloak, cream hood, LARGE pale cyan recurved bow, quiver, compact body. Row 3 LIGHTNING MAGE: wisteria purple split robe, gold headband, large forked violet crystal staff, visible warm face, no helmet. Row 4 GREY BANNER ENEMY: steel-blue tall angular helmet with fin, face visible narrow slit, navy short cloak and navy triangular kite shield, short spear, red narrow eye line. Each row a UNIQUE silhouette and distinct palette. EVERY front/side/back is same character; no environmental background, no text, no perspective lineup, no long-legged realistic bodies. Consistent shoulder height, shadows and upper-left light. Weapons are major shape. Enough padding for safe separate crops. Draw proper designs with expressive faces, broad colors, clean confident ink silhouette. No tiny detail."
+      },
+      {
+        "id": "warrior",
+        "path": "docs/art/r4/sources/warrior.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-cd93f394-5c57-4d4d-8073-0e3c75e8d0b0.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Reference board row 1 FIRE SHIELD GUARD is sole identity reference. Adult chibi fire guard with bronze red-crested helmet, red cape, HUGE round cinnabar flame shield and short silver sword. Bold red bronze color planes, face has visible eyes. SAME CHARACTER in every frame.  PRODUCTION SPRITE ATLAS, portrait 1024x1536, EXACTLY FOUR COLUMNS and SIX ROWS of equal 256x256 cells. 24 distinct drawn full-body poses, one pose centered in each cell with clear transparent gutters and no overlap or clipping. Each pose same right-facing 3/4 view and THREE HEAD proportions, feet aligned near bottom of cell. Row 1 idle four expressions/stance. Row 2 WALK: visibly alternating legs and opposing arms across four frames. Row 3 ATTACK four distinct phases: preparation, wind-up, IMPACT extended weapon, recovery. Row 4 HURT four genuine bent torso/arm recoil poses. Row 5 DEATH progressively kneel, fall, land, lying; last two lying horizontal, no floating. Row 6 CAST/cheer four distinct raised arms/reward poses. Real drawn joint articulation, no repeated copies or rotated sprites. Crisp warm ink, NO grid lines, NO text, NO scenery, NO baked floor shadow. Fully transparent background. Keep weapons INSIDE each cell and sufficient gaps."
+      },
+      {
+        "id": "archer",
+        "path": "docs/art/r4/sources/archer.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-ec56e67f-d402-41ac-8a92-135962e44500.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Reference board row 2 ICE ARCHER is sole identity reference. Adult chibi white-haired archer with cream hood, celadon cyan cloak, large pale CYAN RECURVED BOW and quiver, small bronze belt, expressive face, SAME CHARACTER in every frame. Palette saturated ice blue with warm face and blue hood trim. Attack row draws bow visibly: prepare / draw string / RELEASE at third frame / lower bow.  PRODUCTION SPRITE ATLAS, portrait 1024x1536, EXACTLY FOUR COLUMNS and SIX ROWS of equal 256x256 cells. 24 distinct drawn full-body poses, one pose centered in each cell with clear transparent gutters and no overlap or clipping. Each pose same right-facing 3/4 view and THREE HEAD proportions, feet aligned near bottom of cell. Row 1 idle four expressions/stance. Row 2 WALK: visibly alternating legs and opposing arms across four frames. Row 3 ATTACK four distinct phases: preparation, wind-up, IMPACT extended weapon, recovery. Row 4 HURT four genuine bent torso/arm recoil poses. Row 5 DEATH progressively kneel, fall, land, lying; last two lying horizontal, no floating. Row 6 CAST/cheer four distinct raised arms/reward poses. Real drawn joint articulation, no repeated copies or rotated sprites. Crisp warm ink, NO grid lines, NO text, NO scenery, NO baked floor shadow. Fully transparent background. Keep weapons INSIDE each cell and sufficient gaps."
+      },
+      {
+        "id": "mage",
+        "path": "docs/art/r4/sources/mage.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-b7f7ad55-f0f2-4b53-ab19-b141dcc83f31.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Reference board row 3 LIGHTNING MAGE is sole identity. Adult chibi mage with visible eyes and warm face, dark purple topknot, golden diadem, WISTERIA PURPLE split robe, large gold FORKED VIOLET CRYSTAL STAFF, exactly same three-head body as fire guard and ice archer. Deep saturated purple with amber trims; no large white outfit. Attack row raise staff / pull staff back / third frame forward lightning cast / recover.  PRODUCTION SPRITE ATLAS, portrait 1024x1536, EXACTLY FOUR COLUMNS and SIX ROWS of equal 256x256 cells. 24 distinct drawn full-body poses, one pose centered in each cell with clear transparent gutters and no overlap or clipping. Each pose same right-facing 3/4 view and THREE HEAD proportions, feet aligned near bottom of cell. Row 1 idle four expressions/stance. Row 2 WALK: visibly alternating legs and opposing arms across four frames. Row 3 ATTACK four distinct phases: preparation, wind-up, IMPACT extended weapon, recovery. Row 4 HURT four genuine bent torso/arm recoil poses. Row 5 DEATH progressively kneel, fall, land, lying; last two lying horizontal, no floating. Row 6 CAST/cheer four distinct raised arms/reward poses. Real drawn joint articulation, no repeated copies or rotated sprites. Crisp warm ink, NO grid lines, NO text, NO scenery, NO baked floor shadow. Fully transparent background. Keep weapons INSIDE each cell and sufficient gaps."
+      },
+      {
+        "id": "enemy",
+        "path": "docs/art/r4/sources/enemy.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-d609fa6e-f2ce-42f7-a541-a532074aea1b.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Reference board row 4 GREY BANNER ENEMY sole identity. Adult chibi enemy infantry, angular tall STEEL BLUE HELMET with fin, eyes in narrow rusty-red slit, short NAVY cloak, large BLUE triangular KITE SHIELD with silver arrow insignia and short spear. Bold blue saturated armor planes with warm rust straps, avoid black-on-black. Same three head proportions as board. Face recognizably hostile and completely distinct from round-shield red friendly. Right-facing 3/4. Attack row short spear prepare / pull back / thrust IMPACT third / recover.  PRODUCTION SPRITE ATLAS, portrait 1024x1536, EXACTLY FOUR COLUMNS and SIX ROWS of equal 256x256 cells. 24 distinct drawn full-body poses, one pose centered in each cell with clear transparent gutters and no overlap or clipping. Each pose same right-facing 3/4 view and THREE HEAD proportions, feet aligned near bottom of cell. Row 1 idle four expressions/stance. Row 2 WALK: visibly alternating legs and opposing arms across four frames. Row 3 ATTACK four distinct phases: preparation, wind-up, IMPACT extended weapon, recovery. Row 4 HURT four genuine bent torso/arm recoil poses. Row 5 DEATH progressively kneel, fall, land, lying; last two lying horizontal, no floating. Row 6 CAST/cheer four distinct raised arms/reward poses. Real drawn joint articulation, no repeated copies or rotated sprites. Crisp warm ink, NO grid lines, NO text, NO scenery, NO baked floor shadow. Fully transparent background. Keep weapons INSIDE each cell and sufficient gaps."
+      },
+      {
+        "id": "worker",
+        "path": "docs/art/r4/sources/worker.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-b6e679fd-8941-4d34-9838-e2949d6d5bba.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Production SPRITE ATLAS for friendly frontier WORKER matching the supplied unit board chibi proportion and rendering. Compact three-head-tall adult craftsman, round face brown hair visible under orange short bandana, amber orange vest, cinnabar short scarf, teal trousers, small pickaxe and crystal satchel; broad COLOR planes. Weapon is a PICKAXE, NO AXE warrior, no giant muscular torso. Friendly humble silhouette, same body height as fire guard.  PRODUCTION SPRITE ATLAS, portrait 1024x1536, EXACTLY FOUR COLUMNS and SIX ROWS of equal 256x256 cells. 24 distinct drawn full-body poses, one pose centered in each cell with clear transparent gutters and no overlap or clipping. Each pose same right-facing 3/4 view and THREE HEAD proportions, feet aligned near bottom of cell. Row 1 idle four expressions/stance. Row 2 WALK: visibly alternating legs and opposing arms across four frames. Row 3 ATTACK four distinct phases: preparation, wind-up, IMPACT extended weapon, recovery. Row 4 HURT four genuine bent torso/arm recoil poses. Row 5 DEATH progressively kneel, fall, land, lying; last two lying horizontal, no floating. Row 6 CAST/cheer four distinct raised arms/reward poses. Real drawn joint articulation, no repeated copies or rotated sprites. Crisp warm ink, NO grid lines, NO text, NO scenery, NO baked floor shadow. Fully transparent background. Keep weapons INSIDE each cell and sufficient gaps. Attack row is pickaxe mining with third pose striking ground. Row 6 is lifting cyan crystal into satchel."
+      },
+      {
+        "id": "pine",
+        "path": "docs/art/r4/sources/pine.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-62f3bf78-f5dc-4519-b164-765d56459633.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. A TOP DOWN tilted miniature strategy battlefield terrain plate, landscape 1536x1024, warm olive pine valley in golden morning. NO HORIZON or sky band, the whole frame is playable terrain viewed from above, smooth LARGE meadow central planes, edge clusters of asymmetrical red-leaf pine groves and pale eroded rocks, small bronze crystal outcrops along edges. Central 75 percent remains calm pale olive grass with natural patches, no roads, no rivers, NO towers, NO people, NO houses. Terrain has winding dry shallow gullies and small loose gravel at the edges, richly hand painted gouache, big restrained brush shapes, clean contours like supplied character board. Upper-left sunlight casts ground shadows down-right. This is a real hand-painted MAP rather than a mountain vista; zero realistic noisy photos or procedural pattern. Strong sense of a frontier pine mountain meadow, color harmony cinnabar, pale ochre, olive."
+      },
+      {
+        "id": "river",
+        "path": "docs/art/r4/sources/river.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-60494376-6f11-4661-9cd5-8a3cdd1fb160.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Asset type: natural RIVER CORRIDOR game terrain cutout, portrait 1024x1536 with TRUE TRANSPARENT OUTSIDE. Near-top-down gouache waterway running from top edge to bottom edge, wide blue-green river occupies CENTER 55 percent, irregular BENDING S curve NOT straight, pale sandy gravel banks vary greatly in width, shallow turquoise pools, partly submerged flat slate stones, sparse slender reeds and tussocks on both banks, eroded dark banks and cool sage grass to sides. Long narrow downriver white glints follow currents, subtle watercolor refractions rather than cartoon scribbles. Water clear celadon, cool cloudy light from upper left. No sky, no mountain horizon, NO bridges, buildings, people or text. Full river extends past top and bottom edge for tiling, outer side edges fade to transparent with irregular grass silhouette. Detailed hand-painted NATURAL SHORELINE is the focus; distinguish water, shallow and dry banks, not a straight canal. Will be warped to exact playable river geometry; keep all important elements in central 85 percent width."
+      },
+      {
+        "id": "commander",
+        "path": "docs/art/r4/sources/commander.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-39edfc85-300f-412b-a799-8bde805d11a9.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. ONE transparent hero cutout of the same woman in the supplied commander turnaround. Large expressive face, brown eyes, black high ponytail with red ribbon, exactly THREE HEADS TALL (large head, short legs), cinnabar cape, bronze olive lamellar armor, celadon sash, brown boots, long bronze spear held in right hand vertically, three belt crystal pendants ORANGE FLAME / CYAN ICE / PURPLE LIGHTNING. Full body, three quarter confident welcoming stance, spear fits entire canvas, legs and boots visible. Keep identity face hairstyle clothing and pendants from sheet, simplify small etched details into broad colors like unit board. Portrait composition, generous transparent padding, no ground shadow, no background, no text, warm outlined gouache rendering, upper-left light."
+      },
+      {
+        "id": "hound",
+        "path": "docs/art/r4/sources/hound.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-31d1bde0-0928-401b-a2a9-c71ebe735e4c.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Production enemy beast sprite atlas, slate-blue armored BORDER HOUND with four short legs, big recognizable canine face and triangular pointed ears, angular navy shoulder plates bearing grey-banner silver arrow, orange eyes, long tail, silver warm-light edges. Compact bulky body, fantasy storybook gouache, bold blue silhouette distinct from grass, matching chibi soldiers reference without human head. FULLY transparent background. EXACTLY 4 columns x 6 rows on 1024x1536, equal cells, 24 different articulated poses. Row1 idle alert four, row2 WALK four with distinctly alternating front/back paws, row3 bite ATTACK anticipate/windup/lunge/contact/recover using FOUR poses with contact third, row4 recoil HURT four torso and leg changes, row5 DEATH stagger/kneel/fall/lying four, row6 roar/cast four. Every beast points RIGHT in three-quarter view, tail left, no clipped limbs, no duplicate frames, no text, no grid, no terrain, no shadow. Keep each pose within its cell with clear gutters."
+      },
+      {
+        "id": "icons",
+        "path": "docs/art/r4/sources/icons.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-074723a0-c778-4857-9b1c-2f93f2ec1fbd.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Asset type: one horizontal THREE ELEMENT ICON ATLAS on transparent background. Exactly three equal cells: left a broad orange three-tongue FLAME CRYSTAL, center a long faceted cyan six-point ICE CRYSTAL, right a chunky forked VIOLET LIGHTNING CRYSTAL. Large recognizably different silhouettes, warm bronze inset rim, no coin circles, no text, no frame or ground. Upper left highlight, saturated large planes, each isolated with transparent gutters. Designed for 32px game UI. All three equally big."
+      },
+      {
+        "id": "panel",
+        "path": "docs/art/r4/sources/panel.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-0097d99a-e13b-4060-9fa6-d33b3705cd4a.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. One refined game UI parchment military dispatch PANEL TEXTURE, square, flat orthographic, clean pale ivory mineral paper center 85 percent with almost NO visible texture behind text, thin double warm stone-gray border, squared/chamfered corners, a tiny CINNABAR seal corner and very restrained bronze edge wear, soft paper fibers only on OUTER 8 percent edge. No words, no symbols in center, no ornate gold filigree, no dark teal, no rounded corners, no drop-shadow outside. A calm elegant map-book interface texture designed for nine-slice stretching. Contrast and bright blank center paramount. Full opaque image."
+      },
+      {
+        "id": "logo",
+        "path": "docs/art/r4/sources/logo.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-9baea068-1ddb-480b-8082-5cba3bd7aace.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: logo-brand. A transparent horizontal TITLE LOGO for the actual game, exact Traditional Chinese text \"三相邊境\" in four large legible ink-brush stone-carved characters. Cinnabar vermilion thick ink strokes with subtle warm bronze rim, crisp light edge helps on pale paper. One compact triangular three-crystal emblem at left with orange flame / cyan ice / purple lightning. Very small subtitle \"TRINE FRONTIER\" below the four Chinese characters in spaced dark charcoal serif capitals. Clean sophisticated eastern military map-book feeling, generous transparent border, no rectangular background, no extra characters, no dragons or ornate filigree. Readable 300px wide. NO other text."
+      },
+      {
+        "id": "app-icon",
+        "path": "docs/art/r4/sources/app-icon.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-0f784b5b-dd0c-4c90-acfb-4811ba5c7ef8.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: logo-brand. Square APP ICON proposal for Trine Frontier. A bold triangular formation of THREE small miniature crystal WATCHTOWERS, orange fire tower left, icy cyan spire right, purple ring lightning shrine lower center, joined by one clear violet triangular line carved into a stone slab. Three instantly distinct silhouettes, framed tightly with minimal details. Ivory mineral-paper background with cinnabar seal-shaped chamfered border. Bright legible, broad color planes, subtle ground shadows upper-left light. Fills 80 percent canvas, no people, no weapons, no words, no generic dark teal gradient or rounded card. Strong at 64px, handmade eastern fantasy gouache and clean warm ink."
+      },
+      {
+        "id": "road",
+        "path": "docs/art/r4/sources/road.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-5a224286-7be5-4e00-a757-057c7e10e81c.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Game terrain asset: ONE LONG HORIZONTAL DIRT ROAD STRIP across center of landscape 1536x1024, TRUE transparent outside road and soft scattered grass shoulders. Warm light ochre compact earth with TWO worn cart ruts, irregular width about 30 percent changes, abrasion on inner edges, many tiny grey pebbles and sparse olive grass intruding into ragged shoulders, subdued gouache. Road itself broad flat calm surface, not brick, not stone wall. No turns needed in this strip because it will map onto an engine path. At top and bottom loose grass breaks naturally to transparency, avoid sharp rectangular edges. No perspective, directly overhead, no scenery, people, text or buildings. Enough height to show road texture without oversize rocks. Subtle upper-left light."
+      },
+      {
+        "id": "ford",
+        "path": "docs/art/r4/sources/ford.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-0812e5d6-d675-4fd6-a50e-fc29c9e36aae.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Landscape 1536x1024 top-down miniature frontier river valley GROUND PLATE, cool cloudy silver sage light, full terrain viewed from overhead, NO HORIZON and NO SKY. Eroded grey slate cliffs and pale stone terraces on left and right margins, silver reed beds and cold moss, a smooth sage-grey low-detail meadow occupies central 70 percent, scattered flat pebbles, dark-blue mineral crystals in far outer corners. Spacious playable ground, not photo noise, large gouache brush shapes, all contours match bright chibi unit style. NO river or roads yet (they are separately composited), NO houses, bridges, people or text. Distinct geography from warm pine: layered SLATE RIVER CANYON with pale reeds, no red pine trees, no ochre desert, cool grey-green foreground terrain. Upper-left soft overcast light."
+      },
+      {
+        "id": "towers",
+        "path": "docs/art/r4/sources/towers.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-d422c01e-f436-412d-a5e6-72333438f1ec.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. ONE horizontal 3-TOWER GAME ASSET ATLAS on TRUE TRANSPARENT background. Exactly three equally large isolated MINIATURE WATCHTOWERS in separate equal columns, entire towers uncut with generous gutters. LEFT FIRE: cinnabar red pagoda eaves, enormous three-lobed orange flame crystal, dark warm-brown square rough STONE footing. CENTER ICE: cyan tall angular hexagonal ICE SPIRE with blue-grey stacked slate base and asymmetrical stone steps. RIGHT LIGHTNING: purple ring-and-forked-crystal shrine, two crescent bronze arms, broad dark VIOLET BASALT square footing. Same perspective three-quarter elevated miniature, same thickness warm ink, same upper-left light, broad color planes match reference unit board. Bases are actual weathered square stone on RAW EARTH, small attached scattered gravel roots. ABSOLUTELY NO WHITE OVAL PLATFORMS, no white circles or glowing saucers, no logos, text, characters, sky or ground plane. Towers clearly heavier than troops, restrained flame/ice/spark highlights, not elaborate finicky filigree. All three tower silhouettes different even in solid black."
+      },
+      {
+        "id": "attack-corrections",
+        "path": "docs/art/r4/sources/attack-corrections.png",
+        "original": "C:/Users/digimkt/.codex/generated_images/01a14abb-b638-7be0-bb04-a9861c403d5b/exec-9b1e77b5-4398-43fe-b830-9098c3367015.png",
+        "prompt": "Trine Frontier R4, Eastern frontier fantasy mineral-pigment gouache storybook miniature, appealing three-head chibi proportions, broad saturated color planes, clean warm-charcoal 2px contour, matte stone cinnabar lacquer celadon ice wisteria lightning, coherent upper-left key light, readable at 64px, no photorealism, no emoji, no generic fantasy filigree. Use case: stylized-concept. Production ATTACK CORRECTION ATLAS with exactly THREE ROWS and FOUR COLUMNS, 1536x1024 landscape, transparent background. Reference character sheet locks identities. EACH CELL has one COMPLETE full-body small chibi character maximum height 240px and width 280px inside a 384x341 cell, at least 40px EMPTY transparent margin all around; weapons NEVER cross cells. Top row ICE ARCHER white hood celadon cloak icy bow. Middle row LIGHTNING MAGE purple topknot diadem purple robe forked staff. Bottom row GREY BANNER ENEMY tall steel-blue helmet navy cloak kite shield and short spear. All face RIGHT, coherent same short-body proportions. Four columns are exactly: 1 poised anticipation; 2 wind-up (draw bow/pull staff/spear back); 3 IMPACT (release short arrow/point forked staff with small violet spark/thrust spear); 4 recovery lowering weapon. Four distinct articulated poses per character, facial effort. Entire BOW and STAFF and SPEAR inside the cell, NO projectile extending outside cell, NO large trailing VFX or text. Clear large gutters BETWEEN columns and rows; if necessary make weapons shorter rather than clip them. No scenery, no ground shadow, no lines or words."
+      }
+    ]
+  },
+  "fifthRound": {
+    "status": "EXECUTED",
+    "round": 5,
+    "actualTool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "modelNote": "Built-in tool did not disclose model slug; no inferred gpt-image version.",
+    "stylePrefix": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels.",
+    "samples": [
+      {
+        "id": "unit-sheet",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Use case: stylized-concept. Asset: CHARACTER MODEL SHEET, not a game screenshot. Wide landscape sheet on ivory paper, FIVE horizontal rows, each row exactly three full-body views front / right side / back plus a small face expression. Row 1 red-armored guardian with round shield, straight sword, human face; row 2 cyan hooded female archer with large crescent bow; row 3 violet-haired female mage with forked crystal staff; row 4 cobalt blue enemy soldier with horned pointed helmet and kite shield; row 5 orange headscarf worker with pickaxe and ochre tunic. Equal adult body proportions, 3.5 heads tall, heads present and facial eyes visible, same body height and feet baseline for every row. Equipment compact and below top of helmet. No buildings. This is the canonical turnaround sheet for redrawing the siege sprites. Keep all silhouettes separate. No text, no numbers, no watermark.",
+        "path": "docs/art/r5/sources/unit-sheet.png",
+        "transparentBackground": false
+      },
+      {
+        "id": "warrior",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: male guardian, cinnabar red lamellar armor, red scarf, round bronze shield with red rim in left hand, short sword in right, dark ponytail, human face with eyes. Match first row of supplied character sheet, simplify detail for 48px.",
+        "path": "docs/art/r5/sources/warrior.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/character-sheets/r5-units.png",
+            "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+            "role": "canonical character design"
+          }
+        ]
+      },
+      {
+        "id": "archer",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: female archer, saturated celadon cyan hood and cloak, cream tan skin, short brown hair, distinctive LARGE crescent bow, no shield. Match second row of supplied character sheet, simplify detail for 48px.",
+        "path": "docs/art/r5/sources/archer.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/character-sheets/r5-units.png",
+            "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+            "role": "canonical character design"
+          }
+        ]
+      },
+      {
+        "id": "mage",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: female three-phase mage, violet hair and violet embroidered robes, forked crystal staff, tan face with clear eyes, compact 3.5 head proportions. Match third row of supplied canonical sheet. Staff no taller than head.",
+        "path": "docs/art/r5/sources/mage.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/character-sheets/r5-units.png",
+            "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+            "role": "canonical character design"
+          }
+        ]
+      },
+      {
+        "id": "enemy",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: enemy soldier, vivid cobalt BLUE lamellar armor, horned pointed helmet, deep-blue kite shield, short sword, black fur shoulders, gold trim. Match fourth row of supplied canonical sheet. NOT red player armor.",
+        "path": "docs/art/r5/sources/enemy.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/character-sheets/r5-units.png",
+            "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+            "role": "canonical character design"
+          }
+        ]
+      },
+      {
+        "id": "worker",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: friendly male worker, orange bandanna, ochre tunic, brown trousers, compact short PICKAXE, tan face with eyes, no armor. Match fifth row of supplied canonical sheet. Row 3 mine with pickaxe anticipation / swing / impact / recovery, row6 carry orange crystal. Same adult height as soldier.",
+        "path": "docs/art/r5/sources/worker.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/character-sheets/r5-units.png",
+            "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+            "role": "canonical character design"
+          }
+        ]
+      },
+      {
+        "id": "ford",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: GAME TERRAIN ONLY, portrait 1024x1536 orthographic overhead river-valley ford. Full-frame ground, no horizon, no characters, no buildings, no bridges, no road arrows, no UI. Two weathered gray-stone escarpments flank a vividly flowing teal river. River meanders down center: centerline at 46% width at top, 60% at 20% height, 45% at 40%, 60% at 65%, 45% at bottom. River width alternates distinctly 20%,35%,19%,34%,22%. Visible ochre sandbanks, pebbled SHALLOWS, shoals, reeds, ruined stone steps descending into water near 30% and 68% height. Flat earthy land approaches from left and right at those two crossing heights, leave these clear for bridges added at runtime. Left bank green moss and cinnabar maples, right bank cold slate and purple crystal stones. Clarity not noisy texture, painted painterly art consistent scale, no vertical straight water channel, no text.",
+        "path": "docs/art/r5/sources/ford.png",
+        "transparentBackground": false
+      },
+      {
+        "id": "hound",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: game SPRITE ATLAS exactly 4 columns by 6 rows, portrait 1024x1536, genuine transparent background, each cell 256x256 with large clear gutters. The exact same character in all 24 cells, full head and feet, body height consistent, compact equipment. Face right in three-quarter orthographic view. Rows in order: 1 idle breathing four distinct poses; 2 walking with alternating forward legs four poses; 3 attack anticipation, windup, impact, recovery; 4 hurt recoil four poses; 5 death falling then prone four poses; 6 use skill four poses. Each body fits within its own cell, no contact between sprites. Warm upper-left light, no floor, no drawn shadows, no captions, no grid lines. Draw actual articulated limb changes, not duplicates. Subject: four-legged wolf-sized war hound in vivid COBALT BLUE scale armor, tan fur, gold trim, recognizable muzzle, pricked ears, thick tail. Face RIGHT. Compact adult dog proportions, not a humanoid, not a giant monster. Strong alternate leg positions on walk row. Attack row snarling lunge three stages. No accessory or flag; accessories separately overlaid. Keep entire muzzle inside every cell.",
+        "path": "docs/art/r5/sources/hound.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "bridge",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: one very broad rectangular ancient stone ROAD BRIDGE cutout, orthographic top-down with slight south-facing visible stone edge, transparent background. Runs left to right, aspect ratio 2.1:1. Clear wide tan-gray paved deck covers central 80% of height between low northern and southern parapets. Wide splayed abutment stone stairs at both ends enter riverbanks, weathered stone slabs, ochre sand on the ends, moss and embedded blue/violet elemental stones on the rail pillars. Broad bridge width must fit infantry comfortably, not a skinny arch rail. No characters, no water or ground behind it, no text, no arrows, no floor shadow outside. Fully separate visible outline.",
+        "path": "docs/art/r5/sources/bridge.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "hound-gear",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: 3 separate armored wolf equipment OVERLAYS, single horizontal row, transparent background. Left a compact cinnabar battle pennant on a short dark pole, trailing to left, top-left lit; middle a cobalt blue shoulder armor saddle with two small bronze horns, side view right; right an ochre leather supply pack with rolled red blanket, side view right. Small clean silhouettes, designed to sit on the back of a right-facing armored dog, isolated from each other, no dogs or people, no floor or cast shadow, no text.",
+        "path": "docs/art/r5/sources/hound-gear.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "panel",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: square UI parchment panel texture. Luminous clean ivory center, unmarked flat quiet central 80% for small black text. Outer edges have narrow engraved STONE border, cinnabar seal-corner details with three small motifs flame / ice crystal / thunder branch. Fine mineral pigments, no large stain or dirt, geometric cut corners. Completely flat orthographic 2D panel texture no perspective, no text, no letters, no watermark.",
+        "path": "docs/art/r5/sources/panel.png",
+        "transparentBackground": false
+      },
+      {
+        "id": "commander",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Edit target: supplied commander. Preserve EXACT female identity, brown high ponytail, red cape, bronze lamellar, celadon sash, spear, three glowing orange/cyan/purple waist seals. Redraw with refined mineral-painted texture matching canonical R5 soldiers, expressive resolute face with eyebrows, closed determined smile. Full body and spear completely in frame, transparent background, broad confident stance facing slightly left, outstretched hand indicating orders. Left-upper light, saturated colors, no scenery, no text. Keep face readable, avoid pale skin or chibi enlargement.",
+        "path": "docs/art/r5/sources/commander.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/r4/sources/commander.png",
+            "sha256": "2dfe5b92b71f1525f63b3c8f3846774455285f93bc4cdedb39230000ca5de953",
+            "role": "identity-preserving edit target"
+          }
+        ]
+      },
+      {
+        "id": "tower-cards",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: single horizontal TRIPTYCH game tower portrait atlas, exactly 3 separate square cells side by side, transparent background. Each cell is an EXTREME CLOSEUP of the upper two-thirds of a distinct Eastern elemental tower, fills 85% of its square. Left cinnabar pagoda crown cradling a huge ORANGE FLAME; center dark stone crown pierced by one massive CYAN ICE CRYSTAL cluster, sharp triangular silhouette; right dark violet altar crown with one huge circular PURPLE LIGHTNING RING and forked gold lightning. Fire/ice/lightning each the largest element of their card. Same scale, ornate ink outline, warm upper-left light. No labels, prices, borders, or floor. No horizontal overlap between cells.",
+        "path": "docs/art/r5/sources/tower-cards.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "icons",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: three distinct ELEMENT SEAL ICONS in one horizontal row, equal square cells, transparent background. Left large orange flame carved cinnabar seal, middle large angular cyan ice crystal set in dark bronze, right jagged violet lightning bolt inside open bronze ring. Each isolated silhouette fills 80% square, simplified rich mineral colors, readable 32px, no text, no letters, no white outline, no backdrop.",
+        "path": "docs/art/r5/sources/icons.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "logo",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: wide horizontal TITLE LOGO for game, genuine transparent background. Exact large Traditional Chinese calligraphic text: 「三相邊境」. Smaller readable English line: TRINE FRONTIER. Warm dark ink brush lettering on transparent, thin bronze carved underline. One small cinnabar square seal at left containing abstract trinity symbol, subtle flame / cyan shard / violet lightning accents integrated only at left, typography fills width. All four Chinese characters exact. No background rectangle, no scenery, no other words, not a UI screenshot.",
+        "path": "docs/art/r5/sources/logo.png",
+        "transparentBackground": true
+      },
+      {
+        "id": "app-icon",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Asset: square 1024 app icon proposal for 三相邊境. A striking single triangular carved bronze TRINITY TOWER SEAL, orange phoenix flame at left, cyan angular ice crystal at upper right, violet lightning ring at lower right, all emerge from one warm dark stone base. Rich mineral pigments, vivid readable silhouette and strong light-dark separation at 64px, ivory mist backdrop with restrained river-valley contour. No text, no letters, no border, no rounded baked corners, no people. This symbol matches actual three elemental towers used in the game, not an unrelated character.",
+        "path": "docs/art/r5/sources/app-icon.png",
+        "transparentBackground": false
+      },
+      {
+        "id": "bridge-plan",
+        "prompt": "Trine Frontier / 三相邊境, Eastern mineral-pigment fantasy, refined hand-painted strategy game, warm ink contour, saturated cinnabar / celadon cyan / wisteria purple, cobalt-blue enemy armor, warm upper-left key light, cool violet contact shadows, crisp compact silhouettes legible at 48px, no photorealism, no UI labels. Edit target: supplied bridge. Change camera to EXACT VERTICAL TOP-DOWN PLAN VIEW, no perspective, no visible front wall. Make the paved walkable deck a very BROAD nearly SQUARE slab, width 1.4 times north-south depth. The EMPTY PAVED DECK occupies 82% of total image height between two very THIN parapets at top and bottom. No arch, no underside, no front fascia. Keep matching weathered slabs, tiny crystal insets and short steps flaring at left/right. Transparent background, complete isolated object, no water, no people, no text. This must look like a wide road junction crossing, not a narrow walkway.",
+        "path": "docs/art/r5/sources/bridge-plan.png",
+        "transparentBackground": true,
+        "references": [
+          {
+            "path": "docs/art/r5/sources/bridge.png",
+            "sha256": "393900283e124e3f2dc62b673623d4aa7cdf4b1f6a6bd2e798273de3113b1884",
+            "role": "edit target; rejected narrow bridge"
+          }
+        ]
+      }
+    ]
+  },
+  "sixthRound": {
+    "status": "EXECUTED",
+    "round": 6,
+    "actualTool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "modelNote": "Built-in tool did not expose a model slug; no inferred gpt-image version.",
+    "stylePrefix": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text.",
+    "samples": [
+      {
+        "id": "unit-sheet",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Character design and scale turnaround reference on warm ivory paper, landscape. Three rows: row1 red lamellar male guardian with round shield and compact sword; row2 cyan-hooded female archer with a complete crescent bow; row3 violet-haired female battle mage with compact forked crystal staff. Each row front side back full-body plus face expression, all characters exactly equal neutral standing body height, 3.5 heads tall, heads and full equipment never clipped. Bottom narrow strip: same red soldier next to small elemental pagoda tower 2.4 times soldier height and frontier keep 1.8 times tower height, common foot baseline. Clean separated silhouettes, restrained painterly detail, consistent existing Chinese fantasy identity. This is a character sheet, not screenshot. 1536x1024.",
+        "transparent": false,
+        "path": "docs/art/r6/sources/unit-sheet.png"
+      },
+      {
+        "id": "ford",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: playable battlefield terrain only, NO buildings, NO people, NO bridges, NO UI. Wide landscape 1536x1024 orthographic 3/4 top-down valley crossing. A winding turquoise river occupies central 42% width, flows from top at x55%, bends left toward x45% at y30%, then right toward x60% at y66%, then left at bottom. The two broad meanders and two very visible pinched shallows must make changing river width unmistakable. Wide pale ochre sand bars, cyan shallow shoals with visible submerged stones, wet pebbled margins, russet reeds, eroded banks and slate outcrops, rippled deep cyan channel. Left bank warm autumn pines, red maples; right bank cold violet slate cliffs. Open tan land approaches cross left to right at 30% and 66% of image height for two separate arched bridges added later. No flat geometric color strips. Large coherent brush planes instead of micro texture. Match warm-upper-left lighting and game-scale architecture perspective. Fill image edge to edge.",
+        "transparent": false,
+        "path": "docs/art/r6/sources/ford.png"
+      },
+      {
+        "id": "bridge",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: isolated SINGLE low shallow-arched Chinese frontier stone bridge with wooden railings, horizontal crossing left to right, wide 1536x1024 transparent image. Orthographic three-quarter top-down seen from south, SAME perspective as strategy game buildings. Bridge length to total visual height ratio at least 3.4:1. Long stone road deck with humped center, narrow top deck about 22% of span, broad splayed rocky ramps at both ends extending into land. Visible open dark arch beneath center with negative transparent void, two stone piers, slender timber rails at rear and front leaving playable deck visible. Warm gray weathered stone, moss and cinnabar knots on rail posts, no beige rectangular platform, no square tile patio. No river or ground surrounding except rocky embedded abutments on both ends. The open arch and long slender silhouette must be unmistakable even at 220px wide. Empty bridge, no characters, no text. Short violet cast-shadow brush under bridge kept separate from deck shape. Genuine transparent outside object.",
+        "transparent": true,
+        "path": "docs/art/r6/sources/bridge.png"
+      },
+      {
+        "id": "bridge-horizontal",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Edit target: supplied bridge. Repaint as a strict HORIZONTAL bridge seen from directly south, orthographic 3/4 top-down, both road entry points at EXACTLY the same vertical height. Left end x10%, right end x90%, both y60%. The arched deck rises gently to y45% in center. A single dark OPEN arch under the center. Very long and slender silhouette, total visible bridge 4 times as wide as tall. Preserve painted gray stone blocks, reddish wooden railings, moss, embedded rocky ramp ends and soft upper-left light. Remove all ground and diffuse cast shadow outside object, genuine transparent background. No diagonal axis, no paved square platform, no landscape, no text. This cutout must fit a game river that crosses from left to right on a straight horizontal route.",
+        "transparent": true,
+        "reference": "bridge.png",
+        "path": "docs/art/r6/sources/bridge-horizontal.png"
+      },
+      {
+        "id": "portraits",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: a transparent 1536x1024 horizontal THREE-panel portrait sprite strip, no borders or captions, equal cells, wide clear gutters. All three portraits have the SAME framing: complete head, shoulders to waist and COMPLETE signature weapon inside cell with 12% transparent safe margin, no cropped bow or staff tips. Left: cinnabar lamellar male guardian, ponytail, whole red-rim round shield and short sword beside face. Center: celadon cyan hooded female archer, complete crescent bow held upright beside head, string and both tips fully inside cell. Right: violet-haired female mage, complete forked purple crystal staff at shoulder. Friendly appealing distinct faces, 3.5-head miniature proportions. Clean large planes and saturated colored clothing at least 60% of body area, no dull gray armor, no white ground, no tiny gold filigree. Match the supplied canonical reference identities. Genuine alpha background. These portraits will fill matching 3 cards at 95px width.",
+        "transparent": true,
+        "reference": "unit-sheet.png",
+        "path": "docs/art/r6/sources/portraits.png"
+      },
+      {
+        "id": "hound-variants",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: enemy ARMORED WOLF walking sprite atlas, exactly FOUR columns by THREE rows, 1024x1024 transparent canvas, each cell about256x341, generous gutters. Three variants of the SAME cobalt armored quadruped wolf, muzzle and pointed ears, blue lamellar barding and claw feet. Row1 captain with TALL distinctive ragged orange pennant mounted on back. Row2 heavy horn-helmet guard with two LARGE forward curving ivory horns and broad blue shoulder armor. Row3 courier with TWO large ochre supply satchels on back and cyan cloth strip. Each row shows FOUR genuinely articulated WALK poses: alternate legs stretched then compressed then opposite legs stretched then compressed; heads angle and tails vary subtly, NOT four copies. All wolves face to the RIGHT in three-quarter orthographic strategy view, equal body size. Strong big three-way silhouette differences. No rider or humans, no ground or drawn shadow, no text, no grid. Saturated blue armor, medium warm-gray fur with visible white face highlights, short warm charcoal outline, body luminance medium. Keep every paw and pennant safely inside its cell.",
+        "transparent": true,
+        "path": "docs/art/r6/sources/hound-variants.png"
+      },
+      {
+        "id": "panel",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: square UI FRAME TEXTURE 1024x1024, opaque ivory rice paper center, narrow painted mineral-stone border only at outermost 8%, slightly irregular single vermilion ink lines and worn seal impressions at four cut corners. Tiny flame / ice crystal / hollow lightning ring motifs at top center, not ornate gold scrollwork. The central 84% is almost flat warm ivory with very subtle fibers and NO stains that reduce text contrast. Subtle warm gray edge bevel, fine hand-painted worn stone line. This will be used as 9-slice command panel border on an Eastern fantasy strategy game. No words, no circles, no dark teal, no rounded card.",
+        "transparent": false,
+        "path": "docs/art/r6/sources/panel.png"
+      },
+      {
+        "id": "icons",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: horizontal 1536x1024 transparent THREE elemental seal icons in equal separated cells, centered with generous 16% gutters, no frame. Left cinnabar red-orange PHOENIX FLAME with solid broad flame silhouette rising from stone pagoda pedestal. Center celadon cyan ICE cluster with three sharp triangular crystal points rising from squat stone pedestal. Right wisteria purple LIGHTNING with hollow circular halo and split zigzag bolt rising from stone pedestal. Same compact painted stone style, thick readable warm-ink outline, simple high contrast, no fine filigree. Each whole icon complete, not touching edges. No lettering or watermark. At 40px these must be clearly different silhouettes, not color swaps.",
+        "transparent": true,
+        "path": "docs/art/r6/sources/icons.png"
+      },
+      {
+        "id": "commander",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: main commander character full-body cutout, portrait1024x1536 transparent. Experienced East Asian young woman frontier general with calm determined expressive eyes, dark hair tied high, cinnabar red scarf and lamellar armor over ochre fabric, left hand holds three small hanging seals clearly orange flame / cyan ice / purple thunder, right hand grips sheathed single-edged sword pointed downward. Appealing compact 3.5-head miniature proportions, complete boots and head, solid colored armor planes, 60% costume vivid cinnabar, readable face with warm skin, strong simple silhouette, no sexualized costume, no fine gold filigree. Standing three-quarter facing left, body on right half for opening text on left. Upper-left light, no floor or surrounding landscape, no text, no drawn shadow. Match supplied role design sheet's material language.",
+        "transparent": true,
+        "reference": "unit-sheet.png",
+        "path": "docs/art/r6/sources/commander.png"
+      },
+      {
+        "id": "logo",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: title logo transparent1536x1024, large hand-brushed traditional Chinese title EXACT TEXT 「三相邊境」 in four correctly written characters horizontally centered, dark warm charcoal ink with subtle vermilion worn seal accents. Under it small uppercase English TRINE FRONTIER. Small triple elemental seal above title, phoenix flame orange, ice crystal cyan, hollow lightning ring violet. Restrained mineral-pigment Eastern frontier identity, generous transparent margins, no background board, no gold filigree, no other words, clearly legible at 280px wide. Warm ivory fine outline around dark ink for clean separation.",
+        "transparent": true,
+        "path": "docs/art/r6/sources/logo.png"
+      },
+      {
+        "id": "app-icon",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: final APP ICON proposal square1024x1024, opaque full bleed. Three powerful small elemental pagoda towers arranged in triangle on a mineral paper map, frontal red PHOENIX FLAME pagoda, upper right cyan ICE crystal spire, lower right violet LIGHTNING hollow ring tower. Strong unmistakable triple silhouette, minimal large color planes, charcoal contours, upper-left lighting. Background warm ivory and cinnabar map engraving with a tiny winding river and curved stone arch bridge beneath, no rounded square border, no letters, no text, no numbers, no UI. At64px flame/ice/halo should still be readable. Objects fill central80%, clean commercial composition, not generic sword fantasy icon.",
+        "transparent": false,
+        "path": "docs/art/r6/sources/app-icon.png"
+      },
+      {
+        "id": "bridge-deck",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: bridge replacement for a steep top-down strategy map. A broad HORIZONTAL Chinese stone arch bridge, endpoints on exactly same y, span LEFT to RIGHT. Landscape transparent1536x1024. Bridge silhouette must be 2.5 times as wide as tall. Camera from very HIGH overhead, so the entire broad stone roadway is visible: the road DECK accounts for 75% of bridge visual height and spans 100% length; rear slim wooden rail at top edge, near slim rail along lower edge. Below the near rail only the lowest 25% shows a shallow dark open arch and stone piers, clear transparent negative space under arch. Splayed embedded rocky ramps at left and right ends, lightly broken gray stones and warm cinnabar railing, sand dust on ramps. Avoid a vertical side-on bridge. Avoid square patio or beige tile platform. Visible hump and open arch must read clearly, but top deck is generous enough for a column of small soldiers. NO outside cast shadow, NO river, NO text, alpha background. Steep 65degree camera looking down, upper-left lighting.",
+        "transparent": true,
+        "path": "docs/art/r6/sources/bridge-deck.png"
+      },
+      {
+        "id": "warrior",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: game sprite atlas exactly FOUR columns by SIX rows, portrait1024x1536 genuine transparent background, 256px cells with generous gutters. SAME human in all24 cells, full head and feet never clipped, medium compact 3.5-head body, same standing body height, not tiny realistic face. Face RIGHT in three-quarter orthographic strategy view. Subject: male guardian cinnabar red lamellar armor, ponytail, red scarf, round red-rim bronze shield and SHORT sword kept close to torso, warm human face. Match supplied character reference row1. No long drapery or extended weapon silhouette. Rows: 1 idle four distinct subtle poses; 2 true walk four alternating leg poses; 3 sword attack anticipation / windup / CONTACT IMPACT / recovery, no VFX; 4 hurt recoil four articulated poses; 5 death four poses from stagger to prone; 6 rally use-skill four poses with raised shield. Preserve exact same scale across all poses, do not enlarge crouching/prone poses. No floor, no drawn shadows, no text or grid. Crisp colored shapes readable at48px, details simplified.",
+        "transparent": true,
+        "reference": "unit-sheet.png",
+        "path": "docs/art/r6/sources/warrior.png"
+      },
+      {
+        "id": "archer",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: game sprite atlas exactly FOUR columns by SIX rows, portrait1024x1536 genuine transparent background, 256px cells with generous gutters. SAME human in all24 cells, full head and feet never clipped, compact appealing 3.5-head body, same standing body height. Face RIGHT in three-quarter orthographic strategy view. Subject: female archer with vivid CELADON CYAN hood, short cloak ending at knees, tan leather boots, warm human face and brown hair, compact complete CRESCENT BOW held near body, NOT a giant longbow, no floor-length ribbons. Match supplied reference row2. Rows: 1 idle four distinct subtle poses; 2 true walk four alternating leg poses; 3 bow attack anticipation / draw / RELEASE CONTACT / recovery, no projectile or VFX; 4 hurt recoil four articulated poses; 5 death four poses from stagger to prone; 6 ready-arrow use-skill four distinct poses. Preserve same body scale across every pose, do not enlarge crouching/prone poses. No floor, no shadows, no text, no grid. Crisp colored planes and simple outlines readable at48px.",
+        "transparent": true,
+        "reference": "unit-sheet.png",
+        "path": "docs/art/r6/sources/archer.png"
+      },
+      {
+        "id": "mage",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: game sprite atlas exactly FOUR columns by SIX rows, portrait1024x1536 genuine transparent background, 256px cells with generous gutters. SAME human in all24 cells, full head and feet never clipped, compact appealing 3.5-head body, same standing body height. Face RIGHT in three-quarter orthographic strategy view. Subject: violet-haired female battle mage in vivid WISTERIA PURPLE fitted tunic with short knee-length mantle, visible trouser legs and boots, compact forked purple crystal staff only as tall as her head, NOT long floor-length skirt or huge outstretched staff. Match supplied reference row3 but simplify the silhouette to fit troop scale. Warm human face. Rows: 1 idle four distinct subtle poses; 2 true walk four alternating leg poses with knees clearly visible; 3 spell attack anticipation / windup / CONTACT IMPACT gesture / recovery, no VFX; 4 hurt recoil four articulated poses; 5 death four poses stagger to prone; 6 use-skill four poses. Preserve same body scale across every pose, do not enlarge crouched/prone figures. No floor, no shadows, no words, no grid. Crisp compact colored planes readable at48px.",
+        "transparent": true,
+        "reference": "unit-sheet.png",
+        "path": "docs/art/r6/sources/mage.png"
+      },
+      {
+        "id": "warrior-hurt",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: FOUR-frame HURT animation sprite strip on transparent1536x1024 landscape, a single horizontal row of exactly four separated full-body figures with equal standing height. Match the supplied reference guardian exactly: cinnabar red lamellar male guardian, ponytail, red scarf, round lion shield and short sword. Four different articulated STANDING hurt poses: 1 chest recoils backward with one foot braced; 2 shoulders flinch sideways, shield takes impact; 3 head turns with pained face, torso tilts slightly, knees almost straight; 4 regains standing guard with shield pulled in. EVERY frame fully upright with head at nearly same baseline, head-to-foot height varies at most5%, NO kneeling, NO crouching, NO sitting, NO falling. Each figure fits complete including feet and sword inside its own quarter with wide transparent gutters. Same human design, same body size, 3/4 facing RIGHT, upper-left light, no floor, no shadows, no arrows, no words, no border. This is a repair animation row, not four new characters. Keep silhouette compact and distinct in all4 frames.",
+        "transparent": true,
+        "reference": "warrior.png",
+        "path": "docs/art/r6/sources/warrior-hurt.png"
+      },
+      {
+        "id": "mage-hurt",
+        "prompt": "Trine Frontier / 三相邊境 R6, Eastern mineral-pigment gouache fantasy strategy miniature, broad readable color planes, warm charcoal ink outline, vivid cinnabar red / celadon cyan / wisteria violet, cobalt enemy armor, upper-left warm sunlight and short cool violet shadows, no photorealism, no generic mobile UI, no text. Asset: FOUR-frame HURT animation sprite strip on transparent1536x1024 landscape, a single horizontal row of exactly four separated full-body figures with equal standing height. Match supplied reference mage exactly: violet-haired female mage, vivid wisteria purple short knee-length split tunic and mantle, dark trousers and boots, compact forked purple crystal staff. Four different articulated STANDING hurt poses: 1 chest recoils backward with braced feet; 2 shoulders flinch sideways and staff held against body; 3 head turns with pained face and slight torso tilt, knees almost straight; 4 regains upright ready stance. EVERY frame remains upright, head-to-foot height varies at most5%, no crouching, no kneeling, no falling, no sitting. The short mantle never expands into a long floor-length dress. Each figure fits including head, staff and boots inside its quarter, wide transparent gutters. Same body size and same warm-faced human identity in all4, 3/4 facing RIGHT, upper-left lighting. No ground, no shadows, no VFX, no words or borders. Repair row for existing animation; compact silhouette.",
+        "transparent": true,
+        "reference": "mage.png",
+        "path": "docs/art/r6/sources/mage-hurt.png"
+      }
+    ]
+  },
+  "seventhRound": {
+    "round": 7,
+    "actualTool": "image_gen__imagegen",
+    "actualModelSlug": null,
+    "modelDisclosure": "Built-in tool does not expose model slug.",
+    "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+    "samples": [
+      {
+        "id": "character-sheet",
+        "path": "docs/art/character-sheets/r7-units.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: character design model sheet on pale parchment. A clean six-row model sheet, each row four equally sized isolated complete figures: front view, side view facing right, back view, action pose. ROW1 red lamellar-armoured black-haired guardian with a very broad red round shield and short sword; ROW2 teal-hooded female archer with clearly separated extended bow arm, prominent golden C-shaped bow with complete bowstring; ROW3 purple-haired female mystic in a compact violet robe, big bright faceted lavender trident staff; ROW4 cobalt-armoured wolf captain with a very large rigid orange swallowtail pennant strapped on back, standing alert; ROW5 squat cobalt-armoured wolf with unmistakable paired ivory helmet horns, crouched stalking; ROW6 lean cobalt-armoured wolf with two ochre saddlebags and rolled bedroll, bounding forward. Every full figure completely within its cell with generous gutters; head, face, feet and all weapons uncut. Cartoon miniature proportions matching existing sprites, readable at48px. All wolves face to the right in action column; true four-legged anatomy. No text, no labels, no scenery, no additional figures. This sheet locks enlarged WIDTH of weapons/accessories, NOT larger body HEIGHT."
+      },
+      {
+        "id": "hound-walk",
+        "path": "docs/art/r7/sources/hound-walk.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent game sprite atlas. Reference model sheet is identity and style guide. ONLY the cobalt-armoured four-legged wolves from rows4–6. EXACTLY 3 rows and 4 columns, twelve complete isolated wolves on transparent background, generous 30px gutters, no grid lines or ground shadow. ALL face RIGHT. ROW1 captain with HUGE orange swallowtail pennant, alternating four walking steps, alert head high; ROW2 paired LARGE ivory helmet horns, low stalking trot with bent forelegs, four distinct alternating leg steps; ROW3 ochre saddlebags and large rolled tan bedroll, long bounding gait with stretched forelegs, four distinct frames. Give each row a different body posture, not just different accessory. Body occupies same 2/3 cell height without flag; flag upper third. Complete feet, tails, horns, bags and flags inside EVERY cell. Draw true articulated different limb poses, never rotate or scale copies. Broad saturated cobalt plates, clean large color masses, confident 2px dark warm-blue outlines; bright ivory horns, orange banner, ochre packs remain very legible at48px body height. No text, no extra characters, no cropping."
+      },
+      {
+        "id": "warrior",
+        "path": "docs/art/r7/sources/warrior.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent 4-column by 6-row animation sprite sheet ONLY the red guardian from row1 of reference. Preserve face, black ponytail, red lamellar armour and bold red round shield. Broaden shield to 70% of torso height and show sword silhouette separately. Each of 24 cells has the COMPLETE full body and all sword/shield, large transparent gutters. All three-quarter facing RIGHT. Exact rows: 1 idle four subtly different ready poses; 2 walk four TRUE alternating leg steps; 3 attack anticipation sword drawn back, sword overhead, impact forward slash, recovery; 4 standing hurt four recoiling but upright poses; 5 death four stages from bent knees to prone; 6 celebration four shield raised/sword raised gestures. Consistent 4-head miniature figure, consistent body height per frame excluding death. Outfit broad saturated vermilion planes and ink edges; each face visible. Same feet baseline in each cell. No stretched motion trails, no particles, NO shadow, no floor, no colored matte, no checkerboard, no background of any kind, no frame or text. All weapons fully contained inside each cell, leave 15 percent padding. Wide but not tall silhouettes for 48px runtime."
+      },
+      {
+        "id": "archer",
+        "path": "docs/art/r7/sources/archer.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent sprite animation atlas, EXACT 4 columns x6 rows. ONLY teal-hooded female archer from reference row2, black braid, teal coat and ivory undercloth, large GOLD C-shaped bow with clear string. Make bow arm boldly extended to right so bow and torso have a large NEGATIVE SPACE, bow limb thickness readable at48px. COMPLETE FULL body, face, boots, bow and arrows in every cell with 15 percent clear gutters; never touch cell edges. All face three-quarter RIGHT. Row1 four ready idle poses with bow arm extended; row2 four alternating walking steps, carrying bow OPEN to right; row3 draw arrow anticipation, full draw, release impact, lower bow recovery; row4 four upright hurt recoils; row5 four death progression including prone final; row6 four raised bow celebrations. Consistent 4-head miniature human body height. True articulated distinct drawings, not transformed copies. No ground, no shadow, no matte, NO text or grid. Warm top-left highlights, saturated teal planes and dark warm outline. Keep the golden C bow fully visible and visibly separated from body in every live pose."
+      },
+      {
+        "id": "mage",
+        "path": "docs/art/r7/sources/mage.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent animation atlas, EXACT 4 columns by6 rows. Only purple-haired female mage from reference row3. Compact violet gold-trimmed robe and bright LAVENDER three-pronged crystal staff, giant pale lilac faceted crystal top at least head size, bold purple hair mass. Maintain human miniature4-head body. All complete figures face RIGHT in3/4 view, all heads, feet, staff and cloth fully inside cells with ample15% gutters. Row1 four upright idle poses holding staff at right side with crystal well clear of hair; row2 four alternating true leg steps; row3 anticipation staff pulled back, staff lifted, forward impact thrust, recovery; row4 four UPRIGHT standing hurt recoils, knees straight and full height, not crouching; row5 four death stages ending prone; row6 four upright celebration gestures. 24 genuinely articulated different poses; fixed scale and feet baseline. Bright saturated lavender crystal with solid pale highlights, NOT only glows; fine details subordinate to bold silhouette. Staff height same as character; broad hands and clearly visible face. Transparent background only, no floor, shadow, grid, text, symbols or extra objects."
+      },
+      {
+        "id": "ford",
+        "path": "docs/art/r7/sources/ford.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: playable terrain painting, landscape3:2 full frame. Reinterpret reference river valley with MUCH clearer broad S bend and two unmistakable narrow necks alternating with broad pools. High orthographic overhead3/4 strategy-map view, NO horizon. River runs vertically through central half of image, gently muted blue-grey mineral water, soft ivory foam, large warm sandbanks and shallow transparent olive-green shoals, visible submerged stones. Upper narrows at30%height, broad sandbank bay at48%, lower narrows at67%, deep bottom pool. Both banks warm ochre autumn pine woodland and violet slate canyon cliffs in same lighting. Central safe deep-water strip continuously covers47%–58% of image width; the two banks snake outward asymmetrically, with width change at least40%. LAND on left and right occupies outer thirds, dirt approaches to upper and lower crossing positions, but NO bridges and NO huge flat rectangular plazas. Small foreground landing stage at right lower sandbank, stacks of ochre supply sacks, two wooden mooring posts, a red army flag and a small covered oxless cart on upper left bank to communicate military ford. Leave middle of each bank open for existing units. NO buildings, units, castles, towers, people, labels, symbols or text. Painterly world layer, functional natural geography must read at360px wide. Quiet water saturation harmonizes with stone, clear value separation of water/sand/cliff."
+      },
+      {
+        "id": "bridges",
+        "path": "docs/art/r7/sources/bridges.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: THREE isolated full-span bridge cutouts in3 horizontal rows on transparent background, no scenery or water. Each bridge runs horizontally LEFT to RIGHT. VERY HIGH topdown3/4 orthographic view from SOUTH, see broad walkable deck and thin near fascia, not a tall side arch. Top deck accounts80%of visible sprite height, each bridge has length:depth ratio3:1. Entire span and end abutments completely visible, wide transparent gutters. ROW1 MAIN BRIDGE: warm sandstone flagstone deck, thick vermilion timber rails with two large orange military pennants at ends; dignified robust main crossing. ROW2 OLD BRIDGE: much narrower grey stone deck with BROKEN low railing, missing slabs at near edge, exposed fractured masonry and moss, TWO broken stone posts, no red rails or flags. Keep central walkway intact. ROW3 TEMPORARY MILITARY BRIDGE: ochre wooden plank deck, heavy hemp rope railings and lashed stakes, staggered repaired boards and a short cobalt triangular signal flag, no stone paving or red balustrade. Distinct materials, widths and edge silhouettes, simple detail readable at100px. Warm upper-left light, thin cool contact shadow confined below bridge. No characters, no buildings, no giant platforms, no ground, no background, no text, no frame."
+      },
+      {
+        "id": "mage-live",
+        "path": "docs/art/r7/sources/mage-live.png",
+        "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: square transparent sprite sheet4 columns x4 rows, sixteen small ISOLATED full-body purple mage sprites. SAME purple female crystal mage as reference, NOT a different person. Each cell has at least25% transparent empty space on every side, character total height including staff ONLY60%of cell. Widely spaced with EMPTY gutters between rows, staff may NEVER enter another row or cell. All facing RIGHT3/4. Row1 four compact upright idle poses; row2 four different alternating walking steps; row3 anticipation staff back, windup, forward impact staff horizontal, recovery; row4 four upright hurt recoils, no crouching. Compact purple robe, broad purple hair, thick golden shaft, large solid bright lavender three-pronged crystal. Scale same all16cells, feet aligned. Broad readable shapes with warm ink contour. No floor, shadow, matte, text, border or grid. Complete crystal tips, staff butt, hands, feet in every cell. Prioritize generous gutters over maximizing figure size. Every frame has actual articulated changes, not copies."
+      }
+    ]
+  }
+}

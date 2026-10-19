@@ -1,0 +1,184 @@
+{
+  "status": "VERIFIED",
+  "version": "0.7.0",
+  "generatedMasters": 17,
+  "newRuntimeImages": 18,
+  "newRuntimeMetadata": 2,
+  "newRuntimeBytes": 6907435,
+  "previousPackageBytes": 33486501,
+  "currentPackageBytes": 40397854,
+  "deltaBytes": 6911353,
+  "deltaPercent": 20.639221159595024,
+  "buildSHA256": "97d226255a6fe8d30fcfc7cabbbc4209783c238ce1bb7872e79dc4af6b498fc3",
+  "styleSHA256": "21c8ae313a6a50f513dac885e6154adbe028a219c56c84c24c9758a0cb51f9df",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "ad32963fd6e9c598403b3cc7811e55ddd30877eb82bb1c1aee3b500fc4a11e98",
+      "quarterPath": "docs/art/r6/thumbnails/ipad-defense-2064x2752-quarter.png",
+      "quarterSHA256": "8fc4469dfdfaeddbe94e4727b505b5b449847b9877f6b29f3f242843947a86a4"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "67f30b68af93b7e844cce180d9945e59ac726cf91f2494f11b09892ffe9f9063",
+      "quarterPath": "docs/art/r6/thumbnails/ipad-opening-2064x2752-quarter.png",
+      "quarterSHA256": "d92c185d15681d9c73c9b408393177dbe5aaef77ddc04ba3bcf6500fd476cc67"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "9ba15cc5c4a8de4e792ac3f3201b9403e585c0160863936e725251d77c5f85c8",
+      "quarterPath": "docs/art/r6/thumbnails/ipad-siege-2064x2752-quarter.png",
+      "quarterSHA256": "b0371e6300130d606d0dfaf26392ab6d8ffe631c7849d48f8515fcd04010e2c8"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "06dd208c30edef489241cb6b8ee444ace93a616ab14c3a2f1a75e1dffa18be73",
+      "quarterPath": "docs/art/r6/thumbnails/iphone-defense-1290x2796-quarter.png",
+      "quarterSHA256": "3f638159ddffcb8d6dd9a74f505cc1f536e97dd2b7dbfce1d17355b76b6082c8"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "a038026245f90e18699676f5a16a30ce124100b7c22dccd8f276d77d9196e1b6",
+      "quarterPath": "docs/art/r6/thumbnails/iphone-opening-1290x2796-quarter.png",
+      "quarterSHA256": "2c60b7d5f4f818831e019af975f5e488cb06e8996f192cc1b8707190d53a3211"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "0c0342b7e22a711e316ecd560d745524cb8711dcb3f7a9c32759f758321a94eb",
+      "quarterPath": "docs/art/r6/thumbnails/iphone-siege-1290x2796-quarter.png",
+      "quarterSHA256": "9a98e9222cb90c8ba71d3c0cfafcb995aaa00f31b5f024b5872d9cfcada52d4f"
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "docs/art/compare/r6/before/1032x1376-defense.png",
+      "after": "docs/art/compare/r6/after/1032x1376-defense.png",
+      "comparison": "docs/art/compare/r6/1032x1376-defense.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "5e55467d3b6d4efaa2a97dac60e81886d209a262fdb24178b3b6347390d5e9dc",
+      "afterSHA256": "73163048e6ee60520192c481d24088ccd4e4545e8280420d4c5ed34e2ddf00c9"
+    },
+    {
+      "before": "docs/art/compare/r6/before/1032x1376-opening.png",
+      "after": "docs/art/compare/r6/after/1032x1376-opening.png",
+      "comparison": "docs/art/compare/r6/1032x1376-opening.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "54506e7472519b6623b07b0f1290350e735205b401d7cc87bb70ffa1656c19da",
+      "afterSHA256": "f008bc3a2665734aa1faee43ba8cecc4c503b25a2501da95930f14225c671f6c"
+    },
+    {
+      "before": "docs/art/compare/r6/before/1032x1376-siege.png",
+      "after": "docs/art/compare/r6/after/1032x1376-siege.png",
+      "comparison": "docs/art/compare/r6/1032x1376-siege.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "781c94cbc57a44eecaf17c9292ca89a4b5bddfec8d04b1bea95f42c79f645b93",
+      "afterSHA256": "8b93cca2380e13e87e6fdf4ac07432daa1f55d74815294a185add0f524d62ca1"
+    },
+    {
+      "before": "docs/art/compare/r6/before/390x844-defense.png",
+      "after": "docs/art/compare/r6/after/390x844-defense.png",
+      "comparison": "docs/art/compare/r6/390x844-defense.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "06e5a90237aa9cf4218a79672e1bd6ac371ea0c12656a5d8d7f7528f9f406747",
+      "afterSHA256": "18ac642199ad5d119d6ad304a0aaee7ce34611b8259c1cae924dfa137133c89b"
+    },
+    {
+      "before": "docs/art/compare/r6/before/390x844-opening.png",
+      "after": "docs/art/compare/r6/after/390x844-opening.png",
+      "comparison": "docs/art/compare/r6/390x844-opening.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "7dd2a61672d84d2aed31c128b0b66abd2d1de761caab096c61347b35221fe9f8",
+      "afterSHA256": "d346f9c67a22d65678cb54d9172bd18951fd8592edd8d6a95567b3f230a44fe9"
+    },
+    {
+      "before": "docs/art/compare/r6/before/390x844-siege.png",
+      "after": "docs/art/compare/r6/after/390x844-siege.png",
+      "comparison": "docs/art/compare/r6/390x844-siege.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "0e1d5c21db8d256ee87f105f0533313857e57b6941fed0dce3d16932c9f6957a",
+      "afterSHA256": "46f8ed38e635f95fb13bbe625545dba6d60b914d6abb4f0a0638462978e13618"
+    },
+    {
+      "before": "docs/art/compare/r6/before/844x390-defense.png",
+      "after": "docs/art/compare/r6/after/844x390-defense.png",
+      "comparison": "docs/art/compare/r6/844x390-defense.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "84fc1de5486d540229509ea8799f2524ccb173481682da3cfd08c9873aa46e54",
+      "afterSHA256": "5422ff7ac4b7d77a76e328c4426208a1d9689ef6348434cc2d36015b84db92a6"
+    },
+    {
+      "before": "docs/art/compare/r6/before/844x390-opening.png",
+      "after": "docs/art/compare/r6/after/844x390-opening.png",
+      "comparison": "docs/art/compare/r6/844x390-opening.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "6c99d59c6b2f1a9b1d187659765d7dc50cc743f6da8baf227467331d04dc7681",
+      "afterSHA256": "37078877d1a87fc001009804c352893aa0ee5c6aa24b09c901190ac3577614f2"
+    },
+    {
+      "before": "docs/art/compare/r6/before/844x390-siege.png",
+      "after": "docs/art/compare/r6/after/844x390-siege.png",
+      "comparison": "docs/art/compare/r6/844x390-siege.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "121a2b8f31a200b7336fef70dbf2cca6bb03ece552001aadef701fd7b9705f5f",
+      "afterSHA256": "0607f4d3024f19a8af5af66b6798c38a85040579084aade9c2a38a2020436ab8"
+    }
+  ],
+  "visualAudit": "docs/art/r6/visual-audit.json",
+  "independentScore": "BLOCKED - no fresh Muse rescore; 8+ not claimed",
+  "limitations": [
+    "Low-height landscape compresses bridge perspective; not the store-ratio qualification viewport.",
+    "Native rectangular collision core unchanged; natural painted shoals are decorative; no new terrain/pathfinding system.",
+    "Virtual-clock captures and desktop Chromium cannot qualify real iOS/iPadOS performance."
+  ]
+}

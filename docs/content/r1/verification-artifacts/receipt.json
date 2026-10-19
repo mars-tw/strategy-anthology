@@ -1,0 +1,789 @@
+﻿{
+    "status":  "VERIFIED",
+    "method":  "Exact-byte ZIP archives, full CRC and per-entry SHA-256 readback; restore only tracked historical outputs changed by this run. No untracked files deleted.",
+    "archives":  [
+                     {
+                         "path":  "docs/content/r1/verification-artifacts/visual-regression.zip",
+                         "bytes":  19342736,
+                         "sha256":  "0152a279480a7a699fe3c6bc13adea7eff79da9fda940b5d789659cdabd58c37",
+                         "entries":  21
+                     },
+                     {
+                         "path":  "docs/content/r1/verification-artifacts/r2-art.zip",
+                         "bytes":  8160313,
+                         "sha256":  "5ad36348fc2cea22e681a1ed14c2850290c9fe7c54f8b6ae915180b28ffbadf6",
+                         "entries":  10
+                     },
+                     {
+                         "path":  "docs/content/r1/verification-artifacts/r7-art.zip",
+                         "bytes":  71549523,
+                         "sha256":  "8d8748adb82e5b4b95ee0e9b4fe5be771323eb2e3cadaa89625fafe089a6bc7f",
+                         "entries":  34
+                     },
+                     {
+                         "path":  "docs/content/r1/verification-artifacts/campaign-regression.zip",
+                         "bytes":  24002501,
+                         "sha256":  "d8d1769e1029a0cd9242dc4323c63fa1a2b2dc316c4bb95b4ebfee2556c6295e",
+                         "entries":  31
+                     },
+                     {
+                         "path":  "docs/content/r1/verification-artifacts/recaptured-legacy-store.zip",
+                         "bytes":  24880273,
+                         "sha256":  "073071aed1686faed64864f8ade9ebab5f113c47129dc9651c4bc757d7a4f205",
+                         "entries":  6
+                     }
+                 ],
+    "entries":  [
+                    {
+                        "path":  "docs/art/compare/after/1024x768-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "a2e01117c6dc63f315515bb84050b40ffa9622d689cbde004e38589e7cfd14f4",
+                        "bytes":  894703
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1024x768-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "c48ff9db1bb35bc32b2b670f340d2c5ffb43496fe5209b8cf376ac597cf70d80",
+                        "bytes":  786213
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1032x1376-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "71691db4c5fd44520359eb03c2f174e7db73164d47a6b1452a6176c769c369f3",
+                        "bytes":  1723950
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1032x1376-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "cafc3fa942e4cd97f23d846900ec5a6923586b6fc49691981a099e631334869b",
+                        "bytes":  1407893
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1280x640-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "16806814582b2e63beb7f8e8f517054e150ac7968d79d1c331a1c3cc35a4335f",
+                        "bytes":  1065612
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1280x640-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "cd5cd9a7417f06c9df512ae9c007c002c347f5d68b5a01e6191160aec1d3d078",
+                        "bytes":  941391
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1366x600-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "bae9b233e05133b13a41c4e6fc4009eb56ea8c5b85f81662d640f7922131770a",
+                        "bytes":  1059389
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1366x600-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "3d592ae580a58d4ac1fe74ae8b707bcffb27078fd07d1c02a9eed932512683d5",
+                        "bytes":  928577
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1366x768-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "0109d7de5012b617a7f90606c14f58ece7ee176ceb4a4d4e54430b35ecae864f",
+                        "bytes":  1271137
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1366x768-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "a5f06cead6727cafd6da831ff38e3842615632e434d3c3eab8ee4d1997ed88d5",
+                        "bytes":  1128080
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1920x1080-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "98b5aa981f2e0ac53b712f3468779c731a274738f51043146f4e4d188278ad07",
+                        "bytes":  2602938
+                    },
+                    {
+                        "path":  "docs/art/compare/after/1920x1080-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "6039c30b0361d04c1ae01e175c5e8fa362c4f79bb6493b915029378339240015",
+                        "bytes":  2404944
+                    },
+                    {
+                        "path":  "docs/art/compare/after/320x568-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "96ed9df1a90b5002e2a1c0c169d9791b44b98c4abed4592713c34f825a222d69",
+                        "bytes":  187889
+                    },
+                    {
+                        "path":  "docs/art/compare/after/320x568-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "012635594ffa1198bc0b9b701d20451338bd34e42dd3cd906c8a5d34cf60a25b",
+                        "bytes":  124318
+                    },
+                    {
+                        "path":  "docs/art/compare/after/390x844-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "dbeb3bb6025b45c32269e90cffca829892190257735027b1e1174c4d8c4945b3",
+                        "bytes":  386661
+                    },
+                    {
+                        "path":  "docs/art/compare/after/390x844-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "1d0816b24797d72688d2d82d803cde684e7143c33a073b124a3d12f848c8b41b",
+                        "bytes":  320723
+                    },
+                    {
+                        "path":  "docs/art/compare/after/768x1024-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "2f38cdbf140f60ed7027a6a227f07d29dc2c8cf368752ec0fcc2cc687dc0e076",
+                        "bytes":  813796
+                    },
+                    {
+                        "path":  "docs/art/compare/after/768x1024-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "4165120920c33b7b2dedd84fb4232643e8bb6424342d6ea99a1f9db7d479bdd8",
+                        "bytes":  647503
+                    },
+                    {
+                        "path":  "docs/art/compare/after/844x390-defense.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "2e99692238f95dc61117b410ff423654b6e95ebe4e0c435b088cf7bc4c8bf0ee",
+                        "bytes":  361763
+                    },
+                    {
+                        "path":  "docs/art/compare/after/844x390-opening.png",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "01a4734c4dfc56971b90f9cd378b63663f8ebae135b72c85aaf0a86bf06f00e2",
+                        "bytes":  303354
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-0.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "78fe7d0c92cb3e211f02884d00ad9a3856e34b40c1e0b195269c768f595a19ef",
+                        "bytes":  388180
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-1.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "747df26a86ffba49c57000b80a097cfedeee2a01c15459079bf386b060c2aba5",
+                        "bytes":  389182
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-2.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "c934fe4f280c259ca258efe1bc3b77d5cabbbbfb18e0aca717c24c2b273da119",
+                        "bytes":  389195
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-3.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "8e99471edfa40414bc629a4c567a598805d53b2b2c0390a639e90418caf57b08",
+                        "bytes":  390686
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-4.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "c91d0a0e6fa9d40f65facafbab0b8acb3233dae94f7fcd7c86f979a4907b317c",
+                        "bytes":  390787
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/defense-5.png",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "54aef949c34e7f7e5971e25665c3840d16554e4c0ea7323692d62a2936e9ce72",
+                        "bytes":  389832
+                    },
+                    {
+                        "path":  "docs/art/r2/visual-audit.json",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "59a25c64ab63a2a4b9460447ea65fc9e6e08e7d194586d3ac31d3d1162bcb036",
+                        "bytes":  22271
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/ipad-defense-0.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "55a410265a3bdb6b94b87d3bf62b0509656443462376f2f56d50d44fbcbad413",
+                        "bytes":  5514516
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/ipad-defense-1.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "a37a1d9cccdcf83b9247528996ceba810084d46a9f43132a85e338e8473b12ee",
+                        "bytes":  5504247
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/ipad-defense-2.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "b037e3d2b917a15d10823d3d6cfd68d86c95993dbd600a67c4032b4ceb4738e0",
+                        "bytes":  5503791
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/ipad-defense-3.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "b8946bc9fe50308d662e588c2e6b8762d632be017ce2f2bcc2e2fa66b496e83e",
+                        "bytes":  5503009
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/iphone-defense-0.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "8d48f08c29b05828d432461aa432474af77e25ff44865bf3004541dcf9f67bf6",
+                        "bytes":  3187231
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/iphone-defense-1.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "60b7316bb21ddffd302c257003972315b7b847cf8f998fbcd5d1b053b2c23552",
+                        "bytes":  3172961
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/iphone-defense-2.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "6fb2bbb9aa1b4d0efb73b606d81a2c7e0628d744781c9ff0ee8dc61d0ae5238a",
+                        "bytes":  3172176
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/iphone-defense-3.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "2daf283faf3df6e68b09781e6c86a0a0784c9a4e338007060d12634da0e1680c",
+                        "bytes":  3173111
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/phone360-defense-0.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "f62454628968e918ca1b9e6e0181014dccce98312b2b7e9c3758af7ee508167f",
+                        "bytes":  330872
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/phone360-defense-1.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "677dcf7468066c3656a78639de6c5e736352e49de784f3436db3b8c39b889195",
+                        "bytes":  329851
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/phone360-defense-2.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "a2e737a562f4fee04012fe8a58ac2e099002d24e68c29e5b53611b7ce576736f",
+                        "bytes":  329837
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/phone360-defense-3.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "b93df34873d5e02be3df3833e074cce7be0e5cf02ecf854cd17a793b8ea1f9ab",
+                        "bytes":  330004
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-0.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "e001a8365eb643024500663469c142b1a315cf1aaa3cb88d9d879abf3d2e18fb",
+                        "bytes":  387934
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-1.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "4036b786f32825e33deab330d8dea0abd2ebd5c86d806af82cb9ba3a8e4ebb40",
+                        "bytes":  388697
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-2.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "d08690bb0ab46d165b502394c06af6515ebb29d835af87abeb15b2e5e13755b7",
+                        "bytes":  388767
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-3.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "8585f33796ec9a770430dbe3cb75c8109fdc0d2c095030363a5b28a8bfded5e0",
+                        "bytes":  388967
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-4.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "b3962bcba7c3bd5f01ce1c80bc57c2d2b942a669410d447d34c3ec963c8e062f",
+                        "bytes":  389140
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/real-5.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "6e826938dd844e930b31293d0952bc6c2d6029863cdd0c9544300d828f83a718",
+                        "bytes":  390505
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/360-defense.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "c9b64aba00964cbb9a1cc800a3e9378942ee8404a25cc3e5e16a268cfaeb8510",
+                        "bytes":  330738
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/360-opening.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "679ea05f0bca3ba268ad31652b3cef56b18c06c9b886704818c47b21c79b2b23",
+                        "bytes":  269801
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/360-siege.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "451c4e0c0cb87507fce11cb9250e0e1cb762173fd9061ad97bb0859e01f0a4fe",
+                        "bytes":  332002
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/ipad-resource-insufficient.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "a26b61477a2babe0077ba219681c4c4287365fa2b99769d20633298e76301da4",
+                        "bytes":  5467762
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/ipad-siege-cards-covered.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "7073bc7590f5b33bd948bd7e95ccbe75198e9d506978bb1369ab7465422fa5bb",
+                        "bytes":  5684927
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/ipad-siege-no-labels.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "f4b3a1ac161c2aebbc3f02e01d87b3dfb0100268e9a7218c54c8df257f8f88aa",
+                        "bytes":  5722158
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/iphone-resource-insufficient.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "cb59af72df848fca7019ae0979ec08a2843088e80d0f26b487ee1e914868d94a",
+                        "bytes":  3126240
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/iphone-siege-cards-covered.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "690e4f9c6d0071af0916d0c01eaf77743f2b8af98985979a99214028d288938d",
+                        "bytes":  3095355
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/iphone-siege-no-labels.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "9f1a35f372ebce9bcd596ba7d14acfd97c48b8eb09374cd74a64de03293eaf4f",
+                        "bytes":  3235921
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/phone360-resource-insufficient.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "1742fad52442483c4ef993390e4ef828ffa49c1a15cb5f4e76d6a80ff4b6c5cc",
+                        "bytes":  325534
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/phone360-siege-cards-covered.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "9b5465bec8f2acb9cf029f7f8f412f822d77dbc843794d2f95c0abfe85a63b00",
+                        "bytes":  295656
+                    },
+                    {
+                        "path":  "docs/art/r7/screens/phone360-siege-no-labels.png",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "f4a5d47703a7ca1eb801034d01fa0736b9eadba84665141e68c66cd49aaf77e4",
+                        "bytes":  307019
+                    },
+                    {
+                        "path":  "docs/art/r7/visual-audit.json",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "49077acde072f7ed431c0aef824b45674b0b4378fd026be9b28deba0415b8ac6",
+                        "bytes":  105502
+                    },
+                    {
+                        "path":  "docs/art/visual-audit.json",
+                        "archive":  "visual-regression.zip",
+                        "sha256":  "660bc1a71a6690ab1e8544cb38f9900d1656774baff3bc8e55ead82c4ac38121",
+                        "bytes":  4666
+                    },
+                    {
+                        "path":  "docs/evidence/e2e.json",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "13337c74da15211bf590d840472121850c8e4d166f35bfa8a5d3ed653fbbb63a",
+                        "bytes":  113585
+                    },
+                    {
+                        "path":  "docs/evidence/performance.json",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "39f77a1308e097aebb8824568ee660e2ac0b0c81dd17e668d2f2203d2ff1cb5b",
+                        "bytes":  2505
+                    },
+                    {
+                        "path":  "docs/evidence/release-audit.json",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "d381b63589bfe8b9b0cb483b56084eba1f91e62b47c61a14f071853da001fabf",
+                        "bytes":  50916
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1024x768-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "5627684fc1754c7b5fee599d941ed8b65072d054ea8852b5907937eb22acd037",
+                        "bytes":  895063
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1024x768-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "c48ff9db1bb35bc32b2b670f340d2c5ffb43496fe5209b8cf376ac597cf70d80",
+                        "bytes":  786213
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1024x768-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "4a54de1e450edce0ff96c441102641a1d98543a0b3a4be48f44373d2b6843e73",
+                        "bytes":  935997
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1032x1376-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "0f157f8612edb840318c572e834cfe18d7cc9bc1c89139a04a50666ba7b39470",
+                        "bytes":  1723906
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1032x1376-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "cafc3fa942e4cd97f23d846900ec5a6923586b6fc49691981a099e631334869b",
+                        "bytes":  1407893
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1032x1376-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "0b2f9e8334b66954eb83ea88f9cd2797d5b8929b612e6bdb6b9d13b811b1f07f",
+                        "bytes":  1834745
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1280x640-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "f1bfcc93453ff938c8e407d9a52301e41ac581e80692a881e67e49be321ac625",
+                        "bytes":  1065676
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1280x640-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "cd5cd9a7417f06c9df512ae9c007c002c347f5d68b5a01e6191160aec1d3d078",
+                        "bytes":  941391
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1280x640-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "faeb5d618345e43bd37099216bb1c484e93d3207ea9cdfa3f6ddb68b55337a8d",
+                        "bytes":  1116283
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1366x600-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "2f95f2a3c0a852a66dba05e69ae06be08d8f66825a81a640fa0605ea0edc7922",
+                        "bytes":  1059367
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1366x600-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "3d592ae580a58d4ac1fe74ae8b707bcffb27078fd07d1c02a9eed932512683d5",
+                        "bytes":  928577
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1366x600-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "922445017b36db084f573f070f2f2a1dd733cea418767b117b67790b3ad5a0b7",
+                        "bytes":  1106023
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1376x1032-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "e79a4d0353cc0382114395ffbb587a4791d11e26ed79912efdceeecba8c821db",
+                        "bytes":  1782173
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1376x1032-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "e3356a7381c1812064e460fcbea06d29a93b91c02b0fce8661b12c028949ea74",
+                        "bytes":  1581355
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/1376x1032-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "3199e0439e57005716a600e14b0ba04ec1cc451be3d731f99c811d229860e71a",
+                        "bytes":  1888030
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/320x568-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "6c003c139af7183720c17d5b2ffbae0b98f6a5e586d4b0a71da977b6d9ecf3a0",
+                        "bytes":  188146
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/320x568-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "012635594ffa1198bc0b9b701d20451338bd34e42dd3cd906c8a5d34cf60a25b",
+                        "bytes":  124318
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/320x568-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "7aed1e4320fba73c98a0d6b8c6f150957f2d00a8c39b8602762ba7d89c7a075c",
+                        "bytes":  188037
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/390x844-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "4e6efb512a8acbd8a57e3df48c624fa35381493448246979bdb146cb3476cffc",
+                        "bytes":  387184
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/390x844-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "1d0816b24797d72688d2d82d803cde684e7143c33a073b124a3d12f848c8b41b",
+                        "bytes":  320723
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/390x844-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "01b89fa6af616adfa49e6f86b98460fbacbfd25fb219ecfd9b53fc12b000e1e5",
+                        "bytes":  392520
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/768x1024-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "dacf17c7a88afb6d85a5e0a64e4288f0a212a210920c4209f212e261fa0c8696",
+                        "bytes":  814272
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/768x1024-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "4165120920c33b7b2dedd84fb4232643e8bb6424342d6ea99a1f9db7d479bdd8",
+                        "bytes":  647503
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/768x1024-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "1eb83b2ff80d9acd5cb882d795b253b4713cb82dd6553a0ad375d327295a9b31",
+                        "bytes":  853764
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/844x390-defense.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "97b58782b0e0fad93ed40e1094be84708fddf5102b5a6d721143cd3b328b2c87",
+                        "bytes":  361586
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/844x390-opening.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "01a4734c4dfc56971b90f9cd378b63663f8ebae135b72c85aaf0a86bf06f00e2",
+                        "bytes":  303354
+                    },
+                    {
+                        "path":  "docs/evidence/rwd/844x390-siege.png",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "4d149e6adbdd70183f4d0c5cbe3513b9a720616f0a66b6ebe543f162b90aeefa",
+                        "bytes":  370277
+                    },
+                    {
+                        "path":  "docs/evidence/six-chapters.json",
+                        "archive":  "campaign-regression.zip",
+                        "sha256":  "d171119a0a4dbf14f36cfbd205916a1b9d5f8e118b4f027ce1438f4bda8dcd17",
+                        "bytes":  924
+                    },
+                    {
+                        "path":  "docs/store/screenshots/ipad-defense-2064x2752.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "75f03335bde25ad9a706d943c1125569ecbff6c524c0a879e563c42bbbe81ce7",
+                        "bytes":  5513797
+                    },
+                    {
+                        "path":  "docs/store/screenshots/ipad-opening-2064x2752.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "fb37960bf766866126a334e988378821477b09b59474c16f93538196b04427aa",
+                        "bytes":  4457229
+                    },
+                    {
+                        "path":  "docs/store/screenshots/ipad-siege-2064x2752.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "ccbf11cb05fe6dc84fcc691a09a02a1b652e6e2374117f5d9f80a00a0535b44b",
+                        "bytes":  5836292
+                    },
+                    {
+                        "path":  "docs/store/screenshots/iphone-defense-1290x2796.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "8600b3eb928dfff66eaacfb26c59db9cacb6c951597b4726229a7595ea5bfef0",
+                        "bytes":  3187038
+                    },
+                    {
+                        "path":  "docs/store/screenshots/iphone-opening-1290x2796.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "88397830525da17916fcb4fb3aebac32f8e8ec7d3e7602fd17461079a56d0504",
+                        "bytes":  2610341
+                    },
+                    {
+                        "path":  "docs/store/screenshots/iphone-siege-1290x2796.png",
+                        "archive":  "recaptured-legacy-store.zip",
+                        "sha256":  "3d0a11d5bd8768868ffae0ef64e1c70f371e28bf316dcc5a0f33afab86a0a7ae",
+                        "bytes":  3316165
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/page@0e4a998f15788dbc944208bfc28bc271.webm",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "73f20ab7fdd1cab1d4bb20eb5fd9bc82bbd5e209fef799edc11a23444125d4a9",
+                        "bytes":  1905155,
+                        "newUntrackedVideo":  true
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/page@36c4beff7434de67c58abf0affb669a6.webm",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "ce3b3bb06521625b0b982b9328520c6b1a1108769b78fae9e1ccb4893ddf169c",
+                        "bytes":  1950648,
+                        "newUntrackedVideo":  true
+                    },
+                    {
+                        "path":  "docs/art/r2/motion/page@7098ddbbb7d94d914a159dc94e2cf22b.webm",
+                        "archive":  "r2-art.zip",
+                        "sha256":  "e4970b7b59a83713a99a0de6035a1713cddea3ee0f8ad34924499018a8835cb1",
+                        "bytes":  1969232,
+                        "newUntrackedVideo":  true
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/page@5e7d3b528aea7c4fb61919fbb5830d7a.webm",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "c0d2a85f17b348c00c80f57c958b565b5bb0a1be70bba2c40179977b416deba9",
+                        "bytes":  1645424,
+                        "newUntrackedVideo":  true
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/page@864ae60638d04efb506e92c4ef25ce7e.webm",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "41d67e0475aacafb10bad5f13b24e9781c6e0bdd57ce37a5833d57f7c4d582bd",
+                        "bytes":  1705197,
+                        "newUntrackedVideo":  true
+                    },
+                    {
+                        "path":  "docs/art/r7/motion/page@b8bc9e4189e109aa1a4cdd3b7737bf07.webm",
+                        "archive":  "r7-art.zip",
+                        "sha256":  "ba7acda38dc5df944bb92f7583a2b8345bb9dc8d65c423aed6a72a9b8632b566",
+                        "bytes":  1717570,
+                        "newUntrackedVideo":  true
+                    }
+                ],
+    "restoredTracked":  [
+                            "docs/art/compare/after/1024x768-defense.png",
+                            "docs/art/compare/after/1024x768-opening.png",
+                            "docs/art/compare/after/1032x1376-defense.png",
+                            "docs/art/compare/after/1032x1376-opening.png",
+                            "docs/art/compare/after/1280x640-defense.png",
+                            "docs/art/compare/after/1280x640-opening.png",
+                            "docs/art/compare/after/1366x600-defense.png",
+                            "docs/art/compare/after/1366x600-opening.png",
+                            "docs/art/compare/after/1366x768-defense.png",
+                            "docs/art/compare/after/1366x768-opening.png",
+                            "docs/art/compare/after/1920x1080-defense.png",
+                            "docs/art/compare/after/1920x1080-opening.png",
+                            "docs/art/compare/after/320x568-defense.png",
+                            "docs/art/compare/after/320x568-opening.png",
+                            "docs/art/compare/after/390x844-defense.png",
+                            "docs/art/compare/after/390x844-opening.png",
+                            "docs/art/compare/after/768x1024-defense.png",
+                            "docs/art/compare/after/768x1024-opening.png",
+                            "docs/art/compare/after/844x390-defense.png",
+                            "docs/art/compare/after/844x390-opening.png",
+                            "docs/art/r2/motion/defense-0.png",
+                            "docs/art/r2/motion/defense-1.png",
+                            "docs/art/r2/motion/defense-2.png",
+                            "docs/art/r2/motion/defense-3.png",
+                            "docs/art/r2/motion/defense-4.png",
+                            "docs/art/r2/motion/defense-5.png",
+                            "docs/art/r2/visual-audit.json",
+                            "docs/art/r7/motion/ipad-defense-0.png",
+                            "docs/art/r7/motion/ipad-defense-1.png",
+                            "docs/art/r7/motion/ipad-defense-2.png",
+                            "docs/art/r7/motion/ipad-defense-3.png",
+                            "docs/art/r7/motion/iphone-defense-0.png",
+                            "docs/art/r7/motion/iphone-defense-1.png",
+                            "docs/art/r7/motion/iphone-defense-2.png",
+                            "docs/art/r7/motion/iphone-defense-3.png",
+                            "docs/art/r7/motion/phone360-defense-0.png",
+                            "docs/art/r7/motion/phone360-defense-1.png",
+                            "docs/art/r7/motion/phone360-defense-2.png",
+                            "docs/art/r7/motion/phone360-defense-3.png",
+                            "docs/art/r7/motion/real-0.png",
+                            "docs/art/r7/motion/real-1.png",
+                            "docs/art/r7/motion/real-2.png",
+                            "docs/art/r7/motion/real-3.png",
+                            "docs/art/r7/motion/real-4.png",
+                            "docs/art/r7/motion/real-5.png",
+                            "docs/art/r7/screens/360-defense.png",
+                            "docs/art/r7/screens/360-opening.png",
+                            "docs/art/r7/screens/360-siege.png",
+                            "docs/art/r7/screens/ipad-resource-insufficient.png",
+                            "docs/art/r7/screens/ipad-siege-cards-covered.png",
+                            "docs/art/r7/screens/ipad-siege-no-labels.png",
+                            "docs/art/r7/screens/iphone-resource-insufficient.png",
+                            "docs/art/r7/screens/iphone-siege-cards-covered.png",
+                            "docs/art/r7/screens/iphone-siege-no-labels.png",
+                            "docs/art/r7/screens/phone360-resource-insufficient.png",
+                            "docs/art/r7/screens/phone360-siege-cards-covered.png",
+                            "docs/art/r7/screens/phone360-siege-no-labels.png",
+                            "docs/art/r7/visual-audit.json",
+                            "docs/art/visual-audit.json",
+                            "docs/evidence/e2e.json",
+                            "docs/evidence/performance.json",
+                            "docs/evidence/release-audit.json",
+                            "docs/evidence/rwd/1024x768-defense.png",
+                            "docs/evidence/rwd/1024x768-opening.png",
+                            "docs/evidence/rwd/1024x768-siege.png",
+                            "docs/evidence/rwd/1032x1376-defense.png",
+                            "docs/evidence/rwd/1032x1376-opening.png",
+                            "docs/evidence/rwd/1032x1376-siege.png",
+                            "docs/evidence/rwd/1280x640-defense.png",
+                            "docs/evidence/rwd/1280x640-opening.png",
+                            "docs/evidence/rwd/1280x640-siege.png",
+                            "docs/evidence/rwd/1366x600-defense.png",
+                            "docs/evidence/rwd/1366x600-opening.png",
+                            "docs/evidence/rwd/1366x600-siege.png",
+                            "docs/evidence/rwd/1376x1032-defense.png",
+                            "docs/evidence/rwd/1376x1032-opening.png",
+                            "docs/evidence/rwd/1376x1032-siege.png",
+                            "docs/evidence/rwd/320x568-defense.png",
+                            "docs/evidence/rwd/320x568-opening.png",
+                            "docs/evidence/rwd/320x568-siege.png",
+                            "docs/evidence/rwd/390x844-defense.png",
+                            "docs/evidence/rwd/390x844-opening.png",
+                            "docs/evidence/rwd/390x844-siege.png",
+                            "docs/evidence/rwd/768x1024-defense.png",
+                            "docs/evidence/rwd/768x1024-opening.png",
+                            "docs/evidence/rwd/768x1024-siege.png",
+                            "docs/evidence/rwd/844x390-defense.png",
+                            "docs/evidence/rwd/844x390-opening.png",
+                            "docs/evidence/rwd/844x390-siege.png",
+                            "docs/evidence/six-chapters.json",
+                            "docs/store/screenshots/ipad-defense-2064x2752.png",
+                            "docs/store/screenshots/ipad-opening-2064x2752.png",
+                            "docs/store/screenshots/ipad-siege-2064x2752.png",
+                            "docs/store/screenshots/iphone-defense-1290x2796.png",
+                            "docs/store/screenshots/iphone-opening-1290x2796.png",
+                            "docs/store/screenshots/iphone-siege-1290x2796.png"
+                        ],
+    "newVideosRetainedUntracked":  [
+
+                                   ],
+    "rawVideoRetention":  [
+                              {
+                                  "original":  "docs/art/r2/motion/page@0e4a998f15788dbc944208bfc28bc271.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r2_motion_page@0e4a998f15788dbc944208bfc28bc271.webm",
+                                  "sha256":  "73f20ab7fdd1cab1d4bb20eb5fd9bc82bbd5e209fef799edc11a23444125d4a9"
+                              },
+                              {
+                                  "original":  "docs/art/r2/motion/page@36c4beff7434de67c58abf0affb669a6.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r2_motion_page@36c4beff7434de67c58abf0affb669a6.webm",
+                                  "sha256":  "ce3b3bb06521625b0b982b9328520c6b1a1108769b78fae9e1ccb4893ddf169c"
+                              },
+                              {
+                                  "original":  "docs/art/r2/motion/page@7098ddbbb7d94d914a159dc94e2cf22b.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r2_motion_page@7098ddbbb7d94d914a159dc94e2cf22b.webm",
+                                  "sha256":  "e4970b7b59a83713a99a0de6035a1713cddea3ee0f8ad34924499018a8835cb1"
+                              },
+                              {
+                                  "original":  "docs/art/r7/motion/page@5e7d3b528aea7c4fb61919fbb5830d7a.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r7_motion_page@5e7d3b528aea7c4fb61919fbb5830d7a.webm",
+                                  "sha256":  "c0d2a85f17b348c00c80f57c958b565b5bb0a1be70bba2c40179977b416deba9"
+                              },
+                              {
+                                  "original":  "docs/art/r7/motion/page@864ae60638d04efb506e92c4ef25ce7e.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r7_motion_page@864ae60638d04efb506e92c4ef25ce7e.webm",
+                                  "sha256":  "41d67e0475aacafb10bad5f13b24e9781c6e0bdd57ce37a5833d57f7c4d582bd"
+                              },
+                              {
+                                  "original":  "docs/art/r7/motion/page@b8bc9e4189e109aa1a4cdd3b7737bf07.webm",
+                                  "retained":  ".audit-tmp/content-r1-retained-videos/docs_art_r7_motion_page@b8bc9e4189e109aa1a4cdd3b7737bf07.webm",
+                                  "sha256":  "ba7acda38dc5df944bb92f7583a2b8345bb9dc8d65c423aed6a72a9b8632b566"
+                              }
+                          ]
+}

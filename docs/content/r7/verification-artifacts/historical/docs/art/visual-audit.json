@@ -1,0 +1,202 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "320x568: canvas fills battlefield",
+    "320x568: no page overflow",
+    "320x568: resized canvas touch selects the correct logical tower",
+    "320x568: no keyboard help",
+    "390x844: canvas fills battlefield",
+    "390x844: no page overflow",
+    "390x844: resized canvas touch selects the correct logical tower",
+    "390x844: no keyboard help",
+    "844x390: canvas fills battlefield",
+    "844x390: no page overflow",
+    "844x390: resized canvas touch selects the correct logical tower",
+    "844x390: no keyboard help",
+    "768x1024: canvas fills battlefield",
+    "768x1024: no page overflow",
+    "768x1024: resized canvas touch selects the correct logical tower",
+    "768x1024: no keyboard help",
+    "1024x768: canvas fills battlefield",
+    "1024x768: no page overflow",
+    "1024x768: resized canvas touch selects the correct logical tower",
+    "1024x768: no keyboard help",
+    "1366x600: canvas fills battlefield",
+    "1366x600: no page overflow",
+    "1366x600: resized canvas touch selects the correct logical tower",
+    "1280x640: canvas fills battlefield",
+    "1280x640: no page overflow",
+    "1280x640: resized canvas touch selects the correct logical tower",
+    "1366x768: canvas fills battlefield",
+    "1366x768: no page overflow",
+    "1366x768: resized canvas touch selects the correct logical tower",
+    "1920x1080: canvas fills battlefield",
+    "1920x1080: no page overflow",
+    "1920x1080: resized canvas touch selects the correct logical tower",
+    "1032x1376: canvas fills battlefield",
+    "1032x1376: no page overflow",
+    "1032x1376: resized canvas touch selects the correct logical tower",
+    "1032x1376: no keyboard help",
+    "runtime files match the exact analyzed asset hashes",
+    "28 atlases pass unchanged color thresholds and pose/alpha contracts",
+    "cutout corners are transparent; invisible RGB zero",
+    "no page exceptions",
+    "no missing requests"
+  ],
+  "errors": [],
+  "missing": [],
+  "screenshots": [
+    "320x568-opening.png",
+    "320x568-defense.png",
+    "390x844-opening.png",
+    "390x844-defense.png",
+    "844x390-opening.png",
+    "844x390-defense.png",
+    "768x1024-opening.png",
+    "768x1024-defense.png",
+    "1024x768-opening.png",
+    "1024x768-defense.png",
+    "1366x600-opening.png",
+    "1366x600-defense.png",
+    "1280x640-opening.png",
+    "1280x640-defense.png",
+    "1366x768-opening.png",
+    "1366x768-defense.png",
+    "1920x1080-opening.png",
+    "1920x1080-defense.png",
+    "1032x1376-opening.png",
+    "1032x1376-defense.png"
+  ],
+  "sizes": [
+    {
+      "width": 320,
+      "height": 568,
+      "canvas": {
+        "w": 302,
+        "h": 113
+      },
+      "field": {
+        "w": 304,
+        "h": 115
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "canvas": {
+        "w": 372,
+        "h": 306.8125
+      },
+      "field": {
+        "w": 374,
+        "h": 308.8125
+      },
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "canvas": {
+        "w": 501,
+        "h": 201
+      },
+      "field": {
+        "w": 503,
+        "h": 203
+      },
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "canvas": {
+        "w": 750,
+        "h": 344.8125
+      },
+      "field": {
+        "w": 752,
+        "h": 346.8125
+      },
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "canvas": {
+        "w": 638,
+        "h": 479
+      },
+      "field": {
+        "w": 640,
+        "h": 481
+      },
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 600,
+      "canvas": {
+        "w": 1023,
+        "h": 365
+      },
+      "field": {
+        "w": 1025,
+        "h": 367
+      },
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "canvas": {
+        "w": 937,
+        "h": 405
+      },
+      "field": {
+        "w": 939,
+        "h": 407
+      },
+      "overflow": false
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "canvas": {
+        "w": 980,
+        "h": 479
+      },
+      "field": {
+        "w": 982,
+        "h": 481
+      },
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "canvas": {
+        "w": 1504,
+        "h": 791
+      },
+      "field": {
+        "w": 1506,
+        "h": 793
+      },
+      "overflow": false
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "canvas": {
+        "w": 1014,
+        "h": 696.8125
+      },
+      "field": {
+        "w": 1016,
+        "h": 698.8125
+      },
+      "overflow": false
+    }
+  ]
+}

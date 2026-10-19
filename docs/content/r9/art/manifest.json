@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "newGeneratedArt": 0,
+  "newGenerationTool": null,
+  "reusedSourceTool": "image_gen__imagegen",
+  "sourcePrompts": [
+    "docs/art/PROMPTS_R7.json",
+    "docs/content/r7/art/PROMPTS.json"
+  ],
+  "method": "Existing authored road and water texture sampled in canvas; no newly generated or edited bitmap assets. Original articulated sprite poses retained.",
+  "reused": [
+    {
+      "path": "public/assets/content-r7/flood.webp",
+      "sha256": "1e30d774e62868c6993b5bb380e987a6a9af610f370464b5b56287b9d8ef86b0"
+    },
+    {
+      "path": "public/assets/content-r6/barricade.webp",
+      "sha256": "1a841e2d15e676fc80ba487d338734c839fcc80ae42b9774a181c51ba79feda4"
+    },
+    {
+      "path": "public/assets/content-r7/legacy-cannon.webp",
+      "sha256": "8bfd0fd81416c109ef2e2388512691924c073534bdb5e972616425ffb749b44a"
+    },
+    {
+      "path": "public/assets/r4/road.webp",
+      "sha256": "82745e86daed538b169077f15b9e5dba1aa1db3793ae6ee336f2501de909dac8"
+    },
+    {
+      "path": "public/assets/r7/ford.webp",
+      "sha256": "08e15cc007d98508c1759138c86c57a11d4ca35dd02b2e6922378a42d2e6ae37"
+    },
+    {
+      "path": "public/assets/r7/hound-walk.png",
+      "sha256": "8d0c5405bbe063daf3a1f54fc7be2f84863dfe5373d7315ef445106b97b5621f"
+    }
+  ]
+}

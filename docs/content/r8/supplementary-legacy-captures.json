@@ -1,0 +1,86 @@
+[
+  {
+    "path": "docs/content/r8/phone-exercise-turn-alternative-formation.png",
+    "source": "docs/content/r3/phone-exercise-turn-alternative-formation.png",
+    "sha256": "7ddcc4136530310070725fbbc56412ceba9c38d909b4077881934c189c11f0fd",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-turn-alternative-complete.png",
+    "source": "docs/content/r3/phone-exercise-turn-alternative-complete.png",
+    "sha256": "3700c0e4774a3b566637ca9cf1a12e239e843e41e413d8bd771e345527108ef3",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-switchback-alternative-formation.png",
+    "source": "docs/content/r3/phone-exercise-switchback-alternative-formation.png",
+    "sha256": "639d2127821eee6cb18a5dc9caaa4df07d4e01b938e2163c5532dacb674515cf",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-switchback-alternative-complete.png",
+    "source": "docs/content/r3/phone-exercise-switchback-alternative-complete.png",
+    "sha256": "2fe56411b2d264ab0a0a0651bbdb4e8d694d63f47b94c3c3e75e91f0a59f83b0",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-turn-resumed.png",
+    "source": "docs/content/r3/phone-exercise-turn-resumed.png",
+    "sha256": "4b62de90d8904e7aefdd8f4de25c394b4c6fda18164b5a8677e9e893f868b25a",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-levee-resumed.png",
+    "source": "docs/content/r3/phone-exercise-levee-resumed.png",
+    "sha256": "4a677556efc879d160e49761461f88be812a8754ca0f892bf7b0d20c5ade8409",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  },
+  {
+    "path": "docs/content/r8/phone-exercise-switchback-resumed.png",
+    "source": "docs/content/r3/phone-exercise-switchback-resumed.png",
+    "sha256": "e3a2065b5e2dffe36a895418dd7a126dbe77c016f31e237f96d67dee87a26738",
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "dpr": 1,
+    "origin": "same npm run verify, R3 public-UI regression",
+    "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+  }
+]

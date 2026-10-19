@@ -1,0 +1,1705 @@
+{
+  "status": "VERIFIED",
+  "version": "0.17.0",
+  "secretScan": {
+    "files": 3151,
+    "matches": 0,
+    "paths": []
+  },
+  "sourceFiles": [
+    {
+      "source": "src/config.js",
+      "repo": "tower-defense",
+      "unchanged": true
+    },
+    {
+      "source": "src/rules.js",
+      "repo": "tower-defense",
+      "unchanged": true
+    },
+    {
+      "source": "scripts/test-rules.js",
+      "repo": "tower-defense",
+      "unchanged": true
+    },
+    {
+      "source": "scripts/test-config.js",
+      "repo": "tower-defense",
+      "unchanged": true
+    },
+    {
+      "source": "LICENSE",
+      "repo": "tower-defense",
+      "unchanged": true
+    },
+    {
+      "source": "packages/shared/src/combat.ts",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "packages/shared/src/combat.test.ts",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/src/game/fieldOrders.ts",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "LICENSE",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "assets/ATTRIBUTION.md",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/buildings.webp",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/landscape/materials.webp",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/landscape/nature.webp",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/e.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/ne.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/nw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/w.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/sw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/warrior/facings/se.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/e.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/ne.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/nw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/w.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/sw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/archer/facings/se.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/e.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/ne.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/nw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/w.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/sw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/villager/facings/se.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/e.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/ne.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/nw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/w.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/sw.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/shieldBearer/facings/se.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/characters/mage/action-sheet.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/monsters/miremaw/action-sheet.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/monsters/ashwing/action-sheet.png",
+      "repo": "village-siege",
+      "unchanged": true
+    },
+    {
+      "source": "apps/client/public/assets/original/frontier/monsters/rootback/action-sheet.png",
+      "repo": "village-siege",
+      "unchanged": true
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "vendor/tower-defense/src/config.js",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/tower-defense/src/rules.js",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/tower-defense/scripts/test-rules.js",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/tower-defense/LICENSE",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/village-siege/combat.ts",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/village-siege/combat.test.ts",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/village-siege/fieldOrders.ts",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/village-siege/LICENSE",
+      "unchangedCopy": true
+    },
+    {
+      "path": "vendor/village-siege/ATTRIBUTION.md",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/buildings.webp",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/materials.webp",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/nature.webp",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-e.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-ne.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-nw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-w.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-sw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/warrior-se.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-e.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-ne.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-nw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-w.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-sw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/archer-se.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-e.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-ne.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-nw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-w.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-sw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/villager-se.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-e.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-ne.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-nw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-w.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-sw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/shieldBearer-se.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/mage.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/miremaw.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/ashwing.png",
+      "unchangedCopy": true
+    },
+    {
+      "path": "public/assets/rootback.png",
+      "unchangedCopy": true
+    }
+  ],
+  "repos": [
+    {
+      "repo": "tower-defense",
+      "headUnchanged": true,
+      "statusUnchanged": true
+    },
+    {
+      "repo": "village-siege",
+      "headUnchanged": true,
+      "statusUnchanged": true
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "be1d0af70821420dfbcf658ef1ac56947813fb91d586ba0eaa178b32aeb1654e"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "6aced1e7ca90f8edf54113720731a2851302bc67035b1bf417eefcca4e547163"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-01-terrain-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "7bb9dce0334023f7f6bec824449c59d67a14344a7d87f1052b2d3313039ab6d8"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r3-02-exercise-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "da1b32ff8c0696b6435ac6a103c5a1527b0b5716ef1047f2c97fd77490012fef"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r4-terrain-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "908f8e2483f9ffa0ddd244142d19abfafaa2c00632fe98957e2bf8741795989f"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r5-terrain-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "a17105a124697ecc6db383c192c9a86c685adc323bb7b837ea20896252dde3bf"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r6-hollow-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "8815f1a331f30aea72a8ed5b56337b6357c6210e3c2eb7a0f296c5c552743a86"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r7-flood-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "93953a3e836d4180f905ed523e2f4ea6623c3df267a7535fecadd9e2cfd8bd73"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r8-flood-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "8dafa27406db64bc9054101e44e0214b767f2fdf1134a5b1bba6da66f202374e"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r9-flood-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "2af7a6fdf5374f48e28b602f61b2ac1229dbd83965f65b32fa6eb187da7ae9b0"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "86cfc26ace125112767c0a4ff3b57b9b2a0fd09d014acc11f6dc0d0def947899"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "10fe5d175838c8af726baa2598dbca22c0ee40ecdf440795ddc46dd8f6c3d037"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "width": 2064,
+      "height": 2752,
+      "sha256": "2295fd40d7b9abad2ab0cded2237b5f20f927817ae72b6b68b1b2e858051d978"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "924e779e9cab46267fda7ddd97c6853dac22f270a3edabc6eaa4d4cd91be6490"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "f0d73ac0bb0d73cc6e7cf00a3bab7a0a4f0dc6f5175afe42fa0caddf37ee8c5f"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-01-terrain-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "d563424f8f0a703eaa65527dd3afadb6bb8bf1ae9364258bfacf881487ef8a66"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r3-02-exercise-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "ea31b60893eaa61d3deb9854e090be5bc52947de982623368908d17f59bf314f"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r4-terrain-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "b546f7bbf2df000ea7cdfcc1331f028e591599b101f41465ed7520c054d3887f"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r5-terrain-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "e016543993c9ffc6851a6ae1fbbcbbc58b7ff7f82b2b6d2d9c2a8e9a5733ccb2"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r6-hollow-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "4d70e0c0a87f01b5db5712dc991d0e2a77c11b4a4a631bc4c4a43f5a949907d8"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r7-flood-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "71560be60ff5994b8f2ecd6d3ee7808b7634a9226f78e4db93aa5201480f4b7c"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r8-flood-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "087e83b69b9a047ee51717849fe7f8e4d584bdfb1247c09b43b79740b91fb33a"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r9-flood-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "654da53d2bdad33b7a409b7721b8e21ffedcb291439ff40a14f8697b60f6d5bf"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "a0c1bfa9702e5f64bf8ae5d6b53a5ba5956d0f0db4bfeba10c3654e59cec29ed"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "524311ab450b51d17c19b8fbf5793aa7ffda58608b77802b6fe94ed3376a3572"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "6c8c518658cae714f4d53b8487fe224ca80d9cdb0b2b5e28324d011eda7c0115"
+    }
+  ],
+  "runtime": {
+    "files": 230,
+    "bytes": 52367880,
+    "manifest": [
+      {
+        "path": "dist/assets/archer-e.png",
+        "bytes": 47246,
+        "sha256": "645e2ef1a14d8d18c4b4e3e9a5dba5df52fb2fa21d7aa9df4613b8d9bddd8001"
+      },
+      {
+        "path": "dist/assets/archer-ne.png",
+        "bytes": 47890,
+        "sha256": "7434f59a7823816646055d04c6fc10154b9464c0f9606d50c83aed72605299e5"
+      },
+      {
+        "path": "dist/assets/archer-nw.png",
+        "bytes": 47764,
+        "sha256": "950bfd419ad7445151b0b171cf4d4f77c2adec700a89e072d5e50aa507eed652"
+      },
+      {
+        "path": "dist/assets/archer-se.png",
+        "bytes": 47804,
+        "sha256": "0e69142f3c08cf3ffd1bde94b30b451e5b592a265eb89001a622c666838d341d"
+      },
+      {
+        "path": "dist/assets/archer-sw.png",
+        "bytes": 49797,
+        "sha256": "06a9409b8c5f80fcc3bdfcc79a6248fb01071349a46b4e54b327a12eca305785"
+      },
+      {
+        "path": "dist/assets/archer-w.png",
+        "bytes": 48928,
+        "sha256": "a0e20fd27446afaeec5419f3245dfcb0fc9d21bc118405fb96dc2edc5b2a4351"
+      },
+      {
+        "path": "dist/assets/ashwing.png",
+        "bytes": 319530,
+        "sha256": "3abc28fdd63e0c6d2f7213b442607a90e520081368d782f84464ddd11169959b"
+      },
+      {
+        "path": "dist/assets/buildings.webp",
+        "bytes": 1263750,
+        "sha256": "1ba44d5eb6d0fc01f92fe3861f46a8e54db9504763ceef808d8fc796cf5c41b8"
+      },
+      {
+        "path": "dist/assets/content-r1/fieldworks.png",
+        "bytes": 2261076,
+        "sha256": "1734548b2a268b5c815cc7a6c69d1bba366ae5563e59e32175f739b90bc1c783"
+      },
+      {
+        "path": "dist/assets/content-r2/legacy.png",
+        "bytes": 1790019,
+        "sha256": "7ed57daca7445ce7ca05685d4fd610e3c37cde3de16d2343b165ee84b953b27b"
+      },
+      {
+        "path": "dist/assets/content-r4/flood.webp",
+        "bytes": 313820,
+        "sha256": "7698149e3ba96ab88049a831542c4123a04a54f220405f56f70e116ddf4f0a4b"
+      },
+      {
+        "path": "dist/assets/content-r5/flood.webp",
+        "bytes": 117182,
+        "sha256": "ecde43a0d1a842ef44a04fd7f8592df41b432083ade73bb17eb430612b5fdec4"
+      },
+      {
+        "path": "dist/assets/content-r6/barricade.webp",
+        "bytes": 421960,
+        "sha256": "1a841e2d15e676fc80ba487d338734c839fcc80ae42b9774a181c51ba79feda4"
+      },
+      {
+        "path": "dist/assets/content-r6/flood.webp",
+        "bytes": 508056,
+        "sha256": "941fe711036227a1b84cf247b511960bae8eca11dac27d19a84e703bfdb3e31d"
+      },
+      {
+        "path": "dist/assets/content-r7/flood.webp",
+        "bytes": 645298,
+        "sha256": "1e30d774e62868c6993b5bb380e987a6a9af610f370464b5b56287b9d8ef86b0"
+      },
+      {
+        "path": "dist/assets/content-r7/legacy-cannon.webp",
+        "bytes": 337772,
+        "sha256": "8bfd0fd81416c109ef2e2388512691924c073534bdb5e972616425ffb749b44a"
+      },
+      {
+        "path": "dist/assets/mage.png",
+        "bytes": 297759,
+        "sha256": "3a813200018f635ae57a7930236933b5fd3021345b5aeea73415cd0a1f79a002"
+      },
+      {
+        "path": "dist/assets/materials.webp",
+        "bytes": 653090,
+        "sha256": "7de3bc4b3a8d05e0a29b6ab3628dbbd603f37a6f7213fd63dca36c2ae247e0ac"
+      },
+      {
+        "path": "dist/assets/miremaw.png",
+        "bytes": 436651,
+        "sha256": "ec558b2ecdc37c26bf0816f91c4a919c7c09db01eb58b028b32c198afdcfcdfb"
+      },
+      {
+        "path": "dist/assets/nature.webp",
+        "bytes": 508776,
+        "sha256": "1fe934b65624d085cfec2edd0d3ccf92fcd1b3c51b1942b80b24edcd6a44e812"
+      },
+      {
+        "path": "dist/assets/r1/app-icon-192.png",
+        "bytes": 71232,
+        "sha256": "1a4ec578493d8939a8c11017de77fa943397c4ab01e970d3a0abf31517a4a6a0"
+      },
+      {
+        "path": "dist/assets/r1/app-icon-512.png",
+        "bytes": 421327,
+        "sha256": "2254511078b997079b01a61647c528dccfc5d80b8de396163a5902eebe16ed4d"
+      },
+      {
+        "path": "dist/assets/r1/app-icon-64.png",
+        "bytes": 9460,
+        "sha256": "34f2b54d0160dd91f0d971f93e8539a8bebc0f92bac47193a86139ac7a4e6b07"
+      },
+      {
+        "path": "dist/assets/r1/archer-e.png",
+        "bytes": 145252,
+        "sha256": "d03ee27459a3eaf0093ad3bb137090e23ab2b3e605a1d0c2441599190e479b38"
+      },
+      {
+        "path": "dist/assets/r1/archer-ne.png",
+        "bytes": 145964,
+        "sha256": "6a80de14084a903440f571327a6f7eb38de1e4e184981bf10f8b5bb3dabad1b8"
+      },
+      {
+        "path": "dist/assets/r1/archer-nw.png",
+        "bytes": 150877,
+        "sha256": "5b3a068a593d41ec67ba3e36ec0b9c7f8b0fe8b5f2b1d714e15fbea810411a63"
+      },
+      {
+        "path": "dist/assets/r1/archer-se.png",
+        "bytes": 149087,
+        "sha256": "f7911e00490ec94fb61eba5bd5c369ec1683236b14653c8463e62f7d05d41a78"
+      },
+      {
+        "path": "dist/assets/r1/archer-sw.png",
+        "bytes": 155080,
+        "sha256": "b9a4bd299026cd2418a10145e0f8c0febf2d8cd71247818f3653dae2f020594e"
+      },
+      {
+        "path": "dist/assets/r1/archer-w.png",
+        "bytes": 158161,
+        "sha256": "464277720487217491c775a541f4d2c7ac6b46e1564b51eeb0e140ae20145598"
+      },
+      {
+        "path": "dist/assets/r1/ashwing.png",
+        "bytes": 929275,
+        "sha256": "8307ae6df0a6d730e72fe87f2c40d8cfb41aa68fb458bc88dbae1057da30dcc3"
+      },
+      {
+        "path": "dist/assets/r1/barracks.png",
+        "bytes": 116567,
+        "sha256": "2550bde496b89c902f2c60185905ca0b31ff86f4bede804015e701779f1afabd"
+      },
+      {
+        "path": "dist/assets/r1/battlefield.webp",
+        "bytes": 416270,
+        "sha256": "70e5bfea07bbee6f8f0ae5f384158df6b13bf858c9cc4238c62b69f00ba157a2"
+      },
+      {
+        "path": "dist/assets/r1/commander-face.png",
+        "bytes": 22071,
+        "sha256": "d1bacb23c8ff0c0fa4b6f67bbf05056ebe50f62d5812664363fc5278c311d518"
+      },
+      {
+        "path": "dist/assets/r1/commander.png",
+        "bytes": 338524,
+        "sha256": "1d32cf6065b0e4fd3810e70e9f71d6f5a9c810bed2f28973fe7e21411ff89cc7"
+      },
+      {
+        "path": "dist/assets/r1/enemy-keep.png",
+        "bytes": 128245,
+        "sha256": "475877e9f74c63c80a9d492da2650a9b343dd9156c877d08b1388eb73c094f6f"
+      },
+      {
+        "path": "dist/assets/r1/keep.png",
+        "bytes": 137712,
+        "sha256": "60d9d0bae7f2be388e57efe801ae0758c4dae420c8dc0c8fa260b7d520d6907c"
+      },
+      {
+        "path": "dist/assets/r1/logo.png",
+        "bytes": 429882,
+        "sha256": "d3040b25cbabffacb42ec866372ca8b0618b7b7db12f8fd8d056f7f70673a77c"
+      },
+      {
+        "path": "dist/assets/r1/mage.png",
+        "bytes": 818387,
+        "sha256": "0c1095d50da99e57f068306e7e94ff241d1f788156c5e428e27be0f3c78468cf"
+      },
+      {
+        "path": "dist/assets/r1/miremaw.png",
+        "bytes": 1322181,
+        "sha256": "4acd7dee069462903fd731d3a72b202571c3fc2bac0022ffbf4066797bc0b071"
+      },
+      {
+        "path": "dist/assets/r1/panel.webp",
+        "bytes": 17354,
+        "sha256": "81d70e36a91066dd11463458fe53ad62902bd94d4a9fe4e384c319a9094c906d"
+      },
+      {
+        "path": "dist/assets/r1/rootback.png",
+        "bytes": 904466,
+        "sha256": "beae62cf6ea83de974f7398be04ca7e4216a5c153fdb0e44a19575317ccb0e6c"
+      },
+      {
+        "path": "dist/assets/r1/seal-cannon.png",
+        "bytes": 27645,
+        "sha256": "ae4bf91cefa1d4ea99bee8581df3b2775157c9fae5fecf701a1fb9c3fc7863fd"
+      },
+      {
+        "path": "dist/assets/r1/seal-frost.png",
+        "bytes": 20535,
+        "sha256": "3955da89b811266971d6af3a403846331a450f66698fc393df94dc2ebf0df12c"
+      },
+      {
+        "path": "dist/assets/r1/seal-tesla.png",
+        "bytes": 22805,
+        "sha256": "856417f3ab86531baad4e5d83fed6bf447eddaec39f2d3cfb231f38b20843d9c"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-e.png",
+        "bytes": 153459,
+        "sha256": "22e1277a80cef1e80fac6f8b5b3580c47246ca69e1b4e57a69cb95d90600c9b5"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-ne.png",
+        "bytes": 170016,
+        "sha256": "b01ac422182e2a9a527ec211d27aee8ed124d8bd5560c6d8973839766873c6f5"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-nw.png",
+        "bytes": 175842,
+        "sha256": "cee4ef24d47d953d845582b0162e2864df0fcc173f9fd49b0d657f5b110d14b6"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-se.png",
+        "bytes": 169423,
+        "sha256": "7e58b68f3387a28a0039bac0ec6515af2ebf1628078194dd098e249921274117"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-sw.png",
+        "bytes": 166161,
+        "sha256": "99bf4d7f98f08d212faf9dbdd00fde8fdba0f598c7ceece78cece9c115b298eb"
+      },
+      {
+        "path": "dist/assets/r1/shieldBearer-w.png",
+        "bytes": 152552,
+        "sha256": "0007ac4ec6321167b90784c9b53482cadb2380958ce522f3e269a09302dcf48f"
+      },
+      {
+        "path": "dist/assets/r1/tower-cannon.png",
+        "bytes": 56987,
+        "sha256": "654104d245966ea3e6cb2583441b9f82253177356c75f86fca6320475e1d21ca"
+      },
+      {
+        "path": "dist/assets/r1/tower-frost.png",
+        "bytes": 48499,
+        "sha256": "992a827e0c2c92f97b9c08400ecfcdde6dbb64cc2b178f37195808f89b12c9ef"
+      },
+      {
+        "path": "dist/assets/r1/tower-tesla.png",
+        "bytes": 87062,
+        "sha256": "5dec4ee95f785dc0e2fe91ec680b2a2c6587ae7e6abcddfd8e0d65524ced2f8c"
+      },
+      {
+        "path": "dist/assets/r1/villager-e.png",
+        "bytes": 115033,
+        "sha256": "1a54912f27afd88ffe24ec37446068e2536a0a97a8190a49be63922adc44c74b"
+      },
+      {
+        "path": "dist/assets/r1/villager-ne.png",
+        "bytes": 133280,
+        "sha256": "f3a12d730a0efc81c51f6d1538e97d7cc81d39af0ac7c160914b25e4d6d2f370"
+      },
+      {
+        "path": "dist/assets/r1/villager-nw.png",
+        "bytes": 132140,
+        "sha256": "3611568f9cbadecea0e0f09e37c96b777926b54c1769b47601e26e2346ecc1b0"
+      },
+      {
+        "path": "dist/assets/r1/villager-se.png",
+        "bytes": 133081,
+        "sha256": "dfe194a7ee4f1eb6b25ba81f39b8d751037d4e7a37024e276d6a585dfbf0e17c"
+      },
+      {
+        "path": "dist/assets/r1/villager-sw.png",
+        "bytes": 138474,
+        "sha256": "39fb4b52d9af747c16ecc0495319e8ec05308086971be3dcc29e121d8d50a079"
+      },
+      {
+        "path": "dist/assets/r1/villager-w.png",
+        "bytes": 124959,
+        "sha256": "78cf8917c0976b4596e0556c30419eb819bbaa95a27f66fc208b460989fcba97"
+      },
+      {
+        "path": "dist/assets/r1/warrior-e.png",
+        "bytes": 112127,
+        "sha256": "2488414b07d1bebac55e2551719f9d5f8c860b3b731ee80f2a4a517c53709880"
+      },
+      {
+        "path": "dist/assets/r1/warrior-ne.png",
+        "bytes": 139375,
+        "sha256": "db0b056ac9a060f895943bc9d5b0cddb17cb5e57b761d694a7a7b20ae800daad"
+      },
+      {
+        "path": "dist/assets/r1/warrior-nw.png",
+        "bytes": 141487,
+        "sha256": "65e3180633885d8b03913ef5b2db88d2a5e3100765116abb136b6548eb531760"
+      },
+      {
+        "path": "dist/assets/r1/warrior-se.png",
+        "bytes": 139750,
+        "sha256": "9baa70becd98477ee3a42cf8e0f4e8d207125c5063e0ab792d21198c5165e409"
+      },
+      {
+        "path": "dist/assets/r1/warrior-sw.png",
+        "bytes": 152563,
+        "sha256": "06818053cd826ecbd6d8fb8d6672146c124daabb5a35e87939229aa87e8f86e6"
+      },
+      {
+        "path": "dist/assets/r1/warrior-w.png",
+        "bytes": 130676,
+        "sha256": "65970d077d937a3a82e09c9aef3d57364dd284a9cf80320fa04d6c8d68d42138"
+      },
+      {
+        "path": "dist/assets/r1/wordmark.png",
+        "bytes": 204776,
+        "sha256": "c2b6840aa714821a0bf7e08707e37f361b673a33b914ad15bd9f2c9724f733b8"
+      },
+      {
+        "path": "dist/assets/r2/actor-frames.json",
+        "bytes": 14313,
+        "sha256": "5856d0f41aa2df87cae15a811224b922bd34d866855984a63cc333c2622c4dc2"
+      },
+      {
+        "path": "dist/assets/r2/app-icon-192.png",
+        "bytes": 82344,
+        "sha256": "0bfe04bade967725f151c19ff24d3c8d492a101ab6d620bf001c1857c452ce96"
+      },
+      {
+        "path": "dist/assets/r2/app-icon-512.png",
+        "bytes": 514228,
+        "sha256": "d4fdbc1d623b83e95924bd5454e1d4d1ffc8ef217a67b02fadbc0ed301452da3"
+      },
+      {
+        "path": "dist/assets/r2/app-icon-64.png",
+        "bytes": 10372,
+        "sha256": "037192aa794b3afb7160198446fde7abe320fc88a0b9bdcf8d90903ca0163996"
+      },
+      {
+        "path": "dist/assets/r2/battlefield-siege.webp",
+        "bytes": 315236,
+        "sha256": "b382f173cd50705fb8a3a34ef4d786ef4196b01109d7fd59f78c0a950a4e5039"
+      },
+      {
+        "path": "dist/assets/r2/battlefield.webp",
+        "bytes": 352570,
+        "sha256": "e7f54e9e99662d7850e6d83bf7086163313069f334d52f6209a5bca50f3bde89"
+      },
+      {
+        "path": "dist/assets/r2/bridge.png",
+        "bytes": 104747,
+        "sha256": "627ac329a35cbea77e190c2d0c1fe03ea07c930e6053fb8faf421de0405b2166"
+      },
+      {
+        "path": "dist/assets/r2/commander.png",
+        "bytes": 429421,
+        "sha256": "ac783847bf32c985cb96f41137e13a073f000dbb745cc031993efdcc488ae963"
+      },
+      {
+        "path": "dist/assets/r2/enemy-keep.png",
+        "bytes": 168702,
+        "sha256": "33804c37d84d9c1a7aa4ca84a1d730b734919b7fea2f3d00b5ac1f8881821259"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-e.png",
+        "bytes": 150063,
+        "sha256": "ba3a208bd3dcdbf99e477d8ab11c33eaa0a809a5ee5a7ee37063ad678cfc860c"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-ne.png",
+        "bytes": 167358,
+        "sha256": "9a83b8eebe089ee5872e9b838249c2c2c4e5c5b3c41f3e07c1e788eade6114a3"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-nw.png",
+        "bytes": 172898,
+        "sha256": "6a9579b27513260de061a5ccd2c85e6b9de05a717495f8e3bbd8d6601b4b50c4"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-se.png",
+        "bytes": 165714,
+        "sha256": "9cb87fc1eb57849a266b055d673e3976eed9d89bfb9ff0f22ba77d89043e747c"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-sw.png",
+        "bytes": 162565,
+        "sha256": "23428337c878e2cd41db67db0bb81135640bfa938e6d11cc3f8b63488805efd0"
+      },
+      {
+        "path": "dist/assets/r2/enemy-shieldBearer-w.png",
+        "bytes": 149171,
+        "sha256": "785fa64222b048fbf5a74c565a1bb37bc511af34b0f633e0a46cbb30813a6056"
+      },
+      {
+        "path": "dist/assets/r2/logo.png",
+        "bytes": 204064,
+        "sha256": "df04887c3c46befd7eaacae93009f2fbe8b6f64f8bf0bb735aa4138adaf8ee7e"
+      },
+      {
+        "path": "dist/assets/r2/panel.webp",
+        "bytes": 51188,
+        "sha256": "a5e6043da38d18dc69d0f4f7fc59cc328703ddbd017dc58e1d81d4e211de5467"
+      },
+      {
+        "path": "dist/assets/r2/seal-cannon.png",
+        "bytes": 16802,
+        "sha256": "5da4c16f29ef66b25f1abc941bab81b5d12ec243163ac1d2c18f06c6e3b929ef"
+      },
+      {
+        "path": "dist/assets/r2/seal-frost.png",
+        "bytes": 19163,
+        "sha256": "b5081c2468b9e029a8731418fc4c119e29deb4c8a2db6b6be98dd6aa5d6e17a4"
+      },
+      {
+        "path": "dist/assets/r2/seal-tesla.png",
+        "bytes": 17235,
+        "sha256": "87df15db90c90e1fae94b115767702d16af9bf46ad3ec8043a3ef3f3da3fcf9a"
+      },
+      {
+        "path": "dist/assets/r3/abutment.png",
+        "bytes": 128320,
+        "sha256": "5f5a1fc86b5f6da14bc216365a52d0bae5875d54c46e3249c389280aa13e645b"
+      },
+      {
+        "path": "dist/assets/r3/app-icon-192.png",
+        "bytes": 84037,
+        "sha256": "af974d4e28fec8f9b4a0b6e0f59ee94a9e75d69ee7e06d41462378ee20b2c636"
+      },
+      {
+        "path": "dist/assets/r3/app-icon-512.png",
+        "bytes": 540077,
+        "sha256": "b111eec76c945ad650af4e0edd3677c2a9aaad3abd29d6242eaa44e87d22354c"
+      },
+      {
+        "path": "dist/assets/r3/app-icon-64.png",
+        "bytes": 10544,
+        "sha256": "3c00a9c3f99c34e687d035034ac7240c6adc346a9de8fbd7f34b7bda002cf50a"
+      },
+      {
+        "path": "dist/assets/r3/archer-e-portrait.png",
+        "bytes": 15841,
+        "sha256": "1257b31737c1d52f656f17522bb8b41ea09afb1991d9110dc482f6161e167dd0"
+      },
+      {
+        "path": "dist/assets/r3/chapter-citadel.webp",
+        "bytes": 343178,
+        "sha256": "254da9e46002fa4127038b13ece8fb34d7509565312fa476cc0543dc50230572"
+      },
+      {
+        "path": "dist/assets/r3/chapter-ford-watch.webp",
+        "bytes": 279748,
+        "sha256": "9ab9540e296e82a4148f75fa529e4ab7f7c1a998f747806bd0d1fe7f1b1aedf3"
+      },
+      {
+        "path": "dist/assets/r3/chapter-ford.webp",
+        "bytes": 306404,
+        "sha256": "c3f1e68b81c338e6fec0e7cc4753b20edeb086e03f430d953fa5bb37e9112d91"
+      },
+      {
+        "path": "dist/assets/r3/chapter-pine.webp",
+        "bytes": 449454,
+        "sha256": "35a5b1526d79e566ab4f83e4ff7e9abfa0c80a570e6d1ed9566e201ae3416923"
+      },
+      {
+        "path": "dist/assets/r3/chapter-quarry-watch.webp",
+        "bytes": 289392,
+        "sha256": "40b07868312a206de8f0a3774d2af02978a7c7e610693f31c657028678bc893a"
+      },
+      {
+        "path": "dist/assets/r3/chapter-quarry.webp",
+        "bytes": 313272,
+        "sha256": "d60dafe4d571d8df4688b105d2a5358a04ca789181f5ff1058ccb8b4a8b2c529"
+      },
+      {
+        "path": "dist/assets/r3/commander.png",
+        "bytes": 471957,
+        "sha256": "b2df6e888d827ef1d88e6a5d6c2c76c5ab0fb980758997673ef87b4909036038"
+      },
+      {
+        "path": "dist/assets/r3/gravel.png",
+        "bytes": 105446,
+        "sha256": "1c88e07772a17fe199616cc28d2bcf09cf160df3ebe10417ab270645bcbc493e"
+      },
+      {
+        "path": "dist/assets/r3/logo.png",
+        "bytes": 207597,
+        "sha256": "17e4fd5272ab015438ee7a81ec2d48bcfd4f5d4848943909916c8c92fe79c010"
+      },
+      {
+        "path": "dist/assets/r3/mage-portrait.png",
+        "bytes": 22426,
+        "sha256": "57526bdd376da838380ddcf3879cac633609d68db45858335e580df2a519efc3"
+      },
+      {
+        "path": "dist/assets/r3/panel.webp",
+        "bytes": 12052,
+        "sha256": "61840d30c7904e7d3333e518e7da035caa9febf8aa064236ac0f7285ad8eabdf"
+      },
+      {
+        "path": "dist/assets/r3/reeds.png",
+        "bytes": 125464,
+        "sha256": "0d5cc19c1f8be63560d0bd0ce185ee1836c7252e58caba61cb713e24d9fc7393"
+      },
+      {
+        "path": "dist/assets/r3/road-surface.webp",
+        "bytes": 23360,
+        "sha256": "d403a26c5f1a0734b0538dbf267ff9fc3600567076cbd1112a7c5c1587c94499"
+      },
+      {
+        "path": "dist/assets/r3/ruts.png",
+        "bytes": 118843,
+        "sha256": "beecec14d365e6d04558222d0cdae8d2ca9177976a8e15226759fe243abf48e9"
+      },
+      {
+        "path": "dist/assets/r3/sand.png",
+        "bytes": 104668,
+        "sha256": "080c8184f17cb12c981bc6521944318f40ef319428169f3a590d32611d308162"
+      },
+      {
+        "path": "dist/assets/r3/seal-cannon.png",
+        "bytes": 17004,
+        "sha256": "ed379857963534074013a1763354a463848b35cc964c45f132ebb151fc48cd1f"
+      },
+      {
+        "path": "dist/assets/r3/seal-frost.png",
+        "bytes": 17022,
+        "sha256": "67099caea24388e8753d257558e3588f4a9fda4dfff7fd9a62d9bfb26b7478ac"
+      },
+      {
+        "path": "dist/assets/r3/seal-tesla.png",
+        "bytes": 10765,
+        "sha256": "9d1b0a196327700a836f71e4293fabc025edeecd7a5f0ea1454fdb2c254fb71b"
+      },
+      {
+        "path": "dist/assets/r3/shoal.png",
+        "bytes": 117924,
+        "sha256": "51772d937844d71989210ad196db1365c50a0abf31680676885c7feb9d12d2c8"
+      },
+      {
+        "path": "dist/assets/r3/warrior-e-portrait.png",
+        "bytes": 12737,
+        "sha256": "1d905c0629a2b93fa2da7ea496ea82c44866b03ad3bed3b588cbb5a283dbb9a0"
+      },
+      {
+        "path": "dist/assets/r4/actor-frames.json",
+        "bytes": 14532,
+        "sha256": "8e01f9af28946fca6e130c5b17815ae3d831d5d9a48892f79887e51c63422670"
+      },
+      {
+        "path": "dist/assets/r4/app-icon-192.png",
+        "bytes": 88293,
+        "sha256": "4c6ac23b4ef7dc069d273d102e8ff0a065b4bc547c51fd8da2c4c338210d75d3"
+      },
+      {
+        "path": "dist/assets/r4/app-icon-512.png",
+        "bytes": 572623,
+        "sha256": "e13e0040de08fd228343ace6e1ad60029c576b1d3d51ac0c88a3078e01abbb76"
+      },
+      {
+        "path": "dist/assets/r4/app-icon-64.png",
+        "bytes": 10785,
+        "sha256": "2ba6b1d3799e20819b0f3629b8a108c70a9b1948534a2593f82bb344a944617e"
+      },
+      {
+        "path": "dist/assets/r4/archer-portrait.webp",
+        "bytes": 53824,
+        "sha256": "5b823b4b80ee5957807ffdb30778938caab2f8f15d9374ca762bea9145cdd140"
+      },
+      {
+        "path": "dist/assets/r4/archer.webp",
+        "bytes": 544594,
+        "sha256": "1c737f3594b6ca76e384788dae51879a98e7277074acbef22dfd364289a05e59"
+      },
+      {
+        "path": "dist/assets/r4/commander.png",
+        "bytes": 497539,
+        "sha256": "a1bfbb0dbe754719dbe574857c1f8c6a8a633e385f28be8be11dbe2bfd6d36b6"
+      },
+      {
+        "path": "dist/assets/r4/enemy.webp",
+        "bytes": 455632,
+        "sha256": "ca3f60c49bc4ce8950b2ddec73f32304012e36f0992fc8af44edd3568eaeb499"
+      },
+      {
+        "path": "dist/assets/r4/ford.webp",
+        "bytes": 283722,
+        "sha256": "a8bced51acbc8678ce2b8d1270d1dea675946f4662aef3e012ee87e0dc640a33"
+      },
+      {
+        "path": "dist/assets/r4/hound.webp",
+        "bytes": 461676,
+        "sha256": "e1302e0b2f81235d43d471fda3ee154538c564c2d90ec481e7f3afeb4e8278e0"
+      },
+      {
+        "path": "dist/assets/r4/logo.png",
+        "bytes": 232823,
+        "sha256": "51f98b7046edc3167431dd40bef5cab7a51f83c7011068c3ee4b681c84c35453"
+      },
+      {
+        "path": "dist/assets/r4/mage-portrait.webp",
+        "bytes": 50944,
+        "sha256": "e309c84a233402875b947542f05c7f34b0adaa5738d4ff72c539b83d8231a1eb"
+      },
+      {
+        "path": "dist/assets/r4/mage.webp",
+        "bytes": 549994,
+        "sha256": "7d59c440f23d3b2cabe6f730d9a1f49be9b100c9f216b99da139ebb2186a6297"
+      },
+      {
+        "path": "dist/assets/r4/panel.webp",
+        "bytes": 9388,
+        "sha256": "e7538b71d4c07eed47d93aed50d61d3021068441b089ae1bc90fb8f0658f9783"
+      },
+      {
+        "path": "dist/assets/r4/pine.webp",
+        "bytes": 379046,
+        "sha256": "39f28f023f5aa24f85d46af82a1f793dfd73e74894bd5a17b907df01f99a4ce2"
+      },
+      {
+        "path": "dist/assets/r4/river-overlay.webp",
+        "bytes": 189016,
+        "sha256": "84b8a62265292ab5e84a2b87a763381c73935444790e3131f73661459ab6c1fb"
+      },
+      {
+        "path": "dist/assets/r4/river.webp",
+        "bytes": 250816,
+        "sha256": "9cd37629a275587e7e731b4a194b899e1eb089dfd42e9c3ebf2dafefcfc7bb28"
+      },
+      {
+        "path": "dist/assets/r4/road.webp",
+        "bytes": 178072,
+        "sha256": "82745e86daed538b169077f15b9e5dba1aa1db3793ae6ee336f2501de909dac8"
+      },
+      {
+        "path": "dist/assets/r4/seal-cannon.png",
+        "bytes": 17512,
+        "sha256": "9891768b5172cbf0f14de47e303a5a0aa4e39ef9c77f513f9564e6d171095130"
+      },
+      {
+        "path": "dist/assets/r4/seal-frost.png",
+        "bytes": 18120,
+        "sha256": "001205d15f7b6400dd632a5dae40d3c97fd4ba09870f1b6d77ee02699fcf224c"
+      },
+      {
+        "path": "dist/assets/r4/seal-tesla.png",
+        "bytes": 15823,
+        "sha256": "c4e14c784942791225e841f3303a83c4b479e6356353f1b98f7b71b760a5ac27"
+      },
+      {
+        "path": "dist/assets/r4/tower-cannon.png",
+        "bytes": 76345,
+        "sha256": "07e2e791aa99c52cf4f266b77a3bd4da9d5266c5f27d734cb2c09c926dd2b6d3"
+      },
+      {
+        "path": "dist/assets/r4/tower-frost.png",
+        "bytes": 65867,
+        "sha256": "3f3ac3fc6703af322ef52f0f75dbdba32fe077ec75e0ffc142717206f088d7d3"
+      },
+      {
+        "path": "dist/assets/r4/tower-tesla.png",
+        "bytes": 83618,
+        "sha256": "c954f8fd16fe1f3a4971e55b2156c5c4d069000cf3c03f17b08d8aebb44b7cbd"
+      },
+      {
+        "path": "dist/assets/r4/warrior-portrait.webp",
+        "bytes": 39110,
+        "sha256": "60101ffea8cd9cb21314ad9f99c141dcb87b6daace1cfe11d9f2da75e25ace3a"
+      },
+      {
+        "path": "dist/assets/r4/warrior.webp",
+        "bytes": 441468,
+        "sha256": "62ff12601b4b8291b30cdddf1c572fecedcb9b7c89d86a75eae668d8c3f58a94"
+      },
+      {
+        "path": "dist/assets/r4/worker.webp",
+        "bytes": 465646,
+        "sha256": "282a6043c03a2b0af01b49c3bf78ed43b72ffbbd8e908734e9e6e4d6393cfc28"
+      },
+      {
+        "path": "dist/assets/r5/actor-frames.json",
+        "bytes": 15039,
+        "sha256": "53a2406e4ffb6bf0e6abd742b3a321210668bb0a947f6792f7c391aa78eb39bd"
+      },
+      {
+        "path": "dist/assets/r5/app-icon-192.png",
+        "bytes": 87350,
+        "sha256": "b8f503b4dd8a85a5ab7c5d3507a0d88da501cf1e70f9b76987edc839cc78cd20"
+      },
+      {
+        "path": "dist/assets/r5/app-icon-512.png",
+        "bytes": 546979,
+        "sha256": "bda80608bd7aa5cd28e22fe414a42cf0a09e1f70a7f693670da553cfc2a28bda"
+      },
+      {
+        "path": "dist/assets/r5/app-icon-64.png",
+        "bytes": 10662,
+        "sha256": "bf981fcd44018d0967be61ef6ef83e9463728de0556692c07be1533b6c8bb55e"
+      },
+      {
+        "path": "dist/assets/r5/archer-portrait.webp",
+        "bytes": 9486,
+        "sha256": "006e21060f5175bbe56aa41f84f7a922a57eba49b43bf0ca61025d5c7b4cb9ad"
+      },
+      {
+        "path": "dist/assets/r5/archer.webp",
+        "bytes": 336930,
+        "sha256": "5d72c71d01053b888f40eb7c6c46f78456acfb46cce127d0a01ac084f694ac9c"
+      },
+      {
+        "path": "dist/assets/r5/bridge.png",
+        "bytes": 455234,
+        "sha256": "7e5df4c5a024b74dc70d479b0b8d41beb9b9062e4495371ecb2d904f2dd0b831"
+      },
+      {
+        "path": "dist/assets/r5/card-cannon.png",
+        "bytes": 123291,
+        "sha256": "069b13e355d15b6197eca28a995102bebe7eba6198e66fddebcd18d4ee70a757"
+      },
+      {
+        "path": "dist/assets/r5/card-frost.png",
+        "bytes": 116636,
+        "sha256": "fb2fad1801a84d3c80a3ec9671abe69e23e7294164c20c648afbe1e2fe8f64c1"
+      },
+      {
+        "path": "dist/assets/r5/card-tesla.png",
+        "bytes": 138863,
+        "sha256": "7116dbe6b60d93072afee33c166835adc3523bbe41c8abbbf8404b7a0d82e0dd"
+      },
+      {
+        "path": "dist/assets/r5/commander.png",
+        "bytes": 547631,
+        "sha256": "1ac7325064538f6101319a8526986e2b7eb3ed30e4ccf9a58003ac466a7821c9"
+      },
+      {
+        "path": "dist/assets/r5/enemy.webp",
+        "bytes": 304474,
+        "sha256": "e2b3c0fee97bdd862c5abfe2ff66eaadcf2d2fef9319797d059b7e5632602397"
+      },
+      {
+        "path": "dist/assets/r5/ford.webp",
+        "bytes": 498300,
+        "sha256": "6ae64434bf706c0672f73133030c18afbfc6ea4088510ea593b98841bf7c9129"
+      },
+      {
+        "path": "dist/assets/r5/gear-flag.png",
+        "bytes": 16563,
+        "sha256": "124d7174862024e3a7b2cdf3dd3355ae3fb0ec78b0b867925ca68a450e8b0fa6"
+      },
+      {
+        "path": "dist/assets/r5/gear-horn.png",
+        "bytes": 13249,
+        "sha256": "c9b90e4cd263bce27e0589c3da4dbe3bee433554ca4d942c61ea7363696fd071"
+      },
+      {
+        "path": "dist/assets/r5/gear-pack.png",
+        "bytes": 17026,
+        "sha256": "ec77cb415ae5f2d8540cba65a742130722b6448b2ef504cba075e853e5438145"
+      },
+      {
+        "path": "dist/assets/r5/hound.webp",
+        "bytes": 293122,
+        "sha256": "ed0c052b0d408841275574c2b52d7ac3d6564218f0503b8fc6b715a67d11e5c9"
+      },
+      {
+        "path": "dist/assets/r5/logo.png",
+        "bytes": 326672,
+        "sha256": "5cf6483af1ece1c892017f42466554d2dad8b52af9b48149d24570c249363bbb"
+      },
+      {
+        "path": "dist/assets/r5/mage-portrait.webp",
+        "bytes": 14676,
+        "sha256": "5c14cb404dfea20cf4c90b103b87d9394d7f045b5524ec65d7aa7b77341ebd2f"
+      },
+      {
+        "path": "dist/assets/r5/mage.webp",
+        "bytes": 354240,
+        "sha256": "2b386c1569c58f44adb0730a74d87fdd6cc09353c99c7026453dfc6381331ba5"
+      },
+      {
+        "path": "dist/assets/r5/panel.webp",
+        "bytes": 33632,
+        "sha256": "367533cbf208c33741d6481523be4f25306daddd659ad72c1fd996a311d2d2f9"
+      },
+      {
+        "path": "dist/assets/r5/seal-cannon.png",
+        "bytes": 27552,
+        "sha256": "2d4708abfc360f86e315ee8c2a7d9184f838fc9dcaf163d24666985f61270a31"
+      },
+      {
+        "path": "dist/assets/r5/seal-frost.png",
+        "bytes": 24859,
+        "sha256": "21dcf453ba0d2b1ad85b6c435870d72a2a9b738fd0d6426fef823d07bd330378"
+      },
+      {
+        "path": "dist/assets/r5/seal-tesla.png",
+        "bytes": 26090,
+        "sha256": "e4d2f2167d6c11378c6ba24f07d4bdafbddbbb6813652d2939bfea7c31f2465b"
+      },
+      {
+        "path": "dist/assets/r5/structure-frames.json",
+        "bytes": 392,
+        "sha256": "925400d8c8f57213f962a2b84014de1a3847c3c4318230ace9c8a844c0f3e29c"
+      },
+      {
+        "path": "dist/assets/r5/warrior-portrait.webp",
+        "bytes": 11618,
+        "sha256": "abe980394f2fff59e8771cfc6b93511c2f1faf40e402836764898d740b7107a0"
+      },
+      {
+        "path": "dist/assets/r5/warrior.webp",
+        "bytes": 304154,
+        "sha256": "dd406b35e942187f703e6684efe96b71101a73b3aa57ebd56d9c0ac1f9fb6986"
+      },
+      {
+        "path": "dist/assets/r5/worker.webp",
+        "bytes": 244718,
+        "sha256": "be7cb517e1c459506f16dd1e54f68f693f16fe47f634f5e6462bb1d00ea3a51d"
+      },
+      {
+        "path": "dist/assets/r6/actor-frames.json",
+        "bytes": 7692,
+        "sha256": "effdba37bb69218ac236a0f7eb091d12526b22c1e3932b8bf40fc6d41037f86a"
+      },
+      {
+        "path": "dist/assets/r6/app-icon-192.png",
+        "bytes": 94221,
+        "sha256": "d4e4ad7d730ebb2cd347d714d942fad0b23d8e46541e81432d14c0211971714f"
+      },
+      {
+        "path": "dist/assets/r6/app-icon-512.png",
+        "bytes": 621725,
+        "sha256": "762f93644aeff21efd3cd2f6ab86e6ed8e68b32bacd323945e18ec743d1d7bd3"
+      },
+      {
+        "path": "dist/assets/r6/app-icon-64.png",
+        "bytes": 11173,
+        "sha256": "6acd7a8628fa6c637a5c0721c7af2b2aa62170583dd98c3ab42d222ba09769cf"
+      },
+      {
+        "path": "dist/assets/r6/archer-portrait.png",
+        "bytes": 67511,
+        "sha256": "a4c1d68bd6c4f9f4857e36679beebf50bbc2aba2a3d8d670a1e37ccef86e984f"
+      },
+      {
+        "path": "dist/assets/r6/archer.png",
+        "bytes": 1022590,
+        "sha256": "e6a0340570287d13cc0e51de843e2faf6eaa0ae8b4e62830367ad1c3fd5d819d"
+      },
+      {
+        "path": "dist/assets/r6/bridge.png",
+        "bytes": 615443,
+        "sha256": "16e4e13ca45bcd7a12cfaf0093a87d6c2eca54661d294d739751150148db71ae"
+      },
+      {
+        "path": "dist/assets/r6/commander.png",
+        "bytes": 462307,
+        "sha256": "a1415887cd4129ed664d57b6b7cf2207620da97a46cd779227225125f30ee87e"
+      },
+      {
+        "path": "dist/assets/r6/ford.webp",
+        "bytes": 511284,
+        "sha256": "6a5e9173fc143581bd3fc0b7b145a26efc1cd1081af0edc30f867d3c1c3e7453"
+      },
+      {
+        "path": "dist/assets/r6/hound-frames.json",
+        "bytes": 1237,
+        "sha256": "1ee04e71686166809e918262d93b437df617aad837fb1008150b23f366221149"
+      },
+      {
+        "path": "dist/assets/r6/hound-walk.png",
+        "bytes": 871274,
+        "sha256": "547cc9608eb6a748c22cdad69696d5fd33776732cf5b75691a6f416f967ef339"
+      },
+      {
+        "path": "dist/assets/r6/logo.png",
+        "bytes": 244642,
+        "sha256": "1a351b58221e807c9bc340780c88e1175a63bd511d485307c987aa575e047b7f"
+      },
+      {
+        "path": "dist/assets/r6/mage-portrait.png",
+        "bytes": 62479,
+        "sha256": "8ca79fe8a6ebd68019982466e022cb31738a0302780830b60032ee736b71300b"
+      },
+      {
+        "path": "dist/assets/r6/mage.png",
+        "bytes": 1154989,
+        "sha256": "b367273c5164d34103dc02a40832b5e88cb3beb82bb4d437ecb27459256dc2d3"
+      },
+      {
+        "path": "dist/assets/r6/panel.webp",
+        "bytes": 22942,
+        "sha256": "03acbb2ea172efd638261fcffd0e5bde59fdb79b61dbc1f7154bd4d3fbdf3fdb"
+      },
+      {
+        "path": "dist/assets/r6/seal-cannon.png",
+        "bytes": 12536,
+        "sha256": "532af724ca5e462100d18b3a51a27b5177328fdb1b80cf985587837553c9eb66"
+      },
+      {
+        "path": "dist/assets/r6/seal-frost.png",
+        "bytes": 10641,
+        "sha256": "5fba7c93bc1e642987149f364f3f685f7a5652d536127b1d94231705d50c3743"
+      },
+      {
+        "path": "dist/assets/r6/seal-tesla.png",
+        "bytes": 11413,
+        "sha256": "49a35d37be87a38b1d03ce2533ef63aec7a2be11bc6796f5376d729868934cdd"
+      },
+      {
+        "path": "dist/assets/r6/warrior-portrait.png",
+        "bytes": 66383,
+        "sha256": "bbf050f12fa97642853f50058ae4f752eececda8527f931011deb1caa32169f3"
+      },
+      {
+        "path": "dist/assets/r6/warrior.png",
+        "bytes": 1034953,
+        "sha256": "5780497e6e5166b1da213fb1f0c61d0f04dcddbf155e32065549a76be0db7138"
+      },
+      {
+        "path": "dist/assets/r7/actor-frames.json",
+        "bytes": 7739,
+        "sha256": "24f214242247aae0ee6f3411c99307160833e34f08472fc281ab27010d39e249"
+      },
+      {
+        "path": "dist/assets/r7/archer-portrait.png",
+        "bytes": 45499,
+        "sha256": "ca6065ef34894cc78eb3ecbcfcefe64fe2f1af66cd96a1523c745d2030382fbd"
+      },
+      {
+        "path": "dist/assets/r7/archer.png",
+        "bytes": 1374457,
+        "sha256": "9869809200fa8efe267f870b0060e7afaa9bfa917d72788bb512a74807c32c00"
+      },
+      {
+        "path": "dist/assets/r7/bridge-main.png",
+        "bytes": 188037,
+        "sha256": "c99f757c21c2aae9dbf1415f54809258be67247c72711c2119c0f77ee69ddd68"
+      },
+      {
+        "path": "dist/assets/r7/bridge-military.png",
+        "bytes": 165494,
+        "sha256": "cdb3bb950ae1e6720c6434f1a36c746effeb183b0ab2f112230b851c52814bec"
+      },
+      {
+        "path": "dist/assets/r7/bridge-old.png",
+        "bytes": 156732,
+        "sha256": "dd8aebb01bf088759907bc200c8d0c350a92fbfa4fde6480a7dcc9db122b561a"
+      },
+      {
+        "path": "dist/assets/r7/card-cannon.png",
+        "bytes": 65626,
+        "sha256": "879513783e964fff9b38232d5d420be66beb0b5b301dce51b36d1c9c6ee86ebc"
+      },
+      {
+        "path": "dist/assets/r7/card-frost.png",
+        "bytes": 60765,
+        "sha256": "5748f21bd15b1e873175e454cba22ba3130cabdaac69ecb876a4854f80733079"
+      },
+      {
+        "path": "dist/assets/r7/card-tesla.png",
+        "bytes": 73276,
+        "sha256": "4781234916775dda6572a46127ecdf35d896719f3190d58493df75824936ff7b"
+      },
+      {
+        "path": "dist/assets/r7/ford.webp",
+        "bytes": 485644,
+        "sha256": "08e15cc007d98508c1759138c86c57a11d4ca35dd02b2e6922378a42d2e6ae37"
+      },
+      {
+        "path": "dist/assets/r7/hound-frames.json",
+        "bytes": 1326,
+        "sha256": "c667cf1a825aa55eaeb579838aac0e01b4d852d7e2191a812a41e813be0d1cb9"
+      },
+      {
+        "path": "dist/assets/r7/hound-walk.png",
+        "bytes": 718337,
+        "sha256": "8d0c5405bbe063daf3a1f54fc7be2f84863dfe5373d7315ef445106b97b5621f"
+      },
+      {
+        "path": "dist/assets/r7/mage-portrait.png",
+        "bytes": 36378,
+        "sha256": "a114bc8bcea423bbbe58b190d4a11f6c21ba0e08f727617b4ce7686e50d9da0d"
+      },
+      {
+        "path": "dist/assets/r7/mage.png",
+        "bytes": 937915,
+        "sha256": "e214cc0c8f6bce001bc473aeaa1f99993668a3a533dc3d1f416dcf6b6a8a95a7"
+      },
+      {
+        "path": "dist/assets/r7/warrior-portrait.png",
+        "bytes": 43009,
+        "sha256": "dffdaaa6283536701ae1f3f7cf1e76c1613e0aeb16e4bbfc1be73ef8428a4cf1"
+      },
+      {
+        "path": "dist/assets/r7/warrior.png",
+        "bytes": 1107821,
+        "sha256": "3333bf5494fcb83d31374a1a75c2261be89ffb87ed156d69ac56c3215d482655"
+      },
+      {
+        "path": "dist/assets/rootback.png",
+        "bytes": 295652,
+        "sha256": "ad6c3f3a87cba500fad2a0745283d6d13f1a6526c37bfb2ed7ec26a2cc729397"
+      },
+      {
+        "path": "dist/assets/shieldBearer-e.png",
+        "bytes": 51714,
+        "sha256": "f70cdfdd9b3a6dca566962ab952a8342324e33f4bc27c3ffd2977449770f7fd3"
+      },
+      {
+        "path": "dist/assets/shieldBearer-ne.png",
+        "bytes": 56766,
+        "sha256": "ca9593285b3cbca5930426d30e1392d75662470adac8cc6d28ee76364ea17991"
+      },
+      {
+        "path": "dist/assets/shieldBearer-nw.png",
+        "bytes": 57804,
+        "sha256": "3db626bd6e1d5fb97d22b4f83923e98832787b66e3f647d1798a27a7bbe935ab"
+      },
+      {
+        "path": "dist/assets/shieldBearer-se.png",
+        "bytes": 57547,
+        "sha256": "aa275f1f15ad2fd42691e4376c9b75a51d6965114bec28d637eddb97a674af13"
+      },
+      {
+        "path": "dist/assets/shieldBearer-sw.png",
+        "bytes": 53954,
+        "sha256": "238187fc9dacc0eb646cce73367f6270a4b52850744188c70b0e2034c07a338c"
+      },
+      {
+        "path": "dist/assets/shieldBearer-w.png",
+        "bytes": 50940,
+        "sha256": "185e1103e9ceab2fdef4362c13679eb551461f9f99beda14be9cd00353cd229d"
+      },
+      {
+        "path": "dist/assets/villager-e.png",
+        "bytes": 37683,
+        "sha256": "95df560570a78779c768c28cc2114752d1204384adb8acfdfa250ee7e92549f2"
+      },
+      {
+        "path": "dist/assets/villager-ne.png",
+        "bytes": 43824,
+        "sha256": "739b92fec32c1f892120ec72ab119076fbbd7635c018f8f905f3a586b007df82"
+      },
+      {
+        "path": "dist/assets/villager-nw.png",
+        "bytes": 42264,
+        "sha256": "db680cb87d76d8145c4ccf715cc04d9a399469ea95382251d86d70b1a338d652"
+      },
+      {
+        "path": "dist/assets/villager-se.png",
+        "bytes": 43984,
+        "sha256": "3f9a1939e3e95a3336043db16a21b5d102c2a0a02bb9600a431018487e18571b"
+      },
+      {
+        "path": "dist/assets/villager-sw.png",
+        "bytes": 45956,
+        "sha256": "11d041372a24b9fc6a9995d7edc0f93f86b3cb761aa5c0d4db5d3aab240a1981"
+      },
+      {
+        "path": "dist/assets/villager-w.png",
+        "bytes": 40694,
+        "sha256": "9b5ef6a16e176dd322026cf8b90dfae9cfb6bbfbc7707d2af37b012877e94a79"
+      },
+      {
+        "path": "dist/assets/warrior-e.png",
+        "bytes": 35692,
+        "sha256": "de5fd43debcc2bf5eefce22a8d90d81f68662a594cb31589b6dee6cc5bf87991"
+      },
+      {
+        "path": "dist/assets/warrior-ne.png",
+        "bytes": 44308,
+        "sha256": "0b2456360d33fced354f9aad7d7cfc6dff053eb1957d44b5e72211f371edfbef"
+      },
+      {
+        "path": "dist/assets/warrior-nw.png",
+        "bytes": 44919,
+        "sha256": "c810fc9ff8ca6f97feeb9b81a2731c6a5fb4beed76383b832652a197e57b5019"
+      },
+      {
+        "path": "dist/assets/warrior-se.png",
+        "bytes": 44638,
+        "sha256": "f0a9c717d9d3d1b79dd152901301478d13a8cc572459d6caf2d033c9aa9fab64"
+      },
+      {
+        "path": "dist/assets/warrior-sw.png",
+        "bytes": 48940,
+        "sha256": "a2809a0213292362f4c7109cc83f0ff884e288245f15b5621d05629a3d884a31"
+      },
+      {
+        "path": "dist/assets/warrior-w.png",
+        "bytes": 41759,
+        "sha256": "e16a29eb35af561a70edc1c5c6390fbcd37aa25095389855d47dc3b949f14c31"
+      },
+      {
+        "path": "dist/CREDITS.md",
+        "bytes": 14997,
+        "sha256": "6f5405e08353409d42d939aa65fd72e412003f39a5d0c748bfab9e32698b1025"
+      },
+      {
+        "path": "dist/game.js",
+        "bytes": 227006,
+        "sha256": "7bf8213468d2d73b9712aa5e1144c21cb6b21dd8189b5519e481441f6e840b9a"
+      },
+      {
+        "path": "dist/icon.svg",
+        "bytes": 396,
+        "sha256": "8515923252063b6a0104980ea3ec7ecb7ba74a55fb8e70689b5261958fb9e2cc"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 691,
+        "sha256": "f4d6b653ad5ca1924a957ac732035106e901c6a6731d0a1818f6382e78af7ac3"
+      },
+      {
+        "path": "dist/LICENSE.txt",
+        "bytes": 1084,
+        "sha256": "16f542e847e7ccc785900e43f055190183b2fc09b065bbf806394fc8924c8496"
+      },
+      {
+        "path": "dist/manifest.webmanifest",
+        "bytes": 433,
+        "sha256": "9447643ba68f2715419fd41504bdb98cd4316df64e75c07d647b9b0c57d71589"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 57176,
+        "sha256": "33f12add358b082778684c5bb79c0479a0ac464f028724cb026be5cfebf3dfe8"
+      },
+      {
+        "path": "dist/sw.js",
+        "bytes": 7210,
+        "sha256": "80f015070eb42330e6867f3b7d02fcb09275b70e02f68d4e26ace575aabbfe4b"
+      },
+      {
+        "path": "dist/THIRD_PARTY_LICENSES.txt",
+        "bytes": 2158,
+        "sha256": "e1a899ecb2fc28abb9ff2d46105aeaadeda6a1ab09dcfb67e1f9eb7f03896142"
+      }
+    ]
+  },
+  "productionNoDebugHook": true
+}

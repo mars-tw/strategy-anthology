@@ -1,0 +1,645 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "public/assets/r2/actor-frames.json: analyzed hash",
+    "public/assets/r2/app-icon-192.png: analyzed hash",
+    "public/assets/r2/app-icon-512.png: analyzed hash",
+    "public/assets/r2/app-icon-64.png: analyzed hash",
+    "public/assets/r2/battlefield-siege.webp: analyzed hash",
+    "public/assets/r2/battlefield.webp: analyzed hash",
+    "public/assets/r2/bridge.png: analyzed hash",
+    "public/assets/r2/commander.png: analyzed hash",
+    "public/assets/r2/enemy-keep.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-e.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-ne.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-nw.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-se.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-sw.png: analyzed hash",
+    "public/assets/r2/enemy-shieldBearer-w.png: analyzed hash",
+    "public/assets/r2/logo.png: analyzed hash",
+    "public/assets/r2/panel.webp: analyzed hash",
+    "public/assets/r2/seal-cannon.png: analyzed hash",
+    "public/assets/r2/seal-frost.png: analyzed hash",
+    "public/assets/r2/seal-tesla.png: analyzed hash",
+    "public/assets/r1/archer-e.png: analyzed hash",
+    "public/assets/r1/archer-ne.png: analyzed hash",
+    "public/assets/r1/archer-nw.png: analyzed hash",
+    "public/assets/r1/archer-se.png: analyzed hash",
+    "public/assets/r1/archer-sw.png: analyzed hash",
+    "public/assets/r1/archer-w.png: analyzed hash",
+    "public/assets/r1/ashwing.png: analyzed hash",
+    "public/assets/r1/mage.png: analyzed hash",
+    "public/assets/r1/miremaw.png: analyzed hash",
+    "public/assets/r1/rootback.png: analyzed hash",
+    "public/assets/r1/shieldBearer-e.png: analyzed hash",
+    "public/assets/r1/shieldBearer-ne.png: analyzed hash",
+    "public/assets/r1/shieldBearer-nw.png: analyzed hash",
+    "public/assets/r1/shieldBearer-se.png: analyzed hash",
+    "public/assets/r1/shieldBearer-sw.png: analyzed hash",
+    "public/assets/r1/shieldBearer-w.png: analyzed hash",
+    "public/assets/r1/villager-e.png: analyzed hash",
+    "public/assets/r1/villager-ne.png: analyzed hash",
+    "public/assets/r1/villager-nw.png: analyzed hash",
+    "public/assets/r1/villager-se.png: analyzed hash",
+    "public/assets/r1/villager-sw.png: analyzed hash",
+    "public/assets/r1/villager-w.png: analyzed hash",
+    "public/assets/r1/warrior-e.png: analyzed hash",
+    "public/assets/r1/warrior-ne.png: analyzed hash",
+    "public/assets/r1/warrior-nw.png: analyzed hash",
+    "public/assets/r1/warrior-se.png: analyzed hash",
+    "public/assets/r1/warrior-sw.png: analyzed hash",
+    "public/assets/r1/warrior-w.png: analyzed hash",
+    "28 inherited atlases pass unchanged color and pose gates",
+    "6 iron-blue enemy direction atlases retain exact alpha",
+    "new commander passes the same color double gate",
+    "shared Wave 0 alpha gate passes all R2 cutouts",
+    "320x568: all three tower silhouettes >=44px",
+    "320x568: cannon/frost have separate bodies",
+    "320x568: cannon/tesla have separate bodies",
+    "320x568: frost/tesla have separate bodies",
+    "320x568: displayed cannon upgrades correct native tower",
+    "320x568: actual live unit bbox >=44 and health >=36x5",
+    "390x844: all three tower silhouettes >=44px",
+    "390x844: cannon/frost have separate bodies",
+    "390x844: cannon/tesla have separate bodies",
+    "390x844: frost/tesla have separate bodies",
+    "390x844: displayed frost upgrades correct native tower",
+    "390x844: actual live unit bbox >=44 and health >=36x5",
+    "844x390: all three tower silhouettes >=44px",
+    "844x390: cannon/frost have separate bodies",
+    "844x390: cannon/tesla have separate bodies",
+    "844x390: frost/tesla have separate bodies",
+    "844x390: displayed tesla upgrades correct native tower",
+    "844x390: actual live unit bbox >=44 and health >=36x5",
+    "768x1024: all three tower silhouettes >=44px",
+    "768x1024: cannon/frost have separate bodies",
+    "768x1024: cannon/tesla have separate bodies",
+    "768x1024: frost/tesla have separate bodies",
+    "768x1024: displayed cannon upgrades correct native tower",
+    "768x1024: actual live unit bbox >=44 and health >=36x5",
+    "1024x768: all three tower silhouettes >=44px",
+    "1024x768: cannon/frost have separate bodies",
+    "1024x768: cannon/tesla have separate bodies",
+    "1024x768: frost/tesla have separate bodies",
+    "1024x768: displayed frost upgrades correct native tower",
+    "1024x768: actual live unit bbox >=44 and health >=36x5",
+    "1366x600: all three tower silhouettes >=44px",
+    "1366x600: cannon/frost have separate bodies",
+    "1366x600: cannon/tesla have separate bodies",
+    "1366x600: frost/tesla have separate bodies",
+    "1366x600: displayed tesla upgrades correct native tower",
+    "1366x600: actual live unit bbox >=44 and health >=36x5",
+    "1280x640: all three tower silhouettes >=44px",
+    "1280x640: cannon/frost have separate bodies",
+    "1280x640: cannon/tesla have separate bodies",
+    "1280x640: frost/tesla have separate bodies",
+    "1280x640: displayed cannon upgrades correct native tower",
+    "1280x640: actual live unit bbox >=44 and health >=36x5",
+    "1366x768: all three tower silhouettes >=44px",
+    "1366x768: cannon/frost have separate bodies",
+    "1366x768: cannon/tesla have separate bodies",
+    "1366x768: frost/tesla have separate bodies",
+    "1366x768: displayed frost upgrades correct native tower",
+    "1366x768: actual live unit bbox >=44 and health >=36x5",
+    "1920x1080: all three tower silhouettes >=44px",
+    "1920x1080: cannon/frost have separate bodies",
+    "1920x1080: cannon/tesla have separate bodies",
+    "1920x1080: frost/tesla have separate bodies",
+    "1920x1080: displayed tesla upgrades correct native tower",
+    "1920x1080: actual live unit bbox >=44 and health >=36x5",
+    "1032x1376: all three tower silhouettes >=44px",
+    "1032x1376: cannon/frost have separate bodies",
+    "1032x1376: cannon/tesla have separate bodies",
+    "1032x1376: frost/tesla have separate bodies",
+    "1032x1376: displayed cannon upgrades correct native tower",
+    "1032x1376: actual live unit bbox >=44 and health >=36x5",
+    "six real-time motion stills differ",
+    "no missing assets or page exceptions"
+  ],
+  "errors": [],
+  "sizes": [
+    {
+      "width": 320,
+      "height": 568,
+      "towers": [
+        {
+          "x": 136.44333333333333,
+          "y": 84.1,
+          "h": 64,
+          "anchorX": 173.65,
+          "anchorY": 80.02499999999999,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 220.92333333333335,
+          "y": 84.1,
+          "h": 64,
+          "anchorX": 188.75,
+          "anchorY": 80.02499999999999,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 178.68333333333334,
+          "y": 146.18,
+          "h": 64,
+          "anchorX": 173.65,
+          "anchorY": 94.57499999999999,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 43.88151861702128,
+          "y": 72.99775,
+          "height": 62.99775,
+          "width": 81.76303723404256,
+          "healthWidth": 53.14597420212766,
+          "healthHeight": 5,
+          "shadowWidth": 35.278740000000006,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "towers": [
+        {
+          "x": 177.85999999999999,
+          "y": 179.05,
+          "h": 64,
+          "anchorX": 213.9,
+          "anchorY": 167.0625,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 262.34,
+          "y": 179.05,
+          "h": 64,
+          "anchorX": 232.5,
+          "anchorY": 167.0625,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 220.1,
+          "y": 241.13,
+          "h": 64,
+          "anchorX": 213.9,
+          "anchorY": 197.4375,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 44.683117021276594,
+          "y": 121.5,
+          "height": 64.23299999999999,
+          "width": 83.36623404255319,
+          "healthWidth": 54.188052127659574,
+          "healthHeight": 5,
+          "shadowWidth": 35.970479999999995,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "towers": [
+        {
+          "x": 254.185,
+          "y": 114.25,
+          "h": 64,
+          "anchorX": 288.075,
+          "anchorY": 107.66250000000001,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 338.665,
+          "y": 114.25,
+          "h": 64,
+          "anchorX": 313.125,
+          "anchorY": 107.66250000000001,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 296.425,
+          "y": 176.33,
+          "h": 64,
+          "anchorX": 288.075,
+          "anchorY": 127.23750000000001,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 44.876094414893615,
+          "y": 78.30000000000001,
+          "height": 64.53037499999999,
+          "width": 83.75218882978723,
+          "healthWidth": 54.4389227393617,
+          "healthHeight": 5,
+          "shadowWidth": 36.13701,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "towers": [
+        {
+          "x": 384.35,
+          "y": 193.04999999999998,
+          "h": 90,
+          "anchorX": 431.25,
+          "anchorY": 181.0875,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 503.15,
+          "y": 193.04999999999998,
+          "h": 90,
+          "anchorX": 468.75,
+          "anchorY": 181.0875,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 443.75,
+          "y": 280.34999999999997,
+          "h": 90,
+          "anchorX": 431.25,
+          "anchorY": 214.0125,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 47.518400265957446,
+          "y": 131.7,
+          "height": 68.602125,
+          "width": 89.03680053191489,
+          "healthWidth": 57.87392034574468,
+          "healthHeight": 5,
+          "shadowWidth": 38.417190000000005,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "towers": [
+        {
+          "x": 326.9537333333333,
+          "y": 243.22199999999998,
+          "h": 76.56,
+          "anchorX": 366.84999999999997,
+          "anchorY": 226.4625,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 428.0129333333333,
+          "y": 243.22199999999998,
+          "h": 76.56,
+          "anchorX": 398.75,
+          "anchorY": 226.4625,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 377.4833333333333,
+          "y": 317.48519999999996,
+          "h": 76.56,
+          "anchorX": 366.84999999999997,
+          "anchorY": 267.6375,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 47.315526595744686,
+          "y": 164.7,
+          "height": 68.2895,
+          "width": 88.63105319148937,
+          "healthWidth": 57.61018457446809,
+          "healthHeight": 5,
+          "shadowWidth": 38.24212000000001,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 600,
+      "towers": [
+        {
+          "x": 539.275,
+          "y": 190.75,
+          "h": 100,
+          "anchorX": 588.225,
+          "anchorY": 179.4375,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 671.275,
+          "y": 190.75,
+          "h": 100,
+          "anchorX": 639.375,
+          "anchorY": 179.4375,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 605.275,
+          "y": 287.75,
+          "h": 100,
+          "anchorX": 588.225,
+          "anchorY": 212.0625,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 47.45902260638298,
+          "y": 130.5,
+          "height": 68.510625,
+          "width": 88.91804521276596,
+          "healthWidth": 57.79672938829788,
+          "healthHeight": 5,
+          "shadowWidth": 38.365950000000005,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "towers": [
+        {
+          "x": 488.39166666666665,
+          "y": 208.75,
+          "h": 100,
+          "anchorX": 538.775,
+          "anchorY": 195.9375,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 620.3916666666667,
+          "y": 208.75,
+          "h": 100,
+          "anchorX": 585.625,
+          "anchorY": 195.9375,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 554.3916666666667,
+          "y": 305.75,
+          "h": 100,
+          "anchorX": 538.775,
+          "anchorY": 231.5625,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 48.05279920212766,
+          "y": 142.5,
+          "height": 69.425625,
+          "width": 90.10559840425532,
+          "healthWidth": 58.56863896276596,
+          "healthHeight": 5,
+          "shadowWidth": 38.878350000000005,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "towers": [
+        {
+          "x": 513.8333333333333,
+          "y": 242.04999999999998,
+          "h": 100,
+          "anchorX": 563.5,
+          "anchorY": 226.4625,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 645.8333333333333,
+          "y": 242.04999999999998,
+          "h": 100,
+          "anchorX": 612.5,
+          "anchorY": 226.4625,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 579.8333333333333,
+          "y": 339.04999999999995,
+          "h": 100,
+          "anchorX": 563.5,
+          "anchorY": 267.6375,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 49.15128590425532,
+          "y": 164.7,
+          "height": 71.118375,
+          "width": 92.30257180851063,
+          "healthWidth": 59.996671675531914,
+          "healthHeight": 5,
+          "shadowWidth": 39.82629000000001,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "towers": [
+        {
+          "x": 823.8666666666667,
+          "y": 382.45,
+          "h": 100,
+          "anchorX": 864.8,
+          "anchorY": 355.16249999999997,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 955.8666666666667,
+          "y": 382.45,
+          "h": 100,
+          "anchorX": 940,
+          "anchorY": 355.16249999999997,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 889.8666666666667,
+          "y": 479.45,
+          "h": 100,
+          "anchorX": 864.8,
+          "anchorY": 419.73749999999995,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 54.05,
+          "y": 258.29999999999995,
+          "height": 73.2,
+          "width": 95.00425531914894,
+          "healthWidth": 61.75276595744681,
+          "healthHeight": 5,
+          "shadowWidth": 40.992000000000004,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "towers": [
+        {
+          "x": 533.9499999999999,
+          "y": 350.95,
+          "h": 100,
+          "anchorX": 583.05,
+          "anchorY": 326.28749999999997,
+          "type": "cannon",
+          "selected": false
+        },
+        {
+          "x": 665.9499999999999,
+          "y": 350.95,
+          "h": 100,
+          "anchorX": 633.75,
+          "anchorY": 326.28749999999997,
+          "type": "frost",
+          "selected": false
+        },
+        {
+          "x": 599.9499999999999,
+          "y": 447.95,
+          "h": 100,
+          "anchorX": 583.05,
+          "anchorY": 385.61249999999995,
+          "type": "tesla",
+          "selected": true
+        }
+      ],
+      "units": [
+        {
+          "type": "miremaw",
+          "role": "hound",
+          "team": "enemy",
+          "x": 50.50212765957447,
+          "y": 237.29999999999998,
+          "height": 73.2,
+          "width": 95.00425531914894,
+          "healthWidth": 61.75276595744681,
+          "healthHeight": 5,
+          "shadowWidth": 40.992000000000004,
+          "frame": 0,
+          "row": 1,
+          "state": "walk",
+          "facing": "right-authored"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "docs/art/r4/legacy-checks/r2-motion/defense-0.png",
+    "docs/art/r4/legacy-checks/r2-motion/defense-1.png",
+    "docs/art/r4/legacy-checks/r2-motion/defense-2.png",
+    "docs/art/r4/legacy-checks/r2-motion/defense-3.png",
+    "docs/art/r4/legacy-checks/r2-motion/defense-4.png",
+    "docs/art/r4/legacy-checks/r2-motion/defense-5.png"
+  ],
+  "method": "Public UI, live renderer alpha-bbox telemetry, real-clock video; no reward/game-state injection.",
+  "buildSHA256": "132d5be4bd706425cc1968fec7bd37e31bdee46ad96813b2f0327cd530ece264",
+  "styleSHA256": "e9ef9ed2583fd73c82785980d63389a839ee15b72092e37f5a62c598be908eba",
+  "video": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\docs\\art\\r4\\legacy-checks\\r2-motion\\page@6f110af389304a68cbd0b13c4e4bc720.webm",
+  "archiveNote": "Final R4 run of legacy harness. Exact raw evidence copied before restoring historical artifacts. R1 screenshot basenames resolve under r1-screens."
+}

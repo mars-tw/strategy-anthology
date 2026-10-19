@@ -1,0 +1,264 @@
+{
+  "status": "VERIFIED",
+  "phase": "after",
+  "screenshots": [
+    "390x844-opening.png",
+    "390x844-defense.png",
+    "390x844-siege.png",
+    "390x844-siege-no-labels.png",
+    "844x390-opening.png",
+    "844x390-defense.png",
+    "844x390-siege.png",
+    "844x390-siege-no-labels.png",
+    "1032x1376-opening.png",
+    "1032x1376-defense.png",
+    "1032x1376-siege.png",
+    "1032x1376-siege-no-labels.png"
+  ],
+  "presentation": [
+    {
+      "width": 390,
+      "height": 844,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 52.65,
+          "width": 32.4,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 1,
+          "row": 1
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 52.65,
+          "width": 39.08863636363636,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 0,
+          "row": 1
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 52.65,
+          "width": 36.47109375,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 0,
+          "row": 1
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.65,
+          "width": 44.01885245901639,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 1,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.65,
+          "width": 44.01885245901639,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 1,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.65,
+          "width": 32.04782608695652,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.325,
+          "frame": 1,
+          "row": 1
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "rangeVisible": false
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 52.89375,
+          "width": 32.55,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 1,
+          "row": 1
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 52.89375,
+          "width": 39.26960227272727,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 0,
+          "row": 1
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 52.89375,
+          "width": 36.639941406249996,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 0,
+          "row": 1
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.89375,
+          "width": 44.222643442622946,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 1,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.89375,
+          "width": 44.222643442622946,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 1,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 52.89375,
+          "width": 32.19619565217391,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 26.446875,
+          "frame": 1,
+          "row": 1
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "rangeVisible": false
+      }
+    },
+    {
+      "width": 1032,
+      "height": 1376,
+      "units": [
+        {
+          "type": "shieldBearer",
+          "team": "enemy",
+          "height": 60,
+          "width": 35.696202531645575,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 2,
+          "row": 1
+        },
+        {
+          "type": "warrior",
+          "team": "player",
+          "height": 60,
+          "width": 48.92307692307693,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 1,
+          "row": 1
+        },
+        {
+          "type": "mage",
+          "team": "player",
+          "height": 60,
+          "width": 42.09424083769633,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 1,
+          "row": 1
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 60,
+          "width": 58.82352941176471,
+          "healthWidth": 38.235294117647065,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 2,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 60,
+          "width": 58.82352941176471,
+          "healthWidth": 38.235294117647065,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 2,
+          "row": 5
+        },
+        {
+          "type": "villager",
+          "team": "player",
+          "height": 60,
+          "width": 39.130434782608695,
+          "healthWidth": 36,
+          "healthHeight": 5,
+          "shadowWidth": 30,
+          "frame": 2,
+          "row": 1
+        }
+      ],
+      "towers": [],
+      "reduced": false,
+      "chapterArt": "ford",
+      "resonance": {
+        "active": false,
+        "bonus": 0,
+        "ranges": [],
+        "rangeVisible": false
+      }
+    }
+  ],
+  "method": "Fresh public UI, virtual clock, no state injection. Identical steps before and after."
+}

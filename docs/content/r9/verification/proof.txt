@@ -1,0 +1,15 @@
+
+> trine-frontier@0.17.0 test:content:r9:proof
+> node scripts/content-r9-proof-e2e.mjs
+
+PROOF relay-original-before-replay
+PROOF relay-replay-wave4-combat
+PROOF relay-replay-wave4-combat-2
+PROOF relay-replay-four-waves-complete
+PROOF relay-original-after-replay
+PROOF relay-original-return-reloaded
+PROOF detour 1
+PROOF detour 2
+PROOF detour 3
+PROOF hollow failure auxiliary-off
+VERIFIED: 13 supplemental checks, 10 originals

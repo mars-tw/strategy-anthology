@@ -1,0 +1,44 @@
+/* Real battlefield previews and short, named feedback on mineral parchment. */
+.route-pace{position:absolute;left:8px;bottom:38px;max-width:calc(100% - 16px);padding:5px 8px;background:#f5f1e5ed;border-left:3px solid #197481;color:#225563;font-size:12px;font-weight:700;pointer-events:none}
+.route-pace[hidden]{display:none}
+.terrain-map{height:250px;border:1px solid #998d73;overflow:hidden;position:relative;background:#e7e3d5}
+.terrain-map canvas{width:100%;height:100%}.terrain-options{grid-template-columns:1fr 1fr;margin-top:10px}
+.terrain .route-key{font-size:12px;line-height:1.55;margin:8px 0}.terrain #terrainMessage:empty{display:none}
+.terrain .modal-actions{margin-top:8px}.terrain .resonance-caption,.terrain .resonance-legend{display:none}
+.resonance-caption{position:absolute;right:7px;top:40px;color:#65458a;background:#f5f1e5ed;padding:3px 6px;font-size:12px;font-weight:700;pointer-events:none}
+.legacy-receipt{display:grid;grid-template-columns:1fr 100px;gap:4px 8px;align-items:center;font-size:12px}
+.legacy-receipt>strong{color:#1c6371}.legacy-receipt>span{grid-column:1;line-height:1.5}.legacy-receipt canvas{grid-column:2;grid-row:1/3;width:100px;height:70px;border:1px solid #998d73}
+.legacy-sprite{width:28px;height:34px}.salvage-flight{position:fixed;inset:0;pointer-events:none;z-index:10}
+.salvage-flight svg{position:absolute;left:12%;top:38%;animation:crystal-to-wallet 1.8s ease-in forwards}
+.salvage-flight svg:nth-child(2){animation-delay:.12s;left:17%}.salvage-flight svg:nth-child(3){animation-delay:.24s;left:22%}
+.salvage-flight strong{position:absolute;right:20px;top:72px;color:#225f70;background:#f5f1e5;border:1px solid #6c9295;padding:8px;animation:salvage-receipt 3s forwards}
+@keyframes crystal-to-wallet{0%{transform:translate(0,0);opacity:1}80%{opacity:1}100%{left:65%;top:24px;transform:scale(.4);opacity:0}}
+@keyframes salvage-receipt{0%,85%{opacity:1}100%{opacity:0}}
+.battle .cards small,.battle .feedback,.battle .hint,.battle .command-row button,.battle .placement button{font-size:12px}
+.battle .feedback{line-height:1.4;min-height:0}.exercise-list small{font-size:12px}.terrain-options button{font-size:12px}
+.battle .map-label span,.resonance-legend strong{font-size:12px}.battle .command-row button,.battle .placement button{line-height:1.25}
+@media(max-width:750px) and (orientation:portrait){
+ .battle .hint{display:none}.battle .mission p{display:none}.battle .mission{min-height:35px}.battle .mission .eyebrow{display:none}
+ .battle .command{gap:5px;padding:8px}.battle .cards button{font-size:12px}.battle .cards small{font-size:12px;line-height:1.25}
+ .battle .command-row:has([data-action=terrain]) button{font-size:12px}.battle .field-status{font-size:12px}
+ .battle .command-head{padding:0;border:0}.battle .command-head h3{font-size:17px}.battle .command-head span{font-size:12px}
+ .battle .feedback{max-height:34px;overflow:hidden}.battle .result>p{font-size:12px;line-height:1.45}.battle .result>.report{font-size:12px}
+ .terrain{padding:12px}.terrain .eyebrow{font-size:12px;letter-spacing:0}.terrain h2{font-size:22px;margin:0 0 7px}.terrain-map{height:220px}
+ .exercises .fine{font-size:12px!important}.exercise-list button{min-height:90px}.exercise-list small{font-size:12px;line-height:1.4}
+}
+@media(max-width:360px) and (orientation:portrait){
+ .battle header{height:50px}.battle .journey{min-height:23px}.battle .mission{min-height:30px;padding:3px 0}
+ .battle .play-layout{gap:4px}.battle .command-head{display:none}.battle .cards button{min-height:54px}
+ .battle .cards .tower-portrait{height:42px;width:38%}.battle .cards .tower-card>span{width:62%}.battle .command{padding:6px;gap:4px}
+ .battle .result{gap:4px}.battle .result h2{font-size:21px}.battle .result>.eyebrow{font-size:12px;letter-spacing:0}
+ .battle .result>p{line-height:1.35}.legacy-receipt{grid-template-columns:1fr 82px}.legacy-receipt canvas{width:82px;height:50px}
+ .terrain-map{height:182px}.terrain h2{font-size:20px}.terrain .route-key{margin:5px 0}.terrain-options{margin-top:6px;gap:5px}
+ dialog.exercises{padding:10px}.exercises h2{font-size:20px}.exercises>p{margin:6px 0}.exercise-list{gap:5px}.exercise-list button{min-height:88px}
+}
+@media(max-height:450px) and (orientation:landscape){
+ dialog.terrain{width:min(820px,calc(100vw - 24px));padding:10px;display:grid;grid-template-columns:1fr 1fr;gap:6px 12px}
+ dialog.terrain:not([open]){display:none}.terrain h2{grid-column:2;margin:0;font-size:20px}.terrain-map{grid-column:1;grid-row:1/6;height:250px}
+ .terrain .terrain-options{grid-column:2;grid-template-columns:1fr;margin:0;gap:5px}.terrain .route-key,.terrain .feedback,.terrain .modal-actions{grid-column:2;margin:0}
+ .terrain .modal-actions button{font-size:12px}.battle .result .legacy-receipt{display:none}
+}
+@media(prefers-reduced-motion:reduce){.salvage-flight svg{animation-duration:.01s}}

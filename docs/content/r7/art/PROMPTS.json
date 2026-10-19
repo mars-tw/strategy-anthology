@@ -1,0 +1,15 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "samples": [
+    {
+      "id": "legacy-cannon",
+      "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Transparent game sprite, one inherited FIRE WATCHTOWER in high overhead three-quarter miniature view. A stout weathered slate stone square pedestal, three faceted orange vermilion crystals on a short bronze brazier crown, old torn cinnabar triangular cloth war-banner mounted to its side on a sturdy timber pole, repaired stone base, scattered stone chips and old rope showing it survived a previous siege. The banner must read clearly at 64px. Single compact tower centered within 85 percent of square canvas with short violet contact shadow, no people, no lettering, no UI. Distinct readable mineral gouache masses."
+    },
+    {
+      "id": "flood",
+      "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Transparent top-down game terrain patch: flooded right-angle dirt road bend, broad opaque turquoise celadon standing WATER with ochre submerged wagon ruts and stepped dark brown muddy banks, silt islands, reeds, stones. Very high contrast water at center, wide irregular muddy border, painted white directional current streaks curved around the road bend. Entire irregular patch fills 90 percent of square canvas, outside truly transparent, no circle, no target, no lettering, no UI, no people or buildings. Readable at thumbnail size."
+    }
+  ]
+}

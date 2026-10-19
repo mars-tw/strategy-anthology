@@ -1,0 +1,1432 @@
+{
+  "status": "VERIFIED",
+  "version": "0.2.0",
+  "actualModelSlug": null,
+  "actualTool": "image_gen__imagegen",
+  "modelNote": "Built-in tool did not expose the underlying model slug. No inference from product name or C2PA version.",
+  "generatedMasters": 8,
+  "generatedRuntimeAssets": 18,
+  "gradeNote": "Luma: gamma RGB Rec709, near-black <0.12; saturation HSV low <0.20; alpha>128. Thresholds .30-.75 / <35% / >=.32 / <20%. This is not linear-light photometry or device validation.",
+  "sources": [
+    {
+      "id": "structures",
+      "source": "docs/art/sources/structures.png",
+      "sourceSHA256": "4a346a4a04be3bd61f923586126aa9a35cf1da77213279bc181ef252ad2e988b",
+      "nativeMode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "nativeAlphaPreserved": true,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/structures.png",
+          "sha256": "0fbd44617a306f3d6095afb4b6295856cf917d11269a3701480faeccfaa40667"
+        },
+        "masks": {
+          "path": "docs/art/masks/structures.png",
+          "sha256": "f63e3b8b393f4c72a60d104a024216152ae7bac01818272426d70c98ac39e330"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/structures.png",
+          "sha256": "ab486462b117ff03a35a24b4eaa531b142298e1c074646711636606c56afa0ba"
+        }
+      }
+    },
+    {
+      "id": "battlefield",
+      "source": "docs/art/sources/battlefield.png",
+      "sourceSHA256": "cddf87645ff8187cc824afc515a79c85fd2f992f8b502360c3ada2b0459974e2",
+      "nativeMode": "RGB",
+      "size": [
+        1536,
+        1024
+      ],
+      "nativeAlphaPreserved": false,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/battlefield.png",
+          "sha256": "97018879eb2bc40e9f2b1ed95e27f95ba2086be4a811c5b6477c2010839b0f05"
+        },
+        "masks": {
+          "path": "docs/art/masks/battlefield.png",
+          "sha256": "dc43d462e41f266e17598b61ba8c5dc9ce63516e3b0b6870a7d936c6961c76b0"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/battlefield.png",
+          "sha256": "a911bc7b54257771c32a7bad5a5462898069fe9d1ea59e00137bc254d37a9311"
+        }
+      }
+    },
+    {
+      "id": "towers",
+      "source": "docs/art/sources/towers.png",
+      "sourceSHA256": "4cebd1fa38beb24d7706084c175c781193d3aa9e132a378fcc11531f4434aa2d",
+      "nativeMode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "nativeAlphaPreserved": true,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/towers.png",
+          "sha256": "27beda52fb8d0a3093b26de0115d21de952ae445e2524b39e386bdebd6295959"
+        },
+        "masks": {
+          "path": "docs/art/masks/towers.png",
+          "sha256": "96db2c81251c094d32e09dba42bad7781ab2935fe96b1950bf31b2a35dfd254c"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/towers.png",
+          "sha256": "bb24c15b436a642ad70e5eb9611d5aae8ad4285b52546c8ba310ba34149e9690"
+        }
+      }
+    },
+    {
+      "id": "commander",
+      "source": "docs/art/sources/commander.png",
+      "sourceSHA256": "f0e31eef4e678bf4af164d97031fc4476305d6bf086b5ebae2d5f4ebc1ba91b0",
+      "nativeMode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "nativeAlphaPreserved": true,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/commander.png",
+          "sha256": "537d3bace688afc4ae7b82d9164d2a1cf8cfa41a1dc6046e2d6417b57698cd19"
+        },
+        "masks": {
+          "path": "docs/art/masks/commander.png",
+          "sha256": "0cbc1690604a046b4a2c0822e20534700f413163622796d998910a3e2a7455d0"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/commander.png",
+          "sha256": "d8c1dcf0e19b731b4512248c272b44e2650c6070e767ff9b16e9cd006782116d"
+        }
+      }
+    },
+    {
+      "id": "panel",
+      "source": "docs/art/sources/panel.png",
+      "sourceSHA256": "078b0309d170a8811216c25c4bc46b1090f7f234b91c989489f758dcc926c8c9",
+      "nativeMode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "nativeAlphaPreserved": false,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/panel.png",
+          "sha256": "789b6e6b5b87e8a19df30168d06d497a3845ad826e34145805d4d3ff82518338"
+        },
+        "masks": {
+          "path": "docs/art/masks/panel.png",
+          "sha256": "48772a9159f3678c235815786c7826c6d57a7ff002221246b22fb1cc780a2204"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/panel.png",
+          "sha256": "91af1aeb40835673a73bdeff4bc7fcd6f4aa3b5d459e6fbc7003243a0b94c239"
+        }
+      }
+    },
+    {
+      "id": "icons",
+      "source": "docs/art/sources/icons.png",
+      "sourceSHA256": "20a52f327d40aa9bfb8dbfeb7fef083164da646d6df81fd2f809a690ef5c74fb",
+      "nativeMode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "nativeAlphaPreserved": true,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/icons.png",
+          "sha256": "644abf4075bf981d9041b3654546b850e864002235fdc0b0799670402b8384f9"
+        },
+        "masks": {
+          "path": "docs/art/masks/icons.png",
+          "sha256": "900b3c2a16835ba46a9626664d7a29cc9cb30510afb8ac6f306fb1e12dcc3055"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/icons.png",
+          "sha256": "798e12c167a3698d3dafbb6bec2f751cefd173b7e91c8314a340744ae1ff82fd"
+        }
+      }
+    },
+    {
+      "id": "logo",
+      "source": "docs/art/sources/logo.png",
+      "sourceSHA256": "6a7e2d3211d45b72631e1f0b47a19daa3bbc67b875a9202b87fdc240d279794d",
+      "nativeMode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "nativeAlphaPreserved": true,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/logo.png",
+          "sha256": "ac72d9ab5b5431d796d12bb5c6c009f067176f46e24261c03aae3183a9cba767"
+        },
+        "masks": {
+          "path": "docs/art/masks/logo.png",
+          "sha256": "091b06e197d43f80315502a3ece8909bdf3a24f13647b8984ddf480737ed5a00"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/logo.png",
+          "sha256": "9a6ea6b5a5034fae9c8168886e13917248ccc9d0c3fd18eb1bbd4f06988201b3"
+        }
+      }
+    },
+    {
+      "id": "app-icon",
+      "source": "docs/art/sources/app-icon.png",
+      "sourceSHA256": "52a417ea20f85d4ee14df828fea4b447b27b91d0bdd27418d48e1f1f6e7600a9",
+      "nativeMode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "nativeAlphaPreserved": false,
+      "actualModelSlug": null,
+      "actualTool": "image_gen__imagegen",
+      "witnesses": {
+        "masters_opaque": {
+          "path": "docs/art/masters_opaque/app-icon.png",
+          "sha256": "846e40795bafbb5b3cee76c7cdef970eed71406f3eec7d9eb2faa16958666f7d"
+        },
+        "masks": {
+          "path": "docs/art/masks/app-icon.png",
+          "sha256": "48772a9159f3678c235815786c7826c6d57a7ff002221246b22fb1cc780a2204"
+        },
+        "rgba": {
+          "path": "docs/art/rgba/app-icon.png",
+          "sha256": "694f498c5255395eea5999ac4ada783240062a11ef5b0676a26e7db8aa42ddb4"
+        }
+      }
+    }
+  ],
+  "actorGrades": [
+    {
+      "path": "public/assets/r1/archer-e.png",
+      "source": "public/assets/archer-e.png",
+      "sourceSHA256": "645e2ef1a14d8d18c4b4e3e9a5dba5df52fb2fa21d7aa9df4613b8d9bddd8001",
+      "sha256": "d03ee27459a3eaf0093ad3bb137090e23ab2b3e605a1d0c2441599190e479b38",
+      "metrics": {
+        "meanLuminance": 0.3708688093127108,
+        "nearBlackRatio": 0.012536077665374188,
+        "meanSaturation": 0.5023867708653095,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/archer-ne.png",
+      "source": "public/assets/archer-ne.png",
+      "sourceSHA256": "7434f59a7823816646055d04c6fc10154b9464c0f9606d50c83aed72605299e5",
+      "sha256": "6a80de14084a903440f571327a6f7eb38de1e4e184981bf10f8b5bb3dabad1b8",
+      "metrics": {
+        "meanLuminance": 0.40516235118742583,
+        "nearBlackRatio": 0.012428853525380416,
+        "meanSaturation": 0.5068857488401332,
+        "lowSaturationRatio": 0.004181670344987803
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/archer-nw.png",
+      "source": "public/assets/archer-nw.png",
+      "sourceSHA256": "950bfd419ad7445151b0b171cf4d4f77c2adec700a89e072d5e50aa507eed652",
+      "sha256": "5b3a068a593d41ec67ba3e36ec0b9c7f8b0fe8b5f2b1d714e15fbea810411a63",
+      "metrics": {
+        "meanLuminance": 0.40411536584866936,
+        "nearBlackRatio": 0.012142111974035006,
+        "meanSaturation": 0.5056573411791979,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/archer-se.png",
+      "source": "public/assets/archer-se.png",
+      "sourceSHA256": "0e69142f3c08cf3ffd1bde94b30b451e5b592a265eb89001a622c666838d341d",
+      "sha256": "f7911e00490ec94fb61eba5bd5c369ec1683236b14653c8463e62f7d05d41a78",
+      "metrics": {
+        "meanLuminance": 0.43382652302068875,
+        "nearBlackRatio": 0.00923557828928673,
+        "meanSaturation": 0.4812514696131366,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/archer-sw.png",
+      "source": "public/assets/archer-sw.png",
+      "sourceSHA256": "06a9409b8c5f80fcc3bdfcc79a6248fb01071349a46b4e54b327a12eca305785",
+      "sha256": "b9a4bd299026cd2418a10145e0f8c0febf2d8cd71247818f3653dae2f020594e",
+      "metrics": {
+        "meanLuminance": 0.39776063875066403,
+        "nearBlackRatio": 0.0142681558274996,
+        "meanSaturation": 0.5229430520671903,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/archer-w.png",
+      "source": "public/assets/archer-w.png",
+      "sourceSHA256": "a0e20fd27446afaeec5419f3245dfcb0fc9d21bc118405fb96dc2edc5b2a4351",
+      "sha256": "464277720487217491c775a541f4d2c7ac6b46e1564b51eeb0e140ae20145598",
+      "metrics": {
+        "meanLuminance": 0.4005934067323811,
+        "nearBlackRatio": 0.009713901797211802,
+        "meanSaturation": 0.49562547823003567,
+        "lowSaturationRatio": 0.005738760427747606
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/ashwing.png",
+      "source": "public/assets/ashwing.png",
+      "sourceSHA256": "3abc28fdd63e0c6d2f7213b442607a90e520081368d782f84464ddd11169959b",
+      "sha256": "8307ae6df0a6d730e72fe87f2c40d8cfb41aa68fb458bc88dbae1057da30dcc3",
+      "metrics": {
+        "meanLuminance": 0.4077958217439706,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5440183181952741,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/mage.png",
+      "source": "public/assets/mage.png",
+      "sourceSHA256": "3a813200018f635ae57a7930236933b5fd3021345b5aeea73415cd0a1f79a002",
+      "sha256": "0c1095d50da99e57f068306e7e94ff241d1f788156c5e428e27be0f3c78468cf",
+      "metrics": {
+        "meanLuminance": 0.4342901740167049,
+        "nearBlackRatio": 0.047296893131871416,
+        "meanSaturation": 0.5793625392589654,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/miremaw.png",
+      "source": "public/assets/miremaw.png",
+      "sourceSHA256": "ec558b2ecdc37c26bf0816f91c4a919c7c09db01eb58b028b32c198afdcfcdfb",
+      "sha256": "4acd7dee069462903fd731d3a72b202571c3fc2bac0022ffbf4066797bc0b071",
+      "metrics": {
+        "meanLuminance": 0.47393103014296134,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4436890485524359,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/rootback.png",
+      "source": "public/assets/rootback.png",
+      "sourceSHA256": "ad6c3f3a87cba500fad2a0745283d6d13f1a6526c37bfb2ed7ec26a2cc729397",
+      "sha256": "beae62cf6ea83de974f7398be04ca7e4216a5c153fdb0e44a19575317ccb0e6c",
+      "metrics": {
+        "meanLuminance": 0.4418099952518223,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4831383338080095,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-e.png",
+      "source": "public/assets/shieldBearer-e.png",
+      "sourceSHA256": "f70cdfdd9b3a6dca566962ab952a8342324e33f4bc27c3ffd2977449770f7fd3",
+      "sha256": "22e1277a80cef1e80fac6f8b5b3580c47246ca69e1b4e57a69cb95d90600c9b5",
+      "metrics": {
+        "meanLuminance": 0.40154523224619876,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4701436807013933,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-ne.png",
+      "source": "public/assets/shieldBearer-ne.png",
+      "sourceSHA256": "ca9593285b3cbca5930426d30e1392d75662470adac8cc6d28ee76364ea17991",
+      "sha256": "b01ac422182e2a9a527ec211d27aee8ed124d8bd5560c6d8973839766873c6f5",
+      "metrics": {
+        "meanLuminance": 0.4022600741275933,
+        "nearBlackRatio": 0.015541325798145067,
+        "meanSaturation": 0.5349078409478323,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-nw.png",
+      "source": "public/assets/shieldBearer-nw.png",
+      "sourceSHA256": "3db626bd6e1d5fb97d22b4f83923e98832787b66e3f647d1798a27a7bbe935ab",
+      "sha256": "cee4ef24d47d953d845582b0162e2864df0fcc173f9fd49b0d657f5b110d14b6",
+      "metrics": {
+        "meanLuminance": 0.4082050831547022,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.48483595636817867,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-se.png",
+      "source": "public/assets/shieldBearer-se.png",
+      "sourceSHA256": "aa275f1f15ad2fd42691e4376c9b75a51d6965114bec28d637eddb97a674af13",
+      "sha256": "7e58b68f3387a28a0039bac0ec6515af2ebf1628078194dd098e249921274117",
+      "metrics": {
+        "meanLuminance": 0.39197421477144173,
+        "nearBlackRatio": 0.013631225480417581,
+        "meanSaturation": 0.5152562379208393,
+        "lowSaturationRatio": 0.010151384178912605
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-sw.png",
+      "source": "public/assets/shieldBearer-sw.png",
+      "sourceSHA256": "238187fc9dacc0eb646cce73367f6270a4b52850744188c70b0e2034c07a338c",
+      "sha256": "99bf4d7f98f08d212faf9dbdd00fde8fdba0f598c7ceece78cece9c115b298eb",
+      "metrics": {
+        "meanLuminance": 0.41288700102847736,
+        "nearBlackRatio": 0.010499929054533416,
+        "meanSaturation": 0.5307102985923121,
+        "lowSaturationRatio": 0.00148985479827839
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-w.png",
+      "source": "public/assets/shieldBearer-w.png",
+      "sourceSHA256": "185e1103e9ceab2fdef4362c13679eb551461f9f99beda14be9cd00353cd229d",
+      "sha256": "0007ac4ec6321167b90784c9b53482cadb2380958ce522f3e269a09302dcf48f",
+      "metrics": {
+        "meanLuminance": 0.400092540944985,
+        "nearBlackRatio": 0.00862498753614518,
+        "meanSaturation": 0.5203291826252887,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-e.png",
+      "source": "public/assets/villager-e.png",
+      "sourceSHA256": "95df560570a78779c768c28cc2114752d1204384adb8acfdfa250ee7e92549f2",
+      "sha256": "1a54912f27afd88ffe24ec37446068e2536a0a97a8190a49be63922adc44c74b",
+      "metrics": {
+        "meanLuminance": 0.43077825792013713,
+        "nearBlackRatio": 0.01509843760947243,
+        "meanSaturation": 0.5594452984725032,
+        "lowSaturationRatio": 0.008827856792545365
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-ne.png",
+      "source": "public/assets/villager-ne.png",
+      "sourceSHA256": "739b92fec32c1f892120ec72ab119076fbbd7635c018f8f905f3a586b007df82",
+      "sha256": "f3a12d730a0efc81c51f6d1538e97d7cc81d39af0ac7c160914b25e4d6d2f370",
+      "metrics": {
+        "meanLuminance": 0.45731942648608137,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.49670622378595425,
+        "lowSaturationRatio": 0.002355537002802791
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-nw.png",
+      "source": "public/assets/villager-nw.png",
+      "sourceSHA256": "db680cb87d76d8145c4ccf715cc04d9a399469ea95382251d86d70b1a338d652",
+      "sha256": "3611568f9cbadecea0e0f09e37c96b777926b54c1769b47601e26e2346ecc1b0",
+      "metrics": {
+        "meanLuminance": 0.44537957006455126,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5318515232966962,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-se.png",
+      "source": "public/assets/villager-se.png",
+      "sourceSHA256": "3f9a1939e3e95a3336043db16a21b5d102c2a0a02bb9600a431018487e18571b",
+      "sha256": "dfe194a7ee4f1eb6b25ba81f39b8d751037d4e7a37024e276d6a585dfbf0e17c",
+      "metrics": {
+        "meanLuminance": 0.48408769228117826,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5366515925484221,
+        "lowSaturationRatio": 0.0075881870385561935
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-sw.png",
+      "source": "public/assets/villager-sw.png",
+      "sourceSHA256": "11d041372a24b9fc6a9995d7edc0f93f86b3cb761aa5c0d4db5d3aab240a1981",
+      "sha256": "39fb4b52d9af747c16ecc0495319e8ec05308086971be3dcc29e121d8d50a079",
+      "metrics": {
+        "meanLuminance": 0.48734105775810516,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5458150469108419,
+        "lowSaturationRatio": 0.006256778176357721
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/villager-w.png",
+      "source": "public/assets/villager-w.png",
+      "sourceSHA256": "9b5ef6a16e176dd322026cf8b90dfae9cfb6bbfbc7707d2af37b012877e94a79",
+      "sha256": "78cf8917c0976b4596e0556c30419eb819bbaa95a27f66fc208b460989fcba97",
+      "metrics": {
+        "meanLuminance": 0.4658504937719578,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5422325761987964,
+        "lowSaturationRatio": 0.0013414244650271478
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-e.png",
+      "source": "public/assets/warrior-e.png",
+      "sourceSHA256": "de5fd43debcc2bf5eefce22a8d90d81f68662a594cb31589b6dee6cc5bf87991",
+      "sha256": "2488414b07d1bebac55e2551719f9d5f8c860b3b731ee80f2a4a517c53709880",
+      "metrics": {
+        "meanLuminance": 0.3877753108723553,
+        "nearBlackRatio": 0.009939515352313442,
+        "meanSaturation": 0.5003255006205588,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-ne.png",
+      "source": "public/assets/warrior-ne.png",
+      "sourceSHA256": "0b2456360d33fced354f9aad7d7cfc6dff053eb1957d44b5e72211f371edfbef",
+      "sha256": "db0b056ac9a060f895943bc9d5b0cddb17cb5e57b761d694a7a7b20ae800daad",
+      "metrics": {
+        "meanLuminance": 0.3833912025655531,
+        "nearBlackRatio": 0.011470250874974266,
+        "meanSaturation": 0.4523970748265189,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-nw.png",
+      "source": "public/assets/warrior-nw.png",
+      "sourceSHA256": "c810fc9ff8ca6f97feeb9b81a2731c6a5fb4beed76383b832652a197e57b5019",
+      "sha256": "65e3180633885d8b03913ef5b2db88d2a5e3100765116abb136b6548eb531760",
+      "metrics": {
+        "meanLuminance": 0.3840746300143426,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.473869784954566,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-se.png",
+      "source": "public/assets/warrior-se.png",
+      "sourceSHA256": "f0a9c717d9d3d1b79dd152901301478d13a8cc572459d6caf2d033c9aa9fab64",
+      "sha256": "9baa70becd98477ee3a42cf8e0f4e8d207125c5063e0ab792d21198c5165e409",
+      "metrics": {
+        "meanLuminance": 0.4076855259030728,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4664067029001403,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-sw.png",
+      "source": "public/assets/warrior-sw.png",
+      "sourceSHA256": "a2809a0213292362f4c7109cc83f0ff884e288245f15b5621d05629a3d884a31",
+      "sha256": "06818053cd826ecbd6d8fb8d6672146c124daabb5a35e87939229aa87e8f86e6",
+      "metrics": {
+        "meanLuminance": 0.40198609240590005,
+        "nearBlackRatio": 0.008333784295686996,
+        "meanSaturation": 0.48695180220472845,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r1/warrior-w.png",
+      "source": "public/assets/warrior-w.png",
+      "sourceSHA256": "e16a29eb35af561a70edc1c5c6390fbcd37aa25095389855d47dc3b949f14c31",
+      "sha256": "65970d077d937a3a82e09c9aef3d57364dd284a9cf80320fa04d6c8d68d42138",
+      "metrics": {
+        "meanLuminance": 0.3947206959025689,
+        "nearBlackRatio": 0.017099748533109808,
+        "meanSaturation": 0.4939940502605065,
+        "lowSaturationRatio": 0.0
+      },
+      "colorGate": true,
+      "alphaUnchanged": true,
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "runtime": [
+    {
+      "path": "public/assets/r1/app-icon-192.png",
+      "bytes": 71232,
+      "sha256": "1a4ec578493d8939a8c11017de77fa943397c4ab01e970d3a0abf31517a4a6a0",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r1/app-icon-512.png",
+      "bytes": 421327,
+      "sha256": "2254511078b997079b01a61647c528dccfc5d80b8de396163a5902eebe16ed4d",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r1/app-icon-64.png",
+      "bytes": 9460,
+      "sha256": "34f2b54d0160dd91f0d971f93e8539a8bebc0f92bac47193a86139ac7a4e6b07",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r1/archer-e.png",
+      "bytes": 145252,
+      "sha256": "d03ee27459a3eaf0093ad3bb137090e23ab2b3e605a1d0c2441599190e479b38",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.15163070436507936,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/archer-ne.png",
+      "bytes": 145964,
+      "sha256": "6a80de14084a903440f571327a6f7eb38de1e4e184981bf10f8b5bb3dabad1b8",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1539984809027778,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/archer-nw.png",
+      "bytes": 150877,
+      "sha256": "5b3a068a593d41ec67ba3e36ec0b9c7f8b0fe8b5f2b1d714e15fbea810411a63",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.15288240947420634,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/archer-se.png",
+      "bytes": 149087,
+      "sha256": "f7911e00490ec94fb61eba5bd5c369ec1683236b14653c8463e62f7d05d41a78",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.15260726686507936,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/archer-sw.png",
+      "bytes": 155080,
+      "sha256": "b9a4bd299026cd2418a10145e0f8c0febf2d8cd71247818f3653dae2f020594e",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.16260153149801587,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/archer-w.png",
+      "bytes": 158161,
+      "sha256": "464277720487217491c775a541f4d2c7ac6b46e1564b51eeb0e140ae20145598",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.15673828125,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/ashwing.png",
+      "bytes": 929275,
+      "sha256": "8307ae6df0a6d730e72fe87f2c40d8cfb41aa68fb458bc88dbae1057da30dcc3",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.22191937764485678,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/barracks.png",
+      "bytes": 116567,
+      "sha256": "2550bde496b89c902f2c60185905ca0b31ff86f4bede804015e701779f1afabd",
+      "size": [
+        256,
+        320
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.5445068359375,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/battlefield.webp",
+      "bytes": 416270,
+      "sha256": "70e5bfea07bbee6f8f0ae5f384158df6b13bf858c9cc4238c62b69f00ba157a2",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r1/commander-face.png",
+      "bytes": 22071,
+      "sha256": "d1bacb23c8ff0c0fa4b6f67bbf05056ebe50f62d5812664363fc5278c311d518",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.4176025390625,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/commander.png",
+      "bytes": 338524,
+      "sha256": "1d32cf6065b0e4fd3810e70e9f71d6f5a9c810bed2f28973fe7e21411ff89cc7",
+      "size": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.36222585042317706,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/enemy-keep.png",
+      "bytes": 128245,
+      "sha256": "475877e9f74c63c80a9d492da2650a9b343dd9156c877d08b1388eb73c094f6f",
+      "size": [
+        256,
+        320
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.5936279296875,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/keep.png",
+      "bytes": 137712,
+      "sha256": "60d9d0bae7f2be388e57efe801ae0758c4dae420c8dc0c8fa260b7d520d6907c",
+      "size": [
+        256,
+        320
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.6207763671875,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/logo.png",
+      "bytes": 429882,
+      "sha256": "d3040b25cbabffacb42ec866372ca8b0618b7b7db12f8fd8d056f7f70673a77c",
+      "size": [
+        768,
+        512
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.3545989990234375,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/mage.png",
+      "bytes": 818387,
+      "sha256": "0c1095d50da99e57f068306e7e94ff241d1f788156c5e428e27be0f3c78468cf",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.22630945841471353,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/miremaw.png",
+      "bytes": 1322181,
+      "sha256": "4acd7dee069462903fd731d3a72b202571c3fc2bac0022ffbf4066797bc0b071",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.3006305694580078,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/panel.webp",
+      "bytes": 17354,
+      "sha256": "81d70e36a91066dd11463458fe53ad62902bd94d4a9fe4e384c319a9094c906d",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r1/rootback.png",
+      "bytes": 904466,
+      "sha256": "beae62cf6ea83de974f7398be04ca7e4216a5c153fdb0e44a19575317ccb0e6c",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1872234344482422,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/seal-cannon.png",
+      "bytes": 27645,
+      "sha256": "ae4bf91cefa1d4ea99bee8581df3b2775157c9fae5fecf701a1fb9c3fc7863fd",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.6165771484375,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/seal-frost.png",
+      "bytes": 20535,
+      "sha256": "3955da89b811266971d6af3a403846331a450f66698fc393df94dc2ebf0df12c",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.3599853515625,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/seal-tesla.png",
+      "bytes": 22805,
+      "sha256": "856417f3ab86531baad4e5d83fed6bf447eddaec39f2d3cfb231f38b20843d9c",
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.47821044921875,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-e.png",
+      "bytes": 153459,
+      "sha256": "22e1277a80cef1e80fac6f8b5b3580c47246ca69e1b4e57a69cb95d90600c9b5",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1489091730442177,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-ne.png",
+      "bytes": 170016,
+      "sha256": "b01ac422182e2a9a527ec211d27aee8ed124d8bd5560c6d8973839766873c6f5",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.16242493090986396,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-nw.png",
+      "bytes": 175842,
+      "sha256": "cee4ef24d47d953d845582b0162e2864df0fcc173f9fd49b0d657f5b110d14b6",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.16784584927721088,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-se.png",
+      "bytes": 169423,
+      "sha256": "7e58b68f3387a28a0039bac0ec6515af2ebf1628078194dd098e249921274117",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1659525138180272,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-sw.png",
+      "bytes": 166161,
+      "sha256": "99bf4d7f98f08d212faf9dbdd00fde8fdba0f598c7ceece78cece9c115b298eb",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.155230256164966,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-w.png",
+      "bytes": 152552,
+      "sha256": "0007ac4ec6321167b90784c9b53482cadb2380958ce522f3e269a09302dcf48f",
+      "size": [
+        448,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.14667038690476192,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/tower-cannon.png",
+      "bytes": 56987,
+      "sha256": "654104d245966ea3e6cb2583441b9f82253177356c75f86fca6320475e1d21ca",
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.4238077799479167,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/tower-frost.png",
+      "bytes": 48499,
+      "sha256": "992a827e0c2c92f97b9c08400ecfcdde6dbb64cc2b178f37195808f89b12c9ef",
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.3362630208333333,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/tower-tesla.png",
+      "bytes": 87062,
+      "sha256": "5dec4ee95f785dc0e2fe91ec680b2a2c6587ae7e6abcddfd8e0d65524ced2f8c",
+      "size": [
+        192,
+        256
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.6049397786458334,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-e.png",
+      "bytes": 115033,
+      "sha256": "1a54912f27afd88ffe24ec37446068e2536a0a97a8190a49be63922adc44c74b",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.12383355034722222,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-ne.png",
+      "bytes": 133280,
+      "sha256": "f3a12d730a0efc81c51f6d1538e97d7cc81d39af0ac7c160914b25e4d6d2f370",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.14400809151785715,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-nw.png",
+      "bytes": 132140,
+      "sha256": "3611568f9cbadecea0e0f09e37c96b777926b54c1769b47601e26e2346ecc1b0",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1415744357638889,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-se.png",
+      "bytes": 133081,
+      "sha256": "dfe194a7ee4f1eb6b25ba81f39b8d751037d4e7a37024e276d6a585dfbf0e17c",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1460503472222222,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-sw.png",
+      "bytes": 138474,
+      "sha256": "39fb4b52d9af747c16ecc0495319e8ec05308086971be3dcc29e121d8d50a079",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.15348694816468253,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/villager-w.png",
+      "bytes": 124959,
+      "sha256": "78cf8917c0976b4596e0556c30419eb819bbaa95a27f66fc208b460989fcba97",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.13339378720238096,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-e.png",
+      "bytes": 112127,
+      "sha256": "2488414b07d1bebac55e2551719f9d5f8c860b3b731ee80f2a4a517c53709880",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1128937251984127,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-ne.png",
+      "bytes": 139375,
+      "sha256": "db0b056ac9a060f895943bc9d5b0cddb17cb5e57b761d694a7a7b20ae800daad",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.14597671750992064,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-nw.png",
+      "bytes": 141487,
+      "sha256": "65e3180633885d8b03913ef5b2db88d2a5e3100765116abb136b6548eb531760",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1450931609623016,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-se.png",
+      "bytes": 139750,
+      "sha256": "9baa70becd98477ee3a42cf8e0f4e8d207125c5063e0ab792d21198c5165e409",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1441979786706349,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-sw.png",
+      "bytes": 152563,
+      "sha256": "06818053cd826ecbd6d8fb8d6672146c124daabb5a35e87939229aa87e8f86e6",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.1581759982638889,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/warrior-w.png",
+      "bytes": 130676,
+      "sha256": "65970d077d937a3a82e09c9aef3d57364dd284a9cf80320fa04d6c8d68d42138",
+      "size": [
+        384,
+        672
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.12939065600198413,
+      "transparentRGBZero": true
+    },
+    {
+      "path": "public/assets/r1/wordmark.png",
+      "bytes": 204776,
+      "sha256": "c2b6840aa714821a0bf7e08707e37f361b673a33b914ad15bd9f2c9724f733b8",
+      "size": [
+        600,
+        216
+      ],
+      "mode": "RGBA",
+      "cornersTransparent": true,
+      "alphaOccupancy": 0.4769753086419753,
+      "transparentRGBZero": true
+    }
+  ],
+  "runtimeBytes": 10036081
+}

@@ -1,35 +1,53 @@
 {
   "status": "VERIFIED",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "command": "npm run verify",
+  "exitCode": 0,
+  "log": "docs/art/verify-r1.txt",
+  "logSHA256": "13bdf4d722fae22a1ed6af54b4095f19d59d2f0c257cbb7f9cf0c4f319a2e345",
+  "unitTests": 34,
+  "e2eChecks": 442,
+  "visualChecks": 41,
+  "alphaFiles": 41,
+  "secretMatches": 0,
   "checks": [
     {
-      "name": "unit",
-      "command": "npm test",
-      "exitCode": 0,
-      "elapsedMs": 1035,
-      "error": null
-    },
-    {
-      "name": "build",
-      "command": "npm run build",
-      "exitCode": 0,
-      "elapsedMs": 298,
-      "error": null
-    },
-    {
       "name": "e2e",
-      "command": "npm run test:e2e",
-      "exitCode": 0,
-      "elapsedMs": 67854,
-      "error": null
+      "path": "docs/evidence/e2e.json",
+      "status": "VERIFIED",
+      "sha256": "fb3641350730601309846841bfd15f0c6ab2d6c7fc47315dd7f141d548841428"
+    },
+    {
+      "name": "visual",
+      "path": "docs/art/visual-audit.json",
+      "status": "VERIFIED",
+      "sha256": "8c5d9a4f844adaf53c864714a160dae3201f1fa4fd6294ef1991d3310730fff1"
+    },
+    {
+      "name": "alpha",
+      "path": "docs/art/alpha-gate.json",
+      "status": "VERIFIED",
+      "sha256": "2b2a22f9729e046f593d01b75b22b7deef87d4c2c291029de3016addfee8cf81"
+    },
+    {
+      "name": "art",
+      "path": "docs/art/ASSET_MANIFEST_R1.json",
+      "status": "VERIFIED",
+      "sha256": "02c40d487261cadd267dc0fc8653d8aaf9a1161ae8b11829b21e5d4971b78f3a"
     },
     {
       "name": "audit",
-      "command": "npm exec -- node scripts/audit.mjs",
-      "exitCode": 0,
-      "elapsedMs": 1382,
-      "error": null
+      "path": "docs/evidence/release-audit.json",
+      "status": "VERIFIED",
+      "sha256": "28014e0d97826615dce928bb2d72ade2b027d68439bc3a00e4638860459385a8"
     }
   ],
-  "scope": "Local web implementation only; no push, deployment, store action, native binary or human beta."
+  "incomingReview": {
+    "path": "docs/art/ART_REVIEW_MUSE.md",
+    "sha256": "a0731c2886f59205c1d1869d8f20ab1dc13b98cf54df02f6d99fb74367625283",
+    "scope": "Provided independent review of original three iPhone screenshots, incorporated via MUSE_RECONCILIATION_R1.md. Not an independent approval of refreshed build."
+  },
+  "performanceBuildMatches": true,
+  "scope": "Local web only. No push/deploy/store/native build. Performance is concurrent-load reference only; physical-device release gate remains blocked.",
+  "finalTextNormalization": "UTF-8 LF normalized to repository policy; rebuilt, game.js matches the tested performance build."
 }

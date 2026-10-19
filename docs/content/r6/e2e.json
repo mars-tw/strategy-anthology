@@ -1,0 +1,3518 @@
+{
+  "status": "VERIFIED",
+  "method": "Serial headless touch UI. Public import of the R5 naturally attained ford victory, then real campaign progression. No currency, actor, health or result injection. Fixed virtual time for gameplay only.",
+  "buildSHA256": "29780ea8a4640a385039d7ac8f9daa397529d6115502e51359ebd8d5138075e9",
+  "checks": [
+    "natural river defense victory",
+    "second relay reached by real combat",
+    "second relay choice no overflow",
+    "second relay choice chronicle touch >=44 and reachable",
+    "second relay choice pause touch >=44 and reachable",
+    "second relay choice quarry-upstream touch >=44 and reachable",
+    "second relay choice quarry-gate touch >=44 and reachable",
+    "second relay choice quarry-crystals touch >=44 and reachable",
+    "second relay choice chronicle touch >=44 and reachable",
+    "second relay choice phone keyboard text hidden",
+    "upstream paid once",
+    "upstream claim controls removed",
+    "upstream distinct inheritance",
+    "upstream actual first wave hit",
+    "upstream first wave complete with full defense",
+    "report-relay-upstream actual numeric consequence",
+    "upstream reload retains choice and first wave",
+    "gate paid once",
+    "gate claim controls removed",
+    "gate distinct inheritance",
+    "gate actual first wave hit",
+    "gate first wave complete with full defense",
+    "report-relay-gate actual numeric consequence",
+    "gate reload retains choice and first wave",
+    "crystals paid once",
+    "crystals claim controls removed",
+    "crystals distinct inheritance",
+    "crystals first wave complete with full defense",
+    "report-relay-crystals actual numeric consequence",
+    "crystals reload retains choice and first wave",
+    "cannon selected tower matches the impact loupe",
+    "cannon measured hit damage",
+    "frost selected tower matches the impact loupe",
+    "frost measured hit damage",
+    "tesla selected tower matches the impact loupe",
+    "tesla measured hit damage",
+    "report-terrain-flood actual numeric consequence",
+    "flood real terrain overlay loaded",
+    "report-terrain-barricade actual numeric consequence",
+    "barricade real terrain overlay loaded",
+    "turn actual victory and contribution",
+    "turn full fixed budget",
+    "turn completion saved",
+    "turn same-budget failure and first leak",
+    "levee actual victory and contribution",
+    "levee full fixed budget",
+    "levee completion saved",
+    "levee same-budget failure and first leak",
+    "switchback actual victory and contribution",
+    "switchback full fixed budget",
+    "switchback completion saved",
+    "switchback same-budget failure and first leak",
+    "split actual victory and contribution",
+    "split full fixed budget",
+    "split completion saved",
+    "split same-budget failure and first leak",
+    "hollow actual victory and contribution",
+    "hollow full fixed budget",
+    "hollow completion saved",
+    "hollow same-budget failure and first leak",
+    "five records and isolated wallet",
+    "320x568 five choices no overflow",
+    "320x568 five choices exercise-turn touch >=44 and reachable",
+    "320x568 five choices exercise-levee touch >=44 and reachable",
+    "320x568 five choices exercise-switchback touch >=44 and reachable",
+    "320x568 five choices exercise-split touch >=44 and reachable",
+    "320x568 five choices exercise-hollow touch >=44 and reachable",
+    "320x568 five choices close touch >=44 and reachable",
+    "320x568 five choices phone keyboard text hidden",
+    "320x568 puzzle no overflow",
+    "320x568 puzzle chronicle touch >=44 and reachable",
+    "320x568 puzzle pause touch >=44 and reachable",
+    "320x568 puzzle tower-cannon touch >=44 and reachable",
+    "320x568 puzzle tower-frost touch >=44 and reachable",
+    "320x568 puzzle tower-tesla touch >=44 and reachable",
+    "320x568 puzzle suggest touch >=44 and reachable",
+    "320x568 puzzle confirm touch >=44 and reachable",
+    "320x568 puzzle cancel touch >=44 and reachable",
+    "320x568 puzzle wave touch >=44 and reachable",
+    "320x568 puzzle skill touch >=44 and reachable",
+    "320x568 puzzle phone keyboard text hidden",
+    "320x568 result no overflow",
+    "320x568 result chronicle touch >=44 and reachable",
+    "320x568 result pause touch >=44 and reachable",
+    "320x568 result exercises touch >=44 and reachable",
+    "320x568 result retry touch >=44 and reachable",
+    "320x568 result chronicle touch >=44 and reachable",
+    "320x568 result phone keyboard text hidden",
+    "320x568 second relay no overflow",
+    "320x568 second relay chronicle touch >=44 and reachable",
+    "320x568 second relay pause touch >=44 and reachable",
+    "320x568 second relay quarry-upstream touch >=44 and reachable",
+    "320x568 second relay quarry-gate touch >=44 and reachable",
+    "320x568 second relay quarry-crystals touch >=44 and reachable",
+    "320x568 second relay chronicle touch >=44 and reachable",
+    "320x568 second relay phone keyboard text hidden",
+    "430x932 five choices no overflow",
+    "430x932 five choices exercise-turn touch >=44 and reachable",
+    "430x932 five choices exercise-levee touch >=44 and reachable",
+    "430x932 five choices exercise-switchback touch >=44 and reachable",
+    "430x932 five choices exercise-split touch >=44 and reachable",
+    "430x932 five choices exercise-hollow touch >=44 and reachable",
+    "430x932 five choices close touch >=44 and reachable",
+    "430x932 five choices phone keyboard text hidden",
+    "430x932 puzzle no overflow",
+    "430x932 puzzle chronicle touch >=44 and reachable",
+    "430x932 puzzle pause touch >=44 and reachable",
+    "430x932 puzzle tower-cannon touch >=44 and reachable",
+    "430x932 puzzle tower-frost touch >=44 and reachable",
+    "430x932 puzzle tower-tesla touch >=44 and reachable",
+    "430x932 puzzle suggest touch >=44 and reachable",
+    "430x932 puzzle confirm touch >=44 and reachable",
+    "430x932 puzzle cancel touch >=44 and reachable",
+    "430x932 puzzle wave touch >=44 and reachable",
+    "430x932 puzzle skill touch >=44 and reachable",
+    "430x932 puzzle phone keyboard text hidden",
+    "430x932 result no overflow",
+    "430x932 result chronicle touch >=44 and reachable",
+    "430x932 result pause touch >=44 and reachable",
+    "430x932 result exercises touch >=44 and reachable",
+    "430x932 result retry touch >=44 and reachable",
+    "430x932 result chronicle touch >=44 and reachable",
+    "430x932 result phone keyboard text hidden",
+    "430x932 second relay no overflow",
+    "430x932 second relay chronicle touch >=44 and reachable",
+    "430x932 second relay pause touch >=44 and reachable",
+    "430x932 second relay quarry-upstream touch >=44 and reachable",
+    "430x932 second relay quarry-gate touch >=44 and reachable",
+    "430x932 second relay quarry-crystals touch >=44 and reachable",
+    "430x932 second relay chronicle touch >=44 and reachable",
+    "430x932 second relay phone keyboard text hidden",
+    "844x390 five choices no overflow",
+    "844x390 five choices exercise-turn touch >=44 and reachable",
+    "844x390 five choices exercise-levee touch >=44 and reachable",
+    "844x390 five choices exercise-switchback touch >=44 and reachable",
+    "844x390 five choices exercise-split touch >=44 and reachable",
+    "844x390 five choices exercise-hollow touch >=44 and reachable",
+    "844x390 five choices close touch >=44 and reachable",
+    "844x390 five choices phone keyboard text hidden",
+    "844x390 puzzle no overflow",
+    "844x390 puzzle chronicle touch >=44 and reachable",
+    "844x390 puzzle pause touch >=44 and reachable",
+    "844x390 puzzle tower-cannon touch >=44 and reachable",
+    "844x390 puzzle tower-frost touch >=44 and reachable",
+    "844x390 puzzle tower-tesla touch >=44 and reachable",
+    "844x390 puzzle suggest touch >=44 and reachable",
+    "844x390 puzzle confirm touch >=44 and reachable",
+    "844x390 puzzle cancel touch >=44 and reachable",
+    "844x390 puzzle wave touch >=44 and reachable",
+    "844x390 puzzle skill touch >=44 and reachable",
+    "844x390 puzzle phone keyboard text hidden",
+    "844x390 result no overflow",
+    "844x390 result chronicle touch >=44 and reachable",
+    "844x390 result pause touch >=44 and reachable",
+    "844x390 result exercises touch >=44 and reachable",
+    "844x390 result retry touch >=44 and reachable",
+    "844x390 result chronicle touch >=44 and reachable",
+    "844x390 result phone keyboard text hidden",
+    "844x390 second relay no overflow",
+    "844x390 second relay chronicle touch >=44 and reachable",
+    "844x390 second relay pause touch >=44 and reachable",
+    "844x390 second relay quarry-upstream touch >=44 and reachable",
+    "844x390 second relay quarry-gate touch >=44 and reachable",
+    "844x390 second relay quarry-crystals touch >=44 and reachable",
+    "844x390 second relay chronicle touch >=44 and reachable",
+    "844x390 second relay phone keyboard text hidden",
+    "1032x1376 five choices no overflow",
+    "1032x1376 five choices exercise-turn touch >=44 and reachable",
+    "1032x1376 five choices exercise-levee touch >=44 and reachable",
+    "1032x1376 five choices exercise-switchback touch >=44 and reachable",
+    "1032x1376 five choices exercise-split touch >=44 and reachable",
+    "1032x1376 five choices exercise-hollow touch >=44 and reachable",
+    "1032x1376 five choices close touch >=44 and reachable",
+    "1032x1376 five choices phone keyboard text hidden",
+    "1032x1376 puzzle no overflow",
+    "1032x1376 puzzle chronicle touch >=44 and reachable",
+    "1032x1376 puzzle pause touch >=44 and reachable",
+    "1032x1376 puzzle tower-cannon touch >=44 and reachable",
+    "1032x1376 puzzle tower-frost touch >=44 and reachable",
+    "1032x1376 puzzle tower-tesla touch >=44 and reachable",
+    "1032x1376 puzzle suggest touch >=44 and reachable",
+    "1032x1376 puzzle confirm touch >=44 and reachable",
+    "1032x1376 puzzle cancel touch >=44 and reachable",
+    "1032x1376 puzzle wave touch >=44 and reachable",
+    "1032x1376 puzzle skill touch >=44 and reachable",
+    "1032x1376 puzzle phone keyboard text hidden",
+    "1032x1376 result no overflow",
+    "1032x1376 result chronicle touch >=44 and reachable",
+    "1032x1376 result pause touch >=44 and reachable",
+    "1032x1376 result exercises touch >=44 and reachable",
+    "1032x1376 result retry touch >=44 and reachable",
+    "1032x1376 result chronicle touch >=44 and reachable",
+    "1032x1376 result phone keyboard text hidden",
+    "1032x1376 second relay no overflow",
+    "1032x1376 second relay chronicle touch >=44 and reachable",
+    "1032x1376 second relay pause touch >=44 and reachable",
+    "1032x1376 second relay quarry-upstream touch >=44 and reachable",
+    "1032x1376 second relay quarry-gate touch >=44 and reachable",
+    "1032x1376 second relay quarry-crystals touch >=44 and reachable",
+    "1032x1376 second relay chronicle touch >=44 and reachable",
+    "1032x1376 second relay phone keyboard text hidden",
+    "1376x1032 five choices no overflow",
+    "1376x1032 five choices exercise-turn touch >=44 and reachable",
+    "1376x1032 five choices exercise-levee touch >=44 and reachable",
+    "1376x1032 five choices exercise-switchback touch >=44 and reachable",
+    "1376x1032 five choices exercise-split touch >=44 and reachable",
+    "1376x1032 five choices exercise-hollow touch >=44 and reachable",
+    "1376x1032 five choices close touch >=44 and reachable",
+    "1376x1032 five choices phone keyboard text hidden",
+    "1376x1032 puzzle no overflow",
+    "1376x1032 puzzle chronicle touch >=44 and reachable",
+    "1376x1032 puzzle pause touch >=44 and reachable",
+    "1376x1032 puzzle tower-cannon touch >=44 and reachable",
+    "1376x1032 puzzle tower-frost touch >=44 and reachable",
+    "1376x1032 puzzle tower-tesla touch >=44 and reachable",
+    "1376x1032 puzzle suggest touch >=44 and reachable",
+    "1376x1032 puzzle confirm touch >=44 and reachable",
+    "1376x1032 puzzle cancel touch >=44 and reachable",
+    "1376x1032 puzzle wave touch >=44 and reachable",
+    "1376x1032 puzzle skill touch >=44 and reachable",
+    "1376x1032 puzzle phone keyboard text hidden",
+    "1376x1032 result no overflow",
+    "1376x1032 result chronicle touch >=44 and reachable",
+    "1376x1032 result pause touch >=44 and reachable",
+    "1376x1032 result exercises touch >=44 and reachable",
+    "1376x1032 result retry touch >=44 and reachable",
+    "1376x1032 result chronicle touch >=44 and reachable",
+    "1376x1032 result phone keyboard text hidden",
+    "1376x1032 second relay no overflow",
+    "1376x1032 second relay chronicle touch >=44 and reachable",
+    "1376x1032 second relay pause touch >=44 and reachable",
+    "1376x1032 second relay quarry-upstream touch >=44 and reachable",
+    "1376x1032 second relay quarry-gate touch >=44 and reachable",
+    "1376x1032 second relay quarry-crystals touch >=44 and reachable",
+    "1376x1032 second relay chronicle touch >=44 and reachable",
+    "1376x1032 second relay phone keyboard text hidden",
+    "offline cold reload and new puzzle complete",
+    "no runtime errors or external requests"
+  ],
+  "shots": [
+    {
+      "path": "docs/content/r6/phone-relay-choice.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "656dbd189a7429e4c274235336236c117323edde82ed01490a44edda09797190"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-receipt.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "790a5b0ddd49dc5594cd684a2a8c7bfa7a21cac0ae26db92b504a71380b3864f"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "1eb7bc2ba1b9f26b9570774a81a2fcd233e201f56b7b10c79fbed14e4f136461"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "85c58a35b7379653671a0c3db33beb28c8beea6c98e5523e16d463f35309a053"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "55a6dcb3adf740723089beed51d063e864e0e683241b0d59526d6102457ada35"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "703380116d684afea5438105366d04dd088c44848e1ac928694e878dc6926fbe"
+    },
+    {
+      "path": "docs/content/r6/phone-report-relay-upstream.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "6441de7481645d31c209a23db99adde8741754d6fbfb1aca3fd4345025c95137"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-upstream-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "343bfba7e83751b07d8903744a65dfc5923c06e7f9a7a1e2dbc434f41435a8ac"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-receipt.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "86ae4aa0563e632a1e4d4edcb8e42e9c43864225575494c2a0bf7db2f19a4095"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "91390f58c488f76c644410310e6526dffe356a799f667a13526357195eecb5a8"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "7ff2f27c703107b372347ad99e16e95b54856db9496df58a2c0ce5a05d8b145d"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "eda9894eba0c8fed785a422d2a356a88e5d5b778cdbaef9916dd3abf4f7d5bef"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "30b9b6aee0cafac76e18b8515c10458cd1b0240933ded4250d1469d0939ec0b7"
+    },
+    {
+      "path": "docs/content/r6/phone-report-relay-gate.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "f0a5bac0d3c9427af5ab3c2e13d1ac0c617103a0f2f54b91b35e3ad17dce0df7"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-gate-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "95f98ea3b6e72f67490312d92fcbfc99d5c76df5bfae2727a4b1422b9b3e6d1d"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-crystals-receipt.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "bea97a15d49e1e6f072663e56cf7f3a72ffbeb739be3bba7370e30ab08340ec3"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-crystals-next.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "e20553cdd3f65cc39a655810f8f5a9ec671ac3eb4799ffe684b1adb850fd2414"
+    },
+    {
+      "path": "docs/content/r6/phone-report-relay-crystals.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "71d3743e07bf0f998f32e1d700b6d6be7663d9163074296bb7c1c064a8233948"
+    },
+    {
+      "path": "docs/content/r6/phone-relay-crystals-reloaded.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "7d6d789ab45a60af56206348e402b3782eef54b791ce33728218bf7cd13c7d4f"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-cannon-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "4380aa254bb37d271c1d699a55e1108bd6156276e83d57e4bde283c612be15da"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-cannon-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "1852196995ee123de5408d190e1c4b7f250be5116712ba321b9141cc76c087b7"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-cannon-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "8f16737793ea91c215523516e538c9d0e6a1eaf1776d4e51329f140879b02ca7"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-frost-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "5f62f94bdb58623795b638a45ecb36b48b75ac87ae8b21e83fbe30a5eaf1940a"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-frost-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "2b8f1231961522eeb89bbeab10af3d1c38d5f0fa57d5b4dcd8adefe33957f8a3"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-frost-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "957b25ba74f5e46ff277f220ce2d7b00c4da325d6055cf18cb9aef46e5584ac9"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-tesla-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "53f08595dd650300b4a567b868415a939668fb44a2fcfa99905de392cee7a514"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-tesla-hit.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "bd4aa1b69b0725d4d489983a08504777115f3150aef81f85e0fb99cc4cd397bd"
+    },
+    {
+      "path": "docs/content/r6/phone-impact-tesla-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "fca9f680a3a947b9723c4e9de1b2945c5715c20e747fc5d49e0a3a0a2bbb0446"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-flood-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "be706e6d57bc0ddaa43c372f82d6b1a29e3b1e84e52cb28234e46510f469964b"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-flood-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "c48dfe597ec1f622d140608c34b4ec73ea4f35cf7b1ac644310e97271746c803"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-flood-enter.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "b8349a3b7544ab7b0e3983a16478415e0bea2d1061d54cba4cbbfa4e9dda6c2a"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-flood-enter-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "ca7d25eb97ae6b655cff299f2b45e43d3cd5ffa45d5110da8e22b0564aaf0325"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-flood-enter-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "667a437a4c4f65b1b62234b4ef0fd391444f860f0d45b46dac7aba15a4142dbe"
+    },
+    {
+      "path": "docs/content/r6/phone-report-terrain-flood.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "306fbf55fe87293dd9ccd08a416b409e836b3d4fa2284d2249fce333a456278b"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-barricade-before.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "9e6c0f43def1c64a6cd7ca94759b88bdfcbefacccaec7af305463aca46b0df44"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-barricade-after.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "57d23d64278bafec1d68d9bf9e467b9344a16970a3764896b56cd96398c8413a"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-barricade-enter.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "d9c85e87914458697f8382dd070b2ab33c442b8bc62f127c36e89b3b2f1cd0ce"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-barricade-enter-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "c37202272074c89035c98b0d19ebe3da478fc1458161957570aad06fcd66f734"
+    },
+    {
+      "path": "docs/content/r6/phone-terrain-barricade-enter-3.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "caf71adbe70d9163c337fe9fcddca85ecf5bff3a3b4e965c6b3e1950ae6ea93a"
+    },
+    {
+      "path": "docs/content/r6/phone-report-terrain-barricade.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "850e9501a239dcd64f966ea3cf87f93166b5690a11b2a0dd8edd2564c59ea6e7"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "34c2778a15521d6523bcf55d0c3dde78132f18518ee05404697b4f784615d030"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "9d1c752205d24903a2beab213cabd545a673c2bf0374b460cf5092d12698e62d"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-combat-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "07dc40d4867dada45016f17610707210d79cc284f515841e9e97c64f16275cd5"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "0db2c128aeec4ab94b6c3b8837fdfa14f75ee865eae3ffe284e96098820c1007"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "8758e67b4bcb5305ea23e196a8c4d275579de09b8a6594b99c1ba2b212279a08"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-turn-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "80ad0fa99171baef4710db7d6fd417afeef4ccb9f2bba0a81dd67f12425fecf8"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "606d8d8ac18a55ba8ca85e2f74f7579a2ac36da8cfc28e9ca95e493e6ac0e936"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "1d3e6dcfc6ac06b182159b12559dcb9f549ad84ac8b1eb8616b7f1ca7e598975"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-combat-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "3c99b49284ffc6b96b04ad322765807423067e61ee1c2536581afc1792be548c"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "44dcce13aa538500283f4e106901c85e67be06d6ec6a2ee51a732117f3a06a01"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "6a1905781debc9fe2da947e414cd717ed18cac322e5cd4c6e1e944eee44cb769"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-levee-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "78217c5d9b1b90060dff5552690e51e702798e15383f6fd82940865ac787b652"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "8c5119d2d6206e72b81db95ee92eb7b6a114982e5a449277355ab061c187c6e2"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "8d5378a30e12b8ede44ac3d9d7206fed949dec08447bae46779dfa0d77f1dbc7"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-combat-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "26a5783437e6141cb6409168b07ace2b2b26e60a6c2306b98cb2b0611611a95c"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "8e50b160b220d4d2f930f385251ebc22d4798402b08f1dabc8e5ba1c85865430"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "b5ab61a006d89a031f1a459b25271d936f7f8f5a187ade508389e0792165dd70"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-switchback-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "75026de708fbc040f032af482733645f1d7a58a0ae5185233c2907b9fe4ac485"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "042a1a107300427be59ba3db42605a8ee5dc00578c3a4a80c7673903f0d70649"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "045daa33fed3127f34db6f257285369b77a0d451b702da36f54d71af21667e11"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-combat-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "0068d122f552647b7cc914420504ee307b6634e074a102505cd2804fd9325ddb"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "b5d133cb2bfdec431b12a2c9cd5c9492ece4fe92dbaf08d9143aff6a72cd391f"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "71d789e4a0f692220d122183f1596760efb7fde045d3fb0d12dd24d3e7579e43"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-split-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "208f360d5e10757daedf5cd91cf4bf03723dfa528b551b78aa2b5018afb9c2c8"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "fcd85f2eab7630eee989272ee121c0ef123625088178eea2dd695bd92f3b2663"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-combat.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "07966fd1a2525520cee585a89797df945863135cc831db322e5874da3f333660"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-combat-2.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "4ee75581b729173bce6b5043d56a2b78f50b7456bc4179b67aa77be68a093744"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "9fd679861a7551300a396a405136ba7c88420cd45200ae5e87d37a99322980c5"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-losing-formation.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "f9cf155a45622a5e946a201c692b257923efa39f879237fc3647ef16fab92b04"
+    },
+    {
+      "path": "docs/content/r6/phone-exercise-hollow-failed.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "5f85061ac3390866a05ec529df9af9965fa0e8693e2cda2d3f9ff9dee437e9f4"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-320x568-choices.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1,
+      "sha256": "3e1a7b1aabc3b6864edd21fb48a86bb193a3cc5c3219192da24cb6f7ca980e11"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-320x568-result.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1,
+      "sha256": "3fd265e0bafa536a0e97b424993f5c1275df19dcba7b214d08cd9dc5ce1a9919"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-320x568-relay.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1,
+      "sha256": "b87a974b338845600b7fd5932e0b07f7c80ab90b9ac6a1562e84e8dcc1a74ef7"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-430x932-choices.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "d8a6dc82d229b535d6da1724d2739af8fcd272f6ed27ea1be985310a816806bf"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-430x932-result.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "9fd679861a7551300a396a405136ba7c88420cd45200ae5e87d37a99322980c5"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-430x932-relay.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "f7237bc0dee6d23fe869e4aa1c5fd7ba9a958de1797563f4612f9f2353526b9c"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-844x390-choices.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1,
+      "sha256": "0c0fe1467c511068f4033a20b07b84e084b8358cc4f2e36dcc55d73c943e27c9"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-844x390-result.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1,
+      "sha256": "878e6ff4bdbbcef5df0a0a71f611260b8881041e523e7edc3c796ce0ba952a36"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-844x390-relay.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1,
+      "sha256": "0097e491e7016a8780d5b5f50adeaf6ebdf5324753f3ecb87c646bd510a955d5"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1032x1376-choices.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1,
+      "sha256": "30f086cd682ba63b36c7f953485f30948e3feb76a45aa9fdf42ca070b47209c8"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1032x1376-result.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1,
+      "sha256": "45f27052974cf7f6db95b0170d3bb33470b7cbca2536a1cc7a96e843434cb439"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1032x1376-relay.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 1,
+      "sha256": "3bed7c0d68bbdee433e256179f141ecafbe39ecd1190f17ac84eccf5d76cee25"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1376x1032-choices.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1,
+      "sha256": "c940e8f0db9637aff51b375f375879c8d5192f9beb97518738cb3283d04df9ee"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1376x1032-result.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1,
+      "sha256": "2dafbaaefbdde66118342e421e7216958c9ef19aeeb86e77324c1ea0853d4da4"
+    },
+    {
+      "path": "docs/content/r6/phone-layout-1376x1032-relay.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1,
+      "sha256": "0a14785a4bcb41e8565b6ac9388e89c9edaa802ea0191974ab63f7064cacfbad"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r6-hollow-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3,
+      "sha256": "4d70e0c0a87f01b5db5712dc991d0e2a77c11b4a4a631bc4c4a43f5a949907d8"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r6-hollow-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2,
+      "sha256": "8815f1a331f30aea72a8ed5b56337b6357c6210e3c2eb7a0f296c5c552743a86"
+    },
+    {
+      "path": "docs/content/r6/phone-offline-hollow-complete.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 1,
+      "sha256": "9a42ffadb4aa55ee90bb3f2cd3c17b8f1985d1c2690a75b27e1c3a2b1c1d58d1"
+    }
+  ],
+  "errors": [],
+  "exercises": {
+    "turn": {
+      "win": {
+        "chapter": 0,
+        "time": 17.855999999999806,
+        "phase": "active",
+        "result": "won",
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 552,
+            "y": 264,
+            "level": 1,
+            "clock": 0.7759999999999998
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.5599999999999998
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 552,
+            "y": 312,
+            "level": 1,
+            "clock": 0.34799999999999964
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u12",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 462.8160000000044,
+            "y": 192,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 65,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0.368,
+            "slow": 1.568,
+            "route": 0,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 312,
+            "tx": 446.4000000000042,
+            "ty": 192,
+            "targetId": "u12",
+            "damage": 18,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.3680000000000002,
+            "hit": true,
+            "towerId": "t3",
+            "bonus": 0.3,
+            "hpBefore": 65,
+            "maxHP": 65,
+            "actualDamage": 18,
+            "hpAfter": 47
+          },
+          {
+            "kind": "shot",
+            "x": 600,
+            "y": 264,
+            "tx": 452.00000000000426,
+            "ty": 192,
+            "targetId": "u12",
+            "damage": 14,
+            "color": "frost",
+            "slow": 1.6,
+            "age": 0.2560000000000001,
+            "hit": true,
+            "towerId": "t2",
+            "bonus": 0.3,
+            "hpBefore": 47,
+            "maxHP": 65,
+            "actualDamage": 14,
+            "hpAfter": 33
+          },
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 264,
+            "tx": 452.8000000000043,
+            "ty": 192,
+            "targetId": "u12",
+            "damage": 34,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t1",
+            "bonus": 0.3,
+            "hpBefore": 33,
+            "maxHP": 65,
+            "actualDamage": 33,
+            "hpAfter": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 13,
+        "trinity": true,
+        "kills": 9,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "turn",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "inherited": false,
+              "hits": 9,
+              "damage": 304,
+              "kills": 2,
+              "slowed": [],
+              "segments": {
+                "1": 304
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "inherited": false,
+              "hits": 9,
+              "damage": 162,
+              "kills": 0,
+              "slowed": [],
+              "segments": {
+                "1": 162
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 9,
+              "damage": 119,
+              "kills": 7,
+              "slowed": [
+                "u4",
+                "u5",
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12"
+              ],
+              "segments": {
+                "1": 119
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "loss": {
+        "chapter": 0,
+        "time": 26.52799999999885,
+        "phase": "active",
+        "result": "lost",
+        "hp": 88,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 552,
+            "y": 264,
+            "level": 1,
+            "clock": -0.8400000000000014
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 216,
+            "y": 408,
+            "level": 1,
+            "clock": -26.52799999999885
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 360,
+            "y": 552,
+            "level": 1,
+            "clock": -26.52799999999885
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u8",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 848,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 65,
+            "state": "death",
+            "anim": 0,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "escaped": true,
+            "rewarded": true
+          },
+          {
+            "id": "u9",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 787.9999999999925,
+            "y": 480,
+            "terrain": "land",
+            "hp": 39,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 20.751999999999487,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u10",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 730.3999999999958,
+            "y": 480,
+            "terrain": "land",
+            "hp": 39,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 19.599999999999614,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u11",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 672.799999999999,
+            "y": 480,
+            "terrain": "land",
+            "hp": 39,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 18.44799999999974,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u12",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 656,
+            "y": 436.00000000000347,
+            "terrain": "land",
+            "hp": 39,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 17.295999999999868,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 1,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          }
+        ],
+        "effects": [],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 13,
+        "trinity": false,
+        "kills": 4,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "turn",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "inherited": false,
+              "hits": 18,
+              "damage": 416,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 156,
+                "2": 260
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      }
+    },
+    "levee": {
+      "win": {
+        "chapter": 0,
+        "time": 26.91199999999881,
+        "phase": "active",
+        "result": "won",
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 216,
+            "y": 264,
+            "level": 1,
+            "clock": -11.97600000000001
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 456,
+            "y": 264,
+            "level": 1,
+            "clock": -6.736000000000006
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 696,
+            "y": 408,
+            "level": 1,
+            "clock": 0.47599999999999976
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u11",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 368.0000000000025,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 60,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 1,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 696,
+            "y": 408,
+            "tx": 800,
+            "ty": 357.60000000000235,
+            "targetId": "u11",
+            "damage": 14,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t3",
+            "bonus": 0,
+            "hpBefore": 6,
+            "maxHP": 60,
+            "actualDamage": 6,
+            "hpAfter": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 12,
+        "trinity": false,
+        "kills": 8,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "levee",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 216,
+              "y": 264,
+              "inherited": false,
+              "hits": 14,
+              "damage": 311,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 311
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 456,
+              "y": 264,
+              "inherited": false,
+              "hits": 15,
+              "damage": 135,
+              "kills": 3,
+              "slowed": [
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10"
+              ],
+              "segments": {
+                "1": 135
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 696,
+              "y": 408,
+              "inherited": false,
+              "hits": 3,
+              "damage": 34,
+              "kills": 1,
+              "slowed": [],
+              "segments": {
+                "2": 34
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "loss": {
+        "chapter": 0,
+        "time": 29.98399999999847,
+        "phase": "active",
+        "result": "lost",
+        "hp": 88,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 216,
+            "y": 264,
+            "level": 1,
+            "clock": -15.048000000000012
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 456,
+            "y": 264,
+            "level": 1,
+            "clock": -9.808000000000009
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 216,
+            "y": 408,
+            "level": 1,
+            "clock": -29.98399999999847
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u11",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 848,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 60,
+            "state": "death",
+            "anim": 0,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "escaped": true,
+            "rewarded": true
+          }
+        ],
+        "effects": [],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 12,
+        "trinity": false,
+        "kills": 7,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "levee",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 216,
+              "y": 264,
+              "inherited": false,
+              "hits": 14,
+              "damage": 311,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 311
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 456,
+              "y": 264,
+              "inherited": false,
+              "hits": 15,
+              "damage": 135,
+              "kills": 3,
+              "slowed": [
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10"
+              ],
+              "segments": {
+                "1": 135
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      }
+    },
+    "switchback": {
+      "win": {
+        "chapter": 0,
+        "time": 23.3759999999992,
+        "phase": "active",
+        "result": "won",
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 552,
+            "y": 264,
+            "level": 1,
+            "clock": 0.2959999999999994
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.5759999999999998
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 552,
+            "y": 312,
+            "level": 2,
+            "clock": 0.13999999999999946
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u15",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 547.200000000007,
+            "y": 192,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 78,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0.04799999999999978,
+            "slow": 1.584,
+            "route": 0,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 600,
+            "y": 264,
+            "tx": 541.7920000000063,
+            "ty": 192,
+            "targetId": "u15",
+            "damage": 14,
+            "color": "frost",
+            "slow": 1.6,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t2",
+            "bonus": 0.3,
+            "hpBefore": 3,
+            "maxHP": 78,
+            "actualDamage": 3,
+            "hpAfter": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 16,
+        "trinity": true,
+        "kills": 12,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 360,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "switchback",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "inherited": false,
+              "hits": 15,
+              "damage": 417,
+              "kills": 3,
+              "slowed": [],
+              "segments": {
+                "1": 417
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "inherited": false,
+              "hits": 16,
+              "damage": 336,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 336
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 17,
+              "damage": 183,
+              "kills": 5,
+              "slowed": [
+                "u4",
+                "u5",
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12",
+                "u13",
+                "u14",
+                "u15"
+              ],
+              "segments": {
+                "1": 183
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "loss": {
+        "chapter": 0,
+        "time": 44.06399999999692,
+        "phase": "active",
+        "result": "lost",
+        "hp": 88,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": -10.360000000000008
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 744,
+            "y": 408,
+            "level": 1,
+            "clock": 0.768
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 216,
+            "y": 408,
+            "level": 2,
+            "clock": -44.06399999999692
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u13",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 811.4240000000067,
+            "y": 480,
+            "terrain": "land",
+            "hp": 1,
+            "maxHP": 78,
+            "state": "walk",
+            "anim": 33.67999999999807,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0.9759999999999995,
+            "route": 4,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u14",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 848,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 78,
+            "state": "death",
+            "anim": 0,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 5,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "escaped": true,
+            "rewarded": true
+          },
+          {
+            "id": "u15",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 807.1999999999846,
+            "y": 480,
+            "terrain": "land",
+            "hp": 41,
+            "maxHP": 78,
+            "state": "walk",
+            "anim": 31.375999999998317,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 4,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 744,
+            "y": 408,
+            "tx": 810.5920000000066,
+            "ty": 480,
+            "targetId": "u13",
+            "damage": 11,
+            "color": "frost",
+            "slow": 1.6,
+            "age": 0.048,
+            "hit": false,
+            "towerId": "t2",
+            "bonus": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 16,
+        "trinity": false,
+        "kills": 9,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 360,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "switchback",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 24,
+              "damage": 602,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 130,
+                "2": 197,
+                "3": 275
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 744,
+              "y": 408,
+              "inherited": false,
+              "hits": 29,
+              "damage": 288,
+              "kills": 5,
+              "slowed": [
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12",
+                "u13",
+                "u14",
+                "u15"
+              ],
+              "segments": {
+                "2": 59,
+                "3": 118,
+                "5": 111
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      }
+    },
+    "split": {
+      "win": {
+        "chapter": 0,
+        "time": 24.655999999999057,
+        "phase": "active",
+        "result": "won",
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.26399999999999935
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 216,
+            "y": 264,
+            "level": 1,
+            "clock": -7.936000000000007
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 744,
+            "y": 408,
+            "level": 1,
+            "clock": 0.47599999999999976
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u12",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 656,
+            "y": 284.8000000000013,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 60,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 1,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 744,
+            "y": 408,
+            "tx": 656,
+            "ty": 274.40000000000117,
+            "targetId": "u12",
+            "damage": 14,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t3",
+            "bonus": 0,
+            "hpBefore": 12,
+            "maxHP": 60,
+            "actualDamage": 12,
+            "hpAfter": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 13,
+        "trinity": false,
+        "kills": 9,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "split",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t2": {
+              "type": "frost",
+              "x": 216,
+              "y": 264,
+              "inherited": false,
+              "hits": 20,
+              "damage": 208,
+              "kills": 2,
+              "slowed": [
+                "u4",
+                "u5",
+                "u8",
+                "u10",
+                "u11",
+                "u12"
+              ],
+              "segments": {
+                "1": 208
+              }
+            },
+            "t1": {
+              "type": "cannon",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 14,
+              "damage": 283,
+              "kills": 5,
+              "slowed": [],
+              "segments": {
+                "1": 139,
+                "2": 144
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 744,
+              "y": 408,
+              "inherited": false,
+              "hits": 4,
+              "damage": 49,
+              "kills": 2,
+              "slowed": [],
+              "segments": {
+                "2": 49
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "loss": {
+        "chapter": 0,
+        "time": 26.52799999999885,
+        "phase": "active",
+        "result": "lost",
+        "hp": 88,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.11999999999999923
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 216,
+            "y": 504,
+            "level": 1,
+            "clock": -26.52799999999885
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 360,
+            "y": 504,
+            "level": 1,
+            "clock": -26.52799999999885
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u8",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 848,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 60,
+            "state": "death",
+            "anim": 0,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "escaped": true,
+            "rewarded": true
+          },
+          {
+            "id": "u9",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 787.9999999999925,
+            "y": 480,
+            "terrain": "land",
+            "hp": 8,
+            "maxHP": 60,
+            "state": "walk",
+            "anim": 20.751999999999487,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u10",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 730.3999999999958,
+            "y": 480,
+            "terrain": "land",
+            "hp": 34,
+            "maxHP": 60,
+            "state": "walk",
+            "anim": 19.599999999999614,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u11",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 672.799999999999,
+            "y": 480,
+            "terrain": "land",
+            "hp": 34,
+            "maxHP": 60,
+            "state": "walk",
+            "anim": 18.44799999999974,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          },
+          {
+            "id": "u12",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 656,
+            "y": 436.00000000000347,
+            "terrain": "land",
+            "hp": 34,
+            "maxHP": 60,
+            "state": "walk",
+            "anim": 17.295999999999868,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 1,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          }
+        ],
+        "effects": [],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 13,
+        "trinity": false,
+        "kills": 4,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "split",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 18,
+              "damage": 396,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 112,
+                "2": 284
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      }
+    },
+    "hollow": {
+      "win": {
+        "chapter": 0,
+        "time": 34.11199999999802,
+        "phase": "active",
+        "result": "won",
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 744,
+            "y": 264,
+            "level": 1,
+            "clock": 0.7759999999999998
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 216,
+            "y": 264,
+            "level": 1,
+            "clock": -16.59199999999995
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 696,
+            "y": 408,
+            "level": 1,
+            "clock": 0.5079999999999998
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u13",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 388.8000000000036,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 65,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 744,
+            "y": 264,
+            "tx": 800,
+            "ty": 378.40000000000344,
+            "targetId": "u13",
+            "damage": 26,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t1",
+            "bonus": 0,
+            "hpBefore": 14,
+            "maxHP": 65,
+            "actualDamage": 14,
+            "hpAfter": 0
+          },
+          {
+            "kind": "shot",
+            "x": 696,
+            "y": 408,
+            "tx": 800,
+            "ty": 380.00000000000347,
+            "targetId": "u13",
+            "damage": 14,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.20800000000000007,
+            "hit": false,
+            "towerId": "t3",
+            "bonus": 0
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 14,
+        "trinity": false,
+        "kills": 10,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "hollow",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t2": {
+              "type": "frost",
+              "x": 216,
+              "y": 264,
+              "inherited": false,
+              "hits": 21,
+              "damage": 229,
+              "kills": 2,
+              "slowed": [
+                "u4",
+                "u5",
+                "u8",
+                "u10",
+                "u11",
+                "u12",
+                "u13"
+              ],
+              "segments": {
+                "1": 229
+              }
+            },
+            "t1": {
+              "type": "cannon",
+              "x": 744,
+              "y": 264,
+              "inherited": false,
+              "hits": 14,
+              "damage": 304,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "4": 304
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 696,
+              "y": 408,
+              "inherited": false,
+              "hits": 10,
+              "damage": 117,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "4": 117
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "loss": {
+        "chapter": 0,
+        "time": 27.935999999998696,
+        "phase": "active",
+        "result": "lost",
+        "hp": 88,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 408,
+            "y": 552,
+            "level": 1,
+            "clock": -27.935999999998696
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 216,
+            "y": 264,
+            "level": 1,
+            "clock": -10.41600000000001
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 264,
+            "y": 504,
+            "level": 1,
+            "clock": -27.935999999998696
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u6",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 848,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 65,
+            "state": "death",
+            "anim": 0,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 5,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "escaped": true,
+            "rewarded": true
+          },
+          {
+            "id": "u7",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 464.8000000000047,
+            "terrain": "land",
+            "hp": 65,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 24.46399999999908,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u8",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 330.40000000000276,
+            "terrain": "land",
+            "hp": 32,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 23.311999999999205,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u9",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 349.60000000000304,
+            "terrain": "land",
+            "hp": 65,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 22.159999999999332,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u10",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 234.4000000000014,
+            "terrain": "land",
+            "hp": 43,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 21.00799999999946,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u11",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 196.00000000000085,
+            "terrain": "land",
+            "hp": 54,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 19.855999999999586,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u12",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 800,
+            "y": 119.19999999999992,
+            "terrain": "land",
+            "hp": 43,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 18.703999999999713,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 3,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "sw"
+          },
+          {
+            "id": "u13",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 782.399999999986,
+            "y": 96,
+            "terrain": "land",
+            "hp": 54,
+            "maxHP": 65,
+            "state": "walk",
+            "anim": 17.55199999999984,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 0,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e"
+          }
+        ],
+        "effects": [],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 14,
+        "trinity": false,
+        "kills": 2,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 0,
+        "terrainChoice": null,
+        "exercise": "hollow",
+        "budget": 0,
+        "decisionStats": {
+          "towers": {
+            "t2": {
+              "type": "frost",
+              "x": 216,
+              "y": 264,
+              "inherited": false,
+              "hits": 21,
+              "damage": 229,
+              "kills": 2,
+              "slowed": [
+                "u4",
+                "u5",
+                "u8",
+                "u10",
+                "u11",
+                "u12",
+                "u13"
+              ],
+              "segments": {
+                "1": 229
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      }
+    }
+  },
+  "relays": {
+    "upstream": {
+      "choice": "upstream",
+      "firstWave": {
+        "chapter": 4,
+        "time": 20.19199999999955,
+        "phase": "planning",
+        "result": null,
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 456,
+            "y": 264,
+            "level": 1,
+            "clock": 0.7759999999999998,
+            "inherited": true,
+            "legacySource": "quarry"
+          },
+          {
+            "id": "t2",
+            "type": "cannon",
+            "x": 552,
+            "y": 264,
+            "level": 1,
+            "clock": 0.5679999999999996
+          },
+          {
+            "id": "t3",
+            "type": "frost",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.5599999999999998
+          },
+          {
+            "id": "t4",
+            "type": "tesla",
+            "x": 552,
+            "y": 312,
+            "level": 1,
+            "clock": 0.5239999999999998
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u15",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 514.4639999999978,
+            "y": 192,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 94,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0.368,
+            "slow": 1.568,
+            "route": 0,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 264,
+            "tx": 500.31999999999823,
+            "ty": 192,
+            "targetId": "u15",
+            "damage": 34,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.4480000000000003,
+            "hit": true,
+            "towerId": "t2",
+            "bonus": 0.3,
+            "hpBefore": 62,
+            "maxHP": 94,
+            "actualDamage": 34,
+            "hpAfter": 28
+          },
+          {
+            "kind": "shot",
+            "x": 600,
+            "y": 264,
+            "tx": 506.847999999998,
+            "ty": 192,
+            "targetId": "u15",
+            "damage": 14,
+            "color": "frost",
+            "slow": 1.6,
+            "age": 0.2560000000000001,
+            "hit": true,
+            "towerId": "t3",
+            "bonus": 0.3,
+            "hpBefore": 28,
+            "maxHP": 94,
+            "actualDamage": 14,
+            "hpAfter": 14
+          },
+          {
+            "kind": "shot",
+            "x": 456,
+            "y": 264,
+            "tx": 507.391999999998,
+            "ty": 192,
+            "targetId": "u15",
+            "damage": 26,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t1",
+            "bonus": 0,
+            "hpBefore": 14,
+            "maxHP": 94,
+            "actualDamage": 14,
+            "hpAfter": 0
+          },
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 312,
+            "tx": 509.02399999999795,
+            "ty": 192,
+            "targetId": "u15",
+            "damage": 18,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.19200000000000006,
+            "hit": false,
+            "towerId": "t4",
+            "bonus": 0.3
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 16,
+        "trinity": true,
+        "kills": 11,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 44,
+        "terrainChoice": null,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 456,
+              "y": 264,
+              "inherited": true,
+              "hits": 13,
+              "damage": 292,
+              "kills": 3,
+              "slowed": [],
+              "segments": {
+                "1": 292
+              }
+            },
+            "t2": {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "inherited": false,
+              "hits": 12,
+              "damage": 360,
+              "kills": 2,
+              "slowed": [],
+              "segments": {
+                "1": 360
+              }
+            },
+            "t4": {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "inherited": false,
+              "hits": 16,
+              "damage": 224,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 224
+              }
+            },
+            "t3": {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 13,
+              "damage": 158,
+              "kills": 2,
+              "slowed": [
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12",
+                "u13",
+                "u14",
+                "u15"
+              ],
+              "segments": {
+                "1": 158
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "crystals": 134
+    },
+    "gate": {
+      "choice": "gate",
+      "firstWave": {
+        "chapter": 4,
+        "time": 27.775999999998714,
+        "phase": "planning",
+        "result": null,
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 744,
+            "y": 408,
+            "level": 1,
+            "clock": 0.7759999999999998,
+            "inherited": true,
+            "legacySource": "quarry"
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 696,
+            "y": 408,
+            "level": 1,
+            "clock": 0.72
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 744,
+            "y": 360,
+            "level": 1,
+            "clock": 0.44399999999999973
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u14",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 675.5839999999994,
+            "y": 480,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 94,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0.352,
+            "slow": 0.9279999999999995,
+            "route": 2,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 744,
+            "y": 360,
+            "tx": 667.4239999999996,
+            "ty": 480,
+            "targetId": "u14",
+            "damage": 18,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.27200000000000013,
+            "hit": true,
+            "towerId": "t3",
+            "bonus": 0.3,
+            "hpBefore": 28,
+            "maxHP": 94,
+            "actualDamage": 18,
+            "hpAfter": 10
+          },
+          {
+            "kind": "shot",
+            "x": 744,
+            "y": 408,
+            "tx": 668.5119999999996,
+            "ty": 480,
+            "targetId": "u14",
+            "damage": 34,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t1",
+            "bonus": 0.3,
+            "hpBefore": 10,
+            "maxHP": 94,
+            "actualDamage": 10,
+            "hpAfter": 0
+          },
+          {
+            "kind": "shot",
+            "x": 696,
+            "y": 408,
+            "tx": 673.4079999999994,
+            "ty": 480,
+            "targetId": "u14",
+            "damage": 14,
+            "color": "frost",
+            "slow": 1.6,
+            "age": 0.096,
+            "hit": false,
+            "towerId": "t2",
+            "bonus": 0.3
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 15,
+        "trinity": true,
+        "kills": 11,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 200,
+        "earnings": 44,
+        "terrainChoice": null,
+        "decisionStats": {
+          "towers": {
+            "t3": {
+              "type": "tesla",
+              "x": 744,
+              "y": 360,
+              "inherited": false,
+              "hits": 21,
+              "damage": 362,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "2": 344,
+                "3": 18
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 696,
+              "y": 408,
+              "inherited": false,
+              "hits": 20,
+              "damage": 260,
+              "kills": 5,
+              "slowed": [
+                "u4",
+                "u5",
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12",
+                "u13",
+                "u14"
+              ],
+              "segments": {
+                "2": 260
+              }
+            },
+            "t1": {
+              "type": "cannon",
+              "x": 744,
+              "y": 408,
+              "inherited": true,
+              "hits": 13,
+              "damage": 412,
+              "kills": 2,
+              "slowed": [],
+              "segments": {
+                "2": 402,
+                "3": 10
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": []
+        }
+      },
+      "crystals": 234
+    },
+    "crystals": {
+      "choice": "crystals",
+      "firstWave": {
+        "chapter": 4,
+        "time": 21.855999999999366,
+        "phase": "planning",
+        "result": null,
+        "hp": 100,
+        "keepHP": 0,
+        "keepMaxHP": 0,
+        "towers": [
+          {
+            "id": "t1",
+            "type": "cannon",
+            "x": 552,
+            "y": 264,
+            "level": 1,
+            "clock": 0.7759999999999998
+          },
+          {
+            "id": "t2",
+            "type": "frost",
+            "x": 600,
+            "y": 264,
+            "level": 1,
+            "clock": 0.14399999999999946
+          },
+          {
+            "id": "t3",
+            "type": "tesla",
+            "x": 552,
+            "y": 312,
+            "level": 1,
+            "clock": 0.5239999999999998
+          }
+        ],
+        "units": [],
+        "enemies": [
+          {
+            "id": "u14",
+            "type": "miremaw",
+            "team": "enemy",
+            "x": 620.1919999999978,
+            "y": 192,
+            "terrain": "land",
+            "hp": 0,
+            "maxHP": 94,
+            "state": "death",
+            "anim": 0.016,
+            "attack": 0,
+            "targetId": null,
+            "hurt": 0,
+            "slow": 1.1519999999999997,
+            "route": 0,
+            "cargo": 0,
+            "bridgeY": null,
+            "facing": "e",
+            "rewarded": true
+          }
+        ],
+        "effects": [
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 264,
+            "tx": 613.1199999999981,
+            "ty": 192,
+            "targetId": "u14",
+            "damage": 34,
+            "color": "cannon",
+            "slow": 0,
+            "age": 0.2400000000000001,
+            "hit": true,
+            "towerId": "t1",
+            "bonus": 0.3,
+            "hpBefore": 28,
+            "maxHP": 94,
+            "actualDamage": 28,
+            "hpAfter": 0
+          },
+          {
+            "kind": "shot",
+            "x": 552,
+            "y": 312,
+            "tx": 614.751999999998,
+            "ty": 192,
+            "targetId": "u14",
+            "damage": 18,
+            "color": "tesla",
+            "slow": 0,
+            "age": 0.19200000000000006,
+            "hit": false,
+            "towerId": "t3",
+            "bonus": 0.3
+          }
+        ],
+        "wave": 1,
+        "spawnLeft": 0,
+        "spawnClock": 0,
+        "sequence": 15,
+        "trinity": true,
+        "kills": 11,
+        "barracks": false,
+        "construction": 0,
+        "queue": [],
+        "workerClock": 0,
+        "armyTarget": {
+          "x": 720,
+          "y": 220
+        },
+        "workerMode": "gather",
+        "raidClock": 0,
+        "cooldown": 0,
+        "spent": 300,
+        "earnings": 44,
+        "terrainChoice": null,
+        "decisionStats": {
+          "towers": {
+            "t1": {
+              "type": "cannon",
+              "x": 552,
+              "y": 264,
+              "inherited": false,
+              "hits": 15,
+              "damage": 468,
+              "kills": 4,
+              "slowed": [],
+              "segments": {
+                "1": 468
+              }
+            },
+            "t3": {
+              "type": "tesla",
+              "x": 552,
+              "y": 312,
+              "inherited": false,
+              "hits": 19,
+              "damage": 322,
+              "kills": 5,
+              "slowed": [],
+              "segments": {
+                "1": 322
+              }
+            },
+            "t2": {
+              "type": "frost",
+              "x": 600,
+              "y": 264,
+              "inherited": false,
+              "hits": 18,
+              "damage": 244,
+              "kills": 2,
+              "slowed": [
+                "u4",
+                "u5",
+                "u6",
+                "u7",
+                "u8",
+                "u9",
+                "u10",
+                "u11",
+                "u12",
+                "u13",
+                "u14"
+              ],
+              "segments": {
+                "1": 244
+              }
+            }
+          },
+          "wetSeconds": 0,
+          "waterDelay": 0,
+          "detourSeconds": 0,
+          "spending": [
+            {
+              "source": "quarry",
+              "label": "火印塔",
+              "amount": 90
+            }
+          ]
+        }
+      },
+      "crystals": 224
+    }
+  },
+  "impacts": {
+    "cannon": {
+      "kind": "shot",
+      "x": 552,
+      "y": 264,
+      "tx": 409.60000000000366,
+      "ty": 192,
+      "targetId": "u4",
+      "damage": 34,
+      "color": "cannon",
+      "slow": 0,
+      "age": 0.2560000000000001,
+      "hit": true,
+      "towerId": "t1",
+      "bonus": 0.3,
+      "hpBefore": 65,
+      "maxHP": 65,
+      "actualDamage": 34,
+      "hpAfter": 31
+    },
+    "frost": {
+      "kind": "shot",
+      "x": 600,
+      "y": 264,
+      "tx": 451.9039999999954,
+      "ty": 192,
+      "targetId": "u2",
+      "damage": 11,
+      "color": "frost",
+      "slow": 1.6,
+      "age": 0.2560000000000001,
+      "hit": true,
+      "towerId": "t1",
+      "bonus": 0,
+      "hpBefore": 76,
+      "maxHP": 76,
+      "actualDamage": 11,
+      "hpAfter": 65
+    },
+    "tesla": {
+      "kind": "shot",
+      "x": 552,
+      "y": 312,
+      "tx": 446.4000000000042,
+      "ty": 192,
+      "targetId": "u4",
+      "damage": 18,
+      "color": "tesla",
+      "slow": 0,
+      "age": 0.2400000000000001,
+      "hit": true,
+      "towerId": "t3",
+      "bonus": 0.3,
+      "hpBefore": 31,
+      "maxHP": 65,
+      "actualDamage": 18,
+      "hpAfter": 13
+    }
+  },
+  "sourceSaveSHA256": "44d74d4934ae9810f8ea59192ea8c604350fddbe84306cd4beedd56331107b3e",
+  "supplement": {
+    "path": "docs/content/r6/hit-proof.json",
+    "checks": 6,
+    "method": "Public touch UI; the genuinely inherited ford frost tower, actual first wave. No game-state injection. Refresh only the three ice screenshots on the same verified build."
+  }
+}

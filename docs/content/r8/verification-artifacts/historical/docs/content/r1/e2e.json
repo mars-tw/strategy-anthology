@@ -1,0 +1,2550 @@
+{
+  "status": "VERIFIED",
+  "method": "Headless Chrome. Normal public controls and attained-save restore via public import. No state, victory or resource injection. Paused virtual clock advances elapsed battle time only.",
+  "checks": [
+    "cancel 0: disabled with RAF clock paused",
+    "cancel 0: no charge",
+    "cancel 1: disabled with RAF clock paused",
+    "cancel 1: no charge",
+    "cancel 2: disabled with RAF clock paused",
+    "cancel 2: no charge",
+    "cancel 3: disabled with RAF clock paused",
+    "cancel 3: no charge",
+    "cancel 4: disabled with RAF clock paused",
+    "cancel 4: no charge",
+    "cancel 5: disabled with RAF clock paused",
+    "cancel 5: no charge",
+    "phone terrain: 堵隘口 · 向北繞行 44px reachable",
+    "phone terrain: 放水 · 南側慢行區 44px reachable",
+    "phone terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "phone terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "phone terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "phone terrain: 先試三印窄陣 44px reachable",
+    "phone terrain: 確認施工 · 30 44px reachable",
+    "phone terrain: 取消，維持原路 44px reachable",
+    "phone terrain: mobile has no keyboard text",
+    "terrain cancel does not charge",
+    "flood edits once and charges 30",
+    "terrain locked after construction",
+    "terrain and mid-wave towers survive reload",
+    "campaign defense completes through real towers",
+    "actual ford conquest exposes mandatory choice",
+    "pending choice saved at chapter two",
+    "phone legacy: 戰報 44px reachable",
+    "phone legacy: 暫停 44px reachable",
+    "phone legacy: 確認留冰塔工事 44px reachable",
+    "phone legacy: 確認拆取 90 結晶 44px reachable",
+    "phone legacy: 稍後決定，返回戰報 44px reachable",
+    "phone legacy: mobile has no keyboard text",
+    "reload returns to unclaimed choice",
+    "inherited level-one frost actually guards ford",
+    "phone turn: 戰報 44px reachable",
+    "phone turn: 暫停 44px reachable",
+    "phone turn: 看命中切換 44px reachable",
+    "phone turn: 火印塔100 結晶 44px reachable",
+    "phone turn: 冰印塔70 結晶 44px reachable",
+    "phone turn: 雷印塔130 結晶 44px reachable",
+    "phone turn: 換塔位 44px reachable",
+    "phone turn: 確認建造 44px reachable",
+    "phone turn: 取消 44px reachable",
+    "phone turn: 開始下一波 44px reachable",
+    "phone turn: 演習不使用震擊 44px reachable",
+    "phone turn: mobile has no keyboard text",
+    "turn resumes exact formation",
+    "turn completes with zero escapes",
+    "turn preserves campaign wallet",
+    "turn preserves live campaign checkpoint",
+    "phone levee: 戰報 44px reachable",
+    "phone levee: 暫停 44px reachable",
+    "phone levee: 看命中切換 44px reachable",
+    "phone levee: 火印塔100 結晶 44px reachable",
+    "phone levee: 冰印塔70 結晶 44px reachable",
+    "phone levee: 雷印塔130 結晶 44px reachable",
+    "phone levee: 換塔位 44px reachable",
+    "phone levee: 確認建造 44px reachable",
+    "phone levee: 取消 44px reachable",
+    "phone levee: 開始下一波 44px reachable",
+    "phone levee: 演習不使用震擊 44px reachable",
+    "phone levee: mobile has no keyboard text",
+    "levee resumes exact formation",
+    "levee completes with zero escapes",
+    "levee preserves campaign wallet",
+    "levee preserves live campaign checkpoint",
+    "phone switchback: 戰報 44px reachable",
+    "phone switchback: 暫停 44px reachable",
+    "phone switchback: 看命中切換 44px reachable",
+    "phone switchback: 火印塔100 結晶 44px reachable",
+    "phone switchback: 冰印塔70 結晶 44px reachable",
+    "phone switchback: 雷印塔130 結晶 44px reachable",
+    "phone switchback: 換塔位 44px reachable",
+    "phone switchback: 確認建造 44px reachable",
+    "phone switchback: 取消 44px reachable",
+    "phone switchback: 開始下一波 44px reachable",
+    "phone switchback: 演習不使用震擊 44px reachable",
+    "phone switchback: mobile has no keyboard text",
+    "switchback resumes exact formation",
+    "switchback completes with zero escapes",
+    "switchback preserves campaign wallet",
+    "switchback preserves live campaign checkpoint",
+    "three permanent completion records",
+    "weak formation visibly fails",
+    "retry restores full isolated budget",
+    "salvage pays exactly once",
+    "salvage reload creates no inherited tower",
+    "small home: 戰役 44px reachable",
+    "small home: 設定 44px reachable",
+    "small home: 接下塔印，守住松林 44px reachable",
+    "small home: 三印窄陣 · 布陣演習 44px reachable",
+    "small home: 存檔與原作匯入 44px reachable",
+    "small home: mobile has no keyboard text",
+    "small list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "small list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "small list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "small list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "small list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "small list: 返回 44px reachable",
+    "small list: mobile has no keyboard text",
+    "small exercise: 戰報 44px reachable",
+    "small exercise: 暫停 44px reachable",
+    "small exercise: 看雷塔切換 44px reachable",
+    "small exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "small exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "small exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "small exercise: 換塔位 44px reachable",
+    "small exercise: 確認建造 44px reachable",
+    "small exercise: 取消 44px reachable",
+    "small exercise: 本波交戰中・布陣已固定 44px reachable",
+    "small exercise: 演習不使用震擊 44px reachable",
+    "small exercise: mobile has no keyboard text",
+    "small terrain: 堵隘口 · 向北繞行 44px reachable",
+    "small terrain: 放水 · 南側慢行區 44px reachable",
+    "small terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "small terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "small terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "small terrain: 先試三印窄陣 44px reachable",
+    "small terrain: 確認施工 · 30 44px reachable",
+    "small terrain: 取消，維持原路 44px reachable",
+    "small terrain: mobile has no keyboard text",
+    "small legacy: 戰報 44px reachable",
+    "small legacy: 暫停 44px reachable",
+    "small legacy: 確認留冰塔工事 44px reachable",
+    "small legacy: 確認拆取 90 結晶 44px reachable",
+    "small legacy: 稍後決定，返回戰報 44px reachable",
+    "small legacy: mobile has no keyboard text",
+    "iphone home: 戰役 44px reachable",
+    "iphone home: 設定 44px reachable",
+    "iphone home: 接下塔印，守住松林 44px reachable",
+    "iphone home: 三印窄陣 · 布陣演習 44px reachable",
+    "iphone home: 存檔與原作匯入 44px reachable",
+    "iphone home: mobile has no keyboard text",
+    "iphone list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "iphone list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "iphone list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "iphone list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "iphone list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "iphone list: 返回 44px reachable",
+    "iphone list: mobile has no keyboard text",
+    "iphone exercise: 戰報 44px reachable",
+    "iphone exercise: 暫停 44px reachable",
+    "iphone exercise: 看雷塔切換 44px reachable",
+    "iphone exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "iphone exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "iphone exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "iphone exercise: 換塔位 44px reachable",
+    "iphone exercise: 確認建造 44px reachable",
+    "iphone exercise: 取消 44px reachable",
+    "iphone exercise: 本波交戰中・布陣已固定 44px reachable",
+    "iphone exercise: 演習不使用震擊 44px reachable",
+    "iphone exercise: mobile has no keyboard text",
+    "iphone terrain: 堵隘口 · 向北繞行 44px reachable",
+    "iphone terrain: 放水 · 南側慢行區 44px reachable",
+    "iphone terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "iphone terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "iphone terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "iphone terrain: 先試三印窄陣 44px reachable",
+    "iphone terrain: 確認施工 · 30 44px reachable",
+    "iphone terrain: 取消，維持原路 44px reachable",
+    "iphone terrain: mobile has no keyboard text",
+    "iphone legacy: 戰報 44px reachable",
+    "iphone legacy: 暫停 44px reachable",
+    "iphone legacy: 確認留冰塔工事 44px reachable",
+    "iphone legacy: 確認拆取 90 結晶 44px reachable",
+    "iphone legacy: 稍後決定，返回戰報 44px reachable",
+    "iphone legacy: mobile has no keyboard text",
+    "landscape home: 戰役 44px reachable",
+    "landscape home: 設定 44px reachable",
+    "landscape home: 接下塔印，守住松林 44px reachable",
+    "landscape home: 三印窄陣 · 布陣演習 44px reachable",
+    "landscape home: 存檔與原作匯入 44px reachable",
+    "landscape home: mobile has no keyboard text",
+    "landscape list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "landscape list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "landscape list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "landscape list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "landscape list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "landscape list: 返回 44px reachable",
+    "landscape list: mobile has no keyboard text",
+    "landscape exercise: 戰報 44px reachable",
+    "landscape exercise: 暫停 44px reachable",
+    "landscape exercise: 看雷塔切換 44px reachable",
+    "landscape exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "landscape exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "landscape exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "landscape exercise: 換塔位 44px reachable",
+    "landscape exercise: 確認建造 44px reachable",
+    "landscape exercise: 取消 44px reachable",
+    "landscape exercise: 本波交戰中・布陣已固定 44px reachable",
+    "landscape exercise: 演習不使用震擊 44px reachable",
+    "landscape exercise: mobile has no keyboard text",
+    "landscape terrain: 堵隘口 · 向北繞行 44px reachable",
+    "landscape terrain: 放水 · 南側慢行區 44px reachable",
+    "landscape terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "landscape terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "landscape terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "landscape terrain: 先試三印窄陣 44px reachable",
+    "landscape terrain: 確認施工 · 30 44px reachable",
+    "landscape terrain: 取消，維持原路 44px reachable",
+    "landscape terrain: mobile has no keyboard text",
+    "landscape legacy: 戰報 44px reachable",
+    "landscape legacy: 暫停 44px reachable",
+    "landscape legacy: 確認留冰塔工事 44px reachable",
+    "landscape legacy: 確認拆取 90 結晶 44px reachable",
+    "landscape legacy: 稍後決定，返回戰報 44px reachable",
+    "landscape legacy: mobile has no keyboard text",
+    "ipad home: 戰役 44px reachable",
+    "ipad home: 設定 44px reachable",
+    "ipad home: 接下塔印，守住松林 44px reachable",
+    "ipad home: 三印窄陣 · 布陣演習 44px reachable",
+    "ipad home: 存檔與原作匯入 44px reachable",
+    "ipad home: mobile has no keyboard text",
+    "ipad list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "ipad list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "ipad list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "ipad list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "ipad list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "ipad list: 返回 44px reachable",
+    "ipad list: mobile has no keyboard text",
+    "ipad exercise: 戰報 44px reachable",
+    "ipad exercise: 暫停 44px reachable",
+    "ipad exercise: 看雷塔切換 44px reachable",
+    "ipad exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "ipad exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "ipad exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "ipad exercise: 換塔位 44px reachable",
+    "ipad exercise: 確認建造 44px reachable",
+    "ipad exercise: 取消 44px reachable",
+    "ipad exercise: 本波交戰中・布陣已固定 44px reachable",
+    "ipad exercise: 演習不使用震擊 44px reachable",
+    "ipad exercise: mobile has no keyboard text",
+    "ipad terrain: 堵隘口 · 向北繞行 44px reachable",
+    "ipad terrain: 放水 · 南側慢行區 44px reachable",
+    "ipad terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "ipad terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "ipad terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "ipad terrain: 先試三印窄陣 44px reachable",
+    "ipad terrain: 確認施工 · 30 44px reachable",
+    "ipad terrain: 取消，維持原路 44px reachable",
+    "ipad terrain: mobile has no keyboard text",
+    "ipad legacy: 戰報 44px reachable",
+    "ipad legacy: 暫停 44px reachable",
+    "ipad legacy: 確認留冰塔工事 44px reachable",
+    "ipad legacy: 確認拆取 90 結晶 44px reachable",
+    "ipad legacy: 稍後決定，返回戰報 44px reachable",
+    "ipad legacy: mobile has no keyboard text",
+    "ipad-landscape home: 戰役 44px reachable",
+    "ipad-landscape home: 設定 44px reachable",
+    "ipad-landscape home: 接下塔印，守住松林 44px reachable",
+    "ipad-landscape home: 三印窄陣 · 布陣演習 44px reachable",
+    "ipad-landscape home: 存檔與原作匯入 44px reachable",
+    "ipad-landscape home: mobile has no keyboard text",
+    "ipad-landscape list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "ipad-landscape list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "ipad-landscape list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "ipad-landscape list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "ipad-landscape list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "ipad-landscape list: 返回 44px reachable",
+    "ipad-landscape list: mobile has no keyboard text",
+    "ipad-landscape exercise: 戰報 44px reachable",
+    "ipad-landscape exercise: 暫停 44px reachable",
+    "ipad-landscape exercise: 看雷塔切換 44px reachable",
+    "ipad-landscape exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "ipad-landscape exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "ipad-landscape exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "ipad-landscape exercise: 換塔位 44px reachable",
+    "ipad-landscape exercise: 確認建造 44px reachable",
+    "ipad-landscape exercise: 取消 44px reachable",
+    "ipad-landscape exercise: 本波交戰中・布陣已固定 44px reachable",
+    "ipad-landscape exercise: 演習不使用震擊 44px reachable",
+    "ipad-landscape exercise: mobile has no keyboard text",
+    "ipad-landscape terrain: 堵隘口 · 向北繞行 44px reachable",
+    "ipad-landscape terrain: 放水 · 南側慢行區 44px reachable",
+    "ipad-landscape terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "ipad-landscape terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "ipad-landscape terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "ipad-landscape terrain: 先試三印窄陣 44px reachable",
+    "ipad-landscape terrain: 確認施工 · 30 44px reachable",
+    "ipad-landscape terrain: 取消，維持原路 44px reachable",
+    "ipad-landscape terrain: mobile has no keyboard text",
+    "ipad-landscape legacy: 戰報 44px reachable",
+    "ipad-landscape legacy: 暫停 44px reachable",
+    "ipad-landscape legacy: 確認留冰塔工事 44px reachable",
+    "ipad-landscape legacy: 確認拆取 90 結晶 44px reachable",
+    "ipad-landscape legacy: 稍後決定，返回戰報 44px reachable",
+    "ipad-landscape legacy: mobile has no keyboard text",
+    "laptop home: 戰役 44px reachable",
+    "laptop home: 設定 44px reachable",
+    "laptop home: 接下塔印，守住松林 44px reachable",
+    "laptop home: 三印窄陣 · 布陣演習 44px reachable",
+    "laptop home: 存檔與原作匯入 44px reachable",
+    "laptop home: mobile has no keyboard text",
+    "laptop list: 聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。 44px reachable",
+    "laptop list: 分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。 44px reachable",
+    "laptop list: 折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。 44px reachable",
+    "laptop list: 雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。 44px reachable",
+    "laptop list: 空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。 44px reachable",
+    "laptop list: 返回 44px reachable",
+    "laptop list: mobile has no keyboard text",
+    "laptop exercise: 戰報 44px reachable",
+    "laptop exercise: 暫停 44px reachable",
+    "laptop exercise: 看雷塔切換 44px reachable",
+    "laptop exercise: 火印塔場上已有 1 座再建需 100 結晶還差 40 結晶 44px reachable",
+    "laptop exercise: 冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶 44px reachable",
+    "laptop exercise: 雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶 44px reachable",
+    "laptop exercise: 換塔位 44px reachable",
+    "laptop exercise: 確認建造 44px reachable",
+    "laptop exercise: 取消 44px reachable",
+    "laptop exercise: 本波交戰中・布陣已固定 44px reachable",
+    "laptop exercise: 演習不使用震擊 44px reachable",
+    "laptop exercise: mobile has no keyboard text",
+    "laptop terrain: 堵隘口 · 向北繞行 44px reachable",
+    "laptop terrain: 放水 · 南側慢行區 44px reachable",
+    "laptop terrain: 火印塔尚未部署・先選塔位 44px reachable",
+    "laptop terrain: 冰印塔尚未部署・先選塔位 44px reachable",
+    "laptop terrain: 雷印塔尚未部署・先選塔位 44px reachable",
+    "laptop terrain: 先試三印窄陣 44px reachable",
+    "laptop terrain: 確認施工 · 30 44px reachable",
+    "laptop terrain: 取消，維持原路 44px reachable",
+    "laptop terrain: mobile has no keyboard text",
+    "laptop legacy: 戰報 44px reachable",
+    "laptop legacy: 暫停 44px reachable",
+    "laptop legacy: 確認留冰塔工事 44px reachable",
+    "laptop legacy: 確認拆取 90 結晶 44px reachable",
+    "laptop legacy: 稍後決定，返回戰報 44px reachable",
+    "laptop legacy: mobile has no keyboard text",
+    "new content loads offline",
+    "no runtime errors or external requests"
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "path": "docs/content/r1/phone-terrain-preview.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-flood-play.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-ford-choice.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-inherited-frost.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn-complete.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee-complete.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback-complete.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/small-exercise-list.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/small-exercise-play.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/small-barricade-play.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-list.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-play.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/content/r1/iphone-barricade-play.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "dpr": 3
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-list.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-play.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/landscape-barricade-play.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-list.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-play.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r1/ipad-barricade-play.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "dpr": 2
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-list.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-play.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-barricade-play.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-list.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-play.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    },
+    {
+      "path": "docs/content/r1/laptop-barricade-play.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "dpr": 1
+    }
+  ],
+  "geometry": [
+    {
+      "label": "phone terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 159,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 159,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 326,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 326,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 326,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 103.328125,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 103.34375,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 103.328125,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "phone legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 356,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 356,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 356,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "phone turn",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看命中切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔100 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔70 結晶",
+          "width": 114.671875,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔130 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 113.4375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 141.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 90.765625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "開始下一波",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "phone levee",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看命中切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔100 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔70 結晶",
+          "width": 114.671875,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔130 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 113.4375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 141.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 90.765625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "開始下一波",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "phone switchback",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看命中切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔100 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔70 結晶",
+          "width": 114.671875,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔130 結晶",
+          "width": 114.65625,
+          "height": 98.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 113.4375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 141.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 90.765625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "開始下一波",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "small home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "small list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 128,
+          "height": 86.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 128,
+          "height": 86.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 128,
+          "height": 86.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 128,
+          "height": 86.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 128,
+          "height": 86.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 260,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "small exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 92.65625,
+          "height": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 92.671875,
+          "height": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 92.65625,
+          "height": 110,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 91.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 114.75,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 73.453125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 141.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 141.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "small terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 129,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 129,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 262,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 262,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 262,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 83.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 83.34375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 83.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "small legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 290,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 290,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 290,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iphone home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 380,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iphone list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 177,
+          "height": 94.0625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 177,
+          "height": 94.0625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 177,
+          "height": 94.0625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 177,
+          "height": 94.0625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 177,
+          "height": 94.0625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 362,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iphone exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 128,
+          "height": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 128,
+          "height": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 128,
+          "height": 134.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 126.546875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 158.203125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 101.25,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 194.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iphone terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 179,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 366,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 366,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 366,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 116.65625,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 116.671875,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 116.671875,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iphone legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 396,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "landscape home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "landscape list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 186.65625,
+          "height": 98.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 186.671875,
+          "height": 98.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 186.671875,
+          "height": 98.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 186.65625,
+          "height": 85,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 186.671875,
+          "height": 85,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 574,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "landscape exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 88.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 88.671875,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 88.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 89.171875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 111.46875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 71.359375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 137.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 137.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "landscape terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 139,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 139,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "landscape legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 253,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 253,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 320.671875,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 316.0625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 395.078125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 252.859375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 514,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 514,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 514,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 974,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 974,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 974,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad-landscape home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad-landscape list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 243,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 243,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 243,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 243,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 243,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 494,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad-landscape exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 92.65625,
+          "height": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 92.671875,
+          "height": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 92.65625,
+          "height": 191.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 93.109375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 116.390625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 74.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad-landscape terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 494,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 494,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 494,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 159.34375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "ipad-landscape legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "laptop home",
+      "data": [
+        {
+          "label": "戰役",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "設定",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "接下塔印，守住松林",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "三印窄陣 · 布陣演習",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "存檔與原作匯入",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "laptop list",
+      "data": [
+        {
+          "label": "聚印轉角300 結晶 · 5 塔位五處界碑，轉角三格可共鳴。遠哨會分走預算，留意射程。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "分守長堤300 結晶 · 4 塔位四處界碑分隔長堤，無法共鳴。冰塔先拖敵，別把火力留在遠灘。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "折返雙隘360 結晶 · 6 塔位六處界碑，360 結晶可升級一次。集中共鳴或折返接力，遠哨射不到主路。",
+          "width": 253,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雙岸接力300 結晶 · 5 塔位長路分成兩岸，三塔無法相鄰。冰印守上游，火雷分守兩個轉角。",
+          "width": 253,
+          "height": 104.5,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "空哨折道300 結晶 · 5 塔位北折與東岸相距遠；先看各界碑射程，預算只夠三塔。",
+          "width": 253,
+          "height": 88,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "返回",
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "laptop exercise",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "看雷塔切換",
+          "width": 54,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔場上已有 1 座再建需 100 結晶還差 40 結晶",
+          "width": 86,
+          "height": 151.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔場上已有 1 座再建需 70 結晶還差 10 結晶",
+          "width": 86,
+          "height": 151.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔場上已有 1 座再建需 130 結晶還差 70 結晶",
+          "width": 86,
+          "height": 151.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "換塔位",
+          "width": 86.546875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認建造",
+          "width": 108.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消",
+          "width": 69.25,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "本波交戰中・布陣已固定",
+          "width": 133.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "演習不使用震擊",
+          "width": 133.5,
+          "height": 48,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "laptop terrain",
+      "data": [
+        {
+          "label": "堵隘口 · 向北繞行",
+          "width": 139,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "放水 · 南側慢行區",
+          "width": 139,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "火印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "冰印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "雷印塔尚未部署・先選塔位",
+          "width": 283,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "先試三印窄陣",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認施工 · 30",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "取消，維持原路",
+          "width": 89,
+          "height": 50,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "laptop legacy",
+      "data": [
+        {
+          "label": "戰報",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "暫停",
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認留冰塔工事",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "確認拆取 90 結晶",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "label": "稍後決定，返回戰報",
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "buildSHA256": "d0319236b0b084a54ec06c063e809d5bebc6314a4e0abd25a70fdbfc9320199e"
+}

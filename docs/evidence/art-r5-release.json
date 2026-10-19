@@ -1,0 +1,165 @@
+{
+  "status": "VERIFIED",
+  "version": "0.6.0",
+  "newRuntimeImages": 26,
+  "newRuntimeMetadata": 2,
+  "newRuntimeBytes": 4899438,
+  "previousVersion": "0.5.0",
+  "previousPackageBytes": 28581081,
+  "currentPackageBytes": 33486501,
+  "deltaBytes": 4905420,
+  "deltaPercent": 17.163171679895516,
+  "buildSHA256": "4d07e6e8a93cd4a3cd02f06fca9c38e9039f22c7692a8a13cc2a53a27a7ef5aa",
+  "styleSHA256": "3851baf66d1a1ff486dc479837f7721fb316b28912496d6ee89013d47acc6368",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "f7c842653e3750467da4faea81fa54b01297423740b555bdc5afbacd911ea668"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "654f416c3b6ea87b0cba020c34819b300a80df63ca27b6fa621ac14a195279a9"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "d60cae5512ff4205d6d9039b5686c42456aa379cb1fa88e20de1c9ddeeff1c64"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "f0189cb334f3aed8683dfe7369066a98f01ba34b678a3829fcf60eec0b177a1e"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "1800236754fa07d39bb67a2dbefc6402789422337b47dd10f26417bbdc9a31a2"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "d6c71126d5c0bc35f383e826e8335950d635a5f4c5afc7c5563fab27836a6c3d"
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "docs/art/compare/r5/before/1032x1376-defense.png",
+      "after": "docs/art/compare/r5/after/1032x1376-defense.png",
+      "comparison": "docs/art/compare/r5/1032x1376-defense.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "a12d7ecbcf1aa5554fd53d7aae61293c536c69ec2529b7392e108cf0276c3719",
+      "afterSHA256": "3af92efef2375dc9532ffaecce37cb0f9ba43697179ec7551eda304924d59e26"
+    },
+    {
+      "before": "docs/art/compare/r5/before/1032x1376-opening.png",
+      "after": "docs/art/compare/r5/after/1032x1376-opening.png",
+      "comparison": "docs/art/compare/r5/1032x1376-opening.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "a92c0a7a81ab20199e4dcec22a60d575c124c4517ff5a7e435c64405ec26769e",
+      "afterSHA256": "54506e7472519b6623b07b0f1290350e735205b401d7cc87bb70ffa1656c19da"
+    },
+    {
+      "before": "docs/art/compare/r5/before/1032x1376-siege.png",
+      "after": "docs/art/compare/r5/after/1032x1376-siege.png",
+      "comparison": "docs/art/compare/r5/1032x1376-siege.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "8426dc92e5cac5b27a58cc374d91cecbd302d32e66f114eeba738efa3003a175",
+      "afterSHA256": "1bd87ba041d0ddfec60bb7fcdd10236e1372423476f46bd87c43147ebe755686"
+    },
+    {
+      "before": "docs/art/compare/r5/before/390x844-defense.png",
+      "after": "docs/art/compare/r5/after/390x844-defense.png",
+      "comparison": "docs/art/compare/r5/390x844-defense.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "f7139123e5392a5c1b788bbdc0e83fe88491619b6f46e69b0addb00ef6996834",
+      "afterSHA256": "c6d834eaaf343a1276f0e7866ee8311636b0249ae41fab4c93198d2704823b94"
+    },
+    {
+      "before": "docs/art/compare/r5/before/390x844-opening.png",
+      "after": "docs/art/compare/r5/after/390x844-opening.png",
+      "comparison": "docs/art/compare/r5/390x844-opening.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "60753e75a9aebb8d7172bfacd8dd079c2fbf10dd86f4a93a1d988d5abb4f9b6d",
+      "afterSHA256": "7dd2a61672d84d2aed31c128b0b66abd2d1de761caab096c61347b35221fe9f8"
+    },
+    {
+      "before": "docs/art/compare/r5/before/390x844-siege.png",
+      "after": "docs/art/compare/r5/after/390x844-siege.png",
+      "comparison": "docs/art/compare/r5/390x844-siege.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "3143ba0f09cfdf4dde53346aeb3d43ca4b01178ac8756f1a2461f76bd6c49e03",
+      "afterSHA256": "e8d219d7371a1dd94684b5cae0194618f087d2d56a8264a7b0422dc3f0abe4c4"
+    },
+    {
+      "before": "docs/art/compare/r5/before/844x390-defense.png",
+      "after": "docs/art/compare/r5/after/844x390-defense.png",
+      "comparison": "docs/art/compare/r5/844x390-defense.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "856071444cf372ae823d089940da79101938a054cce94017eb4936819bd9f4f5",
+      "afterSHA256": "98e8d973c7eae433c2b4172e0de1b5247e2accacfc462af6d3aafd92e003f81b"
+    },
+    {
+      "before": "docs/art/compare/r5/before/844x390-opening.png",
+      "after": "docs/art/compare/r5/after/844x390-opening.png",
+      "comparison": "docs/art/compare/r5/844x390-opening.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "04ab15b334ce090d711fe1c36dcf17d27704c7216f158bd14e4fe0729e4e580c",
+      "afterSHA256": "6c99d59c6b2f1a9b1d187659765d7dc50cc743f6da8baf227467331d04dc7681"
+    },
+    {
+      "before": "docs/art/compare/r5/before/844x390-siege.png",
+      "after": "docs/art/compare/r5/after/844x390-siege.png",
+      "comparison": "docs/art/compare/r5/844x390-siege.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "62ec331f4f8205fefaf5b385eaf06a72695f424bfb6d342150f3994520984d1a",
+      "afterSHA256": "f01e4fe4f56ea91d9a892dca6d69656ffa88eefacd5f7c373eeacb67e9ce6634"
+    }
+  ]
+}

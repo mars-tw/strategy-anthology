@@ -1,0 +1,196 @@
+{
+  "status": "VERIFIED",
+  "warning": "Concurrent system load; RAF intervals in headless Chromium emulation, reference only. Not physical iOS or idle-machine certification.",
+  "buildSHA256": "29780ea8a4640a385039d7ac8f9daa397529d6115502e51359ebd8d5138075e9",
+  "runs": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 1,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.900000000000546,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 2,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "run": 3,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 1,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 17,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 2,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.90000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "run": 3,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 16.900000000000546,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 1,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 33.399999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 2,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 33.19999999999982,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "run": 3,
+      "p95": 16.799999999999955,
+      "median": 16.699999999999818,
+      "max": 33.40000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 1,
+      "p95": 16.799999999999727,
+      "median": 16.699999999999818,
+      "max": 33.29999999999973,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 2,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 33.40000000000009,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "run": 3,
+      "p95": 16.800000000000182,
+      "median": 16.699999999999818,
+      "max": 33.399999999999636,
+      "samples": 180,
+      "unit": "ms",
+      "method": "real requestAnimationFrame interval during active new-content play, no virtual clock"
+    }
+  ],
+  "summary": [
+    {
+      "scenario": "flood",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "flood",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "hollow",
+      "width": 1366,
+      "height": 600,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    },
+    {
+      "scenario": "hollow",
+      "width": 320,
+      "height": 568,
+      "medianP95": 16.800000000000182,
+      "maxP95": 16.800000000000182,
+      "threshold": 18,
+      "referencePass": true
+    }
+  ],
+  "physicalDeviceGate": "BLOCKED",
+  "environment": {
+    "startedAt": "2026-10-18T20:39:25.734Z",
+    "logicalCPUs": 20,
+    "totalMemoryGiB": 63.37777328491211,
+    "freeMemoryGiB": 15.040443420410156
+  }
+}

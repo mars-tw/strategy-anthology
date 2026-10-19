@@ -1,0 +1,29 @@
+/* R4: distinguish state from cost; terrain decisions fit on one small phone. */
+.coverage-list{display:grid;gap:3px;margin:6px 0}
+.coverage-row{display:grid;grid-template-columns:25px 56px 1fr;align-items:center;gap:6px;min-height:25px;font-size:13px;background:#eee9dc;padding:2px 6px;border-left:3px solid var(--element)}
+.coverage-row img{width:23px;height:23px;object-fit:contain}.coverage-row b{font-weight:700}.coverage-row span{font-weight:700;color:#205f69}.coverage-row[data-covers=false] span{color:#9a3d36}
+.terrain-map .map-key{position:absolute;right:4px;bottom:4px;background:#f5f1e5ef;color:#292d38;padding:3px 5px;font-size:12px;line-height:1.35;pointer-events:none}
+.terrain .route-key{margin:5px 0;line-height:1.4}.terrain .coverage-list+.route-key{font-weight:600}
+.tower-card.deployed:disabled{opacity:1}.tower-card.deployed .tower-portrait{filter:none!important;opacity:1!important}
+.tower-card.deployed{background:#e8f0eb!important;border-color:#47766b!important;color:#292d38!important}
+.tower-card small .deployed-state{display:block;color:#215e56;background:#d0e5dc;padding:1px 2px;font-size:12px}
+.tower-card small .purchase-cost{display:block;color:#654f35;background:#f6e9d1;padding:1px 2px;font-size:12px}
+.salvage-flight .legacy-sprite{left:0;top:0;width:38px;height:46px;animation:none!important;will-change:transform;filter:drop-shadow(0 2px 3px #225f70)}
+.salvage-flight strong{top:70px;right:15px;animation:none;font-size:13px}.wallet.arrival strong{display:block;transform:scale(1.22);color:#177b83}
+.legacy-receipt{display:flex;flex-direction:column;align-items:flex-start;padding:8px;border-left:3px solid #287b88;background:#e4efe9}
+.legacy-receipt>span{font-size:12px}.legacy-receipt canvas{display:none}
+.inherited-note{position:absolute;left:7px;top:73px;background:#e1f4efef;color:#225d70;border:2px double #338a98;padding:3px 6px;font-size:12px;font-weight:700;pointer-events:none;max-width:calc(100% - 14px)}
+.battle .cards .tower-card.deployed small{margin-top:1px;line-height:1.25}
+@media(max-width:360px) and (orientation:portrait){
+ .terrain{padding:9px}.terrain .eyebrow{margin-bottom:3px}.terrain h2{font-size:20px;margin-bottom:4px}.terrain-map{height:162px}
+ .terrain-options{margin-top:5px;gap:4px}.terrain .coverage-row{font-size:12px;min-height:24px}.terrain .coverage-list{gap:2px;margin:4px 0}
+ .terrain .route-key{font-size:12px;margin:4px 0}.terrain .modal-actions{margin-top:5px}.terrain .modal-actions button{font-size:12px;padding:5px}
+ .battle .cards .tower-card.deployed{min-height:98px;display:flex;flex-direction:column;padding:2px}.battle .cards .tower-card.deployed>span{width:100%}.battle .cards .tower-card.deployed .tower-portrait{width:100%;height:38px}
+ .battle .cards .tower-card.deployed small{width:100%}.deployed-state{white-space:nowrap}.purchase-cost .price-line,.purchase-cost .deficit-line{display:block;white-space:nowrap}
+ .battle .legacy-receipt{padding:5px}.inherited-note{top:65px;font-size:12px}
+}
+@media(max-height:450px) and (orientation:landscape){
+ .terrain .coverage-list{grid-column:2;grid-row:4;margin:0}.terrain .route-key{display:none}.terrain .terrain-map{grid-row:1/7}
+ .terrain .modal-actions{grid-row:5;grid-column:2}.terrain .eyebrow{grid-column:2;font-size:12px;margin:0}.terrain h2{font-size:18px}
+ .terrain .terrain-options{grid-template-columns:1fr 1fr;grid-row:3}.terrain .coverage-row{min-height:23px;font-size:12px}
+}

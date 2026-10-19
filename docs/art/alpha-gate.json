@@ -1,0 +1,5377 @@
+{
+  "status": "VERIFIED",
+  "method": "Unmodified shared Wave 0 alpha_gate.py; native alpha, magenta used only as absent-color fringe sentinel, no matte extraction.",
+  "files": [
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-e.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.151631,
+        "fully_opaque_fraction": 0.110282,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          20,
+          18,
+          372,
+          648
+        ],
+        "bbox_margins": [
+          20,
+          18,
+          12,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16786,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9755,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.151631,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            372,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            12,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-ne.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.153998,
+        "fully_opaque_fraction": 0.114165,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          18,
+          18,
+          371,
+          648
+        ],
+        "bbox_margins": [
+          18,
+          18,
+          13,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15968,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9874,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.153998,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            371,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            13,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-nw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.152882,
+        "fully_opaque_fraction": 0.112626,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          22,
+          21,
+          377,
+          648
+        ],
+        "bbox_margins": [
+          22,
+          21,
+          7,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15894,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9593,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.152882,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            22,
+            21,
+            377,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            22,
+            21,
+            7,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-se.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.152607,
+        "fully_opaque_fraction": 0.117067,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          19,
+          19,
+          371,
+          648
+        ],
+        "bbox_margins": [
+          19,
+          19,
+          13,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15035,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8971,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.152607,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            19,
+            19,
+            371,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            19,
+            19,
+            13,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-sw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.162602,
+        "fully_opaque_fraction": 0.123632,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          18,
+          369,
+          648
+        ],
+        "bbox_margins": [
+          23,
+          18,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15680,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9178,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.162602,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            18,
+            369,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            18,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\archer-w.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.156738,
+        "fully_opaque_fraction": 0.118924,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          20,
+          18,
+          370,
+          648
+        ],
+        "bbox_margins": [
+          20,
+          18,
+          14,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16039,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 10195,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.156738,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            370,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            14,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\ashwing.png",
+      "profile": "cutout",
+      "expected_size": [
+        1024,
+        1536
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.221919,
+        "fully_opaque_fraction": 0.173267,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          40,
+          74,
+          990,
+          1504
+        ],
+        "bbox_margins": [
+          40,
+          74,
+          34,
+          32
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 97254,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 37691,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            1024,
+            1536
+          ],
+          "requirement": "1024x1536"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.221919,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            40,
+            74,
+            990,
+            1504
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            40,
+            74,
+            34,
+            32
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\barracks.png",
+      "profile": "cutout",
+      "expected_size": [
+        256,
+        320
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.544507,
+        "fully_opaque_fraction": 0.511353,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          8,
+          16,
+          248,
+          312
+        ],
+        "bbox_margins": [
+          8,
+          16,
+          8,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 3857,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 1731,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            256,
+            320
+          ],
+          "requirement": "256x320"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.544507,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            8,
+            16,
+            248,
+            312
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            8,
+            16,
+            8,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\commander-face.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.417603,
+        "fully_opaque_fraction": 0.371521,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          15,
+          8,
+          113,
+          120
+        ],
+        "bbox_margins": [
+          15,
+          8,
+          15,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 1090,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 597,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.417603,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            113,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            15,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\commander.png",
+      "profile": "cutout",
+      "expected_size": [
+        512,
+        768
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.362226,
+        "fully_opaque_fraction": 0.334969,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          34,
+          8,
+          478,
+          760
+        ],
+        "bbox_margins": [
+          34,
+          8,
+          34,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15607,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7705,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            512,
+            768
+          ],
+          "requirement": "512x768"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.362226,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            34,
+            8,
+            478,
+            760
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            34,
+            8,
+            34,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\enemy-keep.png",
+      "profile": "cutout",
+      "expected_size": [
+        256,
+        320
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.593628,
+        "fully_opaque_fraction": 0.542847,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          15,
+          8,
+          241,
+          312
+        ],
+        "bbox_margins": [
+          15,
+          8,
+          15,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 5562,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 2344,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            256,
+            320
+          ],
+          "requirement": "256x320"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.593628,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            241,
+            312
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            15,
+            8,
+            15,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\keep.png",
+      "profile": "cutout",
+      "expected_size": [
+        256,
+        320
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.620776,
+        "fully_opaque_fraction": 0.580408,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          8,
+          14,
+          248,
+          312
+        ],
+        "bbox_margins": [
+          8,
+          14,
+          8,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 4448,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 1913,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            256,
+            320
+          ],
+          "requirement": "256x320"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.620776,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            8,
+            14,
+            248,
+            312
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            8,
+            14,
+            8,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\logo.png",
+      "profile": "cutout",
+      "expected_size": [
+        768,
+        512
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.354599,
+        "fully_opaque_fraction": 0.297033,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          8,
+          30,
+          760,
+          504
+        ],
+        "bbox_margins": [
+          8,
+          30,
+          8,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 30929,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 13554,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            768,
+            512
+          ],
+          "requirement": "768x512"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.354599,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            8,
+            30,
+            760,
+            504
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            8,
+            30,
+            8,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\mage.png",
+      "profile": "cutout",
+      "expected_size": [
+        1024,
+        1536
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.226309,
+        "fully_opaque_fraction": 0.20002,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          51,
+          38,
+          979,
+          1504
+        ],
+        "bbox_margins": [
+          51,
+          38,
+          45,
+          32
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 49547,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 26010,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            1024,
+            1536
+          ],
+          "requirement": "1024x1536"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.226309,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            51,
+            38,
+            979,
+            1504
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            51,
+            38,
+            45,
+            32
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\miremaw.png",
+      "profile": "cutout",
+      "expected_size": [
+        1024,
+        1536
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.300631,
+        "fully_opaque_fraction": 0.250222,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          55,
+          1012,
+          1504
+        ],
+        "bbox_margins": [
+          23,
+          55,
+          12,
+          32
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 97669,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 43102,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            1024,
+            1536
+          ],
+          "requirement": "1024x1536"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.300631,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            55,
+            1012,
+            1504
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            55,
+            12,
+            32
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\rootback.png",
+      "profile": "cutout",
+      "expected_size": [
+        1024,
+        1536
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.187223,
+        "fully_opaque_fraction": 0.148177,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          53,
+          66,
+          981,
+          1504
+        ],
+        "bbox_margins": [
+          53,
+          66,
+          43,
+          32
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 78309,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 30452,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            1024,
+            1536
+          ],
+          "requirement": "1024x1536"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.187223,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            53,
+            66,
+            981,
+            1504
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            53,
+            66,
+            43,
+            32
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\seal-cannon.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.616577,
+        "fully_opaque_fraction": 0.586365,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          9,
+          8,
+          118,
+          120
+        ],
+        "bbox_margins": [
+          9,
+          8,
+          10,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 692,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 269,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.616577,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            9,
+            8,
+            118,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            9,
+            8,
+            10,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\seal-frost.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.359985,
+        "fully_opaque_fraction": 0.330017,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          14,
+          8,
+          114,
+          120
+        ],
+        "bbox_margins": [
+          14,
+          8,
+          14,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 788,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 417,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.359985,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            14,
+            8,
+            114,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            14,
+            8,
+            14,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\seal-tesla.png",
+      "profile": "cutout",
+      "expected_size": [
+        128,
+        128
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.47821,
+        "fully_opaque_fraction": 0.450867,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          17,
+          8,
+          110,
+          120
+        ],
+        "bbox_margins": [
+          17,
+          8,
+          18,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 636,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 282,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            128,
+            128
+          ],
+          "requirement": "128x128"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.47821,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            17,
+            8,
+            110,
+            120
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            17,
+            8,
+            18,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-e.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.148909,
+        "fully_opaque_fraction": 0.1174,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          7,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          23,
+          7,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15031,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8879,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.148909,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            7,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            7,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-ne.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.162425,
+        "fully_opaque_fraction": 0.126681,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          27,
+          9,
+          431,
+          648
+        ],
+        "bbox_margins": [
+          27,
+          9,
+          17,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 17239,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 10409,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.162425,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            27,
+            9,
+            431,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            27,
+            9,
+            17,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-nw.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.167846,
+        "fully_opaque_fraction": 0.134746,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          26,
+          6,
+          433,
+          648
+        ],
+        "bbox_margins": [
+          26,
+          6,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16085,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9120,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.167846,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            26,
+            6,
+            433,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            26,
+            6,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-se.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.165953,
+        "fully_opaque_fraction": 0.129972,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          28,
+          6,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          28,
+          6,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 16714,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9572,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.165953,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            28,
+            6,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            28,
+            6,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-sw.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.15523,
+        "fully_opaque_fraction": 0.122804,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          25,
+          6,
+          432,
+          648
+        ],
+        "bbox_margins": [
+          25,
+          6,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15421,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9165,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.15523,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            25,
+            6,
+            432,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            25,
+            6,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\shieldBearer-w.png",
+      "profile": "cutout",
+      "expected_size": [
+        448,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.14667,
+        "fully_opaque_fraction": 0.115613,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          23,
+          6,
+          433,
+          648
+        ],
+        "bbox_margins": [
+          23,
+          6,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 15466,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 9341,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            448,
+            672
+          ],
+          "requirement": "448x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.14667,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            23,
+            6,
+            433,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            23,
+            6,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\tower-cannon.png",
+      "profile": "cutout",
+      "expected_size": [
+        192,
+        256
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.423808,
+        "fully_opaque_fraction": 0.381042,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          25,
+          8,
+          166,
+          248
+        ],
+        "bbox_margins": [
+          25,
+          8,
+          26,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 3130,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 1594,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            192,
+            256
+          ],
+          "requirement": "192x256"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.423808,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            25,
+            8,
+            166,
+            248
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            25,
+            8,
+            26,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\tower-frost.png",
+      "profile": "cutout",
+      "expected_size": [
+        192,
+        256
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.336263,
+        "fully_opaque_fraction": 0.296773,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          24,
+          8,
+          167,
+          248
+        ],
+        "bbox_margins": [
+          24,
+          8,
+          25,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 2879,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 1435,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            192,
+            256
+          ],
+          "requirement": "192x256"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.336263,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            24,
+            8,
+            167,
+            248
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            24,
+            8,
+            25,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\tower-tesla.png",
+      "profile": "cutout",
+      "expected_size": [
+        192,
+        256
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.60494,
+        "fully_opaque_fraction": 0.466899,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          12,
+          8,
+          180,
+          248
+        ],
+        "bbox_margins": [
+          12,
+          8,
+          12,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 8325,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 4094,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            192,
+            256
+          ],
+          "requirement": "192x256"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.60494,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            12,
+            8,
+            180,
+            248
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            12,
+            8,
+            12,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-e.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.123834,
+        "fully_opaque_fraction": 0.09568,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          24,
+          18,
+          370,
+          648
+        ],
+        "bbox_margins": [
+          24,
+          18,
+          14,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 11387,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 6755,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.123834,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            370,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            14,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-ne.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.144008,
+        "fully_opaque_fraction": 0.111522,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          24,
+          18,
+          369,
+          648
+        ],
+        "bbox_margins": [
+          24,
+          18,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 13162,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7568,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.144008,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            369,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-nw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.141574,
+        "fully_opaque_fraction": 0.112909,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          17,
+          18,
+          370,
+          648
+        ],
+        "bbox_margins": [
+          17,
+          18,
+          14,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 12270,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7556,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.141574,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            17,
+            18,
+            370,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            17,
+            18,
+            14,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-se.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.14605,
+        "fully_opaque_fraction": 0.118807,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          22,
+          18,
+          371,
+          648
+        ],
+        "bbox_margins": [
+          22,
+          18,
+          13,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 11349,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 6978,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.14605,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            22,
+            18,
+            371,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            22,
+            18,
+            13,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-sw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.153487,
+        "fully_opaque_fraction": 0.125012,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          18,
+          18,
+          370,
+          648
+        ],
+        "bbox_margins": [
+          18,
+          18,
+          14,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 12003,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7440,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.153487,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            370,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            14,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\villager-w.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.133394,
+        "fully_opaque_fraction": 0.105368,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          17,
+          18,
+          372,
+          648
+        ],
+        "bbox_margins": [
+          17,
+          18,
+          12,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 11920,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7107,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.133394,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            17,
+            18,
+            372,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            17,
+            18,
+            12,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-e.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.112894,
+        "fully_opaque_fraction": 0.086,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          22,
+          21,
+          370,
+          648
+        ],
+        "bbox_margins": [
+          22,
+          21,
+          14,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 11453,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 6914,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.112894,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            22,
+            21,
+            370,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            22,
+            21,
+            14,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-ne.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.145977,
+        "fully_opaque_fraction": 0.113045,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          20,
+          18,
+          374,
+          648
+        ],
+        "bbox_margins": [
+          20,
+          18,
+          10,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 13556,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7918,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.145977,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            374,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            20,
+            18,
+            10,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-nw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.145093,
+        "fully_opaque_fraction": 0.111258,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          18,
+          19,
+          371,
+          648
+        ],
+        "bbox_margins": [
+          18,
+          19,
+          13,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 14083,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8360,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.145093,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            18,
+            19,
+            371,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            18,
+            19,
+            13,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-se.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.144198,
+        "fully_opaque_fraction": 0.115103,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          24,
+          18,
+          371,
+          648
+        ],
+        "bbox_margins": [
+          24,
+          18,
+          13,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 12487,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 7756,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.144198,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            371,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            24,
+            18,
+            13,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-sw.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.158176,
+        "fully_opaque_fraction": 0.124411,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          18,
+          18,
+          368,
+          648
+        ],
+        "bbox_margins": [
+          18,
+          18,
+          16,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 14088,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8329,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.158176,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            368,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            18,
+            18,
+            16,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\warrior-w.png",
+      "profile": "cutout",
+      "expected_size": [
+        384,
+        672
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.129391,
+        "fully_opaque_fraction": 0.100543,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          19,
+          18,
+          369,
+          648
+        ],
+        "bbox_margins": [
+          19,
+          18,
+          15,
+          24
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 12822,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8261,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            384,
+            672
+          ],
+          "requirement": "384x672"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.129391,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            19,
+            18,
+            369,
+            648
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            19,
+            18,
+            15,
+            24
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    },
+    {
+      "path": "C:\\Users\\digimkt\\Desktop\\遊戲\\strategy-anthology\\public\\assets\\r1\\wordmark.png",
+      "profile": "cutout",
+      "expected_size": [
+        600,
+        216
+      ],
+      "pass": true,
+      "metrics": {
+        "alpha_occupancy": 0.476975,
+        "fully_opaque_fraction": 0.383187,
+        "corner_alpha_max": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "corner_alpha_min": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visible_bbox": [
+          21,
+          8,
+          578,
+          208
+        ],
+        "bbox_margins": [
+          21,
+          8,
+          22,
+          8
+        ],
+        "transparent_rgb_nonzero_fraction": 0.0,
+        "edge_pixel_count": 17759,
+        "rgb_fringe_fraction": 0.0,
+        "low_alpha_edge_pixel_count": 8757,
+        "matte_complement_policy": "detached_only",
+        "matte_complement_fraction_all_low_alpha": 0.0,
+        "matte_complement_fraction_detached": 0.0,
+        "complement_artifact_fraction": 0.0
+      },
+      "checks": [
+        {
+          "name": "magic_bytes",
+          "pass": true,
+          "actual": "89504e470d0a1a0a",
+          "requirement": "89504e470d0a1a0a"
+        },
+        {
+          "name": "decoded_format",
+          "pass": true,
+          "actual": "PNG",
+          "requirement": "PNG"
+        },
+        {
+          "name": "dimensions",
+          "pass": true,
+          "actual": [
+            600,
+            216
+          ],
+          "requirement": "600x216"
+        },
+        {
+          "name": "rgba_mode",
+          "pass": true,
+          "actual": "RGBA",
+          "requirement": "RGBA"
+        },
+        {
+          "name": "four_corners_transparent",
+          "pass": true,
+          "actual": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "requirement": "all corner alpha <= 8"
+        },
+        {
+          "name": "alpha_occupancy",
+          "pass": true,
+          "actual": 0.476975,
+          "requirement": "0.003 <= occupancy <= 0.780"
+        },
+        {
+          "name": "visible_bbox",
+          "pass": true,
+          "actual": [
+            21,
+            8,
+            578,
+            208
+          ],
+          "requirement": "non-empty visible bounding box"
+        },
+        {
+          "name": "bbox_padding",
+          "pass": true,
+          "actual": [
+            21,
+            8,
+            22,
+            8
+          ],
+          "requirement": "at least 1 px clear on every side"
+        },
+        {
+          "name": "transparent_rgb_zeroed",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "nonzero RGB in alpha=0 pixels <= 0.001"
+        },
+        {
+          "name": "rgb_fringe",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "key-like semi-transparent edge pixels <= 0.020"
+        },
+        {
+          "name": "decontamination_complement_artifact",
+          "pass": true,
+          "actual": 0.0,
+          "requirement": "detached saturated matte-complement pixels among alpha 1..95 <= 0.020"
+        }
+      ]
+    }
+  ]
+}

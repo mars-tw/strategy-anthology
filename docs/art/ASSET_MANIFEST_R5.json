@@ -1,0 +1,1269 @@
+{
+  "support": [
+    {
+      "path": "docs/art/r5/masks/archer-portrait.png",
+      "bytes": 4826,
+      "sha256": "2857f29c783cd38693779919d5c1aa4b4872ba2136c98a0b948504041b852b4e"
+    },
+    {
+      "path": "docs/art/r5/masks/archer.png",
+      "bytes": 179743,
+      "sha256": "ddd8cd550cf77b82b3cee2d1c41dc0b790ce456b45119ac9d8aeb776411faf5b"
+    },
+    {
+      "path": "docs/art/r5/masks/bridge.png",
+      "bytes": 20876,
+      "sha256": "55d16c6cfbcc7a1ccb6cfe2e900c14a1c3cd71ca3c49f9d852bf134e1ee96867"
+    },
+    {
+      "path": "docs/art/r5/masks/card-cannon.png",
+      "bytes": 15543,
+      "sha256": "a327e267077f4913426ff563e984776f622f3015ce3938c233ba7abfe23791ac"
+    },
+    {
+      "path": "docs/art/r5/masks/card-frost.png",
+      "bytes": 13490,
+      "sha256": "289d92d93ef2da03a789705e23d7bd67ce0eba0be6e60685b07f22410039959f"
+    },
+    {
+      "path": "docs/art/r5/masks/card-tesla.png",
+      "bytes": 17344,
+      "sha256": "fe06b6f949bca558db9a2f70d0e9b9bd4e5cc03d554d7d7b57af74187fc4350d"
+    },
+    {
+      "path": "docs/art/r5/masks/commander.png",
+      "bytes": 47905,
+      "sha256": "6a025110b2397be086bc788bc575e6c3ca8caf2e76a5ad25bac7708a944cb846"
+    },
+    {
+      "path": "docs/art/r5/masks/enemy.png",
+      "bytes": 143069,
+      "sha256": "7ca2d870f500fd905122b0913791d06abf37fd7d484569f4d9edd480329aeafc"
+    },
+    {
+      "path": "docs/art/r5/masks/gear-flag.png",
+      "bytes": 3343,
+      "sha256": "cff51315f14946884b1439f46773edb84cdbc8fcf3f1ef18fd4a4ff99b12287e"
+    },
+    {
+      "path": "docs/art/r5/masks/gear-horn.png",
+      "bytes": 2236,
+      "sha256": "9b0e50c474d190d7dc51acee64e13ee878eaeeecd727694198820889127a5ed6"
+    },
+    {
+      "path": "docs/art/r5/masks/gear-pack.png",
+      "bytes": 2652,
+      "sha256": "3020902b75cbc2921c982a2e4435af0b72d9d8e62d23dec47ae0ca5c6a764c46"
+    },
+    {
+      "path": "docs/art/r5/masks/hound.png",
+      "bytes": 134245,
+      "sha256": "5da3297e3a0ad09f19a749d325a577b490de26d6fa2b9f1063c465e7a9c6f5ba"
+    },
+    {
+      "path": "docs/art/r5/masks/logo.png",
+      "bytes": 48639,
+      "sha256": "11070d7ce537b171180ee08a9e999a0df973e1ce54f940b99126d89a628e0d5f"
+    },
+    {
+      "path": "docs/art/r5/masks/mage-portrait.png",
+      "bytes": 8650,
+      "sha256": "635c39aec5308b0fec5bbf0b1fff26ce0c81eb91a1e43ac32a1d3a698a89a0f2"
+    },
+    {
+      "path": "docs/art/r5/masks/mage.png",
+      "bytes": 193600,
+      "sha256": "17581a96f203b7db7f51a677b50ae0110fac87e1ccdc6b0ebf84cfba4e369495"
+    },
+    {
+      "path": "docs/art/r5/masks/seal-cannon.png",
+      "bytes": 3301,
+      "sha256": "3899e3551cf5cef77ed00a57119557c79ef59dbafe3f14610a49b0cd94eb48e1"
+    },
+    {
+      "path": "docs/art/r5/masks/seal-frost.png",
+      "bytes": 3251,
+      "sha256": "8e8a8439457014a4608f0db71f8958b549dcc3c0f80296d8d036ff7a1e7aa363"
+    },
+    {
+      "path": "docs/art/r5/masks/seal-tesla.png",
+      "bytes": 4481,
+      "sha256": "2126883545bb69a696d45cd37c0d5ed2225a1ae2fbdae0cf6a5ecd57ab1f8e10"
+    },
+    {
+      "path": "docs/art/r5/masks/warrior-portrait.png",
+      "bytes": 6117,
+      "sha256": "3e98cfca2e9f831b07cd5c9047f627272aa0dfa58279fa85a0364848e4b41a3b"
+    },
+    {
+      "path": "docs/art/r5/masks/warrior.png",
+      "bytes": 145838,
+      "sha256": "f2ddb2b3b9f381efd9045b71d4c4ade6e27521f860b114b2680495ab28c2b145"
+    },
+    {
+      "path": "docs/art/r5/masks/worker.png",
+      "bytes": 134866,
+      "sha256": "ccd1c83051c619224c988b31e4a537656b1af97a9b9f7fa27bf00f8c3cbec5e8"
+    },
+    {
+      "path": "docs/art/r5/opaque/archer-portrait.jpg",
+      "bytes": 38036,
+      "sha256": "d30345c64d45133964cd60d4ca6e957016df984cbd87d79eb56a84688573b404"
+    },
+    {
+      "path": "docs/art/r5/opaque/archer.jpg",
+      "bytes": 80114,
+      "sha256": "bb33b8be33d65df81bda746a216f47f5a85291d3c1538a98fa3f1746843165e5"
+    },
+    {
+      "path": "docs/art/r5/opaque/bridge.jpg",
+      "bytes": 139080,
+      "sha256": "a8c1a3cc854221ff92e9684349ca9c37e899116437706140d841b2b2c0a7ad95"
+    },
+    {
+      "path": "docs/art/r5/opaque/card-cannon.jpg",
+      "bytes": 129391,
+      "sha256": "4505aa50a18803e4b8e37c9fec637b97c374f337302246a3249e8461903b490c"
+    },
+    {
+      "path": "docs/art/r5/opaque/card-frost.jpg",
+      "bytes": 114507,
+      "sha256": "ce40eb33390ac70a0c0bd2b4455597d19459a194ee2d9eb2944f641c86286885"
+    },
+    {
+      "path": "docs/art/r5/opaque/card-tesla.jpg",
+      "bytes": 130925,
+      "sha256": "d8b9e7ef8dd3b0fbb5f4aea4883e58c71b0221e493f86ed9cd5fe3a7e7265223"
+    },
+    {
+      "path": "docs/art/r5/opaque/commander.jpg",
+      "bytes": 122885,
+      "sha256": "eb8321fafd8e558830b19dfd285aa51b90d4da87c5f49156c861a604787ef38e"
+    },
+    {
+      "path": "docs/art/r5/opaque/enemy.jpg",
+      "bytes": 77767,
+      "sha256": "04d2fcf7a29e58f23a80ac07d96937351b7f2265498a67bebfdef42c1d8fbc22"
+    },
+    {
+      "path": "docs/art/r5/opaque/gear-flag.jpg",
+      "bytes": 49073,
+      "sha256": "ce51af4cb0d0dcb2bd53bff75ea59f883ad06c9ffb71ae53bee1ce9a5c30dc6d"
+    },
+    {
+      "path": "docs/art/r5/opaque/gear-horn.jpg",
+      "bytes": 41665,
+      "sha256": "f15a76c652b8315e6bb2c0309de2ee0bb871a83432889b6c9a5a85a0595e1765"
+    },
+    {
+      "path": "docs/art/r5/opaque/gear-pack.jpg",
+      "bytes": 47212,
+      "sha256": "0fb1d242609d32ee4924dece1d0548544b76d390e26329e30ec774a2b8b79b08"
+    },
+    {
+      "path": "docs/art/r5/opaque/hound.jpg",
+      "bytes": 76130,
+      "sha256": "51bf03ff993f72a3533709288a8c26972906b1f8ca90949e8cb8ee7ecd3fde39"
+    },
+    {
+      "path": "docs/art/r5/opaque/logo.jpg",
+      "bytes": 86563,
+      "sha256": "0cf7ac494d2b2387d607b3af20f54522557353978437f59d5caeb67bc1a0897b"
+    },
+    {
+      "path": "docs/art/r5/opaque/mage-portrait.jpg",
+      "bytes": 52179,
+      "sha256": "60e8bef2e741a269031191133df12f23a25ba5a43d215fdbc3d54bc468f2b464"
+    },
+    {
+      "path": "docs/art/r5/opaque/mage.jpg",
+      "bytes": 79579,
+      "sha256": "3bee333ea2da0c429829250ce7c70fda076ad0b5c657509e12d02e6d1994e4ab"
+    },
+    {
+      "path": "docs/art/r5/opaque/seal-cannon.jpg",
+      "bytes": 81172,
+      "sha256": "3d268f0db25523b9dbc9398e08417ddb9d653083375a4950a736fb92520e9934"
+    },
+    {
+      "path": "docs/art/r5/opaque/seal-frost.jpg",
+      "bytes": 75361,
+      "sha256": "be5515a5974c1395f8f898619aafb2f0e2ac09639df1eabde567ef34627863e8"
+    },
+    {
+      "path": "docs/art/r5/opaque/seal-tesla.jpg",
+      "bytes": 79167,
+      "sha256": "b347b11aa50f201ddce525dd3a016da53030e7194bfda30f6360203a826009e5"
+    },
+    {
+      "path": "docs/art/r5/opaque/warrior-portrait.jpg",
+      "bytes": 48162,
+      "sha256": "859cd9acadd5fd35582ba12e507294cd87ced327a936924d0e2c01ebe1429ac4"
+    },
+    {
+      "path": "docs/art/r5/opaque/warrior.jpg",
+      "bytes": 78406,
+      "sha256": "da8fae28d0adc861f725417472104b52f7b0f35b00529e6d327f3a11942aeb5f"
+    },
+    {
+      "path": "docs/art/r5/opaque/worker.jpg",
+      "bytes": 66273,
+      "sha256": "457e76d9a75bcdf957f79b371953e55c84de08df498a6f154bf4790c4e79bf1e"
+    },
+    {
+      "path": "docs/art/r5/rgba/archer-portrait.png",
+      "bytes": 33165,
+      "sha256": "25f8d4e6c28f03e9a21d233cc69f6ddb7929145d80c518a51022e93455b35428"
+    },
+    {
+      "path": "docs/art/r5/rgba/archer.png",
+      "bytes": 975768,
+      "sha256": "8d6d6201826b7e6e148b4f58d2dbe152e0b7c2f010dffdf4e04299fb11453215"
+    },
+    {
+      "path": "docs/art/r5/rgba/bridge.png",
+      "bytes": 455234,
+      "sha256": "7e5df4c5a024b74dc70d479b0b8d41beb9b9062e4495371ecb2d904f2dd0b831"
+    },
+    {
+      "path": "docs/art/r5/rgba/card-cannon.png",
+      "bytes": 123291,
+      "sha256": "069b13e355d15b6197eca28a995102bebe7eba6198e66fddebcd18d4ee70a757"
+    },
+    {
+      "path": "docs/art/r5/rgba/card-frost.png",
+      "bytes": 116636,
+      "sha256": "fb2fad1801a84d3c80a3ec9671abe69e23e7294164c20c648afbe1e2fe8f64c1"
+    },
+    {
+      "path": "docs/art/r5/rgba/card-tesla.png",
+      "bytes": 138863,
+      "sha256": "7116dbe6b60d93072afee33c166835adc3523bbe41c8abbbf8404b7a0d82e0dd"
+    },
+    {
+      "path": "docs/art/r5/rgba/commander.png",
+      "bytes": 547631,
+      "sha256": "1ac7325064538f6101319a8526986e2b7eb3ed30e4ccf9a58003ac466a7821c9"
+    },
+    {
+      "path": "docs/art/r5/rgba/enemy.png",
+      "bytes": 1017371,
+      "sha256": "2a63e29badcbb35d4486d50c09435b40147ac666db8c7ba2cbe8b85c726be586"
+    },
+    {
+      "path": "docs/art/r5/rgba/gear-flag.png",
+      "bytes": 16563,
+      "sha256": "124d7174862024e3a7b2cdf3dd3355ae3fb0ec78b0b867925ca68a450e8b0fa6"
+    },
+    {
+      "path": "docs/art/r5/rgba/gear-horn.png",
+      "bytes": 13249,
+      "sha256": "c9b90e4cd263bce27e0589c3da4dbe3bee433554ca4d942c61ea7363696fd071"
+    },
+    {
+      "path": "docs/art/r5/rgba/gear-pack.png",
+      "bytes": 17026,
+      "sha256": "ec77cb415ae5f2d8540cba65a742130722b6448b2ef504cba075e853e5438145"
+    },
+    {
+      "path": "docs/art/r5/rgba/hound.png",
+      "bytes": 963528,
+      "sha256": "826d5b2037bc37b5fb687646e50760353b67206ab83a6bd8183508f01af5d287"
+    },
+    {
+      "path": "docs/art/r5/rgba/logo.png",
+      "bytes": 326672,
+      "sha256": "5cf6483af1ece1c892017f42466554d2dad8b52af9b48149d24570c249363bbb"
+    },
+    {
+      "path": "docs/art/r5/rgba/mage-portrait.png",
+      "bytes": 57214,
+      "sha256": "25392dcf336c25a340baa4df2a3f866213890cb28241b0277e8bf89324900a27"
+    },
+    {
+      "path": "docs/art/r5/rgba/mage.png",
+      "bytes": 1023852,
+      "sha256": "4a6aa274517286cda5c7344d0b98e5c5a24b25b069717e8400017ab6e087ef93"
+    },
+    {
+      "path": "docs/art/r5/rgba/seal-cannon.png",
+      "bytes": 27552,
+      "sha256": "2d4708abfc360f86e315ee8c2a7d9184f838fc9dcaf163d24666985f61270a31"
+    },
+    {
+      "path": "docs/art/r5/rgba/seal-frost.png",
+      "bytes": 24859,
+      "sha256": "21dcf453ba0d2b1ad85b6c435870d72a2a9b738fd0d6426fef823d07bd330378"
+    },
+    {
+      "path": "docs/art/r5/rgba/seal-tesla.png",
+      "bytes": 26090,
+      "sha256": "e4d2f2167d6c11378c6ba24f07d4bdafbddbbb6813652d2939bfea7c31f2465b"
+    },
+    {
+      "path": "docs/art/r5/rgba/warrior-portrait.png",
+      "bytes": 46501,
+      "sha256": "f47c73ca8939b0e4c86bb150b31f3536a9a5fc0ab122ba45352f7511dead158c"
+    },
+    {
+      "path": "docs/art/r5/rgba/warrior.png",
+      "bytes": 954913,
+      "sha256": "506dba677e5d424f69d21f4b04fd351964c1fdfc621636071e25103d1e70af5c"
+    },
+    {
+      "path": "docs/art/r5/rgba/worker.png",
+      "bytes": 737103,
+      "sha256": "134a14d35b0dbb360df45297b088226f7b5a5dbef8463257ab86f50c275e767e"
+    }
+  ],
+  "status": "VERIFIED",
+  "version": "0.6.0",
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "modelNote": "Built-in tool did not disclose model slug; no inferred gpt-image version.",
+  "generatedMasters": 17,
+  "sources": [
+    {
+      "id": "unit-sheet",
+      "path": "docs/art/r5/sources/unit-sheet.png",
+      "sha256": "aa4d757af906328007ea25eb32ffd563398d87fc0ec8791cd44a908b504fce68",
+      "bytes": 2442431,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "warrior",
+      "path": "docs/art/r5/sources/warrior.png",
+      "sha256": "2f62c34c999dae21da622335303a05e192fbcdf4361ca92a416c3ddf7a37d388",
+      "bytes": 2672239,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "archer",
+      "path": "docs/art/r5/sources/archer.png",
+      "sha256": "7fa1cb1a93e4c1ad6c648b2afc35f66c9e1197acd4ec865c0ca3ad06bb14fc5e",
+      "bytes": 2784084,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "mage",
+      "path": "docs/art/r5/sources/mage.png",
+      "sha256": "9edefc372a65a4b5cb91abe45d2ee08a428b775a4bda2a5855739c2d4ae45bae",
+      "bytes": 2886991,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "enemy",
+      "path": "docs/art/r5/sources/enemy.png",
+      "sha256": "545582e60bdbdefa674b2736bdb33a1b12520a101c76794308cb43691a3dd2c6",
+      "bytes": 2674228,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "worker",
+      "path": "docs/art/r5/sources/worker.png",
+      "sha256": "1cadbaa137a709a18cf4a36f06cf8eb213737f96fa4a75a926221a177f01baa1",
+      "bytes": 2387391,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "ford",
+      "path": "docs/art/r5/sources/ford.png",
+      "sha256": "522ee79fbbc71131c18eb51d441e6dd33a6882bcf4fd832a36852a7bec437f37",
+      "bytes": 3970324,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "hound",
+      "path": "docs/art/r5/sources/hound.png",
+      "sha256": "09ada4e0c481de1b16b03fa3b7ac0f62cb3d3442062a57220f186b38733e6f27",
+      "bytes": 2694160,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "bridge",
+      "path": "docs/art/r5/sources/bridge.png",
+      "sha256": "393900283e124e3f2dc62b673623d4aa7cdf4b1f6a6bd2e798273de3113b1884",
+      "bytes": 2201152,
+      "size": [
+        1817,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "hound-gear",
+      "path": "docs/art/r5/sources/hound-gear.png",
+      "sha256": "3cdf9bbc56e1eefb379cc9c432c752fe3608f0584143b33cdbfe0a783755e55b",
+      "bytes": 1345195,
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "panel",
+      "path": "docs/art/r5/sources/panel.png",
+      "sha256": "1da414d7ce2f00bc78da70114bda5a5517f87211e4e91eead9d220c2a9dfa360",
+      "bytes": 2514814,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "commander",
+      "path": "docs/art/r5/sources/commander.png",
+      "sha256": "827233fecc8e62e48acad7cddd78340be6bdf99add83890e30a9067f5bf9ec0d",
+      "bytes": 2608448,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "tower-cards",
+      "path": "docs/art/r5/sources/tower-cards.png",
+      "sha256": "60e6a453c490ee1515a97275b6568f10d9be977a424e4ff79df82a3aec2e4d65",
+      "bytes": 3127693,
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "icons",
+      "path": "docs/art/r5/sources/icons.png",
+      "sha256": "9fef4be5e85368995daa220d3fcc56a9da11fd8edeeffb7baddedadbe1ff5737",
+      "bytes": 2070222,
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "logo",
+      "path": "docs/art/r5/sources/logo.png",
+      "sha256": "5f7e6e04698a19a8079954b206478ab480b76884d9e44f06622cdd60550240d9",
+      "bytes": 2185819,
+      "size": [
+        1942,
+        809
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "id": "app-icon",
+      "path": "docs/art/r5/sources/app-icon.png",
+      "sha256": "477f1b8f4b5756e58a96d32c67e80f1f6398c06bc2786fe18d2434d3f8aa68ec",
+      "bytes": 3023995,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "bridge-plan",
+      "path": "docs/art/r5/sources/bridge-plan.png",
+      "sha256": "96be0a5f8a5e8b69f58048465cf6d4da066416225f97a25cd0f86c66d91e1d33",
+      "bytes": 3275899,
+      "size": [
+        1484,
+        1060
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "public/assets/r5/actor-frames.json",
+      "sha256": "53a2406e4ffb6bf0e6abd742b3a321210668bb0a947f6792f7c391aa78eb39bd",
+      "bytes": 15039
+    },
+    {
+      "path": "public/assets/r5/app-icon-192.png",
+      "sha256": "b8f503b4dd8a85a5ab7c5d3507a0d88da501cf1e70f9b76987edc839cc78cd20",
+      "bytes": 87350,
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r5/app-icon-512.png",
+      "sha256": "bda80608bd7aa5cd28e22fe414a42cf0a09e1f70a7f693670da553cfc2a28bda",
+      "bytes": 546979,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r5/app-icon-64.png",
+      "sha256": "bf981fcd44018d0967be61ef6ef83e9463728de0556692c07be1533b6c8bb55e",
+      "bytes": 10662,
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r5/archer-portrait.webp",
+      "sha256": "006e21060f5175bbe56aa41f84f7a922a57eba49b43bf0ca61025d5c7b4cb9ad",
+      "bytes": 9486,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.23093377976190477,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/archer.webp",
+      "sha256": "5d72c71d01053b888f40eb7c6c46f78456acfb46cce127d0a01ac084f694ac9c",
+      "bytes": 336930,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1637134552001953,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/bridge.png",
+      "sha256": "7e5df4c5a024b74dc70d479b0b8d41beb9b9062e4495371ecb2d904f2dd0b831",
+      "bytes": 455234,
+      "size": [
+        512,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.91510009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-cannon.png",
+      "sha256": "069b13e355d15b6197eca28a995102bebe7eba6198e66fddebcd18d4ee70a757",
+      "bytes": 123291,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.60174560546875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-frost.png",
+      "sha256": "fb2fad1801a84d3c80a3ec9671abe69e23e7294164c20c648afbe1e2fe8f64c1",
+      "bytes": 116636,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.54351806640625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-tesla.png",
+      "sha256": "7116dbe6b60d93072afee33c166835adc3523bbe41c8abbbf8404b7a0d82e0dd",
+      "bytes": 138863,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.648895263671875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/commander.png",
+      "sha256": "1ac7325064538f6101319a8526986e2b7eb3ed30e4ccf9a58003ac466a7821c9",
+      "bytes": 547631,
+      "size": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.5069758097330729,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/enemy.webp",
+      "sha256": "e2b3c0fee97bdd862c5abfe2ff66eaadcf2d2fef9319797d059b7e5632602397",
+      "bytes": 304474,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.18776257832845053,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/ford.webp",
+      "sha256": "6ae64434bf706c0672f73133030c18afbfc6ea4088510ea593b98841bf7c9129",
+      "bytes": 498300,
+      "size": [
+        1440,
+        960
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r5/gear-flag.png",
+      "sha256": "124d7174862024e3a7b2cdf3dd3355ae3fb0ec78b0b867925ca68a450e8b0fa6",
+      "bytes": 16563,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.2760009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/gear-horn.png",
+      "sha256": "c9b90e4cd263bce27e0589c3da4dbe3bee433554ca4d942c61ea7363696fd071",
+      "bytes": 13249,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.2225341796875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/gear-pack.png",
+      "sha256": "ec77cb415ae5f2d8540cba65a742130722b6448b2ef504cba075e853e5438145",
+      "bytes": 17026,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.32684326171875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/hound.webp",
+      "sha256": "ed0c052b0d408841275574c2b52d7ac3d6564218f0503b8fc6b715a67d11e5c9",
+      "bytes": 293122,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1732349395751953,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/logo.png",
+      "sha256": "5cf6483af1ece1c892017f42466554d2dad8b52af9b48149d24570c249363bbb",
+      "bytes": 326672,
+      "size": [
+        768,
+        300
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.392421875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/mage-portrait.webp",
+      "sha256": "5c14cb404dfea20cf4c90b103b87d9394d7f045b5524ec65d7aa7b77341ebd2f",
+      "bytes": 14676,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.44015066964285715,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/mage.webp",
+      "sha256": "2b386c1569c58f44adb0730a74d87fdd6cc09353c99c7026453dfc6381331ba5",
+      "bytes": 354240,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1775226593017578,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/panel.webp",
+      "sha256": "367533cbf208c33741d6481523be4f25306daddd659ad72c1fd996a311d2d2f9",
+      "bytes": 33632,
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/assets/r5/seal-cannon.png",
+      "sha256": "2d4708abfc360f86e315ee8c2a7d9184f838fc9dcaf163d24666985f61270a31",
+      "bytes": 27552,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.52532958984375,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/seal-frost.png",
+      "sha256": "21dcf453ba0d2b1ad85b6c435870d72a2a9b738fd0d6426fef823d07bd330378",
+      "bytes": 24859,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.4271240234375,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/seal-tesla.png",
+      "sha256": "e4d2f2167d6c11378c6ba24f07d4bdafbddbbb6813652d2939bfea7c31f2465b",
+      "bytes": 26090,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.385009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/structure-frames.json",
+      "sha256": "925400d8c8f57213f962a2b84014de1a3847c3c4318230ace9c8a844c0f3e29c",
+      "bytes": 392
+    },
+    {
+      "path": "public/assets/r5/warrior-portrait.webp",
+      "sha256": "abe980394f2fff59e8771cfc6b93511c2f1faf40e402836764898d740b7107a0",
+      "bytes": 11618,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.37209356398809523,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/warrior.webp",
+      "sha256": "dd406b35e942187f703e6684efe96b71101a73b3aa57ebd56d9c0ac1f9fb6986",
+      "bytes": 304154,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.17527071634928384,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/worker.webp",
+      "sha256": "be7cb517e1c459506f16dd1e54f68f693f16fe47f634f5e6462bb1d00ea3a51d",
+      "bytes": 244718,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1364771525065104,
+      "cornersTransparent": true
+    }
+  ],
+  "runtimeBytes": 4899438,
+  "inheritedActorGrades": [
+    {
+      "path": "public/assets/r1/archer-e.png",
+      "sha256": "d03ee27459a3eaf0093ad3bb137090e23ab2b3e605a1d0c2441599190e479b38",
+      "metrics": {
+        "meanLuminance": 0.3708688093127108,
+        "nearBlackRatio": 0.012536077665374188,
+        "meanSaturation": 0.5023867708653095,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/archer-ne.png",
+      "sha256": "6a80de14084a903440f571327a6f7eb38de1e4e184981bf10f8b5bb3dabad1b8",
+      "metrics": {
+        "meanLuminance": 0.40516235118742583,
+        "nearBlackRatio": 0.012428853525380416,
+        "meanSaturation": 0.5068857488401332,
+        "lowSaturationRatio": 0.004181670344987803,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/archer-nw.png",
+      "sha256": "5b3a068a593d41ec67ba3e36ec0b9c7f8b0fe8b5f2b1d714e15fbea810411a63",
+      "metrics": {
+        "meanLuminance": 0.40411536584866936,
+        "nearBlackRatio": 0.012142111974035006,
+        "meanSaturation": 0.5056573411791979,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/archer-se.png",
+      "sha256": "f7911e00490ec94fb61eba5bd5c369ec1683236b14653c8463e62f7d05d41a78",
+      "metrics": {
+        "meanLuminance": 0.43382652302068875,
+        "nearBlackRatio": 0.00923557828928673,
+        "meanSaturation": 0.4812514696131366,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/archer-sw.png",
+      "sha256": "b9a4bd299026cd2418a10145e0f8c0febf2d8cd71247818f3653dae2f020594e",
+      "metrics": {
+        "meanLuminance": 0.39776063875066403,
+        "nearBlackRatio": 0.0142681558274996,
+        "meanSaturation": 0.5229430520671903,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/archer-w.png",
+      "sha256": "464277720487217491c775a541f4d2c7ac6b46e1564b51eeb0e140ae20145598",
+      "metrics": {
+        "meanLuminance": 0.4005934067323811,
+        "nearBlackRatio": 0.009713901797211802,
+        "meanSaturation": 0.49562547823003567,
+        "lowSaturationRatio": 0.005738760427747606,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/ashwing.png",
+      "sha256": "8307ae6df0a6d730e72fe87f2c40d8cfb41aa68fb458bc88dbae1057da30dcc3",
+      "metrics": {
+        "meanLuminance": 0.4077958217439706,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5440183181952741,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/mage.png",
+      "sha256": "0c1095d50da99e57f068306e7e94ff241d1f788156c5e428e27be0f3c78468cf",
+      "metrics": {
+        "meanLuminance": 0.4342901740167049,
+        "nearBlackRatio": 0.047296893131871416,
+        "meanSaturation": 0.5793625392589654,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/miremaw.png",
+      "sha256": "4acd7dee069462903fd731d3a72b202571c3fc2bac0022ffbf4066797bc0b071",
+      "metrics": {
+        "meanLuminance": 0.47393103014296134,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4436890485524359,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/rootback.png",
+      "sha256": "beae62cf6ea83de974f7398be04ca7e4216a5c153fdb0e44a19575317ccb0e6c",
+      "metrics": {
+        "meanLuminance": 0.4418099952518223,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4831383338080095,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-e.png",
+      "sha256": "22e1277a80cef1e80fac6f8b5b3580c47246ca69e1b4e57a69cb95d90600c9b5",
+      "metrics": {
+        "meanLuminance": 0.40154523224619876,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4701436807013933,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-ne.png",
+      "sha256": "b01ac422182e2a9a527ec211d27aee8ed124d8bd5560c6d8973839766873c6f5",
+      "metrics": {
+        "meanLuminance": 0.4022600741275933,
+        "nearBlackRatio": 0.015541325798145067,
+        "meanSaturation": 0.5349078409478323,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-nw.png",
+      "sha256": "cee4ef24d47d953d845582b0162e2864df0fcc173f9fd49b0d657f5b110d14b6",
+      "metrics": {
+        "meanLuminance": 0.4082050831547022,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.48483595636817867,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-se.png",
+      "sha256": "7e58b68f3387a28a0039bac0ec6515af2ebf1628078194dd098e249921274117",
+      "metrics": {
+        "meanLuminance": 0.39197421477144173,
+        "nearBlackRatio": 0.013631225480417581,
+        "meanSaturation": 0.5152562379208393,
+        "lowSaturationRatio": 0.010151384178912605,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-sw.png",
+      "sha256": "99bf4d7f98f08d212faf9dbdd00fde8fdba0f598c7ceece78cece9c115b298eb",
+      "metrics": {
+        "meanLuminance": 0.41288700102847736,
+        "nearBlackRatio": 0.010499929054533416,
+        "meanSaturation": 0.5307102985923121,
+        "lowSaturationRatio": 0.00148985479827839,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/shieldBearer-w.png",
+      "sha256": "0007ac4ec6321167b90784c9b53482cadb2380958ce522f3e269a09302dcf48f",
+      "metrics": {
+        "meanLuminance": 0.400092540944985,
+        "nearBlackRatio": 0.00862498753614518,
+        "meanSaturation": 0.5203291826252887,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-e.png",
+      "sha256": "1a54912f27afd88ffe24ec37446068e2536a0a97a8190a49be63922adc44c74b",
+      "metrics": {
+        "meanLuminance": 0.43077825792013713,
+        "nearBlackRatio": 0.01509843760947243,
+        "meanSaturation": 0.5594452984725032,
+        "lowSaturationRatio": 0.008827856792545365,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-ne.png",
+      "sha256": "f3a12d730a0efc81c51f6d1538e97d7cc81d39af0ac7c160914b25e4d6d2f370",
+      "metrics": {
+        "meanLuminance": 0.45731942648608137,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.49670622378595425,
+        "lowSaturationRatio": 0.002355537002802791,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-nw.png",
+      "sha256": "3611568f9cbadecea0e0f09e37c96b777926b54c1769b47601e26e2346ecc1b0",
+      "metrics": {
+        "meanLuminance": 0.44537957006455126,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5318515232966962,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-se.png",
+      "sha256": "dfe194a7ee4f1eb6b25ba81f39b8d751037d4e7a37024e276d6a585dfbf0e17c",
+      "metrics": {
+        "meanLuminance": 0.48408769228117826,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5366515925484221,
+        "lowSaturationRatio": 0.0075881870385561935,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-sw.png",
+      "sha256": "39fb4b52d9af747c16ecc0495319e8ec05308086971be3dcc29e121d8d50a079",
+      "metrics": {
+        "meanLuminance": 0.48734105775810516,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5458150469108419,
+        "lowSaturationRatio": 0.006256778176357721,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/villager-w.png",
+      "sha256": "78cf8917c0976b4596e0556c30419eb819bbaa95a27f66fc208b460989fcba97",
+      "metrics": {
+        "meanLuminance": 0.4658504937719578,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.5422325761987964,
+        "lowSaturationRatio": 0.0013414244650271478,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-e.png",
+      "sha256": "2488414b07d1bebac55e2551719f9d5f8c860b3b731ee80f2a4a517c53709880",
+      "metrics": {
+        "meanLuminance": 0.3877753108723553,
+        "nearBlackRatio": 0.009939515352313442,
+        "meanSaturation": 0.5003255006205588,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-ne.png",
+      "sha256": "db0b056ac9a060f895943bc9d5b0cddb17cb5e57b761d694a7a7b20ae800daad",
+      "metrics": {
+        "meanLuminance": 0.3833912025655531,
+        "nearBlackRatio": 0.011470250874974266,
+        "meanSaturation": 0.4523970748265189,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-nw.png",
+      "sha256": "65e3180633885d8b03913ef5b2db88d2a5e3100765116abb136b6548eb531760",
+      "metrics": {
+        "meanLuminance": 0.3840746300143426,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.473869784954566,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-se.png",
+      "sha256": "9baa70becd98477ee3a42cf8e0f4e8d207125c5063e0ab792d21198c5165e409",
+      "metrics": {
+        "meanLuminance": 0.4076855259030728,
+        "nearBlackRatio": 0.0,
+        "meanSaturation": 0.4664067029001403,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-sw.png",
+      "sha256": "06818053cd826ecbd6d8fb8d6672146c124daabb5a35e87939229aa87e8f86e6",
+      "metrics": {
+        "meanLuminance": 0.40198609240590005,
+        "nearBlackRatio": 0.008333784295686996,
+        "meanSaturation": 0.48695180220472845,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "path": "public/assets/r1/warrior-w.png",
+      "sha256": "65970d077d937a3a82e09c9aef3d57364dd284a9cf80320fa04d6c8d68d42138",
+      "metrics": {
+        "meanLuminance": 0.3947206959025689,
+        "nearBlackRatio": 0.017099748533109808,
+        "meanSaturation": 0.4939940502605065,
+        "lowSaturationRatio": 0.0,
+        "pass": true
+      }
+    }
+  ],
+  "actorGrades": [
+    {
+      "path": "public/assets/r5/warrior.webp",
+      "metrics": {
+        "meanLuminance": 0.3454572972049486,
+        "nearBlackRatio": 0.07653884799965177,
+        "meanSaturation": 0.6991410023964534,
+        "lowSaturationRatio": 0.006340753853241293,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/archer.webp",
+      "metrics": {
+        "meanLuminance": 0.44085184558340945,
+        "nearBlackRatio": 0.04220987265969965,
+        "meanSaturation": 0.4917952622545878,
+        "lowSaturationRatio": 0.13984908679257008,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/mage.webp",
+      "metrics": {
+        "meanLuminance": 0.5000486366924437,
+        "nearBlackRatio": 0.015453819403407362,
+        "meanSaturation": 0.4501534778133602,
+        "lowSaturationRatio": 0.05669743104874668,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/enemy.webp",
+      "metrics": {
+        "meanLuminance": 0.37888526650101334,
+        "nearBlackRatio": 0.038188436468297636,
+        "meanSaturation": 0.3751829141374657,
+        "lowSaturationRatio": 0.18022856175399984,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/worker.webp",
+      "metrics": {
+        "meanLuminance": 0.3892437184348071,
+        "nearBlackRatio": 0.02661418056461381,
+        "meanSaturation": 0.635492096027827,
+        "lowSaturationRatio": 0.01327680983881487,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/hound.webp",
+      "metrics": {
+        "meanLuminance": 0.44084445482424184,
+        "nearBlackRatio": 0.015979447655748234,
+        "meanSaturation": 0.44715515184879345,
+        "lowSaturationRatio": 0.05643453527846591,
+        "pass": true
+      },
+      "distinctPosesPerRow": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "path": "public/assets/r5/commander.png",
+      "metrics": {
+        "meanLuminance": 0.38707301831305324,
+        "nearBlackRatio": 0.05685449282923086,
+        "meanSaturation": 0.5910279445034431,
+        "lowSaturationRatio": 0.004961098765494028,
+        "pass": true
+      }
+    }
+  ],
+  "frameContract": [
+    "idle",
+    "walk",
+    "attack",
+    "hurt",
+    "death",
+    "cast"
+  ],
+  "impactFrame": 2,
+  "postprocess": "Pillow alpha cleanup<20, crop, uniform .72 sheet scale, common neutral body scale, encoded color grade and WebP compression. Generated alpha preserved. Original masters plus masks and gray composites retained. Six right-facing authored atlases, left facing mirrored derivative. Rejected narrow bridge master preserved but not shipped."
+}

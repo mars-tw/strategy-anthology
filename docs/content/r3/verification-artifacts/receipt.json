@@ -1,0 +1,1651 @@
+{
+  "status": "VERIFIED",
+  "sourceHead": "9971895c565a4b586f6f84258b10970da099404c",
+  "files": [
+    {
+      "path": "docs/art/compare/after/1024x768-defense.png",
+      "bytes": 893031,
+      "runSHA256": "8a46509dcf1653c411b55e8557d897aa694b7a2b697aadcf3eaf70892fe79d6b",
+      "restoredSHA256": "1e39ba86cafee196635048ee0376a897d3091c7b97d65c728ad6afde153896d3",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1024x768-opening.png",
+      "bytes": 786105,
+      "runSHA256": "eb3e3f1ae7025fe329d3e5e11f2257c1bd34da5d5fa87d3c6a6a9b6511ca3ece",
+      "restoredSHA256": "5a05b9961f5f69477582dccb9c451c7e51d4a95b5b3f072aac7cda20605ade31",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1032x1376-defense.png",
+      "bytes": 1729550,
+      "runSHA256": "b8b5bcafc94e4f4af852d8e9502028ae32335d5054c8670b17fee01a451a4f0e",
+      "restoredSHA256": "2eb0d4ec366ca03194823d24374f646bd097889d844913d161d6729871558eb9",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1032x1376-opening.png",
+      "bytes": 1407957,
+      "runSHA256": "d934cee08e0fcd6d70d7f1affbeb4e2a062a5b561a4f5f8d73d6ea7525a07f59",
+      "restoredSHA256": "0c52f16444523348c50786be14258d39ef8d601313cae9b1340856ede814a193",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1280x640-defense.png",
+      "bytes": 1064725,
+      "runSHA256": "66a35ed9e54cd14f1549893205b1ca9b7c60dfdcfe3b189ef6d2a1354acc2d61",
+      "restoredSHA256": "b3eec10c6273942dc63c75e493eca14b054b35a6b082b300a2d7cdf72823b8ab",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1280x640-opening.png",
+      "bytes": 941276,
+      "runSHA256": "e8e44136f60950c3858a63028226730a4bfae44f546b38454cee55d412c25208",
+      "restoredSHA256": "61fc4cf0afafc41b020b1b9051374947e3a54de8817eddbb7c45d0a9c3463776",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x600-defense.png",
+      "bytes": 1058502,
+      "runSHA256": "44050f3d7044d645354196f896d519a4cac3bc2374f145b5b45798f406b55128",
+      "restoredSHA256": "5faa9f8899c5b899e2adf1b161ba54e2812e5521c6371a5c6c769db369b9c6e2",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x600-opening.png",
+      "bytes": 928451,
+      "runSHA256": "c894b9aec661be9d665b2278763a0085ce8f24596677c2834551b22fb913ce69",
+      "restoredSHA256": "c99c9ab4a1a0f861281e53b4dde148b4b3f5345fa7b583000a0680840a563af8",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x768-defense.png",
+      "bytes": 1270312,
+      "runSHA256": "7464b64136f52690a3d33367eceedcd7b0e72ccd41c4cd2d4adeeef4fd11391e",
+      "restoredSHA256": "006bf47f9bc4b73148aa692810cbc8c31b5bfd2f42a76abe06886e220a969b4b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1366x768-opening.png",
+      "bytes": 1127964,
+      "runSHA256": "5c1dbddc8b7ec5d7660041cb1ceae530d7e0e8df936844ad9feeb6dfc973cce7",
+      "restoredSHA256": "6ffc6af1f0173d2fecc602324b21a69c46d3c2c9ec5519741cdaa773a37a961d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1920x1080-defense.png",
+      "bytes": 2601376,
+      "runSHA256": "c2f0405c367e4b76807c819bc823f696e58a26f14b91aeca8598f43a87e4536e",
+      "restoredSHA256": "02372984ab53f1cd44cbbaaef251edd4d5c7e2d072e42151f62314e327ed37de",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/1920x1080-opening.png",
+      "bytes": 2404848,
+      "runSHA256": "5b949a4a878e316dea58c231e18f1875a74805c91fc83e546f0545ad1c0c0f56",
+      "restoredSHA256": "cc45bd26782b40edf8f161d68212e6b5920862d3b70399d060c74250a134894c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/320x568-defense.png",
+      "bytes": 207062,
+      "runSHA256": "5022e8296c4104b497cabe5157c7908ffde319f2dd8188b870b24543f6d023fe",
+      "restoredSHA256": "e4a1e83c5ce5526be609e9e21029ebb694dd6ad6f54fd9bbd5737f24b54bf542",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/320x568-opening.png",
+      "bytes": 124378,
+      "runSHA256": "50f2028f74893f9fba04994116f93a18a0e2a5e0dd68651b876c747129a6998b",
+      "restoredSHA256": "170446aec14983a87aa606b3aacd2b7794afc97c74b3d8b4ee1885ad80124662",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/390x844-defense.png",
+      "bytes": 407154,
+      "runSHA256": "0c177ff9d649ed13dcca2a383c84d56c971b6ae209cecf50ddcc69a6a78ec979",
+      "restoredSHA256": "5f5fdb6770700ef416bf374c40d3023b49a0c08972e5f0961184d69fdcdbad1d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/390x844-opening.png",
+      "bytes": 320783,
+      "runSHA256": "ec5126b70b35f7a4fb34d9c9c4b65e408d47368fab020e8a275d782a88402d6e",
+      "restoredSHA256": "09eb52f675ded9142fb173b0ba3f1b99c3173bd4aebd19a2247eba3a7d445bb6",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/768x1024-defense.png",
+      "bytes": 817603,
+      "runSHA256": "26ee3bf2d89aec9898b22ca1bd1b1a5b79e1b0e801f33e8e29345154a823bb40",
+      "restoredSHA256": "9f83038b86f20dcd6b1a899fd353342babf82b72691f4b55b3a65b0156fae37f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/768x1024-opening.png",
+      "bytes": 647563,
+      "runSHA256": "36dd84523857a20e6d52a38f2fccc7bb6a3c3c330ebee77efdf6f4a865ad0337",
+      "restoredSHA256": "c0df9c4a86e69b9c6b48f4a8d15b19fb040b8158977c483d2b1835d1575cd770",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/844x390-defense.png",
+      "bytes": 361889,
+      "runSHA256": "d719c76e7af1ed8e88c61872b77d56c0acef713ca3970670f08de5b43ae92235",
+      "restoredSHA256": "7d78aa533680b45d0695e1ab8196ca74a2ec4c16805ff6eb708228a675e2acea",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/compare/after/844x390-opening.png",
+      "bytes": 303418,
+      "runSHA256": "7ec2581d346e336220768dbadb9b13d27cd5bb4c73fa3e031797437c34c1aceb",
+      "restoredSHA256": "2497e79d0e73736cfc1b19adb98533f891d57fea600819a72b75ad3a35c0d0c9",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-0.png",
+      "bytes": 408182,
+      "runSHA256": "f4d0cd4730e3b87fe0364ce88817ffdc1971d30b3fbd4b18a70642726da2c2ac",
+      "restoredSHA256": "d6795bd93352fd4af506ac0ac7a8acc9f8265bbfd37bdd825fa8f2bc4b39d8f7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-1.png",
+      "bytes": 409409,
+      "runSHA256": "01224aa21417a504fc7d4241e724b787b8959ec8eccd359189464e3da3412095",
+      "restoredSHA256": "03df3096beae091565b2afc2f2e6a81f1397572b5bc79f36876e5ff117422125",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-2.png",
+      "bytes": 409743,
+      "runSHA256": "8375fc5f810b421e882a92c3b99fcf85ea95cef1fc82ef3d8b459483eea8089f",
+      "restoredSHA256": "641fb837e0c5ad3f2cda8aa41d0bc31dce8d495573b5633dc63b15d25cd0cd9a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-3.png",
+      "bytes": 411286,
+      "runSHA256": "c37f29e9a0f78d55bf00ad6bdfa207d9f98c4d67fd955680edcc31e630f6e740",
+      "restoredSHA256": "c9c26f2550f26bb5f5974074c2e3caa9ae375691517e76d52b0c0fe90260c484",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-4.png",
+      "bytes": 409977,
+      "runSHA256": "7d8213f2764dc54ffc92282840174b8ba95ea858223de484d190cd3b9ae96aa3",
+      "restoredSHA256": "4eb686ffac3ef79a78831081d22097e359d3e85be435e569f4d7d13c1d0ccdfa",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/defense-5.png",
+      "bytes": 409803,
+      "runSHA256": "94fbf3548bb410dd3fee11f2ed1778a0742a8d4c0057f7d572efa14850c4c187",
+      "restoredSHA256": "ddeae5e297e2a410c6255f1b391b47fe243d05c89cc92bf60617c157dca89498",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r2/visual-audit.json",
+      "bytes": 23828,
+      "runSHA256": "d61817d64ca3148e21e1a285ffb5361767e85d3d8009c65b964e27adb221a4ab",
+      "restoredSHA256": "84c01d3dfbd85093fc1cf93f105a32bf817e3082fe052c57ea04fd14b2e04168",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-0.png",
+      "bytes": 5519814,
+      "runSHA256": "c745eb7651a2be7ececbbae559bc2dd5f8b107c9fbd8bf352d2800207956d19e",
+      "restoredSHA256": "fad6ab959590de69f067bcdff8f9e77052f125e9559ca2fe80fbe80e13aaffad",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-1.png",
+      "bytes": 5510904,
+      "runSHA256": "6b2c0fb65eb85b02ae0f2b0d67a60840cbcd0230df53e9e7f40b1ef5b8cb17d3",
+      "restoredSHA256": "e16b7e0ba96a0ad206d9987a9a2d6a7bc923fc3cd0c33f7e7358e4a9727d94b5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-1.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-2.png",
+      "bytes": 5511019,
+      "runSHA256": "bf184da75b9eb18a697521af85a39c7481be3c4220f64d69ad6bc4130dea5631",
+      "restoredSHA256": "f3bebc5e07f839dfd284cbf619bd7a48e9ee71cfd4b7dfc07ed5c644ed373d3b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/ipad-defense-3.png",
+      "bytes": 5509907,
+      "runSHA256": "0684c0a17334d201450dba8ece1172953eb6df4278cc2fe8d0f6c632bb746813",
+      "restoredSHA256": "e6321f6e53286595055bcddfd3c35b9d64e5e94d62aaaac865771a93e7bb30e9",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-0.png",
+      "bytes": 3316852,
+      "runSHA256": "d0b9e4fbf926f7853f5b86c54d5920f6e367610adf14dfa221a8b09f7461a869",
+      "restoredSHA256": "cf2a78d6dca07df5bae1dfc09a0a3302512cd46b52e96c602fc2241d92c7f435",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-1.png",
+      "bytes": 3300042,
+      "runSHA256": "8f0b57e51ba05fcca2162d1662c282b39e339734e28d89fa072a661014092c73",
+      "restoredSHA256": "889fb4124003de0ab4195d33142d57a4bdf2bb6d729346dfd67c8635b29da135",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-2.png",
+      "bytes": 3299293,
+      "runSHA256": "7b91ee4d49fe2862862953b7d900b61b97f5ad0752ed07ebbaa5583323de4402",
+      "restoredSHA256": "bea4bb6998e16c8f53cb796ce3a246ee5173d60e6aadb6c53ab45af3171aa623",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/iphone-defense-3.png",
+      "bytes": 3300789,
+      "runSHA256": "5f6922f660c9d4cd1c7094c358638614684dd173ac3f06ae4c8d9305e59125f0",
+      "restoredSHA256": "22e8cb56325378756761be19153de3eae8d045640bc13df09924cf9e1e5babce",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-0.png",
+      "bytes": 385056,
+      "runSHA256": "152a726db2496e356d9bc423fa148e08d67624438c4b446a64b653842f41ec76",
+      "restoredSHA256": "f1b7d0327e2082af2816554903785069a4ade5cc8a4e01511a29c53b30a00845",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-1.png",
+      "bytes": 383429,
+      "runSHA256": "b932a873d50fdaab3b38321ec4e1341922f27273b80e48602bf9571c217548e3",
+      "restoredSHA256": "ca41b3256fe58d862454b38ab364a5000aaf8597d4b2ecdb9a726b3352043460",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-2.png",
+      "bytes": 383523,
+      "runSHA256": "822d07243db897646768bb8ed464fd376cc2f266fe11ddc31dcd78f4778ff8e4",
+      "restoredSHA256": "ca62e1c0f96cd0a2acc94df6936b3fc9dec573aec467e8da13cf341f1841c894",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/phone360-defense-3.png",
+      "bytes": 383714,
+      "runSHA256": "5364b4c6b09f925d830597296c0e0a495074648b87cbcc2845e9a74f1d07e34a",
+      "restoredSHA256": "acb4f597cb856eddc2d51728ec718fc51efcb9bc51d46b35d9200e8dd1b61003",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-0.png",
+      "bytes": 408369,
+      "runSHA256": "df5f0c6521cd36e89275fb86b1f8b4523a9a4a5b2dfe909570d735b8b22149a1",
+      "restoredSHA256": "e397ba2d249fc9f3e09f6a7a0db6a58d0d3dea30a94837823dcd405fa99ded91",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-1.png",
+      "bytes": 409519,
+      "runSHA256": "8099398d611d2e620e61c6f1688a2840c1c117c2f5e76cd25398823f9b08b445",
+      "restoredSHA256": "fe82df6ebdcb96316e66d158eb997cf81f929e5d5bf143953f1615ee32e5aa7b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-2.png",
+      "bytes": 409230,
+      "runSHA256": "8e9c6e54061b641fb62681547b91b9794da1da92d92a39f3c467350c04dbecf2",
+      "restoredSHA256": "dab3d31296e997473f2246389bd61071c78009c4dacac525a40076d96838736f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-3.png",
+      "bytes": 409318,
+      "runSHA256": "7b2bc55d5b59f57bc946e5662295a3fadc3dd55c8926675e914615dd0bdd0321",
+      "restoredSHA256": "1c651f7680529d42aea4a5c812a34e3f159e17eb1cf71a03557bc5c7fb5b735d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-4.png",
+      "bytes": 409390,
+      "runSHA256": "aa1ab3b815b1d08211150d244d58a83654c66aa9081971b9a4133a6ebb0e57b2",
+      "restoredSHA256": "92f1bc8377623faaddbe905a6360cb53934ecf929295cb79c087f7e1f495dea4",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/real-5.png",
+      "bytes": 409942,
+      "runSHA256": "c7126052045b98728273fa9ae582ec0b0e6def79845a317cb8b0055c7f99ffc9",
+      "restoredSHA256": "5a11e750871ae3e41c433017dfe0cc758891a308a5594e011ab252625c16dbba",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-2.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-defense.png",
+      "bytes": 384969,
+      "runSHA256": "778088b767c9a33061c1fb42b85887a92dc343ce9cafd498b3ad7a07fb228453",
+      "restoredSHA256": "9bf3bc64c9e410f261691231b5fff3c3a52cae76c8b7bd6008d12a3ca3696211",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-opening.png",
+      "bytes": 269860,
+      "runSHA256": "7f465fee867af809400831b0f7616fdabe0b0cf26604d46e12e9d097dd685d9c",
+      "restoredSHA256": "2fd3a1940576de336adeb62f3a1082d8bd37ef94a18536d3bda4a0258ce62a6f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/360-siege.png",
+      "bytes": 395233,
+      "runSHA256": "e614b9bd71e762d3ac19be19f00a9f33671a4fe2ab3fcaee9b83a5b6dbf5b2eb",
+      "restoredSHA256": "3aebc48babe5b5d631128b3e48c89f1719b31e732de1cb699088873adf0d4387",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-defense-no-labels.png",
+      "bytes": 5413339,
+      "runSHA256": "2e5f32a7af5d1084a539569b1e9f2ad1a7cd8454c9c4c3f84b9118cab87fc888",
+      "restoredSHA256": "3d6a2b30eba6fa457edd2ebef682324408c6a5016cd29819961064056006763b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-resource-insufficient.png",
+      "bytes": 5479273,
+      "runSHA256": "c08c26c50329865199e24fc127634367bd3aaecd0019cb24d1cc90721ed88f85",
+      "restoredSHA256": "92153f5a80063dbd6fd08eb246aa5ebb1e9fa6fa2da230dc5e57b3b3a3ee5df5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-cards-covered.png",
+      "bytes": 5705065,
+      "runSHA256": "3d63c7004bd9e4007bea0c6c253ea9fcde067791c08340ff927eead0fe04d059",
+      "restoredSHA256": "a2cdeb52c1a4aefd148588d238aff4901ba1a3daba5be18115214f7120b46bf7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-no-labels.png",
+      "bytes": 5740884,
+      "runSHA256": "e0481266e29ace3b5448204e186df039c9a4ed70165d2b97181bac9f926262ff",
+      "restoredSHA256": "c45de9ae21672bf22ecfa12452ebe93ae19e1479d267cdb33cc7cc737c7429e4",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/ipad-siege-terrain.png",
+      "bytes": 5677994,
+      "runSHA256": "88fdb61de24e20c8ba5fd9310fd7740bc2efe8261df316c7da91dff83167558c",
+      "restoredSHA256": "ca8b5908d266ce21901c1312c82dbaec4a00e3578d8ada85daa5585ed0d14507",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-3.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-defense-no-labels.png",
+      "bytes": 3265368,
+      "runSHA256": "7a78e3e60bed3e66e00f45c9f378897149a2db7090c55c5059bf7e135a41effa",
+      "restoredSHA256": "4ac87096814b1e21db44218991544e9aa1b2e0e8b3b94ab56ceac9a0d32ca478",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-resource-insufficient.png",
+      "bytes": 3252453,
+      "runSHA256": "24e7e8e1e6d939e394b6c3e707b2c41ff2996bc75347151e0ee820d5fdf074d6",
+      "restoredSHA256": "f282455e89735283df3bb51e46433eb679f37481d982f4236d29e0f2004f3614",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-cards-covered.png",
+      "bytes": 3260643,
+      "runSHA256": "adbb463f911a52c9fbd5f86fa86d8e0d9ac956b9d4759517255acfc5126df8cf",
+      "restoredSHA256": "8a599141f98cb6b6d120b64d01acb5ae6d6b6e92e01ebf6b4ef2c92c0e7cf223",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-no-labels.png",
+      "bytes": 3419964,
+      "runSHA256": "01f6f050d609e125fc9ca5998a570b5c774725456a7e1e1efec7eaab662d14d3",
+      "restoredSHA256": "27950b00f91f71b2613677ecd19b1153f90d9785311140a73e2354445f5d17ee",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/iphone-siege-terrain.png",
+      "bytes": 3424585,
+      "runSHA256": "bc94c37f50a123389e6d3f61b2ed02b535b57cba6f9ed6f26e66bb668f2f21b7",
+      "restoredSHA256": "cc4690a824c7a4460c6da688093d0c56d48ae2740458520395c9f0252258dd51",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-defense-no-labels.png",
+      "bytes": 365566,
+      "runSHA256": "b7025fbfb2d49c7832ea7b3d022fd013cc7797230dd42f840102f640b83d7eaa",
+      "restoredSHA256": "26c88203655c9f52af678f28dc6e877b1caf02e9ea62a921536ff99ecb86dab3",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-resource-insufficient.png",
+      "bytes": 380728,
+      "runSHA256": "18305bea3c0c796598a816418c68c1c61ac73011c56f204fc200c6379d7dcf55",
+      "restoredSHA256": "6350ba22586361a7f35fe7f18b20676c13deef1a1b013113c1b28bdfa3aa24af",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-cards-covered.png",
+      "bytes": 362243,
+      "runSHA256": "acf0a088f4024b4bc98bfaf14ee7bccdd9e54893b05ee3bcd28966095ee0d861",
+      "restoredSHA256": "fe7f270c96aeb3a902f5dce6bd22e22b609e4dc845a7ff262f75dce131c167ef",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-no-labels.png",
+      "bytes": 377359,
+      "runSHA256": "2624d4423158c82ae44a23022a66723019b558ebfd5d88d128e698101b4ad9ec",
+      "restoredSHA256": "c00fa6392493e742812eb88e3c765a28bf878f670eb40bfbeb688228f5f27015",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/screens/phone360-siege-terrain.png",
+      "bytes": 377390,
+      "runSHA256": "492fa96700f015ee0a70c282bde74972d0e09ee79c9ade28ff824567aa89606f",
+      "restoredSHA256": "6341cf9b8cd360439e4e833c172aee464fc548707541a3a355edbe2ed5c114bf",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/r7/visual-audit.json",
+      "bytes": 109360,
+      "runSHA256": "16ca690d05ff0080e29e6276023b4552a584eee001310b7acb3860ddbe2712ea",
+      "restoredSHA256": "993d91c3208c9e687865978bfe8d5d483d0339cd4905b057b3a88d63fa06e3ec",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/art/visual-audit.json",
+      "bytes": 4654,
+      "runSHA256": "83ad569fc00ad985bb8918cb7421e42a5df84990cc68e8b16ccff98afc3b11c8",
+      "restoredSHA256": "377a55ccdce034cebff323521a543219ade0ba1e356dc059134b570ae086edb1",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/e2e.json",
+      "bytes": 59425,
+      "runSHA256": "cf095672c51bc53a32a6de56c85562e1e44279e42209a0e9a9296ecbda024bb9",
+      "restoredSHA256": "a95024f6b3c2285f5e50be5d1e20cc998fce749628c55a7cf46af9731c347a1c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-barricade-play.png",
+      "bytes": 5333759,
+      "runSHA256": "b0e97311cde393f15c0143d6297ae6781e1a525fdcac0b0003ed934775d802d6",
+      "restoredSHA256": "67f3b843317b53a1049a5879d5e9ee075270390a511252bd3195983b320780a2",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-list.png",
+      "bytes": 1091847,
+      "runSHA256": "126632ae772d0e0a63b1dc5f7eaca4dd4a9fbb165fda6f05411e2b5b4538e2cf",
+      "restoredSHA256": "88880b830e72e7af664d8372e457a4e0c3647ee130a8351a05ed8228a0bb9750",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-exercise-play.png",
+      "bytes": 5154380,
+      "runSHA256": "ebbc012f65604281f1c9cee3ad714c24e2b80e5046c38be52e799783785b26cc",
+      "restoredSHA256": "f14368e43a8cfaed69189de543639d0966bd02334326d3e412f62a2d99cb5541",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-4.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-barricade-play.png",
+      "bytes": 1738692,
+      "runSHA256": "4aab3997f38d1b6ed345d918ee6a21e27dee1d25da25b882ed6bcbb1a18a6674",
+      "restoredSHA256": "1ed3d1c12517bcb08245e910f379aa490fbf5296bee9428af86361f66aea72b1",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-list.png",
+      "bytes": 401776,
+      "runSHA256": "09eec3f0b3815336550cfd1e2c562e78c161138a8bd4bd89f546cce3287e25c4",
+      "restoredSHA256": "e06cc36962c1f8970fe27fe2e28019d64689bcd1be01a5ecf354c8e7735a774f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/ipad-landscape-exercise-play.png",
+      "bytes": 1670585,
+      "runSHA256": "c2fe989fd74eb16aeb6c54b8c7c6b0ec5c3e287731e7308ceea5c2cdf32733b7",
+      "restoredSHA256": "cbc707156d4fba57683bdab4e993d3ea0bef6a3e1ca6b3270443bc20cf93a6be",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-barricade-play.png",
+      "bytes": 3171820,
+      "runSHA256": "30477b7bb0989babc66e06b520bffad91359f7ceec734305f26df667026728f5",
+      "restoredSHA256": "f714b95663bd19329ba340b16d9fc669e709dca27939ee71f1d50e15d1ff2bd0",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-list.png",
+      "bytes": 592271,
+      "runSHA256": "3180469c5767973498cefe84b8a688957cd529a1751f3a7e410a83f61f892851",
+      "restoredSHA256": "2d94b8dc2258d9d27482035bb367355e07dd42f20a2d31a407a278e1183cd42d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/iphone-exercise-play.png",
+      "bytes": 2938902,
+      "runSHA256": "0181ae43b90e1d005b308afc1fb7e4bc7c5810acd24c6f0362da28d7c2b957d4",
+      "restoredSHA256": "71c94f4e5c01f07ee22b688839118f43f7a850d01cd23c48c3aac6db575bea0b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-barricade-play.png",
+      "bytes": 350625,
+      "runSHA256": "c73848fad62400071924c886e7556915da14c0652ffe2f5b504b680f5d749233",
+      "restoredSHA256": "068464a4fc37056969706c20fd24f078b0059650dddc74759a71d1b669424349",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-list.png",
+      "bytes": 94423,
+      "runSHA256": "77588b9065ce41b69c922feeead8df4da3b649ebf7cf87c63e212de38a9e4a4d",
+      "restoredSHA256": "18db23367f3ac1eaca270e395493f0f7f7d530df01bbfa41bf59c46d03df5fbd",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/landscape-exercise-play.png",
+      "bytes": 350650,
+      "runSHA256": "68af40e1544b56788fd6be05565a2feee4e3077f85cd296ac33a0125d4a59084",
+      "restoredSHA256": "285bda0b12fdcecc6191929a006040f8c506bfbb438a821d8939a3f20b155e6c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-barricade-play.png",
+      "bytes": 1022775,
+      "runSHA256": "731e5c198a3617499ca579d96a84d28cc167bf81ecb12363b45674fd02ff8723",
+      "restoredSHA256": "9d8afe714c6e4fedf9fb420f73643db50a3e84e6d2c74dac21d3b6ec86cb7ace",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-list.png",
+      "bytes": 243503,
+      "runSHA256": "aaab9849ebbac12189c58f42f8fc20a6bdec96d51a193ad2bec4f21966cc919c",
+      "restoredSHA256": "ab803a767cd5adad5104192ca615b0acedc481d914c397e91a383bdcd54d5f8e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/laptop-exercise-play.png",
+      "bytes": 992687,
+      "runSHA256": "367321a02cc653a6504e5911cd23e270f8d3d6a3bf0d17fc4a27b4ac704792d8",
+      "restoredSHA256": "3d8e890cecca5c899282f2ef9563f8dffc26a684c79a5e0a76d9916f251f2453",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee-complete.png",
+      "bytes": 328008,
+      "runSHA256": "5dffe3a26c33fd3a199a2bfc3068587ed21db7779784e1fddcbc3357a25dc1ad",
+      "restoredSHA256": "7f9600c9b7fc26adc6719ff618fb29a62f037c15fc91916ca093ea36ea66fd53",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-levee.png",
+      "bytes": 369671,
+      "runSHA256": "fce75ecaf28cae47363885fd40c9d80895a60938749324cdf2a75fdad817da87",
+      "restoredSHA256": "4c023a2b143d87c644883ebac18c93331a74f5687d79606f10c69b4dbddf063d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback-complete.png",
+      "bytes": 330171,
+      "runSHA256": "457483c8dd4bfe9ba67e0333ebca579c46ce72aacf202c1e3102ce20145447a5",
+      "restoredSHA256": "1d95084c28b03b53abede7740aa45949aae3a19194eea99fd96d04cc76b3577c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-switchback.png",
+      "bytes": 372522,
+      "runSHA256": "906dd74f472fb2f6ae8afebf613d7fe7880fe2807dd439e282fa7723169af151",
+      "restoredSHA256": "8c3fcac2229b90c8405a6ca9532616b6042b9b3db2445f0a2a5bbd0fe601620c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn-complete.png",
+      "bytes": 346002,
+      "runSHA256": "4e74fe3b11ab1ed200ce762d2204759f10b5125f5b517884643f43cbea3b07cf",
+      "restoredSHA256": "af1ef412ac3627a82d6288e3e9c5b4880e84fcd337025ee9a0d29c2c283c3705",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-exercise-turn.png",
+      "bytes": 393143,
+      "runSHA256": "d4a34db2ce6528bedeaf8f55343cf9df76f8db309035a231d0fe4ec6c39a7567",
+      "restoredSHA256": "d2a1323e809350c5b9252e06dc81dc83e7822cc8062360bd191fb5ed72a24415",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-flood-play.png",
+      "bytes": 406799,
+      "runSHA256": "46859f38a025b52b6d1f6d4d0f5bf8b8100a02abeee1735ead66773d33294353",
+      "restoredSHA256": "a7457c289a8a33e3f79bc0e8d219ee2ad970471241f4936f84e6003acc6934d6",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-ford-choice.png",
+      "bytes": 337321,
+      "runSHA256": "b152fe04612c7527a4618d62bd6a95b0ae16c169703b3dc3fc8b15558721820d",
+      "restoredSHA256": "f0eb521fc776057bc67de1de532dd8ecebdeceaa1b09a889bedcfb47cec64043",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-inherited-frost.png",
+      "bytes": 419781,
+      "runSHA256": "69e3703045fb7e12c1c75f6dbd8e45325836fbbda3846d6f66e353649dca2bb1",
+      "restoredSHA256": "f7a0d166262bafffebb584fd9a93dce609dd9ba87d99666bbe31e184b4878f7f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/phone-terrain-preview.png",
+      "bytes": 263181,
+      "runSHA256": "ee5831df9a31864cf15dc15346642069226493e45736926b26d7b3f3aaddee62",
+      "restoredSHA256": "efa7233bbc2a0d72aee20813af34c23562310db3f979c928f60d620a58194145",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-barricade-play.png",
+      "bytes": 207483,
+      "runSHA256": "ac086e8c5f54932bebea9805154e324c7b3c4bd85a821f96fbd226131b4cc19b",
+      "restoredSHA256": "d1e8937fd5f64257e0d4951d87ce72acacdac71dce477c80b44eb73e82ae2839",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-exercise-list.png",
+      "bytes": 67120,
+      "runSHA256": "46a857da2cafa8ed7186f502c1edbffaf2a25c9648612b0d6a241f5854ec1fc5",
+      "restoredSHA256": "2a886a0a3aa14fd54d352fbc250a14c294c64832d1dcd54fa07af1d4c6cb6952",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r1/small-exercise-play.png",
+      "bytes": 191621,
+      "runSHA256": "0f4ccc8df5ea8b591575ecce84904f62c5ecf40ffc0c3bb805ae8a2f0461e04e",
+      "restoredSHA256": "58176969626bfd595753ac991117e6c10b9a900752071545d35b9623dca190c6",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/attained-ford-save.json",
+      "bytes": 4991,
+      "runSHA256": "12e0f21e80726db12f9ade65fa9a14ddc5955c88ca7c36c4d8b8cea63dc6c212",
+      "restoredSHA256": "1ac9e4e4b077b315e57133f25ac06bf8a87038e4df26f3bfc1c189a3cfc9aa97",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/e2e.json",
+      "bytes": 70785,
+      "runSHA256": "4dcb50224515462b0981969c3c3cdedc4503aea7b0788b1b0f86165007bc1b76",
+      "restoredSHA256": "0a116e0446568adc7bf6482275cfeb88593a902745c2cf73aeaa60decba1894f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-1.png",
+      "bytes": 309633,
+      "runSHA256": "4d8e0498614c2dedaa401c3e057e15a1577d0c6cb220effbaf25087069248edb",
+      "restoredSHA256": "2a18caeedeacd5e6cc1933594fa872e20b5f494999b623bef434bb214ea9d60f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-2.png",
+      "bytes": 309592,
+      "runSHA256": "27c1661b96434fe1cf5ef9d9c35f64adcb454bcff6a28dc41d55762dce9782fc",
+      "restoredSHA256": "f97bee77daef1c2bc5d5c967d99b4e1831c898246934fc9a8a80d7180a424c8e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-3.png",
+      "bytes": 309569,
+      "runSHA256": "3b5e8542091be9526450b935fd2c448e43cff8163525ac22a0985db03917555b",
+      "restoredSHA256": "81e3ed458a8b806a28c620343a27033559982ea829a9e8b6d1958166119d761e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-constructed.png",
+      "bytes": 522471,
+      "runSHA256": "da3d0a64b429af25fd42f6b73ad0365b6b8293d431a03eda13f04ffa402be72f",
+      "restoredSHA256": "1a0ab9ec6d888f62bbce986d16cdff34a69d25f36e5772dc6da1df8040089f7a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-entering.png",
+      "bytes": 521122,
+      "runSHA256": "4526e3994f8508c2f92bb330a1c0cc21a04976f11536fc5a309629994f1a65be",
+      "restoredSHA256": "3a56ec2221eb6ea1d14bac0e0c4528e913b6243661ab614ef5ca323f31207a44",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-full-route.png",
+      "bytes": 526120,
+      "runSHA256": "861d277d502649ae7c69f64ce90fc6d72d5d88fac76cfda8b950f467460d8e7a",
+      "restoredSHA256": "7e5bc1cb8c1362497d1b4f8b48e9315d8ba3121433584f7bdec9039af8e01613",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-preview.png",
+      "bytes": 309591,
+      "runSHA256": "042b50476bad03da541da071f6ce7d03dd92ac0104534d4b3f6eda8187f92564",
+      "restoredSHA256": "a8ddeca585d223fd331600cc34dc9542d3d8eab32e2ff15c7c4788b1f97fb652",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-route.mp4",
+      "bytes": 410118,
+      "runSHA256": "839a73c47bbfabab2e24efc31d278dc129eed75cc9d51165f2008113958f5bf2",
+      "restoredSHA256": "e35befcba0be5bc55be966b23884c4b0196dc94aae66f1d84f0597f955896a1c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-home.png",
+      "bytes": 407223,
+      "runSHA256": "a358d9c03de6ac2e6023c03cfcde05072b5c5e1280dd1b1eb4e4868a2e06cc26",
+      "restoredSHA256": "49a7fd93d0d8f05dad10db0248a2c3e9945c12599a59c6483c82bd7b652d4de8",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-combat.png",
+      "bytes": 472846,
+      "runSHA256": "b0e5c0c399384f52d30fa89870c950de29e93d0fed3f290fd902575d797121d8",
+      "restoredSHA256": "e8e6e64a00d46f3822d9e5d8c3036b39e8cb3b78e5913e3e5b596aced5631561",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-complete.png",
+      "bytes": 422326,
+      "runSHA256": "611a6569befb1989066bedaf54db5c5d47aca54293a4dc41232029dcbe1decfa",
+      "restoredSHA256": "cdef3a0d6cbe4f8c4edb8bd0f582ceda2becdd5c8d1df2b58bff5ac9de84c6e5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-failed.png",
+      "bytes": 434273,
+      "runSHA256": "95a41794bcad90aa6e2b4a33c9666c506acc2457e3bb81124fe625247c260343",
+      "restoredSHA256": "6bace98bb419271deab3dae858378dd47d153720b1760e772ff69dbdb043fea1",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-first-leak.mp4",
+      "bytes": 389642,
+      "runSHA256": "c65a551f691dc850fb306fc7cd74768ecc9af875fecf9359cf62545856925add",
+      "restoredSHA256": "f58971c339c9bb9881acb3d8dd5f1366d3011cf75f35d2ad9366049d52ac8bbb",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-formation.png",
+      "bytes": 471077,
+      "runSHA256": "681ae87220de80d2f297cc3d35761c99d56c07de9c888f2357aab083ff362985",
+      "restoredSHA256": "305c7e706fc903521c0f1312c405b326126005207e5679a361ef03636f32b0ac",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-relocate.png",
+      "bytes": 465709,
+      "runSHA256": "7eb37d4f98a28e5d2787e4e76042c36af300703dac2bebb85f589e26936c99aa",
+      "restoredSHA256": "4d6a65ab32da2e20b2c51bbadf3b9190d1489f390880b2dc55e9f9c2cdcbab04",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-resumed.png",
+      "bytes": 472479,
+      "runSHA256": "cc690e230ce4c9edcc6c84a3d810cf9a4a421c4dea72783a98f9f355a7810d4c",
+      "restoredSHA256": "6c31398634a798577630259fb50bb3be08e2272a30511200820b6c817c71be49",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-retry.png",
+      "bytes": 465699,
+      "runSHA256": "6ed1d4c67f4ef49eb253427add5f1ce9485967c483f4dfccbd2af7f7e6a1572d",
+      "restoredSHA256": "a84af9b56c1318afb6fa03f77839fcad34a7d4a49a3f67f0f29b9753ced595e2",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-list.png",
+      "bytes": 115230,
+      "runSHA256": "907791388c69446918e4ae674596125e8b02eaba9f0cfbc2728f57a7bf844f92",
+      "restoredSHA256": "521c9eb93b9fce59cea02f79b9f7a5f79f6aaf9614a2364443602a2cfe90aec7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-records.png",
+      "bytes": 118388,
+      "runSHA256": "3dd9d8edac6948b23f72a713605720d3d1f38f8201948c5f81f77ab4295966e0",
+      "restoredSHA256": "79ace1ec3407c1c8e88f8b9b16d9b7b0f68fd54577b9a2a4fddfe3006726d53a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-combat.png",
+      "bytes": 478692,
+      "runSHA256": "4b48566100b172443a81176ecb71baf0260dc173cff7d4438456d346c4beaa81",
+      "restoredSHA256": "9f3be7641ad22876806388401681fdee169e3eb682d692e8e2d9e81eedca4063",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-complete.png",
+      "bytes": 426887,
+      "runSHA256": "02e8df30b4b73d92acaf027a890c0ea8929bf14545f420f0d118a3f5531a4a8a",
+      "restoredSHA256": "0ffb66c5894e21b0290f16452bc396986ae47c169de4188b0afed50e9c327a66",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-failed.png",
+      "bytes": 441647,
+      "runSHA256": "386cda1fe3498b33e2d43e0e7458eaa121c2c28fe63d01451107f22d8aeb40d7",
+      "restoredSHA256": "9a1185ab39e54df72ef7216a8a134253942267de662e464df9c1948289f2292d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-first-leak.mp4",
+      "bytes": 1105594,
+      "runSHA256": "43145530d789b96b5dc8a2610126b5ec4662017acb27c2f16825d9851969c769",
+      "restoredSHA256": "e1a06b52ce625f0429364ae474d26924d9246d13b25d648a7f6df16b3e0da4cb",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-formation.png",
+      "bytes": 472217,
+      "runSHA256": "597da40a4bc15fd48c491cb72b91b280bc3847878bb2ba1bb4e42c49b5eac200",
+      "restoredSHA256": "e7dff1fc3c728800e1ae80bd7e8a36b1ee72fb0f34a1e6c78f0c983c49dfeb8d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-5.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-relocate.png",
+      "bytes": 472563,
+      "runSHA256": "76e2fcee662e998ada3d6889c191484b2201426fb76403617a0f57a89d539abc",
+      "restoredSHA256": "f1af8c54a513142ca94829bbe0d066b264f127375536cc305614f889426aa060",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-resumed.png",
+      "bytes": 478518,
+      "runSHA256": "9c12b4b9d90420ccfdd88c7fde5c7ac7faec27d88ddf0af65c293cd510910d61",
+      "restoredSHA256": "ab5b01eab8697a72c9bcde7c83d131b3fe55022b03e11bb7765b2c29a0a444fd",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-retry.png",
+      "bytes": 472959,
+      "runSHA256": "1be8b12d9ba110b7fde80b876fcdcbabcb72aeeb4b84f824e1312cd35bb520a0",
+      "restoredSHA256": "f41e29e2b42e0f96779b25b72e133d65a0f882505f33b580deaee6237a9c47d1",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-combat.png",
+      "bytes": 530887,
+      "runSHA256": "a46641ab941dfddcebd5689927b4317c0b3441e1212ba6e28183e4d122798be0",
+      "restoredSHA256": "62660c981a16a3b7dcfcc0c537f8a814515d4160c06f17e3efbc412a850546f0",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-complete.png",
+      "bytes": 469659,
+      "runSHA256": "6530a8c8b4a025bea4705f9ed5679ee16548fb63ba444d812bc40f3b696cd7b0",
+      "restoredSHA256": "c9460c6ffef8fc1b602109fa4d2626fff77475982bd6c48113223364e4528442",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-failed.png",
+      "bytes": 482573,
+      "runSHA256": "89236975a6869f86a6b765fda6452fe0cefcbe54c5bcaeff22190d08153d219d",
+      "restoredSHA256": "1391d9f5948ec1c00d185fbd262b2158f8a171ab030a1915558475191c2cfa8b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-first-leak.mp4",
+      "bytes": 583431,
+      "runSHA256": "51d589a5f6411bc500c65e66280b2d223e89d7adfbf1949255e8937d53aceb4a",
+      "restoredSHA256": "52a5f518d769b35bf20c2034bed49c8787b1b7763a713d84779dc71a29e9a333",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-formation.png",
+      "bytes": 532105,
+      "runSHA256": "12d1b36894c74e1e723d36f7d6ffc4c094095d28f706d4070ac3a4c3370c57f7",
+      "restoredSHA256": "b95378a941f2ef755974b39deed039e8a0228074bcf40caae732113aa54187ae",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-relocate.png",
+      "bytes": 529378,
+      "runSHA256": "0781298396b597f4f04b764f844ee7eb87b53e60d02cac37b6eed87986f14547",
+      "restoredSHA256": "ad745f90e5f276913bfd3330f61ade6dc2dcdedb75e9d8a3b562b793e7e9ba31",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-resumed.png",
+      "bytes": 530783,
+      "runSHA256": "889cd2bcb097e2a5a293bb4150ce4e4bb8697cd34a36f186f719bc4aa9222f41",
+      "restoredSHA256": "c299effc759a0b4d49eb3bdf721c4f5626aa2d4c9bf6ae9b8e520fbcbf0cca69",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-retry.png",
+      "bytes": 529123,
+      "runSHA256": "4628878b82453be5ee538e2f3b0aa4de8402621e1300b30019adbfc73034393b",
+      "restoredSHA256": "58578d0cf035d31d906b45108cea63e8a68feeb6cc125ad090b977e5dc154fac",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-1.png",
+      "bytes": 313260,
+      "runSHA256": "414ac58178487d56f671e2abfe4e902d885000b47db69d096a593414bbe362a2",
+      "restoredSHA256": "2361e38406459f44908d7531b8f1d47f825ce83410afc7ad8db989a215f4d470",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-2.png",
+      "bytes": 313504,
+      "runSHA256": "8005e9ac7116308a3b31289cfe553349e2a3b57f293079dfcd328d2795b9fe1d",
+      "restoredSHA256": "fef9acfb0655c2565eb06f7f3ac2ac35f5740de3c88ac44d4a7c9c04f8e80301",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-3.png",
+      "bytes": 313340,
+      "runSHA256": "d949a65ba1863dfb0cef07d0ea98845187b16cbb6454907607a0813b37ec15ec",
+      "restoredSHA256": "927b751ec6f63a4e6b2d955a6ed00d2a50bdab3710ce4dfc36b836077fcdb8f5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-constructed.png",
+      "bytes": 528241,
+      "runSHA256": "cdac518c1b36fb038de3030dd6a08e56e0a03cf98da699afb334c579bf16e50c",
+      "restoredSHA256": "135962264f8b99d84c1945e8326111120698e4cdc6b8ae26ee4ce5cc827decbd",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-entering.png",
+      "bytes": 526780,
+      "runSHA256": "3315c12a99339e6ea1dcdbda88603e6a84d6bdc70980fc6f2384c9ec5c081b7d",
+      "restoredSHA256": "66310830c66cd2626b12eb3514a0a4fb77123a4a6b9b844ef5bfa293339473d7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-full-route.png",
+      "bytes": 533264,
+      "runSHA256": "6a29010ebaca48ea83c5a995a916fc7f88d407aded815a919d588c804c80f2e6",
+      "restoredSHA256": "df43583a3fb920cd4d736ed9f38904882349bc0fd80635f0ee56accde54afd85",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-preview.png",
+      "bytes": 312822,
+      "runSHA256": "6374cd03ba3a8e1b5bbff0373d5d22a0d25c26868af5d48cfd4e6e5d12679a43",
+      "restoredSHA256": "b8a283965ff430d45b11bbd630a793687ee071de03295fdb1a9fae0b92b9c83c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-route.mp4",
+      "bytes": 460516,
+      "runSHA256": "6fc20ee46fb3992423d7d4166b1e7b33f67fbd6b42c4e95b963d84aa0ba1146b",
+      "restoredSHA256": "69599b804f113ecd844e476daf658497ef0c562f6978fadc2c5f7c81b52824d5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-1.png",
+      "bytes": 528635,
+      "runSHA256": "7660abfa066a8006574841353750c57022a3ece5da99bac73779435f56d4eb9b",
+      "restoredSHA256": "e17d2d08f9698248e9f8be2d1c3b3e2437d228f42be6e8e2e1bd776c5fcf9e69",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-2.png",
+      "bytes": 529365,
+      "runSHA256": "acb2eac7503c5ab554e8cb348900f29e842593c3332bbb1f2e04d330966d2444",
+      "restoredSHA256": "fe671190db36395641e653726a50bd2c590e7f1237f4938f99e144dca2a34411",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-3.png",
+      "bytes": 528886,
+      "runSHA256": "36f388640e404f1d1e314cfe53b5aa251ad9a836a04b309e6d5124c55d410523",
+      "restoredSHA256": "946ddaf33a527202b4ff3b9d1118b3c9030b8f513b7367c6b250323037c6f76a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-constructed.png",
+      "bytes": 1730593,
+      "runSHA256": "6bd786a968a1c83a206770d86ae74c74884a15fe3042fe53b544ed7987f673af",
+      "restoredSHA256": "de0b6562b870f57a7a4c90e6e168b9d1263815dbdd6d15a091d4a154d932d3a1",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-exercise.png",
+      "bytes": 1626478,
+      "runSHA256": "338ba9940605b27461c4447844267e86a1caec2a00d68316bdd9027a4fa023ef",
+      "restoredSHA256": "0053f2b5210f61c6c5988786a9d2a7bc6350a987319e3491f14032be253d6a09",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-constructed.png",
+      "bytes": 1776662,
+      "runSHA256": "263f5fb1ab7d09d96a6df84dfb45273a1b3987a49ea2675ace54aff8ffa14ae1",
+      "restoredSHA256": "7a9a6b1bf6892fd5a27108c0d52fcd2bbe45cd7e9f014402594599e1ce7d0f73",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-exercise.png",
+      "bytes": 1654958,
+      "runSHA256": "eaa2e51778c5ec8a5c19f5bdff985f1c602b9fe8a87a7c00f628f32a3b31dbb0",
+      "restoredSHA256": "918e7081fcca0543de1588d87a050f6ac705aa948dc4f844d27ede8bd1c5474e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-shock.png",
+      "bytes": 1779953,
+      "runSHA256": "7ccb88634e656b12828d68c1e629c5030dbf5f73c4c9ee2644a55e587e5e69d7",
+      "restoredSHA256": "22ae1a9c49cd6627b72c84a366a3aef7ea9e72f848f79021602968a6d8191739",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-terrain-preview.png",
+      "bytes": 779733,
+      "runSHA256": "08dcf9a6d9b0229eb705c8f39393e3966ec380301ed440b417e48caf8d17e81f",
+      "restoredSHA256": "40a68b7dfcc6b2b9a96ced86a2558592d0c735bb1bf2e9b5327f8fa78d50a992",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-shock.png",
+      "bytes": 1734887,
+      "runSHA256": "e40aa936ac6e03a3240513a0a9df59d5cddf467cf9b9b1ddaabee7449eae2f59",
+      "restoredSHA256": "116fc2685980cb8cfa98725f8c4f03c3afc843fa4d2b2aee09c505027e221127",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-terrain-preview.png",
+      "bytes": 776637,
+      "runSHA256": "ece5ad1ae1b29ed826d104f8c2b5765b92fa3aa848e2c7038c69aaa80bbeea1a",
+      "restoredSHA256": "e90c4c70f524f9797fbae21f61246e4dffb41df59f524f43e8a1d536e47f1cf5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-constructed.png",
+      "bytes": 359061,
+      "runSHA256": "dc1865911f9c1f7211a1f7d38f3cc4968170b17b960ca55ff754385a002d8f66",
+      "restoredSHA256": "eb7a4ca9193d5bfc89b68a0d4f555a2a841f519d7a56e5b0af696d7bd0936309",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-exercise.png",
+      "bytes": 349784,
+      "runSHA256": "05423af7637105d334d762d0276dbe72c46245cc453358d1cac5698e70eeeaff",
+      "restoredSHA256": "52c4c1bbe36aece1b2a3f535619dd8f53e86e18208b1e90cdc76a2e7b93490cb",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-shock.png",
+      "bytes": 356298,
+      "runSHA256": "8a9d06e1b8e9aeec33862a83d1d242d2e9018db9ac58c64b093724205b3d6f84",
+      "restoredSHA256": "f84a7c3711f186d72a8db3fc68c46fe6f45d4b970e9a405b81a03b5fb104a66d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-terrain-preview.png",
+      "bytes": 275404,
+      "runSHA256": "430e5ca1f137302faf18ff639e0621984f93eb066fe4a4e623548b44171786e2",
+      "restoredSHA256": "8ebf06f03f879e00d3f02180958130fef819efe78448f1e760dd2003bd9a9d52",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-constructed.png",
+      "bytes": 1054400,
+      "runSHA256": "1dc3f565870305ce810bc584ecd98cd9e4a9e2025ed31af97dc3d0f395ff269d",
+      "restoredSHA256": "debaae7102535eeedeacccb08294ab2561cbc67dfb1f9bc399f4165fcd1ad944",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-exercise.png",
+      "bytes": 983906,
+      "runSHA256": "7dc0104a0fe9b9c36bcec1bc51b7b509129a80cf520e3c7b450d43788eb072d8",
+      "restoredSHA256": "08b951cd89f89a150fd9e3ca4295fa0184a96e4757faad3d73380319c59474f8",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-shock.png",
+      "bytes": 1055850,
+      "runSHA256": "7ee17ee3ff062a7a1518beda0be32ed8b4b67859159483d0b2220480b5565002",
+      "restoredSHA256": "c012dc7c1f5edb7368a161db530ef9c722a2866ec7520617d9da7d50dedac476",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-terrain-preview.png",
+      "bytes": 573356,
+      "runSHA256": "4c9697d466df9f602e8e45ad32c229553fd8154371bece3af32aeb5913523a66",
+      "restoredSHA256": "5c5717c328bdd9944004ea3f5eb6b766f26a1425b07941c8717468962fea07c8",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-constructed.png",
+      "bytes": 534777,
+      "runSHA256": "2bf1d1573a6ff89048800e3065e70fe803528699d902929e83fe962a368f64c9",
+      "restoredSHA256": "bcb892fed08bc77fae5d45449c232042228899f32cf49ddbad30cfe6951d6311",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-exercise.png",
+      "bytes": 474755,
+      "runSHA256": "18d5d25b73a8d5ef395ec241fc37c2cc5227ff6d05f9d261fa480c864492904b",
+      "restoredSHA256": "0d95cb0671ec241d0fff42c1732b95a78759f1ae51dab5ba8e7fb3a22bc24cc3",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-6.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-preview-operation.mp4",
+      "bytes": 72935,
+      "runSHA256": "2e5c442b9179c880dcb6e44faf0000bae5f0ebcb4a6c5f9efeb7218fdbfae2be",
+      "restoredSHA256": "b2d510ea70d2bfc1743cfdb3f52769edb782b2073e2118db0b5ef860a937fe7e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-shock.png",
+      "bytes": 532308,
+      "runSHA256": "d48f8de3f6b54f3cfe15a266ceb82c8490ed81aa4eed13906575940b874b857b",
+      "restoredSHA256": "c97c94efccc75d0fe8c0b15f08c40210ef996347e9d71af88418784b7bd7cd4d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-large-terrain-preview.png",
+      "bytes": 312383,
+      "runSHA256": "a83fbe8db8fe3ad93bee333688f8493c1a7d8711cca977d19ff4b3c283659156",
+      "restoredSHA256": "fea5ba7cb1d7f8df85a8fc12750dca6182271b6fdfd9f24322745eb9aa118943",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-before.png",
+      "bytes": 449123,
+      "runSHA256": "41fd7d1196a3046fd4196c8e61390d6ec3cf298b209ba9f83ae5eb9b0acd9b33",
+      "restoredSHA256": "5d364f30af19635cef3ea8cd7aad0e652d9b049319d79c7d4561d9ab5f5857e3",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-confirmed.png",
+      "bytes": 488092,
+      "runSHA256": "90180d217cb1091ee5a99cd17f3b8914ef735046d3d3507d639ea34e4fb41690",
+      "restoredSHA256": "d96d3f908c09e678be51e4200c260074d532ad3a42884d8b85c6a6ceb122c642",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-1.png",
+      "bytes": 488035,
+      "runSHA256": "3a64fc131d7ac43266646ef5fdcfa6c5acfa87bd9e1f2aee58d31e11ea900ec7",
+      "restoredSHA256": "2da9245a390d97321c43f237fc21b9187a65178c9636bc8d07abb66fb687b55a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-2.png",
+      "bytes": 487970,
+      "runSHA256": "bd59170176368f9998ed914c99292809fe2dae9b5fc3e62bc9b95e75fc942d4f",
+      "restoredSHA256": "1a7c7a39df12cb96cf1a54a3e4ddbb1d01957b3dc5a976e45ee1889154431de7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-3.png",
+      "bytes": 487828,
+      "runSHA256": "53cb42db05b9d2b06c617a507b3a5ed04af420f43901bbe767add8fa49320943",
+      "restoredSHA256": "2c928f71fc76407c940310b6d7500ea908cfff1c136d37535235195ba9ce2a3b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-next.png",
+      "bytes": 561193,
+      "runSHA256": "886208c5c0de4428743b6305d46338e438ab3182b844cf0dcb6a42c80a69aabe",
+      "restoredSHA256": "97509072622bf0dbd4b04080667d596df3cca4f3a7c2058f387452121d12df98",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-rebuilt.png",
+      "bytes": 559562,
+      "runSHA256": "6b5e2d6346187a215814f832ddadc8f10ea2e0a5222cccbc2360575b7e514785",
+      "restoredSHA256": "a43dc5d136054320e145789793420b380fd0cf423f5eb717dd1c72536cd89110",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-reloaded.png",
+      "bytes": 561313,
+      "runSHA256": "3714504915bfdd96c5b008df2d922d6a62640fb56c287fb2f584a1099fe1407d",
+      "restoredSHA256": "4f567d4228fe440c57301d7f78b10d6929705cdfcff0ac54b8af08d8c3222e88",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-result.png",
+      "bytes": 486580,
+      "runSHA256": "e31acebf4b8bb44a38f964be1cce3c321cd9851e098d4254f5f5d315366a944e",
+      "restoredSHA256": "5a44983474296bdaf3a9ff77d154a9961b827518573a74cf9e71d44d04fd5d2a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-before.png",
+      "bytes": 468140,
+      "runSHA256": "a69ad9c725a8f6ddfaa3bcb4b0fe3730077aff8b946c336bc1814e87dc7b9faa",
+      "restoredSHA256": "17c0218376042bb230aa757a29cd7271064d4dfc41cbceafe64ef1fe53efe418",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-confirmed.png",
+      "bytes": 507489,
+      "runSHA256": "ab44afd474eca27f974e0db2db8666a4678651ba5480d714a286cb9a4566905d",
+      "restoredSHA256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-next.png",
+      "bytes": 558979,
+      "runSHA256": "e1a8bd4a5172e93053cd7e8cb43ff1cee23082d6bfd8c84ac68299dc7a808e8f",
+      "restoredSHA256": "6f50214eadd04a94e5432e3bb56850cb43e8bfa6b0b689f9f50daccbf920d873",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-reloaded.png",
+      "bytes": 558980,
+      "runSHA256": "a1e5f104245fcd51e01a83b60bb27db31df3d15665624ef99a8ec258fd563e4d",
+      "restoredSHA256": "7dc65d983572e9a3c5d9cc87e5b3d12ab98a6064fe8ec9a2f4abb1a53349b75a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-result.png",
+      "bytes": 507489,
+      "runSHA256": "ab44afd474eca27f974e0db2db8666a4678651ba5480d714a286cb9a4566905d",
+      "restoredSHA256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-offline-preview.png",
+      "bytes": 311005,
+      "runSHA256": "97c638295eb16c9fee259225b00f85a693fe40a19457364a2da43a2428096b52",
+      "restoredSHA256": "ef2018e988cf07de80fa1489412004740dd6cdb2cce6779f8e817290f95fed09",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-constructed.png",
+      "bytes": 211153,
+      "runSHA256": "e4f969af1d610eb48146ecd90a9bff575c9dc21c170cbee5fa7d4af5cacad292",
+      "restoredSHA256": "85d1e686e45ebfa413ffe4a0c6ce0f8b2bf6bc3da3537efc517efab766bde480",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-exercise.png",
+      "bytes": 191209,
+      "runSHA256": "836df8d8d8c175845ba30b9a747bdaef1d50f740ed3b15b9340289be4f5d7f32",
+      "restoredSHA256": "b535cd9523cdbbab16d7f7f170e98e951fd95785c151b3d04232b12ba07fe83c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-preview-operation.mp4",
+      "bytes": 47400,
+      "runSHA256": "f09ace9c9bded3d5469952432d685d2d0b0f4f4431276a6c1ab469c58db47d48",
+      "restoredSHA256": "dcd47769aa6180896558f6c2e37936cecec9e453e6b70b3dc1ac71d2025b01d6",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-shock.png",
+      "bytes": 207863,
+      "runSHA256": "3cf073f2b5ec8001e4361803fc811a3ee967a8e0cf5e6f131fb563e3b8ba0de6",
+      "restoredSHA256": "e849c59f676f92f8861101ca73c1053805e402b4fb0aabcf4e9c9411ea73e48f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/content/r2/phone-small-terrain-preview.png",
+      "bytes": 172732,
+      "runSHA256": "3e77ba0c0a43faf670639f3fb7ae23034016e607d29b107395b524e9cbd92cbe",
+      "restoredSHA256": "3ce8e67e887f12006ea53487ea842db7a4d755f85c64d18cf1df117988185db6",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/e2e.json",
+      "bytes": 114078,
+      "runSHA256": "5399850b780884188d0cc36fa8686b81db8fd66b0bf517da294fe70b9561644e",
+      "restoredSHA256": "4077bbf32fac5a625c803214c0e70030d15e20e960bf3fb21b2665c375f052ab",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/release-audit.json",
+      "bytes": 52404,
+      "runSHA256": "3f61bda77a307e74bea19bd39abba1f17c54c832a2d8b33b8bbba2c48204f2bf",
+      "restoredSHA256": "fd6391aa29433c2c988323b7ecac19e80eeb1e063503f5b8289c443510b3eeee",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-defense.png",
+      "bytes": 893348,
+      "runSHA256": "e00594674cfeae46ae415e74d684d0fc72f2fd2848c956e781da9da0aa52935a",
+      "restoredSHA256": "1bdfaaf008298d402a6a9d424e6d57c1cd370607ab5789a6c3ac3b3d55d1e057",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-opening.png",
+      "bytes": 786105,
+      "runSHA256": "eb3e3f1ae7025fe329d3e5e11f2257c1bd34da5d5fa87d3c6a6a9b6511ca3ece",
+      "restoredSHA256": "e8ce7873dd4c5d899a2e6c9e2fb34672a2e24344e983208cefe7164c896835bd",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-siege.png",
+      "bytes": 935827,
+      "runSHA256": "d3e02e07aeceba47fc48adb1c7c1f8c116db7d7306437720b89dbcd85ac75ca6",
+      "restoredSHA256": "245a839aa04a3b7e038ae1b7356d2c9d7db5591f7639e445d9479b61d58ede8c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-defense.png",
+      "bytes": 1730087,
+      "runSHA256": "f0b3cad39a733152e56534ccc6d4fabce7eedd613be6cc7fdd0f23edb5df7a25",
+      "restoredSHA256": "7545e30ee01bcf3ca39589652cef07b51443a006db739d494b7a5ffcffbef527",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-opening.png",
+      "bytes": 1407957,
+      "runSHA256": "d934cee08e0fcd6d70d7f1affbeb4e2a062a5b561a4f5f8d73d6ea7525a07f59",
+      "restoredSHA256": "07184c8cafb039574f850cfc2ed46bf2e39e23c07a5da97c4a16af99024cc955",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-siege.png",
+      "bytes": 1839664,
+      "runSHA256": "7daf5fddb53623baf50ac5276281833891a82bc986f7f76cc681b1fadfb465ae",
+      "restoredSHA256": "3157358e5bf366d66a915512b58e24f6b2a29e80a95a97f67924b7df3861e8ab",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-defense.png",
+      "bytes": 1064828,
+      "runSHA256": "90740afb447b653931e4cede09156bf02fcb6110c6268448c96016e8b6d547be",
+      "restoredSHA256": "fefa00a0e85c926de38869b7773d20eff5217c35c0914b43a98b0551fbbdf33d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-opening.png",
+      "bytes": 941276,
+      "runSHA256": "e8e44136f60950c3858a63028226730a4bfae44f546b38454cee55d412c25208",
+      "restoredSHA256": "3b30c3d6b59dc806a66d6012f1711bcfbd73d13d083dbfe86dc7a7c442671f08",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-siege.png",
+      "bytes": 1116652,
+      "runSHA256": "5fc2170e3e725a087ed050671bc605bcb9904fbf43864667fe124f1561a5477e",
+      "restoredSHA256": "92e37381f7df4ba19b2b23416b7d4fbcc41a50b308d0445ebf892cd118c7ee3b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-defense.png",
+      "bytes": 1058464,
+      "runSHA256": "5d3a11921fe07ee40a2d1516b7cfb6211c172ee8c8b1913184eeac2dc29a2b7d",
+      "restoredSHA256": "e377d1d78723a8ecf1b17ba0bbdde45d1a62864c5559c956325b1df4d2f8401d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-opening.png",
+      "bytes": 928451,
+      "runSHA256": "c894b9aec661be9d665b2278763a0085ce8f24596677c2834551b22fb913ce69",
+      "restoredSHA256": "e555db348e0faeeb20f4c697eb5a0e9404ecb6388634927afb76285417ea74d5",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-siege.png",
+      "bytes": 1106758,
+      "runSHA256": "0120df403821a30987817a886eefce97b6682995e6fabe82ff6c1bf0cd2d9c57",
+      "restoredSHA256": "59dfbf07d5912a4b771b9ed7235141b8370cfaa1afafb5d56ae0edeca9e53602",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-defense.png",
+      "bytes": 1780444,
+      "runSHA256": "0f5f2a6ef4975ac550661e72a071356fb6d877a167385324c6fee7d66dee8a90",
+      "restoredSHA256": "286181e828b1b998b6059764db84978f0e0bfe933affafd3ebe99cc36bd15502",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-opening.png",
+      "bytes": 1581256,
+      "runSHA256": "343c25a1c0cde02c5f7ca3c99e733959e5418fad7ef902edb1395d5667b6c8da",
+      "restoredSHA256": "e4cc670c744824eeaba1be5265ff2854a75fce1a4e088ae515ad81064e650d16",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-siege.png",
+      "bytes": 1887450,
+      "runSHA256": "73980e76a5f09028d829fca240001b7ffc9401dba53badd59ae066fd8ae6977f",
+      "restoredSHA256": "36be4eb324fa61c214d118099370ac1c266339d26e687f93d52ce8e92a843087",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-7.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-defense.png",
+      "bytes": 207281,
+      "runSHA256": "e636fdd33f17144d5a194848869aa5def3424dd97091fc4144c28f0a62d3b52f",
+      "restoredSHA256": "9a9eb79bd862d1dcb1277d7151706aac35f9db5df1ce88321a62fe87396d76de",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-opening.png",
+      "bytes": 124378,
+      "runSHA256": "50f2028f74893f9fba04994116f93a18a0e2a5e0dd68651b876c747129a6998b",
+      "restoredSHA256": "1d36bab4ebd455568a60dfd3db8da416a6ed1a6bcd6dd8fff7fd8720b1dd78ed",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-siege.png",
+      "bytes": 207960,
+      "runSHA256": "179cd8e38843e36246caf238080ec39449828ef3b497e0c6c06b3fe8971f9ce9",
+      "restoredSHA256": "b570ada1b153870f64ec17ccfea0223d8e30f9f103fdbaba9c363c6bbf8e8ed7",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-defense.png",
+      "bytes": 407387,
+      "runSHA256": "e21a26edb45fc918cc57a4dcae29e1cf9c853e1c583e58758d107163a9c826c0",
+      "restoredSHA256": "18257431767b266fa75faa82495033e3bb2842da717d4a45655e9d3232bd64df",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-opening.png",
+      "bytes": 320366,
+      "runSHA256": "21ac628684eb1a4f297b3bc54e0964bcde988e92497f406e70ae742de50eb832",
+      "restoredSHA256": "8a90f01b16b2dc747bcf566e6174559dfabcd20f208a6747b62aa0fb58fc7a99",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-siege.png",
+      "bytes": 414515,
+      "runSHA256": "d3c413edcf83b8d44e3c2ad4a10a03b8266d238949216787dce87dee1aafdf7c",
+      "restoredSHA256": "4f04ad1edede219e4b61bebd8c56ce1de4c5935f11f764e8b50cc360b36f2d2d",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-defense.png",
+      "bytes": 817969,
+      "runSHA256": "d239ded0973da2de9deb0f7e8d62b5b8e2e9ae99ee2bc9ac4080fb6130afc182",
+      "restoredSHA256": "182fb75496a5d8d99eee404e23a0a7435706c4b2e53b0d1328afda8648dcdaed",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-opening.png",
+      "bytes": 647563,
+      "runSHA256": "36dd84523857a20e6d52a38f2fccc7bb6a3c3c330ebee77efdf6f4a865ad0337",
+      "restoredSHA256": "6d2694f15122d343a2b72c6a95461de4807c9d330a95af41c30c1ff9f82ad5b3",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-siege.png",
+      "bytes": 857618,
+      "runSHA256": "02a8a4b36827c4f8461fe1c9de85e74502c52e2511674feebcd600c436c22397",
+      "restoredSHA256": "557aec72fa6ec7db8ad78a26ac7f99f3db6cf7b3beadd2f55df168535336298c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-defense.png",
+      "bytes": 362055,
+      "runSHA256": "840cad0b15526098aa251e5dbc0125a8d96bfe0d85441e2cf45ff736d44b934e",
+      "restoredSHA256": "73d7b8e393bec78491fb88dc100684f107242d499492ea7622faeef5da929a42",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-opening.png",
+      "bytes": 303418,
+      "runSHA256": "7ec2581d346e336220768dbadb9b13d27cd5bb4c73fa3e031797437c34c1aceb",
+      "restoredSHA256": "143b138d7a5a22f192d89fb09a7f0cf1ac51f95e47184662a776a21639d4e55c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-siege.png",
+      "bytes": 371667,
+      "runSHA256": "5050271d7c8e99ad4b61dcb32bad1bcb6e42d6f96da540e9853988182fc49405",
+      "restoredSHA256": "92ea4ba99a6d123cab382b802da4747cf5588ce920e789e7c884f8d2f1388480",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/evidence/six-chapters.json",
+      "bytes": 924,
+      "runSHA256": "d171119a0a4dbf14f36cfbd205916a1b9d5f8e118b4f027ce1438f4bda8dcd17",
+      "restoredSHA256": "6006dcfc336f263d169e77afd6bb92c086d05472bcc1df0e4e41754d73fe9cea",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "bytes": 5153244,
+      "runSHA256": "4ce578d4d4fd34cbe18ef462cd437091584700371c51f26477d6384c5cf300a6",
+      "restoredSHA256": "be1d0af70821420dfbcf658ef1ac56947813fb91d586ba0eaa178b32aeb1654e",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "bytes": 2388664,
+      "runSHA256": "c779bb1e329b2891649023ca01140371504ad2e797ff7e8fe45daec516118604",
+      "restoredSHA256": "6aced1e7ca90f8edf54113720731a2851302bc67035b1bf417eefcca4e547163",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "bytes": 5519815,
+      "runSHA256": "7857f8aed486dd87103d709167d6a7e541a1bdeeea503488fd51a4a9145c2a93",
+      "restoredSHA256": "cf464899b916556def0422f89293b3fc73e03a2468d2b62f65ffd71eb305e190",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "bytes": 4457092,
+      "runSHA256": "3863911874a1c617805d4cd624bb0f97931092070487a1791416147a34acc816",
+      "restoredSHA256": "4bef112f476793ef6bc1a86cb18db35d6e7c3b7ea7cfe9638a0f3c207fca6e6a",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "bytes": 5853069,
+      "runSHA256": "6884cf35e9ec2042d52df27c622885da19e3b7c845f368933225f238c921f923",
+      "restoredSHA256": "ee196b95944655e217a9aa82b15f476e4b1e798755b253aaf9d77ba4f32fbd19",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-8.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "bytes": 2937962,
+      "runSHA256": "0a8e60e21514e2d66d646bd0a17f5500f2d8becddef3e829ab41d7e4d9726c4c",
+      "restoredSHA256": "924e779e9cab46267fda7ddd97c6853dac22f270a3edabc6eaa4d4cd91be6490",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "bytes": 1847233,
+      "runSHA256": "fe9fb573dfb2c57b7cd204d134f70ce78cac8c61098aad5a004c4ee892d9655d",
+      "restoredSHA256": "f0d73ac0bb0d73cc6e7cf00a3bab7a0a4f0dc6f5175afe42fa0caddf37ee8c5f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "bytes": 3315972,
+      "runSHA256": "ecbf528ba169309f589840b0577374ba0814912713ba8e41024e5a72df2a4d25",
+      "restoredSHA256": "6ace30e0fe989b0f0a606b99b6800d9db65158cc57efe83b33ad50617add152f",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "bytes": 2610235,
+      "runSHA256": "06083a476022541115ffbe694172c6d31d901b283459c59fde7fe58edf9d07e8",
+      "restoredSHA256": "66d07831a450fce902fa9560c8ed7962db3588152f08c529b2fd31fdef211a64",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-9.zip"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "bytes": 3476055,
+      "runSHA256": "b68e98d00be5296efc3a358ff84a89dd6b7a7e6d3f8d33975050cb4e16991728",
+      "restoredSHA256": "d258f0380e60752f8e132b897b8bf9c85e92886b839dcc6f1564ae2054ff7c5c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-verification-9.zip"
+    }
+  ],
+  "archives": [
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-1.zip",
+      "bytes": 32859700,
+      "sha256": "69b0da0d268983b896fbe34cb20b73608ae870f0ae250b8f183d54b3717028f8"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-2.zip",
+      "bytes": 28191125,
+      "sha256": "923f2ad3a2c20671edb7dc889703619a6b4bc08c9a11f82049d3f4aae30cb3cc"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-3.zip",
+      "bytes": 29025039,
+      "sha256": "f58a2b77847ab2d07e8404ef5c97dda793c0de00612187fe10aae10dc059050c"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-4.zip",
+      "bytes": 30020191,
+      "sha256": "5b504b8b9e9032a61557e07e663653137b7f47de80ffe8adf3acc73871fd6c97"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-5.zip",
+      "bytes": 27950475,
+      "sha256": "018bc565038682495c7766b4455eb68253f301e6376e9770be8f1f25507064af"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-6.zip",
+      "bytes": 28360049,
+      "sha256": "04aee0676becc2cfacbccb7f738bdb550bd5790eb14cf80516a37e6a4dd32200"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-7.zip",
+      "bytes": 28290134,
+      "sha256": "ca319ea928d6468ad4780721cd4e8a527f6f83349b04ef8deec97086397ab020"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-8.zip",
+      "bytes": 28366963,
+      "sha256": "6f6f49dc2ffde982782201dd6260b7a96f12383c3227411650bd0b160407e143"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-verification-9.zip",
+      "bytes": 14160787,
+      "sha256": "1327dfefba764b39e5e6a582909e9e236500fde8adf376ad440e5836db3e7e2f"
+    },
+    {
+      "path": "docs/content/r3/verification-artifacts/legacy-new-movies.zip",
+      "bytes": 7335496,
+      "sha256": "2235a672cfa60c4109542aa86455a39b1216ed99bf35b56ac1eb958588b62104"
+    }
+  ],
+  "newLegacyMovies": [
+    {
+      "path": "docs/art/r2/motion/page@676811679adcad5ac67bf1c04da6f038.webm",
+      "sha256": "cec2939ad6b12d928d302ae8d2f536f5a35022fec0085fdd6cf49045602f5d70",
+      "archive": "docs/content/r3/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r2/motion/page@8de9a4e48eab4261ed4c1715e4f8ac48.webm",
+      "sha256": "3c8894412c6eb799313180c5ba85299a59344460626f34906343f1652b032afc",
+      "archive": "docs/content/r3/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/page@48662dec3bb686b106578f6f801b7237.webm",
+      "sha256": "48c329085197dad1feb6e89e67e0b34898348d9f98afb50d67357a60c3118b0b",
+      "archive": "docs/content/r3/verification-artifacts/legacy-new-movies.zip"
+    },
+    {
+      "path": "docs/art/r7/motion/page@cdee5a6f74238c339a31af7cd91e59c9.webm",
+      "sha256": "e38ffb565b283dcbfd7340b4636eace3195277998f60dc4f34e6f83980fbb89c",
+      "archive": "docs/content/r3/verification-artifacts/legacy-new-movies.zip"
+    }
+  ],
+  "initialUntracked": {
+    "docs/art/ART_RESCORE2_MUSE.md": "4d84c164441bacbaa24dc15732899c94ca7587bfdf760ea22f0605439c1e10e9",
+    "docs/art/ART_RESCORE3_MUSE.md": "c16eec1b16a6a3f01bb4343f5199f09b123a1d774e1dabe5c4e157b33b278c27",
+    "docs/art/ART_RESCORE4_MUSE.md": "1b151dfcad9fb654aea5e60e7b43882c6e849bde27d0af15885438aedd9a6279",
+    "docs/art/ART_RESCORE5_MUSE.md": "fb64dd8bdc76161a057d333290532110dda55bb16c393ae7018cbbf6286a43f1",
+    "docs/art/ART_RESCORE6_MUSE.md": "6d20297c450aef4771437ac7ae0987a7aae5b476a5b59fe70d505a06c1e52b8b",
+    "docs/art/ART_RESCORE7_MUSE.md": "2dd725b3ef30e272e1191de515129a94f8ee4cdc97c9d974a41e1065f412f3a6",
+    "docs/content/CONTENT_REVIEW_R1_MUSE.md": "e27cfd8c5ced6c89b1821d406dec250d2d45de4589c32752d6ad303cd388dc01",
+    "docs/content/CONTENT_REVIEW_R2_MUSE.md": "9a5e987c32ea8e810f2c9a033474d0dbece42ca7404ae4bef0b91c5502271486"
+  }
+}

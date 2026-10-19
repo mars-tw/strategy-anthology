@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED",
+  "version": "0.8.0",
+  "stagedFilesBeforeSelfReceipt": 290,
+  "hashBoundAssetsAndEvidence": 163,
+  "allHashBoundBytesMatchIndex": true,
+  "secretScan": {
+    "textFiles": 46,
+    "matches": 0
+  },
+  "untouchedUserReviews": 5,
+  "buildSHA256": "73696027d6371ae7243a3d4a43769f801ea701594383eb3d068e77af1d529f8c",
+  "styleSHA256": "d4f3603c339e8d0152a707cd9e256a1c99911bf963eaa7395fcbaaa25ea7db3c",
+  "method": "git show :explicit_path bytes, not only working-tree hashes; the receipt itself is staged after creation."
+}

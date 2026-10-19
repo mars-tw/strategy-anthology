@@ -1,0 +1,258 @@
+{
+  "status": "VERIFIED",
+  "method": "native generated alpha retained, low alpha<20 cleared, encoded PNG/WebP corners measured; masks and gray-composite witnesses hash-bound",
+  "files": [
+    {
+      "path": "public/assets/r5/archer-portrait.webp",
+      "sha256": "006e21060f5175bbe56aa41f84f7a922a57eba49b43bf0ca61025d5c7b4cb9ad",
+      "bytes": 9486,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.23093377976190477,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/archer.webp",
+      "sha256": "5d72c71d01053b888f40eb7c6c46f78456acfb46cce127d0a01ac084f694ac9c",
+      "bytes": 336930,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1637134552001953,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/bridge.png",
+      "sha256": "7e5df4c5a024b74dc70d479b0b8d41beb9b9062e4495371ecb2d904f2dd0b831",
+      "bytes": 455234,
+      "size": [
+        512,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.91510009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-cannon.png",
+      "sha256": "069b13e355d15b6197eca28a995102bebe7eba6198e66fddebcd18d4ee70a757",
+      "bytes": 123291,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.60174560546875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-frost.png",
+      "sha256": "fb2fad1801a84d3c80a3ec9671abe69e23e7294164c20c648afbe1e2fe8f64c1",
+      "bytes": 116636,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.54351806640625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/card-tesla.png",
+      "sha256": "7116dbe6b60d93072afee33c166835adc3523bbe41c8abbbf8404b7a0d82e0dd",
+      "bytes": 138863,
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.648895263671875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/commander.png",
+      "sha256": "1ac7325064538f6101319a8526986e2b7eb3ed30e4ccf9a58003ac466a7821c9",
+      "bytes": 547631,
+      "size": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.5069758097330729,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/enemy.webp",
+      "sha256": "e2b3c0fee97bdd862c5abfe2ff66eaadcf2d2fef9319797d059b7e5632602397",
+      "bytes": 304474,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.18776257832845053,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/gear-flag.png",
+      "sha256": "124d7174862024e3a7b2cdf3dd3355ae3fb0ec78b0b867925ca68a450e8b0fa6",
+      "bytes": 16563,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.2760009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/gear-horn.png",
+      "sha256": "c9b90e4cd263bce27e0589c3da4dbe3bee433554ca4d942c61ea7363696fd071",
+      "bytes": 13249,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.2225341796875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/gear-pack.png",
+      "sha256": "ec77cb415ae5f2d8540cba65a742130722b6448b2ef504cba075e853e5438145",
+      "bytes": 17026,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.32684326171875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/hound.webp",
+      "sha256": "ed0c052b0d408841275574c2b52d7ac3d6564218f0503b8fc6b715a67d11e5c9",
+      "bytes": 293122,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1732349395751953,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/logo.png",
+      "sha256": "5cf6483af1ece1c892017f42466554d2dad8b52af9b48149d24570c249363bbb",
+      "bytes": 326672,
+      "size": [
+        768,
+        300
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.392421875,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/mage-portrait.webp",
+      "sha256": "5c14cb404dfea20cf4c90b103b87d9394d7f045b5524ec65d7aa7b77341ebd2f",
+      "bytes": 14676,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.44015066964285715,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/mage.webp",
+      "sha256": "2b386c1569c58f44adb0730a74d87fdd6cc09353c99c7026453dfc6381331ba5",
+      "bytes": 354240,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1775226593017578,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/seal-cannon.png",
+      "sha256": "2d4708abfc360f86e315ee8c2a7d9184f838fc9dcaf163d24666985f61270a31",
+      "bytes": 27552,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.52532958984375,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/seal-frost.png",
+      "sha256": "21dcf453ba0d2b1ad85b6c435870d72a2a9b738fd0d6426fef823d07bd330378",
+      "bytes": 24859,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.4271240234375,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/seal-tesla.png",
+      "sha256": "e4d2f2167d6c11378c6ba24f07d4bdafbddbbb6813652d2939bfea7c31f2465b",
+      "bytes": 26090,
+      "size": [
+        128,
+        128
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.385009765625,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/warrior-portrait.webp",
+      "sha256": "abe980394f2fff59e8771cfc6b93511c2f1faf40e402836764898d740b7107a0",
+      "bytes": 11618,
+      "size": [
+        224,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.37209356398809523,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/warrior.webp",
+      "sha256": "dd406b35e942187f703e6684efe96b71101a73b3aa57ebd56d9c0ac1f9fb6986",
+      "bytes": 304154,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.17527071634928384,
+      "cornersTransparent": true
+    },
+    {
+      "path": "public/assets/r5/worker.webp",
+      "sha256": "be7cb517e1c459506f16dd1e54f68f693f16fe47f634f5e6462bb1d00ea3a51d",
+      "bytes": 244718,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaOccupancy": 0.1364771525065104,
+      "cornersTransparent": true
+    }
+  ]
+}

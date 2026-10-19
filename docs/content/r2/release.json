@@ -1,0 +1,1605 @@
+{
+  "status": "VERIFIED",
+  "version": "0.10.0",
+  "sourceHead": "b7945b938ad907e2ee64526ee416c3c7ae49a36d",
+  "gameSHA256": "3ed0eaa76c8aaf08f0c494539e279690af896893b814f08652a7cf52168ae750",
+  "styleSHA256": "96d9974fd034e6cf7c4cd77dcb338ddc297bca68814657f3bd3f52c701e2a61c",
+  "verifyCommand": "npm run verify",
+  "verifyLogSHA256": "d4eda6476aba42fb2078cff73a7486cc42a50c4c2e5b96a981ef848b49d1cb58",
+  "checks": [
+    {
+      "name": "R2 real operation E2E verified",
+      "pass": true
+    },
+    {
+      "name": "full npm verify reached its final successful check",
+      "pass": true
+    },
+    {
+      "name": "R2 E2E bound to final game bytes",
+      "pass": true
+    },
+    {
+      "name": "full touch journeys verified on same game bytes",
+      "pass": true
+    },
+    {
+      "name": "performance bound to final game bytes",
+      "pass": true
+    },
+    {
+      "name": "concurrent-load reference p95 passes",
+      "pass": true
+    },
+    {
+      "name": "legacy evidence retained and restored",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE2_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE3_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE4_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE5_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE6_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/art/ART_RESCORE7_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "initial untracked preserved: docs/content/CONTENT_REVIEW_R1_MUSE.md",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/ipad-content-r1-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/ipad-defense-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/ipad-opening-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/ipad-siege-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/iphone-content-r1-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/iphone-defense-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/iphone-opening-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "old store screenshot unchanged: docs/store/screenshots/iphone-siege-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-home.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-tower-before.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-tower-confirmed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-tower-result.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-tower-next.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-tower-reloaded.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-before.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-confirmed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-flight-1.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-flight-2.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-flight-3.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-result.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-next.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-reloaded.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-legacy-crystals-rebuilt.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-arrows-1.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-arrows-2.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-arrows-3.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-entering.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-barricade-full-route.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-arrows-1.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-arrows-2.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-arrows-3.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-entering.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-slow-1.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-slow-2.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-slow-3.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-flood-full-route.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-list.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-relocate.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-formation.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-combat.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-resumed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-complete.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-failed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-turn-retry.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-relocate.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-formation.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-combat.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-resumed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-complete.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-failed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-levee-retry.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-relocate.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-formation.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-combat.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-resumed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-complete.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-failed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-switchback-retry.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-exercise-records.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-landscape-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-landscape-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-landscape-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-landscape-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-landscape-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-landscape-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-landscape-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-ipad-landscape-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-laptop-terrain-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-laptop-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-laptop-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-laptop-exercise.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-offline-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-full-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-full-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-small-full-shock.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-full-preview.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-full-constructed.png",
+      "pass": true
+    },
+    {
+      "name": "native screenshot dimensions: docs/content/r2/phone-large-full-shock.png",
+      "pass": true
+    },
+    {
+      "name": "turn formation portrait original",
+      "pass": true
+    },
+    {
+      "name": "turn combat portrait original",
+      "pass": true
+    },
+    {
+      "name": "turn failed portrait original",
+      "pass": true
+    },
+    {
+      "name": "turn complete portrait original",
+      "pass": true
+    },
+    {
+      "name": "levee formation portrait original",
+      "pass": true
+    },
+    {
+      "name": "levee combat portrait original",
+      "pass": true
+    },
+    {
+      "name": "levee failed portrait original",
+      "pass": true
+    },
+    {
+      "name": "levee complete portrait original",
+      "pass": true
+    },
+    {
+      "name": "switchback formation portrait original",
+      "pass": true
+    },
+    {
+      "name": "switchback combat portrait original",
+      "pass": true
+    },
+    {
+      "name": "switchback failed portrait original",
+      "pass": true
+    },
+    {
+      "name": "switchback complete portrait original",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-barricade-route.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-flood-route.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-exercise-turn-first-leak.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-exercise-levee-first-leak.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-exercise-switchback-first-leak.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-small-preview-operation.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-large-preview-operation.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-small-full-operation.mp4",
+      "pass": true
+    },
+    {
+      "name": "video native dimensions and no audio: docs/content/r2/phone-large-full-operation.mp4",
+      "pass": true
+    },
+    {
+      "name": "new generated art exact source",
+      "pass": true
+    },
+    {
+      "name": "secret scan zero matches",
+      "pass": true
+    },
+    {
+      "name": "old 0.9.0 absent from active identity",
+      "pass": true
+    }
+  ],
+  "e2eChecks": 343,
+  "fullTouchChecks": 10,
+  "screenshots": [
+    {
+      "path": "docs/content/r2/phone-exercise-home.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "49a7fd93d0d8f05dad10db0248a2c3e9945c12599a59c6483c82bd7b652d4de8"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-before.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "17c0218376042bb230aa757a29cd7271064d4dfc41cbceafe64ef1fe53efe418"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-confirmed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-result.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4e525f13af3444b98331889e58dd3c2f196b0164add289af47282f2b860362cb"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-next.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "6f50214eadd04a94e5432e3bb56850cb43e8bfa6b0b689f9f50daccbf920d873"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-tower-reloaded.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "7dc65d983572e9a3c5d9cc87e5b3d12ab98a6064fe8ec9a2f4abb1a53349b75a"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-before.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "5d364f30af19635cef3ea8cd7aad0e652d9b049319d79c7d4561d9ab5f5857e3"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-confirmed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "d96d3f908c09e678be51e4200c260074d532ad3a42884d8b85c6a6ceb122c642"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-1.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "2da9245a390d97321c43f237fc21b9187a65178c9636bc8d07abb66fb687b55a"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-2.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "1a7c7a39df12cb96cf1a54a3e4ddbb1d01957b3dc5a976e45ee1889154431de7"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-flight-3.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "2c928f71fc76407c940310b6d7500ea908cfff1c136d37535235195ba9ce2a3b"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-result.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "5a44983474296bdaf3a9ff77d154a9961b827518573a74cf9e71d44d04fd5d2a"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-next.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "97509072622bf0dbd4b04080667d596df3cca4f3a7c2058f387452121d12df98"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-reloaded.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4f567d4228fe440c57301d7f78b10d6929705cdfcff0ac54b8af08d8c3222e88"
+    },
+    {
+      "path": "docs/content/r2/phone-legacy-crystals-rebuilt.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "a43dc5d136054320e145789793420b380fd0cf423f5eb717dd1c72536cd89110"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "a8ddeca585d223fd331600cc34dc9542d3d8eab32e2ff15c7c4788b1f97fb652"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-1.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "2a18caeedeacd5e6cc1933594fa872e20b5f494999b623bef434bb214ea9d60f"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-2.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "f97bee77daef1c2bc5d5c967d99b4e1831c898246934fc9a8a80d7180a424c8e"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-arrows-3.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "81e3ed458a8b806a28c620343a27033559982ea829a9e8b6d1958166119d761e"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-constructed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "1a0ab9ec6d888f62bbce986d16cdff34a69d25f36e5772dc6da1df8040089f7a"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-entering.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "3a56ec2221eb6ea1d14bac0e0c4528e913b6243661ab614ef5ca323f31207a44"
+    },
+    {
+      "path": "docs/content/r2/phone-barricade-full-route.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "7e5bc1cb8c1362497d1b4f8b48e9315d8ba3121433584f7bdec9039af8e01613"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b8a283965ff430d45b11bbd630a793687ee071de03295fdb1a9fae0b92b9c83c"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-1.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "2361e38406459f44908d7531b8f1d47f825ce83410afc7ad8db989a215f4d470"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-2.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fef9acfb0655c2565eb06f7f3ac2ac35f5740de3c88ac44d4a7c9c04f8e80301"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-arrows-3.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "927b751ec6f63a4e6b2d955a6ed00d2a50bdab3710ce4dfc36b836077fcdb8f5"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-constructed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "135962264f8b99d84c1945e8326111120698e4cdc6b8ae26ee4ce5cc827decbd"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-entering.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "66310830c66cd2626b12eb3514a0a4fb77123a4a6b9b844ef5bfa293339473d7"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-1.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "e17d2d08f9698248e9f8be2d1c3b3e2437d228f42be6e8e2e1bd776c5fcf9e69"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-2.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fe671190db36395641e653726a50bd2c590e7f1237f4938f99e144dca2a34411"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-slow-3.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "946ddaf33a527202b4ff3b9d1118b3c9030b8f513b7367c6b250323037c6f76a"
+    },
+    {
+      "path": "docs/content/r2/phone-flood-full-route.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "df43583a3fb920cd4d736ed9f38904882349bc0fd80635f0ee56accde54afd85"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-list.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "521c9eb93b9fce59cea02f79b9f7a5f79f6aaf9614a2364443602a2cfe90aec7"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-relocate.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "ad745f90e5f276913bfd3330f61ade6dc2dcdedb75e9d8a3b562b793e7e9ba31"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "b95378a941f2ef755974b39deed039e8a0228074bcf40caae732113aa54187ae"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "62660c981a16a3b7dcfcc0c537f8a814515d4160c06f17e3efbc412a850546f0"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-resumed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "c299effc759a0b4d49eb3bdf721c4f5626aa2d4c9bf6ae9b8e520fbcbf0cca69"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "c9460c6ffef8fc1b602109fa4d2626fff77475982bd6c48113223364e4528442"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "1391d9f5948ec1c00d185fbd262b2158f8a171ab030a1915558475191c2cfa8b"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "58578d0cf035d31d906b45108cea63e8a68feeb6cc125ad090b977e5dc154fac"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-relocate.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "4d6a65ab32da2e20b2c51bbadf3b9190d1489f390880b2dc55e9f9c2cdcbab04"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "305c7e706fc903521c0f1312c405b326126005207e5679a361ef03636f32b0ac"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "e8e6e64a00d46f3822d9e5d8c3036b39e8cb3b78e5913e3e5b596aced5631561"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-resumed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "6c31398634a798577630259fb50bb3be08e2272a30511200820b6c817c71be49"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "cdef3a0d6cbe4f8c4edb8bd0f582ceda2becdd5c8d1df2b58bff5ac9de84c6e5"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "6bace98bb419271deab3dae858378dd47d153720b1760e772ff69dbdb043fea1"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "a84af9b56c1318afb6fa03f77839fcad34a7d4a49a3f67f0f29b9753ced595e2"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-relocate.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "f1af8c54a513142ca94829bbe0d066b264f127375536cc305614f889426aa060"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-formation.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "e7dff1fc3c728800e1ae80bd7e8a36b1ee72fb0f34a1e6c78f0c983c49dfeb8d"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-combat.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9f3be7641ad22876806388401681fdee169e3eb682d692e8e2d9e81eedca4063"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-resumed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "ab5b01eab8697a72c9bcde7c83d131b3fe55022b03e11bb7765b2c29a0a444fd"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-complete.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "0ffb66c5894e21b0290f16452bc396986ae47c169de4188b0afed50e9c327a66"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-failed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "9a1185ab39e54df72ef7216a8a134253942267de662e464df9c1948289f2292d"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-retry.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "f41e29e2b42e0f96779b25b72e133d65a0f882505f33b580deaee6237a9c47d1"
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-records.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "79ace1ec3407c1c8e88f8b9b16d9b7b0f68fd54577b9a2a4fddfe3006726d53a"
+    },
+    {
+      "path": "docs/content/r2/phone-small-terrain-preview.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "3ce8e67e887f12006ea53487ea842db7a4d755f85c64d18cf1df117988185db6"
+    },
+    {
+      "path": "docs/content/r2/phone-small-constructed.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "85d1e686e45ebfa413ffe4a0c6ce0f8b2bf6bc3da3537efc517efab766bde480"
+    },
+    {
+      "path": "docs/content/r2/phone-small-shock.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "e849c59f676f92f8861101ca73c1053805e402b4fb0aabcf4e9c9411ea73e48f"
+    },
+    {
+      "path": "docs/content/r2/phone-small-exercise.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "b535cd9523cdbbab16d7f7f170e98e951fd95785c151b3d04232b12ba07fe83c"
+    },
+    {
+      "path": "docs/content/r2/phone-large-terrain-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fea5ba7cb1d7f8df85a8fc12750dca6182271b6fdfd9f24322745eb9aa118943"
+    },
+    {
+      "path": "docs/content/r2/phone-large-constructed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "bcb892fed08bc77fae5d45449c232042228899f32cf49ddbad30cfe6951d6311"
+    },
+    {
+      "path": "docs/content/r2/phone-large-shock.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "c97c94efccc75d0fe8c0b15f08c40210ef996347e9d71af88418784b7bd7cd4d"
+    },
+    {
+      "path": "docs/content/r2/phone-large-exercise.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "0d95cb0671ec241d0fff42c1732b95a78759f1ae51dab5ba8e7fb3a22bc24cc3"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-terrain-preview.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "8ebf06f03f879e00d3f02180958130fef819efe78448f1e760dd2003bd9a9d52"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-constructed.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "eb7a4ca9193d5bfc89b68a0d4f555a2a841f519d7a56e5b0af696d7bd0936309"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-shock.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "f84a7c3711f186d72a8db3fc68c46fe6f45d4b970e9a405b81a03b5fb104a66d"
+    },
+    {
+      "path": "docs/content/r2/phone-landscape-exercise.png",
+      "size": [
+        844,
+        390
+      ],
+      "sha256": "52c4c1bbe36aece1b2a3f535619dd8f53e86e18208b1e90cdc76a2e7b93490cb"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-terrain-preview.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "e90c4c70f524f9797fbae21f61246e4dffb41df59f524f43e8a1d536e47f1cf5"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-constructed.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "de0b6562b870f57a7a4c90e6e168b9d1263815dbdd6d15a091d4a154d932d3a1"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-shock.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "116fc2685980cb8cfa98725f8c4f03c3afc843fa4d2b2aee09c505027e221127"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-exercise.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "sha256": "0053f2b5210f61c6c5988786a9d2a7bc6350a987319e3491f14032be253d6a09"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-terrain-preview.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "40a68b7dfcc6b2b9a96ced86a2558592d0c735bb1bf2e9b5327f8fa78d50a992"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-constructed.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "7a9a6b1bf6892fd5a27108c0d52fcd2bbe45cd7e9f014402594599e1ce7d0f73"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-shock.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "22ae1a9c49cd6627b72c84a366a3aef7ea9e72f848f79021602968a6d8191739"
+    },
+    {
+      "path": "docs/content/r2/phone-ipad-landscape-exercise.png",
+      "size": [
+        1376,
+        1032
+      ],
+      "sha256": "918e7081fcca0543de1588d87a050f6ac705aa948dc4f844d27ede8bd1c5474e"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-terrain-preview.png",
+      "size": [
+        1366,
+        600
+      ],
+      "sha256": "5c5717c328bdd9944004ea3f5eb6b766f26a1425b07941c8717468962fea07c8"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-constructed.png",
+      "size": [
+        1366,
+        600
+      ],
+      "sha256": "debaae7102535eeedeacccb08294ab2561cbc67dfb1f9bc399f4165fcd1ad944"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-shock.png",
+      "size": [
+        1366,
+        600
+      ],
+      "sha256": "c012dc7c1f5edb7368a161db530ef9c722a2866ec7520617d9da7d50dedac476"
+    },
+    {
+      "path": "docs/content/r2/phone-laptop-exercise.png",
+      "size": [
+        1366,
+        600
+      ],
+      "sha256": "08b951cd89f89a150fd9e3ca4295fa0184a96e4757faad3d73380319c59474f8"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-content-r2-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "f0d73ac0bb0d73cc6e7cf00a3bab7a0a4f0dc6f5175afe42fa0caddf37ee8c5f"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-content-r2-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "6aced1e7ca90f8edf54113720731a2851302bc67035b1bf417eefcca4e547163"
+    },
+    {
+      "path": "docs/content/r2/phone-offline-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "ef2018e988cf07de80fa1489412004740dd6cdb2cce6779f8e817290f95fed09"
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-preview.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "a8600e2b49d25ae94f7e1b90f93167d5ee2501cbcd583a168493e4736ce10196"
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-constructed.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "4bb1217463ef18f31cece3e76d4d23723a75bc13e86d23c66124108958072c16"
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-shock.png",
+      "size": [
+        320,
+        568
+      ],
+      "sha256": "68031bfa3d02dd39e78886357fab00bc7eea65c08cabd6e6d69eb9541c9ce93c"
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-preview.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "cc9f9d510e5b87165495177b9879a4a40183bf60a194984a29dbe544518b3c41"
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-constructed.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "fabdbc69539411ebf4a017730eb325e9e8bccd36349c1eba8cdcfc6aebf9e660"
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-shock.png",
+      "size": [
+        430,
+        932
+      ],
+      "sha256": "dc14e826f50cd68ae35a84aa81817c5b406f3b70edee42b8eed99b219eebd62a"
+    }
+  ],
+  "videos": [
+    {
+      "path": "docs/content/r2/phone-barricade-route.mp4",
+      "sha256": "e35befcba0be5bc55be966b23884c4b0196dc94aae66f1d84f0597f955896a1c",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "55"
+          }
+        ],
+        "format": {
+          "duration": "6.875000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-flood-route.mp4",
+      "sha256": "69599b804f113ecd844e476daf658497ef0c562f6978fadc2c5f7c81b52824d5",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "54"
+          }
+        ],
+        "format": {
+          "duration": "6.750000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-turn-first-leak.mp4",
+      "sha256": "52a5f518d769b35bf20c2034bed49c8787b1b7763a713d84779dc71a29e9a333",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "69"
+          }
+        ],
+        "format": {
+          "duration": "8.625000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-levee-first-leak.mp4",
+      "sha256": "f58971c339c9bb9881acb3d8dd5f1366d3011cf75f35d2ad9366049d52ac8bbb",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "54"
+          }
+        ],
+        "format": {
+          "duration": "6.750000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-exercise-switchback-first-leak.mp4",
+      "sha256": "e1a06b52ce625f0429364ae474d26924d9246d13b25d648a7f6df16b3e0da4cb",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "130"
+          }
+        ],
+        "format": {
+          "duration": "16.250000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-small-preview-operation.mp4",
+      "sha256": "dcd47769aa6180896558f6c2e37936cecec9e453e6b70b3dc1ac71d2025b01d6",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 320,
+            "height": 568,
+            "nb_read_frames": "10"
+          }
+        ],
+        "format": {
+          "duration": "1.250000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-large-preview-operation.mp4",
+      "sha256": "b2d510ea70d2bfc1743cfdb3f52769edb782b2073e2118db0b5ef860a937fe7e",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "10"
+          }
+        ],
+        "format": {
+          "duration": "1.250000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-small-full-operation.mp4",
+      "sha256": "e00dc254a9cf2d9056c0e90ae7d103cf6ecb87f6056b5913d1c5582d5e59170f",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 320,
+            "height": 568,
+            "nb_read_frames": "32"
+          }
+        ],
+        "format": {
+          "duration": "4.000000"
+        }
+      }
+    },
+    {
+      "path": "docs/content/r2/phone-large-full-operation.mp4",
+      "sha256": "67da969862270632d5e19c9e3ffd42fadb42dc1e7871a99fc3a935e22c9a0c88",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 430,
+            "height": 932,
+            "nb_read_frames": "32"
+          }
+        ],
+        "format": {
+          "duration": "4.000000"
+        }
+      }
+    }
+  ],
+  "secretScan": {
+    "files": 349,
+    "matches": 0,
+    "paths": []
+  },
+  "sources": [
+    {
+      "path": "package.json",
+      "sha256": "876b204517a8907464e747a0be9f812dc631805282fb2abf78319384fd02c031"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "62362164f63370f2cf959aaed2799cc2b41d3eea95eb2b4946294789546b3a59"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d60f9c65ac5b0918a9347d614e383a12fca4b1312b2d8facc9a1f2d85d370264"
+    },
+    {
+      "path": "CREDITS.md",
+      "sha256": "a4d5176a41bc75b413acb2460193cb03772be5194477d6735346bf9d756f5978"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "sha256": "8a0cf416b45394e59732c861c733b3a0cf61c52e9d3c25dd2b4e80d470da4b3b"
+    },
+    {
+      "path": "scripts/content-r2-e2e.mjs",
+      "sha256": "2dc4a7dd95f47ceba4dd4520746fd58ead10ec727880a8479a044aec8875c754"
+    },
+    {
+      "path": "scripts/content-r2-touch-evidence.mjs",
+      "sha256": "fa0afd3db197ae4616a4b338edeee154c383ccf02965709a6bf8b0963a0573b8"
+    },
+    {
+      "path": "scripts/content-r2-perf.mjs",
+      "sha256": "03c6262bf3cbbe143d4df16cc00156cea40626048f668eb4561291011791d836"
+    },
+    {
+      "path": "tests/content-r2.test.js",
+      "sha256": "208a672d262e39e0169141db3c89f78d35c8ec5ade62222de72ad586f57170cb"
+    },
+    {
+      "path": "src/art-r1.css",
+      "sha256": "0ada3bdcbf3cd9f3f10e6149be756067127aa12e2d02c7fe344c0b74f87c731c"
+    },
+    {
+      "path": "src/art-r2.css",
+      "sha256": "42ebcc4272ba015ed166a39eecbda59144d374383d60f994387274156aa3c254"
+    },
+    {
+      "path": "src/art-r3.css",
+      "sha256": "4a27a75215263333f1315f67f5e1bdd6a01bfa62cb9231b3d4fa22075c3a2868"
+    },
+    {
+      "path": "src/art-r4.css",
+      "sha256": "409fb1557b90b5e20a1d32326dc1626c51f5f0d4bb5b01dade29ac4d73b8517d"
+    },
+    {
+      "path": "src/art-r5.css",
+      "sha256": "1b425b54c6cbd5975be6de6b6ea37b80cecde7678b1552d405d18c33363886e9"
+    },
+    {
+      "path": "src/art-r6.css",
+      "sha256": "b10499afbafeb567c12917a880df96332080b25cc04598664997160b956da9f7"
+    },
+    {
+      "path": "src/art-r7.css",
+      "sha256": "2a4b803ffedcec5518cba64690a25946e78b38c580a1f09c0e285e410e7d81ca"
+    },
+    {
+      "path": "src/campaign.js",
+      "sha256": "6a760cf63dd2e6371a2a97ff1dc69edea1d2cb6f4099c0b4986ec2f06270b6b0"
+    },
+    {
+      "path": "src/content-r1.css",
+      "sha256": "006b605fc7a07856d4ad388b0af4ff952983f202708b504cfc77eccba242385f"
+    },
+    {
+      "path": "src/content-r1.js",
+      "sha256": "def6277f09b4e7c49c4a0bedfd498920b9f56b806a30303467ff681248b96d26"
+    },
+    {
+      "path": "src/content-r2.css",
+      "sha256": "7f33075d0b59a2b71870df814c4805f0b7be48310bd1baad1d44bccdf7f8b62c"
+    },
+    {
+      "path": "src/content-r2.js",
+      "sha256": "f574b99dbbccccc953f97030606f0941764514278cb500db54b171e443179205"
+    },
+    {
+      "path": "src/engine.js",
+      "sha256": "ca04db9576c8355a2e2a2b5b6492282272f542c833e05dac33da4f2534cb22d7"
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "40092fb27fc8e30fbcca572f48325d532e345f60773a8df38f626d8d15cbf81f"
+    },
+    {
+      "path": "src/presentation-r2.js",
+      "sha256": "e6fe3c94a1dee05ab6a4559347857b2e2ada940d264e3ca246f715ff6a92113d"
+    },
+    {
+      "path": "src/presentation-r3.js",
+      "sha256": "6fc99ccf05c9dd9033d05787d0dd05f9d5e154ae7bcdf02f046f92888daa0d81"
+    },
+    {
+      "path": "src/presentation-r4.js",
+      "sha256": "1ec0b56e714ce67bc708336366d0ae6c1bdb32c194ff6055223255b9fc7aee9a"
+    },
+    {
+      "path": "src/presentation-r5.js",
+      "sha256": "9dbfd6a8b1c6b4e69f62f28e702a7476088dec93051be388b2b83f31d33eb989"
+    },
+    {
+      "path": "src/presentation-r6.js",
+      "sha256": "826a52effefdbcdd94cba740e7ae0004a3fd860cfa70041538de6faedb0ebb05"
+    },
+    {
+      "path": "src/presentation-r7.js",
+      "sha256": "6f5bb81e92494e3fd0a2acb1b83d9fafad4e48416e0d3049e4381047812dc583"
+    },
+    {
+      "path": "src/render-r1.js",
+      "sha256": "1c44625bd8be05c3db960b4479e554bf95bca17f356f15aa5b22ef87e15d86a9"
+    },
+    {
+      "path": "src/render-r2.js",
+      "sha256": "db50b203212dffcb5dde93e8025fa6a70cdfe3592e6f98a1079a8b3b8dde2e3c"
+    },
+    {
+      "path": "src/render-r3.js",
+      "sha256": "9905a4a3a0668ba5a0d7911f874b8bab0475f5f546d5da96e509844249aebde6"
+    },
+    {
+      "path": "src/render-r4.js",
+      "sha256": "14fd09302f0bc3870311fc1f4171c02f96369137e80af28d66b09df0ba7a261b"
+    },
+    {
+      "path": "src/render-r5.js",
+      "sha256": "7bf9747e34c43e91d0c38e0ca42a9ff14d4b07e99b6340ef1f2c8dcc49e0597d"
+    },
+    {
+      "path": "src/render-r6.js",
+      "sha256": "c93a06651a29842675782f0dab5a8bebf9e97d92c3ac58ad1bb0d87927e1d741"
+    },
+    {
+      "path": "src/render-r7.js",
+      "sha256": "eb1d7d0a41b9339a9842839a67b5ebdc9fd0d6faf948d62d99f90674a8621d51"
+    },
+    {
+      "path": "src/render.js",
+      "sha256": "515231d000dfd407b61df80afadc3b8d416e5c645b7154df868e4942091fcab5"
+    },
+    {
+      "path": "src/save.js",
+      "sha256": "6dee7f1dd34484506e0edda562c6a0bb87902feaedefa2b08106ae6b7b0c57ea"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "255b710963ea869faaee717d4ef73815b92da0481bd79bb8e845b16bdff53652"
+    },
+    {
+      "path": "src/version.js",
+      "sha256": "fa2d4cedab97553626d58ef3e81f2eb4ebb95ca74c1fd7353523f394b715796b"
+    }
+  ],
+  "runtime": {
+    "files": 224,
+    "bytes": 49950017
+  },
+  "externalGates": {
+    "humanComprehension": "BLOCKED: five new players required",
+    "physicalIOS": "BLOCKED: devices required",
+    "idleNativePerformance": "BLOCKED",
+    "independentMuseScore": "BLOCKED: new independent review required"
+  }
+}

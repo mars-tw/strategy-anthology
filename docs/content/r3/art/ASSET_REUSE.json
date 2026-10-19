@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED",
+  "generatedMasters": 0,
+  "actualGenerationToolThisRound": null,
+  "reason": "Existing mineral-gouache fieldworks, foundation, crystals and tower sprites cover all required gameplay; this round repairs rules, layout and evidence.",
+  "existingProvenanceTool": "image_gen__imagegen",
+  "provenanceDocuments": [
+    "docs/content/r1/art/PROMPTS.json",
+    "docs/content/r2/art/PROMPTS.json",
+    "docs/art/PROMPTS.json"
+  ],
+  "assets": [
+    {
+      "path": "public/assets/content-r1/fieldworks.png",
+      "sha256": "1734548b2a268b5c815cc7a6c69d1bba366ae5563e59e32175f739b90bc1c783",
+      "generationRound": "existing source; reused without modifying bytes"
+    },
+    {
+      "path": "public/assets/content-r2/legacy.png",
+      "sha256": "7ed57daca7445ce7ca05685d4fd610e3c37cde3de16d2343b165ee84b953b27b",
+      "generationRound": "existing source; reused without modifying bytes"
+    },
+    {
+      "path": "public/assets/r1/keep.png",
+      "sha256": "60d9d0bae7f2be388e57efe801ae0758c4dae420c8dc0c8fa260b7d520d6907c",
+      "generationRound": "existing source; reused without modifying bytes"
+    },
+    {
+      "path": "public/assets/r1/tower-frost.png",
+      "sha256": "992a827e0c2c92f97b9c08400ecfcdde6dbb64cc2b178f37195808f89b12c9ef",
+      "generationRound": "existing source; reused without modifying bytes"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "method": "SHA-256 on actual Git index blobs after explicit R6 -text attributes and renormalize; not only worktree files.",
+  "artRecords": 118,
+  "legacyRecords": 113,
+  "artManifest": "docs/art/ASSET_MANIFEST_R6.json",
+  "legacyIndex": "docs/art/r6/legacy-checks/index.json",
+  "baseCommit": "c20d122587f6cf1d4d79de1fc13c322929104ba1",
+  "originalUntrackedReviewsPreserved": 4
+}

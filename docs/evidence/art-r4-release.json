@@ -1,0 +1,129 @@
+{
+  "status": "VERIFIED",
+  "scope": "Local web art and engineering only; no push/deployment/store operation or independent new score.",
+  "version": "0.5.0",
+  "parentCommit": "d5334beb2b283785fbb6ad78d88b6b708ea2912b",
+  "buildSHA256": "132d5be4bd706425cc1968fec7bd37e31bdee46ad96813b2f0327cd530ece264",
+  "styleSHA256": "e9ef9ed2583fd73c82785980d63389a839ee15b72092e37f5a62c598be908eba",
+  "assetManifestCanonicalSHA256": "d7df6033c60b20d64e3e641850aed51111fad0f712dbbab6fb15fe5532bdab22",
+  "commands": [
+    {
+      "command": "npm run verify",
+      "status": "VERIFIED",
+      "exitCode": 0,
+      "log": "docs/art/verify-r4.txt",
+      "logSHA256": "5f98c88bf293ed24793798714504e0042a5eed8fb7bf623319332fecd869a390"
+    },
+    {
+      "command": "npm run test:art:r3",
+      "status": "VERIFIED",
+      "exitCode": 0,
+      "log": "docs/art/test-r3-under-r4.txt",
+      "logSHA256": "5e1e4552d99bcc927c40b92c653f4ad7fde44423d707513714ed8ad5b7549453"
+    },
+    {
+      "command": "npm run test:art:r4",
+      "status": "VERIFIED",
+      "exitCode": 0,
+      "log": "docs/art/test-r4.txt",
+      "logSHA256": "cfdf9e7fdb2fe0d134b24048740ad4d4d52e637952fdf503a96bc691f81dc280"
+    },
+    {
+      "command": "npm run test:perf",
+      "status": "VERIFIED",
+      "exitCode": 0,
+      "log": "docs/art/perf-r4.txt",
+      "logSHA256": "619a002fe709741d02591b26413098f5b2147c4ebc413171b7707dc1feb2641e"
+    }
+  ],
+  "checks": {
+    "vitest": 41,
+    "e2e": 442,
+    "legacyArt": [
+      41,
+      114,
+      83
+    ],
+    "round4": 108,
+    "oldActorColor": 28,
+    "newActorColor": 7,
+    "secretHits": 0
+  },
+  "storeScreenshots": [
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/ipad-defense-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "925f282aff8082da976d47e08e35cb4e00ab16b0dd92b0fbbe3ab9693b9ac2fd"
+    },
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/ipad-opening-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "415fd2beeff91f5a2902e8d116557617ce702bdba361282273460adc4e2b191c"
+    },
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/ipad-siege-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "7389f7da87379389d1ca4bc1300ebd44f732c3998276567bd675fb3b4f106d05"
+    },
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/iphone-defense-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "fdcee91054ecb0d840c426a818981f8c8e89c347a10b9be4931b54f3a6d5fd72"
+    },
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/iphone-opening-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "142d7361331d207d6d14351de73cd5bb8019cbc3d880d0e57ee6cd2e6de65857"
+    },
+    {
+      "path": "C:/Users/digimkt/Desktop/遊戲/strategy-anthology/docs/store/screenshots/iphone-siege-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "990f64bdb5cab2108e122411033d8fa772fbca99bcb04f5b5b7d515892846383"
+    }
+  ],
+  "rawScreenshotHashes": 37,
+  "newMasterCount": 19,
+  "newRuntimeImages": 26,
+  "newRuntimeMetadata": 1,
+  "newAssetBytes": 6046828,
+  "package": {
+    "previousBytes": 22529204,
+    "currentBytes": 28581081,
+    "increase": 6051877,
+    "increasePercent": 26.862364955282043
+  },
+  "performance": {
+    "desktopMedianP95": 16.800000000000182,
+    "landscapePhoneMedianP95": 16.800000000000182,
+    "referenceOnly": true,
+    "physicalReleaseGate": "BLOCKED"
+  },
+  "blocked": [
+    "New independent Muse >=8 score",
+    "Human 3-second and blind recognition test",
+    "Physical iPhone and iPad",
+    "Idle-machine release performance"
+  ],
+  "preservedUntracked": [
+    "docs/art/ART_RESCORE2_MUSE.md",
+    "docs/art/ART_RESCORE3_MUSE.md"
+  ]
+}

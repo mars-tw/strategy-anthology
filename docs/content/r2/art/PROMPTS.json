@@ -1,0 +1,9 @@
+{
+  "actualTool": "image_gen__imagegen",
+  "actualModelSlug": null,
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "prompt": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark. Use case: stylized-concept. Asset type: transparent game prop sprite atlas. Exactly TWO complete separated objects in one horizontal row, each centered inside its own half of the image, with broad transparent gutters. Left: a dismantled frost watchtower foundation, empty low round stone ruin platform with four irregular weathered grey stone footings, tiny cyan mineral fragments and a coiled red cord, warm-ink stone contours, no standing tower, clearly vacant and walkable center. Right: one luminous faceted celadon-and-pale-cyan crystal shard, chunky octahedral irregular jewel, short cool violet contact shadow, painted mineral gouache facets, readable at tiny game icon size. Both high three-quarter overhead strategy game view. No background, no ground rectangle, no lettering, no text, no UI, no human, no emoji, no frame. Genuine transparent background. Landscape 2:1.",
+  "source": "public/assets/content-r2/legacy.png",
+  "generatedMasters": 1,
+  "objects": 2
+}

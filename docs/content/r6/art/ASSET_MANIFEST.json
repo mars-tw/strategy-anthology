@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "actualTool": "image_gen__imagegen",
+  "modelSlug": null,
+  "samples": [
+    {
+      "id": "flood",
+      "original": "docs/content/r6/art/flood-original.png",
+      "runtime": "public/assets/content-r6/flood.webp",
+      "sha256": "d79ebf67556d1e99472904bb396ff1ca1f5b9d549bf01782a1233d22664f0a94",
+      "runtimeSHA256": "941fe711036227a1b84cf247b511960bae8eca11dac27d19a84e703bfdb3e31d",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "barricade",
+      "original": "docs/content/r6/art/barricade-original.png",
+      "runtime": "public/assets/content-r6/barricade.webp",
+      "sha256": "0946c65c0f4b7ba975b87387893981114aae50c8b5b796bd9d7a2804f8c6360d",
+      "runtimeSHA256": "1a841e2d15e676fc80ba487d338734c839fcc80ae42b9774a181c51ba79feda4",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ]
+}

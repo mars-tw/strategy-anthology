@@ -1,0 +1,214 @@
+{
+  "status": "VERIFIED",
+  "sources": [
+    {
+      "id": "warrior",
+      "path": "docs/art/r4/sources/warrior.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "archer",
+      "path": "docs/art/r4/sources/archer.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "mage",
+      "path": "docs/art/r4/sources/mage.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "enemy",
+      "path": "docs/art/r4/sources/enemy.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "worker",
+      "path": "docs/art/r4/sources/worker.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "river",
+      "path": "docs/art/r4/sources/river.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "commander",
+      "path": "docs/art/r4/sources/commander.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "hound",
+      "path": "docs/art/r4/sources/hound.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "icons",
+      "path": "docs/art/r4/sources/icons.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "logo",
+      "path": "docs/art/r4/sources/logo.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "road",
+      "path": "docs/art/r4/sources/road.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "towers",
+      "path": "docs/art/r4/sources/towers.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "rgbaMasterPreserved": true
+    },
+    {
+      "id": "attack-corrections",
+      "path": "docs/art/r4/sources/attack-corrections.png",
+      "nativeAlpha": true,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "rgbaMasterPreserved": true
+    }
+  ],
+  "note": "Native source alpha retained. Export clears alpha<20 before compression. Lossy WebP may rewrite RGB under zero alpha; masked grey witnesses verify actual compositing, not those undefined hidden RGB values."
+}

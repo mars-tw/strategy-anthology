@@ -1,0 +1,466 @@
+{
+  "status": "VERIFIED",
+  "version": "0.8.0",
+  "generatedMasters": 8,
+  "newRuntimeImages": 14,
+  "newRuntimeMetadata": 2,
+  "newRuntimeBytes": 5468055,
+  "previousPackageBytes": 40397854,
+  "currentPackageBytes": 45869861,
+  "deltaBytes": 5472007,
+  "deltaPercent": 13.545291291958229,
+  "buildSHA256": "73696027d6371ae7243a3d4a43769f801ea701594383eb3d068e77af1d529f8c",
+  "styleSHA256": "d4f3603c339e8d0152a707cd9e256a1c99911bf963eaa7395fcbaaa25ea7db3c",
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "cf464899b916556def0422f89293b3fc73e03a2468d2b62f65ffd71eb305e190",
+      "quarterPath": "docs/art/r7/thumbnails/ipad-defense-2064x2752-quarter.png",
+      "quarterSHA256": "343130f68416af52dd53ad72d196a754993db604c24849b557d4a3d85a382966",
+      "phone360Path": "docs/art/r7/thumbnails/ipad-defense-2064x2752-360.png",
+      "phone360SHA256": "538ecc6c6b3116356f8112552d12a4a640bb713a2fa51d656aae94dd53df207b"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "4bef112f476793ef6bc1a86cb18db35d6e7c3b7ea7cfe9638a0f3c207fca6e6a",
+      "quarterPath": "docs/art/r7/thumbnails/ipad-opening-2064x2752-quarter.png",
+      "quarterSHA256": "585d2a7ea28f69811d357c8ba49625ae3e6a398089f71259b8513f324ba11100",
+      "phone360Path": "docs/art/r7/thumbnails/ipad-opening-2064x2752-360.png",
+      "phone360SHA256": "c83dfb5f4489aaefa97bd5394755b1de87e4898cbdb3f64047d59077c1080ca8"
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "sha256": "ee196b95944655e217a9aa82b15f476e4b1e798755b253aaf9d77ba4f32fbd19",
+      "quarterPath": "docs/art/r7/thumbnails/ipad-siege-2064x2752-quarter.png",
+      "quarterSHA256": "31a8e507baf58e4065e6f1fd4edc3a0b2cc04073d03d7d438ba0d70d0edcd5cb",
+      "phone360Path": "docs/art/r7/thumbnails/ipad-siege-2064x2752-360.png",
+      "phone360SHA256": "f26df44fdee44cecd4dfac43bb56da7e5e96cc63cc009d8bb1e6bad41caefd71"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "6ace30e0fe989b0f0a606b99b6800d9db65158cc57efe83b33ad50617add152f",
+      "quarterPath": "docs/art/r7/thumbnails/iphone-defense-1290x2796-quarter.png",
+      "quarterSHA256": "814cd5e2c6509146c8887c67d1e230c20377fbfa3dc91b3a04895b91047f0133",
+      "phone360Path": "docs/art/r7/thumbnails/iphone-defense-1290x2796-360.png",
+      "phone360SHA256": "6028f1d1a2bc2208bcadd46049502f09e4ce8265dbaa9fae76fc0f7a43679a00"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "66d07831a450fce902fa9560c8ed7962db3588152f08c529b2fd31fdef211a64",
+      "quarterPath": "docs/art/r7/thumbnails/iphone-opening-1290x2796-quarter.png",
+      "quarterSHA256": "6744e802dbff0e5c04f57a2f11c8874beffe7563c2a63c6723d4139c2cd3ea04",
+      "phone360Path": "docs/art/r7/thumbnails/iphone-opening-1290x2796-360.png",
+      "phone360SHA256": "573ae9b1cb73182b7554fb493ccf97af83473622aa1620f406d52d5a01f3e02a"
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "size": [
+        1290,
+        2796
+      ],
+      "sha256": "d258f0380e60752f8e132b897b8bf9c85e92886b839dcc6f1564ae2054ff7c5c",
+      "quarterPath": "docs/art/r7/thumbnails/iphone-siege-1290x2796-quarter.png",
+      "quarterSHA256": "cda66b018e197a1e3034900b76084733e0fd66ce90e3ea0df208be122f591de4",
+      "phone360Path": "docs/art/r7/thumbnails/iphone-siege-1290x2796-360.png",
+      "phone360SHA256": "9aaeedf3878097bb748ecd7e814a186492cf65c590e1eb05f7ae08d8b81cb41e"
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "docs/art/compare/r7/before/1032x1376-defense.png",
+      "after": "docs/art/compare/r7/after/1032x1376-defense.png",
+      "comparison": "docs/art/compare/r7/1032x1376-defense.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "27423d42716bcdab0ccefcd65e2f75ffd065153f175ca22319fcc4828db4b3ef",
+      "afterSHA256": "f54d91a89c33fd69b01ba9020a0e1f8c63954a63582ebcc0f56b61e4b1036661"
+    },
+    {
+      "before": "docs/art/compare/r7/before/1032x1376-opening.png",
+      "after": "docs/art/compare/r7/after/1032x1376-opening.png",
+      "comparison": "docs/art/compare/r7/1032x1376-opening.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "05c7bcf8ce9f42b5b08b043a4b592259be7cac1f246aa04f3b6396a8f8b6e05f",
+      "afterSHA256": "f2dcbbdf00b8c0af9940455a44f009f25ac0dd75cf3b247fb5b36e6900c41bcc"
+    },
+    {
+      "before": "docs/art/compare/r7/before/1032x1376-siege.png",
+      "after": "docs/art/compare/r7/after/1032x1376-siege.png",
+      "comparison": "docs/art/compare/r7/1032x1376-siege.png",
+      "size": [
+        1032,
+        1376
+      ],
+      "beforeSHA256": "915007d2449abdb3f6020a2b75682ec4c5109cb061e85db9d0d1014847681377",
+      "afterSHA256": "56a8076069c7392eed9172d2e4dad81ebb924adcce9186b7f63a213ce08519b5"
+    },
+    {
+      "before": "docs/art/compare/r7/before/390x844-defense.png",
+      "after": "docs/art/compare/r7/after/390x844-defense.png",
+      "comparison": "docs/art/compare/r7/390x844-defense.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "9bf2ce916d386d2ef8b1ffe1a42285cd9334531a9d907dd58b980eefe636f250",
+      "afterSHA256": "f5632642776631ab2946a40efd1f6bf362799a820a016965ac6446c73c6c6017"
+    },
+    {
+      "before": "docs/art/compare/r7/before/390x844-opening.png",
+      "after": "docs/art/compare/r7/after/390x844-opening.png",
+      "comparison": "docs/art/compare/r7/390x844-opening.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "d346f9c67a22d65678cb54d9172bd18951fd8592edd8d6a95567b3f230a44fe9",
+      "afterSHA256": "f1fbccf28257207c392e468350bdb7203d310528fc82d7785a848ff23a265d38"
+    },
+    {
+      "before": "docs/art/compare/r7/before/390x844-siege.png",
+      "after": "docs/art/compare/r7/after/390x844-siege.png",
+      "comparison": "docs/art/compare/r7/390x844-siege.png",
+      "size": [
+        390,
+        844
+      ],
+      "beforeSHA256": "129fc369e4854536dedea31038fb85954750f41a9a95b5f835be9d3067731be8",
+      "afterSHA256": "9609561515129a8c0a660b323a900e8ff68cb99e61cde360a025c2ca81254156"
+    },
+    {
+      "before": "docs/art/compare/r7/before/844x390-defense.png",
+      "after": "docs/art/compare/r7/after/844x390-defense.png",
+      "comparison": "docs/art/compare/r7/844x390-defense.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "249251476794ec642d6b6e8a331d2b03c04f1452c1c3e34212767495c30a55be",
+      "afterSHA256": "9cc033a9c8ecbad93f1cd04fa033f3359960ca4597ec4f3706531edf5587ef52"
+    },
+    {
+      "before": "docs/art/compare/r7/before/844x390-opening.png",
+      "after": "docs/art/compare/r7/after/844x390-opening.png",
+      "comparison": "docs/art/compare/r7/844x390-opening.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "37078877d1a87fc001009804c352893aa0ee5c6aa24b09c901190ac3577614f2",
+      "afterSHA256": "bac3905baa8e8b65e48456239b957bc681eb7eb89d1e0f5e419f573ababb7ec5"
+    },
+    {
+      "before": "docs/art/compare/r7/before/844x390-siege.png",
+      "after": "docs/art/compare/r7/after/844x390-siege.png",
+      "comparison": "docs/art/compare/r7/844x390-siege.png",
+      "size": [
+        844,
+        390
+      ],
+      "beforeSHA256": "b74ce6eb524956ef6915842ff05e6f1164474e6633366f5bd24eec37796ba312",
+      "afterSHA256": "f45c9ebfea86080f67561b06555eb5accb7b1ce2e0d1456d0dbe2dd55ecd3f05"
+    }
+  ],
+  "storeComparisons": [
+    {
+      "before": "docs/art/compare/r7/store-before/ipad-defense-2064x2752.png",
+      "beforeSHA256": "ad32963fd6e9c598403b3cc7811e55ddd30877eb82bb1c1aee3b500fc4a11e98",
+      "after": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "afterSHA256": "cf464899b916556def0422f89293b3fc73e03a2468d2b62f65ffd71eb305e190",
+      "comparison": "docs/art/compare/r7/store-pairs/ipad-defense-2064x2752.webp",
+      "comparisonSHA256": "839bd2aecbe98ef10483a48818496e194c024278e5593d887b5c6147b5ac886c"
+    },
+    {
+      "before": "docs/art/compare/r7/store-before/ipad-opening-2064x2752.png",
+      "beforeSHA256": "67f30b68af93b7e844cce180d9945e59ac726cf91f2494f11b09892ffe9f9063",
+      "after": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "afterSHA256": "4bef112f476793ef6bc1a86cb18db35d6e7c3b7ea7cfe9638a0f3c207fca6e6a",
+      "comparison": "docs/art/compare/r7/store-pairs/ipad-opening-2064x2752.webp",
+      "comparisonSHA256": "306f1d225fcdcc15a2648672d423654ef9a98eb27f84924df166807e310e960a"
+    },
+    {
+      "before": "docs/art/compare/r7/store-before/ipad-siege-2064x2752.png",
+      "beforeSHA256": "9ba15cc5c4a8de4e792ac3f3201b9403e585c0160863936e725251d77c5f85c8",
+      "after": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "afterSHA256": "ee196b95944655e217a9aa82b15f476e4b1e798755b253aaf9d77ba4f32fbd19",
+      "comparison": "docs/art/compare/r7/store-pairs/ipad-siege-2064x2752.webp",
+      "comparisonSHA256": "e524aeb6bc03708b906e2952aeaa0a064ae8afe8085f95a8cf3a9a12d0a44395"
+    },
+    {
+      "before": "docs/art/compare/r7/store-before/iphone-defense-1290x2796.png",
+      "beforeSHA256": "06dd208c30edef489241cb6b8ee444ace93a616ab14c3a2f1a75e1dffa18be73",
+      "after": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "afterSHA256": "6ace30e0fe989b0f0a606b99b6800d9db65158cc57efe83b33ad50617add152f",
+      "comparison": "docs/art/compare/r7/store-pairs/iphone-defense-1290x2796.webp",
+      "comparisonSHA256": "7067b99788556a25b11b283793b9c29b967ee214aa486983f5d9649394e1d62a"
+    },
+    {
+      "before": "docs/art/compare/r7/store-before/iphone-opening-1290x2796.png",
+      "beforeSHA256": "a038026245f90e18699676f5a16a30ce124100b7c22dccd8f276d77d9196e1b6",
+      "after": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "afterSHA256": "66d07831a450fce902fa9560c8ed7962db3588152f08c529b2fd31fdef211a64",
+      "comparison": "docs/art/compare/r7/store-pairs/iphone-opening-1290x2796.webp",
+      "comparisonSHA256": "14a706c369ff878b55bb2901807b695f5de8b26aab810c31a0f3bc714035f715"
+    },
+    {
+      "before": "docs/art/compare/r7/store-before/iphone-siege-1290x2796.png",
+      "beforeSHA256": "0c0342b7e22a711e316ecd560d745524cb8711dcb3f7a9c32759f758321a94eb",
+      "after": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "afterSHA256": "d258f0380e60752f8e132b897b8bf9c85e92886b839dcc6f1564ae2054ff7c5c",
+      "comparison": "docs/art/compare/r7/store-pairs/iphone-siege-1290x2796.webp",
+      "comparisonSHA256": "1580b316c032b114bf5086cc009c256bdc1433c4b28ebcc3324498ba6202efca"
+    }
+  ],
+  "renderedTerrainProfiles": [
+    {
+      "device": "iphone",
+      "method": "RGB water intervals on rendered terrain screenshot, outside bridge rows; no source-only proof.",
+      "rows": [
+        {
+          "y": 64,
+          "width": 164.5,
+          "center": 780.5
+        },
+        {
+          "y": 80,
+          "width": 180.70000000000005,
+          "center": 788.5
+        },
+        {
+          "y": 128,
+          "width": 226.29999999999995,
+          "center": 656.5
+        },
+        {
+          "y": 150,
+          "width": 208.20000000000005,
+          "center": 639.5
+        },
+        {
+          "y": 235,
+          "width": 232.0,
+          "center": 792.6
+        },
+        {
+          "y": 260,
+          "width": 216.0,
+          "center": 837.0
+        },
+        {
+          "y": 355,
+          "width": 421.69999999999993,
+          "center": 700.0
+        },
+        {
+          "y": 380,
+          "width": 302.40000000000003,
+          "center": 660.0
+        },
+        {
+          "y": 465,
+          "width": 238.85000000000002,
+          "center": 673.5250000000001
+        },
+        {
+          "y": 512,
+          "width": 369.40000000000003,
+          "center": 651.0
+        },
+        {
+          "y": 560,
+          "width": 427.5,
+          "center": 661.5
+        },
+        {
+          "y": 600,
+          "width": 328.59999999999997,
+          "center": 618.5
+        }
+      ],
+      "twoZoneWidthRatios": [
+        1.4103343465045592,
+        1.7898262507850113
+      ],
+      "centerSpanPixels": 218.5,
+      "canvasWidthPixels": 1236
+    },
+    {
+      "device": "ipad",
+      "method": "RGB water intervals on rendered terrain screenshot, outside bridge rows; no source-only proof.",
+      "rows": [
+        {
+          "y": 64,
+          "width": 270.8000000000002,
+          "center": 1281.0
+        },
+        {
+          "y": 80,
+          "width": 296.0,
+          "center": 1294.0
+        },
+        {
+          "y": 128,
+          "width": 370.9000000000001,
+          "center": 1078.5
+        },
+        {
+          "y": 150,
+          "width": 337.39999999999986,
+          "center": 1050.9
+        },
+        {
+          "y": 235,
+          "width": 382.4000000000001,
+          "center": 1301.45
+        },
+        {
+          "y": 260,
+          "width": 353.9000000000001,
+          "center": 1371.5
+        },
+        {
+          "y": 355,
+          "width": 687.5,
+          "center": 1150.5
+        },
+        {
+          "y": 380,
+          "width": 495.89999999999986,
+          "center": 1085.5
+        },
+        {
+          "y": 465,
+          "width": 387.69999999999993,
+          "center": 1108.5
+        },
+        {
+          "y": 512,
+          "width": 606.3000000000001,
+          "center": 1068.5
+        },
+        {
+          "y": 560,
+          "width": 704.6999999999999,
+          "center": 1086.5
+        },
+        {
+          "y": 600,
+          "width": 538.1999999999999,
+          "center": 1017.0
+        }
+      ],
+      "twoZoneWidthRatios": [
+        1.4121122599704572,
+        1.8176425070931135
+      ],
+      "centerSpanPixels": 354.5,
+      "canvasWidthPixels": 2028
+    },
+    {
+      "device": "phone360",
+      "method": "RGB water intervals on rendered terrain screenshot, outside bridge rows; no source-only proof.",
+      "rows": [
+        {
+          "y": 64,
+          "width": 45.5,
+          "center": 217.0
+        },
+        {
+          "y": 80,
+          "width": 49.5,
+          "center": 217.75
+        },
+        {
+          "y": 128,
+          "width": 59.60000000000002,
+          "center": 182.0
+        },
+        {
+          "y": 150,
+          "width": 56.80000000000001,
+          "center": 177.5
+        },
+        {
+          "y": 235,
+          "width": 64.79999999999998,
+          "center": 219.0
+        },
+        {
+          "y": 260,
+          "width": 59.39999999999998,
+          "center": 231.0
+        },
+        {
+          "y": 355,
+          "width": 114.89999999999998,
+          "center": 194.0
+        },
+        {
+          "y": 380,
+          "width": 82.79999999999998,
+          "center": 183.0
+        },
+        {
+          "y": 465,
+          "width": 63.80000000000001,
+          "center": 186.0
+        },
+        {
+          "y": 512,
+          "width": 101.79999999999998,
+          "center": 179.5
+        },
+        {
+          "y": 560,
+          "width": 118.79999999999998,
+          "center": 182.0
+        },
+        {
+          "y": 600,
+          "width": 89.29999999999998,
+          "center": 170.5
+        }
+      ],
+      "twoZoneWidthRatios": [
+        1.4241758241758238,
+        1.8620689655172409
+      ],
+      "centerSpanPixels": 60.5,
+      "canvasWidthPixels": 342
+    }
+  ],
+  "visualAudit": "docs/art/r7/visual-audit.json",
+  "performance": "docs/art/r7/performance.json",
+  "independentScore": "BLOCKED - fresh Muse rescore and human blind test not performed; no8+ claim",
+  "limitations": [
+    "Real iOS/iPadOS and clean-machine performance not qualified.",
+    "Painted shoals and the ruined old bridge are scenery; native navigation and two crossing coordinates stay unchanged.",
+    "R4-R6 version-bound art receipts retained unchanged; current five-item visual contract is covered by R7, not obsolete symbol/deck assertions."
+  ],
+  "assetManifestSHA256": "b7426772dd4c586a14afacd8b6fb051d92d88cb86eccf3d3856da8d11bd3097a"
+}

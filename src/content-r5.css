@@ -1,0 +1,35 @@
+/* Inspect one actual element at a time. All three decisions remain reachable. */
+.terrain .coverage-row{width:100%;min-height:44px;padding:3px 6px;text-align:left;border:1px solid #b4ad9b;border-left:3px solid var(--element);border-radius:0;color:#292d38;cursor:pointer}
+.terrain .coverage-row[aria-pressed=true]{outline:2px solid var(--element);outline-offset:-3px;background:#fffaf0}
+.terrain .coverage-row[aria-pressed=true] b::after{content:' ◀';font-size:10px}
+.terrain .coverage-row:disabled{opacity:1;cursor:default}
+.terrain .coverage-list{gap:3px;margin:5px 0}
+.terrain .route-key{font-size:12px}
+.wallet.arrival strong{transform:none}
+.wallet.arrival::before{content:'';position:absolute;left:-14px;bottom:6px;width:8px;height:8px;border:2px solid #287b88;transform:rotate(45deg)}
+.wallet{position:relative}
+.salvage-flight .legacy-sprite{transform-origin:0 0}
+.battle [data-action=wave]:disabled{background:#e4e3db;color:#575d5c;opacity:1;border:1px solid #9eaaa3;cursor:default}
+@media(max-width:360px) and (orientation:portrait){
+ .terrain .terrain-map{height:156px}
+ .terrain .coverage-row{min-height:44px;font-size:12px;gap:4px}
+ .terrain .coverage-list{gap:2px;margin:4px 0}
+ .terrain .modal-actions{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+ .terrain .modal-actions button{min-width:0;padding:4px;font-size:12px}
+ .terrain .route-key{margin:3px 0}
+}
+@media(max-height:700px) and (orientation:landscape){
+ dialog.terrain{width:min(820px,calc(100vw - 24px));padding:10px;display:grid;grid-template-columns:1fr 1fr;gap:6px 12px}
+ dialog.terrain:not([open]){display:none}
+ .terrain .eyebrow{grid-column:2;font-size:12px;margin:0}
+ .terrain h2{grid-column:2;margin:0;font-size:20px}
+ .terrain .terrain-map{grid-column:1;grid-row:1/7}
+ .terrain .terrain-options{grid-column:2;grid-row:3;grid-template-columns:1fr 1fr;margin:0;gap:5px}
+ .terrain .route-key{display:none}
+ .terrain .coverage-list{grid-column:2;grid-row:4;margin:0}
+ .terrain .modal-actions{grid-row:5;grid-column:2;margin:0}
+ .terrain .modal-actions button{font-size:12px}
+ .terrain .coverage-row{min-height:44px;font-size:12px}
+ .terrain .coverage-list{gap:2px}
+ .terrain .terrain-map{height:290px}
+}

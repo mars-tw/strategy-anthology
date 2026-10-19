@@ -1,0 +1,42 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "7bf8213468d2d73b9712aa5e1144c21cb6b21dd8189b5519e481441f6e840b9a",
+  "sourceReport": "verification/r3-e2e.json",
+  "images": [
+    {
+      "source": "docs/content/r3/phone-exercise-levee-resumed.png",
+      "path": "docs/content/r9/phone-exercise-levee-resumed.png",
+      "sha256": "fd9b8dbc3e071031d06f719786db1d41b694cf2b948657fc0873eaeded08278e"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-alternative-complete.png",
+      "path": "docs/content/r9/phone-exercise-switchback-alternative-complete.png",
+      "sha256": "ddb9ec53a945d0ce4e5afb45cbe73123775127f437d7f7d0a6698431cbcdd51f"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-alternative-formation.png",
+      "path": "docs/content/r9/phone-exercise-switchback-alternative-formation.png",
+      "sha256": "fe02d72445d186ba9419310f770ed3066ba7e33c0a7e97fde614eb58ca2e3930"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-resumed.png",
+      "path": "docs/content/r9/phone-exercise-switchback-resumed.png",
+      "sha256": "90d5f776153f7cfb5f3038ad6f8f124865ce8ab00e02c3e57190ff80639c8b79"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-alternative-complete.png",
+      "path": "docs/content/r9/phone-exercise-turn-alternative-complete.png",
+      "sha256": "8d7c27df9411abf4f72f6cc7dbfe5ac432342e2f0c0f83ef76d256f52d4039b9"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-alternative-formation.png",
+      "path": "docs/content/r9/phone-exercise-turn-alternative-formation.png",
+      "sha256": "e5f453f34895a7da70ac71de2eb85d47faca824691c9212e39e07a0cc495b57d"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-resumed.png",
+      "path": "docs/content/r9/phone-exercise-turn-resumed.png",
+      "sha256": "f2782da6f83efaf33a0864acad95376ada01180d648ccb2124676aa4c98a877b"
+    }
+  ]
+}

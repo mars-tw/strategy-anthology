@@ -1,0 +1,209 @@
+{
+  "runtimeSourceSHA256": {
+    "src/art-r1.css": "0ada3bdcbf3cd9f3f10e6149be756067127aa12e2d02c7fe344c0b74f87c731c",
+    "src/art-r2.css": "42ebcc4272ba015ed166a39eecbda59144d374383d60f994387274156aa3c254",
+    "src/art-r3.css": "4a27a75215263333f1315f67f5e1bdd6a01bfa62cb9231b3d4fa22075c3a2868",
+    "src/art-r4.css": "409fb1557b90b5e20a1d32326dc1626c51f5f0d4bb5b01dade29ac4d73b8517d",
+    "src/art-r5.css": "1b425b54c6cbd5975be6de6b6ea37b80cecde7678b1552d405d18c33363886e9",
+    "src/art-r6.css": "b10499afbafeb567c12917a880df96332080b25cc04598664997160b956da9f7",
+    "src/art-r7.css": "2a4b803ffedcec5518cba64690a25946e78b38c580a1f09c0e285e410e7d81ca",
+    "src/campaign.js": "75d1c3b3e7a0c5307a6b7d1617b63f8e50fb50f115ba52ee78d103bd973c10f0",
+    "src/content-r1.css": "006b605fc7a07856d4ad388b0af4ff952983f202708b504cfc77eccba242385f",
+    "src/content-r1.js": "5f49a9d690db33bf709217c61bae7effbd434a2a4511d823b5fb15061bdadfee",
+    "src/content-r2.css": "462e63bb1fd7f6578ac9e3e10797346400824fc098a1daba9a06511e77c7efd8",
+    "src/content-r2.js": "aacaaa5d2354d384505c1fc6058aa95d4f0995e9fc31ef90f1abdd0b6ffa85b2",
+    "src/content-r3.js": "52b7e5d5c32932bca19adef727fa370868412093eba56ed1a1871807fccea6f5",
+    "src/content-r4.css": "60812663843ea93ec7acdc2aa1a599047c4c0713cdc7f3a28589c4f01e7d30a2",
+    "src/content-r4.js": "651a766ce33644f9ac5641b333162f6ef619ea0edfebda0d05fa1992782a27d7",
+    "src/content-r5.css": "fb2899bd2653d5803dd10360d6d7375906267d755ea65b050479d6472ff1e6ab",
+    "src/content-r5.js": "b759d76d042f0db3ef88179592ace107e1ea67be2141ec7565e826ff23bce157",
+    "src/content-r6.css": "3ebddbeb31dcc1d40e0babce47b2e60cc402d0ef2b451e40749bce6675234158",
+    "src/content-r6.js": "c471e539b022f9489c7113edbab517d6994a153d8c8ec9dc7c5e0b895524fef2",
+    "src/engine.js": "ea4183563791d3bac2139a0a5a55daab7dc018cfbf59cff501159ed3ab64c5e7",
+    "src/main.js": "6639edbb22e29dc3c152259034eb216e0221051ea8d7919fdd7f0d6309526805",
+    "src/presentation-r2.js": "e6fe3c94a1dee05ab6a4559347857b2e2ada940d264e3ca246f715ff6a92113d",
+    "src/presentation-r3.js": "6fc99ccf05c9dd9033d05787d0dd05f9d5e154ae7bcdf02f046f92888daa0d81",
+    "src/presentation-r4.js": "1ec0b56e714ce67bc708336366d0ae6c1bdb32c194ff6055223255b9fc7aee9a",
+    "src/presentation-r5.js": "9dbfd6a8b1c6b4e69f62f28e702a7476088dec93051be388b2b83f31d33eb989",
+    "src/presentation-r6.js": "826a52effefdbcdd94cba740e7ae0004a3fd860cfa70041538de6faedb0ebb05",
+    "src/presentation-r7.js": "6f5bb81e92494e3fd0a2acb1b83d9fafad4e48416e0d3049e4381047812dc583",
+    "src/render-r1.js": "1c44625bd8be05c3db960b4479e554bf95bca17f356f15aa5b22ef87e15d86a9",
+    "src/render-r2.js": "db50b203212dffcb5dde93e8025fa6a70cdfe3592e6f98a1079a8b3b8dde2e3c",
+    "src/render-r3.js": "9905a4a3a0668ba5a0d7911f874b8bab0475f5f546d5da96e509844249aebde6",
+    "src/render-r4.js": "14fd09302f0bc3870311fc1f4171c02f96369137e80af28d66b09df0ba7a261b",
+    "src/render-r5.js": "7bf9747e34c43e91d0c38e0ca42a9ff14d4b07e99b6340ef1f2c8dcc49e0597d",
+    "src/render-r6.js": "c93a06651a29842675782f0dab5a8bebf9e97d92c3ac58ad1bb0d87927e1d741",
+    "src/render-r7.js": "76996134f2716b2f09891ebe8b6fb7ad79f0b4d1d9cf5079c436adaaf4d38977",
+    "src/render.js": "515231d000dfd407b61df80afadc3b8d416e5c645b7154df868e4942091fcab5",
+    "src/save.js": "80a1e56b419eda8fe639be9eb21eb44994b247f2bf22aee6bd562b65e0ca5853",
+    "src/style.css": "255b710963ea869faaee717d4ef73815b92da0481bd79bb8e845b16bdff53652",
+    "src/version.js": "8dd1b0c3e6ec44b4df7b2a5dab1bfbc60ed3ddb3f08d46a9528ae95d45f1e8aa"
+  },
+  "status": "VERIFIED",
+  "version": "0.14.0",
+  "headBefore": "730d8cd83440d8fe7f0a40354c3da1e517487913",
+  "buildSHA256": "29780ea8a4640a385039d7ac8f9daa397529d6115502e51359ebd8d5138075e9",
+  "checks": 238,
+  "originalScreenshots": 88,
+  "secretScan": {
+    "files": 2418,
+    "matches": 0
+  },
+  "generatedMasters": 2,
+  "runtimeAssets": 2,
+  "reviewSet": [
+    {
+      "category": "relay",
+      "path": "docs/content/r6/review-set/01-relay-choice.png",
+      "source": "docs/content/r6/phone-relay-choice.png",
+      "sha256": "656dbd189a7429e4c274235336236c117323edde82ed01490a44edda09797190",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r6/review-set/02-relay-upstream-before.png",
+      "source": "docs/content/r6/phone-relay-upstream-before.png",
+      "sha256": "85c58a35b7379653671a0c3db33beb28c8beea6c98e5523e16d463f35309a053",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r6/review-set/03-relay-upstream-hit.png",
+      "source": "docs/content/r6/phone-relay-upstream-hit.png",
+      "sha256": "55a6dcb3adf740723089beed51d063e864e0e683241b0d59526d6102457ada35",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r6/review-set/04-impact-frost-hit.png",
+      "source": "docs/content/r6/phone-impact-frost-hit.png",
+      "sha256": "2b8f1231961522eeb89bbeab10af3d1c38d5f0fa57d5b4dcd8adefe33957f8a3",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r6/review-set/05-report-relay-crystals.png",
+      "source": "docs/content/r6/phone-report-relay-crystals.png",
+      "sha256": "71d3743e07bf0f998f32e1d700b6d6be7663d9163074296bb7c1c064a8233948",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r6/review-set/06-terrain-flood-after.png",
+      "source": "docs/content/r6/phone-terrain-flood-after.png",
+      "sha256": "c48dfe597ec1f622d140608c34b4ec73ea4f35cf7b1ac644310e97271746c803",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r6/review-set/07-terrain-flood-enter.png",
+      "source": "docs/content/r6/phone-terrain-flood-enter.png",
+      "sha256": "b8349a3b7544ab7b0e3983a16478415e0bea2d1061d54cba4cbbfa4e9dda6c2a",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r6/review-set/08-terrain-barricade-before.png",
+      "source": "docs/content/r6/phone-terrain-barricade-before.png",
+      "sha256": "9e6c0f43def1c64a6cd7ca94759b88bdfcbefacccaec7af305463aca46b0df44",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r6/review-set/09-terrain-barricade-after.png",
+      "source": "docs/content/r6/phone-terrain-barricade-after.png",
+      "sha256": "57d23d64278bafec1d68d9bf9e467b9344a16970a3764896b56cd96398c8413a",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r6/review-set/10-terrain-barricade-enter.png",
+      "source": "docs/content/r6/phone-terrain-barricade-enter.png",
+      "sha256": "d9c85e87914458697f8382dd070b2ab33c442b8bc62f127c36e89b3b2f1cd0ce",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r6/review-set/11-exercise-turn-combat.png",
+      "source": "docs/content/r6/phone-exercise-turn-combat.png",
+      "sha256": "9d1c752205d24903a2beab213cabd545a673c2bf0374b460cf5092d12698e62d",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r6/review-set/12-exercise-levee-combat.png",
+      "source": "docs/content/r6/phone-exercise-levee-combat.png",
+      "sha256": "1d3e6dcfc6ac06b182159b12559dcb9f549ad84ac8b1eb8616b7f1ca7e598975",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r6/review-set/13-exercise-switchback-combat.png",
+      "source": "docs/content/r6/phone-exercise-switchback-combat.png",
+      "sha256": "8d5378a30e12b8ede44ac3d9d7206fed949dec08447bae46779dfa0d77f1dbc7",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r6/review-set/14-exercise-split-combat.png",
+      "source": "docs/content/r6/phone-exercise-split-combat.png",
+      "sha256": "045daa33fed3127f34db6f257285369b77a0d451b702da36f54d71af21667e11",
+      "size": [
+        430,
+        932
+      ]
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r6/review-set/15-exercise-hollow-complete.png",
+      "source": "docs/content/r6/phone-exercise-hollow-complete.png",
+      "sha256": "9fd679861a7551300a396a405136ba7c88420cd45200ae5e87d37a99322980c5",
+      "size": [
+        430,
+        932
+      ]
+    }
+  ],
+  "method": "15 byte-identical original portrait gameplay screenshots; no collages, resampling, cropping or retouching.",
+  "physicalDevice": "BLOCKED: requires real phones/tablets and a tester",
+  "museScore": "BLOCKED: awaits independent Muse review"
+}

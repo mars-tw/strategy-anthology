@@ -1,10 +1,12 @@
 {
   "status": "VERIFIED",
-  "version": "0.1.0",
-  "newRasterImages": 0,
-  "requestedModelSlug": null,
+  "version": "0.3.0",
+  "newRasterImages": 8,
+  "requestedModelSlug": "gpt-image-2",
   "actualModelSlug": null,
-  "modelNote": "No image generation requested this round; inherited source attribution does not expose exact image model slug. No gpt-image-2 assertion.",
+  "actualTool": "image_gen__imagegen",
+  "modelNote": "R1 generated 8 masters with built-in image_gen; underlying model slug not exposed. Inherited source provenance below is retained, not rewritten as new generation.",
+  "latestArtManifest": "docs/art/ASSET_MANIFEST_R2.json",
   "files": [
     {
       "repo": "tower-defense",
@@ -582,5 +584,8 @@
       "method": "Web Audio triangle oscillator; no audio file",
       "modelSlug": null
     }
-  ]
+  ],
+  "round2GeneratedMasters": 8,
+  "round2GeneratedRuntimeImages": 13,
+  "round2DerivedEnemyAtlases": 6
 }

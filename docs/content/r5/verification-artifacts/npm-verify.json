@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "command": "npm run verify",
+  "exitCode": 0,
+  "unitTests": 96,
+  "buildSHA256": "ee0f05fa405bb2f01e2f5245931a7df48276e0b1b937d46b0dbda8287d76ef98",
+  "styleSHA256": "f56f0154789fa884984938f57d610d9072e73045643dbff3259c1db9b6919d9f",
+  "logSHA256": "7f3ccd3887b2495f0effa3aa339f434f2485eb22eda68d5ec03a0b3e031b3ffa",
+  "summaries": [
+    "VERIFIED: 464 checks; 33 screenshots.",
+    "VERIFIED: 41 visual checks; 20 screenshots.",
+    "VERIFIED: 114 R2 checks.",
+    "VERIFIED: 41 original source hashes; 2 source git states; 2446 files scanned, 0 secret hits; 18 screenshots.",
+    "VERIFIED: 309 checks, 3 sizes.",
+    "VERIFIED: 303 checks; 30 original screenshots.",
+    "VERIFIED: 367 checks, 82 original screenshots, 7 videos.",
+    "VERIFIED: 474 checks, 108 original screenshots, 7 videos.",
+    "VERIFIED: 327 checks; 63 original screenshots.",
+    "VERIFIED: 537 checks; 73 original screenshots."
+  ]
+}
