@@ -1,0 +1,23 @@
+[
+  {
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df",
+    "source": "docs/content/r6/attained-quarry-save.json",
+    "path": "docs/content/r11/verification/input-fixtures/attained-quarry-save.json",
+    "sha256": "3a34947e6b627907086783640dea609b3afa93eabce346b9fddadf147fff1703",
+    "method": "Unmodified naturally attained historical UI-save fixture; imported and replayed through public UI in this run."
+  },
+  {
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df",
+    "source": "docs/content/r5/attained-ford-save.json",
+    "path": "docs/content/r11/verification/input-fixtures/attained-ford-save.json",
+    "sha256": "6fccede0a313746faad680d6ebf307c11544a97725a4a7e74e2f13a877dd1f29",
+    "method": "Unmodified naturally attained historical UI-save fixture; imported and replayed through public UI in this run."
+  },
+  {
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df",
+    "source": "docs/content/r9/verification/attained-quarry-save.json",
+    "path": "docs/content/r11/verification/input-fixtures/replay-quarry-save.json",
+    "sha256": "1262f210a9c44491d4549d6f9dc5a78d01ad6cf6c89dcd98a3b43b44c323e52c",
+    "method": "Unmodified naturally attained historical UI-save fixture; imported and replayed through public UI in this run."
+  }
+]

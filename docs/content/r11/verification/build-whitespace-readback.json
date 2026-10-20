@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED",
+  "scope": "Remove only a trailing blank line in build.mjs; all generated output bytes remain identical.",
+  "files": 230,
+  "unchanged": true,
+  "buildSHA256": "d8eea78fe3836818b4c2e50537b2ac17d8ad37776073f8ea399d8628c3704495",
+  "styleSHA256": "54de5154acd3ca5840082e695223fdabd1b585c31b7f71ed55221b3ebe35ab06"
+}

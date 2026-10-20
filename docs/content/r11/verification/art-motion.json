@@ -1,0 +1,12 @@
+[
+  {
+    "source": "docs/art/r2/motion/page@875a9baf3861ef8ce850f3432930b8a5.webm",
+    "path": "docs/content/r11/verification/art-r2-current-motion.webm",
+    "sha256": "4e854bc9c7098a2e92be045984bfed1491cf5de9ee8109d9e8a0222937998726"
+  },
+  {
+    "source": "docs/art/r7/motion/page@96e9a9b3c1edba8878a387cc0aee3c88.webm",
+    "path": "docs/content/r11/verification/art-r7-current-motion.webm",
+    "sha256": "19dccf3171a331601b21614e9c44cc2725a706c95ff6fc00e1359ca371a1b671"
+  }
+]

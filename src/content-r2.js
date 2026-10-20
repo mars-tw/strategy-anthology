@@ -35,10 +35,15 @@ export function drawRouteDecisions({ctx,art,b,preview,w,h,project,label,time,ins
  const zone=floodZone(b);
  if(choice==='flood'){
   const p=point(zone),rx=zone.radius*w/960,ry=zone.radius*h/640;
-  ctx.save();ctx.beginPath();ctx.ellipse(p.x,p.y,rx,ry,0,0,Math.PI*2);ctx.clip();
-  ctx.drawImage(art['flood-water'],p.x-rx,p.y-ry,rx*2,ry*2);
-  if(art['r6-flood']){const im=art['r7-flood']||art['r6-flood'];ctx.drawImage(im,330,380,210,180,p.x-rx,p.y-ry,rx*2,ry*2);proof.overlayArt='content-r7/flood.webp';}ctx.restore();
-  ctx.save();ctx.strokeStyle='#296d7888';ctx.lineWidth=2;ctx.beginPath();ctx.ellipse(p.x,p.y,rx,ry,0,0,Math.PI*2);ctx.stroke();ctx.restore();
+  // Shoreline from the original painting, plus its actual flowing-water crop
+  // over the speed zone. All pixels are sampled art; no cyan fill substitute.
+  ctx.save();ctx.drawImage(art['r7-flood'],p.x-rx*1.15,p.y-ry*1.15,rx*2.3,ry*2.3);
+  ctx.beginPath();
+  for(let i=0;i<=96;i++){const a=i/96*Math.PI*2,q=point({x:zone.x+Math.cos(a)*zone.radius,y:zone.y+Math.sin(a)*zone.radius});i?ctx.lineTo(q.x,q.y):ctx.moveTo(q.x,q.y);}ctx.closePath();ctx.clip();
+  ctx.globalAlpha=.92;ctx.drawImage(art['r7-flood'],45,220,250,260,p.x-rx,p.y-ry,rx*2,ry*2);
+  ctx.globalAlpha=.75;ctx.strokeStyle='#d4f7ef';ctx.lineWidth=1.6;
+  for(let i=0;i<5;i++){const yy=p.y-ry*.65+i*ry*.32,shift=Math.sin(time*1.6+i)*5;ctx.beginPath();ctx.moveTo(p.x-rx*.65+shift,yy);ctx.quadraticCurveTo(p.x-rx*.1,yy+5,p.x+rx*.6+shift,yy-3);ctx.stroke();}
+  ctx.restore();proof.overlayArt='content-r7/flood.webp';
   proof.surfacePatch={x:p.x-rx,y:p.y-ry,w:rx*2,h:ry*2};
   // The authored shallow-water banks carry the terrain identity. The actual
   // circular speed boundary remains in simulation, without a target overlay.

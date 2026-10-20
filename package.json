@@ -1,6 +1,6 @@
 {
   "name": "trine-frontier",
-  "version": "0.17.0",
+  "version": "0.19.0",
   "private": true,
   "type": "module",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "test:perf": "node scripts/perf.mjs",
     "test:art:r3": "node scripts/art-audit-r3.mjs",
     "test:art:r4": "node scripts/art-audit-r4.mjs",
-    "verify": "npm test && npm run build && npm run test:e2e && node scripts/art-audit.mjs && node scripts/art-audit-r2.mjs && node scripts/audit.mjs && node scripts/art-audit-r7.mjs && node scripts/content-r1-e2e.mjs && node scripts/content-r2-e2e.mjs && node scripts/content-r3-e2e.mjs && node scripts/content-r4-e2e.mjs && node scripts/content-r5-e2e.mjs && node scripts/content-r6-e2e.mjs && node scripts/content-r7-e2e.mjs && node scripts/content-r8-e2e.mjs && node scripts/content-r9-e2e.mjs",
+    "verify": "npm test && npm run build && node scripts/content-r11-e2e.mjs && node scripts/content-r11-proof-e2e.mjs && npm run test:e2e && node scripts/art-audit.mjs && node scripts/art-audit-r2.mjs && node scripts/audit.mjs && node scripts/art-audit-r7.mjs && node scripts/content-r1-e2e.mjs && node scripts/content-r2-e2e.mjs && node scripts/content-r3-e2e.mjs && node scripts/content-r4-e2e.mjs && node scripts/content-r5-e2e.mjs && node scripts/content-r6-e2e.mjs && node scripts/content-r7-e2e.mjs && node scripts/content-r8-e2e.mjs && node scripts/content-r9-e2e.mjs",
     "test:content:r4": "node scripts/content-r4-e2e.mjs",
     "test:perf:r4": "node scripts/content-r4-perf.mjs",
     "test:art:r5": "node scripts/art-audit-r5.mjs",
@@ -29,7 +29,13 @@
     "test:content:r8:proof": "node scripts/content-r8-proof-e2e.mjs",
     "test:content:r9": "node scripts/content-r9-e2e.mjs",
     "test:perf:r9": "node scripts/content-r9-perf.mjs",
-    "test:content:r9:proof": "node scripts/content-r9-proof-e2e.mjs"
+    "test:content:r9:proof": "node scripts/content-r9-proof-e2e.mjs",
+    "test:content:r10": "node scripts/content-r10-e2e.mjs",
+    "test:content:r10:proof": "node scripts/content-r10-proof-e2e.mjs",
+    "test:perf:r10": "node scripts/content-r10-perf.mjs",
+    "test:content:r11": "node scripts/content-r11-e2e.mjs",
+    "test:content:r11:proof": "node scripts/content-r11-proof-e2e.mjs",
+    "test:perf:r11": "node scripts/content-r11-perf.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.1",

@@ -1,0 +1,25 @@
+.combat-readout[hidden]{display:none}
+@media(max-height:450px) and (orientation:landscape){
+ .exercise-mode .command>.combat-readout{margin-top:auto;flex:none;width:100%}
+}
+
+@media(max-width:370px) and (max-height:650px) and (orientation:portrait){
+ .small-command .field-key{min-height:44px;flex:none;flex-wrap:nowrap}
+ .small-command .field-key .field-status{white-space:normal;line-height:18px}
+ .small-command .field-key>.combat-readout{display:grid;grid-template-columns:62px 44px;width:110px;min-width:110px;min-height:44px;height:44px;flex:none;padding:0;border:0;background:none;gap:3px}
+ .small-command .field-key>.combat-readout>.hit-summary,.small-command .field-key>.combat-readout>.impact-lines{display:none}
+ .small-command .field-key .hit-details>summary{min-width:44px;min-height:44px;justify-content:center}
+ .small-command .field-key .hit-details[open]{position:fixed;inset:auto 8px 30px;width:calc(100% - 16px);max-height:70dvh;overflow:auto;z-index:8}
+ .small-command .field-key .hit-details[open]>.impact-lines{display:grid;font-size:12px}
+ .shell.small-command .cards .tower-card,.shell.small-command .cards .tower-card.deployed{display:grid;grid-template-columns:25px minmax(0,1fr);min-height:76px;height:76px;padding:2px;gap:2px;align-items:center;font-size:12px}
+ .small-command .cards .tower-portrait{width:25px;height:44px}
+ .small-command .cards .tower-card>span{width:100%;min-width:0;font-size:12px}
+ .small-command .cards .tower-card small,.small-command .cards .tower-card small span{font-size:12px;line-height:1.05;white-space:normal}
+ .small-command.compact-purchases .command :is(.cards,.placement){display:none}
+}
+
+.shell.compact-purchases .command :is(.cards,.placement){display:none}
+@media(max-height:450px) and (orientation:landscape){
+ .short-command .command>.field-key{min-height:44px;flex:none}
+ .short-command .command>.combat-readout{margin-top:auto;flex:none;width:100%}
+}

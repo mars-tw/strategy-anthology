@@ -1,0 +1,42 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+  "sourceReportSHA256": "bd3a783a881326328f10116f0dcf29b03029747bccde93388d51c3d97691f874",
+  "images": [
+    {
+      "source": "docs/content/r3/phone-exercise-levee-resumed.png",
+      "path": "docs/content/r10/phone-exercise-levee-resumed.png",
+      "sha256": "8c9108b43e9e4a309c0c0b6ca85e6a2ae1d5708654eccb263f2569015aa10ce2"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-alternative-complete.png",
+      "path": "docs/content/r10/phone-exercise-switchback-alternative-complete.png",
+      "sha256": "7b448166c3caa64960bccf5357e6a0fc5eae931000b32fcc3f89a7cb37f9a675"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-alternative-formation.png",
+      "path": "docs/content/r10/phone-exercise-switchback-alternative-formation.png",
+      "sha256": "f47018c571280789881005728eec5abfa0e4aaff3dd1bb184f61d97e18f51737"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-switchback-resumed.png",
+      "path": "docs/content/r10/phone-exercise-switchback-resumed.png",
+      "sha256": "901ca4de600ca57e9c57cf8e3d279222be3372e6e79a45c45ef92ab728f26568"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-alternative-complete.png",
+      "path": "docs/content/r10/phone-exercise-turn-alternative-complete.png",
+      "sha256": "14231c2887d2ef854cd67d2c186f68dff4c69cdf7cf5a6c5b68ebd46ed101345"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-alternative-formation.png",
+      "path": "docs/content/r10/phone-exercise-turn-alternative-formation.png",
+      "sha256": "ad03b47215b9c2cf6e5aef7aded4359a020cad4c26a76866055a2036e80b9c21"
+    },
+    {
+      "source": "docs/content/r3/phone-exercise-turn-resumed.png",
+      "path": "docs/content/r10/phone-exercise-turn-resumed.png",
+      "sha256": "0572407cce1c523f41118f44f91831c7789e8574491463146700156896b49711"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED",
+  "verifyExitCode": 1,
+  "command": "npm run verify",
+  "buildSHA256": "21d8c9cae33453a9fd140f88f1cdae4534446084a3d1b4960b9022948f0d56ea",
+  "styleSHA256": "081377a86589e4ade185a64523e99f3e0f8301dd624669c1a241f797c969347a",
+  "logSHA256": "656e2c11b48f22306a83727e98ca93c278601729767fbc891dd38649317625f7"
+}

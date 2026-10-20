@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED",
+  "verifyExitCode": 0,
+  "command": "npm run verify",
+  "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+  "styleSHA256": "081377a86589e4ade185a64523e99f3e0f8301dd624669c1a241f797c969347a",
+  "logSHA256": "4babdec101f3c5e754d17db8967f6f2abe27d920c0a5fd8a2b07063617881086"
+}

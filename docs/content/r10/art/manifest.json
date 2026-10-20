@@ -1,0 +1,74 @@
+{
+  "status": "VERIFIED",
+  "newArtwork": 0,
+  "currentGenerationCalls": 0,
+  "historicalGenerator": "image_gen__imagegen",
+  "stylePrefix": "Trine Frontier, Eastern fantasy mineral-gouache miniature painting, warm vermilion parchment palette with cobalt enemy armour, crisp warm-ink contour, bold simplified readable masses, warm top-left light and short cool-violet shadows, same world and costume identities as references, no photorealism, no pixel art, no UI mockup, no watermark.",
+  "method": "Reuse authored mineral-pigment artwork. Canvas2D edge alpha and shared map projection only. No generated placeholder art.",
+  "sources": [
+    {
+      "path": "public/assets/content-r7/flood.webp",
+      "sha256": "1e30d774e62868c6993b5bb380e987a6a9af610f370464b5b56287b9d8ef86b0"
+    },
+    {
+      "path": "public/assets/content-r6/barricade.webp",
+      "sha256": "1a841e2d15e676fc80ba487d338734c839fcc80ae42b9774a181c51ba79feda4"
+    },
+    {
+      "path": "public/assets/content-r7/legacy-cannon.webp",
+      "sha256": "8bfd0fd81416c109ef2e2388512691924c073534bdb5e972616425ffb749b44a"
+    },
+    {
+      "path": "public/assets/r7/ford.webp",
+      "sha256": "08e15cc007d98508c1759138c86c57a11d4ca35dd02b2e6922378a42d2e6ae37"
+    },
+    {
+      "path": "public/assets/r7/hound-walk.png",
+      "sha256": "8d0c5405bbe063daf3a1f54fc7be2f84863dfe5373d7315ef445106b97b5621f"
+    },
+    {
+      "path": "public/assets/r7/hound-frames.json",
+      "sha256": "c667cf1a825aa55eaeb579838aac0e01b4d852d7e2191a812a41e813be0d1cb9"
+    },
+    {
+      "path": "public/assets/r5/structure-frames.json",
+      "sha256": "925400d8c8f57213f962a2b84014de1a3847c3c4318230ace9c8a844c0f3e29c"
+    },
+    {
+      "path": "public/assets/r4/pine.webp",
+      "sha256": "39f28f023f5aa24f85d46af82a1f793dfd73e74894bd5a17b907df01f99a4ce2"
+    },
+    {
+      "path": "public/assets/r3/chapter-quarry.webp",
+      "sha256": "d60dafe4d571d8df4688b105d2a5358a04ca789181f5ff1058ccb8b4a8b2c529"
+    },
+    {
+      "path": "public/assets/r4/road.webp",
+      "sha256": "82745e86daed538b169077f15b9e5dba1aa1db3793ae6ee336f2501de909dac8"
+    },
+    {
+      "path": "public/assets/r4/tower-cannon.png",
+      "sha256": "07e2e791aa99c52cf4f266b77a3bd4da9d5266c5f27d734cb2c09c926dd2b6d3"
+    },
+    {
+      "path": "public/assets/r4/tower-frost.png",
+      "sha256": "3f3ac3fc6703af322ef52f0f75dbdba32fe077ec75e0ffc142717206f088d7d3"
+    },
+    {
+      "path": "public/assets/r4/tower-tesla.png",
+      "sha256": "c954f8fd16fe1f3a4971e55b2156c5c4d069000cf3c03f17b08d8aebb44b7cbd"
+    },
+    {
+      "path": "public/assets/r7/bridge-main.png",
+      "sha256": "c99f757c21c2aae9dbf1415f54809258be67247c72711c2119c0f77ee69ddd68"
+    },
+    {
+      "path": "public/assets/r7/bridge-old.png",
+      "sha256": "dd8aebb01bf088759907bc200c8d0c350a92fbfa4fde6480a7dcc9db122b561a"
+    },
+    {
+      "path": "public/assets/r7/bridge-military.png",
+      "sha256": "cdb3bb950ae1e6720c6434f1a36c746effeb183b0ab2f112230b851c52814bec"
+    }
+  ]
+}

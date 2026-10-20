@@ -11,7 +11,7 @@ export function padIdentity(pad,index,battle,pending){
  const tower=battle.towers.find(t=>t.x===pad.x&&t.y===pad.y);
  const reserved=!tower&&!pending&&(battle.phase!=='planning'||battle.budget<70);
  return {number:index+1,type:tower?.type||null,empty:!tower,reserved,
-  text:tower?`${index+1} ${TOWER_LABELS[tower.type].slice(0,1)}塔`:reserved?`${index+1} 留空`:`界碑 ${index+1}`};
+  text:tower?`${index+1} ${TOWER_LABELS[tower.type].slice(0,1)}塔`:pending?.x===pad.x&&pending?.y===pad.y?`${index+1} ${TOWER_LABELS[pending.type].slice(0,1)}預覽`:`${index+1} 留空`};
 }
 export function crystalVisual(frame){
  const scale=1-frame.t*.75;

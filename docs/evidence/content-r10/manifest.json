@@ -1,0 +1,66 @@
+[
+  {
+    "stage": "before",
+    "source": "docs/content/r9/review-set/04-relay-crystals-hit.png",
+    "path": "docs/evidence/content-r10/before-receipt.png",
+    "sourceVersion": "0.17.0",
+    "sha256": "4cbdd8b4cf67c0593d2fbd7a3c4726a0fea7b78ce53096aa0619612fd4a94b5a"
+  },
+  {
+    "stage": "before",
+    "source": "docs/content/r9/phone-exercise-switchback-combat.png",
+    "path": "docs/evidence/content-r10/before-exercise.png",
+    "sourceVersion": "0.17.0",
+    "sha256": "59c0859b0e0210a7d17a8743b6fecc710c0975eb39b1240676eab21ccc13f5de"
+  },
+  {
+    "stage": "before",
+    "source": "docs/content/r9/phone-terrain-flood-crossfire.png",
+    "path": "docs/evidence/content-r10/before-water.png",
+    "sourceVersion": "0.17.0",
+    "sha256": "b06f2d73d7bb0e6b3cb15cd7a98cec254080bc0042f04aa5910e97b140a58d03"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/phone-relay-crystals-spent-reloaded.png",
+    "path": "docs/evidence/content-r10/after-receipt.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "3df12aee5bb55d5c44c6fec7c8fe1e2a97cd74e08452ff741ec352898668e434"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/phone-exercise-switchback-combat.png",
+    "path": "docs/evidence/content-r10/after-exercise.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "723cec50a5e6a56c29b52ba61b61156ac043e2b0fab46761dbdedfa20e5e8760"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/phone-terrain-flood-enter-1.png",
+    "path": "docs/evidence/content-r10/after-water.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "4d6210f80871562769259531a82815b0441f55c1508a704113ff0f9b295a9cdc"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/phone-exercise-turn-formation.png",
+    "path": "docs/evidence/content-r10/viewport-phone-430x932.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "ba8d7f9704c0c758b3eeb52cc793f1dd5326ba4f8787f4a363c3e5787718740e"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/phone-layout-1032x1376-result.png",
+    "path": "docs/evidence/content-r10/viewport-ipad-1032x1376.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "df5e2123295dcb4f9b250935c00bc7c56138c53e3fee54b10a604bf931f0d744"
+  },
+  {
+    "stage": "after",
+    "source": "docs/content/r10/verification/current-rwd/1366x600-defense.png",
+    "path": "docs/evidence/content-r10/viewport-desktop-1366x600.png",
+    "buildSHA256": "9c23d732599c2ccae0019226cf0a5679b446430f63bbb455248eecb0c77aaef9",
+    "sha256": "84741bbf3981d15a85294c02ff54d7da886185bd70942f109b723ab9e6701309",
+    "originalCapturePath": "docs/evidence/rwd/1366x600-defense.png"
+  }
+]

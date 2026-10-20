@@ -1,0 +1,4789 @@
+{
+  "status": "VERIFIED",
+  "method": "Headless Chromium; public UI commands; virtual browser clock for campaign duration, no game-state or reward injection.",
+  "checks": [
+    "cold iPad: no page overflow",
+    "cold iPad: 戰役 >=44 and reachable",
+    "cold iPad: 設定 >=44 and reachable",
+    "cold iPad: 接下塔印，守住松林 >=44 and reachable",
+    "cold iPad: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "cold iPad: 存檔與原作匯入 >=44 and reachable",
+    "opening immediately enters first defense",
+    "one new wallet starts at 360",
+    "cancelled touch disables confirm",
+    "native touch cancellation does not confirm or spend",
+    "rotation disables confirm",
+    "rotation cancels pending build without charge",
+    "cannon: cancel does not spend",
+    "frost: cancel does not spend",
+    "tesla: cancel does not spend",
+    "three native towers cost exactly 300",
+    "iPad defense: no page overflow",
+    "iPad defense: 戰報 >=44 and reachable",
+    "iPad defense: 暫停 >=44 and reachable",
+    "iPad defense: 輔助：開 >=44 and reachable",
+    "iPad defense: 看雷塔切換 >=44 and reachable",
+    "iPad defense: 火印塔場上已有 1 座需 100，還差 40 >=44 and reachable",
+    "iPad defense: 冰印塔場上已有 1 座需 70，還差 10 >=44 and reachable",
+    "iPad defense: 雷印塔場上已有 1 座需 130，還差 70 >=44 and reachable",
+    "iPad defense: 建議塔位 >=44 and reachable",
+    "iPad defense: 確認建造 >=44 and reachable",
+    "iPad defense: 取消 >=44 and reachable",
+    "iPad defense: 開始下一波 >=44 and reachable",
+    "iPad defense: 共鳴震擊 · 20 >=44 and reachable",
+    "iPad defense: 戰前工事 · 30 >=44 and reachable",
+    "pause keeps battle checkpoint time fixed",
+    "reload retains three towers and mid-wave checkpoint",
+    "first defense wins by normal play",
+    "shared progression unlocks mage and chapter two",
+    "iPad siege: no page overflow",
+    "iPad siege: 戰報 >=44 and reachable",
+    "iPad siege: 暫停 >=44 and reachable",
+    "iPad siege: 衛士35 結晶 >=44 and reachable",
+    "iPad siege: 弓手50 結晶 >=44 and reachable",
+    "iPad siege: 三相術士65 結晶 >=44 and reachable",
+    "iPad siege: 建立兵營 · 60 >=44 and reachable",
+    "iPad siege: 雙線軍令 >=44 and reachable",
+    "iPad siege: 全軍攻向據點 >=44 and reachable",
+    "iPad siege: 共鳴震擊 · 20 >=44 and reachable",
+    "same wallet reaches siege",
+    "iPad dual orders: no page overflow",
+    "iPad dual orders: 執行兩線軍令 >=44 and reachable",
+    "iPad dual orders: 取消 >=44 and reachable",
+    "source dual orders do not advance simulation",
+    "public worker rest command changes economic lane",
+    "worker rest feedback describes the actual order",
+    "second mode wins through army combat",
+    "conquest unlocks same-terrain defense chapter",
+    "the conquered ford becomes defense",
+    "restart preserves conquest and all shared unlocks",
+    "offline cold reload enters next campaign segment",
+    "background handler opens paused state",
+    "legacy import preview leaves current save untouched",
+    "legacy commit archives original without resetting chapter",
+    "320x568 opening: no page overflow",
+    "320x568 opening: 戰役 >=44 and reachable",
+    "320x568 opening: 設定 >=44 and reachable",
+    "320x568 opening: 接下塔印，守住松林 >=44 and reachable",
+    "320x568 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "320x568 opening: 存檔與原作匯入 >=44 and reachable",
+    "320x568 defense: no page overflow",
+    "320x568 defense: 戰報 >=44 and reachable",
+    "320x568 defense: 暫停 >=44 and reachable",
+    "320x568 defense: 輔助：開 >=44 and reachable",
+    "320x568 defense: 看命中切換 >=44 and reachable",
+    "320x568 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "320x568 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "320x568 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "320x568 defense: 建議塔位 >=44 and reachable",
+    "320x568 defense: 確認建造 >=44 and reachable",
+    "320x568 defense: 取消 >=44 and reachable",
+    "320x568 defense: 開始下一波 >=44 and reachable",
+    "320x568 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "320x568 defense: 戰前工事 · 30 >=44 and reachable",
+    "320x568 pause: no page overflow",
+    "320x568 pause: 音效：開啟 >=44 and reachable",
+    "320x568 pause: 減少動態：關閉 >=44 and reachable",
+    "320x568 pause: 本次決定回顧 >=44 and reachable",
+    "320x568 pause: 繼續戰局 >=44 and reachable",
+    "320x568 pause: 存檔／匯入 >=44 and reachable",
+    "320x568 pause: 返回戰報 >=44 and reachable",
+    "320x568 save: no page overflow",
+    "320x568 save: 匯出備份 >=44 and reachable",
+    "320x568 save: 預覽匯入 >=44 and reachable",
+    "320x568 save: 確認匯入 >=44 and reachable",
+    "320x568 save: 重試儲存 >=44 and reachable",
+    "320x568 save: 讀取匯入前備份 >=44 and reachable",
+    "320x568 save: 讀取損壞原檔 >=44 and reachable",
+    "320x568 save: 返回戰役 >=44 and reachable",
+    "320x568 siege: no page overflow",
+    "320x568 siege: 戰報 >=44 and reachable",
+    "320x568 siege: 暫停 >=44 and reachable",
+    "320x568 siege: 衛士35 結晶 >=44 and reachable",
+    "320x568 siege: 弓手50 結晶 >=44 and reachable",
+    "320x568 siege: 三相術士65 結晶 >=44 and reachable",
+    "320x568 siege: 兵營已就緒 >=44 and reachable",
+    "320x568 siege: 雙線軍令 >=44 and reachable",
+    "320x568 siege: 全軍攻向據點 >=44 and reachable",
+    "320x568 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "320x568 dual orders: no page overflow",
+    "320x568 dual orders: 執行兩線軍令 >=44 and reachable",
+    "320x568 dual orders: 取消 >=44 and reachable",
+    "390x844 opening: no page overflow",
+    "390x844 opening: 戰役 >=44 and reachable",
+    "390x844 opening: 設定 >=44 and reachable",
+    "390x844 opening: 接下塔印，守住松林 >=44 and reachable",
+    "390x844 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "390x844 opening: 存檔與原作匯入 >=44 and reachable",
+    "390x844 defense: no page overflow",
+    "390x844 defense: 戰報 >=44 and reachable",
+    "390x844 defense: 暫停 >=44 and reachable",
+    "390x844 defense: 輔助：開 >=44 and reachable",
+    "390x844 defense: 看命中切換 >=44 and reachable",
+    "390x844 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "390x844 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "390x844 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "390x844 defense: 建議塔位 >=44 and reachable",
+    "390x844 defense: 確認建造 >=44 and reachable",
+    "390x844 defense: 取消 >=44 and reachable",
+    "390x844 defense: 開始下一波 >=44 and reachable",
+    "390x844 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "390x844 defense: 戰前工事 · 30 >=44 and reachable",
+    "390x844 pause: no page overflow",
+    "390x844 pause: 音效：開啟 >=44 and reachable",
+    "390x844 pause: 減少動態：關閉 >=44 and reachable",
+    "390x844 pause: 本次決定回顧 >=44 and reachable",
+    "390x844 pause: 繼續戰局 >=44 and reachable",
+    "390x844 pause: 存檔／匯入 >=44 and reachable",
+    "390x844 pause: 返回戰報 >=44 and reachable",
+    "390x844 save: no page overflow",
+    "390x844 save: 匯出備份 >=44 and reachable",
+    "390x844 save: 預覽匯入 >=44 and reachable",
+    "390x844 save: 確認匯入 >=44 and reachable",
+    "390x844 save: 重試儲存 >=44 and reachable",
+    "390x844 save: 讀取匯入前備份 >=44 and reachable",
+    "390x844 save: 讀取損壞原檔 >=44 and reachable",
+    "390x844 save: 返回戰役 >=44 and reachable",
+    "390x844 siege: no page overflow",
+    "390x844 siege: 戰報 >=44 and reachable",
+    "390x844 siege: 暫停 >=44 and reachable",
+    "390x844 siege: 衛士35 結晶 >=44 and reachable",
+    "390x844 siege: 弓手50 結晶 >=44 and reachable",
+    "390x844 siege: 三相術士65 結晶 >=44 and reachable",
+    "390x844 siege: 兵營已就緒 >=44 and reachable",
+    "390x844 siege: 雙線軍令 >=44 and reachable",
+    "390x844 siege: 全軍攻向據點 >=44 and reachable",
+    "390x844 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "390x844 dual orders: no page overflow",
+    "390x844 dual orders: 執行兩線軍令 >=44 and reachable",
+    "390x844 dual orders: 取消 >=44 and reachable",
+    "844x390 opening: no page overflow",
+    "844x390 opening: 戰役 >=44 and reachable",
+    "844x390 opening: 設定 >=44 and reachable",
+    "844x390 opening: 接下塔印，守住松林 >=44 and reachable",
+    "844x390 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "844x390 opening: 存檔與原作匯入 >=44 and reachable",
+    "844x390 defense: no page overflow",
+    "844x390 defense: 戰報 >=44 and reachable",
+    "844x390 defense: 暫停 >=44 and reachable",
+    "844x390 defense: 輔助：開 >=44 and reachable",
+    "844x390 defense: 看命中切換 >=44 and reachable",
+    "844x390 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "844x390 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "844x390 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "844x390 defense: 建議塔位 >=44 and reachable",
+    "844x390 defense: 確認建造 >=44 and reachable",
+    "844x390 defense: 取消 >=44 and reachable",
+    "844x390 defense: 開始下一波 >=44 and reachable",
+    "844x390 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "844x390 defense: 戰前工事 · 30 >=44 and reachable",
+    "844x390 pause: no page overflow",
+    "844x390 pause: 音效：開啟 >=44 and reachable",
+    "844x390 pause: 減少動態：關閉 >=44 and reachable",
+    "844x390 pause: 本次決定回顧 >=44 and reachable",
+    "844x390 pause: 繼續戰局 >=44 and reachable",
+    "844x390 pause: 存檔／匯入 >=44 and reachable",
+    "844x390 pause: 返回戰報 >=44 and reachable",
+    "844x390 save: no page overflow",
+    "844x390 save: 匯出備份 >=44 and reachable",
+    "844x390 save: 預覽匯入 >=44 and reachable",
+    "844x390 save: 確認匯入 >=44 and reachable",
+    "844x390 save: 重試儲存 >=44 and reachable",
+    "844x390 save: 讀取匯入前備份 >=44 and reachable",
+    "844x390 save: 讀取損壞原檔 >=44 and reachable",
+    "844x390 save: 返回戰役 >=44 and reachable",
+    "844x390 siege: no page overflow",
+    "844x390 siege: 戰報 >=44 and reachable",
+    "844x390 siege: 暫停 >=44 and reachable",
+    "844x390 siege: 衛士35 結晶 >=44 and reachable",
+    "844x390 siege: 弓手50 結晶 >=44 and reachable",
+    "844x390 siege: 三相術士65 結晶 >=44 and reachable",
+    "844x390 siege: 兵營已就緒 >=44 and reachable",
+    "844x390 siege: 雙線軍令 >=44 and reachable",
+    "844x390 siege: 全軍攻向據點 >=44 and reachable",
+    "844x390 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "844x390 dual orders: no page overflow",
+    "844x390 dual orders: 執行兩線軍令 >=44 and reachable",
+    "844x390 dual orders: 取消 >=44 and reachable",
+    "1366x600 opening: no page overflow",
+    "1366x600 opening: 戰役 >=44 and reachable",
+    "1366x600 opening: 設定 >=44 and reachable",
+    "1366x600 opening: 接下塔印，守住松林 >=44 and reachable",
+    "1366x600 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "1366x600 opening: 存檔與原作匯入 >=44 and reachable",
+    "1366x600 defense: no page overflow",
+    "1366x600 defense: 戰報 >=44 and reachable",
+    "1366x600 defense: 暫停 >=44 and reachable",
+    "1366x600 defense: 輔助：開 >=44 and reachable",
+    "1366x600 defense: 看命中切換 >=44 and reachable",
+    "1366x600 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "1366x600 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "1366x600 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "1366x600 defense: 建議塔位 >=44 and reachable",
+    "1366x600 defense: 確認建造 >=44 and reachable",
+    "1366x600 defense: 取消 >=44 and reachable",
+    "1366x600 defense: 開始下一波 >=44 and reachable",
+    "1366x600 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "1366x600 defense: 戰前工事 · 30 >=44 and reachable",
+    "1366x600 pause: no page overflow",
+    "1366x600 pause: 音效：開啟 >=44 and reachable",
+    "1366x600 pause: 減少動態：關閉 >=44 and reachable",
+    "1366x600 pause: 本次決定回顧 >=44 and reachable",
+    "1366x600 pause: 繼續戰局 >=44 and reachable",
+    "1366x600 pause: 存檔／匯入 >=44 and reachable",
+    "1366x600 pause: 返回戰報 >=44 and reachable",
+    "1366x600 save: no page overflow",
+    "1366x600 save: 匯出備份 >=44 and reachable",
+    "1366x600 save: 預覽匯入 >=44 and reachable",
+    "1366x600 save: 確認匯入 >=44 and reachable",
+    "1366x600 save: 重試儲存 >=44 and reachable",
+    "1366x600 save: 讀取匯入前備份 >=44 and reachable",
+    "1366x600 save: 讀取損壞原檔 >=44 and reachable",
+    "1366x600 save: 返回戰役 >=44 and reachable",
+    "1366x600 siege: no page overflow",
+    "1366x600 siege: 戰報 >=44 and reachable",
+    "1366x600 siege: 暫停 >=44 and reachable",
+    "1366x600 siege: 衛士35 結晶 >=44 and reachable",
+    "1366x600 siege: 弓手50 結晶 >=44 and reachable",
+    "1366x600 siege: 三相術士65 結晶 >=44 and reachable",
+    "1366x600 siege: 兵營已就緒 >=44 and reachable",
+    "1366x600 siege: 雙線軍令 >=44 and reachable",
+    "1366x600 siege: 全軍攻向據點 >=44 and reachable",
+    "1366x600 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "1366x600 dual orders: no page overflow",
+    "1366x600 dual orders: 執行兩線軍令 >=44 and reachable",
+    "1366x600 dual orders: 取消 >=44 and reachable",
+    "1280x640 opening: no page overflow",
+    "1280x640 opening: 戰役 >=44 and reachable",
+    "1280x640 opening: 設定 >=44 and reachable",
+    "1280x640 opening: 接下塔印，守住松林 >=44 and reachable",
+    "1280x640 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "1280x640 opening: 存檔與原作匯入 >=44 and reachable",
+    "1280x640 defense: no page overflow",
+    "1280x640 defense: 戰報 >=44 and reachable",
+    "1280x640 defense: 暫停 >=44 and reachable",
+    "1280x640 defense: 輔助：開 >=44 and reachable",
+    "1280x640 defense: 看命中切換 >=44 and reachable",
+    "1280x640 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "1280x640 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "1280x640 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "1280x640 defense: 建議塔位 >=44 and reachable",
+    "1280x640 defense: 確認建造 >=44 and reachable",
+    "1280x640 defense: 取消 >=44 and reachable",
+    "1280x640 defense: 開始下一波 >=44 and reachable",
+    "1280x640 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "1280x640 defense: 戰前工事 · 30 >=44 and reachable",
+    "1280x640 pause: no page overflow",
+    "1280x640 pause: 音效：開啟 >=44 and reachable",
+    "1280x640 pause: 減少動態：關閉 >=44 and reachable",
+    "1280x640 pause: 本次決定回顧 >=44 and reachable",
+    "1280x640 pause: 繼續戰局 >=44 and reachable",
+    "1280x640 pause: 存檔／匯入 >=44 and reachable",
+    "1280x640 pause: 返回戰報 >=44 and reachable",
+    "1280x640 save: no page overflow",
+    "1280x640 save: 匯出備份 >=44 and reachable",
+    "1280x640 save: 預覽匯入 >=44 and reachable",
+    "1280x640 save: 確認匯入 >=44 and reachable",
+    "1280x640 save: 重試儲存 >=44 and reachable",
+    "1280x640 save: 讀取匯入前備份 >=44 and reachable",
+    "1280x640 save: 讀取損壞原檔 >=44 and reachable",
+    "1280x640 save: 返回戰役 >=44 and reachable",
+    "1280x640 siege: no page overflow",
+    "1280x640 siege: 戰報 >=44 and reachable",
+    "1280x640 siege: 暫停 >=44 and reachable",
+    "1280x640 siege: 衛士35 結晶 >=44 and reachable",
+    "1280x640 siege: 弓手50 結晶 >=44 and reachable",
+    "1280x640 siege: 三相術士65 結晶 >=44 and reachable",
+    "1280x640 siege: 兵營已就緒 >=44 and reachable",
+    "1280x640 siege: 雙線軍令 >=44 and reachable",
+    "1280x640 siege: 全軍攻向據點 >=44 and reachable",
+    "1280x640 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "1280x640 dual orders: no page overflow",
+    "1280x640 dual orders: 執行兩線軍令 >=44 and reachable",
+    "1280x640 dual orders: 取消 >=44 and reachable",
+    "768x1024 opening: no page overflow",
+    "768x1024 opening: 戰役 >=44 and reachable",
+    "768x1024 opening: 設定 >=44 and reachable",
+    "768x1024 opening: 接下塔印，守住松林 >=44 and reachable",
+    "768x1024 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "768x1024 opening: 存檔與原作匯入 >=44 and reachable",
+    "768x1024 defense: no page overflow",
+    "768x1024 defense: 戰報 >=44 and reachable",
+    "768x1024 defense: 暫停 >=44 and reachable",
+    "768x1024 defense: 輔助：開 >=44 and reachable",
+    "768x1024 defense: 看命中切換 >=44 and reachable",
+    "768x1024 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "768x1024 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "768x1024 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "768x1024 defense: 建議塔位 >=44 and reachable",
+    "768x1024 defense: 確認建造 >=44 and reachable",
+    "768x1024 defense: 取消 >=44 and reachable",
+    "768x1024 defense: 開始下一波 >=44 and reachable",
+    "768x1024 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "768x1024 defense: 戰前工事 · 30 >=44 and reachable",
+    "768x1024 pause: no page overflow",
+    "768x1024 pause: 音效：開啟 >=44 and reachable",
+    "768x1024 pause: 減少動態：關閉 >=44 and reachable",
+    "768x1024 pause: 本次決定回顧 >=44 and reachable",
+    "768x1024 pause: 繼續戰局 >=44 and reachable",
+    "768x1024 pause: 存檔／匯入 >=44 and reachable",
+    "768x1024 pause: 返回戰報 >=44 and reachable",
+    "768x1024 save: no page overflow",
+    "768x1024 save: 匯出備份 >=44 and reachable",
+    "768x1024 save: 預覽匯入 >=44 and reachable",
+    "768x1024 save: 確認匯入 >=44 and reachable",
+    "768x1024 save: 重試儲存 >=44 and reachable",
+    "768x1024 save: 讀取匯入前備份 >=44 and reachable",
+    "768x1024 save: 讀取損壞原檔 >=44 and reachable",
+    "768x1024 save: 返回戰役 >=44 and reachable",
+    "768x1024 siege: no page overflow",
+    "768x1024 siege: 戰報 >=44 and reachable",
+    "768x1024 siege: 暫停 >=44 and reachable",
+    "768x1024 siege: 衛士35 結晶 >=44 and reachable",
+    "768x1024 siege: 弓手50 結晶 >=44 and reachable",
+    "768x1024 siege: 三相術士65 結晶 >=44 and reachable",
+    "768x1024 siege: 兵營已就緒 >=44 and reachable",
+    "768x1024 siege: 雙線軍令 >=44 and reachable",
+    "768x1024 siege: 全軍攻向據點 >=44 and reachable",
+    "768x1024 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "768x1024 dual orders: no page overflow",
+    "768x1024 dual orders: 執行兩線軍令 >=44 and reachable",
+    "768x1024 dual orders: 取消 >=44 and reachable",
+    "1024x768 opening: no page overflow",
+    "1024x768 opening: 戰役 >=44 and reachable",
+    "1024x768 opening: 設定 >=44 and reachable",
+    "1024x768 opening: 接下塔印，守住松林 >=44 and reachable",
+    "1024x768 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "1024x768 opening: 存檔與原作匯入 >=44 and reachable",
+    "1024x768 defense: no page overflow",
+    "1024x768 defense: 戰報 >=44 and reachable",
+    "1024x768 defense: 暫停 >=44 and reachable",
+    "1024x768 defense: 輔助：開 >=44 and reachable",
+    "1024x768 defense: 看命中切換 >=44 and reachable",
+    "1024x768 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "1024x768 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "1024x768 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "1024x768 defense: 建議塔位 >=44 and reachable",
+    "1024x768 defense: 確認建造 >=44 and reachable",
+    "1024x768 defense: 取消 >=44 and reachable",
+    "1024x768 defense: 開始下一波 >=44 and reachable",
+    "1024x768 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "1024x768 defense: 戰前工事 · 30 >=44 and reachable",
+    "1024x768 pause: no page overflow",
+    "1024x768 pause: 音效：開啟 >=44 and reachable",
+    "1024x768 pause: 減少動態：關閉 >=44 and reachable",
+    "1024x768 pause: 本次決定回顧 >=44 and reachable",
+    "1024x768 pause: 繼續戰局 >=44 and reachable",
+    "1024x768 pause: 存檔／匯入 >=44 and reachable",
+    "1024x768 pause: 返回戰報 >=44 and reachable",
+    "1024x768 save: no page overflow",
+    "1024x768 save: 匯出備份 >=44 and reachable",
+    "1024x768 save: 預覽匯入 >=44 and reachable",
+    "1024x768 save: 確認匯入 >=44 and reachable",
+    "1024x768 save: 重試儲存 >=44 and reachable",
+    "1024x768 save: 讀取匯入前備份 >=44 and reachable",
+    "1024x768 save: 讀取損壞原檔 >=44 and reachable",
+    "1024x768 save: 返回戰役 >=44 and reachable",
+    "1024x768 siege: no page overflow",
+    "1024x768 siege: 戰報 >=44 and reachable",
+    "1024x768 siege: 暫停 >=44 and reachable",
+    "1024x768 siege: 衛士35 結晶 >=44 and reachable",
+    "1024x768 siege: 弓手50 結晶 >=44 and reachable",
+    "1024x768 siege: 三相術士65 結晶 >=44 and reachable",
+    "1024x768 siege: 兵營已就緒 >=44 and reachable",
+    "1024x768 siege: 雙線軍令 >=44 and reachable",
+    "1024x768 siege: 全軍攻向據點 >=44 and reachable",
+    "1024x768 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "1024x768 dual orders: no page overflow",
+    "1024x768 dual orders: 執行兩線軍令 >=44 and reachable",
+    "1024x768 dual orders: 取消 >=44 and reachable",
+    "1032x1376 opening: no page overflow",
+    "1032x1376 opening: 戰役 >=44 and reachable",
+    "1032x1376 opening: 設定 >=44 and reachable",
+    "1032x1376 opening: 接下塔印，守住松林 >=44 and reachable",
+    "1032x1376 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "1032x1376 opening: 存檔與原作匯入 >=44 and reachable",
+    "1032x1376 defense: no page overflow",
+    "1032x1376 defense: 戰報 >=44 and reachable",
+    "1032x1376 defense: 暫停 >=44 and reachable",
+    "1032x1376 defense: 輔助：開 >=44 and reachable",
+    "1032x1376 defense: 看命中切換 >=44 and reachable",
+    "1032x1376 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "1032x1376 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "1032x1376 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "1032x1376 defense: 建議塔位 >=44 and reachable",
+    "1032x1376 defense: 確認建造 >=44 and reachable",
+    "1032x1376 defense: 取消 >=44 and reachable",
+    "1032x1376 defense: 開始下一波 >=44 and reachable",
+    "1032x1376 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "1032x1376 defense: 戰前工事 · 30 >=44 and reachable",
+    "1032x1376 pause: no page overflow",
+    "1032x1376 pause: 音效：開啟 >=44 and reachable",
+    "1032x1376 pause: 減少動態：關閉 >=44 and reachable",
+    "1032x1376 pause: 本次決定回顧 >=44 and reachable",
+    "1032x1376 pause: 繼續戰局 >=44 and reachable",
+    "1032x1376 pause: 存檔／匯入 >=44 and reachable",
+    "1032x1376 pause: 返回戰報 >=44 and reachable",
+    "1032x1376 save: no page overflow",
+    "1032x1376 save: 匯出備份 >=44 and reachable",
+    "1032x1376 save: 預覽匯入 >=44 and reachable",
+    "1032x1376 save: 確認匯入 >=44 and reachable",
+    "1032x1376 save: 重試儲存 >=44 and reachable",
+    "1032x1376 save: 讀取匯入前備份 >=44 and reachable",
+    "1032x1376 save: 讀取損壞原檔 >=44 and reachable",
+    "1032x1376 save: 返回戰役 >=44 and reachable",
+    "1032x1376 siege: no page overflow",
+    "1032x1376 siege: 戰報 >=44 and reachable",
+    "1032x1376 siege: 暫停 >=44 and reachable",
+    "1032x1376 siege: 衛士35 結晶 >=44 and reachable",
+    "1032x1376 siege: 弓手50 結晶 >=44 and reachable",
+    "1032x1376 siege: 三相術士65 結晶 >=44 and reachable",
+    "1032x1376 siege: 兵營已就緒 >=44 and reachable",
+    "1032x1376 siege: 雙線軍令 >=44 and reachable",
+    "1032x1376 siege: 全軍攻向據點 >=44 and reachable",
+    "1032x1376 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "1032x1376 dual orders: no page overflow",
+    "1032x1376 dual orders: 執行兩線軍令 >=44 and reachable",
+    "1032x1376 dual orders: 取消 >=44 and reachable",
+    "1376x1032 opening: no page overflow",
+    "1376x1032 opening: 戰役 >=44 and reachable",
+    "1376x1032 opening: 設定 >=44 and reachable",
+    "1376x1032 opening: 接下塔印，守住松林 >=44 and reachable",
+    "1376x1032 opening: 三印窄陣 · 布陣演習 >=44 and reachable",
+    "1376x1032 opening: 存檔與原作匯入 >=44 and reachable",
+    "1376x1032 defense: no page overflow",
+    "1376x1032 defense: 戰報 >=44 and reachable",
+    "1376x1032 defense: 暫停 >=44 and reachable",
+    "1376x1032 defense: 輔助：開 >=44 and reachable",
+    "1376x1032 defense: 看命中切換 >=44 and reachable",
+    "1376x1032 defense: 火印塔尚未部署需 100，餘額 360 >=44 and reachable",
+    "1376x1032 defense: 冰印塔尚未部署需 70，餘額 360 >=44 and reachable",
+    "1376x1032 defense: 雷印塔尚未部署需 130，餘額 360 >=44 and reachable",
+    "1376x1032 defense: 建議塔位 >=44 and reachable",
+    "1376x1032 defense: 確認建造 >=44 and reachable",
+    "1376x1032 defense: 取消 >=44 and reachable",
+    "1376x1032 defense: 開始下一波 >=44 and reachable",
+    "1376x1032 defense: 共鳴震擊 · 20 >=44 and reachable",
+    "1376x1032 defense: 戰前工事 · 30 >=44 and reachable",
+    "1376x1032 pause: no page overflow",
+    "1376x1032 pause: 音效：開啟 >=44 and reachable",
+    "1376x1032 pause: 減少動態：關閉 >=44 and reachable",
+    "1376x1032 pause: 本次決定回顧 >=44 and reachable",
+    "1376x1032 pause: 繼續戰局 >=44 and reachable",
+    "1376x1032 pause: 存檔／匯入 >=44 and reachable",
+    "1376x1032 pause: 返回戰報 >=44 and reachable",
+    "1376x1032 save: no page overflow",
+    "1376x1032 save: 匯出備份 >=44 and reachable",
+    "1376x1032 save: 預覽匯入 >=44 and reachable",
+    "1376x1032 save: 確認匯入 >=44 and reachable",
+    "1376x1032 save: 重試儲存 >=44 and reachable",
+    "1376x1032 save: 讀取匯入前備份 >=44 and reachable",
+    "1376x1032 save: 讀取損壞原檔 >=44 and reachable",
+    "1376x1032 save: 返回戰役 >=44 and reachable",
+    "1376x1032 siege: no page overflow",
+    "1376x1032 siege: 戰報 >=44 and reachable",
+    "1376x1032 siege: 暫停 >=44 and reachable",
+    "1376x1032 siege: 衛士35 結晶 >=44 and reachable",
+    "1376x1032 siege: 弓手50 結晶 >=44 and reachable",
+    "1376x1032 siege: 三相術士65 結晶 >=44 and reachable",
+    "1376x1032 siege: 兵營已就緒 >=44 and reachable",
+    "1376x1032 siege: 雙線軍令 >=44 and reachable",
+    "1376x1032 siege: 全軍攻向據點 >=44 and reachable",
+    "1376x1032 siege: 共鳴震擊 · 20 >=44 and reachable",
+    "1376x1032 dual orders: no page overflow",
+    "1376x1032 dual orders: 執行兩線軍令 >=44 and reachable",
+    "1376x1032 dual orders: 取消 >=44 and reachable",
+    "no page exceptions",
+    "no third-party requests"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    {
+      "path": "docs/store/screenshots/ipad-opening-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "path": "docs/store/screenshots/ipad-defense-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "path": "docs/store/screenshots/ipad-siege-2064x2752.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 2
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-opening.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-defense.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/320x568-siege.png",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-opening.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-defense.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/390x844-siege.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-opening.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-defense.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/844x390-siege.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-opening.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-defense.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1366x600-siege.png",
+      "viewport": {
+        "width": 1366,
+        "height": 600
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-opening.png",
+      "viewport": {
+        "width": 1280,
+        "height": 640
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-defense.png",
+      "viewport": {
+        "width": 1280,
+        "height": 640
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1280x640-siege.png",
+      "viewport": {
+        "width": 1280,
+        "height": 640
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-opening.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-defense.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/768x1024-siege.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-opening.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-defense.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1024x768-siege.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-opening.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-defense.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1032x1376-siege.png",
+      "viewport": {
+        "width": 1032,
+        "height": 1376
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-opening.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-defense.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/evidence/rwd/1376x1032-siege.png",
+      "viewport": {
+        "width": 1376,
+        "height": 1032
+      },
+      "deviceScaleFactor": 1
+    },
+    {
+      "path": "docs/store/screenshots/iphone-opening-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3
+    },
+    {
+      "path": "docs/store/screenshots/iphone-defense-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3
+    },
+    {
+      "path": "docs/store/screenshots/iphone-siege-1290x2796.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "deviceScaleFactor": 3
+    }
+  ],
+  "rwd": [
+    {
+      "label": "cold iPad",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 32,
+          "y": 1109.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 32,
+          "y": 1167.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 32,
+          "y": 1225.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 848.734375,
+          "y": 184,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看雷塔切換",
+          "x": 19,
+          "y": 900.8125,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔場上已有 1 座需 100，還差 40",
+          "x": 29,
+          "y": 1057.8125,
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔場上已有 1 座需 70，還差 10",
+          "x": 355.65625,
+          "y": 1057.8125,
+          "width": 320.671875,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔場上已有 1 座需 130，還差 70",
+          "x": 682.328125,
+          "y": 1057.8125,
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 29,
+          "y": 1188.203125,
+          "width": 316.0625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 350.0625,
+          "y": 1188.203125,
+          "width": 395.078125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 750.140625,
+          "y": 1188.203125,
+          "width": 252.859375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 29,
+          "y": 1243.203125,
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 355.328125,
+          "y": 1243.203125,
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 681.65625,
+          "y": 1243.203125,
+          "width": 321.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 29,
+          "y": 1075.8125,
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 355.65625,
+          "y": 1075.8125,
+          "width": 320.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 682.328125,
+          "y": 1075.8125,
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建立兵營 · 60",
+          "x": 29,
+          "y": 1188.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 519.5,
+          "y": 1188.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 29,
+          "y": 1243.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 519.5,
+          "y": 1243.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "iPad dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 259,
+          "y": 795.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 520,
+          "y": 795.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 219,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 268,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 25,
+          "y": 380,
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 25,
+          "y": 431,
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 25,
+          "y": 482,
+          "width": 270,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 219,
+          "y": 2.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 268,
+          "y": 2.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 132,
+          "y": 104,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 202,
+          "y": 104,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 15,
+          "y": 335.203125,
+          "width": 92.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 113.65625,
+          "y": 335.203125,
+          "width": 92.671875,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 212.328125,
+          "y": 335.203125,
+          "width": 92.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 15,
+          "y": 415.203125,
+          "width": 91.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 111.796875,
+          "y": 415.203125,
+          "width": 114.75,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 231.546875,
+          "y": 415.203125,
+          "width": 73.453125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 15,
+          "y": 463.203125,
+          "width": 93.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 113.328125,
+          "y": 463.203125,
+          "width": 93.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 211.65625,
+          "y": 463.203125,
+          "width": 93.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 42,
+          "y": 247.296875,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 146,
+          "y": 247.296875,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 42,
+          "y": 301.296875,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 42,
+          "y": 409.484375,
+          "width": 73.328125,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 123.328125,
+          "y": 409.484375,
+          "width": 73.34375,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 204.671875,
+          "y": 409.484375,
+          "width": 73.328125,
+          "height": 55,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 42,
+          "y": 315.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 164,
+          "y": 315.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 42,
+          "y": 369.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 164,
+          "y": 369.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 42,
+          "y": 423.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 164,
+          "y": 423.390625,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 42,
+          "y": 484.390625,
+          "width": 236,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 219,
+          "y": 2.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 268,
+          "y": 2.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 15,
+          "y": 353.203125,
+          "width": 92.65625,
+          "height": 58,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 113.65625,
+          "y": 353.203125,
+          "width": 92.671875,
+          "height": 58,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 212.328125,
+          "y": 353.203125,
+          "width": 92.65625,
+          "height": 58,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 15,
+          "y": 415.203125,
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 163.5,
+          "y": 415.203125,
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 15,
+          "y": 463.203125,
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 163.5,
+          "y": 463.203125,
+          "width": 141.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "320x568 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 42,
+          "y": 416.59375,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 164,
+          "y": 416.59375,
+          "width": 114,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 289,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 338,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 25,
+          "y": 619,
+          "width": 340,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 25,
+          "y": 670,
+          "width": 340,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 25,
+          "y": 721,
+          "width": 340,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 289,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 338,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 174.765625,
+          "y": 128,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 17,
+          "y": 470.8125,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 17,
+          "y": 564.8125,
+          "width": 114.65625,
+          "height": 117.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 137.65625,
+          "y": 564.8125,
+          "width": 114.671875,
+          "height": 117.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 258.328125,
+          "y": 564.8125,
+          "width": 114.65625,
+          "height": 117.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 17,
+          "y": 687.203125,
+          "width": 113.4375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 135.4375,
+          "y": 687.203125,
+          "width": 141.796875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 282.234375,
+          "y": 687.203125,
+          "width": 90.765625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 17,
+          "y": 736.203125,
+          "width": 115.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 137.328125,
+          "y": 736.203125,
+          "width": 115.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 257.65625,
+          "y": 736.203125,
+          "width": 115.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 42,
+          "y": 387.796875,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 146,
+          "y": 387.796875,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 42,
+          "y": 441.796875,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 42,
+          "y": 532.390625,
+          "width": 96.65625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 146.65625,
+          "y": 532.390625,
+          "width": 96.671875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 251.328125,
+          "y": 532.390625,
+          "width": 96.671875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 42,
+          "y": 453.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 199,
+          "y": 453.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 42,
+          "y": 507.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 199,
+          "y": 507.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 42,
+          "y": 561.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 199,
+          "y": 561.390625,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 42,
+          "y": 622.390625,
+          "width": 306,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 289,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 338,
+          "y": 8.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 17,
+          "y": 581.8125,
+          "width": 114.65625,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 137.65625,
+          "y": 581.8125,
+          "width": 114.671875,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 258.328125,
+          "y": 581.8125,
+          "width": 114.65625,
+          "height": 100.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 17,
+          "y": 687.203125,
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 198.5,
+          "y": 687.203125,
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 17,
+          "y": 736.203125,
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 198.5,
+          "y": 736.203125,
+          "width": 174.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "390x844 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 42,
+          "y": 540.09375,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 199,
+          "y": 540.09375,
+          "width": 149,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 720,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 778,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 537,
+          "y": 191.546875,
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 537,
+          "y": 241.546875,
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 537,
+          "y": 291.546875,
+          "width": 282,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 720,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 778,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 453,
+          "y": 107,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 24,
+          "y": 318,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 537,
+          "y": 116,
+          "width": 88.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 633.65625,
+          "y": 116,
+          "width": 88.671875,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 730.328125,
+          "y": 116,
+          "width": 88.65625,
+          "height": 76,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 537,
+          "y": 197,
+          "width": 89.171875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 631.171875,
+          "y": 197,
+          "width": 111.46875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 747.640625,
+          "y": 197,
+          "width": 71.359375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 537,
+          "y": 246,
+          "width": 90.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 632.65625,
+          "y": 246,
+          "width": 90.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 728.328125,
+          "y": 246,
+          "width": 90.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 165,
+          "y": 178,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 269,
+          "y": 178,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 401,
+          "y": 178,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 165,
+          "y": 258.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 339,
+          "y": 258.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 513,
+          "y": 258.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 430,
+          "y": 107,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 573,
+          "y": 107,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 430,
+          "y": 160,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 573,
+          "y": 160,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 430,
+          "y": 213,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 573,
+          "y": 213,
+          "width": 136,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 135,
+          "y": 266,
+          "width": 574,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 720,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 778,
+          "y": 1,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 537,
+          "y": 116,
+          "width": 88.65625,
+          "height": 54,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 633.65625,
+          "y": 116,
+          "width": 88.671875,
+          "height": 54,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 730.328125,
+          "y": 116,
+          "width": 88.65625,
+          "height": 54,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 537,
+          "y": 175,
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 681.5,
+          "y": 175,
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 537,
+          "y": 224,
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 681.5,
+          "y": 224,
+          "width": 137.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "844x390 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 165,
+          "y": 292.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 426,
+          "y": 292.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 1242,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 1300,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 1063,
+          "y": 370.203125,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 1063,
+          "y": 424.203125,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 1063,
+          "y": 478.203125,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1242,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1300,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 833.765625,
+          "y": 139,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 27,
+          "y": 524,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 1063,
+          "y": 267.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 1157,
+          "y": 267.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 1251,
+          "y": 267.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 1063,
+          "y": 396.984375,
+          "width": 86.546875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 1154.546875,
+          "y": 396.984375,
+          "width": 108.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 1267.75,
+          "y": 396.984375,
+          "width": 69.25,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 1063,
+          "y": 449.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1156,
+          "y": 449.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 1249,
+          "y": 449.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 426,
+          "y": 283,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 530,
+          "y": 283,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 662,
+          "y": 283,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 426,
+          "y": 363.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 600,
+          "y": 363.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 774,
+          "y": 363.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 426,
+          "y": 340.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 599,
+          "y": 340.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 772,
+          "y": 340.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 426,
+          "y": 391.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 599,
+          "y": 391.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 772,
+          "y": 391.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 426,
+          "y": 447.09375,
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1242,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1300,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 1063,
+          "y": 284.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 1157,
+          "y": 284.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 1251,
+          "y": 284.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 1063,
+          "y": 377.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 1203.5,
+          "y": 377.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 1063,
+          "y": 430.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1203.5,
+          "y": 430.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1366x600 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 426,
+          "y": 397.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 687,
+          "y": 397.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 1156,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 1214,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 977,
+          "y": 390.1875,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 977,
+          "y": 444.1875,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 977,
+          "y": 498.1875,
+          "width": 274,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1156,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1214,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 747.765625,
+          "y": 139,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 27,
+          "y": 564,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 977,
+          "y": 287.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 1071,
+          "y": 287.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 1165,
+          "y": 287.796875,
+          "width": 86,
+          "height": 122.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 977,
+          "y": 416.984375,
+          "width": 86.546875,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 1068.546875,
+          "y": 416.984375,
+          "width": 108.203125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 1181.75,
+          "y": 416.984375,
+          "width": 69.25,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 977,
+          "y": 469.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1070,
+          "y": 469.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 1163,
+          "y": 469.984375,
+          "width": 88,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 383,
+          "y": 303,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 487,
+          "y": 303,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 619,
+          "y": 303,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 383,
+          "y": 383.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 557,
+          "y": 383.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 731,
+          "y": 383.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 383,
+          "y": 360.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 556,
+          "y": 360.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 729,
+          "y": 360.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 383,
+          "y": 411.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 556,
+          "y": 411.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 729,
+          "y": 411.09375,
+          "width": 168,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 383,
+          "y": 467.09375,
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1156,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1214,
+          "y": 5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 977,
+          "y": 304.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 1071,
+          "y": 304.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 1165,
+          "y": 304.796875,
+          "width": 86,
+          "height": 86.1875,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 977,
+          "y": 397.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 1117.5,
+          "y": 397.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 977,
+          "y": 450.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1117.5,
+          "y": 450.984375,
+          "width": 133.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1280x640 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 383,
+          "y": 417.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 644,
+          "y": 417.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 667,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 716,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 32,
+          "y": 757.625,
+          "width": 704,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 32,
+          "y": 815.625,
+          "width": 704,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 32,
+          "y": 873.625,
+          "width": 704,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 667,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 716,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 552.765625,
+          "y": 184,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 19,
+          "y": 548.8125,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 29,
+          "y": 705.8125,
+          "width": 232.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 267.65625,
+          "y": 705.8125,
+          "width": 232.671875,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 506.328125,
+          "y": 705.8125,
+          "width": 232.671875,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 29,
+          "y": 836.203125,
+          "width": 229.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 263.5,
+          "y": 836.203125,
+          "width": 286.890625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 555.390625,
+          "y": 836.203125,
+          "width": 183.59375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 29,
+          "y": 891.203125,
+          "width": 233.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 267.328125,
+          "y": 891.203125,
+          "width": 233.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 505.65625,
+          "y": 891.203125,
+          "width": 233.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 127,
+          "y": 494,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 231,
+          "y": 494,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 363,
+          "y": 494,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 127,
+          "y": 584.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 301,
+          "y": 584.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 475,
+          "y": 584.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 127,
+          "y": 534.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 388,
+          "y": 534.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 127,
+          "y": 588.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 388,
+          "y": 588.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 127,
+          "y": 642.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 388,
+          "y": 642.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 127,
+          "y": 703.59375,
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 667,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 716,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 29,
+          "y": 723.8125,
+          "width": 232.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 267.65625,
+          "y": 723.8125,
+          "width": 232.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 506.328125,
+          "y": 723.8125,
+          "width": 232.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 29,
+          "y": 836.203125,
+          "width": 351.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 387.5,
+          "y": 836.203125,
+          "width": 351.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 29,
+          "y": 891.203125,
+          "width": 351.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 387.5,
+          "y": 891.203125,
+          "width": 351.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "768x1024 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 127,
+          "y": 619.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 388,
+          "y": 619.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 900,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 958,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 691,
+          "y": 513.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 691,
+          "y": 573.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 691,
+          "y": 633.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 900,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 958,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 448.765625,
+          "y": 187,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 27,
+          "y": 686,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 691,
+          "y": 357.1875,
+          "width": 92.65625,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 791.65625,
+          "y": 357.1875,
+          "width": 92.671875,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 892.328125,
+          "y": 357.1875,
+          "width": 92.65625,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 691,
+          "y": 529.78125,
+          "width": 93.109375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 789.109375,
+          "y": 529.78125,
+          "width": 116.390625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 910.5,
+          "y": 529.78125,
+          "width": 74.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 691,
+          "y": 587.78125,
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 790.65625,
+          "y": 587.78125,
+          "width": 94.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 890.328125,
+          "y": 587.78125,
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 265,
+          "y": 382.890625,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 369,
+          "y": 382.890625,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 501,
+          "y": 382.890625,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 265,
+          "y": 473.484375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 432.328125,
+          "y": 473.484375,
+          "width": 159.34375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 599.671875,
+          "y": 473.484375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 265,
+          "y": 459.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 432.328125,
+          "y": 459.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 599.65625,
+          "y": 459.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 265,
+          "y": 513.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 432.328125,
+          "y": 513.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 599.65625,
+          "y": 513.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 265,
+          "y": 574.59375,
+          "width": 494,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 900,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 958,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 691,
+          "y": 372.296875,
+          "width": 92.65625,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 791.65625,
+          "y": 372.296875,
+          "width": 92.671875,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 892.328125,
+          "y": 372.296875,
+          "width": 92.65625,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 691,
+          "y": 512.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 841.5,
+          "y": 512.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 691,
+          "y": 570.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 841.5,
+          "y": 570.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1024x768 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 265,
+          "y": 497.59375,
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 516,
+          "y": 497.59375,
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 32,
+          "y": 1109.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 32,
+          "y": 1167.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 32,
+          "y": 1225.625,
+          "width": 968,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 816.765625,
+          "y": 184,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 19,
+          "y": 900.8125,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 29,
+          "y": 1057.8125,
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 355.65625,
+          "y": 1057.8125,
+          "width": 320.671875,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 682.328125,
+          "y": 1057.8125,
+          "width": 320.65625,
+          "height": 119.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 29,
+          "y": 1188.203125,
+          "width": 316.0625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 350.0625,
+          "y": 1188.203125,
+          "width": 395.078125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 750.140625,
+          "y": 1188.203125,
+          "width": 252.859375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 29,
+          "y": 1243.203125,
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 355.328125,
+          "y": 1243.203125,
+          "width": 321.328125,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 681.65625,
+          "y": 1243.203125,
+          "width": 321.34375,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 259,
+          "y": 670,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 363,
+          "y": 670,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 495,
+          "y": 670,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 259,
+          "y": 760.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 433,
+          "y": 760.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 607,
+          "y": 760.59375,
+          "width": 166,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 259,
+          "y": 710.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 520,
+          "y": 710.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 259,
+          "y": 764.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 520,
+          "y": 764.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 259,
+          "y": 818.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 520,
+          "y": 818.59375,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 259,
+          "y": 879.59375,
+          "width": 514,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 931,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 980,
+          "y": 18.5,
+          "width": 44,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 29,
+          "y": 1075.8125,
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 355.65625,
+          "y": 1075.8125,
+          "width": 320.671875,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 682.328125,
+          "y": 1075.8125,
+          "width": 320.65625,
+          "height": 101.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 29,
+          "y": 1188.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 519.5,
+          "y": 1188.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 29,
+          "y": 1243.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 519.5,
+          "y": 1243.203125,
+          "width": 483.5,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1032x1376 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 259,
+          "y": 795.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 520,
+          "y": 795.296875,
+          "width": 253,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 opening",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰役",
+          "x": 1252,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "設定",
+          "x": 1310,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "接下塔印，守住松林",
+          "x": 1043,
+          "y": 645.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三印窄陣 · 布陣演習",
+          "x": 1043,
+          "y": 705.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔與原作匯入",
+          "x": 1043,
+          "y": 765.453125,
+          "width": 294,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 defense",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1252,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1310,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "輔助：開",
+          "x": 800.765625,
+          "y": 187,
+          "width": 66,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "看命中切換",
+          "x": 27,
+          "y": 950,
+          "width": 62,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "火印塔尚未部署需 100，餘額 360",
+          "x": 1043,
+          "y": 489.1875,
+          "width": 92.65625,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "冰印塔尚未部署需 70，餘額 360",
+          "x": 1143.65625,
+          "y": 489.1875,
+          "width": 92.671875,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雷印塔尚未部署需 130，餘額 360",
+          "x": 1244.328125,
+          "y": 489.1875,
+          "width": 92.65625,
+          "height": 160.59375,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "建議塔位",
+          "x": 1043,
+          "y": 661.78125,
+          "width": 93.109375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認建造",
+          "x": 1141.109375,
+          "y": 661.78125,
+          "width": 116.390625,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 1262.5,
+          "y": 661.78125,
+          "width": 74.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "開始下一波",
+          "x": 1043,
+          "y": 719.78125,
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1142.65625,
+          "y": 719.78125,
+          "width": 94.671875,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "戰前工事 · 30",
+          "x": 1242.328125,
+          "y": 719.78125,
+          "width": 94.65625,
+          "height": 44,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 pause",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "音效：開啟",
+          "x": 441,
+          "y": 514.890625,
+          "width": 96,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "減少動態：關閉",
+          "x": 545,
+          "y": 514.890625,
+          "width": 124,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "本次決定回顧",
+          "x": 677,
+          "y": 514.890625,
+          "width": 110,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "繼續戰局",
+          "x": 441,
+          "y": 605.484375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "存檔／匯入",
+          "x": 608.328125,
+          "y": 605.484375,
+          "width": 159.34375,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰報",
+          "x": 775.671875,
+          "y": 605.484375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 save",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "匯出備份",
+          "x": 441,
+          "y": 591.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "預覽匯入",
+          "x": 608.328125,
+          "y": 591.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "確認匯入",
+          "x": 775.65625,
+          "y": 591.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "重試儲存",
+          "x": 441,
+          "y": 645.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取匯入前備份",
+          "x": 608.328125,
+          "y": 645.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "讀取損壞原檔",
+          "x": 775.65625,
+          "y": 645.59375,
+          "width": 159.328125,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回戰役",
+          "x": 441,
+          "y": 706.59375,
+          "width": 494,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 siege",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "戰報",
+          "x": 1252,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "暫停",
+          "x": 1310,
+          "y": 15.5,
+          "width": 50,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "衛士35 結晶",
+          "x": 1043,
+          "y": 504.296875,
+          "width": 92.65625,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "弓手50 結晶",
+          "x": 1143.65625,
+          "y": 504.296875,
+          "width": 92.671875,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "三相術士65 結晶",
+          "x": 1244.328125,
+          "y": 504.296875,
+          "width": 92.65625,
+          "height": 128.390625,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "兵營已就緒",
+          "x": 1043,
+          "y": 644.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "雙線軍令",
+          "x": 1193.5,
+          "y": 644.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "全軍攻向據點",
+          "x": 1043,
+          "y": 702.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "共鳴震擊 · 20",
+          "x": 1193.5,
+          "y": 702.6875,
+          "width": 143.5,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "label": "1376x1032 dual orders",
+      "overflow": false,
+      "buttons": [
+        {
+          "text": "執行兩線軍令",
+          "x": 441,
+          "y": 629.59375,
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "取消",
+          "x": 692,
+          "y": 629.59375,
+          "width": 243,
+          "height": 46,
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "firstDefense": {
+    "time": 36,
+    "crystals": 244,
+    "hp": 100
+  },
+  "siege": {
+    "time": 39,
+    "crystals": 376
+  }
+}

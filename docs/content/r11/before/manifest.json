@@ -1,0 +1,44 @@
+[
+  {
+    "source": "docs/content/r10/phone-relay-gate-same-run-compare.png",
+    "path": "docs/content/r11/before/phone-relay-gate-same-run-compare.png",
+    "sha256": "c5c61a585c9ff28ea2304e52cd2f650451bd04e722a847d832de69424feef20c",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  },
+  {
+    "source": "docs/content/r10/phone-terrain-barricade-proof-turn-2.png",
+    "path": "docs/content/r11/before/phone-terrain-barricade-proof-turn-2.png",
+    "sha256": "28317fcff2676ac8c8676cfe04173caf2726b0c4541b4bfd6b93ad58002c9aaa",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  },
+  {
+    "source": "docs/content/r10/phone-terrain-flood-enter-1.png",
+    "path": "docs/content/r11/before/phone-terrain-flood-enter-1.png",
+    "sha256": "4d6210f80871562769259531a82815b0441f55c1508a704113ff0f9b295a9cdc",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  },
+  {
+    "source": "docs/content/r10/phone-exercise-switchback-combat.png",
+    "path": "docs/content/r11/before/phone-exercise-switchback-combat.png",
+    "sha256": "723cec50a5e6a56c29b52ba61b61156ac043e2b0fab46761dbdedfa20e5e8760",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  },
+  {
+    "source": "docs/content/r10/phone-exercise-split-combat.png",
+    "path": "docs/content/r11/before/phone-exercise-split-combat.png",
+    "sha256": "425ba4bc85f4fd33ab1987084dc559c02e1bd11904658b9921bd2d68cb95551a",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  },
+  {
+    "source": "docs/content/r10/phone-exercise-hollow-failed-clear.png",
+    "path": "docs/content/r11/before/phone-exercise-hollow-failed-clear.png",
+    "sha256": "3d3343c5a91fabab3c5eafa1e494e04833de4b91f62c935b66f0e3edd784a76a",
+    "stage": "R10 before R11 correction",
+    "baselineCommit": "7f612134ccb3ec57837582e4de5ad35c833335df"
+  }
+]

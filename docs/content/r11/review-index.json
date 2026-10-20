@@ -1,0 +1,111 @@
+{
+  "status": "VERIFIED",
+  "buildSHA256": "d8eea78fe3836818b4c2e50537b2ac17d8ad37776073f8ea399d8628c3704495",
+  "images": [
+    {
+      "category": "relay",
+      "path": "docs/content/r11/review-set/01-relay-upstream-hit.png",
+      "source": "docs/content/r11/phone-relay-upstream-hit.png",
+      "sha256": "de04897de74100bc91dea7ca326c2e17e170a8e883fb59ba03dc075f112f3bdc",
+      "purpose": "留守身份及真實命中"
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r11/review-set/02-relay-gate-hit.png",
+      "source": "docs/content/r11/phone-relay-gate-hit.png",
+      "sha256": "986f3099264191de5c2883af57b737aa8dcd99d431e59032b7089911ad8a5d6b",
+      "purpose": "城門留塔命中與內縮射程"
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r11/review-set/03-relay-gate-same-run-compare.png",
+      "source": "docs/content/r11/phone-relay-gate-same-run-compare.png",
+      "sha256": "62bd94c3d57aa5a96c4ac3524118fb5ea223a0f7148ede272efd6b8c9acf2067",
+      "purpose": "兩場結果相同且仍有實測資料列"
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r11/review-set/04-relay-crystals-spent-reloaded.png",
+      "source": "docs/content/r11/phone-relay-crystals-spent-reloaded.png",
+      "sha256": "f38f56ae986e329a73704f4aac2e2d043eeca382fb09710eb844c47ce42ca0c0",
+      "purpose": "拆晶、付款、重載後收據與錢包一致"
+    },
+    {
+      "category": "relay",
+      "path": "docs/content/r11/review-set/05-relay-ford-ice-hit.png",
+      "source": "docs/content/r11/phone-relay-ford-ice-hit.png",
+      "sha256": "86788c0f98cb7baa741d303eb60d74af722e5f4a5a606ca868dc2300e1a348a0",
+      "purpose": "渡口留守冰塔出手，敵軍本體可見"
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r11/review-set/06-terrain-barricade-proof-turn-1.png",
+      "source": "docs/content/r11/phone-terrain-barricade-proof-turn-1.png",
+      "sha256": "9c0b4bc0ade54c2c63b84c4426b91c14ef47983bc22c21060e2e992843f5855d",
+      "purpose": "同一前鋒接近木柵，輔助關"
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r11/review-set/07-terrain-barricade-proof-turn-2.png",
+      "source": "docs/content/r11/phone-terrain-barricade-proof-turn-2.png",
+      "sha256": "0acfb64fb9405e5f345c184697f1aadd16175cff07c9452dd4a86a48e8771a6d",
+      "purpose": "同一前鋒北轉；腳底位於可見新路"
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r11/review-set/08-terrain-barricade-proof-turn-3.png",
+      "source": "docs/content/r11/phone-terrain-barricade-proof-turn-3.png",
+      "sha256": "7192bbfba6e2c1e3534a864e4a6772dff88e534a657969879af0371d228e9f2a",
+      "purpose": "北路推進且有實際火塔命中"
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r11/review-set/09-terrain-flood-enter-1.png",
+      "source": "docs/content/r11/phone-terrain-flood-enter-1.png",
+      "sha256": "d94797efc1750cbd0f1cc6eb21a9cd4dbf6deb541c27799d43a715f97d6aa25f",
+      "purpose": "水在路面與腳下，涉水延遲直接來自模擬"
+    },
+    {
+      "category": "terrain",
+      "path": "docs/content/r11/review-set/10-terrain-flood-enter-2.png",
+      "source": "docs/content/r11/phone-terrain-flood-enter-2.png",
+      "sha256": "5aa908b1996fa3152aee6751f30220e53a808ea9df242e9eae7c2623dbe71880",
+      "purpose": "涉水連拍，水紋與延遲隨行進更新"
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r11/review-set/11-exercise-turn-formation.png",
+      "source": "docs/content/r11/phone-exercise-turn-formation.png",
+      "sha256": "80db5e2c49619d3f439643d3c8b0891eac8afd10aeb812ce188a543a0a816d4c",
+      "purpose": "單一編號、付款前預覽與同心完整射程"
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r11/review-set/12-exercise-levee-combat-2.png",
+      "source": "docs/content/r11/phone-exercise-levee-combat-2.png",
+      "sha256": "12a705018a109fa565c119b9ab1dc4be3601f67fc8284ac94093ee25a3826ef5",
+      "purpose": "分散接力命中後，敵軍本體清楚可見"
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r11/review-set/13-exercise-switchback-combat.png",
+      "source": "docs/content/r11/phone-exercise-switchback-combat.png",
+      "sha256": "0cad34078601fcfa2c4b2dbf6654933910bca4c11a0caf8967a6223c4ac2c112",
+      "purpose": "底列6、4、5依左右位置排序且有連線"
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r11/review-set/14-exercise-split-combat-2.png",
+      "source": "docs/content/r11/phone-exercise-split-combat-2.png",
+      "sha256": "7e94d719ed0b43035dbb500d875c04133040f2dcf9067afbf69aeb8d6d521873",
+      "purpose": "雙岸命中後，敵軍本體在塔前可見"
+    },
+    {
+      "category": "exercise",
+      "path": "docs/content/r11/review-set/15-exercise-hollow-failed-clear.png",
+      "source": "docs/content/r11/phone-exercise-hollow-failed-clear.png",
+      "sha256": "5359a74718ac653109d43dd790ff6160f7cfab754272f667592f8034c4483dfd",
+      "purpose": "底列5、4依位置排序；真實首漏與自選提示"
+    }
+  ]
+}

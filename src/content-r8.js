@@ -24,7 +24,7 @@ export function decisionSummary(b){
  lines.push(`首波收支：支出 ${r.spent} 結晶${r.branch==='crystals'?'，拆塔收入 +90 結晶（一次入帳）':''}。`);
  if(r.salvageUses?.length)lines.push('首波拆晶用途：'+r.salvageUses.map(p=>`${p.label} ${p.amount} 結晶`).join('、')+'。');
  if(r.terrain==='flood')lines.push(`同一首波・入水 ${r.wetCount} 隻，涉水新增延遲 ${r.waterDelay.toFixed(1)} 秒（全隊合計）。`);
- if(r.terrain==='barricade')lines.push(`同一首波・北繞 ${r.detourCount} 隻，北路行軍 ${r.detourSeconds.toFixed(1)} 秒（非新增延遲）。`);
+ if(r.terrain==='barricade')lines.push(`同一首波・北繞 ${r.detourCount} 隻，北路行軍 ${r.detourSeconds.toFixed(1)} 秒（全隊合計，非新增延遲）。`);
  return lines;
 }
 

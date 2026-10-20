@@ -1,0 +1,147 @@
+[
+  {
+    "source": "docs/store/screenshots/iphone-defense-1290x2796.png",
+    "path": "docs/content/r10/verification/current-rwd/iphone-defense-1290x2796.png",
+    "sha256": "33a440abbe4f27022bcf283f123c565b28fe2dc7bca75cbc3a68c3422d12a3df"
+  },
+  {
+    "source": "docs/store/screenshots/ipad-defense-2064x2752.png",
+    "path": "docs/content/r10/verification/current-rwd/ipad-defense-2064x2752.png",
+    "sha256": "ecbf86ce76c0a71bb5caaaee24e11f7edd97640704335dabb2ff13266f0794d0"
+  },
+  {
+    "source": "docs/evidence/rwd/1024x768-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/1024x768-defense.png",
+    "sha256": "06c94eeede8e0a4466a4ca45a4638c0109a7005af19c7536c0b0dfd7d8487105"
+  },
+  {
+    "source": "docs/evidence/rwd/1024x768-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/1024x768-opening.png",
+    "sha256": "d42cb88fc0a4807f04d72945ff0c97288f35b9eaeb4ce7f8687961152966b8b7"
+  },
+  {
+    "source": "docs/evidence/rwd/1024x768-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/1024x768-siege.png",
+    "sha256": "8af919f185e7d233a3d92db4afcda0da664ed9ad8a95df6d7ae64b63ccd6ec43"
+  },
+  {
+    "source": "docs/evidence/rwd/1032x1376-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/1032x1376-defense.png",
+    "sha256": "d0caed59fb5e63e8200690d0e2a4007429e8663f426ef7cb7fab8073e52c0213"
+  },
+  {
+    "source": "docs/evidence/rwd/1032x1376-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/1032x1376-opening.png",
+    "sha256": "42b55dbd3e80e7db91a9a3183af84b1e455966b361d276dd88d6e9763dca15d5"
+  },
+  {
+    "source": "docs/evidence/rwd/1032x1376-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/1032x1376-siege.png",
+    "sha256": "ea50f17c4da97340ff3415e6d8047faf0af3008848ed2274b6b73782d1ac2665"
+  },
+  {
+    "source": "docs/evidence/rwd/1280x640-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/1280x640-defense.png",
+    "sha256": "f088cb532fbcab17eeac9e4fb992416fe4e3f4ca8b560bec9b5f0b7c292df195"
+  },
+  {
+    "source": "docs/evidence/rwd/1280x640-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/1280x640-opening.png",
+    "sha256": "5c46b755f920ab5a3bee588bca690b5cd333b5ea3f6fc8673a9f670cff683b26"
+  },
+  {
+    "source": "docs/evidence/rwd/1280x640-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/1280x640-siege.png",
+    "sha256": "0d5ec91ab49af5015a550ee9ffdd9a4647f2490919c6ba51b7c9f8aa9d33756c"
+  },
+  {
+    "source": "docs/evidence/rwd/1366x600-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/1366x600-defense.png",
+    "sha256": "84741bbf3981d15a85294c02ff54d7da886185bd70942f109b723ab9e6701309"
+  },
+  {
+    "source": "docs/evidence/rwd/1366x600-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/1366x600-opening.png",
+    "sha256": "2218f018b62e5d28a4acf539932b4a71272f2489e34f36a8a9b9b9af341707aa"
+  },
+  {
+    "source": "docs/evidence/rwd/1366x600-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/1366x600-siege.png",
+    "sha256": "4cd0052ded7b9d340d51d0aa79c2f15fd0ad29dec1568d2bad017a66128546df"
+  },
+  {
+    "source": "docs/evidence/rwd/1376x1032-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/1376x1032-defense.png",
+    "sha256": "d24aa27a441edcd338c1f16717fbbf9eedb69de64936b2ee35869742f06a549f"
+  },
+  {
+    "source": "docs/evidence/rwd/1376x1032-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/1376x1032-opening.png",
+    "sha256": "e2daa81f971cf54099ea633bd44fe66d4e6ac6acf8730edfeb5470c91bc7fbac"
+  },
+  {
+    "source": "docs/evidence/rwd/1376x1032-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/1376x1032-siege.png",
+    "sha256": "80c7cfbe9428934bf8e841df1157ae92afc20446880613cfce05553251805184"
+  },
+  {
+    "source": "docs/evidence/rwd/320x568-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/320x568-defense.png",
+    "sha256": "9f1cc7bcee808db1010a4f126967b701af0658d6f8d1b5b7178b7c40d45c4092"
+  },
+  {
+    "source": "docs/evidence/rwd/320x568-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/320x568-opening.png",
+    "sha256": "09aedcbc728e206f19391485ff86f4e2d3f429369d4d29621e440036a15aa3e5"
+  },
+  {
+    "source": "docs/evidence/rwd/320x568-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/320x568-siege.png",
+    "sha256": "e22b473eeeeeea2146770e9fd1772fe52637ea6780146de80424a5b07ba59f9c"
+  },
+  {
+    "source": "docs/evidence/rwd/390x844-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/390x844-defense.png",
+    "sha256": "e13582c4992dfdff026a2ed5c31e28dce8ee3af04c23758acf7d542bda2101a8"
+  },
+  {
+    "source": "docs/evidence/rwd/390x844-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/390x844-opening.png",
+    "sha256": "f709de3ede4f76471f37359dcc325c1750a1532a13624e5616df56520fe95dae"
+  },
+  {
+    "source": "docs/evidence/rwd/390x844-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/390x844-siege.png",
+    "sha256": "1d0ed479ad76568cfea6d4796a60dd1b79f7d107a705ddcbfe4a8f11bcc61e2b"
+  },
+  {
+    "source": "docs/evidence/rwd/768x1024-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/768x1024-defense.png",
+    "sha256": "9ff72b495ac10e343459f3d1ce825a86ad38365c1d024ce977ff3b7ca445f7e9"
+  },
+  {
+    "source": "docs/evidence/rwd/768x1024-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/768x1024-opening.png",
+    "sha256": "47b6f7a368a1f0e2f2d424689c0c8d76fad6bb4a0f85c5e007c938db5aa2f386"
+  },
+  {
+    "source": "docs/evidence/rwd/768x1024-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/768x1024-siege.png",
+    "sha256": "3ecd3a47f36ba54854e51562bb6d48d26baeeed7523590fb8cf4de6594f5f1e1"
+  },
+  {
+    "source": "docs/evidence/rwd/844x390-defense.png",
+    "path": "docs/content/r10/verification/current-rwd/844x390-defense.png",
+    "sha256": "22104ecd7a07f1adcc152073c68b9cdce7e15c47fbb5e53dd3ba0801a1976d96"
+  },
+  {
+    "source": "docs/evidence/rwd/844x390-opening.png",
+    "path": "docs/content/r10/verification/current-rwd/844x390-opening.png",
+    "sha256": "99d90e09959c7093499e28bcb166e340f3dee7a57bff2c88b699f28f5854c986"
+  },
+  {
+    "source": "docs/evidence/rwd/844x390-siege.png",
+    "path": "docs/content/r10/verification/current-rwd/844x390-siege.png",
+    "sha256": "d617c990d9abfeac69b7219a1ce9058bf2d0bd50ae7bacfc295148245e86b47b"
+  }
+]

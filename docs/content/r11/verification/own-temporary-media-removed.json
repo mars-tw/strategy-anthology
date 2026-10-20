@@ -1,0 +1,26 @@
+[
+  {
+    "path": "docs/art/r2/motion/page@93f3071a7b0858daab8de0bdad8634a0.webm",
+    "sha256": "887b785eb550bbea23053044327861bd8dfe82ba886e39684e7e2476df6cd818",
+    "bytes": 1899333,
+    "origin": "Own intermediate art verification run; not a pre-existing untracked file."
+  },
+  {
+    "path": "docs/art/r7/motion/page@4916a77686788b9f6b699e8fcdfa483f.webm",
+    "sha256": "987ab086a1a8193e46ac4538879231512885a811b9b4b2579b74728ee1d9cf6f",
+    "bytes": 1381214,
+    "origin": "Own intermediate art verification run; not a pre-existing untracked file."
+  },
+  {
+    "path": "docs/art/r2/motion/page@3104bab602750000dde669a6c33bb066.webm",
+    "sha256": "8d49cd88dc4213f1e94f1529b95b4306089edce67a57eca639d7ee77bd2000a0",
+    "bytes": 1505758,
+    "origin": "Own intermediate art verification run; not a pre-existing untracked file."
+  },
+  {
+    "path": "docs/art/r7/motion/page@3ad4a57ea4cdba2c429ab05dc448907c.webm",
+    "sha256": "bee7f5b3cc5394a40eab6333831d1e29a6bfc79b92eb10b937cc70f63f627ecf",
+    "bytes": 1319198,
+    "origin": "Own intermediate art verification run; not a pre-existing untracked file."
+  }
+]
