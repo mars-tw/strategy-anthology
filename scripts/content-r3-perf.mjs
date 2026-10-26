@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const result={status:'EXECUTED',warning:'Concurrent system load; RAF intervals in headless Chromium emulation, reference only. Not physical iOS or idle-machine certification.',buildSHA256:createHash('sha256').update(await readFile('dist/game.js')).digest('hex'),runs:[],summary:[],physicalDeviceGate:'BLOCKED'};
 const click=(p,a)=>p.locator(`[data-action="${a}"]`).click();
 try{

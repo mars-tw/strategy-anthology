@@ -1,11 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
-const out='docs/content/r1',key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r1'),key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const report={status:'EXECUTED',method:'Headless Chrome. Normal public controls and attained-save restore via public import. No state, victory or resource injection. Paused virtual clock advances elapsed battle time only.',checks:[],errors:[],shots:[],geometry:[],buildSHA256:createHash('sha256').update(await readFile('dist/game.js')).digest('hex')};
 const check=(name,ok)=>{assert.ok(ok,name);report.checks.push(name);};
 const click=async(p,a)=>{const modal=p.locator('dialog[open]');await (await modal.count()?modal:p).locator(`[data-action="${a}"]`).first().click();if(a==='wave')await acknowledgeRoutePreview(p);};
@@ -13,7 +14,7 @@ const saved=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
 const view=p=>p.locator('canvas').evaluate(c=>JSON.parse(c.dataset.presentation));
 async function frame(p){await p.clock.runFor(20);}
 async function context(width=390,height=844,dpr=1){const c=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true});const p=await c.newPage();p.on('pageerror',e=>report.errors.push(e.message));p.on('request',r=>{if(!r.url().startsWith(url)&&!r.url().startsWith('data:')&&!r.url().startsWith('blob:'))report.errors.push('external '+r.url());});await p.clock.install({time:new Date('2026-10-18T06:00:00Z')});await p.goto(url);await p.locator('[data-action=begin]').waitFor();await p.clock.pauseAt(new Date('2026-10-18T06:00:10Z'));return {c,p};}
-async function shot(p,name){await frame(p);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?name:`${out}/${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio)});}
+async function shot(p,name){await frame(p);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?evidenceFile(name):`${out}/${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio)});}
 async function geometry(p,label){const data=await p.evaluate(()=>{const root=document.querySelector('dialog[open]')||document;return [...root.querySelectorAll('button')].filter(e=>e.getClientRects().length).map(e=>{const r=e.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return {label:e.textContent.trim(),width:r.width,height:r.height,inside:r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1,hit:hit===e||e.contains(hit)};});});report.geometry.push({label,data});for(const b of data)check(`${label}: ${b.label} 44px reachable`,b.width>=43.9&&b.height>=43.9&&b.inside&&b.hit);check(`${label}: mobile has no keyboard text`,!(await p.locator('.keyboard-help').isVisible()));}
 async function build(p){for(const t of ['cannon','frost','tesla']){await click(p,'tower-'+t);await click(p,'confirm');}await frame(p);}
 async function winDefense(p){let i=0;while(!await p.locator('[data-action=next]').count()&&i++<220){const w=p.locator('[data-action=wave]');if(await w.count()&&await w.isEnabled())await w.click();await p.clock.runFor(1000);}check('campaign defense completes through real towers',await p.locator('[data-action=next]').count()===1);}

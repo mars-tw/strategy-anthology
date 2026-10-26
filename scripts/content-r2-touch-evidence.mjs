@@ -5,7 +5,7 @@ import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
-const out='docs/content/r2',key='trine-frontier:campaign:v1',server=await serve(0),browser=await chromium.launch({headless:true,channel:'chrome'});
+const out='docs/content/r2',key='trine-frontier:campaign:v1',server=await serve(0),browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const result={status:'EXECUTED',buildSHA256:createHash('sha256').update(await readFile('dist/game.js')).digest('hex'),checks:[],videos:[],shots:[],method:'Uncut native-size browser screenshots, public touch controls only, virtual elapsed time; no injected game state. Silent 8fps evidence, not realtime performance.'};
 const check=(name,v)=>{assert.ok(v,name);result.checks.push(name);};
 try{

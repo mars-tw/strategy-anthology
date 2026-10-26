@@ -1,3 +1,4 @@
+import {validWindow20,validFullRun} from './content-r15.js';
 // Player-facing names and deterministic screen-space annotation placement.
 export const towerName=(b,id)=>{const t=b.towers.find(t=>t.id===id);if(!t)return '未識別塔';const n=b.towers.filter(a=>a.type===t.type).findIndex(a=>a.id===id)+1;return `${t.inherited?'留守':''}${{cannon:'火塔',frost:'冰塔',tesla:'雷塔'}[t.type]}${n}`;};
 export function enemyName(b,id){const a=b.enemies.find(a=>a.id===id),leak=b.firstLeak?.id===id?b.firstLeak:null,event=b.hitLog?.find(e=>e.targetId===id),raw=a?.ordinal||leak?.ordinal||event?.targetOrdinal||b.enemies.findIndex(a=>a.id===id)+1,n=Number.isSafeInteger(raw)&&raw>0?raw:0,type=a?.type||leak?.type||event?.targetType;return n?`第 ${n} 隻${type==='shieldBearer'?'盾兵':'甲犬'}`:'越線敵軍';}
@@ -17,10 +18,10 @@ export function placeAnnotation(anchor,width,height,blockers,textWidth=68,textHe
 export const armyDamage=s=>Object.values(s?.towers||{}).reduce((n,t)=>n+t.damage,0);
 export function decisionSummary(b){
  const r=b.firstWaveDecision;
- if(!r)return [b.sampleRecorded?'舊進度未保留首波明細；重演本場後可取得可比較的紀錄。':'首波尚未完成：先讓主力塔射程覆蓋道路，打完首波再比較。'];
- const lines=[`第 ${r.runNumber||'舊'} 場・本章首波・全塔火力：${r.totalDamage} 傷害，${r.totalHits} 次命中，攔下 ${r.kills} 隻，耐久 ${r.hp}/100。`];
+ if(!r)return [b.sampleRecorded?'舊進度未保留首波明細；完成本場對照試打後可取得可比較的紀錄。':'首波尚未完成：先讓主力塔射程覆蓋道路，打完首波再比較。'];
+ const lines=[`本分支首波・全塔火力 ${r.totalDamage} 傷害，${r.totalHits} 次命中，擋下 ${r.kills}，漏 ${Math.round((100-r.hp)/12)}；${r.duration?.toFixed(1)??'未知'} 秒。留守 ${r.inheritedDamage}／新建 ${r.totalDamage-r.inheritedDamage}；共鳴實扣 ${r.bonusDamage??'未記錄'}（已包含）。`];
  if(r.inheritedHits)lines.push(`同一首波・留守塔：${r.inheritedHits} 次命中、${r.inheritedDamage} 傷害；首次命中：${r.firstInheritedSegmentName}。`);
- else if(r.branch!=='crystals'&&b.towers.some(t=>t.inherited))lines.push('同一首波・留守塔：未命中，先確認射程與道路。');
+ else if(r.branch!=='crystals'&&b.towers.some(t=>t.inherited))lines.push('同一首波・留守塔：未命中：前線先攔下敵軍，尚未進入城門塔射程；請看四波留守貢獻。');
  lines.push(`首波收支：支出 ${r.spent} 結晶${r.branch==='crystals'?'，拆塔收入 +90 結晶（一次入帳）':''}。`);
  if(r.salvageUses?.length)lines.push('首波拆晶用途：'+r.salvageUses.map(p=>`${p.label} ${p.amount} 結晶`).join('、')+'。');
  if(r.terrain==='flood')lines.push(`同一首波・入水 ${r.wetCount} 隻，涉水新增延遲 ${r.waterDelay.toFixed(1)} 秒（全隊合計）。`);
@@ -29,7 +30,12 @@ export function decisionSummary(b){
 }
 
 export function validDecisionExtras(r){
+ if(!validFullRun(r.fullRun))return false;
+ if(r.window20!==undefined&&(!validWindow20(r.window20)||r.window20.damage>r.totalDamage||r.window20.hits>r.totalHits||r.window20.inheritedDamage>r.inheritedDamage))return false;
  if(r.scope===undefined)return true;
+ if(r.duration!==undefined&&(!Number.isFinite(r.duration)||r.duration<0||r.duration>1e8))return false;
+ if(r.seedBase!==undefined&&(!Number.isSafeInteger(r.seedBase)||r.seedBase<0))return false;
+ if(r.bonusDamage!==undefined&&(!Number.isSafeInteger(r.bonusDamage)||r.bonusDamage<0||r.bonusDamage>r.totalDamage))return false;
  if(r.runNumber!==undefined&&(!Number.isSafeInteger(r.runNumber)||r.runNumber<1))return false;
  if(r.contributions!==undefined&&(!Array.isArray(r.contributions)||r.contributions.length>250||r.contributions.some(t=>!t||!['cannon','frost','tesla'].includes(t.type)||!Number.isFinite(t.x)||t.x<0||t.x>960||!Number.isFinite(t.y)||t.y<0||t.y>640||typeof t.inherited!=='boolean'||!Number.isSafeInteger(t.hits)||t.hits<0||!Number.isSafeInteger(t.damage)||t.damage<0)||r.contributions.reduce((n,t)=>n+t.damage,0)!==r.totalDamage||r.contributions.reduce((n,t)=>n+t.hits,0)!==r.totalHits||r.contributions.filter(t=>t.inherited).reduce((n,t)=>n+t.damage,0)!==r.inheritedDamage||r.contributions.filter(t=>t.inherited).reduce((n,t)=>n+t.hits,0)!==r.inheritedHits))return false;
  const integer=v=>Number.isSafeInteger(v)&&v>=0&&v<=1e8;

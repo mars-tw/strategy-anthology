@@ -1,3 +1,4 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
 import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
@@ -8,8 +9,8 @@ const result={status:'EXECUTED',checks:[],errors:[],sizes:[],screenshots:[],meth
 result.styleSHA256=createHash('sha256').update(await readFile('dist/style.css')).digest('hex');
 const check=(name,ok)=>{assert.ok(ok,name);result.checks.push(name);};
 const hash=b=>createHash('sha256').update(b).digest('hex');
-const out='docs/art/r2';await mkdir(`${out}/motion`,{recursive:true});
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('art-audit-r2');await mkdir(`${out}/motion`,{recursive:true});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 try{
  const art=JSON.parse(await readFile('docs/art/ASSET_MANIFEST_R2.json','utf8'));
  for(const a of [...art.runtime,...art.actorGrades])check(`${a.path}: analyzed hash`,hash(await readFile(a.path))===a.sha256);
@@ -17,7 +18,7 @@ try{
  check('6 iron-blue enemy direction atlases retain exact alpha',art.derivedAtlases.length===6&&art.derivedAtlases.every(a=>a.alphaUnchanged));
  const commander=art.runtime.find(a=>a.path.endsWith('/commander.png')).metrics;
  check('new commander passes the same color double gate',commander.meanLuminance>=.30&&commander.meanLuminance<=.75&&commander.nearBlackRatio<.35&&commander.meanSaturation>=.32&&commander.lowSaturationRatio<.20);
- const alpha=JSON.parse(await readFile(`${out}/alpha-gate.json`,'utf8'));check('shared Wave 0 alpha gate passes all R2 cutouts',alpha.status==='VERIFIED'&&alpha.files.length===13&&alpha.files.every(a=>a.pass));
+ const alpha=JSON.parse(await readFile('docs/art/r2/alpha-gate.json','utf8'));check('shared Wave 0 alpha gate passes all R2 cutouts',alpha.status==='VERIFIED'&&alpha.files.length===13&&alpha.files.every(a=>a.pass));
  for(const [width,height]of [[320,568],[390,844],[844,390],[768,1024],[1024,768],[1366,600],[1280,640],[1366,768],[1920,1080],[1032,1376]]){
   const ctx=await browser.newContext({viewport:{width,height},hasTouch:width<1100});const p=await ctx.newPage();p.on('pageerror',e=>result.errors.push(e.message));p.on('response',r=>{if(r.status()>=400)result.errors.push(`${r.status()} ${r.url()}`);});
   await p.goto(url);await p.locator('[data-action="begin"]').click();for(const t of ['cannon','frost','tesla']){await p.locator(`[data-action="tower-${t}"]`).click();await p.locator('[data-action="confirm"]').click();}

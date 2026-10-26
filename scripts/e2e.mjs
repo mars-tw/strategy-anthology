@@ -1,11 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {serve} from './serve.mjs';
 const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`;
-const browser=await chromium.launch({headless:true,channel:'chrome'});
-const evidence='docs/evidence';await mkdir(`${evidence}/rwd`,{recursive:true});await mkdir('docs/store/screenshots',{recursive:true});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
+const evidence=evidenceDir('main-e2e');await mkdir(`${evidence}/rwd`,{recursive:true});await mkdir('docs/store/screenshots',{recursive:true});
 const result={status:'EXECUTED',method:'Headless Chromium; public UI commands; virtual browser clock for campaign duration, no game-state or reward injection.',checks:[],errors:[],externalRequests:[],screenshots:[],rwd:[]};
 function check(name,value){assert.ok(value,name);result.checks.push(name);}
 const ready=p=>p.locator('[data-action="begin"]').waitFor();
@@ -13,7 +14,7 @@ const touchContexts=new WeakSet();
 const newContext=async options=>{const context=await browser.newContext(options);if(options.hasTouch)touchContexts.add(context);return context;};
 const click=async(p,a)=>{const el=p.locator(`[data-action="${a}"]`);if(touchContexts.has(p.context()))await el.tap();else await el.click();if(a==='wave')await acknowledgeRoutePreview(p);};
 const saved=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('trine-frontier:campaign:v1')));
-async function shot(page,file){await page.screenshot({path:file});result.screenshots.push({path:file,viewport:page.viewportSize(),deviceScaleFactor:await page.evaluate(()=>devicePixelRatio)});}
+async function shot(page,file){file=evidenceFile(file);await page.screenshot({path:file});result.screenshots.push({path:file,viewport:page.viewportSize(),deviceScaleFactor:await page.evaluate(()=>devicePixelRatio)});}
 async function geometry(page,label){
  const r=await page.evaluate(()=>{const modal=document.querySelector('dialog[open]');return {overflow:document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight,buttons:[...(modal||document).querySelectorAll('button')].filter(e=>e.getClientRects().length).map(e=>{const r=e.getBoundingClientRect();const hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return {text:e.textContent.trim(),x:r.x,y:r.y,width:r.width,height:r.height,inside:r.x>=0&&r.y>=0&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1,hit:hit===e||e.contains(hit)};})};});
  result.rwd.push({label,...r});check(`${label}: no page overflow`,!r.overflow);for(const b of r.buttons)check(`${label}: ${b.text} >=44 and reachable`,b.width>=43.9&&b.height>=43.9&&b.inside&&b.hit);

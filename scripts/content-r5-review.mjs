@@ -10,7 +10,7 @@ const source=JSON.parse(await readFile(out+'/e2e.json','utf8'));
 assert.equal(source.status,'VERIFIED');
 await mkdir(dest,{recursive:true});
 const sha=b=>createHash('sha256').update(b).digest('hex');
-const browser=await chromium.launch({headless:true,channel:'chrome'});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const report={status:'EXECUTED',method:'Copy original gameplay PNGs. Five additional portrait two-column evidence sheets display every source at exactly 430x932 physical pixels (215x466 CSS pixels at DPR2), without pixel resampling, cropping, retouching or fabricated gameplay. Sheets are explicitly comparisons, not a single game screen.',sheets:[],selected:[]};
 const e=(label,name)=>({label,path:'phone-'+name+'.png'});
 try{

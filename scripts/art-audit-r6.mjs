@@ -1,10 +1,11 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {bodyHeight} from '../src/presentation-r6.js';
-const out='docs/art/r6';await mkdir(`${out}/screens`,{recursive:true});await mkdir(`${out}/motion`,{recursive:true});
+const out=evidenceDir('art-audit-r6');await mkdir(`${out}/screens`,{recursive:true});await mkdir(`${out}/motion`,{recursive:true});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const result={status:'EXECUTED',checks:[],errors:[],views:[],method:'Fresh save, public UI, virtual clock only for deterministic elapsed time. No state/resource/victory injection. Label/terrain suppression affects drawing only.',buildSHA256:sha(await readFile('dist/game.js')),styleSHA256:sha(await readFile('dist/style.css'))};
 const check=(name,ok)=>{assert.ok(ok,name);result.checks.push(name);};
@@ -20,11 +21,11 @@ for(const a of inherited.inheritedActorGrades)check(a.path+' unchanged inherited
 const hound=JSON.parse(await readFile('public/assets/r6/hound-frames.json','utf8'));check('three variant walk rows contain four distinct authored poses',hound.distinctPosesPerRow.length===3&&hound.distinctPosesPerRow.every(n=>n===4));
 check('all runtime cutouts have genuine alpha and zero transparent RGB',manifest.runtime.filter(a=>a.mode==='RGBA').every(a=>a.cornersTransparent&&a.transparentRGBZero));
 
-const river=JSON.parse(await readFile(`${out}/river-geometry.json`,'utf8'));check('actual unwarped painted river varies center and width >20 percent',river.centerSpan>100&&river.bankWidthMax/river.bankWidthMin>1.2);
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const river=JSON.parse(await readFile('docs/art/r6/river-geometry.json','utf8'));check('actual unwarped painted river varies center and width >20 percent',river.centerSpan>100&&river.bankWidthMax/river.bankWidthMin>1.2);
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const click=(p,a)=>p.locator(`[data-action="${a}"]`).click();
 const data=p=>p.locator('canvas').evaluate(c=>JSON.parse(c.dataset.presentation));
-async function shot(p,path){await p.evaluate(()=>Promise.all([...document.images].map(im=>im.decode())));await p.screenshot({path});return path;}
+async function shot(p,path){path=evidenceFile(path);await p.evaluate(()=>Promise.all([...document.images].map(im=>im.decode())));await p.screenshot({path});return path;}
 async function suppress(p,terrain=false){await p.locator('canvas').evaluate((c,t)=>{c.dataset.hideLabels='true';if(t)c.dataset.terrainOnly='true';},terrain);const style=await p.addStyleTag({content:'.brand,.wallet,.top-controls,.map-label,.resonance-legend,.unit-card>span:last-child,.tower-card>span,.field-status,.mission,.journey,.hint,.feedback,.command-head,.placement,.command-row,footer{visibility:hidden}'});await p.clock.runFor(20);return async()=>{await style.evaluate(s=>s.remove());await p.locator('canvas').evaluate(c=>{delete c.dataset.hideLabels;delete c.dataset.terrainOnly;});await p.clock.runFor(20);};}
 try{
  for(const [device,width,height,dpr]of [['iphone',430,932,3],['ipad',1032,1376,2]]){

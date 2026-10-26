@@ -1,3 +1,4 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {overlapArea} from '../src/content-r10.js';
 import {worldPoint} from '../src/presentation-r7.js';
 import {chromium} from 'playwright';
@@ -6,8 +7,8 @@ import {mkdir,writeFile,readFile,copyFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
-const out='docs/content/r10',key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r10'),key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={status:'EXECUTED',method:'Serial headless touch UI. Public import of naturally attained R6 quarry victory. No currency, actor, health or result injection. Fixed virtual time for gameplay only.',buildSHA256:sha(await readFile('dist/game.js')),checks:[],shots:[],errors:[],exercises:{},relays:{},impacts:{}};
 const check=(name,ok)=>{assert.ok(ok,name);report.checks.push(name);};
@@ -17,7 +18,7 @@ const saved=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
 const view=p=>p.locator('#world').evaluate(c=>JSON.parse(c.dataset.presentation));
 async function click(p,a){const modal=p.locator('dialog[open]');await (await modal.count()?modal:p).locator(`[data-action="${a}"]`).first().tap();if(a==='wave')await acknowledgeRoutePreview(p);}
 async function context(width=430,height=932,dpr=1){const c=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true}),p=await c.newPage();p.on('pageerror',e=>report.errors.push(e.message));p.on('request',r=>{if(![url,'data:','blob:'].some(prefix=>r.url().startsWith(prefix)))report.errors.push(r.url());});await p.clock.install({time:new Date('2026-10-19T06:00:00Z')});await p.goto(url);await p.locator('[data-action=begin]').waitFor();await p.clock.pauseAt(new Date('2026-10-19T06:00:05Z'));return {c,p};}
-async function shot(p,name,advance=false){console.log('SHOT '+name);const visible=await p.locator('body').innerText();check(name+' no internal IDs, typo or unfinished-formation verdict',!(/\b[tu]\d+\b|賽測|尚未成陣|城門折角|\?{3}/.test(visible)));if(advance)await p.clock.runFor(25);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?name:`${out}/phone-${name}.png`;await r10Proof(p,name);await p.screenshot({path});report.shots.push({path,canvas:await p.locator('#world').boundingBox(),viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio),sha256:sha(await readFile(path)),frame:await view(p).catch(()=>null)});}
+async function shot(p,name,advance=false){console.log('SHOT '+name);const visible=await p.locator('body').innerText();check(name+' no internal IDs, typo or unfinished-formation verdict',!(/\b[tu]\d+\b|賽測|尚未成陣|城門折角|\?{3}/.test(visible)));if(advance)await p.clock.runFor(25);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?evidenceFile(name):`${out}/phone-${name}.png`;await r10Proof(p,name);await p.screenshot({path});report.shots.push({path,canvas:await p.locator('#world').boundingBox(),viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio),sha256:sha(await readFile(path)),frame:await view(p).catch(()=>null)});}
 async function r10Proof(p,name){
  const v=await view(p).catch(()=>null);if(!v)return;
  if(p.viewportSize().width===430&&await p.locator('.hit-summary').count()){

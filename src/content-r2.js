@@ -1,3 +1,5 @@
+import {wetRoute} from './content-r17.js';
+import {paintWater} from './content-r15.js';
 import towerRules from '../vendor/tower-defense/src/rules.js';
 import {COLORS,TOWER_LABELS} from './campaign.js';
 import {BASE_ROUTE,battleRoute,terrainRoute,floodZone} from './content-r1.js';
@@ -31,18 +33,17 @@ export function drawRouteDecisions({ctx,art,b,preview,w,h,project,label,time,ins
   for(let i=1;i<points.length;i++)for(let j=i===1?0:1;j<=24;j++){const f=j/24,p=point({x:points[i-1].x+(points[i].x-points[i-1].x)*f,y:points[i-1].y+(points[i].y-points[i-1].y)*f});if(i===1&&j===0)ctx.moveTo(p.x,p.y);else ctx.lineTo(p.x,p.y);}ctx.stroke();ctx.restore();}
  const proof={preview:preview||null,coverage:[],arrows:[],wetZone:null,slowIds:[]};
  if(!choice)return proof;
- if(preview)line(BASE_ROUTE,'#61666d',3,[5,5]);
+ if(routeAid){line(BASE_ROUTE,'#f5f1e5',5,[7,5]);line(BASE_ROUTE,'#535962cc',2.5,[7,5]);}
  const zone=floodZone(b);
  if(choice==='flood'){
   const p=point(zone),rx=zone.radius*w/960,ry=zone.radius*h/640;
-  // Shoreline from the original painting, plus its actual flowing-water crop
-  // over the speed zone. All pixels are sampled art; no cyan fill substitute.
-  ctx.save();ctx.drawImage(art['r7-flood'],p.x-rx*1.15,p.y-ry*1.15,rx*2.3,ry*2.3);
-  ctx.beginPath();
-  for(let i=0;i<=96;i++){const a=i/96*Math.PI*2,q=point({x:zone.x+Math.cos(a)*zone.radius,y:zone.y+Math.sin(a)*zone.radius});i?ctx.lineTo(q.x,q.y):ctx.moveTo(q.x,q.y);}ctx.closePath();ctx.clip();
-  ctx.globalAlpha=.92;ctx.drawImage(art['r7-flood'],45,220,250,260,p.x-rx,p.y-ry,rx*2,ry*2);
-  ctx.globalAlpha=.75;ctx.strokeStyle='#d4f7ef';ctx.lineWidth=1.6;
-  for(let i=0;i<5;i++){const yy=p.y-ry*.65+i*ry*.32,shift=Math.sin(time*1.6+i)*5;ctx.beginPath();ctx.moveTo(p.x-rx*.65+shift,yy);ctx.quadraticCurveTo(p.x-rx*.1,yy+5,p.x+rx*.6+shift,yy-3);ctx.stroke();}
+  // Sample the same authored water painting along the actual road inside the
+  // speed zone. The banks remain visible beside feet, rather than a round pond.
+  ctx.save();const wetPath=[];
+  proof.wetIntervals=wetRoute(route,zone);
+  for(const piece of proof.wetIntervals){const a=piece.from,z=piece.to,steps=Math.max(1,Math.ceil(Math.hypot(z.x-a.x,z.y-a.y)/3));for(let j=0;j<=steps;j++){const f=j/steps;wetPath.push(point({x:a.x+(z.x-a.x)*f,y:a.y+(z.y-a.y)*f}));}}
+  proof.waterPainting=paintWater(ctx,art,wetPath,Math.max(29,65*w/960),time,true);
+  proof.waterBanks=wetPath;
   ctx.restore();proof.overlayArt='content-r7/flood.webp';
   proof.surfacePatch={x:p.x-rx,y:p.y-ry,w:rx*2,h:ry*2};
   // The authored shallow-water banks carry the terrain identity. The actual

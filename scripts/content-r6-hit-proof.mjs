@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 const out='docs/content/r6',sha=b=>createHash('sha256').update(b).digest('hex');
 const base=JSON.parse(await readFile(out+'/e2e.json','utf8'));assert.equal(base.status,'VERIFIED');
 const buildSHA256=sha(await readFile('dist/game.js'));assert.equal(base.buildSHA256,buildSHA256);
-const server=await serve(0),browser=await chromium.launch({headless:true,channel:'chrome'}),proof={status:'EXECUTED',buildSHA256,method:'Public touch UI; the genuinely inherited ford frost tower, actual first wave. No game-state injection. Refresh only the three ice screenshots on the same verified build.',checks:[],shots:[]};
+const server=await serve(0),browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']}),proof={status:'EXECUTED',buildSHA256,method:'Public touch UI; the genuinely inherited ford frost tower, actual first wave. No game-state injection. Refresh only the three ice screenshots on the same verified build.',checks:[],shots:[]};
 const check=(n,ok)=>{assert.ok(ok,n);proof.checks.push(n);};
 try{
  const c=await browser.newContext({viewport:{width:430,height:932},hasTouch:true}),p=await c.newPage();

@@ -1,2 +1,2 @@
 // Release identity is shown in the shared footer; no development game hooks.
-export const RELEASE='trine-frontier-0.19.0';
+export const RELEASE='trine-frontier-0.25.4';

@@ -1,11 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile,readFile,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
-const out='docs/content/r4',key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r4'),key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const report={status:'EXECUTED',method:'Serial headless Chromium, public touch controls and public import of a naturally attained save. Virtual clock advances elapsed time only. No injected currency, actors, or results.',buildSHA256:createHash('sha256').update(await readFile('dist/game.js')).digest('hex'),styleSHA256:createHash('sha256').update(await readFile('dist/style.css')).digest('hex'),checks:[],shots:[],errors:[],geometry:[],routes:{},salvage:[],exercises:{}};
 const check=(name,ok)=>{assert.ok(ok,name);report.checks.push(name);};
 report.sourceSHA256=Object.fromEntries(await Promise.all((await readdir('src')).map(async name=>['src/'+name,createHash('sha256').update(await readFile('src/'+name)).digest('hex')])));
@@ -14,7 +15,7 @@ const view=(p,s='#world')=>p.locator(s).evaluate(c=>JSON.parse(c.dataset.present
 const frame=p=>p.clock.runFor(25);
 async function click(p,a){const modal=p.locator('dialog[open]');await (await modal.count()?modal:p).locator(`[data-action="${a}"]`).first().tap();if(a==='wave')await acknowledgeRoutePreview(p);}
 async function context(width=430,height=932,dpr=1){const c=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true}),p=await c.newPage();p.on('pageerror',e=>report.errors.push(e.message));p.on('request',r=>{if(![url,'data:','blob:'].some(prefix=>r.url().startsWith(prefix)))report.errors.push('external '+r.url());});await p.clock.install({time:new Date('2026-10-19T06:00:00Z')});await p.goto(url);await p.locator('[data-action=begin]').waitFor();await p.clock.pauseAt(new Date('2026-10-19T06:00:05Z'));return {c,p};}
-async function shot(p,name,advance=true){for(const [id,title]of [['turn','聚印轉角'],['levee','分守長堤'],['switchback','折返雙隘']])name=name.replace('exercise-'+id+'-','exercise-'+title+'-');if(advance)await frame(p);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?name:`${out}/${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio)});}
+async function shot(p,name,advance=true){for(const [id,title]of [['turn','聚印轉角'],['levee','分守長堤'],['switchback','折返雙隘']])name=name.replace('exercise-'+id+'-','exercise-'+title+'-');if(advance)await frame(p);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?evidenceFile(name):`${out}/${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio)});}
 async function until(p,predicate,max=180,ms=1000){for(let n=0;n<max;n++){if(await predicate())return;await p.clock.runFor(ms);}throw Error('Expected public gameplay state not reached');}
 async function build(p,types=['cannon','frost','tesla']){for(const t of types){await click(p,'tower-'+t);await click(p,'confirm');}await frame(p);}
 async function buildAt(p,indices){for(const [i,t]of ['cannon','frost','tesla'].entries()){await click(p,'tower-'+t);const count=(await view(p)).contentR1.pads.length;for(let n=0;n<(indices[i]-i+count)%count;n++)await click(p,'suggest');await click(p,'confirm');}await frame(p);}

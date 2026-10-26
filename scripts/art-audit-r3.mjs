@@ -1,14 +1,15 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {readFile,writeFile,mkdir,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const out='docs/art/r3';await mkdir(`${out}/chapters`,{recursive:true});await mkdir(`${out}/motion`,{recursive:true});
+const out=evidenceDir('art-audit-r3');await mkdir(`${out}/chapters`,{recursive:true});await mkdir(`${out}/motion`,{recursive:true});
 const result={status:'EXECUTED',method:'Six chapters played from fresh save with public UI and virtual clock, no currency or victory injection. Motion is separate real-clock public UI. Label suppression changes presentation only.',checks:[],chapters:[],errors:[],contrast:[]};
 const check=(name,ok)=>{assert.ok(ok,name);result.checks.push(name);};
 const sha=b=>createHash('sha256').update(b).digest('hex');
 result.buildSHA256=sha(await readFile('dist/game.js'));result.styleSHA256=sha(await readFile('dist/style.css'));
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const click=(p,a)=>p.locator(`[data-action="${a}"]`).click();
 const save=p=>p.evaluate(()=>JSON.parse(localStorage.getItem('trine-frontier:campaign:v1')));
 // The campaign may win between checking a command and Playwright clicking it.

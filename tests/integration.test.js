@@ -1,3 +1,4 @@
+import {evidenceDir} from '../scripts/current-evidence.mjs';
 import {describe,it,expect} from 'vitest';
 import {writeFileSync} from 'node:fs';
 import {freshCampaign,completeChapter,CHAPTERS} from '../src/campaign.js';
@@ -27,7 +28,7 @@ describe('single-world campaign',()=>{
     let i=0;while(!b.result&&i++<240*30){if(i%90===0){recruit(c,b,c.unlocks.includes('mage')?'mage':'warrior');march(b,818,180);}step(c,b,1/30);}
    }
    results.push({chapter:ch,result:b.result,hp:b.hp,time:b.time,crystals:c.crystals});expect(b.result,JSON.stringify(results)).toBe('won');expect(completeChapter(c,b)).toBe(true);c.battle=b;expect(validateSave(c)).toBe(true);
-  }expect(c.chapter).toBe(6);expect(c.completed).toHaveLength(6);writeFileSync('docs/evidence/six-chapters.json',JSON.stringify({status:'VERIFIED',method:'normal public engine commands, fixed 1/30-second simulation steps, no victory or currency injection',results},null,2));
+  }expect(c.chapter).toBe(6);expect(c.completed).toHaveLength(6);writeFileSync(evidenceDir('unit')+'/six-chapters.json',JSON.stringify({status:'VERIFIED',method:'normal public engine commands, fixed 1/30-second simulation steps, no victory or currency injection',results},null,2));
  });
 });
 describe('ported combat and meaningful command boundaries',()=>{

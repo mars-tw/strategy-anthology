@@ -1,0 +1,8 @@
+.sluice-intro{display:grid;grid-template-columns:82px 1fr;align-items:center;gap:8px;margin:6px 0}
+.sluice-intro img{width:82px;height:82px;object-fit:contain}
+.sluice-control{display:flex;align-items:center;gap:8px;min-height:44px;padding:4px 0;border-top:1px solid #9c8663}
+.sluice-control button{min-width:112px;min-height:44px;flex:none}
+.sluice-control small{font-size:12px;line-height:1.4;color:#245c66}
+.result:has(.sluice-result)>.decision-review{display:none}
+.sluice-result{border-left:3px solid #245c66;padding-left:8px}
+@media(max-height:450px) and (orientation:landscape){.sluice-control{padding:0}.sluice-control button{min-width:100px}.sluice-control small{font-size:12px}.result:has(.sluice-result)>.eyebrow{display:none}.result:has(.sluice-result)>p{font-size:12px;line-height:1.3}}

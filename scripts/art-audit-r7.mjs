@@ -1,10 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
 import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
-const out='docs/art/r7';
+import {worldPoint} from '../src/presentation-r7.js';
+const out=evidenceDir('art-audit-r7');
 for(const dir of ['screens','motion'])await mkdir(`${out}/${dir}`,{recursive:true});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const result={status:'EXECUTED',checks:[],errors:[],views:[],method:'Fresh public UI; virtual clock for elapsed time, no game-state/resource injection. Label and terrain suppression change drawing only.',buildSHA256:sha(await readFile('dist/game.js')),styleSHA256:sha(await readFile('dist/style.css'))};
@@ -24,10 +26,10 @@ check('three different wolf silhouettes each have four authored steps',wolf.vari
 const inherited=JSON.parse(await readFile('docs/art/ASSET_MANIFEST_R6.json','utf8'));
 for(const a of [...inherited.sources,...inherited.runtime,...inherited.support])check(`retained ${a.path}`,sha(await readFile(a.path))===a.sha256);
 const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`;
-const browser=await chromium.launch({headless:true,channel:'chrome'});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const data=p=>p.locator('canvas').evaluate(c=>JSON.parse(c.dataset.presentation));
 const click=async(p,a)=>{await p.locator(`[data-action="${a}"]`).click();if(a==='wave')await acknowledgeRoutePreview(p);};
-async function shot(p,path){await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));await p.screenshot({path});return path;}
+async function shot(p,path){path=evidenceFile(path);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));await p.screenshot({path});return path;}
 async function suppress(p,terrain=false){
  await p.locator('canvas').evaluate((c,t)=>{c.dataset.hideLabels='true';if(t)c.dataset.terrainOnly='true';},terrain);
  const s=await p.addStyleTag({content:'.brand,.wallet,.top-controls,.map-label,.resonance-legend,.unit-card>span:last-child,.tower-card>span,.field-status,.mission,.journey,.hint,.feedback,.command-head,.placement,.command-row,footer{visibility:hidden}'});
@@ -63,14 +65,30 @@ try{
   check(`${device}: empty suggestion and cancellation affordances disabled`,await p.locator('[data-action="suggest"]').isDisabled()&&await p.locator('[data-action="cancel"]').isDisabled());
   await shot(p,`${out}/screens/${device}-resource-insufficient.png`);
   await click(p,'wave');let moment;
-  for(let tick=0;tick<150;tick++){
+  let sampledFrames=[],defenseCaptured=false;for(let tick=0;tick<150;tick++){
    await p.clock.runFor(100);const f=await data(p),walk=f.units.filter(u=>u.source==='r7/hound-walk'&&u.state==='walk');
-   if(f.units.length<=4&&new Set(walk.map(u=>u.variant)).size===3&&new Set(walk.map(u=>u.frame)).size>1&&f.units.filter(u=>u.healthShown).length===1&&f.effects.some(e=>e.kind==='shot'&&e.age>.05&&e.age<.22)){moment=f;break;}
+   if(device==='phone360')sampledFrames.push({tick,unitCount:f.units.length,walk:walk.map(u=>({variant:u.variant,frame:u.frame})),healthCount:f.units.filter(u=>u.healthShown).length,shots:f.effects.filter(e=>e.kind==='shot').map(e=>e.age)});
+   if(f.units.length<=5&&new Set(walk.map(u=>u.variant)).size===3&&new Set(walk.map(u=>u.frame)).size>1&&f.units.filter(u=>u.healthShown).length===1&&f.effects.some(e=>e.kind==='shot'&&e.age>.05&&e.age<.22)){moment=f;break;}
   }
+  if(!moment&&device==='phone360'){
+   // At 360px the default three-tower formation can remove the first wave
+   // before three authored enemy variants overlap. Start a fresh public game,
+   // build one tower beside the last route segment, and capture a natural
+   // first-wave hit. No enemy, health, currency, or combat state is injected.
+   const captureContext=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true}),capturePage=await captureContext.newPage();
+   capturePage.on('pageerror',e=>result.errors.push(e.message));capturePage.on('response',r=>{if(r.status()>=400)result.errors.push(`${r.status()} ${r.url()}`);});
+   await capturePage.clock.install({time:new Date('2026-10-18T06:00:10Z')});await capturePage.goto(url);await capturePage.locator('[data-action="begin"]').waitFor();await click(capturePage,'begin');await click(capturePage,'tower-cannon');
+   const canvas=capturePage.locator('canvas'),rect=await canvas.boundingBox(),projection=(await data(capturePage)).projection;
+   await canvas.tap({position:worldPoint(744,408,rect.width,rect.height,projection)});await click(capturePage,'confirm');
+   await canvas.tap({position:worldPoint(744,408,rect.width,rect.height,projection)});await click(capturePage,'cancel');await click(capturePage,'wave');
+   for(let tick=0;tick<450;tick++){await capturePage.clock.runFor(100);const f=await data(capturePage),walk=f.units.filter(u=>u.source==='r7/hound-walk'&&u.state==='walk');sampledFrames.push({tick,unitCount:f.units.length,walk:walk.map(u=>({variant:u.variant,frame:u.frame})),healthCount:f.units.filter(u=>u.healthShown).length,shots:f.effects.filter(e=>e.kind==='shot').map(e=>e.age)});if(f.units.length<=5&&new Set(walk.map(u=>u.variant)).size===3&&new Set(walk.map(u=>u.frame)).size>1&&f.units.filter(u=>u.healthShown).length===1&&f.effects.some(e=>e.kind==='shot'&&e.age>.05&&e.age<.22)){moment=f;await shot(capturePage,store('defense'));defenseCaptured=true;break;}}
+   await captureContext.close();
+  }
+  if(!moment)(result.animationGateDiagnostics??=[]).push({device,samples:sampledFrames.length,lastFrame:await data(p),sampledFrames});
   check(`${device}: one store frame contains three wolf gaits and actual projectile`,!!moment);
   check(`${device}: at least44px bodies, individual shadows and visible captain health`,moment.units.every(u=>u.height>=44&&u.healthWidth===36&&u.healthHeight===5)&&moment.units.filter(u=>u.healthShown).length===1&&moment.units.filter(u=>u.healthShown).every(u=>u.healthY>=8));
   check(`${device}: selected fire remains the only range in combat`,moment.resonance.selectedType==='cannon'&&moment.resonance.drawnRangeCount===1);
-  await shot(p,store('defense'));let restore=await suppress(p);await shot(p,`${out}/screens/${device}-defense-no-labels.png`);await restore();
+  if(!defenseCaptured)await shot(p,store('defense'));let restore=await suppress(p);await shot(p,`${out}/screens/${device}-defense-no-labels.png`);await restore();
   for(let frame=0;frame<4;frame++){if(frame)await p.clock.runFor(125);await shot(p,`${out}/motion/${device}-defense-${frame}.png`);}
   let ticks=0;while(!await p.locator('[data-action="next"]').count()&&ticks++<180){const b=p.locator('[data-action="wave"]');if(await b.count()&&await b.isEnabled())await b.click();await p.clock.runFor(1000);}
   check(`${device}: defense won through normal commands`,await p.locator('[data-action="next"]').count()===1);

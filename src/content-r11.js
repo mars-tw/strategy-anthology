@@ -5,7 +5,7 @@ export function orderedPadLabels(pads,anchors,w,h){
  const result=[];
  for(const indices of [pads.map((_,i)=>i).filter(i=>i<3),pads.map((_,i)=>i).filter(i=>i>=3)]){
   indices.sort((a,b)=>anchors[a].x-anchors[b].x||anchors[a].y-anchors[b].y);
-  indices.forEach((i,rank)=>result.push({number:i+1,x:w*(rank+.5)/indices.length,y:i<3?23:h-17,width:64,height:23,pad:pads[i]}));
+  indices.forEach((i,rank)=>result.push({number:i+1,x:h>330?anchors[i].x:w*(rank+.5)/indices.length,y:h>330?anchors[i].y+25:i<3?23:h-17,width:64,height:23,pad:pads[i],underTower:h>330}));
  }
  return result.sort((a,b)=>a.number-b.number);
 }
@@ -24,14 +24,14 @@ export function projectedRoute(route,project){
  }
  return points;
 }
-export function queueOnRoad(point,width,height,w,h,path,towers,others,top=44){
+export function queueOnRoad(point,width,height,w,h,path,towers,others,top=44,waterSpacing=false,dense=false){
  let nearest=0,best=Infinity;
  for(let i=0;i<path.length;i++){const d=Math.hypot(path[i].x-point.x,path[i].y-point.y);if(d<best){best=d;nearest=i;}}
  for(let i=nearest;i>=0;i--){
-  const p=path[i],box={x:p.x-width/2,y:p.y-height,w:width,h:height};
+  const p=path[i],a=path[Math.max(0,i-1)],z=path[Math.min(path.length-1,i+1)],headroom=waterSpacing&&Math.abs(z.y-a.y)>Math.abs(z.x-a.x)?12:0,box={x:p.x-width/2,y:p.y-height-headroom,w:width,h:height+headroom};
   if(box.x<3||box.x+width>w-3||box.y<top||p.y>h-42)continue;
   if(towers.some(t=>overlapArea(box,t)>t.w*t.h*.18))continue;
-  if(others.some(o=>overlapArea(box,o)>Math.min(width*height,o.w*o.h)*.44||(Math.abs(p.y-o.y-o.h)<=Math.min(height,o.h)*.25&&Math.max(0,Math.min(box.x+width,o.x+o.w)-Math.max(box.x,o.x))>Math.min(width,o.w)*.5)))continue;
+  if(others.some(o=>overlapArea(box,o)>(headroom?0:Math.min(width*height,o.w*o.h)*(dense?.28:.44))||(Math.abs(p.y-o.y-o.h)<=Math.min(height,o.h)*.25&&Math.max(0,Math.min(box.x+width,o.x+o.w)-Math.max(box.x,o.x))>Math.min(width,o.w)*(dense?.33:.5))))continue;
   return {...p,queued:Math.hypot(p.x-point.x,p.y-point.y)>.1};
  }
  return null; // Waiting at the route entrance, outside the visible battlefield.

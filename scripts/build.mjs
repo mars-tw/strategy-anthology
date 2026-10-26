@@ -10,6 +10,12 @@ await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+
 await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r9.css','utf8')));
 await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r10.css','utf8')));
 await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r11.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r12.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r13.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r14.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r15.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r17.css','utf8'))+'\n'+(await readFile('src/content-r18.css','utf8')));
+await writeFile('dist/style.css',(await readFile('dist/style.css','utf8'))+'\n'+(await readFile('src/content-r19.css','utf8')));
 await cp('LICENSE','dist/LICENSE.txt');
 await cp('CREDITS.md','dist/CREDITS.md');
 await writeFile('dist/THIRD_PARTY_LICENSES.txt',(await readFile('vendor/tower-defense/LICENSE','utf8'))+'\n\n'+(await readFile('vendor/village-siege/LICENSE','utf8')));

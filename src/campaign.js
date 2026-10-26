@@ -1,4 +1,4 @@
-export const VERSION = '0.19.0';
+export const VERSION = '0.25.6';
 export const CHAPTERS = Object.freeze([
  {id:'pine-watch',name:'松林初火',place:'松林村',terrain:'pine',mode:'defense',waves:2,story:'灰旗軍切斷了渡口。村長把三枚塔印交給你：先守住松林，才有機會把人帶回家。',goal:'用火、冰、雷守住兩波。三塔相鄰，傷害各加 30%。'},
  {id:'ford-assault',name:'奪回渡口',place:'河谷渡口',terrain:'ford',mode:'siege',keepHP:420,story:'塔陣凝成的結晶已送到軍營。調度工匠補給，率軍攻下渡口；明天，這裡就是新的防線。',goal:'建立兵營、訓練部隊，調度補給與軍隊攻下灰旗據點。'},

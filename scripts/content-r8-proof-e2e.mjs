@@ -1,10 +1,11 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
 import {worldPoint} from '../src/presentation-r7.js';
-const out='docs/content/r8',key='trine-frontier:campaign:v1',server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r8-proof'),key='trine-frontier:campaign:v1',server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={status:'EXECUTED',method:'Additional screenshot proof through public UI. Natural quarry-victory import, isolated replay, all four waves and original-wallet return. No game-state, health, money or outcome injection.',buildSHA256:sha(await readFile('dist/game.js')),checks:[],shots:[],errors:[]};
 const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};

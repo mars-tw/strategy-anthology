@@ -1,0 +1,58 @@
+.metric-scope{display:inline-flex;align-items:center;width:max-content;margin-right:5px;padding:1px 5px;border:1px solid #7ba6a2;border-radius:999px;color:#245c66;background:#edf5ef;font-size:11px;font-weight:800;line-height:1.35;white-space:nowrap}
+.gate-ledger-details{flex-basis:100%;min-width:0;border-top:1px solid #a5c5c2}
+.gate-ledger-details>summary{min-height:44px;display:flex;align-items:center;gap:4px;cursor:pointer;color:#245c66;font-size:12px;font-weight:700}
+.gate-ledger-details>summary b{margin-left:auto;font-variant-numeric:tabular-nums}
+.gate-ledger-details>.gate-ledger{border-top:0;max-height:min(34dvh,210px);overflow:auto;padding:3px 2px 2px}
+.gate-ledger .gate-delay-row{line-height:19px}
+.hit-details>summary .metric-scope{flex:none}
+.combat-readout .hit-details[open]{position:static;grid-column:1/-1;inset:auto;width:100%;max-height:min(38dvh,260px);overflow:hidden}
+.combat-readout .hit-details[open]>.impact-lines{max-height:min(28dvh,210px);overflow:auto;overscroll-behavior:contain}
+.full-run-summary>.metric-scope{vertical-align:middle}
+@media(max-width:370px) and (orientation:portrait),(max-height:450px) and (orientation:landscape){
+ .gate-ledger-details>summary{min-height:44px}
+ .gate-ledger-details>.gate-ledger{max-height:min(28dvh,132px)}
+ .hit-details[open]{max-height:min(62dvh,300px);overflow:auto}
+}
+@media(max-width:370px) and (max-height:650px) and (orientation:portrait){
+ .small-command .field-key{flex-wrap:wrap}
+ .small-command .command .placement:not(:has(button:not(:disabled))){display:none}
+ .small-command .field-key>.combat-readout{flex-basis:100%;width:100%;min-width:0;height:auto;grid-template-columns:62px minmax(0,1fr) minmax(92px,auto);align-items:start}
+ .small-command .field-key>.combat-readout>.hit-summary{display:block;min-width:0;overflow-wrap:anywhere}
+ .small-command .field-key .hit-details>summary{min-width:92px;white-space:normal;overflow-wrap:anywhere;justify-content:flex-start}
+ .small-command .field-key .hit-details[open]{position:static;grid-column:1/-1;inset:auto;width:100%;max-height:min(32dvh,170px);overflow:auto}
+ .small-command .gate-ledger-details[open]{max-height:88px;overflow:hidden}
+ .small-command .gate-ledger-details[open]>.gate-ledger{max-height:44px;overflow:auto;overscroll-behavior:contain}
+ .small-command .gate-ledger .gate-delay-row{line-height:18px}
+ .small-command .gate-ledger .gate-delay-row i{position:static;width:auto;height:auto;overflow:visible;clip-path:none}
+ .small-command .sluice-control:has(.gate-ledger) .delay-leaders{display:block}
+ .small-command.exercise-locked .command:has(.gate-ledger-details[open])>.hint{display:none}
+ .small-command header{height:46px}
+ .small-command .exercise-journey{min-height:16px}
+ .small-command .mission{min-height:28px;padding:0}
+ .small-command .mission>div{display:flex;align-items:center;gap:6px}
+ .small-command .mission .eyebrow{margin:0}
+ .small-command .field-column{gap:2px}
+ .small-command .play-layout{gap:2px}
+ .small-command footer{height:16px}
+}
+@media(max-height:450px) and (orientation:landscape){
+ .short-command .sluice-control:has(.gate-ledger-details){display:grid;grid-template-columns:112px minmax(0,1fr);grid-template-areas:"gate ledger" "status ledger";gap:4px 8px;align-items:start;flex:none}
+ .short-command .sluice-control:has(.gate-ledger-details)>button{grid-area:gate;width:112px;height:44px;min-height:44px}
+ .short-command .sluice-control:has(.gate-ledger-details)>#gateStatus{grid-area:status;min-width:0;width:112px;height:44px;overflow:auto;overscroll-behavior:contain;touch-action:pan-y}
+ .short-command .gate-ledger-details{grid-area:ledger;min-width:0}
+ .short-command .gate-ledger-details>summary{flex-wrap:wrap;align-content:center;column-gap:3px;row-gap:0;line-height:1.2}
+ .short-command .gate-ledger-details[open]{max-height:90px;overflow:hidden}
+ .short-command .gate-ledger-details[open]>.gate-ledger{max-height:44px;grid-template-columns:repeat(2,minmax(0,1fr));overflow:auto;overscroll-behavior:contain;touch-action:pan-y}
+ .short-command .command>#hint{flex:none;min-height:20px;max-height:none;overflow:visible}
+}
+
+/* R19: keep complete per-enemy labels inside the narrow command column. */
+@media(max-height:450px) and (orientation:landscape){
+ .short-command .gate-ledger-details[open]>.gate-ledger{grid-template-columns:repeat(auto-fit,minmax(min(100%,88px),1fr))}
+}
+
+/* Keep the scope label and details action inside one complete touch target. */
+@media(min-width:371px) and (max-width:700px) and (orientation:portrait){
+ .combat-readout .hit-details:not([open])>summary{width:76px;min-width:76px;flex-direction:column;justify-content:center;gap:1px}
+ .combat-readout .hit-details:not([open])>summary .metric-scope{margin-right:0}
+}

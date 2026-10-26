@@ -1,12 +1,13 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`;
-const browser=await chromium.launch({headless:true,channel:'chrome'});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const result={status:'EXECUTED',checks:[],errors:[],missing:[],screenshots:[],sizes:[]};
-const out='docs/art/compare/after';await mkdir(out,{recursive:true});
+const out=evidenceDir('art-audit');await mkdir(out,{recursive:true});
 function check(name,value){assert.ok(value,name);result.checks.push(name);}
 try{
  const sizes=[[320,568],[390,844],[844,390],[768,1024],[1024,768],[1366,600],[1280,640],[1366,768],[1920,1080],[1032,1376]];
@@ -33,4 +34,4 @@ try{
  check('cutout corners are transparent; invisible RGB zero',art.runtime.filter(a=>a.mode==='RGBA').every(a=>a.cornersTransparent&&a.transparentRGBZero));
  check('no page exceptions',result.errors.length===0);check('no missing requests',result.missing.length===0);result.status='VERIFIED';
 }catch(e){result.status='BLOCKED';result.failure=e.stack;process.exitCode=1;console.error(e.stack);}
-finally{await writeFile('docs/art/visual-audit.json',JSON.stringify(result,null,2));await browser.close();await new Promise(r=>server.close(r));console.log(`${result.status}: ${result.checks.length} visual checks; ${result.screenshots.length} screenshots.`);}
+finally{await writeFile(`${out}/visual-audit.json`,JSON.stringify(result,null,2));await browser.close();await new Promise(r=>server.close(r));console.log(`${result.status}: ${result.checks.length} visual checks; ${result.screenshots.length} screenshots.`);}

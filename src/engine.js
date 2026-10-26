@@ -1,3 +1,5 @@
+import {recordFullRun} from './content-r15.js';
+import {freshGate,gateWet,GATE} from './content-r12.js';
 import {recordDecision} from './content-r7.js';
 import {statsFor,recordHit} from './content-r6.js';
 import towerRules from '../vendor/tower-defense/src/rules.js';
@@ -28,7 +30,7 @@ export function startDecisionReplay(c,source,branch='none',terrain='none'){
  if(terrain!=='none'&&!changeTerrain(c,b,terrain))return null;
  c.decisionReplay=b;return b;
 }
-export function createExercise(id){const e=EXERCISES.find(e=>e.id===id);if(!e)throw Error('沒有這個演習。');return {...createBattle(0),exercise:id,budget:e.budget};}
+export function createExercise(id){const e=exerciseFor({exercise:id});if(!e)throw Error('沒有這個演習。');return {...createBattle(0),exercise:id,budget:e.budget,...(id==='sluice'?{gate:freshGate()}:{})};}
 export function changeTerrain(c,b,choice){
  if(b.exercise||CHAPTERS[b.chapter].mode!=='defense'||b.result||b.wave!==0||b.phase!=='planning'||b.terrainChoice||!['barricade','flood'].includes(choice))return false;
  const candidate={...b,terrainChoice:choice,towers:[]};
@@ -94,8 +96,10 @@ export function step(c,b,dt){
   for(const e of b.enemies.filter(e=>e.hp>0)){
    const wet=b.terrainChoice==='flood'&&Math.hypot(e.x-zone.x,e.y-zone.y)<=zone.radius;
    const stats=statsFor(b);if(wet){e.waterDelay=(e.waterDelay||0)+dt*(1-zone.multiplier);(stats.wetIds??=[]).includes(e.id)||(stats.wetIds.push(e.id));stats.wetSeconds+=dt;stats.waterDelay+=dt*(1-zone.multiplier);}if(b.terrainChoice==='barricade'&&e.y<190){stats.detourSeconds+=dt;(stats.detourIds??=[]).includes(e.id)||(stats.detourIds.push(e.id));}
-   if(move(e,route[e.route+1],((e.slow>0?26:50)+b.chapter*2)*(wet?zone.multiplier:1),dt)){e.route++;if(e.route>=route.length-1){b.firstLeak??={id:e.id,hp:e.hp,segment:e.route,ordinal:e.ordinal,type:e.type};e.hp=0;e.state='death';e.anim=0;b.hp=Math.max(0,b.hp-12);e.escaped=true;if(exercise)b.result='lost';}}
+   if(b.gate&&b.gate.delays===undefined){b.gate.legacyDelay=b.gate.delay;b.gate.delays={};}const flow=gateWet(b,e);if(flow){if(!b.gate.wetIds.includes(e.id))b.gate.wetIds.push(e.id);const d=(b.gate.delays??={})[e.id]??={ordinal:e.ordinal,seconds:0,enteredAt:b.time};d.seconds+=dt*(1-GATE.multiplier);b.gate.delay+=dt*(1-GATE.multiplier);}
+   if(move(e,route[e.route+1],((e.slow>0?26:50)+b.chapter*2)*(flow?GATE.multiplier:wet?zone.multiplier:1),dt)){e.route++;if(e.route>=route.length-1){(b.leakLog??=[]).push({id:e.id,wave:b.wave,hp:e.hp});b.firstLeak??={id:e.id,hp:e.hp,segment:e.route,ordinal:e.ordinal,type:e.type};e.hp=0;e.state='death';e.anim=0;b.hp=Math.max(0,b.hp-12);e.escaped=true;if(exercise)b.result='lost';}}
   }
+  if(b.gate)b.gate.left=Math.max(0,b.gate.left-dt);
   for(const t of b.towers){t.clock-=dt;const d=towerConfig.TOWERS[t.type];if(t.clock<=0){const target=b.enemies.find(e=>e.hp>0&&Math.hypot(e.x-t.x,e.y-t.y)<(d.range||140)+40);if(target){const damage=Math.round((d.damage||18)*(1+resonance(t,b.towers).bonus)*(1+(t.level-1)*0.5));shot(b,t.x,t.y,target,damage,t.type,t.type==='frost'?1.6:0);Object.assign(b.effects.at(-1),{towerId:t.id,bonus:resonance(t,b.towers).bonus,baseDamage:Math.round((d.damage||18)*(1+(t.level-1)*0.5)),bonusDamage:damage-Math.round((d.damage||18)*(1+(t.level-1)*0.5))});t.clock=t.type==='tesla'?0.7:t.type==='frost'?0.8:1.0;}}}
   if(b.hp<=0)b.result='lost';
   if(!b.result&&!b.spawnLeft&&b.enemies.every(e=>e.hp<=0)){if(b.wave>=chapter.waves)b.result='won';else b.phase='planning';}
@@ -126,7 +130,9 @@ export function step(c,b,dt){
  b.effects=b.effects.filter(fx=>fx.age<0.55);
  for(const e of b.enemies)if(e.hp<=0&&!e.rewarded){e.rewarded=true;if(!e.escaped){if(!b.exercise&&!b.replay){c.crystals+=4;b.earnings+=4;}b.kills++;}}
  b.enemies=b.enemies.filter(e=>e.hp>0||e.anim<0.8);b.units=b.units.filter(u=>u.hp>0||u.anim<0.8);
+ if(b.wave===1&&!b.window20&&b.time+1e-9>=20){const rows=Object.values(b.decisionStats?.towers||{});b.window20={at:20,damage:rows.reduce((n,t)=>n+t.damage,0),hits:rows.reduce((n,t)=>n+t.hits,0),inheritedDamage:rows.filter(t=>t.inherited).reduce((n,t)=>n+t.damage,0)};}
  if(b.wave===1&&(b.phase==='planning'||b.result))recordDecision(c,b);
+ recordFullRun(c,b);
 }
 function fight(b,a,target,dt){
  const d=COMBAT_UNITS[a.type];const range=d.attackRange*18+20;

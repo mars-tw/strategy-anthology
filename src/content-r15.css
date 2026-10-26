@@ -1,0 +1,21 @@
+.hit-details>summary{background:transparent!important;min-height:44px;width:auto;align-self:start;text-align:left;padding:2px 5px;font-size:12px}.hit-details{background:transparent!important}.hit-details[open]{background:#eeeee5!important;padding:5px}.combat-readout{align-items:start}.delay-leaders{display:block;font-size:12px;line-height:1.35;color:#245c66}.full-run-summary{font-size:12px!important;line-height:1.5!important;margin:3px 0!important}.shell.has-result .field-column>.battlefield{height:var(--battle-height,280px);aspect-ratio:auto;max-height:36dvh}.shell.has-result .field-column{justify-content:start}.branch-comparison .decision-compare{font-size:12px}.branch-comparison th,.branch-comparison td{padding:3px 2px}.shell.has-result .decision-review{display:none}@media(max-width:370px) and (orientation:portrait){.shell.has-result .field-column>.battlefield{width:100%;height:var(--battle-height,180px);max-height:31dvh}}
+
+.combat-readout:has(.hit-summary){grid-template-columns:62px minmax(0,1fr) auto}.hit-details[open]{inset:auto 0 0;width:100%}.hit-details[open]>summary{justify-content:flex-end}
+
+.has-result .result:has(.sluice-result)>.gate-trials{display:none}
+.has-result .result:has(.sluice-result) .gate-compare{display:block}
+.has-result .result:has(.sluice-result) .result-actions{order:1;grid-template-columns:repeat(3,minmax(0,1fr))}
+.has-result .result:has(.sluice-result)>.sluice-result{order:2}
+@media(max-width:370px) and (orientation:portrait),(max-height:450px) and (orientation:landscape){.has-result .result:has(.sluice-result) .result-actions{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.hit-heading{display:none}.hit-details[open] .hit-heading{display:inline}.hit-details[open]>summary{justify-content:flex-start!important;white-space:normal;font-weight:700;color:#245c66}.hit-details[open]{background:#f5f1e5!important;border-top:2px solid #57bacb}.hit-details[open] .impact-lines{padding-top:3px}
+
+.shell.has-result .result>.branch-comparison{order:3}
+
+.sluice-control:has(.gate-ledger){flex-wrap:wrap}
+.sluice-control:has(.gate-ledger)>small{flex:1;min-width:0}
+.gate-ledger{flex-basis:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;border-top:1px solid #a5c5c2;padding-top:3px;font-size:12px;line-height:1.3;font-variant-numeric:tabular-nums}
+.gate-delay-row{display:flex;flex-direction:column;border-left:2px solid #319fad;padding:1px 4px;white-space:nowrap;color:#245c66}
+.gate-delay-row i{font-style:normal;font-size:11px}.gate-delay-row.dry{color:#595f60;border-color:#9baba7}
+@media(max-width:370px) and (orientation:portrait){.gate-ledger{font-size:11px;gap:2px}.gate-delay-row{padding:0 2px}.gate-delay-row i{font-size:10px}}
+@media(max-width:370px) and (max-height:650px) and (orientation:portrait){.exercise-locked .command:has(.gate-ledger)>:is(.command-head,.feedback){display:none}.sluice-control:has(.gate-ledger){gap:2px;padding:2px 0}.sluice-control:has(.gate-ledger) button{width:112px;min-width:112px;white-space:normal;padding:4px;font-size:12px}.sluice-control:has(.gate-ledger) .delay-leaders{display:none}.gate-delay-row{position:relative;min-height:14px}.gate-delay-row i{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.gate-ledger{line-height:14px}}

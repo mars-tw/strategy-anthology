@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import {serve} from './serve.mjs';
 import {writeFile,readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const data={status:'EXECUTED',buildSHA256:createHash('sha256').update(await readFile('dist/game.js')).digest('hex'),warning:'並發載量測，僅供參考；Chromium emulation, not idle-machine or physical-device release qualification.',runs:[],releaseGate:'BLOCKED'};
 try{for(const viewport of [{width:1366,height:600},{width:844,height:390}])for(let run=1;run<=3;run++){
  const context=await browser.newContext({viewport});const page=await context.newPage();await page.goto(url);await page.locator('[data-action="begin"]').click();

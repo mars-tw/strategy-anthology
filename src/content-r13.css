@@ -1,0 +1,31 @@
+.relay-mini{height:112px}
+.relay-choices small{font-size:12px}
+.relay-value{display:block;color:#245c66;font-weight:bold;font-size:12px;line-height:1.4}
+.tower-card .inheritance-cost{color:#245c66}
+.result-actions:has([data-action=retry-same]){display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.gate-ended{color:#245c66;font-weight:bold}
+.gate-compare{display:none}
+.gate-trials{width:100%;border-collapse:collapse;font-size:12px;line-height:1.4;margin:5px 0;color:#245c66}.gate-trials th,.gate-trials td{padding:2px;border-bottom:1px solid #b8aa91;text-align:left}.gate-trials caption{text-align:left;font-size:11px}
+.sluice-control small{font-size:12px}
+.exercise-locked .command :is(.cards,.placement){display:none}
+.exercise-locked .command>.hint{display:none}
+@media(max-width:750px) and (orientation:portrait){.relay-mini{height:100px}.quarry-choice>p{font-size:12px}.relay-choices small{font-size:12px}.battle .command:has(.quarry-choice){max-height:64dvh}.result-actions:has([data-action=retry-same]) button{font-size:12px;padding:5px}.sluice-result{font-size:12px;line-height:1.4}}
+@media(max-width:370px) and (orientation:portrait){.relay-mini{height:66px}.relay-value{font-size:11px}.relay-choices small{font-size:11px}.quarry-choice>p{font-size:11px}.quarry-choice .relay-choices{gap:3px}.quarry-choice .relay-choices button{padding:3px}}
+@media(max-height:450px) and (orientation:landscape){.relay-mini{height:52px}.relay-value{font-size:11px}.relay-choices small{font-size:11px}.result-actions:has([data-action=retry-same]){gap:4px}.result-actions:has([data-action=retry-same]) button{min-height:44px;padding:3px;font-size:12px}.sluice-result{font-size:12px;line-height:1.3}}
+@media(max-height:450px) and (orientation:landscape){
+ .result:has(.sluice-result){gap:4px}
+ .result:has(.sluice-result)>h2{font-size:19px;line-height:1.2}
+ .result:has(.sluice-result)>p{margin:0;font-size:12px;line-height:1.25}
+ .result:has(.sluice-result) .result-actions{grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
+ .result:has(.sluice-result) .result-actions button{font-size:11px;padding:3px 1px}
+ .result:has(.sluice-result)>.report{font-size:12px;line-height:1.2}
+}
+@media(max-width:370px) and (orientation:portrait),(max-height:450px) and (orientation:landscape){
+ .result-actions:has([data-action=retry-same]){grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}
+ .result-actions:has([data-action=retry-same]) button{font-size:11px;padding:3px 1px;min-height:44px}
+ .result>.gate-trials{display:none}
+ .result:has(>.gate-trials) [data-action=exercises]{display:none}
+ .result:has(>.gate-trials) .gate-compare{display:block}
+}
+
+.relay-choices .primary .relay-value{color:#fff5dc}

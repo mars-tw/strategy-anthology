@@ -5,7 +5,7 @@ const phase=process.argv[2]||'after';
 if(!['before','after'].includes(phase))throw Error('phase');
 const out=`docs/art/compare/r5/${phase}`;await mkdir(out,{recursive:true});
 const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`;
-const browser=await chromium.launch({headless:true,channel:'chrome'});
+const browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const result={status:'EXECUTED',phase,screenshots:[],presentation:[],method:'Fresh public UI, virtual clock, no state injection. Identical steps before and after.'};
 try{for(const [width,height]of [[390,844],[844,390],[1032,1376]]){
  const ctx=await browser.newContext({viewport:{width,height},hasTouch:true});const p=await ctx.newPage();await p.clock.install();await p.goto(url);await p.locator('[data-action="begin"]').waitFor();

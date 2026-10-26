@@ -1,0 +1,52 @@
+/* Chrome's compositor tap highlight can outlive its source behind showModal().
+   Keep focus-visible outlines; never paint a delayed touch rectangle over data. */
+button,summary,a{-webkit-tap-highlight-color:transparent}
+.combat-readout>button[data-action=watch-hit]{white-space:normal;overflow-wrap:anywhere;line-height:1.2;padding:3px;display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:12px}
+.combat-readout>button[data-action=watch-hit] small{font-size:11px;display:block}
+.combat-readout:has(.hit-summary)>button{width:62px;min-width:62px}
+.decisions[open],.gate-trials[open]{width:min(650px,calc(100vw - 24px));max-height:calc(100dvh - 24px);padding:18px;box-sizing:border-box}
+.branch-comparison .branch-headline{font-size:14px;line-height:1.5;font-weight:700;color:#245c66;margin:8px 0}
+.branch-comparison .branch-primary{font-size:14px;line-height:1.5}
+.branch-primary th,.branch-primary td{padding:8px 4px}
+.branch-comparison .branch-context{font-size:12px}
+.full-data>summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-size:14px;color:#245c66;font-weight:700}
+.full-data{border-top:1px solid #baa98d;margin-top:6px}
+.full-data p{font-size:12px;line-height:1.5}
+.branch-comparison .full-data table{font-size:12px}
+.gate-trials[open]{min-height:min(580px,calc(100dvh - 24px));font-size:14px;display:flex;flex-direction:column;gap:12px}
+.gate-trials[open]>.modal-actions{margin-top:auto}
+.gate-trials[open] table{font-size:14px;line-height:1.6;width:100%;table-layout:fixed;border-collapse:collapse}
+.gate-trials[open] th,.gate-trials[open] td{padding:10px 4px;border:1px solid #b8aa91;text-align:center}
+.gate-trials[open] caption{font-size:14px;text-align:left;margin:8px 0}
+.gate-trials[open] .gate-verdict{font-size:16px;line-height:1.5;color:#245c66;font-weight:700}
+.gate-cause{font-size:14px!important;line-height:1.6!important}
+.relay-quote .relay-mini{width:100%;height:170px}
+.relay-quote h3{font-size:18px}.relay-budget-options{display:flex;gap:4px}
+.relay-budget-options button{flex:1;font-size:13px;padding:5px}
+.relay-budget-options [aria-pressed=true]{border:2px solid #b83e35;background:#f1dcc5}
+.relay-budget p{font-size:14px;line-height:1.5}
+.relay-tools:has([data-action=relay-budget]){grid-template-columns:repeat(3,minmax(0,1fr))}
+.relay-tools:has([data-action=relay-budget]) button{font-size:12px;padding:4px;white-space:normal}
+.shell.has-result .result>.branch-comparison{order:0}
+.shell.has-result .result .branch-primary{font-size:12px}
+.shell.has-result .result .branch-primary :is(th,td){padding:3px}
+.shell.has-result .result .branch-context,.shell.has-result .result .full-data{display:none}
+.shell.has-result .result>.gate-comparison{display:none}
+@media(max-width:370px) and (orientation:portrait){
+ .decisions[open],.gate-trials[open]{padding:12px}
+ .decisions>h2{margin:3px 0;font-size:21px}.decisions>.eyebrow{display:none}
+ .branch-comparison .branch-headline{margin:4px 0;font-size:13px}
+ .branch-primary th,.branch-primary td{padding:6px 3px}
+ .decisions .modal-actions{margin-top:6px;gap:4px}.decisions .modal-actions button{font-size:12px;padding:5px}
+ .gate-trials[open] th,.gate-trials[open] td{padding:7px 2px}
+ .gate-trials[open]{gap:5px}.gate-trials[open] .gate-verdict{font-size:14px}
+ .relay-quote .relay-mini{height:100px}.relay-budget p{font-size:12px;margin:4px 0}
+}
+@media(max-width:370px) and (orientation:portrait),(max-height:450px) and (orientation:landscape){
+ .result:has(>.gate-comparison) [data-action=exercises]{display:none}
+ .result:has(>.gate-comparison) .gate-compare{display:block}
+ /* The dedicated review opens all three cases without scrolling. Keep its
+    entry and the next action reachable on the short result screen. */
+ .shell.has-result .result>.branch-comparison{display:none}
+}
+@media(max-height:450px) and (orientation:landscape){.gate-trials[open]{gap:3px;padding:10px}.gate-trials[open] :is(th,td){padding:3px}.gate-trials[open] caption{margin:2px}.gate-trials[open] h2{margin:0}.gate-cause{margin:0!important}.relay-quote .relay-mini{height:70px}.relay-budget p{font-size:12px;margin:3px 0}}

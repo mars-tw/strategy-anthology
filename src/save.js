@@ -1,3 +1,6 @@
+import {validWindow20,validFullRun} from './content-r15.js';
+import {validGateTrials} from './content-r13.js';
+import {validGate} from './content-r12.js';
 import {validDecisionExtras} from './content-r8.js';
 import { freshCampaign,CHAPTERS } from './campaign.js';
 import {EXERCISES,exerciseFor} from './content-r1.js';
@@ -22,13 +25,17 @@ export function validateSave(c){
  if(c.salvageCredits!==undefined&&(!Array.isArray(c.salvageCredits)||c.salvageCredits.length>2||c.salvageCredits.some(p=>!['ford','quarry'].includes(p.source)||!integer(p.remaining,90))))return false;
  if(c.routePreviewSeen!==undefined&&typeof c.routePreviewSeen!=='boolean')return false;
  if(c.fordLegacy!==undefined&&![null,'pending','tower','crystals'].includes(c.fordLegacy))return false;
- if(c.exercises!==undefined){const e=c.exercises;if(!object(e)||!Array.isArray(e.completed)||new Set(e.completed).size!==e.completed.length||e.completed.some(id=>!EXERCISES.some(x=>x.id===id)))return false;
+ if(c.exercises!==undefined){const e=c.exercises;if(!validGateTrials(e?.gateTrials))return false;if(!object(e)||!Array.isArray(e.completed)||new Set(e.completed).size!==e.completed.length||e.completed.some(id=>!exerciseFor({exercise:id})))return false;
   if(e.battle!==null&&(!e.battle?.exercise||!validateBattle(e.battle,0,true)))return false;
  }
  if(c.battle?.exercise||c.battle?.replay)return false;
  if(c.battle!==null&&!validateBattle(c.battle,c.chapter))return false;return true;
 }
 function validateBattle(b,chapter,exercise=false){
+ if(b?.window20!==undefined&&!validWindow20(b.window20))return false;
+ if(!validGate(b)||!validFullRun(b?.fullRun))return false;
+ if(b?.leakLog!==undefined&&(!Array.isArray(b.leakLog)||b.leakLog.length>100||b.leakLog.some(r=>!object(r)||!/^u[0-9]+$/.test(r.id)||!integer(r.wave,4)||r.wave<1||!Number.isFinite(r.hp)||r.hp<=0)))return false;
+ if(b?.waveResults!==undefined&&(!Array.isArray(b.waveResults)||b.waveResults.length>4||b.waveResults.some((r,i)=>!object(r)||r.wave!==i+1||!integer(r.hp,100)||!integer(r.kills)||!integer(r.leaks)||!Number.isFinite(r.time)||r.time<0)))return false;
  if(!object(b)||!integer(b.chapter,5)||!(b.chapter===chapter||b.chapter===chapter-1&&b.result==='won'))return false;
  if(!['planning','active'].includes(b.phase)||![null,'won','lost'].includes(b.result))return false;
  if(b.replay!==undefined&&(b.replay!==true||exercise||CHAPTERS[b.chapter].mode!=='defense'||!integer(b.budget)||!integer(b.seedBudget)||b.budget+b.spent!==b.seedBudget||b.earnings!==0||b.wave>CHAPTERS[b.chapter].waves))return false;

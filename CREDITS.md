@@ -95,3 +95,7 @@
 # 新內容 R7 繼承戰旗與涉水地表（2026-10-19）
 
 新增 2 張透明原畫：帶修補石基與舊戰旗的繼承火塔、具明確泥岸與流紋的涉水土路。實際工具 **image_gen__imagegen**；模型 slug 未回傳，記為 null。逐字沿用 `docs/art/PROMPTS_R7.json` 的風格前綴。原始 PNG、提示、alpha、裁切範圍與 SHA-256 見 `docs/content/r7/art/`；執行素材存 `public/assets/content-r7/`。僅裁去透明外緣並等比縮小為 lossless WebP，沒有重畫。小地圖、命中圖例、單體雷擊折線與水花為原生 SVG／Canvas 介面圖形。保留既有 MIT 與第三方授權，沒有新增 SDK、字型、外部素材服務或連線功能。
+
+# 新內容第12輪
+
+潮閘水門原畫：本輪使用 `image_gen__imagegen` 生成，實際底層模型 slug 未回傳。提示、完整來源與 SHA-256 見 `docs/content/r12/art/manifest.json`。沿用本作礦彩山河／朱砂軍令風格，無新增第三方 SDK 或線上功能。

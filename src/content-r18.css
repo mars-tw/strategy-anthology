@@ -1,0 +1,15 @@
+/* R18: keep the chosen terrain and its cost visible while the player compares routes. */
+.terrain-choice[aria-pressed=true]{outline:3px solid #b83e35;outline-offset:1px;background:#f5edda;color:#183e43}
+.terrain-choice small{display:block;margin-top:4px;color:#7c332e;font-size:12px;font-weight:800}
+.terrain-cost{margin:6px 0;padding:6px 8px;border-left:3px solid #b83e35;background:#eee9dc;color:#292d38;font-size:13px;line-height:1.35}
+.relay-quote .budget-equation{padding:6px 8px;border-left:3px solid #34756c;background:#e5efe7;color:#183e43;font-weight:700}
+@media(max-width:360px) and (orientation:portrait){
+ .terrain .terrain-map{height:142px}
+ .terrain .terrain-options{margin-top:3px;gap:3px}
+ .terrain .terrain-choice{padding:4px 3px;font-size:11px}
+ .terrain .terrain-choice small{margin-top:2px;font-size:10px}
+ .terrain .terrain-cost{margin:3px 0;padding:3px 5px;font-size:11px;line-height:1.25}
+}
+@media(max-height:450px) and (orientation:landscape){
+ .terrain .terrain-cost{display:none}
+}

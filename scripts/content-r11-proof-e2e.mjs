@@ -1,10 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
+import {freezeReloadedClock} from './freeze-test-clock.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
 import {worldPoint} from '../src/presentation-r7.js';
-const out='docs/content/r11',key='trine-frontier:campaign:v1',server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r11-proof'),key='trine-frontier:campaign:v1',server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={status:'EXECUTED',method:'Additional screenshot proof through public UI. Natural quarry-victory import, isolated replay, all four waves and original-wallet return. No game-state, health, money or outcome injection.',buildSHA256:sha(await readFile('dist/game.js')),checks:[],shots:[],errors:[]};
 const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};
@@ -36,7 +38,7 @@ try{
  check('no shared-currency debit, reward or original-combat mutation',finished.crystals===original.crystals&&finished.decisionReplay.earnings===0&&JSON.stringify(finished.battle)===JSON.stringify(original.battle)&&JSON.stringify(finished.salvageCredits)===JSON.stringify(original.salvageCredits));
  report.original={crystals:original.crystals,battleSHA256:sha(Buffer.from(JSON.stringify(original.battle)))};report.finished={crystals:finished.crystals,wave:finished.decisionReplay.wave,result:finished.decisionReplay.result,budget:finished.decisionReplay.budget,spent:finished.decisionReplay.spent};
  await shot('relay-replay-four-waves-complete');await click('return-campaign');await p.clock.runFor(25);await shot('relay-original-after-replay');
- await p.reload();await p.locator('[data-action=begin]').waitFor();await click('begin');await p.clock.runFor(25);
+ await p.reload();await freezeReloadedClock(p);await p.locator('[data-action=begin]').waitFor();await click('begin');await p.clock.runFor(25);
  check('return and reload preserve the original wallet and single inherited tower',(await saved()).crystals===original.crystals&&JSON.stringify((await saved()).battle)===JSON.stringify(original.battle));await shot('relay-original-return-reloaded');
  // A second serial context gives the visible detour more time between frames.
  // Close the replay page first; do not run a second browser or server.

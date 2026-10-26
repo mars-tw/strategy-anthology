@@ -1,11 +1,12 @@
+import {evidenceDir,evidenceFile} from './current-evidence.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile,readFile,copyFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {serve} from './serve.mjs';
 import {acknowledgeRoutePreview} from './r3-onboarding.mjs';
-const out='docs/content/r6',key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
-const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome'});
+const out=evidenceDir('content-r6'),key='trine-frontier:campaign:v1';await mkdir(out,{recursive:true});
+const server=await serve(0),url=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true,channel:'chrome',args:['--mute-audio']});
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={status:'EXECUTED',method:'Serial headless touch UI. Public import of the R5 naturally attained ford victory, then real campaign progression. No currency, actor, health or result injection. Fixed virtual time for gameplay only.',buildSHA256:sha(await readFile('dist/game.js')),checks:[],shots:[],errors:[],exercises:{},relays:{},impacts:{}};
 const check=(name,ok)=>{assert.ok(ok,name);report.checks.push(name);};
@@ -13,7 +14,7 @@ const saved=p=>p.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
 const view=p=>p.locator('#world').evaluate(c=>JSON.parse(c.dataset.presentation));
 async function click(p,a){const modal=p.locator('dialog[open]');await (await modal.count()?modal:p).locator(`[data-action="${a}"]`).first().tap();if(a==='wave')await acknowledgeRoutePreview(p);}
 async function context(width=430,height=932,dpr=1){const c=await browser.newContext({viewport:{width,height},deviceScaleFactor:dpr,hasTouch:true}),p=await c.newPage();p.on('pageerror',e=>report.errors.push(e.message));p.on('request',r=>{if(![url,'data:','blob:'].some(prefix=>r.url().startsWith(prefix)))report.errors.push(r.url());});await p.clock.install({time:new Date('2026-10-19T06:00:00Z')});await p.goto(url);await p.locator('[data-action=begin]').waitFor();await p.clock.pauseAt(new Date('2026-10-19T06:00:05Z'));return {c,p};}
-async function shot(p,name,advance=false){if(advance)await p.clock.runFor(25);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?name:`${out}/phone-${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio),sha256:sha(await readFile(path))});}
+async function shot(p,name,advance=false){if(advance)await p.clock.runFor(25);await p.evaluate(()=>Promise.all([...document.images].map(i=>i.decode())));const path=name.startsWith('docs/')?evidenceFile(name):`${out}/phone-${name}.png`;await p.screenshot({path});report.shots.push({path,viewport:p.viewportSize(),dpr:await p.evaluate(()=>devicePixelRatio),sha256:sha(await readFile(path))});}
 async function until(p,fn,max=240,ms=1000){for(let i=0;i<max;i++){if(await fn())return;await p.clock.runFor(ms);}throw Error('Gameplay state not reached');}
 async function restore(p,c){await click(p,'pause');await click(p,'saves');await p.locator('#saveCode').fill(JSON.stringify({kind:'trine-frontier-save',campaign:c}));await click(p,'preview');await click(p,'commit-import');await click(p,'begin');}
 async function build(p,types=['cannon','frost','tesla']){for(const t of types){await click(p,'tower-'+t);await click(p,'confirm');}await p.clock.runFor(25);}

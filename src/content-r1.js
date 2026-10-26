@@ -1,3 +1,4 @@
+import {SLUICE} from './content-r12.js';
 import {spendCredit} from './content-r6.js';
 // Authored battlefield decisions. No rewards, clocks or online services.
 export const BASE_ROUTE=[{x:32,y:192},{x:656,y:192},{x:656,y:480},{x:848,y:480}];
@@ -38,7 +39,7 @@ export const EXERCISES=Object.freeze([
   pads:[{x:744,y:264},{x:216,y:264},{x:696,y:408},{x:408,y:552},{x:264,y:504}],
   route:[{x:32,y:192},{x:416,y:192},{x:416,y:96},{x:800,y:96},{x:800,y:480},{x:848,y:480}]},
 ]);
-export const exerciseFor=b=>EXERCISES.find(e=>e.id===b?.exercise);
+export const exerciseFor=b=>[...EXERCISES,SLUICE].find(e=>e.id===b?.exercise);
 export const battleRoute=b=>exerciseFor(b)?.route||terrainRoute(b?.terrainChoice,b?.chapter)||BASE_ROUTE;
 export const battleInfo=b=>exerciseFor(b);
 export const wallet=(c,b)=>b?.exercise||b?.replay?b.budget:c.crystals;

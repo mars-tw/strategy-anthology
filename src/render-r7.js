@@ -1,7 +1,12 @@
+import {gateLift} from './content-r17.js';
+import {paintWater,polygonArea,waterLabelArea} from './content-r15.js';
+import {nearbyLabels,separateHealth,snapshotPoint} from './content-r14.js';
 import {orderedPadLabels,projectedRoute,queueOnRoad,insetRange} from './content-r11.js';
-import {exerciseGround,exerciseTower,clearBody} from './content-r10.js';
+import {GATE,gateWet} from './content-r12.js';
+import {exerciseGround,exerciseTower,exerciseSnapshotTower,clearBody} from './content-r10.js';
 import {enemyName,placeAnnotation,exerciseLayout,intersects,paintedWaterAt} from './content-r8.js';
 import {impactReadout,leakDescription} from './content-r7.js';
+import {updateImpactPanel} from './content-r19.js';
 import {drawCombatFeedback} from './content-r6.js';
 import {padLabels,routeProgress} from './content-r3.js';
 import {padIdentity,inspectRoute} from './content-r5.js';
@@ -16,6 +21,7 @@ import towerConfig from '../vendor/tower-defense/src/config.js';
 import {battleRoute,exerciseFor,FIELDWORK_SPRITES,floodZone,terrainRoute} from './content-r1.js';
 export async function loadArt(){
  const images={};await Promise.all([
+  ['sluice','./assets/content-r12/sluice.png'],
   ...['ashwing.png','rootback.png'].map(n=>[n,`./assets/r1/${n}`]),
   ...['keep.png','barracks.png'].map(n=>[n,`./assets/r1/${n}`]),
   ...['tower-cannon.png','tower-frost.png','tower-tesla.png'].map(n=>[n,`./assets/r4/${n}`]),
@@ -36,10 +42,22 @@ export async function loadArt(){
 }
 export function createRenderer(canvas,art){
  const ctx=canvas.getContext('2d'),bg=document.createElement('canvas'),g=bg.getContext('2d');
- let northInset=0,exercisePoints=null,activeExercise=null,currentTowers=[],w=0,h=0,dpr=1,sx=1,sy=1,lastTerrain,terrainId,previewMode=false;
- const project=(x,y,width,height,siege)=>activeExercise&&!siege?exerciseGround(x,y,width,height):worldPoint(x,y,width,height,{northInset:siege?0:northInset,flat:siege||terrainId==='ford'});
+ let northInset=0,exercisePoints=null,activeExercise=null,currentTowers=[],w=0,h=0,dpr=1,sx=1,sy=1,lastTerrain,terrainId,previewMode=false,snapshotMode=false,snapshotCrop=false;
+ const project=(x,y,width,height,siege)=>activeExercise&&!siege?exerciseGround(x,y,width,height,activeExercise.id):worldPoint(x,y,width,height,{northInset:siege?0:northInset,flat:siege||terrainId==='ford'});
  const observer=new ResizeObserver(()=>{if(!canvas.isConnected)observer.disconnect();else lastTerrain=null;});observer.observe(canvas);
- function towerPoint(t,width,height){const i=activeExercise?.pads.findIndex(p=>p.x===t.x&&p.y===t.y)??-1,p=i>=0?exerciseTower(t,width,height):baseTowerPoint(t,width,height),anchor=project(t.x,t.y,width,height,false),unshifted=i<0&&Math.abs(p.x-p.anchorX)<1&&Math.abs(p.y-p.anchorY)<1;return {...p,...(northInset&&unshifted?{x:anchor.x,y:anchor.y}:{}),anchorX:anchor.x,anchorY:anchor.y};}
+ const exerciseDisplayTower=(p,width,height)=>(snapshotMode?exerciseSnapshotTower:exerciseTower)(p,width,height,activeExercise?.id);
+ function towerPoint(t,width,height){
+  const i=activeExercise?.pads.findIndex(p=>p.x===t.x&&p.y===t.y)??-1,p=i>=0?exerciseDisplayTower(t,width,height):baseTowerPoint(t,width,height),anchor=project(t.x,t.y,width,height,false),unshifted=i<0&&Math.abs(p.x-p.anchorX)<1&&Math.abs(p.y-p.anchorY)<1;
+  if(northInset&&unshifted){p.x=anchor.x;p.y=anchor.y;}
+  if(!activeExercise){
+  if(t.type==='frost'&&t.x>=680&&t.y>=336)p.x=width*.89;
+  if(t.type==='tesla'&&Math.abs(t.x-576)<=28&&Math.abs(t.y-288)<=28)p.y=Math.min(height-20,p.y+6);
+  if(t.type==='cannon'&&t.x===696&&t.y===408&&currentTowers.some(z=>z.type==='frost'&&z.x===360&&z.y===504))p.y=Math.max(p.h+8,height*.54);
+  if(t.type==='tesla'&&currentTowers.some(z=>z.type==='frost'&&z.x===360&&z.y===504)){p.x=width*.40;p.y=Math.max(p.h+8,height*.85);}
+  if(t.inherited&&t.legacySource==='quarry'){p.x=width*(t.x<500?.12:.88);if(t.x>500)p.y=Math.max(p.h+8,height*.88);}
+  }
+  return {...p,anchorX:anchor.x,anchorY:anchor.y};
+ }
  function fit(){
   if(!canvas.isConnected){observer.disconnect();return false;}
   const nw=canvas.clientWidth,nh=canvas.clientHeight,nd=Math.min(devicePixelRatio||1,2);
@@ -82,14 +100,14 @@ export function createRenderer(canvas,art){
  }
  function sprite(im,x,y,height){const name=Object.keys(art).find(k=>art[k]===im),b=spriteBoxes[name]||[0,0,im.width,im.height],width=height*(b[2]-b[0])/(b[3]-b[1]);ctx.drawImage(im,b[0],b[1],b[2]-b[0],b[3]-b[1],x-width/2,y-height,width,height);}
  function actor(a,measurements){
-  const lane=actorLane(a,measurements.siege);if(a.type==='miremaw'){lane.x*=.35;lane.y*=.14;}if(measurements.flood&&Math.hypot(a.x-measurements.flood.x,a.y-measurements.flood.y)<=measurements.flood.radius){lane.x=0;lane.y=0;}const visual={...a,anim:a.anim+(['walk','idle'].includes(a.state)?lane.phase:0)};
+  const lane=actorLane(a,measurements.siege),wet=!!measurements.flood&&Math.hypot(a.x-measurements.flood.x,a.y-measurements.flood.y)<=measurements.flood.radius;if(a.type==='miremaw'){lane.x*=.35;lane.y*=.14;}if(wet){lane.x=0;lane.y=0;}const visual={...a,anim:a.anim+(['walk','idle'].includes(a.state)?lane.phase:0)};
   const f=animationFrame(visual),role=({warrior:'warrior',archer:'archer',mage:'mage',villager:'worker',shieldBearer:'enemy',miremaw:'hound'})[a.type],legacyName=`${a.type}.png`,variantWalk=role==='hound'&&f.state==='walk',im=variantWalk?art['r7-hound-walk']:role?art['r5-'+role]:art[legacyName];if(!im)return;
   const m=variantWalk?art.houndFrames:role?art.currentFrames[role]:art.frames[legacyName],row=variantWalk?lane.variant:f.row,box=m.boxes[row][f.frame],bh=role==='hound'?44:bodyHeight(w),neutral=variantWalk?Math.max(m.neutralHeights[lane.variant],Math.max(...m.boxes[row].map(b=>b[3]-b[1]))/1.12):(m.neutralHeight||m.minimumLiveHeight),scale=bh/neutral,poseHeight=(box[3]-box[1])*scale,bw=(box[2]-box[0])*scale;
   const ground=project(a.x,a.y,w,h,measurements.siege);
   let x=Math.max(bw/2+3,Math.min(w-bw/2-3,ground.x+lane.x+(measurements.siege&&role==='worker'?40:0)));let y=Math.max(poseHeight+20,Math.min(h-14,ground.y+lane.y));
   if(!measurements.siege){
    const blocks=currentTowers.map(t=>{const p=towerPoint(t,w,h);return {x:p.x-p.h*.4,y:p.y-p.h,w:p.h*.8,h:p.h};});
-   const q=queueOnRoad(ground,bw,poseHeight,w,h,measurements.roadPath,blocks,(measurements.combatBodies||[]).map(u=>({x:u.x-u.width/2,y:u.y-u.poseHeight,w:u.width,h:u.poseHeight})),activeExercise?44:15);
+   const q=queueOnRoad(ground,bw,poseHeight,w,h,measurements.roadPath,blocks,(measurements.combatBodies||[]).map(u=>({x:u.x-u.width/2,y:u.y-u.poseHeight,w:u.width,h:u.poseHeight})),activeExercise?44:15,wet,!!(measurements.flood||activeExercise));
    if(!q){measurements.waitingIds.push(a.id);return;}x=q.x;y=q.y;
   }
   ctx.save();ctx.fillStyle='#28323a45';ctx.beginPath();ctx.ellipse(x+4,y+4,bh*(role==='hound'?.48:.30),bh*.095,0,0,Math.PI*2);ctx.fill();
@@ -106,8 +124,8 @@ export function createRenderer(canvas,art){
   if(role==='hound'&&a.hp>0&&!variantWalk){const gear=art['r5-gear-'+['flag','horn','pack'][lane.variant]],gh=lane.variant===0?bh*.60:bh*.38,gw=gh*gear.width/gear.height;ctx.drawImage(gear,-bw*.26,drawY+poseHeight*.25-gh*.6,gw,gh);}
   ctx.restore();ctx.globalAlpha=1;
   if(a.hp>0){
-   const leader=role==='hound'?measurements.leaderId===a.id:role!=='worker',healthShown=leader&&canvas.dataset.hideLabels!=='true';
-   const hw=36,hy=Math.max(8,drawY-9);if(healthShown){ctx.fillStyle='#292d38';ctx.fillRect(x-hw/2-1,hy-1,hw+2,7);ctx.fillStyle=a.team==='player'?'#69c9bb':'#d65b4b';ctx.fillRect(x-hw/2,hy,hw*a.hp/a.maxHP,5);}
+   const leader=role==='hound'?measurements.leaderId===a.id:role!=='worker',healthShown=(leader||!!activeExercise||!!measurements.flood)&&canvas.dataset.hideLabels!=='true';
+   const hw=36,hy=Math.max(8,drawY-9);
    measurements.units.push({id:a.id,nativeX:a.x,nativeY:a.y,waterDelay:a.waterDelay||0,type:a.type,role,team:a.team,x,y,height:bh,width:bw,healthWidth:hw,healthHeight:5,healthY:hy,shadowWidth:bh*.60,poseHeight,variant:lane.variant,phase:lane.phase,healthShown,frame:f.frame,row,state:f.state,source:variantWalk?'r7/hound-walk':(['warrior','archer','mage'].includes(role)?'r7/':'r5/')+role,facing:left?'left-mirror':'right-authored'});
   }
   (measurements.combatBodies??=[]).push({id:a.id,x,y,width:bw,poseHeight,box,row,frame:f.frame,fw:m.fw,fh:m.fh,asset:variantWalk?'r7-hound-walk':'r5-'+role,left});
@@ -119,30 +137,57 @@ export function createRenderer(canvas,art){
   ctx.save();
   ctx.fillStyle='#28333c55';ctx.beginPath();ctx.ellipse(p.x,p.y+4,p.h*.34,7,0,0,Math.PI*2);ctx.fill();
   ctx.fillStyle='#6b553e66';ctx.beginPath();ctx.ellipse(p.x,p.y+4,p.h*.37,6,0,0,Math.PI*2);ctx.fill();ctx.strokeStyle=focused?color:'#ad966b88';ctx.lineWidth=focused?2.5:1;ctx.stroke();
-  if(pending)ctx.globalAlpha=.65;sprite(t.inherited&&t.type==='cannon'?art['r7-legacy-cannon']:art[`tower-${t.type}.png`],p.x,p.y,p.h);
+  if(pending)ctx.globalAlpha=.65;sprite(art[`tower-${t.type}.png`],p.x,p.y,p.h);
   if(resonance(t,currentTowers).bonus>0){ctx.strokeStyle='#9865c6';ctx.lineWidth=2.5;ctx.beginPath();ctx.moveTo(p.x,p.y-p.h-9);ctx.lineTo(p.x-8,p.y-p.h+5);ctx.lineTo(p.x+8,p.y-p.h+5);ctx.closePath();ctx.stroke();}
-  if(t.inherited){ctx.save();ctx.fillStyle='#f5f1e5';ctx.strokeStyle='#216778';ctx.lineWidth=2;ctx.fillRect(p.x-20,p.y+10,40,20);ctx.strokeRect(p.x-20,p.y+10,40,20);ctx.fillStyle='#216778';ctx.font='bold 12px sans-serif';ctx.textAlign='center';ctx.fillText('留守',p.x,p.y+25);ctx.restore();ctx.strokeStyle='#216778';ctx.lineWidth=5;ctx.beginPath();ctx.ellipse(p.x,p.y+2,p.h*.42,11,0,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#c4f4eb';ctx.lineWidth=2;ctx.stroke();}
+  if(t.inherited){ctx.strokeStyle='#216778';ctx.lineWidth=5;ctx.beginPath();ctx.ellipse(p.x,p.y+2,p.h*.42,11,0,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#c4f4eb';ctx.lineWidth=2;ctx.stroke();}
   ctx.fillStyle=color;for(let i=0;i<(t.level||1);i++){ctx.beginPath();ctx.arc(p.x+(i-((t.level||1)-1)/2)*8,p.y+5,2.5,0,Math.PI*2);ctx.fill();}ctx.restore();return p;
  }
  return function render(c,b,pending,skill,selectedTower,preview=null,swapping=null){
   if(!fit())return;currentTowers=b?.towers||[];previewMode=!!preview||canvas.dataset.mini==='true';const exercise=exerciseFor(b),chapter=CHAPTERS[b?.chapter??Math.min(c.chapter,5)],id=exercise?.id==='split'?'ford':exercise?.terrain||chapter.terrain,siege=chapter.mode==='siege',route=preview?terrainRoute(preview,b.chapter):battleRoute(b),key=id+!b+siege+JSON.stringify(route);
-  activeExercise=exercise;
+  snapshotMode=!!b?.result&&!siege;snapshotCrop=snapshotMode&&!exercise&&b.chapter===4&&b.towers.every(t=>t.x>=360&&t.x<=840&&t.y>=144&&t.y<=464);activeExercise=exercise;
   northInset=!siege&&id!=='ford'&&(exercise||route.some(p=>p.y<110))?Math.min(.48,((exercise?70:35)+bodyHeight(w))/h):0;
-  const mapKey=key+':'+northInset+':'+w+':'+h;if(lastTerrain!==mapKey){terrain(id,!b,siege,exercise?.terrain==='quarry'?3:b?.chapter??Math.min(c.chapter,5),route);lastTerrain=mapKey;}
+  const mapKey=key+':'+snapshotMode+':'+snapshotCrop+':'+northInset+':'+w+':'+h;if(lastTerrain!==mapKey){terrain(id,!b,siege,exercise?.terrain==='quarry'?3:b?.chapter??Math.min(c.chapter,5),route);lastTerrain=mapKey;}
   ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,canvas.width,canvas.height);ctx.drawImage(bg,0,0);ctx.setTransform(dpr,0,0,dpr,0,0);
   const time=c.settings.reducedMotion?0:(b?.time||0),measurements={projection:{northInset,flat:siege||id==='ford'},rewardCaption:b?.exercise||b?.replay?'攔下':'+4',units:[],towers:[],reduced:c.settings.reducedMotion,siege,bodyHeight:bodyHeight(w),bridges:[195,425].map(y=>bridgeGeometry(y,w,h)),flood:b?.terrainChoice==='flood'?floodZone(b):null,leaderId:(b?.enemies.find(a=>a.hp>0&&actorLane(a,siege).variant===0)||b?.enemies.find(a=>a.hp>0))?.id};
   if(!b)return;measurements.waitingIds=[];measurements.roadPath=projectedRoute(route,(x,y)=>project(x,y,w,h,false));activeExercise=exercise;exercisePoints=exercise?exerciseLayout(exercise.pads,w,h):null;canvas.dataset.exercise=exercise?.id||'';
-  function prop(kind,x,y,height){const box=FIELDWORK_SPRITES[kind],p=project(x,y,w,h,false),ww=height*box[2]/box[3];if(kind==='barricade'){const im=art['r6-barricade'],size=Math.max(120,280*sx);ctx.drawImage(im,p.x-size/2,p.y-size*.63,size,size);measurements.blockade={x:p.x-size/2,y:p.y-size*.63,w:size,h:size,nativeX:x,nativeY:y};}else ctx.drawImage(art.fieldworks,...box,p.x-ww/2,p.y-height*.7,ww,height);}
+  if(snapshotMode){
+   measurements.snapshot=true;measurements.effects=[];measurements.impacts=[];measurements.wetLabels=[];measurements.contentR2=drawRouteDecisions({ctx,art,b,preview:null,w,h,project,label,time:0,routeAid:false});if(b.terrainChoice){const z=floodZone(b);prop(b.terrainChoice,b.terrainChoice==='flood'?z.x+z.radius+35:b.chapter===2?344:400,b.terrainChoice==='flood'?z.y:192,85*sx);}
+   if(exercise&&b.result==='lost'){const p=project(route.at(-1).x,route.at(-1).y,w,h,false);ctx.save();ctx.strokeStyle='#b83e35';ctx.lineWidth=4;ctx.beginPath();ctx.arc(p.x,p.y,19,0,Math.PI*2);ctx.stroke();ctx.restore();measurements.leakPoint=p;}
+   for(const t of b.towers){const p=drawTower(t);measurements.towers.push({...p,id:t.id,type:t.type,inherited:!!t.inherited});}
+   if(exercise)for(const pad of exercise.pads.filter(p=>!b.towers.some(t=>t.x===p.x&&t.y===p.y))){const p=exerciseDisplayTower(pad,w,h),box=LEGACY_SPRITES.foundation;ctx.drawImage(art.legacy,...box,p.x-24,p.y-11,48,25);}
+   const anchors=exercise?exercise.pads.map(p=>exerciseDisplayTower(p,w,h)):measurements.towers,labels=nearbyLabels(anchors,w,h,[...measurements.towers.map(t=>({x:t.x-t.h*.4,y:t.y-t.h,w:t.h*.8,h:t.h})),{x:8,y:4,w:w-16,h:22}]);measurements.snapshotLabels=labels;measurements.padLabels=labels.map(r=>({...r,x:r.x+r.w/2,y:r.y+r.h/2,width:r.w,height:r.h}));measurements.padBases=anchors.map((p,i)=>({...p,number:i+1}));
+   for(const r of labels){const pad=exercise?.pads[r.number-1],t=pad?b.towers.find(t=>t.x===pad.x&&t.y===pad.y):b.towers[r.number-1],text=r.number+(t?({cannon:'火塔',frost:'冰塔',tesla:'雷塔'})[t.type]:'留空');ctx.save();ctx.strokeStyle=COLORS[t?.type]||'#735b3c';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(r.anchorX,r.anchorY);ctx.lineTo(r.x+r.w/2,r.y+r.h/2);ctx.stroke();ctx.fillStyle='#f5f1e5f5';ctx.fillRect(r.x,r.y,r.w,r.h);ctx.fillStyle='#292d38';ctx.font='bold 12px sans-serif';ctx.textAlign='center';ctx.fillText(r.compact?String(r.number):text,r.x+r.w/2,r.y+13);ctx.restore();}
+   if(labels.some(r=>r.compact)){const text=labels.map(r=>{const pad=exercise?.pads[r.number-1],t=pad?b.towers.find(t=>t.x===pad.x&&t.y===pad.y):b.towers[r.number-1];return r.number+(t?({cannon:'火塔',frost:'冰塔',tesla:'雷塔'})[t.type]:'留空');}).join(' · ');ctx.save();ctx.fillStyle='#f5f1e5f5';ctx.fillRect(8,4,w-16,22);ctx.font='bold 12px sans-serif';ctx.fillStyle='#292d38';ctx.textAlign='left';ctx.fillText(text,12,20);ctx.restore();measurements.snapshotLegend=text;}
+   measurements.firstWaveDecision=b.firstWaveDecision||null;measurements.contentR1={exercise:b.exercise||null,route,terrainChoice:b.terrainChoice||null,inheritedTower:b.towers.some(t=>t.inherited)};
+   canvas.dataset.presentation=JSON.stringify(measurements);return;
+  }
+  function prop(kind,x,y,height){const box=FIELDWORK_SPRITES[kind],p=project(x,y,w,h,false),ww=height*box[2]/box[3];if(kind==='barricade'){const im=art['r6-barricade'],size=Math.max(120,280*sx);ctx.save();ctx.shadowColor='#292d38';ctx.shadowBlur=3;ctx.drawImage(im,p.x-size/2,p.y-size*.63,size,size);ctx.restore();ctx.strokeStyle='#292d38';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(p.x-size*.40,p.y+7);ctx.lineTo(p.x+size*.40,p.y+7);ctx.stroke();measurements.blockade={x:p.x-size/2,y:p.y-size*.63,w:size,h:size,nativeX:x,nativeY:y};}else ctx.drawImage(art.fieldworks,...box,p.x-ww/2,p.y-height*.7,ww,height);}
   const decisionTime=c.settings.reducedMotion?0:performance.now()/1000;
   measurements.contentR2=drawRouteDecisions({ctx,art,b,preview,w,h,project,label,time:decisionTime,inspectType:canvas.dataset.inspectType||null,routeAid:canvas.dataset.routeAid!=='off'});
   if(preview)measurements.inspection=inspectRoute(b.towers,route,canvas.dataset.inspectType||'frost');
   const choice=preview||b.terrainChoice;
+  if(b.gate){
+   const a=project(GATE.left,GATE.y,w,h,false),z=project(GATE.right,GATE.y,w,h,false),water={x:a.x-7,y:a.y-24,w:z.x-a.x+14,h:50};
+   ctx.save();if(b.gate.left>0){const points=Array.from({length:40},(_,i)=>({x:a.x+(z.x-a.x)*i/39,y:a.y}));measurements.gateWater=paintWater(ctx,art,points,23,decisionTime,true);}else if(!b.gate.used){ctx.strokeStyle='#376c73';ctx.lineWidth=2;ctx.setLineDash([6,4]);ctx.beginPath();ctx.roundRect(water.x,water.y,water.w,water.h,20);ctx.stroke();ctx.setLineDash([]);}
+   const gate={x:a.x-49,y:a.y-98,w:98,h:90},lift=gateLift(b.gate,b.time,c.settings.reducedMotion);
+   ctx.drawImage(art.sluice,gate.x,gate.y,gate.w,gate.h);
+   // Clip a moving slice of the original painted gate panel, leaving the
+   // stone arch and winch fixed. The revealed outlet shares the channel color.
+   const mouth=[{x:.37,y:.30},{x:.64,y:.44},{x:.62,y:.75},{x:.37,y:.58}].map(p=>({x:gate.x+p.x*gate.w,y:gate.y+p.y*gate.h})),panelPath=dy=>{ctx.beginPath();mouth.forEach((p,i)=>i?ctx.lineTo(p.x,p.y+dy):ctx.moveTo(p.x,p.y+dy));ctx.closePath();};
+   ctx.save();panelPath(0);ctx.clip();
+   if(lift>0){ctx.fillStyle='#245c66';ctx.fillRect(gate.x,gate.y,gate.w,gate.h);ctx.fillStyle='#319fad';ctx.fillRect(gate.x,gate.y+gate.h*.56,gate.w,gate.h*.44);}
+   panelPath(-lift*24);ctx.clip();ctx.drawImage(art.sluice,gate.x,gate.y-lift*24,gate.w,gate.h);ctx.restore();ctx.restore();
+   measurements.gateMotion={lift,outlet:mouth,panelY:gate.y+gate.h*.3-lift*24};
+   // Water status is placed in the final annotation pass above enemy bodies.
+   measurements.gateAnchor={x:(a.x+z.x)/2,y:a.y-32};
+   measurements.sluice={...b.gate,water,gate,enteredIds:[...b.gate.wetIds],wetIds:b.enemies.filter(e=>gateWet(b,e)).map(e=>e.id)};
+  }
   if(choice){const zone=floodZone(b),blockX=b.chapter===2?344:400;prop(choice,choice==='flood'?zone.x+zone.radius+35:blockX,choice==='flood'?zone.y:192,choice==='flood'?Math.max(48,85*sx):Math.max(86,150*sx));const pos=project(choice==='flood'?zone.x:blockX,choice==='flood'?zone.y:192,w,h,false);if(choice!=='flood'){ctx.save();ctx.strokeStyle='#b83e35';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(pos.x+68,pos.y-7);ctx.lineTo(pos.x+78,pos.y+3);ctx.moveTo(pos.x+68,pos.y+3);ctx.lineTo(pos.x+78,pos.y-7);ctx.stroke();ctx.restore();label('此處封堵',pos.x,pos.y+30,'#9c342c',12);}}
   measurements.contentR2.vacantFoundation=b.chapter===2&&c.fordLegacy==='crystals'&&!b.towers.some(t=>t.x===LEGACY_PAD.x&&t.y===LEGACY_PAD.y);
   if(measurements.contentR2.vacantFoundation){const p=previewMode?project(LEGACY_PAD.x,LEGACY_PAD.y,w,h,false):towerPoint({...LEGACY_PAD,type:'frost'},w,h),box=LEGACY_SPRITES.foundation,size=previewMode?30:80;ctx.drawImage(art.legacy,...box,p.x-size/2,p.y-size*.32,size,size*.63);label('拆晶後空地基',p.x,p.y+22,'#735b3c',12);}
   if(choice){const entrance=project(route[0].x,route[0].y,w,h,false),end=project(route.at(-1).x,route.at(-1).y,w,h,false);label('敵軍入口 →',entrance.x+38,entrance.y-24,'#a2332c',12);label('守住城門',end.x,end.y+25,'#a2332c',12);}
-  if(exercise){measurements.padBases=exercise.pads.map((pad,i)=>({number:i+1,...exerciseTower(pad,w,h)}));
-   for(const p of measurements.padBases){ctx.save();ctx.strokeStyle='#6b6350';ctx.lineWidth=1.5;ctx.setLineDash([4,3]);ctx.beginPath();ctx.ellipse(p.x,p.y+3,19,9,0,0,Math.PI*2);ctx.stroke();ctx.setLineDash([]);ctx.restore();}
+  if(exercise){measurements.padBases=exercise.pads.map((pad,i)=>({number:i+1,...exerciseDisplayTower(pad,w,h)}));
+   for(const p of measurements.padBases){ctx.save();ctx.strokeStyle='#6b6350';ctx.lineWidth=1.5;const box=LEGACY_SPRITES.foundation;ctx.drawImage(art.legacy,...box,p.x-24,p.y-11,48,25);ctx.beginPath();ctx.ellipse(p.x,p.y+3,19,9,0,0,Math.PI*2);ctx.stroke();ctx.restore();}
   }
   if(canvas.dataset.terrainOnly==='true'){canvas.dataset.presentation=JSON.stringify({terrainOnly:true,chapterArt:CHAPTER_ART[b.chapter]});return;}
   const structureH=canvas.dataset.mini==='true'?Math.max(24,160*sx):bodyHeight(w)*2.33*1.8;
@@ -170,21 +215,37 @@ export function createRenderer(canvas,art){
   const focusTower=b.towers.find(t=>t.id===selectedTower)||b.towers.find(t=>t.type===pending?.type)||b.towers.at(-1);
   const depth=[...b.units,...b.enemies].map(a=>({y:siege?project(a.x,a.y,w,h,true).y:-route.slice(1,(a.route||0)+1).reduce((sum,p,i)=>sum+Math.hypot(p.x-route[i].x,p.y-route[i].y),0)-Math.hypot(a.x-route[Math.min(a.route||0,route.length-1)].x,a.y-route[Math.min(a.route||0,route.length-1)].y),actor:a}));
   if(!siege)depth.push(...b.towers.map(t=>({y:-1e9,tower:t})));
-  depth.sort((a,z)=>a.y-z.y).forEach(item=>{if(item.actor)actor(item.actor,measurements);else{const t=item.tower,p=drawTower(t,false,!pending&&t===focusTower);measurements.towers.push({...p,id:t.id,type:t.type,selected:!pending&&t===focusTower,inherited:!!t.inherited});}});
+  // The narrow road has a bounded visible queue. While the gate is flowing,
+  // allocate road space to actual wet enemies before dry front-runners so the
+  // live slowdown remains visible beside its receipts. Native actors, timing,
+  // route packing, hit points and sprite frames stay unchanged.
+  const gatePriority=item=>item.actor&&gateWet(b,item.actor)?0:1;
+  depth.sort((a,z)=>a.tower||z.tower?a.y-z.y:gatePriority(a)-gatePriority(z)||a.y-z.y).forEach(item=>{if(item.actor)actor(item.actor,measurements);else{const t=item.tower,p=drawTower(t,false,!pending&&t===focusTower);measurements.towers.push({...p,id:t.id,type:t.type,selected:!pending&&t===focusTower,inherited:!!t.inherited});}});
   if(exercise){const anchors=exercise.pads.map((pad,i)=>measurements.towers.find(t=>t.id===b.towers.find(t=>t.x===pad.x&&t.y===pad.y)?.id)||towerPoint({...pad,type:['cannon','frost','tesla'][i%3]},w,h));measurements.padLabels=orderedPadLabels(exercise.pads,anchors,w,h);measurements.padPins=[];
    for(const mark of measurements.padLabels){const index=mark.number-1,p=anchors[index],active=pending?.x===mark.pad.x&&pending?.y===mark.pad.y,swapped=swapping&&(index===swapping.from||index===swapping.to);
-    ctx.save();ctx.beginPath();ctx.moveTo(p.x,index<3?p.y-p.h-8:p.y+8);ctx.lineTo(mark.x,index<3?mark.y+11:mark.y-17);ctx.strokeStyle=active||swapped?'#b83e35':'#433b2dc9';ctx.lineWidth=1.5;ctx.stroke();ctx.restore();measurements.padPins.push({number:mark.number,x:mark.x,y:mark.y-4,active,swapped:!!swapped});
+    measurements.padPins.push({number:mark.number,x:mark.x,y:mark.y-4,active,swapped:!!swapped});
    }
    // Labels are a separate final pass, so later connectors never cross text.
    measurements.padIdentities=exercise.pads.map((pad,i)=>padIdentity(pad,i,b,pending));
    // The reserved upper band is painted last, after effects and troops.
   }
   measurements.progress=choice?routeProgress(b):null;
-  const blockers=[...(measurements.combatBodies||[]).map(u=>({x:u.x-u.width/2-3,y:u.y-u.poseHeight-18,w:u.width+6,h:u.poseHeight+24})),...measurements.towers.map(t=>({x:t.x-t.h*.4,y:t.y-t.h,w:t.h*.8,h:t.h+12})),...(measurements.padLabels||[]).map(p=>({x:p.x-30,y:p.y-16,w:60,h:25}))];
+  measurements.healthBars=separateHealth(measurements.units,w,h);
+  for(const bar of measurements.healthBars){const u=measurements.units.find(u=>u.id===bar.id);u.healthY=bar.y+1;}
+  const blockers=[...measurements.units.map(u=>({x:u.x-24,y:u.y-u.poseHeight-16,w:48,h:10})),...(measurements.combatBodies||[]).map(u=>({x:u.x-u.width/2-3,y:u.y-u.poseHeight-18,w:u.width+6,h:u.poseHeight+24})),...measurements.towers.map(t=>({x:t.x-t.h*.4,y:t.y-t.h,w:t.h*.8,h:t.h+12})),...(measurements.padLabels||[]).map(p=>({x:p.x-30,y:p.y-16,w:60,h:25}))];
+  blockers.push(...measurements.healthBars);
+  const water=choice==='flood'?measurements.contentR2.waterPainting:null;
+  measurements.waterLabelOcclusion={waterArea:water?polygonArea(water.polygon):0,labelArea:0,maximumFraction:.2};
   for(const e of canvas.parentElement.querySelectorAll('.map-label,.field-status,.field-toggle,.resonance-caption,.resonance-legend')){if(!e.getClientRects().length||getComputedStyle(e).visibility==='hidden')continue;const r=e.getBoundingClientRect(),c=canvas.getBoundingClientRect();blockers.push({x:r.x-c.x,y:r.y-c.y,w:r.width,h:r.height});}
-  function annotation(text,anchor,color='#292d38',size=13){ctx.font=`bold ${size}px sans-serif`;const width=ctx.measureText(text).width+14,rect=placeAnnotation(anchor,w,h,blockers,width,23);if(!rect)return null;blockers.push(rect);ctx.save();ctx.strokeStyle=color;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(anchor.x,anchor.y);ctx.lineTo(rect.x+rect.w/2,rect.y+rect.h/2);ctx.stroke();ctx.fillStyle='#f5f1e5f5';ctx.fillRect(rect.x,rect.y,rect.w,rect.h);ctx.fillStyle=color;ctx.font=`bold ${size}px sans-serif`;ctx.textAlign='center';ctx.fillText(text,rect.x+rect.w/2,rect.y+16);ctx.restore();return rect;}
+  function annotation(text,anchor,color='#292d38',size=13){ctx.font=`bold ${size}px sans-serif`;const width=ctx.measureText(text).width+14,avoidWater=water&&/^(行速×|水域減速)/.test(text),reserved=avoidWater?[...blockers,water.bounds]:[...blockers];let rect=placeAnnotation(anchor,w,h,reserved,width,23),area=water&&rect?waterLabelArea(water.polygon,rect):0;for(let n=0;rect&&water&&area+measurements.waterLabelOcclusion.labelArea>measurements.waterLabelOcclusion.waterArea*.2+1e-6&&n<30;n++){reserved.push(rect);rect=placeAnnotation(anchor,w,h,reserved,width,23);area=rect?waterLabelArea(water.polygon,rect):0;}if(!rect||water&&area+measurements.waterLabelOcclusion.labelArea>measurements.waterLabelOcclusion.waterArea*.2+1e-6)return null;measurements.waterLabelOcclusion.labelArea+=area;blockers.push(rect);ctx.save();ctx.strokeStyle=color;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(anchor.x,anchor.y);ctx.lineTo(rect.x+rect.w/2,rect.y+rect.h/2);ctx.stroke();ctx.fillStyle='#f5f1e5f5';ctx.fillRect(rect.x,rect.y,rect.w,rect.h);ctx.fillStyle=color;ctx.font=`bold ${size}px sans-serif`;ctx.textAlign='center';ctx.fillText(text,rect.x+rect.w/2,rect.y+16);ctx.restore();return rect;}
+  measurements.inheritedLabels=[];for(const t of measurements.towers.filter(t=>t.inherited)){const rect=annotation('留守',{x:t.x,y:t.y+15},'#216778',12);if(rect)measurements.inheritedLabels.push({towerId:t.id,rect});}
+  if(measurements.gateAnchor){const text=b.gate.left>0?'剩餘行速35%・'+b.gate.left.toFixed(1)+'秒':b.gate.used?'水流已止':'水道預覽・一次8秒';measurements.gateLabel=annotation(text,measurements.gateAnchor,'#126173',12);}
+  measurements.gateRings=[];measurements.delayIncrements=[];
+  if(b.gate)for(const a of b.enemies.filter(e=>gateWet(b,e))){const u=measurements.units.find(u=>u.id===a.id);if(!u)continue;ctx.save();ctx.strokeStyle='#245c66';ctx.lineWidth=4;ctx.beginPath();ctx.ellipse(u.x,u.y+3,18,5,0,0,Math.PI*2);ctx.stroke();ctx.strokeStyle='#baf1e4';ctx.lineWidth=1.6;ctx.stroke();ctx.restore();measurements.gateRings.push({id:a.id,x:u.x,y:u.y});}
+  if(choice==='barricade'){const lead=b.enemies.find(e=>e.hp>0&&e.x>=290&&e.x<=580&&e.y<195),u=measurements.units.find(u=>u.id===lead?.id);if(u)measurements.detourSign=annotation('改走北路 →',{x:u.x,y:u.y+14},'#9c342c',12);}
   measurements.wetLabels=[];
   if(choice)for(const a of b.enemies.filter(e=>e.hp>0)){const u=measurements.units.find(u=>u.id===a.id);if(!u)continue;const wet=choice==='flood'&&Math.hypot(a.x-floodZone(b).x,a.y-floodZone(b).y)<=floodZone(b).radius;ctx.save();ctx.strokeStyle=wet?'#dcffff':'#b83e35';ctx.lineWidth=2.5;if(wet){measurements.contentR2.slowIds.push(a.id);const surface=Math.hypot(a.x-floodZone(b).x,a.y-floodZone(b).y)<=floodZone(b).radius*.4&&Math.hypot(u.x-measurements.contentR2.wetZone.screen.x,(u.y-measurements.contentR2.wetZone.screen.y)*w/h)<floodZone(b).radius*w/960*.72;if(surface)for(let i=0;i<3;i++){ctx.beginPath();ctx.ellipse(u.x+(i-1)*9,u.y+3,7+(a.anim*10+i)%7,3,0,0,Math.PI);ctx.stroke();}const rect=surface?annotation('行速×52% +'+(a.waterDelay||0).toFixed(2)+'秒',{x:u.x,y:u.y-u.poseHeight/2},'#126173',12):null;if(rect)measurements.wetLabels.push({id:a.id,rect,nativeX:a.x,nativeY:a.y});}else if(choice==='barricade'&&a.route===1){ctx.beginPath();ctx.moveTo(u.x-8,u.y+12);ctx.lineTo(u.x,u.y+3);ctx.lineTo(u.x+8,u.y+12);ctx.stroke();}ctx.restore();}
+  if(choice==='flood'){const zone=floodZone(b),dry=b.enemies.find(e=>e.hp>0&&e.waterDelay>0&&Math.hypot(e.x-zone.x,e.y-zone.y)>zone.radius),u=measurements.units.find(u=>u.id===dry?.id);if(u)measurements.waterExit={id:u.id,rect:annotation(dry.slow>0?'水域減速解除・仍結霜':'水域減速解除',{x:u.x,y:u.y-u.poseHeight/2},'#245c66',12)};}
   if(choice==='barricade'){const leader=b.enemies.find(a=>a.hp>0),u=measurements.units.find(u=>u.id===leader?.id);if(u)measurements.detourLeader={id:u.id,ordinal:leader.ordinal,rect:annotation('前鋒 '+leader.ordinal,{x:u.x,y:u.y-u.poseHeight},'#9c342c',11)};}
   for(const fx of b.effects){
    const color=COLORS[fx.color]||'#e9c681';ctx.save();ctx.strokeStyle=color;ctx.lineWidth=3;
@@ -200,13 +261,14 @@ export function createRenderer(canvas,art){
   measurements.shotEvents=b.effects.filter(f=>f.kind==='shot').map(f=>({...f}));measurements.impacts=drawCombatFeedback({ctx,b,units:measurements.combatBodies||[],towers:measurements.towers,reduced:c.settings.reducedMotion,label,placeFloat:(text,p,type)=>annotation(text,p,({cannon:'#943b20',frost:'#145767',tesla:'#624387'})[type],15)});
   // The live readout is in the command panel, outside the battlefield.
   const detail=impactReadout(b,selectedTower),panel=canvas.closest('.play-layout')?.querySelector('.combat-readout');
-  if(panel&&panel.dataset.readout!==detail.html){const open=panel.querySelector('details')?.open;panel.innerHTML=detail.html;if(open&&panel.querySelector('details'))panel.querySelector('details').open=true;panel.dataset.readout=detail.html;}
+  if(panel)updateImpactPanel(panel,detail,b,selectedTower);
   measurements.impactReadout=detail.event;
   if(detail.event)measurements.impactFocus={towerId:detail.event.towerId,targetId:detail.event.targetId,hit:true,hp:detail.event.hpAfter,damage:detail.event.actualDamage,placement:'outside battlefield'};
   if(pending){
    const d=({cannon:160,frost:165,tesla:160})[pending.type],ellipse=insetRange(groundRange(towerPoint(pending,w,h),d,w),w,h);measurements.preview={type:pending.type,...ellipse};ctx.save();ctx.strokeStyle=COLORS[pending.type];ctx.fillStyle=COLORS[pending.type]+'18';ctx.lineWidth=2;ctx.setLineDash([]);ctx.beginPath();ctx.ellipse(ellipse.x,ellipse.y,ellipse.rx,ellipse.ry,0,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.restore();drawTower(pending,true,true);
   }
   if(exercise)for(const mark of measurements.padLabels){const pin=measurements.padPins[mark.number-1],identity=measurements.padIdentities[mark.number-1];ctx.save();ctx.fillStyle='#f5f1e5f5';ctx.fillRect(mark.x-32,mark.y-16,64,25);ctx.fillStyle=pin.active||pin.swapped?'#b83e35':'#493f30';ctx.font='bold 12px sans-serif';ctx.textAlign='center';ctx.fillText(identity.text,mark.x,mark.y+2);if(identity.type){ctx.strokeStyle=COLORS[identity.type];ctx.lineWidth=2;ctx.strokeRect(mark.x-32,mark.y-16,64,25);}if(pin.active||pin.swapped){ctx.strokeStyle='#b83e35';ctx.lineWidth=2;ctx.strokeRect(mark.x-32,mark.y-16,64,25);}ctx.restore();}
+  for(const bar of measurements.healthBars){const a=b.enemies.find(a=>a.id===bar.id)||b.units.find(a=>a.id===bar.id);ctx.save();ctx.strokeStyle='#292d38';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(bar.anchorX,bar.anchorY);ctx.lineTo(bar.x+bar.w/2,bar.y+bar.h);ctx.stroke();ctx.fillStyle='#292d38';ctx.fillRect(bar.x,bar.y,bar.w,bar.h);ctx.fillStyle=a.team==='player'?'#69c9bb':'#d65b4b';ctx.fillRect(bar.x+1,bar.y+1,36*a.hp/a.maxHP,5);ctx.restore();}
   if(skill)label('點敵群施放；取消不扣結晶',w/2,h-32,'#704b91');
   if(exercise&&b.result==='lost'){const p=project(route.at(-1).x,route.at(-1).y,w,h,false);ctx.save();ctx.strokeStyle='#b83e35';ctx.lineWidth=4;ctx.beginPath();ctx.arc(p.x,p.y,19,0,Math.PI*2);ctx.stroke();ctx.restore();label(`首漏 ${enemyName(b,b.firstLeak?.id)}・城門前路`,w/2,h-94,'#9c342c',12);measurements.leakPoint=p;}
   const field=canvas.parentElement;let keyRow=canvas.closest('.play-layout')?.querySelector('.field-key')||field.parentElement.querySelector('.field-key');if(!previewMode&&!keyRow){keyRow=document.createElement('div');keyRow.className='field-key';field.parentElement.insertBefore(keyRow,field);const status=field.querySelector('#fieldStatus');if(status)keyRow.append(status);const toggle=field.querySelector(".field-toggle");if(toggle)keyRow.append(toggle);}let note=field.parentElement.querySelector('.inherited-note');if(b.towers.some(t=>t.inherited)&&!preview&&canvas.dataset.mini!=='true'){if(!note){note=document.createElement('div');note.className='inherited-note';field.parentElement.append(note);}note.textContent=b.chapter===4?'石脊火塔工事・'+((b.relayChoice||c.quarryLegacy)==='upstream'?'上游長路':'城門前路')+'・繼承一級':'渡口冰塔工事・繼承一級';}else note?.remove();let legend=keyRow?.querySelector('.resonance-legend');
